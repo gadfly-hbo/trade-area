@@ -1,33 +1,35 @@
-/* 设计规范：JuanerAI 开发状态控制台（深绿黑底 / 珊瑚橙强调 / 网格背景 / 侧边栏 / pill / mono 标签） */
+/* 设计规范：JuanerAI 控制台版式 · 黑白灰中性配色（珊瑚橙点缀） */
 :root {
-  --bg: #07120e;
-  --surface: #0e1d17;
-  --raised: #14261f;
-  --line: #294238;
-  --soft: rgba(126, 158, 143, 0.13);
-  --text: #eef6f1;
-  --muted: #9eb1a8;
-  --faint: #6f867b;
+  --bg: #0a0b0d;
+  --surface: #101216;
+  --raised: #171a1f;
+  --line: #262b33;
+  --soft: rgba(160, 170, 185, 0.1);
+  --text: #f0f2f5;
+  --muted: #9aa2ad;
+  --faint: #666e79;
   --accent: #f0745c;
   --good: #51c694;
   --warn: #e9b85c;
   --bad: #ef765f;
+  --glow: rgba(148, 163, 184, 0.1);
   --r: 16px;
   --side: 240px;
 }
 html[data-theme='light'] {
-  --bg: #edf1ec;
-  --surface: #f9fbf8;
-  --raised: #f0f5f0;
-  --line: #c9d7ce;
-  --soft: rgba(48, 76, 63, 0.08);
-  --text: #17251e;
-  --muted: #52685d;
-  --faint: #74867d;
+  --bg: #f3f4f6;
+  --surface: #fbfcfd;
+  --raised: #eef0f3;
+  --line: #d4d9e0;
+  --soft: rgba(20, 28, 45, 0.06);
+  --text: #171a1f;
+  --muted: #4f5763;
+  --faint: #78808c;
   --accent: #d4573e;
   --good: #2f9e6f;
   --warn: #a97a1c;
   --bad: #c74431;
+  --glow: rgba(15, 23, 42, 0.06);
 }
 html[data-theme='dark'] { color-scheme: dark; }
 html[data-theme='light'] { color-scheme: light; }
@@ -39,7 +41,7 @@ body {
   min-height: 100vh;
   color: var(--text);
   background:
-    radial-gradient(circle at 75% -10%, rgba(63, 130, 100, 0.18), transparent 32rem),
+    radial-gradient(circle at 75% -10%, var(--glow), transparent 32rem),
     linear-gradient(90deg, transparent 49px, var(--soft) 50px, transparent 51px),
     linear-gradient(0deg, transparent 49px, var(--soft) 50px, transparent 51px),
     var(--bg);
@@ -114,7 +116,7 @@ aside.app-sidebar {
 }
 .side-note strong {
   display: block;
-  color: var(--good);
+  color: var(--accent);
   letter-spacing: 0.08em;
   margin-bottom: 4px;
   font-family: 'SFMono-Regular', Consolas, monospace;
@@ -236,7 +238,7 @@ button.pill { border: 0; cursor: pointer; }
 .cmp-table td { padding: 10px 9px; border-bottom: 1px solid var(--soft); }
 .cmp-table tr:last-child td { border: 0; }
 .cmp-table td:first-child { font-weight: 700; }
-.best-value { color: var(--good); font-weight: 700; }
+.best-value { color: var(--accent); font-weight: 700; }
 
 /* —— 浮动对比篮 —— */
 .compare-basket {

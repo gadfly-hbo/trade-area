@@ -18,11 +18,11 @@
 - 评分与雷达图统一使用百分位分（ETL 期算好存入 index），逆向指标（租金、竞品数）在百分位层已翻转，「越高越优」全局一致；评分模型在 `src/scoring/model.ts`，ETL 与前端共用，改权重逻辑只改这一处。
 - 评分容缺：某因子缺失时其权重按比例分摊给其余因子，不因缺数据惩罚。
 
-## UI 设计规范（JuanerAI 控制台风格，必须遵循）
+## UI 设计规范（JuanerAI 控制台版式 · 黑白灰配色，必须遵循）
 
-用户提供的基准：JuanerAI 开发状态控制台 HTML（深绿黑主题）。令牌与组件形态已落地在 `src/theme.tsx` 与 `src/index.css`，改动 UI 时遵循同一体系：
+版式基准：JuanerAI 开发状态控制台 HTML（用户提供）。配色经用户确认改为**黑白灰中性色**（绿色系已弃用）。令牌与组件形态落地在 `src/theme.tsx` 与 `src/index.css`，改动 UI 时遵循同一体系：
 
-- **色板**（暗色默认，亮色为 `html[data-theme=light]` 变体）：bg `#07120e` / surface `#0e1d17` / raised `#14261f` / line `#294238` / text `#eef6f1` / muted `#9eb1a8` / faint `#6f867b`；强调色 accent `#f0745c`（珊瑚橙），语义色 good `#51c694`、warn `#e9b85c`、bad `#ef765f`。
+- **色板**（暗色默认，亮色为 `html[data-theme=light]` 变体）：bg `#0a0b0d` / surface `#101216` / raised `#171a1f` / line `#262b33` / text `#f0f2f5` / muted `#9aa2ad` / faint `#666e79`；强调色 accent `#f0745c`（珊瑚橙，仅少量点缀：主按钮/选中态/评分/最优值）；语义色 good `#51c694`、warn `#e9b85c`、bad `#ef765f` 只用于状态胶囊等功能性标识。**勿回退绿色系底色**。
 - **版式**：左侧固定侧边栏（品牌标 + 编号导航 `01/02` + 底部说明盒）；主区顶部 eyebrow（等宽小写间距标签）+ 大标题；50px 网格背景 + 径向光晕。
 - **组件形态**：面板 16px 圆角；指标卡 = eyebrow + 等宽字体大数字（`.metric`）；状态胶囊 `.pill.good/.warn/.bad/.muted/.accent`；表格表头为 9px 等宽大写；数字一律 `.mono`。
 - **字体**：`"Avenir Next","PingFang SC","Microsoft YaHei"`；等宽 `"SFMono-Regular",Consolas`。

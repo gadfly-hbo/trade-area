@@ -20,15 +20,16 @@ export interface Palette {
   bad: string;
 }
 
+/** 黑白灰中性色板（版式沿用 JuanerAI 控制台规范；珊瑚橙仅作强调/语义色） */
 const DARK: Palette = {
-  bg: '#07120e',
-  surface: '#0e1d17',
-  raised: '#14261f',
-  line: '#294238',
-  soft: 'rgba(126,158,143,.13)',
-  text: '#eef6f1',
-  muted: '#9eb1a8',
-  faint: '#6f867b',
+  bg: '#0a0b0d',
+  surface: '#101216',
+  raised: '#171a1f',
+  line: '#262b33',
+  soft: 'rgba(160,170,185,.10)',
+  text: '#f0f2f5',
+  muted: '#9aa2ad',
+  faint: '#666e79',
   accent: '#f0745c',
   good: '#51c694',
   warn: '#e9b85c',
@@ -36,14 +37,14 @@ const DARK: Palette = {
 };
 
 const LIGHT: Palette = {
-  bg: '#edf1ec',
-  surface: '#f9fbf8',
-  raised: '#f0f5f0',
-  line: '#c9d7ce',
-  soft: 'rgba(48,76,63,.08)',
-  text: '#17251e',
-  muted: '#52685d',
-  faint: '#74867d',
+  bg: '#f3f4f6',
+  surface: '#fbfcfd',
+  raised: '#eef0f3',
+  line: '#d4d9e0',
+  soft: 'rgba(20,28,45,.06)',
+  text: '#171a1f',
+  muted: '#4f5763',
+  faint: '#78808c',
   accent: '#d4573e',
   good: '#2f9e6f',
   warn: '#a97a1c',
@@ -52,8 +53,8 @@ const LIGHT: Palette = {
 
 export const palettes: Record<ThemeMode, Palette> = { dark: DARK, light: LIGHT };
 
-/** 多系列图表取色（对比页最多 4 个商圈） */
-export const CHART_SERIES = ['#f0745c', '#51c694', '#e9b85c', '#8f9dff'];
+/** 多系列图表取色（对比页最多 4 个商圈，黑白灰基调 + 珊瑚橙主导） */
+export const CHART_SERIES = ['#f0745c', '#8f9dff', '#e9b85c', '#a8b3c4'];
 
 export const THEME_STORAGE_KEY = 'trade-area.theme';
 
