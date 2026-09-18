@@ -1,21 +1,19 @@
-/** 指标卡：eyebrow + 等宽大数字 + 标签（设计规范的 metric 形态） */
+/** 指标卡：meta 标签 + 21px/600 tabular-nums 数值 + 可选备注 */
 
 export default function MetricCard({
-  eyebrow,
-  value,
   label,
+  value,
+  note,
 }: {
-  eyebrow: string;
+  label: string;
   value: string | number;
-  label?: string;
+  note?: string;
 }) {
   return (
     <article className="metric">
-      <span className="eyebrow" style={{ marginBottom: 0 }}>
-        {eyebrow}
-      </span>
+      <span className="metric-label">{label}</span>
       <span className="value">{value}</span>
-      {label && <span className="label">{label}</span>}
+      {note && <span className="metric-note">{note}</span>}
     </article>
   );
 }

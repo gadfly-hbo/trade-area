@@ -28,8 +28,8 @@ function parseWeights(raw: string | null): ScoreWeights {
 }
 
 function RankPill({ rank }: { rank: number }) {
-  const cls = rank === 1 ? 'good' : rank <= 3 ? 'accent' : 'muted';
-  return <span className={`pill ${cls}`}>#{rank}</span>;
+  const cls = rank === 1 ? 'good' : rank <= 3 ? 'brand' : 'neutral';
+  return <span className={`pill ${cls} no-dot`}>#{rank}</span>;
 }
 
 export default function RankingPage() {
@@ -96,7 +96,7 @@ export default function RankingPage() {
       defaultSortOrder: 'descend',
       sorter: (a, b) => (a.score ?? -1) - (b.score ?? -1),
       render: (v: number | null) =>
-        v === null ? <span className="pill muted">—</span> : <span className="pill accent">{v.toFixed(1)}</span>,
+        v === null ? <span className="pill neutral">—</span> : <span className="pill brand no-dot">{v.toFixed(1)} 分</span>,
     },
     ...FACTOR_KEYS.map((k) => ({
       title: FACTOR_LABELS[k],
@@ -104,7 +104,7 @@ export default function RankingPage() {
       width: 100,
       align: 'right' as const,
       render: (_: unknown, r: (typeof ranked)[number]) => (
-        <span className={`mono${r.factors[k] === null ? '' : ''}`}>
+        <span className="num">
           {r.factors[k] === null ? '—' : (r.factors[k] as number).toFixed(0)}
         </span>
       ),
@@ -125,7 +125,6 @@ export default function RankingPage() {
   return (
     <div>
       <Section
-        eyebrow="WEIGHTS"
         title="选址评分权重（服饰：成人装 + 童装）"
         desc="因子取值为该商圈在全体样本中的百分位分（0-100，逆向指标已翻转）。权重无需合计 100，自动归一；某因子数据缺失时其权重按比例分摊给其余因子。调整后的权重已写入网址，可直接分享。"
       >
@@ -142,7 +141,7 @@ export default function RankingPage() {
                 <Typography.Text strong style={{ fontSize: 13 }}>
                   {FACTOR_LABELS[k]}
                 </Typography.Text>
-                <span className="mono" style={{ color: 'var(--faint)', fontSize: 12 }}>
+                <span className="num" style={{ color: 'var(--faint)', fontSize: 12 }}>
                   {weights[k]}
                 </span>
               </div>
@@ -157,7 +156,7 @@ export default function RankingPage() {
           ))}
         </div>
         <Space>
-          <span className="mono" style={{ color: 'var(--faint)', fontSize: 11 }}>
+          <span className="num" style={{ color: 'var(--faint)', fontSize: 11 }}>
             当前权重合计 {weightSum}（自动归一为 100%）
           </span>
           <Button size="small" onClick={() => setWeights({ ...DEFAULT_WEIGHTS })}>

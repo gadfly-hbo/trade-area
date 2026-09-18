@@ -18,17 +18,16 @@
 - 评分与雷达图统一使用百分位分（ETL 期算好存入 index），逆向指标（租金、竞品数）在百分位层已翻转，「越高越优」全局一致；评分模型在 `src/scoring/model.ts`，ETL 与前端共用，改权重逻辑只改这一处。
 - 评分容缺：某因子缺失时其权重按比例分摊给其余因子，不因缺数据惩罚。
 
-## UI 设计规范（JuanerAI 控制台版式 · 黑白灰配色，必须遵循）
+## UI 设计规范（JuanerAI Prism 棱镜，必须遵循）
 
-版式基准：JuanerAI 开发状态控制台 HTML（用户提供）。配色经用户确认改为**黑白灰中性色**（绿色系已弃用）。令牌与组件形态落地在 `src/theme.tsx` 与 `src/index.css`，改动 UI 时遵循同一体系：
+经用户确认全面切换到全局设计规范 `~/.zcode/design/DESIGN.md`（JuanerAI Prism 棱镜工作台，version alpha）。**浅色 SaaS、墨青主色，固定浅色（Prism 未定义暗色，勿加回 ◐ 主题切换）**；此前的「控制台版式 + 黑白灰暗色」已弃用（更早前绿色系也已弃用）。令牌与组件形态落地在 `src/theme.ts` 与 `src/index.css`：
 
-- **色板**（暗色默认，亮色为 `html[data-theme=light]` 变体）：bg `#0a0b0d` / surface `#101216` / raised `#171a1f` / line `#262b33` / text `#f0f2f5` / muted `#9aa2ad` / faint `#666e79`；强调色 accent `#f0745c`（珊瑚橙，仅少量点缀：主按钮/选中态/评分/最优值）；语义色 good `#51c694`、warn `#e9b85c`、bad `#ef765f` 只用于状态胶囊等功能性标识。**勿回退绿色系底色**。
-- **版式**：左侧固定侧边栏（品牌标 + 编号导航 `01/02` + 底部说明盒）；主区顶部 eyebrow（等宽小写间距标签）+ 大标题；50px 网格背景 + 径向光晕。
-- **组件形态**：面板 16px 圆角；指标卡 = eyebrow + 等宽字体大数字（`.metric`）；状态胶囊 `.pill.good/.warn/.bad/.muted/.accent`；表格表头为 9px 等宽大写；数字一律 `.mono`。
-- **字体**：`"Avenir Next","PingFang SC","Microsoft YaHei"`；等宽 `"SFMono-Regular",Consolas`。
-- **图表**：ECharts 基础片段 `chartBase(palette)`，多系列取色 `CHART_SERIES`（橙/绿/黄/紫罗兰），随亮暗主题切换。
-- **主题切换**：右上角 ◐ 按钮，`ThemeProvider` 管理（localStorage `trade-area.theme`），AntD 主题经 `antdThemeFor(mode)` 对齐色板。
-- 新增页面/组件时优先用 `Section`（面板+标题形态）与 `MetricCard`，不要引入 AntD 之外的第三套视觉。
+- **色板**：bg `#f5f7fa` / surface `#ffffff` / surface-2 `#f9fafb` / surface-3 `#eef2f6` / text `#17202a` / muted `#5d6b7d` / soft `#8a96a6` / border `#dce3ea` / border-strong `#c2ccd8`；主色 primary `#155e75`（墨青，仅主操作/选中态/焦点环/关键数字）+ primary-soft `#e2eff3` / primary-ink `#0c3b4a`；语义色 green/amber/red/teal/violet 成对 `-soft` 底色，只表达状态。
+- **版式**：左侧 240px 粘性侧边栏（品牌区 + 分组导航「工作台」+ 计数胶囊 + 底部身份区）；主区结构固定：页头（标题 + 一句用途说明 + 至多一个主按钮）→ 指标格 → 主工作区 → 页脚边界说明行。
+- **字体**：Inter / PingFang SC 等；页面标题 21px/600、分区标题 15px/600、正文 14px/1.55、辅助 11.5px；字重只用 400/500/600；数字 `font-variant-numeric: tabular-nums`（`.num`）。
+- **组件形态**：状态徽标 = 圆点 + 文字（`.pill`，六态 green/warn/bad/info/violet/brand/neutral，`.no-dot` 去圆点）；卡片/面板 8px 圆角、按钮/输入 6px；层级用背景色+边框表达，不用大阴影（浮层例外）；指标卡 `.metric`。
+- **图表**：ECharts 基础片段 `chartBase(palette)`，多系列取色 `CHART_SERIES`（墨青/青绿/紫罗兰/琥珀）。
+- 新增页面/组件时优先用 `Section`（面板+标题形态）、`MetricCard`、`Badge`，不要引入 AntD 之外的第三套视觉。
 
 ## 数据源与结构
 

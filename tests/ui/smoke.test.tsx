@@ -61,16 +61,15 @@ describe('UI 冒烟（JuanerAI 风格改版后）', () => {
     expect(el.textContent).toContain('商圈列表');
     expect(el.textContent).toContain('商圈对比分析');
     expect(el.textContent).toContain('选址排名');
-    expect(el.textContent).toContain('TOTAL');
+    expect(el.textContent).toContain('商圈总数');
     await act(async () => {
       root.unmount();
     });
   });
 
-  it('页面挂载了主题与设计规范元素', async () => {
+  it('页面挂载了 Prism 设计规范元素', async () => {
     const { root, el } = await renderApp();
     await waitForText(el, '湖州爱山广场');
-    expect(document.documentElement.dataset.theme).toMatch(/dark|light/);
     expect(el.querySelector('.app-sidebar')).toBeTruthy();
     expect(el.querySelector('.metrics-grid')).toBeTruthy();
     expect(el.querySelectorAll('.metric').length).toBeGreaterThanOrEqual(4);

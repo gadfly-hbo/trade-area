@@ -12,7 +12,7 @@ import { ConfidenceTag, DimText, SourceTags } from '@/components/DimText';
 import EChart from '@/components/EChart';
 import MetricCard from '@/components/MetricCard';
 import Section from '@/components/Section';
-import { chartBase, useTheme } from '@/theme';
+import { chartBase, palette } from '@/theme';
 import { fmt } from '@/utils/metrics';
 
 const CROWD_LABELS: Record<'crowdA' | 'crowdB' | 'crowdC', string> = {
@@ -31,7 +31,6 @@ export default function DetailPage() {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const basket = useBasket();
-  const { palette } = useTheme();
   const [detail, setDetail] = useState<DistrictDetail | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -69,12 +68,12 @@ export default function DetailPage() {
           type: 'bar',
           barWidth: 18,
           data: keys.map((k) => detail.metrics[k] ?? 0),
-          itemStyle: { color: palette.accent },
+          itemStyle: { color: palette.primary },
           label: { show: true, position: 'right', formatter: '{c}%', color: palette.text },
         },
       ],
     };
-  }, [detail, palette]);
+  }, [detail]);
 
   if (error) {
     return <Alert type="error" showIcon message="加载详情失败" description={error} />;
@@ -88,15 +87,15 @@ export default function DetailPage() {
   }
 
   const m = detail.metrics;
-  const statCards: Array<{ eyebrow: string; value: string }> = [
-    { eyebrow: '工作日客流 万人次/日', value: fmt(m.trafficWeekday) },
-    { eyebrow: '周末客流 万人次/日', value: fmt(m.trafficWeekend) },
-    { eyebrow: '节假日峰值 万人次/日', value: fmt(m.trafficPeak) },
-    { eyebrow: '3公里人口 万人', value: fmt(m.pop3km) },
-    { eyebrow: '街铺租金 元/㎡/天', value: fmt(m.rent) },
-    { eyebrow: '竞品商业体 个', value: fmt(m.competitors) },
-    { eyebrow: '车位数 个', value: fmt(m.parking) },
-    { eyebrow: '选址评分', value: detail.score === null ? '—' : detail.score.toFixed(1) },
+  const statCards: Array<{ label: string; value: string }> = [
+    { label: '工作日客流（万人次/日）', value: fmt(m.trafficWeekday) },
+    { label: '周末客流（万人次/日）', value: fmt(m.trafficWeekend) },
+    { label: '节假日峰值（万人次/日）', value: fmt(m.trafficPeak) },
+    { label: '3公里人口（万人）', value: fmt(m.pop3km) },
+    { label: '街铺租金（元/㎡/天）', value: fmt(m.rent) },
+    { label: '竞品商业体（个）', value: fmt(m.competitors) },
+    { label: '车位数（个）', value: fmt(m.parking) },
+    { label: '选址评分', value: detail.score === null ? '—' : detail.score.toFixed(1) },
   ];
 
   const collapseItems: CollapseProps['items'] = DIMENSION_KEYS.map((key) => {
@@ -130,7 +129,9 @@ export default function DetailPage() {
           {detail.name}
         </span>
         <RatingPill v={detail.rating} />
-        {detail.score !== null && <span className="pill accent">评分 {detail.score.toFixed(1)}</span>}
+        {detail.score !== null && (
+          <span className="pill brand no-dot">评分 {detail.score.toFixed(1)}</span>
+        )}
         <Button
           size="small"
           type={inBasket ? 'default' : 'primary'}
@@ -153,13 +154,12 @@ export default function DetailPage() {
 
       <div className="metrics-grid">
         {statCards.map((s) => (
-          <MetricCard key={s.eyebrow} eyebrow={s.eyebrow} value={s.value} />
+          <MetricCard key={s.label} label={s.label} value={s.value} />
         ))}
       </div>
 
       {crowdOption && (
         <Section
-          eyebrow="CROWD MIX"
           title="森马三大人群预测（%）"
           desc={`A/B 类合计为服饰目标客群匹配度：${fmt((m.crowdA ?? 0) + (m.crowdB ?? 0))}%`}
         >
@@ -167,7 +167,7 @@ export default function DetailPage() {
         </Section>
       )}
 
-      <Section eyebrow="12 DIMENSIONS" title="维度明细" desc="点击展开各维度全文与数据来源。">
+      <Section title="维度明细" desc="点击展开各维度全文与数据来源。">
         <Collapse items={collapseItems} defaultActiveKey={DIMENSION_KEYS.slice(0, 2)} />
       </Section>
     </div>

@@ -12,14 +12,13 @@ import type { FactorKey } from '@/scoring/model';
 import { ConfidenceTag, DimText, SourceTags } from '@/components/DimText';
 import EChart from '@/components/EChart';
 import Section from '@/components/Section';
-import { CHART_SERIES, chartBase, useTheme } from '@/theme';
+import { CHART_SERIES, chartBase, palette } from '@/theme';
 import { METRIC_DEFS, fmt } from '@/utils/metrics';
 
 export default function ComparePage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
   const basket = useBasket();
-  const { palette } = useTheme();
   const [details, setDetails] = useState<DistrictDetail[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -77,7 +76,7 @@ export default function ComparePage() {
         },
       ],
     };
-  }, [details, palette]);
+  }, [details]);
 
   const trafficOption = useMemo<EChartsCoreOption | null>(() => {
     if (!details?.length) return null;
@@ -98,7 +97,7 @@ export default function ComparePage() {
       yAxis: {
         type: 'value',
         name: '万人',
-        nameTextStyle: { color: palette.faint },
+        nameTextStyle: { color: palette.soft },
         axisLabel: base.axisLabel,
         splitLine: base.splitLine,
       },
@@ -109,7 +108,7 @@ export default function ComparePage() {
         itemStyle: { color: CHART_SERIES[i % CHART_SERIES.length] },
       })),
     };
-  }, [details, palette]);
+  }, [details]);
 
   const rentOption = useMemo<EChartsCoreOption | null>(() => {
     if (!details?.length) return null;
@@ -129,7 +128,7 @@ export default function ComparePage() {
       yAxis: {
         type: 'value',
         name: '元/㎡/天',
-        nameTextStyle: { color: palette.faint },
+        nameTextStyle: { color: palette.soft },
         axisLabel: base.axisLabel,
         splitLine: base.splitLine,
       },
@@ -147,7 +146,7 @@ export default function ComparePage() {
         },
       })),
     };
-  }, [details, palette]);
+  }, [details]);
 
   const metricTableRows = useMemo(() => {
     if (!details?.length) return [];
@@ -234,24 +233,23 @@ export default function ComparePage() {
   return (
     <div>
       <div className="two-col">
-        <Section eyebrow="SITE FACTORS" title="选址六因子雷达">
+        <Section title="选址六因子雷达">
           <EChart option={radarOption!} height={340} />
         </Section>
-        <Section eyebrow="TRAFFIC & POPULATION" title="客流与人口（万人次）">
+        <Section title="客流与人口（万人次）">
           <EChart option={trafficOption!} height={340} />
         </Section>
       </div>
 
       {rentOption && (
-        <Section eyebrow="RENT" title="租金水平（元/㎡/天，越低越好）">
+        <Section title="租金水平（元/㎡/天，越低越好）">
           <EChart option={rentOption} height={220} />
         </Section>
       )}
 
       <Section
-        eyebrow="KEY METRICS"
         title="关键指标对照"
-        desc="绿色加粗为对比中最优；租金与竞品为「越低越好」。"
+        desc="加粗墨青色为对比中最优；租金与竞品为「越低越好」。"
       >
         <div style={{ overflowX: 'auto' }}>
           <table className="cmp-table">
@@ -279,7 +277,7 @@ export default function ComparePage() {
                   {values.map((v, i) => (
                     <td
                       key={i}
-                      className={`mono${v !== undefined && v === best ? ' best-value' : ''}`}
+                      className={`num${v !== undefined && v === best ? ' best-value' : ''}`}
                     >
                       {fmt(v)}
                     </td>
@@ -291,9 +289,9 @@ export default function ComparePage() {
                 {details.map((d) => (
                   <td key={d.id} style={{ textAlign: 'right' }}>
                     {d.score === null ? (
-                      <span className="pill muted">—</span>
+                      <span className="pill neutral">—</span>
                     ) : (
-                      <span className="pill accent">{d.score.toFixed(1)}</span>
+                      <span className="pill brand no-dot">{d.score.toFixed(1)} 分</span>
                     )}
                   </td>
                 ))}
@@ -304,7 +302,6 @@ export default function ComparePage() {
       </Section>
 
       <Section
-        eyebrow="12 DIMENSIONS"
         title="维度对照"
         desc="点击行首箭头展开各商圈该维度的全文与数据来源。"
       >

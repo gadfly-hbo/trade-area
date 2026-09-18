@@ -11,9 +11,9 @@ import MetricCard from '@/components/MetricCard';
 import Section from '@/components/Section';
 
 function RatingPill({ v }: { v: string | null }) {
-  if (!v) return <span className="pill muted">—</span>;
+  if (!v) return <span className="pill neutral">—</span>;
   const cls = v === 'A' ? 'good' : v === 'B' ? 'warn' : 'bad';
-  return <span className={`pill ${cls}`}>{v}</span>;
+  return <span className={`pill ${cls}`}>{v} 级</span>;
 }
 
 export default function ListPage() {
@@ -102,7 +102,7 @@ export default function ListPage() {
       width: 110,
       align: 'right',
       sorter: (a, b) => numSorter(a.metrics.trafficWeekend, b.metrics.trafficWeekend),
-      render: (_, r) => <span className="mono">{fmt(r.metrics.trafficWeekend)}</span>,
+      render: (_, r) => <span className="num">{fmt(r.metrics.trafficWeekend)}</span>,
     },
     {
       title: '节假日峰值',
@@ -110,7 +110,7 @@ export default function ListPage() {
       width: 110,
       align: 'right',
       sorter: (a, b) => numSorter(a.metrics.trafficPeak, b.metrics.trafficPeak),
-      render: (_, r) => <span className="mono">{fmt(r.metrics.trafficPeak)}</span>,
+      render: (_, r) => <span className="num">{fmt(r.metrics.trafficPeak)}</span>,
     },
     {
       title: '3公里人口',
@@ -118,7 +118,7 @@ export default function ListPage() {
       width: 110,
       align: 'right',
       sorter: (a, b) => numSorter(a.metrics.pop3km, b.metrics.pop3km),
-      render: (_, r) => <span className="mono">{fmt(r.metrics.pop3km)}</span>,
+      render: (_, r) => <span className="num">{fmt(r.metrics.pop3km)}</span>,
     },
     {
       title: '租金',
@@ -126,7 +126,7 @@ export default function ListPage() {
       width: 100,
       align: 'right',
       sorter: (a, b) => numSorter(a.metrics.rent, b.metrics.rent),
-      render: (_, r) => <span className="mono">{fmt(r.metrics.rent)}</span>,
+      render: (_, r) => <span className="num">{fmt(r.metrics.rent)}</span>,
     },
     {
       title: '选址评分',
@@ -137,9 +137,9 @@ export default function ListPage() {
       sorter: (a, b) => numSorter(a.score, b.score),
       render: (v: number | null) =>
         v === null ? (
-          <span className="pill muted">—</span>
+          <span className="pill neutral">—</span>
         ) : (
-          <span className="pill accent">{v.toFixed(1)}</span>
+          <span className="pill brand no-dot">{v.toFixed(1)} 分</span>
         ),
     },
   ];
@@ -175,17 +175,15 @@ export default function ListPage() {
   return (
     <div>
       <div className="metrics-grid">
-        <MetricCard eyebrow="TOTAL" value={districts.length} label="商圈总数" />
-        <MetricCard eyebrow="FILTERED" value={filtered.length} label="筛选结果" />
+        <MetricCard label="商圈总数" value={districts.length} />
+        <MetricCard label="筛选结果" value={filtered.length} />
         <MetricCard
-          eyebrow="PROVINCES"
-          value={new Set(districts.map((d) => d.province).filter(Boolean)).size}
           label="覆盖省份"
+          value={new Set(districts.map((d) => d.province).filter(Boolean)).size}
         />
         <MetricCard
-          eyebrow="SCORABLE"
-          value={`${districts.filter((d) => d.score !== null).length}/${districts.length}`}
           label="可评分商圈"
+          value={`${districts.filter((d) => d.score !== null).length}/${districts.length}`}
         />
       </div>
 
