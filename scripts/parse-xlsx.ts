@@ -30,10 +30,11 @@ const DIMENSION_ALIASES: Record<DimensionKey, string[]> = {
 };
 
 function normalizeRowName(name: string): string {
-  return name.replace(/\s+/g, '').replace(/^（\d+）/, '');
+  // md 报告的行名可能带 **加粗** 标记
+  return name.replace(/\s+/g, '').replace(/^（\d+）/, '').replace(/\*/g, '');
 }
 
-function matchDimensionKey(rowName: string): DimensionKey | null {
+export function matchDimensionKey(rowName: string): DimensionKey | null {
   const n = normalizeRowName(rowName);
   for (const key of DIMENSION_KEYS) {
     if (n === key || DIMENSION_ALIASES[key].some((a) => n === a)) return key;
@@ -48,17 +49,25 @@ export function stripMarkers(text: string): DimensionDetail {
   const sources: string[] = [];
   let confidence: DimensionDetail['confidence'] = null;
 
+  // 来源形如 [检索·来源名]、[检索·来源名 A]、[检索·来源名，等级B]，一个括号内可含多个以；分隔的来源
   const srcRe = /\[检索[·:]([^\]]+)\]/g;
   let m: RegExpExecArray | null;
-  while ((m = srcRe.exec(text)) !== null) sources.push(m[1].trim());
+  while ((m = srcRe.exec(text)) !== null) {
+    for (const part of m[1].split('；')) {
+      const s = part.replace(/[,，]?\s*(?:等级)?[ABC]级?\s*$/, '').trim();
+      if (s) sources.push(s);
+    }
+  }
 
   const confRe = /\[([AB])\]/g;
   while ((m = confRe.exec(text)) !== null) confidence = m[1] as 'A' | 'B';
 
   const cleaned = text
     .replace(/\[检索[·:][^\]]+\]/g, '')
+    .replace(/\[推断[^\]]*\]/g, '')
     .replace(/\[[AB]\]/g, '')
     .replace(/【项目评级】[A-Z]/g, '')
+    .replace(/\*\*/g, '')
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{2,}/g, '\n')
     .trim();
@@ -71,31 +80,12 @@ export interface ParseResult {
   warnings: string[];
 }
 
-export function parseWorkbook(wb: WorkBook, filename: string): ParseResult {
+/** 由「维度行名 → 原文」映射构建 DistrictDetail，xlsx 与 md 报告共用 */
+export function buildDistrictFromRows(
+  rawDimensions: Partial<Record<DimensionKey, string>>,
+  filename: string,
+): ParseResult {
   const warnings: string[] = [];
-  const sheet = wb.Sheets[wb.SheetNames[0]];
-  if (!sheet) throw new Error(`${filename}: 无工作表`);
-
-  const rows = XLSX.utils.sheet_to_json<unknown[]>(sheet, { header: 1, blankrows: false });
-  const rawDimensions: Partial<Record<DimensionKey, string>> = {};
-
-  for (const row of rows) {
-    const rowName = String(row?.[0] ?? '').trim();
-    if (!rowName) continue;
-    const key = matchDimensionKey(rowName);
-    if (!key) continue;
-    const value = String(row?.[1] ?? '').trim();
-    if (!value) {
-      warnings.push(`${filename}: 维度「${key}」内容为空`);
-      continue;
-    }
-    if (rawDimensions[key] !== undefined) {
-      warnings.push(`${filename}: 维度「${key}」重复，取首条`);
-      continue;
-    }
-    rawDimensions[key] = value;
-  }
-
   const missing = DIMENSION_KEYS.filter((k) => rawDimensions[k] === undefined);
   if (missing.length) warnings.push(`${filename}: 缺失维度 ${missing.join('、')}`);
 
@@ -132,6 +122,35 @@ export function parseWorkbook(wb: WorkBook, filename: string): ParseResult {
     },
     warnings,
   };
+}
+
+export function parseWorkbook(wb: WorkBook, filename: string): ParseResult {
+  const sheet = wb.Sheets[wb.SheetNames[0]];
+  if (!sheet) throw new Error(`${filename}: 无工作表`);
+
+  const rows = XLSX.utils.sheet_to_json<unknown[]>(sheet, { header: 1, blankrows: false });
+  const rawDimensions: Partial<Record<DimensionKey, string>> = {};
+  const warnings: string[] = [];
+
+  for (const row of rows) {
+    const rowName = String(row?.[0] ?? '').trim();
+    if (!rowName) continue;
+    const key = matchDimensionKey(rowName);
+    if (!key) continue;
+    const value = String(row?.[1] ?? '').trim();
+    if (!value) {
+      warnings.push(`${filename}: 维度「${key}」内容为空`);
+      continue;
+    }
+    if (rawDimensions[key] !== undefined) {
+      warnings.push(`${filename}: 维度「${key}」重复，取首条`);
+      continue;
+    }
+    rawDimensions[key] = value;
+  }
+
+  const result = buildDistrictFromRows(rawDimensions, filename);
+  return { ...result, warnings: [...warnings, ...result.warnings] };
 }
 
 export function parseXlsxFile(path: string, filename: string): ParseResult {

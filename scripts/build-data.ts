@@ -1,5 +1,5 @@
 /**
- * ETL 主入口：data/raw/*.xlsx → public/data/{index.json, details/s{N}.json}
+ * ETL 主入口：data/raw/*.{xlsx,md} → public/data/{index.json, details/s{N}.json}
  * 用法：npm run etl
  */
 import * as fs from 'node:fs';
@@ -7,6 +7,7 @@ import * as path from 'node:path';
 import { fileURLToPath, URL } from 'node:url';
 import type { DataIndex, DistrictDetail } from '../src/types';
 import { parseXlsxFile } from './parse-xlsx';
+import { parseMarkdownFile } from './parse-md';
 import { computePercentiles, deriveMetrics } from './normalize';
 import { computeScore } from '../src/scoring/model';
 
@@ -18,7 +19,7 @@ const SHARD_SIZE = 50;
 
 /** 从文件名取稳定 id：优先 NNN_ 前缀，否则用去扩展名后的名字 */
 function idFromFilename(filename: string, used: Set<string>): string {
-  const base = filename.replace(/\.xlsx?$/i, '');
+  const base = filename.replace(/\.(xlsx?|md)$/i, '');
   const prefix = base.match(/^(\d{1,4})[-_]/)?.[1];
   let id = prefix ? prefix.padStart(4, '0') : base;
   while (used.has(id)) id = `${id}x`;
@@ -26,17 +27,23 @@ function idFromFilename(filename: string, used: Set<string>): string {
   return id;
 }
 
+function parseRawFile(fullPath: string, filename: string) {
+  return /\.md$/i.test(filename)
+    ? parseMarkdownFile(fullPath, filename)
+    : parseXlsxFile(fullPath, filename);
+}
+
 async function main() {
   if (!fs.existsSync(RAW_DIR)) {
-    console.error(`未找到数据目录 ${RAW_DIR}，请将商圈 xlsx 放入该目录后重试`);
+    console.error(`未找到数据目录 ${RAW_DIR}，请将商圈数据（xlsx/md）放入该目录后重试`);
     process.exit(1);
   }
   const files = fs
     .readdirSync(RAW_DIR)
-    .filter((f) => /\.xlsx$/i.test(f) && !f.startsWith('~$') && !f.startsWith('.'))
+    .filter((f) => /\.(xlsx?|md)$/i.test(f) && !f.startsWith('~$') && !f.startsWith('.'))
     .sort();
   if (!files.length) {
-    console.error(`${RAW_DIR} 下没有 xlsx 文件`);
+    console.error(`${RAW_DIR} 下没有数据文件（xlsx/md）`);
     process.exit(1);
   }
 
@@ -48,7 +55,7 @@ async function main() {
 
   for (const file of files) {
     try {
-      const { district, warnings: w } = parseXlsxFile(path.join(RAW_DIR, file), file);
+      const { district, warnings: w } = parseRawFile(path.join(RAW_DIR, file), file);
       district.id = idFromFilename(file, usedIds);
       warnings.push(...w);
       districts.push(district);

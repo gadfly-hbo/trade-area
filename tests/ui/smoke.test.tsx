@@ -54,10 +54,16 @@ async function waitForText(el: HTMLElement, text: string, ms = 3000) {
   throw new Error(`等待文本「${text}」超时；当前内容：${el.textContent?.slice(0, 300)}`);
 }
 
+/** 数据加载完成的信号：指标卡渲染出与 index.json 一致的商圈总数 */
+async function waitForData(el: HTMLElement) {
+  const { total } = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'index.json'), 'utf8'));
+  await waitForText(el, `商圈总数${total}`);
+}
+
 describe('UI 冒烟（JuanerAI 风格改版后）', () => {
   it('列表页完整渲染：侧边栏 + 指标卡 + 数据行', async () => {
     const { root, el } = await renderApp();
-    await waitForText(el, '湖州爱山广场');
+    await waitForData(el);
     expect(el.textContent).toContain('商圈列表');
     expect(el.textContent).toContain('商圈对比分析');
     expect(el.textContent).toContain('选址排名');
@@ -69,7 +75,7 @@ describe('UI 冒烟（JuanerAI 风格改版后）', () => {
 
   it('页面挂载了 Prism 设计规范元素', async () => {
     const { root, el } = await renderApp();
-    await waitForText(el, '湖州爱山广场');
+    await waitForData(el);
     expect(el.querySelector('.app-sidebar')).toBeTruthy();
     expect(el.querySelector('.metrics-grid')).toBeTruthy();
     expect(el.querySelectorAll('.metric').length).toBeGreaterThanOrEqual(4);

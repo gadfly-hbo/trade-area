@@ -1,18 +1,19 @@
-/** ETL golden 测试：用样本商圈（湖州爱山广场）断言解析正确性 */
+/** ETL golden 测试：xlsx 样本（湖州爱山广场）+ md 报告（flow-center）断言解析正确性 */
 import { describe, it, expect } from 'vitest';
 import * as path from 'node:path';
 import { fileURLToPath, URL } from 'node:url';
 import { parseXlsxFile, stripMarkers } from '../../scripts/parse-xlsx';
+import { parseMarkdownFile } from '../../scripts/parse-md';
 import { extractMetrics } from '../../scripts/extract-metrics';
 import { deriveMetrics, computePercentiles } from '../../scripts/normalize';
 import { computeScore } from '../../src/scoring/model';
 import { parseRegion } from '../../scripts/regions';
 
 const ROOT = fileURLToPath(new URL('../..', import.meta.url));
-const SAMPLE = path.join(ROOT, 'data', 'raw', '003_湖州爱山广场.xlsx');
+const SAMPLE = path.join(ROOT, 'data', 'raw', '000_湖州爱山广场.xlsx');
 
 function parseSample() {
-  return parseXlsxFile(SAMPLE, '003_湖州爱山广场.xlsx');
+  return parseXlsxFile(SAMPLE, '000_湖州爱山广场.xlsx');
 }
 
 describe('parse-xlsx：湖州爱山广场样本', () => {
@@ -72,6 +73,66 @@ describe('stripMarkers', () => {
     expect(r.text).toBe('');
     expect(r.sources).toEqual([]);
     expect(r.confidence).toBeNull();
+  });
+
+  it('md 标记变体：等级后缀、多来源、推断标记', () => {
+    const r = stripMarkers(
+      '定位描述[检索·联商网,等级B][检索·百度百科·X公司，A级；河北新闻网，A级][推断·中]',
+    );
+    expect(r.sources).toContain('联商网');
+    expect(r.sources).toContain('百度百科·X公司');
+    expect(r.sources).toContain('河北新闻网');
+    expect(r.text).not.toContain('[检索');
+    expect(r.text).not.toContain('[推断');
+  });
+});
+
+describe('parse-md：flow-center 商圈报告', () => {
+  const md = (f: string) => parseMarkdownFile(path.join(ROOT, 'data', 'raw', f), f);
+
+  it('标准报告解析 13 维 + 名称地址 + 指标', () => {
+    const { district } = md('001_杭州西湖时代广场城市奥莱.md');
+    expect(Object.keys(district.dimensions)).toHaveLength(13);
+    expect(district.name).toBe('杭州西湖时代广场城市奥莱');
+    expect(district.address).toContain('杭州市上城区');
+    expect(district.province).toBe('浙江省');
+    expect(district.city).toBe('杭州市');
+    expect(district.metrics.buildingArea).toBeCloseTo(6.54);
+    expect(district.metrics.trafficWeekday).toBeCloseTo(2); // 1.5-2.5 万
+    expect(district.metrics.trafficWeekend).toBeCloseTo(4); // 3-5 万
+    expect(district.metrics.trafficPeak).toBeCloseTo(8); // 6-10 万
+    expect(district.metrics.crowdA).toBe(9);
+    expect(district.metrics.crowdB).toBe(39);
+    expect(district.metrics.crowdC).toBe(53);
+  });
+
+  it('主表选择：跳过首列同为维度名的校验辅助表（1458）', () => {
+    const { district } = md('1458_湖州吴兴万达广场.md');
+    expect(district.name).toBe('湖州吴兴万达广场');
+    expect(district.address).toContain('八里店镇');
+  });
+
+  it('名称行括号地址形态（1223）', () => {
+    const { district } = md('1223_福州万象城.md');
+    expect(district.name).toBe('福州万象城');
+    expect(district.address).toBe('福建省福州市鼓楼区工业路526号');
+    expect(district.province).toBe('福建省');
+  });
+
+  it('加粗行名 + 标记清洗（1018）', () => {
+    const { district } = md('1018_天水兰天城市广场.md');
+    expect(Object.keys(district.dimensions)).toHaveLength(13);
+    expect(district.name).toBe('天水兰天城市广场');
+    expect(district.metrics.rent).toBeCloseTo(2.86);
+    expect(district.dimensions['项目性质']!.sources).toContain('联商网');
+    expect(district.dimensions['项目性质']!.text).not.toContain('[检索');
+  });
+
+  it('无标准表头时按维度数兜底（1221）', () => {
+    const { district } = md('1221_石家庄北国奥特莱斯.md');
+    expect(Object.keys(district.dimensions)).toHaveLength(13);
+    expect(district.name).toBe('石家庄北国奥特莱斯');
+    expect(district.metrics.trafficPeak).toBeCloseTo(20.3);
   });
 });
 
