@@ -5,7 +5,9 @@
 cd "$(dirname "$0")" || exit 1
 
 PORT=5199
-URL="http://localhost:$PORT/"
+# 用工作主机的 Tailscale IP 而非 localhost：localhost 只指浏览器所在机器，
+# 从 MacBook 双击启动时 localhost 会打开 MacBook 自己的旧副本
+URL="http://100.106.28.2:$PORT/"
 LOG=/tmp/trade-area-dev.log
 
 pause_and_exit() {
