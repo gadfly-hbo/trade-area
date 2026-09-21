@@ -1,6 +1,6 @@
 #!/bin/bash
 # 双击启动「商圈对比分析」页面
-# 逻辑：已在运行 → 直接开浏览器；否则装依赖(如需) → 生成数据(如需) → 启动服务 → 自动打开浏览器
+# 逻辑：已在运行 → 直接开浏览器；否则装依赖(如需) → 生成数据(缺失或原始数据已更新时) → 启动服务 → 自动打开浏览器
 
 cd "$(dirname "$0")" || exit 1
 
@@ -13,8 +13,8 @@ pause_and_exit() {
   exit 1
 }
 
-# 1) 已在运行 → 直接打开浏览器
-if curl -s -o /dev/null --max-time 1 "$URL"; then
+# 1) 已在运行 → 直接打开浏览器（-f：HTTP 4xx/5xx 视为未就绪，不当「已在运行」）
+if curl -sf -o /dev/null --max-time 1 "$URL"; then
   echo "✅ 服务已在运行，正在打开浏览器…"
   open "$URL"
   sleep 1
@@ -34,10 +34,10 @@ if [ ! -d node_modules ]; then
   npm install --no-fund --no-audit || { echo "❌ 依赖安装失败"; pause_and_exit; }
 fi
 
-# 4) 数据未生成：运行 ETL
-if [ ! -f public/data/index.json ]; then
+# 4) 数据缺失，或 data/raw 比产物新（更新过原始数据）→ 重跑 ETL
+if [ ! -f public/data/index.json ] || [ -n "$(find data/raw -newer public/data/index.json -print -quit 2>/dev/null)" ]; then
   echo "📊 正在生成商圈数据…"
-  npm run etl || { echo "❌ 数据生成失败（data/raw/ 下需要有商圈 xlsx 文件）"; pause_and_exit; }
+  npm run etl || { echo "❌ 数据生成失败（data/raw/ 下需要有商圈 xlsx/md 文件）"; pause_and_exit; }
 fi
 
 # 5) 后台启动服务，等待就绪
@@ -46,7 +46,7 @@ nohup npm run dev -- --port "$PORT" --strictPort > "$LOG" 2>&1 &
 disown
 
 for _ in $(seq 1 40); do
-  if curl -s -o /dev/null --max-time 1 "$URL"; then
+  if curl -sf -o /dev/null --max-time 1 "$URL"; then
     echo "✅ 启动成功，正在打开浏览器：$URL"
     echo "   （关闭此窗口不影响服务；停止服务请双击「停止商圈分析.command」）"
     open "$URL"
