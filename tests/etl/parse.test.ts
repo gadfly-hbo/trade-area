@@ -9,7 +9,7 @@ import { computeScore } from '../../src/scoring/model';
 import { parseRegion } from '../../scripts/regions';
 
 const ROOT = fileURLToPath(new URL('../..', import.meta.url));
-const SAMPLE = path.join(ROOT, 'data', 'raw', '003_湖州爱山广场.xlsx');
+const SAMPLE = path.join(ROOT, 'tests', 'fixtures', '003_湖州爱山广场.xlsx');
 
 function parseSample() {
   return parseXlsxFile(SAMPLE, '003_湖州爱山广场.xlsx');

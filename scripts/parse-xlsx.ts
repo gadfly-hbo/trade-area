@@ -13,7 +13,7 @@ import { parseRegion } from './regions';
 const XLSX = ((XLSXns as { default?: typeof XLSXns }).default ?? XLSXns) as typeof XLSXns;
 
 /** 行名的常见变体 → 标准维度 key */
-const DIMENSION_ALIASES: Record<DimensionKey, string[]> = {
+export const DIMENSION_ALIASES: Record<DimensionKey, string[]> = {
   '项目名称与地址': ['项目名称与地址', '项目名称及地址', '项目名称/地址'],
   '项目性质': ['项目性质'],
   '所在区位': ['所在区位'],
@@ -58,7 +58,7 @@ export function stripMarkers(text: string): DimensionDetail {
   const cleaned = text
     .replace(/\[检索[·:][^\]]+\]/g, '')
     .replace(/\[[AB]\]/g, '')
-    .replace(/【项目评级】[A-Z]/g, '')
+    .replace(/【项目评级】[A-Z]\+?/g, '')
     .replace(/[ \t]+/g, ' ')
     .replace(/\n{2,}/g, '\n')
     .trim();

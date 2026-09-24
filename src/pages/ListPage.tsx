@@ -12,7 +12,7 @@ import Section from '@/components/Section';
 
 function RatingPill({ v }: { v: string | null }) {
   if (!v) return <span className="pill neutral">—</span>;
-  const cls = v === 'A' ? 'good' : v === 'B' ? 'warn' : 'bad';
+  const cls = v === 'S' ? 'violet' : v === 'B' ? 'warn' : v === 'C' ? 'bad' : 'good';
   return <span className={`pill ${cls}`}>{v} 级</span>;
 }
 
@@ -89,6 +89,8 @@ export default function ListPage() {
       width: 80,
       align: 'center',
       filters: [
+        { text: 'S', value: 'S' },
+        { text: 'A+', value: 'A+' },
         { text: 'A', value: 'A' },
         { text: 'B', value: 'B' },
         { text: 'C', value: 'C' },

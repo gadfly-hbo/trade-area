@@ -20,6 +20,9 @@ export type DimensionKey = (typeof DIMENSION_KEYS)[number];
 
 export type Confidence = 'A' | 'B';
 
+/** 森马渠道项目评级（来自渠道项目管理清单）：S > A+ > A > B > C */
+export type ProjectRating = 'S' | 'A+' | 'A' | 'B' | 'C';
+
 /** 从长文本中抽取的数值指标，全部可空（缺失即不参与对比/评分） */
 export interface DistrictMetrics {
   /** 建筑面积（万㎡） */
@@ -71,7 +74,7 @@ export interface DistrictSummary {
   address: string;
   province: string;
   city: string;
-  rating: 'A' | 'B' | 'C' | null;
+  rating: ProjectRating | null;
   metrics: DistrictMetrics;
   percentiles: PercentileMap;
   /** 默认权重下的综合评分（0-100），无可用指标时为 null */

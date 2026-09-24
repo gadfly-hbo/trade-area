@@ -23,7 +23,7 @@ const CROWD_LABELS: Record<'crowdA' | 'crowdB' | 'crowdC', string> = {
 
 function RatingPill({ v }: { v: string | null }) {
   if (!v) return null;
-  const cls = v === 'A' ? 'good' : v === 'B' ? 'warn' : 'bad';
+  const cls = v === 'S' ? 'violet' : v === 'B' ? 'warn' : v === 'C' ? 'bad' : 'good';
   return <span className={`pill ${cls}`}>评级 {v}</span>;
 }
 

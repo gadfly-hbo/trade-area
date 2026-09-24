@@ -18,9 +18,11 @@ export interface Region {
 export function parseRegion(address: string): Region {
   if (!address) return { province: '', city: '' };
 
-  // 直辖市：北京市朝阳区… → 省=北京市 市=北京市
+  // 直辖市：北京市朝阳区… → 省=北京市 市=北京市；裸名前缀（上海闵行区…）同样识别
   for (const m of MUNICIPALITIES) {
-    if (address.startsWith(m)) return { province: m, city: m };
+    if (address.startsWith(m) || address.startsWith(m.slice(0, 2))) {
+      return { province: m, city: m };
+    }
   }
 
   // 自治区：先匹配区名，再在其后找市
@@ -40,6 +42,10 @@ export function parseRegion(address: string): Region {
     const cityMatch = after.match(/([^省市]{2,8}市)/);
     return { province, city: cityMatch?.[1] ?? '' };
   }
+
+  // 市而无省（沈阳市沈北新区…）：只取市，省留给 ETL 用全量共识回填
+  const cityM = address.match(/^([\u4e00-\u9fa5]{2,8}市)/);
+  if (cityM) return { province: '', city: cityM[1] };
 
   // 兜底：香港/澳门等特别行政区
   if (address.includes('香港')) return { province: '香港特别行政区', city: '香港特别行政区' };

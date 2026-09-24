@@ -55,9 +55,10 @@ async function waitForText(el: HTMLElement, text: string, ms = 3000) {
 }
 
 describe('UI 冒烟（JuanerAI 风格改版后）', () => {
+  // 数据就绪的门禁用分页文案（与具体商圈无关，不随数据量/排序漂移）
   it('列表页完整渲染：侧边栏 + 指标卡 + 数据行', async () => {
     const { root, el } = await renderApp();
-    await waitForText(el, '湖州爱山广场');
+    await waitForText(el, '/ 共 ');
     expect(el.textContent).toContain('商圈列表');
     expect(el.textContent).toContain('商圈对比分析');
     expect(el.textContent).toContain('选址排名');
@@ -69,7 +70,7 @@ describe('UI 冒烟（JuanerAI 风格改版后）', () => {
 
   it('页面挂载了 Prism 设计规范元素', async () => {
     const { root, el } = await renderApp();
-    await waitForText(el, '湖州爱山广场');
+    await waitForText(el, '/ 共 ');
     expect(el.querySelector('.app-sidebar')).toBeTruthy();
     expect(el.querySelector('.metrics-grid')).toBeTruthy();
     expect(el.querySelectorAll('.metric').length).toBeGreaterThanOrEqual(4);
