@@ -1,11 +1,11 @@
 #!/bin/bash
-# 双击启动「商圈对比分析」页面
-# 逻辑：已在运行 → 直接开浏览器；否则装依赖(如需) → 生成数据(如需) → 启动服务 → 自动打开浏览器
+# 双击启动「商圈对比分析」页面（双端通用：MacBook / mac-mini 各自启动本机服务，不依赖对端是否开机）
+# 逻辑：已在运行 → 直接开浏览器；否则装依赖(如需) → 生成数据(如需) → 启动本机服务 → 自动打开浏览器
 
 cd "$(dirname "$0")" || exit 1
 
 PORT=5199
-URL="http://localhost:$PORT/"
+URL="http://127.0.0.1:$PORT/"
 LOG=/tmp/trade-area-dev.log
 
 pause_and_exit() {
