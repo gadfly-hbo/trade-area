@@ -1,7 +1,8 @@
 /**
  * ETL 主入口：商圈数据 → public/data/{index.json, details/s{N}.json}
- * 数据源优先级：../trade-area-data/district-12dim/*.md（全量，可用 TRADE_AREA_MD_DIR 覆盖）
- *               → data/raw/*.xlsx（旧格式兜底，md 源存在时不启用，避免重复商圈）
+ * 数据源：data/raw/*.md（全量研究报告，随 git 入库，双端拉取即得）；
+ *         同目录无 md 时退回旧格式 data/raw/*.xlsx（两者不同时启用，避免商圈重复）。
+ * 可用环境变量 TRADE_AREA_MD_DIR 指向其他目录（如研究报告的工作目录）调试。
  * 用法：npm run etl
  */
 import * as fs from 'node:fs';
@@ -14,9 +15,7 @@ import { computePercentiles, deriveMetrics } from './normalize';
 import { computeScore } from '../src/scoring/model';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
-const RAW_DIR = path.join(ROOT, 'data', 'raw');
-const MD_DIR =
-  process.env.TRADE_AREA_MD_DIR ?? path.resolve(ROOT, '..', 'trade-area-data', 'district-12dim');
+const DATA_DIR = process.env.TRADE_AREA_MD_DIR ?? path.join(ROOT, 'data', 'raw');
 const OUT_DIR = path.join(ROOT, 'public', 'data');
 const DETAILS_DIR = path.join(OUT_DIR, 'details');
 const SHARD_SIZE = 50;
@@ -32,26 +31,23 @@ function idFromFilename(filename: string, used: Set<string>): string {
 }
 
 async function main() {
-  const mdFiles = fs.existsSync(MD_DIR)
-    ? fs.readdirSync(MD_DIR).filter((f) => /\.md$/i.test(f) && !f.startsWith('.')).sort()
+  const dirOk = fs.existsSync(DATA_DIR);
+  const mdFiles = dirOk
+    ? fs.readdirSync(DATA_DIR).filter((f) => /\.md$/i.test(f) && !f.startsWith('.')).sort()
     : [];
   const useMd = mdFiles.length > 0;
 
-  if (!useMd && !fs.existsSync(RAW_DIR)) {
-    console.error(`未找到数据源：${MD_DIR}（md）与 ${RAW_DIR}（xlsx）均不可用`);
+  if (!dirOk || (!useMd && !fs.readdirSync(DATA_DIR).some((f) => /\.xlsx$/i.test(f)))) {
+    console.error(`未找到数据源：${DATA_DIR} 下既无 md 也无 xlsx`);
     process.exit(1);
   }
   const files = useMd
     ? mdFiles
     : fs
-        .readdirSync(RAW_DIR)
+        .readdirSync(DATA_DIR)
         .filter((f) => /\.xlsx$/i.test(f) && !f.startsWith('~$') && !f.startsWith('.'))
         .sort();
-  if (!files.length) {
-    console.error(`数据源下没有可解析文件（md: ${MD_DIR} / xlsx: ${RAW_DIR}）`);
-    process.exit(1);
-  }
-  console.log(`📂 数据源：${useMd ? `${MD_DIR}（md，${files.length} 个文件）` : `${RAW_DIR}（xlsx 兜底）`}`);
+  console.log(`📂 数据源：${DATA_DIR}（${useMd ? 'md' : 'xlsx 兜底'}，${files.length} 个文件）`);
 
   const districts: DistrictDetail[] = [];
   const warnings: string[] = [];
@@ -61,10 +57,9 @@ async function main() {
 
   for (const file of files) {
     try {
-      const srcDir = useMd ? MD_DIR : RAW_DIR;
       const { district, warnings: w } = useMd
-        ? parseMdFile(path.join(srcDir, file), file)
-        : parseXlsxFile(path.join(srcDir, file), file);
+        ? parseMdFile(path.join(DATA_DIR, file), file)
+        : parseXlsxFile(path.join(DATA_DIR, file), file);
       district.id = idFromFilename(file, usedIds);
       warnings.push(...w);
       districts.push(district);

@@ -16,8 +16,7 @@ const XLSX = ((XLSXns as { default?: typeof XLSXns }).default ?? XLSXns) as type
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const XLSX_PATH = process.env.CHANNEL_XLSX ?? path.join(ROOT, 'data', 'reference', '渠道项目管理清单.xlsx');
-const MD_DIR =
-  process.env.TRADE_AREA_MD_DIR ?? path.resolve(ROOT, '..', 'trade-area-data', 'district-12dim');
+const MD_DIR = process.env.TRADE_AREA_MD_DIR ?? path.join(ROOT, 'data', 'raw');
 const APPLY = process.argv.includes('--apply');
 
 /** 匹配用归一化：去空白与间隔号，全角括号转半角 */

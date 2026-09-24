@@ -31,7 +31,7 @@
 
 ## 数据源与结构
 
-**每个文件对应一个商圈**。主数据源为相邻项目 Markdown：`../trade-area-data/district-12dim/NNN_商圈名.md`（当前 2405 个，目录可用环境变量 `TRADE_AREA_MD_DIR` 覆盖）；md 目录不存在时 ETL 退回旧格式 `data/raw/*.xlsx`（`NNN_商圈名.xlsx`，两者不同时启用以免商圈重复；`data/raw/` 已清空，历史样本保留在 `tests/fixtures/` 作 golden 测试夹具）。
+**每个文件对应一个商圈**。数据源为本仓库 `data/raw/NNN_商圈名.md`（当前 2405 份研究报告，**随 git 入库**，双端 `git pull` 后启动脚本检测到源数据更新会自动重跑 ETL）；开发时可用环境变量 `TRADE_AREA_MD_DIR` 指向研究报告工作目录（如相邻项目 `../trade-area-data/district-12dim`）；目录内无 md 时 ETL 退回旧格式 xlsx（两者不同时启用以免商圈重复；历史 xlsx 样本保留在 `tests/fixtures/` 作 golden 测试夹具）。
 
 - md 内表格三种排版变体需兼容：2 列、3 列（带序号列）、行名加粗；行名允许空白变体（如「周边 3 公里人口」）。尾部批次只有 12 维（缺「项目名称与地址」行），商圈名以文件名为准。
 - xlsx 为单 sheet（`12维度竞品分析表`），布局 A1:B15：第 1 行标题，第 2 行列头，第 3–15 行为 13 行数据。
