@@ -1,7 +1,7 @@
 /** 商圈列表页：全量摘要索引 + 客户端筛选/排序/分页 + 对比篮勾选；指标列可勾选显隐（localStorage 记忆） */
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Alert, Button, Checkbox, Input, Select, Space, Spin, Table, Typography, message } from 'antd';
+import { Alert, Button, Checkbox, Input, Select, Space, Spin, Table, Tooltip, Typography, message } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import type { DistrictSummary } from '@/types';
 import { loadIndex } from '@/data/loader';
@@ -12,13 +12,46 @@ import MetricValue from '@/components/MetricValue';
 import Section from '@/components/Section';
 
 const FIELD_STORE_KEY = 'ta-list-fields';
-/** 默认勾选的核心字段（一屏可容纳） */
+/** 默认勾选的核心字段（一屏可容纳；选址评分默认不勾） */
 const DEFAULT_FIELDS = ['trafficWeekday', 'trafficWeekend', 'trafficPeak', 'pop3km', 'brands'];
+const isFieldKey = (k: string) => k === 'score' || METRIC_DEFS.some((d) => d.key === k);
+const FIELD_OPTIONS = [
+  ...METRIC_DEFS.map((d) => ({ label: d.label, value: d.key })),
+  { label: '选址评分', value: 'score' },
+];
+/** 选址评分计算公式说明（列头问号悬停展示） */
+const SCORE_FORMULA =
+  '四因子加权百分位分（0-100）：客流 30%（内部按工作日 40%/周末 40%/节假日峰值 20% 合成）+ 3公里人口 20% + 客群匹配（A+B 类占比）15% + 停车便利（车位/万周末客流）10%。各因子先换算为在全体商圈中的百分位再加权；数据缺失的因子其权重按比例分摊给其余因子，全部缺失则无分。权重可在「选址排名」页调整。';
 
 function RatingPill({ v }: { v: string | null }) {
   if (!v) return <span className="pill neutral">—</span>;
   const cls = v === 'S' ? 'violet' : v === 'B' ? 'warn' : v === 'C' ? 'bad' : 'good';
   return <span className={`pill ${cls}`}>{v} 级</span>;
+}
+
+/** 列头问号：悬停显示计算公式 */
+function HelpMark({ text }: { text: string }) {
+  return (
+    <Tooltip title={text}>
+      <span
+        style={{
+          cursor: 'help',
+          color: 'var(--faint)',
+          fontSize: 11,
+          border: '1px solid var(--border-strong)',
+          borderRadius: '50%',
+          width: 15,
+          height: 15,
+          display: 'inline-flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginLeft: 4,
+        }}
+      >
+        ？
+      </span>
+    </Tooltip>
+  );
 }
 
 /** 数值列单元格：数字 + 可选推断警示标 */
@@ -36,7 +69,7 @@ function loadVisibleFields(): string[] {
     const raw = localStorage.getItem(FIELD_STORE_KEY);
     const arr: unknown = raw ? JSON.parse(raw) : null;
     if (Array.isArray(arr)) {
-      const valid = arr.filter((k): k is string => typeof k === 'string' && METRIC_DEFS.some((d) => d.key === k));
+      const valid = arr.filter((k): k is string => typeof k === 'string' && isFieldKey(k));
       if (valid.length) return valid;
     }
   } catch {
@@ -147,20 +180,30 @@ export default function ListPage() {
         <MetricCell v={r.metrics[def.key]} inferred={r.inferred?.[def.key]} />
       ),
     })),
-    {
-      title: '选址评分',
-      dataIndex: 'score',
-      width: 100,
-      align: 'right',
-      defaultSortOrder: 'descend',
-      sorter: (a, b) => numSorter(a.score, b.score),
-      render: (v: number | null) =>
-        v === null ? (
-          <span className="pill neutral">—</span>
-        ) : (
-          <span className="pill brand no-dot">{v.toFixed(1)} 分</span>
-        ),
-    },
+    ...(visibleFields.includes('score')
+      ? [
+          {
+            title: (
+              <Space size={2}>
+                <span>选址评分</span>
+                <HelpMark text={SCORE_FORMULA} />
+              </Space>
+            ),
+            dataIndex: 'score',
+            key: 'score',
+            width: 112,
+            align: 'right' as const,
+            defaultSortOrder: 'descend' as const,
+            sorter: (a: DistrictSummary, b: DistrictSummary) => numSorter(a.score, b.score),
+            render: (v: number | null) =>
+              v === null ? (
+                <span className="pill neutral">—</span>
+              ) : (
+                <span className="pill brand no-dot">{v.toFixed(1)} 分</span>
+              ),
+          },
+        ]
+      : []),
   ];
 
   if (error) {
@@ -261,11 +304,7 @@ export default function ListPage() {
           <Typography.Text type="secondary" style={{ fontSize: 12 }}>
             显示字段
           </Typography.Text>
-          <Checkbox.Group
-            options={METRIC_DEFS.map((d) => ({ label: d.label, value: d.key }))}
-            value={visibleFields}
-            onChange={(vals) => setVisibleFields(vals as string[])}
-          />
+          <Checkbox.Group options={FIELD_OPTIONS} value={visibleFields} onChange={(vals) => setVisibleFields(vals as string[])} />
           <Button size="small" type="text" onClick={() => setVisibleFields(DEFAULT_FIELDS)}>
             恢复默认
           </Button>
