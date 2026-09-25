@@ -1,0 +1,536 @@
+[
+ {
+  "name": "上海浦东嘉里城",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "济宁济州上城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "广州东方国际广场",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "福州苏宁广场B区",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "福州苏宁广场B区",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "广州天河城",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "广州天河城",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "砂之船（厦门）奥莱",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "长沙翡翠湖盈创星悦广场",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "长沙翡翠湖盈创星悦广场",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "中山天奕星河COCO City",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "中山天奕星河COCO City",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "中山天奕星河COCO City",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "中山天奕星河COCO City",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳万丰海岸城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "沈阳杉杉奥特莱斯购物广场",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "沈阳沈北万达广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "成都温江合生汇",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "成都温江合生汇",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "苏州久光百货",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "苏州久光百货",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "延边欧亚敦百购物中心",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "朝阳兴隆大家庭",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "常德汉寿万达广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "漯河大商新玛特",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "盘锦兴隆大厦",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "荆门东方百货(中天街)",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "荆门东方百货(中天街)",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "无锡八佰伴（人民中路店）",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "无锡八佰伴（人民中路店）",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "无锡八佰伴（人民中路店）",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "赣州招商花园城",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "赣州招商花园城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海鑫耀·光环Live二期",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海鑫耀·光环Live二期",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "广州南沙星河COCO Park",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "商丘正弘汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳湾万象城二期",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "阜阳太和万达广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京昌平沙河万达广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "衡水爱琴海购物中心",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京汇琴购物中心",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京汇琴购物中心",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "龙湖西安未央天街",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "龙湖西安未央天街",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海世博天地",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海世博天地",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "衢州银泰城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳万象城（三期）",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "南宁百盛印象城店",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海中集美兰湖金地广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "南宁华星城市奥特莱斯",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "南宁华星城市奥特莱斯",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京DT51",
+  "metric": "pop3km",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京DT51",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "洛阳丹尼斯大卫天地",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "洛阳丹尼斯大卫天地",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "杭州拱墅宝龙广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "龙湖重庆江岸天街",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "宜宾万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京通州首开万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆光环花园城",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆光环花园城",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆光环花园城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆光环花园城",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "无锡滨湖万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京西三旗万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "佛山万象天地",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "杭州滨江开元广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "南京亲橙万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "武汉亲橙万象汇",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "呼和浩特万象城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆方圆LIVE",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "重庆方圆LIVE",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "苏州人民商场",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "苏州人民商场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "茂名化州万达广场",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "茂名化州万达广场",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "杭州亚奥万象天地",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "温州滨江万象城",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海航头金航城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "包头印象城",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "烟台万科广场",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ }
+]
