@@ -18,7 +18,7 @@ export const METRIC_DEFS: MetricDef[] = [
   { key: 'trafficPeak', label: '节假日峰值客流', unit: '万人次/日', better: 'high', chart: true },
   { key: 'pop3km', label: '3公里人口', unit: '万人', better: 'high', chart: true },
   { key: 'brands', label: '品牌数', unit: '个', better: 'high' },
-  { key: 'buildingArea', label: '建筑面积', unit: '万㎡', better: 'high' },
+  { key: 'buildingArea', label: '商用面积', unit: '万㎡', better: 'high' },
   { key: 'parking', label: '车位数', unit: '个', better: 'high' },
   { key: 'openedYear', label: '开业年份', unit: '', better: 'high' },
 ];

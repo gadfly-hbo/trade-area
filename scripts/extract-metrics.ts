@@ -38,21 +38,23 @@ export function extractMetrics(
   const get = (k: string) => dimensions[k] ?? '';
 
   // —— 商业级别与体量 ——
+  // 商用面积优先：商业面积/经营面积/可租面积/商业体量；无商用口径时退回总建面/建筑面积（口径偏大，标推断）；
+  // 纯 ㎡ 大数（≥10000）折算为万
   const scale = get('商业级别与体量') + '；' + get('项目性质');
-  // 建筑面积：总建面/商业面积/体量 + 万㎡/万方/万平方米；纯 ㎡ 大数（≥10000）折算为万
   const AREA_NUM = '\\s*([\\d,，.]+)(?:\\s*[-–—~]\\s*([\\d,，.]+))?\\s*万\\s*(?:㎡|方|平方米)';
-  const areaPats: Array<[RegExp, number]> = [
-    [/(?:总建筑面积|建筑总面积|总建面|建筑面积)[^。；;|｜]{0,8}?约?/, 1],
-    [/(?:商业经营面积|商业面积|经营面积)[^。；;|｜]{0,8}?约?/, 1],
-    [/体量[^。；;|｜]{0,10}?约?(?:推断约?)?/, 1],
-    [/(?:总建筑面积|建筑总面积|总建面|建筑面积)[^。；;|｜]{0,8}?约?\s*([\d,，]{3,})\s*㎡/, 10000],
+  const areaPats: Array<[RegExp, number, boolean]> = [
+    [/(?:商业经营面积|商业面积|经营面积|商业建筑面积|可租面积|租赁面积|商业体量)[^。；;|｜]{0,8}?约?/, 1, false],
+    [/(?:总建筑面积|建筑总面积|总建面|建筑面积)[^。；;|｜]{0,8}?约?/, 1, true],
+    [/体量[^。；;|｜]{0,10}?约?(?:推断约?)?/, 1, false],
+    [/(?:总建筑面积|建筑总面积|总建面|建筑面积)[^。；;|｜]{0,8}?约?\s*([\d,，]{3,})\s*㎡/, 10000, true],
   ];
-  for (const [ap, div] of areaPats) {
+  for (const [ap, div, fallback] of areaPats) {
     const am = match(scale, new RegExp(ap.source + (div === 1 ? AREA_NUM : '')));
     if (!am) continue;
     const v = rangeNum(am[1], am[2]);
     if (v !== undefined && v > 0) {
       m.buildingArea = Math.round((v / div) * 100) / 100;
+      if (fallback && inferred) inferred.buildingArea = true;
       break;
     }
   }

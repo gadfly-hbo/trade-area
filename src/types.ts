@@ -25,7 +25,7 @@ export type ProjectRating = 'S' | 'A+' | 'A' | 'B' | 'C';
 
 /** 从长文本中抽取的数值指标，全部可空（缺失即不参与对比/评分） */
 export interface DistrictMetrics {
-  /** 建筑面积（万㎡） */
+  /** 商用面积（万㎡）：优先商业/经营面积口径，缺失时退总建面并标推断 */
   buildingArea?: number;
   /** 配建机动车位（个） */
   parking?: number;
