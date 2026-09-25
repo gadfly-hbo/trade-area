@@ -1,0 +1,594 @@
+[
+ {
+  "name": "佛山黄岐金铂天地",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 450,
+  "inferred": true,
+  "reason": "300-600推断区间中值"
+ },
+ {
+  "name": "上海曹路招商花园城",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1000,
+  "inferred": true,
+  "reason": "800-1200估算区间中值"
+ },
+ {
+  "name": "上海北外滩来福士",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "开业首日≠节假日峰值"
+ },
+ {
+  "name": "龙湖合肥瑶海天街",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1500,
+  "inferred": true,
+  "reason": "1000-2000推断区间中值"
+ },
+ {
+  "name": "苏州大悦城",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1500,
+  "inferred": true,
+  "reason": "1000-2000推断区间中值"
+ },
+ {
+  "name": "苏州大悦城",
+  "metric": "brands",
+  "verdict": "ok",
+  "value": 275,
+  "inferred": true,
+  "reason": "200-350推断区间中值"
+ },
+ {
+  "name": "青岛青特万达广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1150,
+  "inferred": true,
+  "reason": "800-1500推断区间中值"
+ },
+ {
+  "name": "海口万象城",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 2300,
+  "inferred": true,
+  "reason": "第三方口径直接陈述"
+ },
+ {
+  "name": "天水兰天城市广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 450,
+  "inferred": true,
+  "reason": "300-600推断区间中值"
+ },
+ {
+  "name": "上海大宁音乐广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 650,
+  "inferred": true,
+  "reason": "500-800区间中值"
+ },
+ {
+  "name": "佛山天虹购物中心",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 750,
+  "inferred": true,
+  "reason": "500-1000推断区间中值"
+ },
+ {
+  "name": "佛山天虹购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 3.25,
+  "inferred": true,
+  "reason": "周末2.5-4.0万中值"
+ },
+ {
+  "name": "桂林万象城",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1150,
+  "inferred": true,
+  "reason": "800-1500推断区间中值"
+ },
+ {
+  "name": "大连普兰店万达广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 650,
+  "inferred": true,
+  "reason": "500-800推断区间中值"
+ },
+ {
+  "name": "唐山路北爱琴海购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 4.12,
+  "inferred": true,
+  "reason": "工作日2.75万×1.5倍"
+ },
+ {
+  "name": "温州柳市现代广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 600,
+  "inferred": true,
+  "reason": "约600+车位直接陈述"
+ },
+ {
+  "name": "库尔勒汇嘉时代广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 500,
+  "inferred": true,
+  "reason": "地下约500直接陈述"
+ },
+ {
+  "name": "杭州城北招商花园城",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "开业3天日均≠节假日档"
+ },
+ {
+  "name": "济南银座奥特莱斯（七里山店）",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "全年日均充工作日档"
+ },
+ {
+  "name": "济南银座奥特莱斯（七里山店）",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无周末档出处"
+ },
+ {
+  "name": "济南银座奥特莱斯（七里山店）",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无峰值档出处"
+ },
+ {
+  "name": "齐齐哈尔新玛特",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "营收反推日均非分档"
+ },
+ {
+  "name": "齐齐哈尔新玛特",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无周末档出处"
+ },
+ {
+  "name": "齐齐哈尔新玛特",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无峰值档出处"
+ },
+ {
+  "name": "济南弘阳广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1000,
+  "inferred": true,
+  "reason": "800-1200推断区间中值"
+ },
+ {
+  "name": "西宁王府井百货（中心店）",
+  "metric": "brands",
+  "verdict": "ok",
+  "value": 350,
+  "inferred": true,
+  "reason": "200-500推断区间中值"
+ },
+ {
+  "name": "郑州永和时光里",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 1.27,
+  "inferred": true,
+  "reason": "周末中值8750×1.45倍"
+ },
+ {
+  "name": "辽阳文圣万达广场",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均中值充工作日档"
+ },
+ {
+  "name": "上海香港名都",
+  "metric": "brands",
+  "verdict": "ok",
+  "value": 100,
+  "inferred": true,
+  "reason": "50-150推断区间中值"
+ },
+ {
+  "name": "武汉世界城广场",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "年总÷365非周末档"
+ },
+ {
+  "name": "上海Gate M西岸梦中心",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无工作日直接出处"
+ },
+ {
+  "name": "成都王府井购物中心（科华店）",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.78,
+  "inferred": true,
+  "reason": "工作日1.5-2万×1.3-1.8"
+ },
+ {
+  "name": "贵阳荔星中心",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 9,
+  "inferred": true,
+  "reason": "工作日3-4万×2-3倍"
+ },
+ {
+  "name": "广州天河城",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均18万非工作日档"
+ },
+ {
+  "name": "广州天河城",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均18万非周末档"
+ },
+ {
+  "name": "沈阳杉杉奥特莱斯购物广场",
+  "metric": "brands",
+  "verdict": "fix",
+  "value": 350,
+  "inferred": true,
+  "reason": "漏加国际,合计中值350"
+ },
+ {
+  "name": "延边欧亚敦百购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "年客流中值÷365非周末"
+ },
+ {
+  "name": "延边欧亚敦百购物中心",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "欧亚卖场对标非本店"
+ },
+ {
+  "name": "无锡八佰伴（人民中路店）",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "全年日均非工作日档"
+ },
+ {
+  "name": "无锡八佰伴（人民中路店）",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "周末未获取,日均充当"
+ },
+ {
+  "name": "龙湖西安未央天街",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "假设1.5倍拆分无出处"
+ },
+ {
+  "name": "龙湖西安未央天街",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "假设比例无文本出处"
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均中值充工作日档"
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均中值充周末档"
+ },
+ {
+  "name": "深圳怀德万象汇",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "基数应为工作日,未给出"
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "开业期推算无直接档"
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "开业期19÷3非稳态周末"
+ },
+ {
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "开业首日≠节假日峰值"
+ },
+ {
+  "name": "北京西三旗万象汇",
+  "metric": "parking",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "外部错峰共享非自建"
+ },
+ {
+  "name": "南京雨花万象天地",
+  "metric": "parking",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "仅社会配建,总数未获取"
+ },
+ {
+  "name": "南京雨花万象天地",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 15,
+  "inferred": false,
+  "reason": "商业面积约15万㎡直述"
+ },
+ {
+  "name": "成都佛罗伦萨小镇二期",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "周末中值充峰值无节假数"
+ },
+ {
+  "name": "苏州时尚舞台奥特莱斯",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2.8,
+  "inferred": true,
+  "reason": "由日均与1.8-2.5倍解出"
+ },
+ {
+  "name": "苏州时尚舞台奥特莱斯",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 6.1,
+  "inferred": true,
+  "reason": "工作日×1.8-2.5倍中值"
+ },
+ {
+  "name": "苏州时尚舞台奥特莱斯",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 7.1,
+  "inferred": true,
+  "reason": "工作日×2.5倍上限"
+ },
+ {
+  "name": "惠州隆生金山湖中心",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均5-8中值非分档"
+ },
+ {
+  "name": "惠州隆生金山湖中心",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均中值充周末档"
+ },
+ {
+  "name": "镇江扬中吾悦广场",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "餐饮区口径非全馆"
+ },
+ {
+  "name": "昆明首创奥特莱斯",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 5,
+  "inferred": true,
+  "reason": "工作日2万×2-3倍中值"
+ },
+ {
+  "name": "昆明首创奥特莱斯",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 8,
+  "inferred": true,
+  "reason": "工作日2万×3-5倍中值"
+ },
+ {
+  "name": "合肥银泰中心二期",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "销售额反推+通用比例"
+ },
+ {
+  "name": "合肥银泰中心二期",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "行业比例拆分非实测"
+ },
+ {
+  "name": "合肥银泰中心二期",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "行业比例拆分非实测"
+ },
+ {
+  "name": "龙湖苏州星湖天街",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "无出处,工作日未给出"
+ },
+ {
+  "name": "聊城五星百货",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "日均×工作日占比推算"
+ },
+ {
+  "name": "聊城五星百货",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.4,
+  "inferred": true,
+  "reason": "日均×周末占比推算"
+ },
+ {
+  "name": "长沙平和堂百货（五一广场）",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均超10万非分档"
+ },
+ {
+  "name": "长沙平和堂百货（五一广场）",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "周末高于工作日,非同值"
+ },
+ {
+  "name": "温州世贸银泰百货",
+  "metric": "trafficPeak",
+  "verdict": "fix",
+  "value": 11.3,
+  "inferred": true,
+  "reason": "平日中值×1.5-3=11.3"
+ },
+ {
+  "name": "上海森兰招商花园城",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "全年日均4.03非分档"
+ },
+ {
+  "name": "上海森兰招商花园城",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "分档未披露,日均充当"
+ },
+ {
+  "name": "上海森兰招商花园城",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "分档未披露,日均充当"
+ },
+ {
+  "name": "广州保利时光里",
+  "metric": "trafficWeekend",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "日均4.7非周末档"
+ },
+ {
+  "name": "广州保利时光里",
+  "metric": "trafficWeekday",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "13号线误提,无客流出处"
+ }
+]

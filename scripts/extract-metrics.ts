@@ -58,25 +58,34 @@ export function extractMetrics(
       break;
     }
   }
-  // 车位：锚词在前（兼容近/超/区间/推断/裸「停车」）+ 数字在前（「2181个停车位」）；扫级别/交通/最大优势三行
+  // 车位：锚词在前（兼容近/超/区间/推断/裸「停车」）+ 数字在前（「2181个停车位」）；扫级别/交通/最大优势三行。
+  // 防误抓：间隔禁跨量词「个」（防「车位近千个，1小时免费」吞 1）；坏词窗（停车费元/小时/免费/配建指标）；
+  // 合理域 10–20000；单匹配失败时迭代下一个匹配。
   const PARK_NUM = '(?:约|超|近)?\\s*([\\d,，]+)(?:\\s*[-–—~]\\s*([\\d,，]+))?\\s*(?:余|多)?\\s*[个+]?';
+  const PARK_BAD = /元|小时|免费|封顶|收费|指标|充电桩/;
   const parkingPats = [
-    new RegExp(`(?:机动车位|停车位|车位数|车位|停车)[^。；;|｜]{0,6}?${PARK_NUM}`),
+    new RegExp(`(?:机动车位|停车位|车位数|车位|停车)[^。；;|｜个\\d]{0,5}?${PARK_NUM}`),
     new RegExp(`([\\d,，]+)\\s*(?:余|多)?\\s*个\\s*(?:机动车位|停车位|车位)`),
   ];
   const parkingText = scale + get('交通条件') + get('最大优势');
   for (const pp of parkingPats) {
-    const pm = match(parkingText, pp);
-    if (!pm) continue;
-    const v = rangeNum(pm[1], pm[2]);
-    if (v !== undefined && v > 0) {
-      m.parking = v;
+    const re = new RegExp(pp.source, 'g');
+    for (let pm = re.exec(parkingText); pm; pm = re.exec(parkingText)) {
+      // 坏词窗口裁到本分句内（防跨句连坐，也防「1小时免费」漏检）
       const at = pm.index ?? 0;
+      const before = parkingText.slice(Math.max(0, at - 8), at).split(/[。；;|｜]/).pop() ?? '';
+      const after =
+        parkingText.slice(at + pm[0].length, at + pm[0].length + 10).split(/[。；;|｜]/)[0] ?? '';
+      if (PARK_BAD.test(before + pm[0] + after)) continue;
+      const v = rangeNum(pm[1], pm[2]);
+      if (v === undefined || v < 10 || v > 20000) continue;
+      m.parking = v;
       if (/推断/.test(parkingText.slice(Math.max(0, at - 30), at + pm[0].length + 30)) && inferred) {
         inferred.parking = true;
       }
       break;
     }
+    if (m.parking !== undefined) break;
   }
   // 商户：兼容超/近前缀与「870家商户」数字前置
   const merchantsPats = [

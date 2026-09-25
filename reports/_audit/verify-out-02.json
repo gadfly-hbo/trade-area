@@ -1,0 +1,778 @@
+[
+ {
+  "name": "佛山南海万达广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 4.46,
+  "inferred": true,
+  "reason": "金街租金0.92-8中值"
+ },
+ {
+  "name": "西安老城根Gpark",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 7.34,
+  "inferred": true,
+  "reason": "原文2025挂牌租金直述"
+ },
+ {
+  "name": "西安老城根Gpark",
+  "metric": "pop3km",
+  "verdict": "ok",
+  "value": 20,
+  "inferred": false,
+  "reason": "18-22万区间中值"
+ },
+ {
+  "name": "重庆泽胜中央广场A馆",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "LG铺6000元/100㎡/30天"
+ },
+ {
+  "name": "西安大都荟",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "商铺挂牌60元/㎡月÷30"
+ },
+ {
+  "name": "无锡滨湖万达广场",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 13.8,
+  "inferred": true,
+  "reason": "购物中心11.3+商业街2.5"
+ },
+ {
+  "name": "上海美罗城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 21,
+  "inferred": true,
+  "reason": "零售租金6-36中值"
+ },
+ {
+  "name": "江门开平东汇城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 0.6,
+  "inferred": true,
+  "reason": "商铺0.6元/㎡/天直述"
+ },
+ {
+  "name": "同德·昆明广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 2.94,
+  "inferred": true,
+  "reason": "2026年租金2.94直述"
+ },
+ {
+  "name": "同德·昆明广场",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 1500,
+  "inferred": true,
+  "reason": "商场实际1200-1800中值"
+ },
+ {
+  "name": "中山百汇时代广场",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 17.5,
+  "inferred": true,
+  "reason": "商业15+商业街2.5"
+ },
+ {
+  "name": "上海徐汇正大乐城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 3.5,
+  "inferred": true,
+  "reason": "租金80-130元/㎡月÷30中值"
+ },
+ {
+  "name": "南昌百盛优客城市广场",
+  "metric": "rent",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "类比异地项目，非本店"
+ },
+ {
+  "name": "济南银座购物广场（泉城广场店）",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 2.25,
+  "inferred": true,
+  "reason": "3.9亿/15年/31697㎡核算符"
+ },
+ {
+  "name": "上海新天地北里",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2.25,
+  "inferred": true,
+  "reason": "北里日均1.7-2.8中值"
+ },
+ {
+  "name": "上海新天地北里",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.25,
+  "inferred": true,
+  "reason": "同日均，报告无分档"
+ },
+ {
+  "name": "上海新天地北里",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 1.3,
+  "inferred": true,
+  "reason": "北里建面1.3万直述"
+ },
+ {
+  "name": "唐山迁安东安悦购城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 16.17,
+  "inferred": true,
+  "reason": "1F铺5821/12㎡/30天"
+ },
+ {
+  "name": "深圳龙岗万科广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 6.87,
+  "inferred": true,
+  "reason": "租金坪效206元/㎡月÷30"
+ },
+ {
+  "name": "烟台芝罘万达广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 1.63,
+  "inferred": true,
+  "reason": "临街铺49元/㎡月÷30"
+ },
+ {
+  "name": "成都大悦城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 12.99,
+  "inferred": true,
+  "reason": "月租389.79元/㎡月÷30"
+ },
+ {
+  "name": "苏州昆山天虹购物中心",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "15.74亿/20年/10.82万㎡"
+ },
+ {
+  "name": "金华兰溪宝龙广场",
+  "metric": "rent",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "租金未公开，无出处"
+ },
+ {
+  "name": "枣庄双子星恒太城",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 1.5,
+  "inferred": true,
+  "reason": "周边街区1-2元中值"
+ },
+ {
+  "name": "深圳龙岗万达广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 1.77,
+  "inferred": true,
+  "reason": "第8年53元/㎡月÷30"
+ },
+ {
+  "name": "深圳龙岗万达广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 7.25,
+  "inferred": true,
+  "reason": "3-5万×1.5-2倍区间内"
+ },
+ {
+  "name": "绍兴诸暨宝龙广场",
+  "metric": "rent",
+  "verdict": "ok",
+  "value": 0.77,
+  "inferred": true,
+  "reason": "4F铺2.5万/1085㎡/30天"
+ },
+ {
+  "name": "绍兴诸暨宝龙广场",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 6.5,
+  "inferred": true,
+  "reason": "峰值5-8万中值"
+ },
+ {
+  "name": "赣州招商花园城",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 1.35,
+  "inferred": true,
+  "reason": "周末1.2-1.5万中值"
+ },
+ {
+  "name": "赣州招商花园城",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 0.65,
+  "inferred": true,
+  "reason": "工作日0.6-0.7万中值"
+ },
+ {
+  "name": "南通枫叶小镇奥特莱斯",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 4.5,
+  "inferred": true,
+  "reason": "周末3.5-5.5中值"
+ },
+ {
+  "name": "南通枫叶小镇奥特莱斯",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "工作日1.5-2.5中值"
+ },
+ {
+  "name": "杭州亚奥万象天地",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 6.5,
+  "inferred": true,
+  "reason": "周末5-8万中值"
+ },
+ {
+  "name": "杭州亚奥万象天地",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 10,
+  "inferred": true,
+  "reason": "节假日10万+下限"
+ },
+ {
+  "name": "杭州亚奥万象天地",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2.5,
+  "inferred": true,
+  "reason": "工作日2-3万中值"
+ },
+ {
+  "name": "阜阳临泉爱琴海购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.3,
+  "inferred": true,
+  "reason": "周末1.8-2.8万中值"
+ },
+ {
+  "name": "阜阳临泉爱琴海购物中心",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 1,
+  "inferred": true,
+  "reason": "工作日0.8-1.2万中值"
+ },
+ {
+  "name": "兰州安宁吾悦广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 5.35,
+  "inferred": true,
+  "reason": "周末3.3-7.4万中值"
+ },
+ {
+  "name": "兰州安宁吾悦广场",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 9.75,
+  "inferred": true,
+  "reason": "峰值5.5-14万中值"
+ },
+ {
+  "name": "兰州安宁吾悦广场",
+  "metric": "openedYear",
+  "verdict": "ok",
+  "value": 2023,
+  "inferred": true,
+  "reason": "推断2023H2-2024取值"
+ },
+ {
+  "name": "兰州安宁吾悦广场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2.4,
+  "inferred": true,
+  "reason": "工作日1.5-3.3万中值"
+ },
+ {
+  "name": "兰州西太华商场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.75,
+  "inferred": true,
+  "reason": "商场2.5-3万中值"
+ },
+ {
+  "name": "兰州西太华商场",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 10,
+  "inferred": true,
+  "reason": "单日破10万直述"
+ },
+ {
+  "name": "兰州西太华商场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 1.75,
+  "inferred": true,
+  "reason": "进场1.5-2万中值"
+ },
+ {
+  "name": "兰州西太华商场",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 8,
+  "inferred": true,
+  "reason": "营业约8万㎡直述"
+ },
+ {
+  "name": "西宁城东吾悦广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 5.25,
+  "inferred": true,
+  "reason": "周末4.5-6万中值"
+ },
+ {
+  "name": "西宁城东吾悦广场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2.75,
+  "inferred": true,
+  "reason": "工作日2.5-3万中值"
+ },
+ {
+  "name": "西宁城东吾悦广场",
+  "metric": "openedYear",
+  "verdict": "ok",
+  "value": 2023,
+  "inferred": true,
+  "reason": "2022-2024中值"
+ },
+ {
+  "name": "承德双百购物广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 3,
+  "inferred": true,
+  "reason": "周末2.5-3.5中值"
+ },
+ {
+  "name": "承德双百购物广场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "工作日1.5-2.5中值"
+ },
+ {
+  "name": "北京京北大世界",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 1.25,
+  "inferred": true,
+  "reason": "周末1-1.5万中值"
+ },
+ {
+  "name": "北京京北大世界",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 0.8,
+  "inferred": true,
+  "reason": "工作日0.6-1万中值"
+ },
+ {
+  "name": "北京京北大世界",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 5,
+  "inferred": true,
+  "reason": "建面5万㎡直述"
+ },
+ {
+  "name": "北京京北大世界",
+  "metric": "parking",
+  "verdict": "ok",
+  "value": 375,
+  "inferred": false,
+  "reason": "车位200-550中值"
+ },
+ {
+  "name": "厦门首创奥特莱斯",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 1.15,
+  "inferred": true,
+  "reason": "周末0.8-1.5万中值"
+ },
+ {
+  "name": "厦门首创奥特莱斯",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 0.45,
+  "inferred": true,
+  "reason": "工作日0.3-0.6万中值"
+ },
+ {
+  "name": "太原印象城",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 3.5,
+  "inferred": true,
+  "reason": "周末3-4万中值"
+ },
+ {
+  "name": "太原印象城",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 5,
+  "inferred": true,
+  "reason": "峰值4-6万中值"
+ },
+ {
+  "name": "太原印象城",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "工作日1.5-2.5中值"
+ },
+ {
+  "name": "利群莱州购物广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "周末1.5-2.5中值"
+ },
+ {
+  "name": "利群莱州购物广场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 1.1,
+  "inferred": true,
+  "reason": "工作日1.0-1.2中值"
+ },
+ {
+  "name": "十堰武商MALL",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 4,
+  "inferred": true,
+  "reason": "周六日3-5万中值"
+ },
+ {
+  "name": "十堰武商MALL",
+  "metric": "openedYear",
+  "verdict": "ok",
+  "value": 2020,
+  "inferred": true,
+  "reason": "推断2020±1直述"
+ },
+ {
+  "name": "南京商厦",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.25,
+  "inferred": true,
+  "reason": "周末2-2.5万中值"
+ },
+ {
+  "name": "南京商厦",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 4.25,
+  "inferred": true,
+  "reason": "峰值3.5-5万中值"
+ },
+ {
+  "name": "南京商厦",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 1.6,
+  "inferred": true,
+  "reason": "工作日1.4-1.8中值"
+ },
+ {
+  "name": "南京商厦",
+  "metric": "brands",
+  "verdict": "ok",
+  "value": 250,
+  "inferred": true,
+  "reason": "估算150-350中值"
+ },
+ {
+  "name": "砂之船（扬州）奥莱",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 5,
+  "inferred": true,
+  "reason": "周末4-6万中值"
+ },
+ {
+  "name": "砂之船（扬州）奥莱",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "工作日1.5-2.5中值"
+ },
+ {
+  "name": "深圳IBC MALL",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 4.25,
+  "inferred": true,
+  "reason": "值与口径均符"
+ },
+ {
+  "name": "深圳IBC MALL",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "黄金交易中心口径非商场"
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2.45,
+  "inferred": true,
+  "reason": "周末1.1-3.8万中值"
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 5.8,
+  "inferred": true,
+  "reason": "峰值2.1-9.5万中值"
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "brands",
+  "verdict": "ok",
+  "value": 115,
+  "inferred": true,
+  "reason": "估算80-150中值"
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "openedYear",
+  "verdict": "ok",
+  "value": 2012,
+  "inferred": true,
+  "reason": "2010-2014中值"
+ },
+ {
+  "name": "喀什环疆新世界百货",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "周末1.5-2.5万中值"
+ },
+ {
+  "name": "无锡八佰伴（中山路）",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 7,
+  "inferred": true,
+  "reason": "值与口径均符"
+ },
+ {
+  "name": "无锡八佰伴（中山路）",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 3.5,
+  "inferred": true,
+  "reason": "值与口径均符"
+ },
+ {
+  "name": "无锡八佰伴（中山路）",
+  "metric": "trafficPeak",
+  "verdict": "drop",
+  "value": null,
+  "inferred": false,
+  "reason": "峰值低于日均，档位矛盾"
+ },
+ {
+  "name": "哈尔滨卓展购物中心二期",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "周末1.5-2.5万中值"
+ },
+ {
+  "name": "哈尔滨卓展购物中心二期",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 4,
+  "inferred": true,
+  "reason": "峰值3-5万中值"
+ },
+ {
+  "name": "哈尔滨卓展购物中心二期",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 1,
+  "inferred": true,
+  "reason": "工作日0.8-1.2万中值"
+ },
+ {
+  "name": "攀枝花东区万达广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 4.8,
+  "inferred": true,
+  "reason": "日均4万×1.2系数"
+ },
+ {
+  "name": "攀枝花东区万达广场",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 6,
+  "inferred": true,
+  "reason": "端午首日6万+下限"
+ },
+ {
+  "name": "攀枝花东区万达广场",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 3.4,
+  "inferred": true,
+  "reason": "日均4万×0.85系数"
+ },
+ {
+  "name": "鄂州佛罗伦萨小镇",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 2,
+  "inferred": true,
+  "reason": "周末1.5-2.5万中值"
+ },
+ {
+  "name": "鄂州佛罗伦萨小镇",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 4,
+  "inferred": true,
+  "reason": "峰值3-5万中值"
+ },
+ {
+  "name": "鄂州佛罗伦萨小镇",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 0.7,
+  "inferred": true,
+  "reason": "工作日0.6-0.8万中值"
+ },
+ {
+  "name": "鄂州佛罗伦萨小镇",
+  "metric": "buildingArea",
+  "verdict": "ok",
+  "value": 4,
+  "inferred": true,
+  "reason": "一期建面4万㎡直述"
+ },
+ {
+  "name": "马鞍山金鹰购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 3.25,
+  "inferred": true,
+  "reason": "周末2.5-4万中值"
+ },
+ {
+  "name": "德州铜锣湾奥特莱斯小镇",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 1.4,
+  "inferred": true,
+  "reason": "周末1-1.8万中值"
+ },
+ {
+  "name": "德州铜锣湾奥特莱斯小镇",
+  "metric": "trafficPeak",
+  "verdict": "ok",
+  "value": 3.25,
+  "inferred": true,
+  "reason": "峰值2.5-4万中值"
+ },
+ {
+  "name": "德州铜锣湾奥特莱斯小镇",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 0.65,
+  "inferred": true,
+  "reason": "工作日0.5-0.8万中值"
+ },
+ {
+  "name": "济南万虹广场",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 3.35,
+  "inferred": true,
+  "reason": "周末3.2-3.5万中值"
+ },
+ {
+  "name": "昆明世纪金源购物中心",
+  "metric": "trafficWeekend",
+  "verdict": "ok",
+  "value": 1.55,
+  "inferred": true,
+  "reason": "周末1.0-2.1万中值"
+ },
+ {
+  "name": "昆明世纪金源购物中心",
+  "metric": "trafficWeekday",
+  "verdict": "ok",
+  "value": 3.2,
+  "inferred": true,
+  "reason": "工作日2.2-4.2万中值"
+ },
+ {
+  "name": "昆明世纪金源购物中心",
+  "metric": "openedYear",
+  "verdict": "ok",
+  "value": 2009,
+  "inferred": true,
+  "reason": "推断2009±1直述"
+ }
+]

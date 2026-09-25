@@ -74,11 +74,11 @@ async function main() {
     }
   }
 
-  // 语义核定覆盖：仅填补正则未提取到的指标
+  // 语义核定覆盖：默认仅填补正则未提取到的指标；带 force 的验算修正条目可覆盖/删除正则值
   const overrides = fs.existsSync(OVERRIDES_PATH)
     ? (JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf8')) as Record<
         string,
-        Record<string, { value: number; inferred?: boolean }>
+        Record<string, { value: number | null; inferred?: boolean; force?: boolean }>
       >)
     : {};
   let overridden = 0;
@@ -86,12 +86,24 @@ async function main() {
     const o = overrides[d.name];
     if (!o) continue;
     for (const [k, ov] of Object.entries(o)) {
-      if (!ov || typeof ov.value !== 'number') continue;
-      if ((d.metrics as Record<string, unknown>)[k] !== undefined) continue;
-      (d.metrics as Record<string, unknown>)[k] = ov.value;
+      if (!ov || (typeof ov.value !== 'number' && ov.value !== null)) continue;
+      const metrics = d.metrics as Record<string, unknown>;
+      if (metrics[k] !== undefined && !ov.force) continue;
+      if (ov.value === null) {
+        // force+null = 验算判定该值无效，删除（连同推断标记）
+        if (ov.force && metrics[k] !== undefined) {
+          delete metrics[k];
+          if (d.inferred) delete (d.inferred as Record<string, boolean>)[k];
+          overridden++;
+        }
+        continue;
+      }
+      metrics[k] = ov.value;
       if (ov.inferred) {
         d.inferred = d.inferred ?? {};
         (d.inferred as Record<string, boolean>)[k] = true;
+      } else if (d.inferred) {
+        delete (d.inferred as Record<string, boolean>)[k];
       }
       overridden++;
     }

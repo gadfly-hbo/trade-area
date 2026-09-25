@@ -159,6 +159,14 @@ describe('体量类指标（建面/车位/商户/首店/开业年）', () => {
     expect(m.parking).toBe(230);
     expect(inf.parking).toBe(true);
   });
+  it('车位防误抓：停车费/小时/配建指标不是车位数', () => {
+    expect(extractMetrics({ 交通条件: '停车6元/小时、24小时封顶60元' }).parking).toBeUndefined();
+    expect(extractMetrics({ 商业级别与体量: '车位近千个，1小时免费、超出8元/h' }).parking).toBeUndefined();
+    expect(extractMetrics({ 最大优势: '停车配建指标、2024-2025年单店客流官方' }).parking).toBeUndefined();
+    // 坏句在前不连坐：迭代到真正的车位句
+    const m = extractMetrics({ 商业级别与体量: '1200个停车位' , 交通条件: '停车1小时免费' });
+    expect(m.parking).toBe(1200);
+  });
   it('商户与首店', () => {
     expect(extractMetrics({ 商业级别与体量: '870家商户、22个业态' }).merchants).toBe(870);
     expect(extractMetrics({ 商业级别与体量: '入驻商户超350家' }).merchants).toBe(350);
