@@ -1,4 +1,5 @@
 /** 指标卡：meta 标签 + 21px/600 tabular-nums 数值 + 可选备注 */
+import type { ReactNode } from 'react';
 
 export default function MetricCard({
   label,
@@ -6,7 +7,7 @@ export default function MetricCard({
   note,
 }: {
   label: string;
-  value: string | number;
+  value: ReactNode;
   note?: string;
 }) {
   return (

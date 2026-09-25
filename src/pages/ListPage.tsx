@@ -1,19 +1,48 @@
-/** 商圈列表页：全量摘要索引 + 客户端筛选/排序/分页 + 对比篮勾选 */
+/** 商圈列表页：全量摘要索引 + 客户端筛选/排序/分页 + 对比篮勾选；指标列可勾选显隐（localStorage 记忆） */
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Alert, Input, Select, Space, Spin, Table, Typography, message } from 'antd';
+import { Alert, Button, Checkbox, Input, Select, Space, Spin, Table, Typography, message } from 'antd';
 import type { ColumnsType } from 'antd/es/table';
 import type { DistrictSummary } from '@/types';
 import { loadIndex } from '@/data/loader';
 import { useBasket, MAX_COMPARE } from '@/compare/BasketContext';
-import { fmt, numSorter } from '@/utils/metrics';
+import { METRIC_DEFS, numSorter } from '@/utils/metrics';
 import MetricCard from '@/components/MetricCard';
+import MetricValue from '@/components/MetricValue';
 import Section from '@/components/Section';
+
+const FIELD_STORE_KEY = 'ta-list-fields';
+/** 默认勾选的核心字段（一屏可容纳） */
+const DEFAULT_FIELDS = ['trafficWeekday', 'trafficWeekend', 'trafficPeak', 'pop3km', 'brands'];
 
 function RatingPill({ v }: { v: string | null }) {
   if (!v) return <span className="pill neutral">—</span>;
   const cls = v === 'S' ? 'violet' : v === 'B' ? 'warn' : v === 'C' ? 'bad' : 'good';
   return <span className={`pill ${cls}`}>{v} 级</span>;
+}
+
+/** 数值列单元格：数字 + 可选推断警示标 */
+function MetricCell({ v, inferred }: { v: number | undefined; inferred?: boolean }) {
+  return (
+    <span className="num">
+      <MetricValue v={v} inferred={inferred} />
+    </span>
+  );
+}
+
+/** 读取本地存储的显隐字段，异常时回退默认 */
+function loadVisibleFields(): string[] {
+  try {
+    const raw = localStorage.getItem(FIELD_STORE_KEY);
+    const arr: unknown = raw ? JSON.parse(raw) : null;
+    if (Array.isArray(arr)) {
+      const valid = arr.filter((k): k is string => typeof k === 'string' && METRIC_DEFS.some((d) => d.key === k));
+      if (valid.length) return valid;
+    }
+  } catch {
+    // localStorage 不可用或内容损坏 → 默认
+  }
+  return DEFAULT_FIELDS;
 }
 
 export default function ListPage() {
@@ -23,6 +52,7 @@ export default function ListPage() {
   const [city, setCity] = useState<string>();
   const [rating, setRating] = useState<string>();
   const [keyword, setKeyword] = useState('');
+  const [visibleFields, setVisibleFields] = useState<string[]>(loadVisibleFields);
 
   const basket = useBasket();
 
@@ -31,6 +61,14 @@ export default function ListPage() {
       .then((idx) => setDistricts(idx.districts))
       .catch((e) => setError(e instanceof Error ? e.message : String(e)));
   }, []);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(FIELD_STORE_KEY, JSON.stringify(visibleFields));
+    } catch {
+      // 忽略持久化失败
+    }
+  }, [visibleFields]);
 
   const provinces = useMemo(() => {
     const set = new Map<string, number>();
@@ -84,9 +122,9 @@ export default function ListPage() {
       ),
     },
     {
-      title: '评级',
+      title: '项目评级',
       dataIndex: 'rating',
-      width: 80,
+      width: 90,
       align: 'center',
       filters: [
         { text: 'S', value: 'S' },
@@ -98,38 +136,17 @@ export default function ListPage() {
       onFilter: (v, r) => r.rating === v,
       render: (v: string | null) => <RatingPill v={v} />,
     },
-    {
-      title: '周末客流',
-      key: 'trafficWeekend',
-      width: 110,
-      align: 'right',
-      sorter: (a, b) => numSorter(a.metrics.trafficWeekend, b.metrics.trafficWeekend),
-      render: (_, r) => <span className="num">{fmt(r.metrics.trafficWeekend)}</span>,
-    },
-    {
-      title: '节假日峰值',
-      key: 'trafficPeak',
-      width: 110,
-      align: 'right',
-      sorter: (a, b) => numSorter(a.metrics.trafficPeak, b.metrics.trafficPeak),
-      render: (_, r) => <span className="num">{fmt(r.metrics.trafficPeak)}</span>,
-    },
-    {
-      title: '3公里人口',
-      key: 'pop3km',
-      width: 110,
-      align: 'right',
-      sorter: (a, b) => numSorter(a.metrics.pop3km, b.metrics.pop3km),
-      render: (_, r) => <span className="num">{fmt(r.metrics.pop3km)}</span>,
-    },
-    {
-      title: '租金',
-      key: 'rent',
-      width: 100,
-      align: 'right',
-      sorter: (a, b) => numSorter(a.metrics.rent, b.metrics.rent),
-      render: (_, r) => <span className="num">{fmt(r.metrics.rent)}</span>,
-    },
+    ...METRIC_DEFS.filter((d) => visibleFields.includes(d.key)).map((def) => ({
+      title: def.label,
+      key: def.key,
+      width: def.unit ? 120 : 100,
+      align: 'right' as const,
+      sorter: (a: DistrictSummary, b: DistrictSummary) =>
+        numSorter(a.metrics[def.key], b.metrics[def.key]),
+      render: (_: unknown, r: DistrictSummary) => (
+        <MetricCell v={r.metrics[def.key]} inferred={r.inferred?.[def.key]} />
+      ),
+    })),
     {
       title: '选址评分',
       dataIndex: 'score',
@@ -232,6 +249,27 @@ export default function ListPage() {
             勾选商圈加入对比篮（最多 {MAX_COMPARE} 个）
           </Typography.Text>
         </Space>
+        <div
+          style={{
+            marginTop: 10,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 12,
+            flexWrap: 'wrap',
+          }}
+        >
+          <Typography.Text type="secondary" style={{ fontSize: 12 }}>
+            显示字段
+          </Typography.Text>
+          <Checkbox.Group
+            options={METRIC_DEFS.map((d) => ({ label: d.label, value: d.key }))}
+            value={visibleFields}
+            onChange={(vals) => setVisibleFields(vals as string[])}
+          />
+          <Button size="small" type="text" onClick={() => setVisibleFields(DEFAULT_FIELDS)}>
+            恢复默认
+          </Button>
+        </div>
       </Section>
 
       <div className="panel" style={{ padding: '6px 6px 0' }}>
@@ -240,6 +278,7 @@ export default function ListPage() {
           size="middle"
           columns={columns}
           dataSource={filtered}
+          scroll={{ x: 620 + visibleFields.length * 118 }}
           pagination={{
             pageSize: 20,
             showSizeChanger: true,

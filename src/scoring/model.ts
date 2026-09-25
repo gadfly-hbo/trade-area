@@ -2,17 +2,18 @@
  * 服饰（成人装+童装）选址评分模型。
  * 输入为 ETL 期算好的百分位分（逆向指标已翻转，值越高越利于选址），
  * 前端调权重时基于同一模型实时重算。
+ *
+ * 四因子：客流 / 3公里人口 / 客群匹配 / 停车便利。
+ * 租金、竞品、商户、首店已于 2026-09 停用（不再展示与评分），数据仍在 JSON 中保留。
  */
 import type { DistrictMetrics, PercentileMap } from '../types';
 
-export type FactorKey = 'traffic' | 'pop' | 'crowd' | 'rent' | 'competitor' | 'parking';
+export type FactorKey = 'traffic' | 'pop' | 'crowd' | 'parking';
 
 export interface ScoreWeights {
   traffic: number;
   pop: number;
   crowd: number;
-  rent: number;
-  competitor: number;
   parking: number;
 }
 
@@ -21,8 +22,6 @@ export const DEFAULT_WEIGHTS: ScoreWeights = {
   traffic: 30,
   pop: 20,
   crowd: 15,
-  rent: 15,
-  competitor: 10,
   parking: 10,
 };
 
@@ -30,8 +29,6 @@ export const FACTOR_LABELS: Record<FactorKey, string> = {
   traffic: '客流',
   pop: '3公里人口',
   crowd: '客群匹配',
-  rent: '租金水平',
-  competitor: '竞品压力',
   parking: '停车便利',
 };
 
@@ -64,8 +61,6 @@ export function computeFactors(p: PercentileMap): Record<FactorKey, number | nul
     traffic: trafficScore(p),
     pop: p.pop3km ?? null,
     crowd: p.crowdAB ?? null,
-    rent: p.rent ?? null,
-    competitor: p.competitors ?? null,
     parking: p.parkingPer10k ?? null,
   };
 }

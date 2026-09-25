@@ -19,6 +19,9 @@ const DATA_DIR = process.env.TRADE_AREA_MD_DIR ?? path.join(ROOT, 'data', 'raw')
 const OUT_DIR = path.join(ROOT, 'public', 'data');
 const DETAILS_DIR = path.join(OUT_DIR, 'details');
 const SHARD_SIZE = 50;
+// 语义核定覆盖（LLM 逐条判定 + 合理域校验后固化）：键为商圈名，值为 指标键 → { value, inferred }。
+// 仅在正则未提取到该指标时生效，避免覆盖确定性正则结果。
+const OVERRIDES_PATH = path.join(ROOT, 'data', 'overrides.json');
 
 /** 从文件名取稳定 id：优先 NNN_ 前缀，否则用去扩展名后的名字 */
 function idFromFilename(filename: string, used: Set<string>): string {
@@ -68,6 +71,29 @@ async function main() {
       }
     } catch (err) {
       failures.push({ file, error: err instanceof Error ? err.message : String(err) });
+    }
+  }
+
+  // 语义核定覆盖：仅填补正则未提取到的指标
+  const overrides = fs.existsSync(OVERRIDES_PATH)
+    ? (JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf8')) as Record<
+        string,
+        Record<string, { value: number; inferred?: boolean }>
+      >)
+    : {};
+  let overridden = 0;
+  for (const d of districts) {
+    const o = overrides[d.name];
+    if (!o) continue;
+    for (const [k, ov] of Object.entries(o)) {
+      if (!ov || typeof ov.value !== 'number') continue;
+      if ((d.metrics as Record<string, unknown>)[k] !== undefined) continue;
+      (d.metrics as Record<string, unknown>)[k] = ov.value;
+      if (ov.inferred) {
+        d.inferred = d.inferred ?? {};
+        (d.inferred as Record<string, boolean>)[k] = true;
+      }
+      overridden++;
     }
   }
 
@@ -128,7 +154,9 @@ async function main() {
   fs.writeFileSync(path.join(OUT_DIR, 'index.json'), JSON.stringify(index));
 
   // —— 报告 ——
-  console.log(`✅ 解析完成：${districts.length}/${files.length} 个商圈，${shardCount} 个详情分片，省市共识回填 ${backfilled} 个`);
+  console.log(
+    `✅ 解析完成：${districts.length}/${files.length} 个商圈，${shardCount} 个详情分片，省市共识回填 ${backfilled} 个，语义核定补填 ${overridden} 项`,
+  );
   if (failures.length) {
     console.error(`\n❌ 失败 ${failures.length} 个：`);
     for (const f of failures) console.error(`  - ${f.file}: ${f.error}`);
@@ -139,7 +167,7 @@ async function main() {
   }
   console.log('\n指标抽取率（top 缺失项）：');
   const missing = Object.keys({
-    buildingArea: 0, parking: 0, merchants: 0, firstStores: 0, pop3km: 0,
+    buildingArea: 0, parking: 0, merchants: 0, brands: 0, firstStores: 0, pop3km: 0,
     trafficWeekday: 0, trafficWeekend: 0, trafficPeak: 0, rent: 0, openedYear: 0,
     crowdA: 0, crowdB: 0, crowdC: 0, competitors: 0,
   } as Record<string, number>)

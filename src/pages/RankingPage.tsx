@@ -16,15 +16,15 @@ import Section from '@/components/Section';
 
 const FACTOR_KEYS = Object.keys(FACTOR_LABELS) as FactorKey[];
 
-/** 权重 ↔ URL：w=30,20,15,15,10,10 */
+/** 权重 ↔ URL：w=30,20,15,10（旧版 5/6 段含已停用因子的链接回退默认值） */
 function parseWeights(raw: string | null): ScoreWeights {
   if (!raw) return { ...DEFAULT_WEIGHTS };
   const nums = raw.split(',').map(Number);
-  if (nums.length !== 6 || nums.some((n) => !Number.isFinite(n) || n < 0)) {
+  if (nums.length !== 4 || nums.some((n) => !Number.isFinite(n) || n < 0)) {
     return { ...DEFAULT_WEIGHTS };
   }
-  const [traffic, pop, crowd, rent, competitor, parking] = nums;
-  return { traffic, pop, crowd, rent, competitor, parking };
+  const [traffic, pop, crowd, parking] = nums;
+  return { traffic, pop, crowd, parking };
 }
 
 function RankPill({ rank }: { rank: number }) {

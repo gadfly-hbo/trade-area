@@ -1,4 +1,5 @@
 /** 商圈详情页：指标卡 + 森马三大人群 + 12 维度全文（来源/可信度标注） */
+import type { ReactNode } from 'react';
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Alert, Button, Collapse, Descriptions, Space, Spin, Typography } from 'antd';
@@ -11,9 +12,10 @@ import { useBasket } from '@/compare/BasketContext';
 import { ConfidenceTag, DimText, SourceTags } from '@/components/DimText';
 import EChart from '@/components/EChart';
 import MetricCard from '@/components/MetricCard';
+import MetricValue from '@/components/MetricValue';
 import Section from '@/components/Section';
 import { chartBase, palette } from '@/theme';
-import { fmt } from '@/utils/metrics';
+import { METRIC_DEFS, fmt } from '@/utils/metrics';
 
 const CROWD_LABELS: Record<'crowdA' | 'crowdB' | 'crowdC', string> = {
   crowdA: 'A类 质感流行派',
@@ -87,39 +89,122 @@ export default function DetailPage() {
   }
 
   const m = detail.metrics;
-  const statCards: Array<{ label: string; value: string }> = [
-    { label: '工作日客流（万人次/日）', value: fmt(m.trafficWeekday) },
-    { label: '周末客流（万人次/日）', value: fmt(m.trafficWeekend) },
-    { label: '节假日峰值（万人次/日）', value: fmt(m.trafficPeak) },
-    { label: '3公里人口（万人）', value: fmt(m.pop3km) },
-    { label: '街铺租金（元/㎡/天）', value: fmt(m.rent) },
-    { label: '竞品商业体（个）', value: fmt(m.competitors) },
-    { label: '车位数（个）', value: fmt(m.parking) },
+  const statCards: Array<{ label: string; value: ReactNode }> = [
+    {
+      label: '工作日客流（万人次/日）',
+      value: <MetricValue v={m.trafficWeekday} inferred={detail.inferred?.trafficWeekday} />,
+    },
+    {
+      label: '周末客流（万人次/日）',
+      value: <MetricValue v={m.trafficWeekend} inferred={detail.inferred?.trafficWeekend} />,
+    },
+    {
+      label: '节假日峰值（万人次/日）',
+      value: <MetricValue v={m.trafficPeak} inferred={detail.inferred?.trafficPeak} />,
+    },
+    {
+      label: '3公里人口（万人）',
+      value: <MetricValue v={m.pop3km} inferred={detail.inferred?.pop3km} />,
+    },
+    {
+      label: '品牌数（个）',
+      value: <MetricValue v={m.brands} inferred={detail.inferred?.brands} />,
+    },
+    {
+      label: '车位数（个）',
+      value: <MetricValue v={m.parking} inferred={detail.inferred?.parking} />,
+    },
     { label: '选址评分', value: detail.score === null ? '—' : detail.score.toFixed(1) },
   ];
 
-  const collapseItems: CollapseProps['items'] = DIMENSION_KEYS.map((key) => {
-    const d = detail.dimensions[key];
-    return {
-      key,
+  const collapseItems: CollapseProps['items'] = [
+    {
+      key: '项目评级',
       label: (
         <Space size={8}>
-          <span>{key}</span>
-          {d && <ConfidenceTag level={d.confidence} />}
+          <span>项目评级</span>
+          <RatingPill v={detail.rating} />
         </Space>
       ),
-      children: d ? (
-        <div>
-          <DimText detail={d} />
-          <SourceTags sources={d.sources} />
-        </div>
+      children: detail.rating ? (
+        <Typography.Text>
+          森马五级评级（S / A+ / A / B / C），来自渠道项目管理清单，按商圈名匹配回填至源报告「项目性质」行。
+        </Typography.Text>
       ) : (
-        <Typography.Text type="secondary">该维度数据缺失</Typography.Text>
+        <Typography.Text type="secondary">
+          未评级：渠道项目管理清单中无此商圈或未匹配到评级。
+        </Typography.Text>
       ),
-    };
-  });
+    },
+    ...DIMENSION_KEYS.map((key) => {
+      const d = detail.dimensions[key];
+      return {
+        key,
+        label: (
+          <Space size={8}>
+            <span>{key}</span>
+            {d && <ConfidenceTag level={d.confidence} />}
+          </Space>
+        ),
+        children: d ? (
+          <div>
+            <DimText detail={d} />
+            <SourceTags sources={d.sources} />
+          </div>
+        ) : (
+          <Typography.Text type="secondary">该维度数据缺失</Typography.Text>
+        ),
+      };
+    }),
+  ];
 
   const inBasket = basket.isSelected(detail.id);
+
+  /** 导出当前商圈明细为 xlsx：指标（含推断标记）+ 12 维度全文与来源，两个工作表 */
+  const exportDetail = async () => {
+    const XLSX = await import('xlsx');
+    const wb = XLSX.utils.book_new();
+
+    const metricRows: Array<Array<string | number>> = [
+      ['字段', '值', '备注'],
+      ['商圈', detail.name, ''],
+      ['地址', detail.address, ''],
+      ['省市', `${detail.province} ${detail.city}`.trim(), ''],
+      ['项目评级', detail.rating ? `${detail.rating} 级` : '—', ''],
+      ['选址评分', detail.score ?? '—', ''],
+      ['开业年份', m.openedYear ?? '—', detail.inferred?.openedYear ? '推断' : ''],
+      ...METRIC_DEFS.map((def) => [
+        def.label,
+        m[def.key] ?? '—',
+        `${def.unit}${detail.inferred?.[def.key] ? '（推断）' : ''}`,
+      ]),
+      ...(['crowdA', 'crowdB', 'crowdC'] as const).map((k) => [
+        CROWD_LABELS[k],
+        m[k] !== undefined ? `${m[k]}%` : '—',
+        detail.inferred?.[k] ? '推断' : '',
+      ]),
+    ];
+    const wsMetrics = XLSX.utils.aoa_to_sheet(metricRows);
+    wsMetrics['!cols'] = [{ wch: 20 }, { wch: 24 }, { wch: 16 }];
+    XLSX.utils.book_append_sheet(wb, wsMetrics, '指标');
+
+    const dimRows: string[][] = [['维度', '内容', '来源', '可信度']];
+    dimRows.push([
+      '项目评级',
+      detail.rating ? `${detail.rating} 级` : '未评级（渠道项目管理清单无此商圈）',
+      '渠道项目管理清单（按商圈名匹配回填）',
+      '—',
+    ]);
+    for (const key of DIMENSION_KEYS) {
+      const d = detail.dimensions[key];
+      dimRows.push([key, d?.text ?? '', d?.sources.join('；') ?? '', d?.confidence ?? '']);
+    }
+    const wsDims = XLSX.utils.aoa_to_sheet(dimRows);
+    wsDims['!cols'] = [{ wch: 16 }, { wch: 90 }, { wch: 44 }, { wch: 8 }];
+    XLSX.utils.book_append_sheet(wb, wsDims, '维度明细');
+
+    XLSX.writeFile(wb, `${detail.name}-明细.xlsx`);
+  };
 
   return (
     <div>
@@ -149,6 +234,9 @@ export default function DetailPage() {
             {detail.province} {detail.city}
           </Descriptions.Item>
           <Descriptions.Item label="开业年份">{fmt(m.openedYear)}</Descriptions.Item>
+          <Descriptions.Item label="项目评级">
+            <RatingPill v={detail.rating} />
+          </Descriptions.Item>
         </Descriptions>
       </Section>
 
@@ -167,8 +255,19 @@ export default function DetailPage() {
         </Section>
       )}
 
-      <Section title="维度明细" desc="点击展开各维度全文与数据来源。">
-        <Collapse items={collapseItems} defaultActiveKey={DIMENSION_KEYS.slice(0, 2)} />
+      <Section
+        title="维度明细"
+        desc="点击展开各维度全文与数据来源。"
+        extra={
+          <Button size="small" onClick={() => void exportDetail()}>
+            导出明细 (xlsx)
+          </Button>
+        }
+      >
+        <Collapse
+          items={collapseItems}
+          defaultActiveKey={['项目评级', DIMENSION_KEYS[0], DIMENSION_KEYS[1]]}
+        />
       </Section>
     </div>
   );

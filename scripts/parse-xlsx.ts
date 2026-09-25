@@ -112,8 +112,10 @@ export function parseWorkbook(wb: WorkBook, filename: string): ParseResult {
     if (raw) dimensions[key] = stripMarkers(raw);
   }
 
+  const inferred: NonNullable<DistrictDetail['inferred']> = {};
   const metrics = extractMetrics(
     Object.fromEntries(Object.entries(rawDimensions)) as Record<string, string>,
+    inferred,
   );
 
   return {
@@ -125,6 +127,7 @@ export function parseWorkbook(wb: WorkBook, filename: string): ParseResult {
       city,
       rating,
       metrics,
+      ...(Object.keys(inferred).length ? { inferred } : {}),
       percentiles: {},
       score: null,
       shard: 0,

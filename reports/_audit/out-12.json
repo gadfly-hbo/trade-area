@@ -1,0 +1,1562 @@
+[
+  {
+    "name": "深圳中洲湾C Future City",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州高铁吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "淮北相山万达广场",
+    "metric": "firstStores",
+    "value": 54,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐美美2",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "济南银座商城(总店)",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海芮欧百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南宁兴宁吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "杭州武林银泰百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "滁州南谯万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆光环购物公园",
+    "metric": "firstStores",
+    "value": 130,
+    "inferred": false
+  },
+  {
+    "name": "郑州高新万科广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京金鹰湖滨天地B区",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "郑州龙湖锦艺城购物中心",
+    "metric": "firstStores",
+    "value": 119,
+    "inferred": false
+  },
+  {
+    "name": "宿迁中央商场（沭阳店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上饶余干天虹购物中心",
+    "metric": "firstStores",
+    "value": 20,
+    "inferred": false
+  },
+  {
+    "name": "深圳壹方天地",
+    "metric": "firstStores",
+    "value": 150,
+    "inferred": false
+  },
+  {
+    "name": "上海九亭金地广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳湾万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海百联ZX造趣场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆南川万达广场",
+    "metric": "firstStores",
+    "value": 116,
+    "inferred": false
+  },
+  {
+    "name": "佛山大信新都汇顺德店",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海久光中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "郑州局外太格茂",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆铜梁万达广场",
+    "metric": "firstStores",
+    "value": 100,
+    "inferred": false
+  },
+  {
+    "name": "扬州金鹰国际购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安大融城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖成都时代天街A馆",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宁波慈溪环创爱琴海购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "柳州地王新天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖南京六合天街",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "泉州南安中骏世界城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖重庆高新天街",
+    "metric": "firstStores",
+    "value": 130,
+    "inferred": false
+  },
+  {
+    "name": "龙湖重庆礼嘉天街",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳IBC MALL",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "佛山东方广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙凯德壹中心",
+    "metric": "firstStores",
+    "value": 43,
+    "inferred": false
+  },
+  {
+    "name": "东莞首铸万科广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宁波阪急百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海晶耀前滩",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海瑞虹天地太阳宫",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "永旺梦乐城广州新塘店",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海宝山招商花园城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "印力汇德隆杭州奥体印象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安太乙城生活中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "汕头苏宁广场(长平东路店)",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "延边百利城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "白山欧亚合兴商场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "邵阳步步高新天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐美美1",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐天山百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐友好商场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "鹤壁裕隆·爱之城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "驻马店新玛特",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "东莞上悦汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西宁王府井大象城",
+    "metric": "firstStores",
+    "value": 30,
+    "inferred": false
+  },
+  {
+    "name": "宝鸡天下汇高新店",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广元利州万达广场",
+    "metric": "firstStores",
+    "value": 86,
+    "inferred": false
+  },
+  {
+    "name": "苏州新湖广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西双版纳爱琴海购物中心",
+    "metric": "firstStores",
+    "value": 60,
+    "inferred": false
+  },
+  {
+    "name": "厦门海上世界购物中心（一期）",
+    "metric": "firstStores",
+    "value": 28.5,
+    "inferred": false
+  },
+  {
+    "name": "河源坚基购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "常德武陵万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都伊藤洋华堂（双楠店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "晋中新建万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "淮安中央商场（新亚店）",
+    "metric": "firstStores",
+    "value": 40,
+    "inferred": false
+  },
+  {
+    "name": "北京朝阳合生汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "佛山保利Mall",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安立丰城LE CITY",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖南京河西天街",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京华采天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南昌武商MALL",
+    "metric": "firstStores",
+    "value": 78,
+    "inferred": false
+  },
+  {
+    "name": "江门江海广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "鄂州佛罗伦萨小镇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "武汉大悦城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京怀柔青春万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "贵阳方圆荟·海豚广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "太原吾悦广场",
+    "metric": "firstStores",
+    "value": 90,
+    "inferred": false
+  },
+  {
+    "name": "青岛利群商厦",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京京西大悦城",
+    "metric": "firstStores",
+    "value": 60,
+    "inferred": false
+  },
+  {
+    "name": "兴安盟万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南阳摩根吾悦广场",
+    "metric": "firstStores",
+    "value": 31,
+    "inferred": false
+  },
+  {
+    "name": "济南万虹广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "岳阳步步高新天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙松雅湖吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "德阳旌阳万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙友阿奥特莱斯购物公园",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "金华金东万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "遵义国贸购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京环球新意百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安大悦城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宁波奉化万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京宜悦城",
+    "metric": "firstStores",
+    "value": 30,
+    "inferred": false
+  },
+  {
+    "name": "长治高新万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安御锦城凯德广场一期",
+    "metric": "firstStores",
+    "value": 41,
+    "inferred": false
+  },
+  {
+    "name": "济南莱芜茂业天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南宁梦之岛水晶城百货(水晶城店)",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宜宾万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广州石井国际广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都保利时光里",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "茂名电白万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "玉林玉州万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳光明蓝鲸世界",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆大渡口万象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京金茂览秀城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "三亚国际免税城CDFmall一期AB区",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "海口万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐杉杉奥特莱斯广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆茶园奥园广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙百联奥特莱斯广场",
+    "metric": "firstStores",
+    "value": 25,
+    "inferred": false
+  },
+  {
+    "name": "金华第一百货（东阳店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "柳州万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "常州购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都七一国际广场",
+    "metric": "firstStores",
+    "value": 140,
+    "inferred": false
+  },
+  {
+    "name": "泰州万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "临沂河东吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大连柏威年购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大连百年城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆璧山俊豪中央大街",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州万宝财富商业广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北海和安宁春城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "重庆凯谊世纪广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都仁和新城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安龙首印象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "洛阳市王府井购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "潍坊银座商城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "沈阳太原街万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "青岛城阳万象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "绍兴嵊州吾悦广场",
+    "metric": "firstStores",
+    "value": 80,
+    "inferred": false
+  },
+  {
+    "name": "合景·悠方（苏州）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南昌朝阳洲天虹购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京王府井奥莱·香江小镇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都崇州万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "枣庄吾悦广场",
+    "metric": "firstStores",
+    "value": 72,
+    "inferred": false
+  },
+  {
+    "name": "长春摩天活力城Mall一期",
+    "metric": "firstStores",
+    "value": 100,
+    "inferred": false
+  },
+  {
+    "name": "重庆蘭亭·新都汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖北京房山天街",
+    "metric": "firstStores",
+    "value": 120,
+    "inferred": false
+  },
+  {
+    "name": "滁州苏宁广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "新乡牧野万达广场",
+    "metric": "firstStores",
+    "value": 108,
+    "inferred": false
+  },
+  {
+    "name": "北京密云万象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "泸州龙马潭万达广场",
+    "metric": "firstStores",
+    "value": 74,
+    "inferred": false
+  },
+  {
+    "name": "武汉万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼市回民区万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "湛江印象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "哈尔滨凯德广场（埃德蒙顿店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "合肥银泰百货（高新店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "石家庄万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "海口友谊商业广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "佛山天虹购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙宁乡九龙仓时代奥特莱斯",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "福州闽侯万家广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙岩新罗万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都时代奥特莱斯",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "菏泽牡丹万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京金鹰购物中心（珠江路店）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海复地活力城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "泉州晋江吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "昆明五华吾悦广场",
+    "metric": "firstStores",
+    "value": 30,
+    "inferred": false
+  },
+  {
+    "name": "顺德欢乐海岸plus",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京雨花吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "龙湖南京龙湾天街",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙荟聚",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "东莞民盈·国贸城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京超极合生汇西区",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宝鸡银泰百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳红山6979",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "天津西青大悦汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "武汉武商梦时代",
+    "metric": "firstStores",
+    "value": 120,
+    "inferred": false
+  },
+  {
+    "name": "江门昌大昌广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "资阳雁江万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "德州德城万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京乐多港万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "佛山顺德印象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "济南海那城百联奥特莱斯",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "咸阳丽彩万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京IFC",
+    "metric": "firstStores",
+    "value": 50,
+    "inferred": false
+  },
+  {
+    "name": "合景·悠方（成都）",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京三里屯太古里",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "江门新会万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "沈阳铁西万象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "烟台开发区万达广场",
+    "metric": "firstStores",
+    "value": 48,
+    "inferred": false
+  },
+  {
+    "name": "温州乐清正大广场银泰百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "昆明万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "石家庄北国奥特莱斯",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "福州万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "郑州盛华里购物中心",
+    "metric": "firstStores",
+    "value": 40,
+    "inferred": false
+  },
+  {
+    "name": "绵阳CBD万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "益阳赫山万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南通通州万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "商丘万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大连普兰店万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "鹤壁淇滨万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "焦作解放万达广场",
+    "metric": "firstStores",
+    "value": 108,
+    "inferred": false
+  },
+  {
+    "name": "杭州金地广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "武汉金地广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海前滩太古里",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都锦城万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "成都金堂万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "天津滨海万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京西铁营万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "扬州万象汇",
+    "metric": "firstStores",
+    "value": 100,
+    "inferred": false
+  },
+  {
+    "name": "永旺梦乐城天津津南",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "汕头万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "达州罗浮广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡惠山万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宁波镇海吾悦广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "徐州城投国际广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南昌西湖万达广场",
+    "metric": "firstStores",
+    "value": 31,
+    "inferred": false
+  },
+  {
+    "name": "长沙吉联mall",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "达州宣汉宏帆巴人广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "郑州杉杉奥特莱斯（中牟店）一期",
+    "metric": "firstStores",
+    "value": 45,
+    "inferred": false
+  },
+  {
+    "name": "南昌百盛百货A馆",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "贵阳国贸逸天城购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "牡丹江西安万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "阜新玉龙万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "昆明顺城购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "德州澳德乐时代广场",
+    "metric": "firstStores",
+    "value": 100,
+    "inferred": false
+  },
+  {
+    "name": "武汉江腾广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "沈阳市府恒隆广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安南门合生汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "沈阳卓展购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "长沙凯德广场雨花亭",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海宝山宝杨宝龙广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "武汉百联奥特莱斯主题公园",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "永旺梦乐城武汉金银潭",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳蛇口招商花园城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "深圳福田星河COCO Park一期",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "北京昌平八达岭奥特莱斯",
+    "metric": "firstStores",
+    "value": 148,
+    "inferred": false
+  },
+  {
+    "name": "北京SKP",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "东莞常平正利天虹购物中心",
+    "metric": "firstStores",
+    "value": 80,
+    "inferred": false
+  },
+  {
+    "name": "重庆百联上海城购物中心",
+    "metric": "firstStores",
+    "value": 30,
+    "inferred": false
+  },
+  {
+    "name": "宁波世纪东方广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "泰州海陵万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南宁万象城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南宁东盟盛天地",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "阜阳颍州万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "徐州云龙万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "淮南国庆路万达广场",
+    "metric": "firstStores",
+    "value": 100,
+    "inferred": false
+  },
+  {
+    "name": "北京望京万象汇",
+    "metric": "firstStores",
+    "value": 20,
+    "inferred": false
+  },
+  {
+    "name": "吉安天虹购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "洛阳宝龙广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "哈尔滨万象汇",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "齐齐哈尔建华万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "营口站前万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "惠州港惠购物中心一二期",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "武汉潮流盒子x118",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "金华世贸城市广场",
+    "metric": "firstStores",
+    "value": 68,
+    "inferred": false
+  },
+  {
+    "name": "廊坊广阳万达广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "唐山远洋城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南宁会展航洋城",
+    "metric": "firstStores",
+    "value": 30,
+    "inferred": false
+  },
+  {
+    "name": "宜宾莱茵春天购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大连亿合城(开发区店)",
+    "metric": "firstStores",
+    "value": 40,
+    "inferred": false
+  },
+  {
+    "name": "上海南翔五彩城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海新世界大丸百货",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡方圆荟购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "娄底新化东方城市广场",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "天津和平大悦城",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "荆门漳河万达广场",
+    "metric": "firstStores",
+    "value": 26,
+    "inferred": false
+  },
+  {
+    "name": "常德欢乐城国际购物中心",
+    "metric": "firstStores",
+    "value": null,
+    "inferred": false
+  }
+]

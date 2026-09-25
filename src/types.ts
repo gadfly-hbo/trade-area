@@ -29,9 +29,11 @@ export interface DistrictMetrics {
   buildingArea?: number;
   /** 配建机动车位（个） */
   parking?: number;
-  /** 商户数（家） */
+  /** 商户数（家）— 已停用展示（2026-09），数据保留 */
   merchants?: number;
-  /** 首店数量（家） */
+  /** 品牌数（个，展示项；品牌≠商户，不参与评分） */
+  brands?: number;
+  /** 首店数量（家）— 已停用展示（2026-09），数据保留 */
   firstStores?: number;
   /** 周边3公里常住人口（万） */
   pop3km?: number;
@@ -41,7 +43,7 @@ export interface DistrictMetrics {
   trafficWeekend?: number;
   /** 节假日峰值客流（万人次/日） */
   trafficPeak?: number;
-  /** 街铺租金（元/㎡/天） */
+  /** 街铺租金（元/㎡/天）— 已停用展示与评分（2026-09），数据保留 */
   rent?: number;
   /** 开街/开业年份 */
   openedYear?: number;
@@ -51,7 +53,7 @@ export interface DistrictMetrics {
   crowdB?: number;
   /** 森马人群 C类·百搭优选客（%） */
   crowdC?: number;
-  /** 2-3公里内大型竞品商业体数（个） */
+  /** 2-3公里内竞品商业体数（个）— 已停用展示（2026-09），数据保留 */
   competitors?: number;
 }
 
@@ -76,6 +78,8 @@ export interface DistrictSummary {
   city: string;
   rating: ProjectRating | null;
   metrics: DistrictMetrics;
+  /** 报告标注[推断]口径的指标集合：值参与对比/评分，但 UI 需显示「推断」警示标 */
+  inferred?: Partial<Record<keyof DistrictMetrics, boolean>>;
   percentiles: PercentileMap;
   /** 默认权重下的综合评分（0-100），无可用指标时为 null */
   score: number | null;

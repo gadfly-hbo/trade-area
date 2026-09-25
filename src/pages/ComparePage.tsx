@@ -14,6 +14,7 @@ import EChart from '@/components/EChart';
 import Section from '@/components/Section';
 import { CHART_SERIES, chartBase, palette } from '@/theme';
 import { METRIC_DEFS, fmt } from '@/utils/metrics';
+import InferredTag from '@/components/InferredTag';
 
 export default function ComparePage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -80,9 +81,7 @@ export default function ComparePage() {
 
   const trafficOption = useMemo<EChartsCoreOption | null>(() => {
     if (!details?.length) return null;
-    const defs = METRIC_DEFS.filter(
-      (d) => d.chart && d.key !== 'rent' && d.key !== 'competitors',
-    );
+    const defs = METRIC_DEFS.filter((d) => d.chart);
     const base = chartBase(palette);
     return {
       tooltip: { trigger: 'axis', ...base.tooltip },
@@ -106,44 +105,6 @@ export default function ComparePage() {
         type: 'bar',
         data: defs.map((def) => d.metrics[def.key] ?? null),
         itemStyle: { color: CHART_SERIES[i % CHART_SERIES.length] },
-      })),
-    };
-  }, [details]);
-
-  const rentOption = useMemo<EChartsCoreOption | null>(() => {
-    if (!details?.length) return null;
-    const hasRent = details.some((d) => d.metrics.rent !== undefined);
-    if (!hasRent) return null;
-    const base = chartBase(palette);
-    return {
-      tooltip: { trigger: 'axis', ...base.tooltip },
-      legend: { ...base.legend, data: details.map((d) => d.name) },
-      grid: { left: 60, right: 20, top: 30, bottom: 60 },
-      xAxis: {
-        type: 'category',
-        data: ['街铺租金'],
-        axisLabel: base.axisLabel,
-        axisLine: base.axisLine,
-      },
-      yAxis: {
-        type: 'value',
-        name: '元/㎡/天',
-        nameTextStyle: { color: palette.soft },
-        axisLabel: base.axisLabel,
-        splitLine: base.splitLine,
-      },
-      series: details.map((d, i) => ({
-        name: d.name,
-        type: 'bar',
-        barWidth: 40,
-        data: [d.metrics.rent ?? null],
-        itemStyle: { color: CHART_SERIES[i % CHART_SERIES.length] },
-        label: {
-          show: true,
-          position: 'top',
-          formatter: (p: { value?: number }) => fmt(p.value),
-          color: palette.text,
-        },
       })),
     };
   }, [details]);
@@ -233,7 +194,7 @@ export default function ComparePage() {
   return (
     <div>
       <div className="two-col">
-        <Section title="选址六因子雷达">
+        <Section title="选址四因子雷达">
           <EChart option={radarOption!} height={340} />
         </Section>
         <Section title="客流与人口（万人次）">
@@ -241,15 +202,9 @@ export default function ComparePage() {
         </Section>
       </div>
 
-      {rentOption && (
-        <Section title="租金水平（元/㎡/天，越低越好）">
-          <EChart option={rentOption} height={220} />
-        </Section>
-      )}
-
       <Section
         title="关键指标对照"
-        desc="加粗墨青色为对比中最优；租金与竞品为「越低越好」。"
+        desc="加粗墨青色为对比中最优。"
       >
         <div style={{ overflowX: 'auto' }}>
           <table className="cmp-table">
@@ -280,6 +235,7 @@ export default function ComparePage() {
                       className={`num${v !== undefined && v === best ? ' best-value' : ''}`}
                     >
                       {fmt(v)}
+                      {v !== undefined && details[i].inferred?.[def.key] && <InferredTag />}
                     </td>
                   ))}
                 </tr>
