@@ -95,18 +95,27 @@ describe('normalize + scoring（单商圈）', () => {
   });
 });
 
-describe('评分容缺：权重分摊', () => {
-  it('缺失因子权重按比例分摊，不惩罚缺数据', () => {
+describe('评分严格模式：任一因子缺失不评分', () => {
+  it('缺停车便利 → score 为 null（不再权重分摊）', () => {
     // 只有客流与人口数据
     const p = { trafficWeekday: 80, trafficWeekend: 60, pop3km: 40 };
     const { score, factors } = computeScore(
       { trafficWeekday: 17.5, trafficWeekend: 30, pop3km: 11.5 },
       p,
     );
-    // traffic = (80*0.4 + 60*0.4)/0.8 = 70；pop = 40
-    // 权重 traffic 30 / pop 20 → (70*30 + 40*20)/50 = 58
+    expect(score).toBeNull();
     expect(factors.map((f) => f.key)).toEqual(['traffic', 'pop']);
-    expect(score).toBe(58);
+  });
+
+  it('权重调为 0 的因子视为刻意排除，不影响完整性', () => {
+    const p = { trafficWeekday: 80, trafficWeekend: 60, pop3km: 40 };
+    const { score, factors } = computeScore(
+      { trafficWeekday: 17.5, trafficWeekend: 30, pop3km: 11.5 },
+      p,
+      { traffic: 30, pop: 20, crowd: 0, parking: 0 },
+    );
+    expect(score).not.toBeNull();
+    expect(factors.map((f) => f.key)).toEqual(['traffic', 'pop']);
   });
 
   it('全部缺失返回 null', () => {

@@ -16,7 +16,7 @@
 - xlsx 是 CJS 包：Node ESM 下具名导出在 `default` 上，`scripts/parse-xlsx.ts` 顶部有兼容导入，勿改回 `import * as XLSX` 直接用。
 - TS 7 已移除 `baseUrl`，tsconfig `paths` 用相对路径（`./src/*`）。
 - 评分与雷达图统一使用百分位分（ETL 期算好存入 index），逆向指标（租金、竞品数）在百分位层已翻转，「越高越优」全局一致；评分模型在 `src/scoring/model.ts`，ETL 与前端共用，改权重逻辑只改这一处。
-- 评分容缺：某因子缺失时其权重按比例分摊给其余因子，不因缺数据惩罚。
+- 评分严格模式（2026-09-25 用户决策）：任一权重 >0 的因子缺失则该商圈不评分（score=null），不做权重分摊；权重调 0 的因子视为刻意排除，不参与完整性判定。
 
 ## UI 设计规范（JuanerAI Prism 棱镜，必须遵循）
 

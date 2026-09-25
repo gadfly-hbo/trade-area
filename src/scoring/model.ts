@@ -66,8 +66,9 @@ export function computeFactors(p: PercentileMap): Record<FactorKey, number | nul
 }
 
 /**
- * 加权综合分；某因子缺失时其权重按比例分摊给其余因子（不因缺数据惩罚）。
- * 全部缺失返回 null。
+ * 加权综合分（严格模式，2026-09-25 用户决策）：任一权重 >0 的因子数据缺失 → 不评分（返回 null），
+ * 不再做权重分摊——避免残缺商圈得到虚高分。权重调为 0 的因子视为刻意排除，不参与完整性判定。
+ * 全部启用因子齐备时按权重归一加权；无可评因子返回 null。
  */
 export function computeScore(
   _metrics: DistrictMetrics,
@@ -81,6 +82,10 @@ export function computeScore(
 
   const totalWeight = entries.reduce((s, f) => s + f.weight, 0);
   if (!totalWeight) return { score: null, factors: [] };
+
+  const enabled = (Object.keys(weights) as FactorKey[]).filter((k) => weights[k] > 0);
+  const complete = enabled.every((k) => values[k] !== null);
+  if (!complete) return { score: null, factors: entries };
 
   const score = entries.reduce((s, f) => s + (f.value as number) * f.weight, 0) / totalWeight;
   return { score: Math.round(score * 10) / 10, factors: entries };
