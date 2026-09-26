@@ -1,0 +1,434 @@
+[
+ {
+  "name": "上海万象城",
+  "metric": "brands",
+  "value": 240,
+  "inferred": true
+ },
+ {
+  "name": "上海LuOne凯德晶萃广场",
+  "metric": "brands",
+  "value": 120,
+  "inferred": true
+ },
+ {
+  "name": "上海长宁来福士广场",
+  "metric": "parking",
+  "value": 1249,
+  "inferred": false
+ },
+ {
+  "name": "上海One ITC",
+  "metric": "parking",
+  "value": 302,
+  "inferred": true
+ },
+ {
+  "name": "苏州昆山万象汇",
+  "metric": "brands",
+  "value": 180,
+  "inferred": true
+ },
+ {
+  "name": "上海南翔印象城MEGA",
+  "metric": "parking",
+  "value": 3000,
+  "inferred": false
+ },
+ {
+  "name": "南京兴地美利广场",
+  "metric": "brands",
+  "value": 96,
+  "inferred": true
+ },
+ {
+  "name": "广州天汇广场IGC",
+  "metric": "parking",
+  "value": 736,
+  "inferred": true
+ },
+ {
+  "name": "广州番禺万达广场",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "佛山大沥永旺梦乐城",
+  "metric": "brands",
+  "value": 108,
+  "inferred": true
+ },
+ {
+  "name": "北京金融街购物中心",
+  "metric": "trafficWeekend",
+  "value": 0.4,
+  "inferred": true
+ },
+ {
+  "name": "沈阳北一路万达广场",
+  "metric": "brands",
+  "value": 300,
+  "inferred": true
+ },
+ {
+  "name": "成都建发鹭洲里",
+  "metric": "brands",
+  "value": 120,
+  "inferred": true
+ },
+ {
+  "name": "三亚Hi Place天悦城",
+  "metric": "trafficWeekday",
+  "value": 3.0,
+  "inferred": true
+ },
+ {
+  "name": "三亚Hi Place天悦城",
+  "metric": "trafficWeekend",
+  "value": 3.0,
+  "inferred": true
+ },
+ {
+  "name": "三亚Hi Place天悦城",
+  "metric": "trafficPeak",
+  "value": 3.0,
+  "inferred": true
+ },
+ {
+  "name": "南京雨花客厅E-park",
+  "metric": "brands",
+  "value": 87,
+  "inferred": true
+ },
+ {
+  "name": "襄樊民发广场（航空路）",
+  "metric": "parking",
+  "value": 680,
+  "inferred": true
+ },
+ {
+  "name": "郑州朗悦公园茂",
+  "metric": "brands",
+  "value": 107,
+  "inferred": true
+ },
+ {
+  "name": "凯里国贸购物中心",
+  "metric": "parking",
+  "value": 650,
+  "inferred": true
+ },
+ {
+  "name": "天津鲁能城购物中心",
+  "metric": "parking",
+  "value": 2000,
+  "inferred": false
+ },
+ {
+  "name": "许昌禹州一峰城市广场",
+  "metric": "parking",
+  "value": 320,
+  "inferred": true
+ },
+ {
+  "name": "昆明百大新天地",
+  "metric": "trafficWeekday",
+  "value": 2.0,
+  "inferred": true
+ },
+ {
+  "name": "昆明百大新天地",
+  "metric": "trafficWeekend",
+  "value": 3.0,
+  "inferred": true
+ },
+ {
+  "name": "昆明百大新天地",
+  "metric": "trafficPeak",
+  "value": 4.2,
+  "inferred": true
+ },
+ {
+  "name": "昆明百大新天地",
+  "metric": "parking",
+  "value": 208,
+  "inferred": true
+ },
+ {
+  "name": "济南欧亚大观乐活城",
+  "metric": "parking",
+  "value": 1902,
+  "inferred": false
+ },
+ {
+  "name": "亳州高新万达广场",
+  "metric": "parking",
+  "value": 1173,
+  "inferred": true
+ },
+ {
+  "name": "贵阳亨特 CityMall",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "上海七宝宝龙城",
+  "metric": "brands",
+  "value": 180,
+  "inferred": true
+ },
+ {
+  "name": "清远城市广场（先锋路）",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "清远顺盈时代广场",
+  "metric": "brands",
+  "value": 360,
+  "inferred": true
+ },
+ {
+  "name": "武汉M+购物中心",
+  "metric": "parking",
+  "value": 700,
+  "inferred": false
+ },
+ {
+  "name": "重庆喜盈门·范城",
+  "metric": "brands",
+  "value": 180,
+  "inferred": true
+ },
+ {
+  "name": "佛山南海印象汇",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "南宁印象城",
+  "metric": "brands",
+  "value": 420,
+  "inferred": true
+ },
+ {
+  "name": "厦门阿罗海城市广场",
+  "metric": "brands",
+  "value": 162,
+  "inferred": true
+ },
+ {
+  "name": "北京金唐新光界",
+  "metric": "trafficWeekday",
+  "value": 1.67,
+  "inferred": true
+ },
+ {
+  "name": "北京金唐新光界",
+  "metric": "trafficWeekend",
+  "value": 1.67,
+  "inferred": true
+ },
+ {
+  "name": "北京金唐新光界",
+  "metric": "trafficPeak",
+  "value": 1.67,
+  "inferred": true
+ },
+ {
+  "name": "北京金唐新光界",
+  "metric": "brands",
+  "value": 102,
+  "inferred": true
+ },
+ {
+  "name": "徐州金鹰购物中心A座（彭城广场）",
+  "metric": "trafficWeekday",
+  "value": 9.5,
+  "inferred": true
+ },
+ {
+  "name": "徐州金鹰购物中心A座（彭城广场）",
+  "metric": "trafficWeekend",
+  "value": 9.5,
+  "inferred": true
+ },
+ {
+  "name": "深圳沙井京基百纳广场",
+  "metric": "parking",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "西安华旗C99小寨购物中心",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "黔西南兴义梦乐城",
+  "metric": "parking",
+  "value": 800,
+  "inferred": true
+ },
+ {
+  "name": "广州骏壹万邦",
+  "metric": "parking",
+  "value": 1500,
+  "inferred": false
+ },
+ {
+  "name": "泸州万象汇",
+  "metric": "trafficWeekend",
+  "value": 3.58,
+  "inferred": true
+ },
+ {
+  "name": "厦门汇景购物广场",
+  "metric": "brands",
+  "value": 154,
+  "inferred": true
+ },
+ {
+  "name": "北京龙德广场",
+  "metric": "brands",
+  "value": 145,
+  "inferred": true
+ },
+ {
+  "name": "南京鹏欣水游城",
+  "metric": "parking",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "泰州金鹰购物中心",
+  "metric": "brands",
+  "value": 120,
+  "inferred": true
+ },
+ {
+  "name": "上海金山万达广场",
+  "metric": "brands",
+  "value": 77,
+  "inferred": true
+ },
+ {
+  "name": "广州时代城",
+  "metric": "parking",
+  "value": 300,
+  "inferred": false
+ },
+ {
+  "name": "海口远大购物中心",
+  "metric": "trafficWeekend",
+  "value": 1.64,
+  "inferred": true
+ },
+ {
+  "name": "重庆绿港财富广场",
+  "metric": "brands",
+  "value": 240,
+  "inferred": true
+ },
+ {
+  "name": "重庆绿港财富广场",
+  "metric": "parking",
+  "value": 800,
+  "inferred": true
+ },
+ {
+  "name": "南宁安吉万达广场",
+  "metric": "parking",
+  "value": 1859,
+  "inferred": false
+ },
+ {
+  "name": "潍坊谷德广场",
+  "metric": "parking",
+  "value": 1200,
+  "inferred": false
+ },
+ {
+  "name": "潍坊中百大厦（胜利西街店）",
+  "metric": "parking",
+  "value": 416,
+  "inferred": true
+ },
+ {
+  "name": "孝感银泰百货",
+  "metric": "parking",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "南通八佰伴",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "咸阳国际财富购物中心",
+  "metric": "brands",
+  "value": 120,
+  "inferred": true
+ },
+ {
+  "name": "BHG Mall北京华联同成街购物中心",
+  "metric": "parking",
+  "value": 282,
+  "inferred": true
+ },
+ {
+  "name": "南京江宁金鹰购物中心",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "南京江宁金鹰购物中心",
+  "metric": "parking",
+  "value": 2200,
+  "inferred": false
+ },
+ {
+  "name": "宁波世纪金源购物中心",
+  "metric": "brands",
+  "value": 210,
+  "inferred": true
+ },
+ {
+  "name": "大连凯德和平广场",
+  "metric": "trafficWeekend",
+  "value": 5.0,
+  "inferred": true
+ },
+ {
+  "name": "北京来福士",
+  "metric": "brands",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "重庆CIC天和里购物中心",
+  "metric": "trafficWeekday",
+  "value": 10.0,
+  "inferred": true
+ },
+ {
+  "name": "重庆CIC天和里购物中心",
+  "metric": "trafficWeekend",
+  "value": 18.0,
+  "inferred": true
+ },
+ {
+  "name": "广州凯德广场·云尚",
+  "metric": "brands",
+  "value": 156,
+  "inferred": true
+ }
+]

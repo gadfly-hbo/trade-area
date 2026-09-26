@@ -1,0 +1,18 @@
+[
+  {
+    "name": "湖州安吉新浙北大厦（云鸿西路店）",
+    "metric": "brands",
+    "verdict": "drop",
+    "value": null,
+    "inferred": false,
+    "reason": "品牌数未披露，4无据"
+  },
+  {
+    "name": "龙湖成都时代天街B馆",
+    "metric": "parking",
+    "verdict": "ok",
+    "value": 12609,
+    "inferred": true,
+    "reason": "区间11218-14000中值"
+  }
+]
