@@ -1,0 +1,530 @@
+[
+ {
+  "name": "平湖吾悦广场",
+  "metric": "brands",
+  "value": 140,
+  "inferred": true
+ },
+ {
+  "name": "深圳福田卓悦INTOWN",
+  "metric": "brands",
+  "value": 110,
+  "inferred": true
+ },
+ {
+  "name": "成都华熙LIVE·528",
+  "metric": "brands",
+  "value": 600,
+  "inferred": true
+ },
+ {
+  "name": "大连新玛特（总店）",
+  "metric": "brands",
+  "value": 110,
+  "inferred": true
+ },
+ {
+  "name": "天水兰天城市广场",
+  "metric": "brands",
+  "value": 130,
+  "inferred": true
+ },
+ {
+  "name": "南通圆融购物中心",
+  "metric": "brands",
+  "value": 140,
+  "inferred": true
+ },
+ {
+  "name": "西安王府井百货（永宁门店）",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "西安王府井百货（永宁门店）",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "聊城金鼎百货",
+  "metric": "brands",
+  "value": 55,
+  "inferred": true
+ },
+ {
+  "name": "合肥首创奥特莱斯（滨湖新区店）",
+  "metric": "brands",
+  "value": 180,
+  "inferred": true
+ },
+ {
+  "name": "合肥首创奥特莱斯（滨湖新区店）",
+  "metric": "openedYear",
+  "value": 2016,
+  "inferred": true
+ },
+ {
+  "name": "南京六合万达广场一期",
+  "metric": "brands",
+  "value": 260,
+  "inferred": true
+ },
+ {
+  "name": "郑州华联商厦(二七店)",
+  "metric": "trafficWeekday",
+  "value": 30,
+  "inferred": true
+ },
+ {
+  "name": "太原中正天街",
+  "metric": "brands",
+  "value": 160,
+  "inferred": true
+ },
+ {
+  "name": "太原中正天街",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "青岛东方影都融创茂",
+  "metric": "brands",
+  "value": 330,
+  "inferred": true
+ },
+ {
+  "name": "东莞碧桂园里悦里",
+  "metric": "brands",
+  "value": 80,
+  "inferred": true
+ },
+ {
+  "name": "东莞碧桂园里悦里",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "茂悦东荟城",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "东营西城万达广场",
+  "metric": "brands",
+  "value": 160,
+  "inferred": true
+ },
+ {
+  "name": "上海国家会展中心商业广场",
+  "metric": "brands",
+  "value": 300,
+  "inferred": true
+ },
+ {
+  "name": "淮北金鹰国际购物中心",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "淮北金鹰国际购物中心",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "淮北金鹰国际购物中心",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "东莞明丰广场",
+  "metric": "brands",
+  "value": 70,
+  "inferred": true
+ },
+ {
+  "name": "上海宝山经纬汇",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海宝山经纬汇",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海宝山经纬汇",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海宝山经纬汇",
+  "metric": "brands",
+  "value": 220,
+  "inferred": true
+ },
+ {
+  "name": "武汉汉商21世纪购物中心",
+  "metric": "trafficWeekend",
+  "value": 3.1,
+  "inferred": true
+ },
+ {
+  "name": "重庆盘龙奥园广场",
+  "metric": "brands",
+  "value": 150,
+  "inferred": true
+ },
+ {
+  "name": "许昌魏都万达广场",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "许昌魏都万达广场",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "舟山定海凯虹广场",
+  "metric": "brands",
+  "value": 60,
+  "inferred": true
+ },
+ {
+  "name": "重庆綦江万达广场",
+  "metric": "brands",
+  "value": 140,
+  "inferred": true
+ },
+ {
+  "name": "成都世茂广场",
+  "metric": "brands",
+  "value": 280,
+  "inferred": true
+ },
+ {
+  "name": "永旺梦乐城河北燕郊",
+  "metric": "pop3km",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "哈尔滨百盛百货（中央大街店）",
+  "metric": "brands",
+  "value": 80,
+  "inferred": true
+ },
+ {
+  "name": "哈尔滨百盛百货（中央大街店）",
+  "metric": "openedYear",
+  "value": 2000,
+  "inferred": true
+ },
+ {
+  "name": "深圳大浪商业中心",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳大浪商业中心",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "深圳大浪商业中心",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "海口明珠广场",
+  "metric": "brands",
+  "value": 130,
+  "inferred": true
+ },
+ {
+  "name": "海口友谊商业广场",
+  "metric": "brands",
+  "value": 80,
+  "inferred": true
+ },
+ {
+  "name": "佛山天虹购物中心",
+  "metric": "brands",
+  "value": 80,
+  "inferred": true
+ },
+ {
+  "name": "佛山天虹购物中心",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "合肥万科广场",
+  "metric": "brands",
+  "value": 128,
+  "inferred": true
+ },
+ {
+  "name": "成都时代奥特莱斯",
+  "metric": "brands",
+  "value": 120,
+  "inferred": true
+ },
+ {
+  "name": "杭州银泰百货（西湖店）",
+  "metric": "brands",
+  "value": 90,
+  "inferred": true
+ },
+ {
+  "name": "杭州银泰百货（西湖店）",
+  "metric": "openedYear",
+  "value": 2004,
+  "inferred": true
+ },
+ {
+  "name": "重庆泽科弹子石星泽汇",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "广州塔广场",
+  "metric": "brands",
+  "value": 220,
+  "inferred": true
+ },
+ {
+  "name": "青岛利群胶州购物广场",
+  "metric": "brands",
+  "value": 90,
+  "inferred": true
+ },
+ {
+  "name": "北京新辰天地（大兴店）",
+  "metric": "brands",
+  "value": 110,
+  "inferred": true
+ },
+ {
+  "name": "北京新辰天地（大兴店）",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京君太百货",
+  "metric": "brands",
+  "value": 110,
+  "inferred": true
+ },
+ {
+  "name": "深圳红山6979",
+  "metric": "brands",
+  "value": 180,
+  "inferred": true
+ },
+ {
+  "name": "江门昌大昌广场",
+  "metric": "brands",
+  "value": 100,
+  "inferred": true
+ },
+ {
+  "name": "江门昌大昌广场",
+  "metric": "openedYear",
+  "value": 2015,
+  "inferred": true
+ },
+ {
+  "name": "资阳雁江万达广场",
+  "metric": "brands",
+  "value": 210,
+  "inferred": true
+ },
+ {
+  "name": "黄石武商MALL",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "黄石武商MALL",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "黄石武商MALL",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "黄石武商MALL",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "黄石武商MALL",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "沈阳铁西万象汇",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "桂林万象城",
+  "metric": "brands",
+  "value": 250,
+  "inferred": true
+ },
+ {
+  "name": "桂林万象城",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "长沙银盆岭万达广场",
+  "metric": "brands",
+  "value": 300,
+  "inferred": true
+ },
+ {
+  "name": "海口秀英万达广场",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "常德友阿国际广场",
+  "metric": "pop3km",
+  "value": 30,
+  "inferred": true
+ },
+ {
+  "name": "温州乐清正大广场银泰百货",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "温州乐清正大广场银泰百货",
+  "metric": "buildingArea",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "温州乐清正大广场银泰百货",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "大连开发区万达广场",
+  "metric": "brands",
+  "value": 400,
+  "inferred": true
+ },
+ {
+  "name": "雅安雨城万达广场",
+  "metric": "brands",
+  "value": 105,
+  "inferred": true
+ },
+ {
+  "name": "雅安雨城万达广场",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "杭州金地广场",
+  "metric": "brands",
+  "value": 130,
+  "inferred": true
+ },
+ {
+  "name": "杭州金地广场",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "合肥包河万达广场",
+  "metric": "brands",
+  "value": 500,
+  "inferred": true
+ },
+ {
+  "name": "永旺梦乐城青岛西海岸新区",
+  "metric": "brands",
+  "value": 230,
+  "inferred": true
+ },
+ {
+  "name": "永旺梦乐城青岛西海岸新区",
+  "metric": "openedYear",
+  "value": 2015,
+  "inferred": true
+ },
+ {
+  "name": "北京双桥万达广场",
+  "metric": "brands",
+  "value": 150,
+  "inferred": true
+ },
+ {
+  "name": "合肥正大广场",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "佛山嘉洲广场",
+  "metric": "brands",
+  "value": 55,
+  "inferred": true
+ },
+ {
+  "name": "温州银泰百货瓯海店",
+  "metric": "brands",
+  "value": 130,
+  "inferred": true
+ },
+ {
+  "name": "温州银泰百货瓯海店",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "贵阳汇金星力城",
+  "metric": "brands",
+  "value": 90,
+  "inferred": true
+ }
+]

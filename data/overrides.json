@@ -39,6 +39,10 @@
 "rent": {
 "value": 2.87,
 "inferred": false
+},
+"brands": {
+"value": 116.0,
+"inferred": true
 }
 },
 "潍坊中百大厦高密店": {
@@ -92,6 +96,10 @@
 },
 "parking": {
 "value": 488.0,
+"inferred": true
+},
+"brands": {
+"value": 122.0,
 "inferred": true
 }
 },
@@ -205,16 +213,16 @@
 "inferred": false
 },
 "trafficWeekday": {
-"value": null,
-"force": true
+"value": 27.5,
+"inferred": true
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 50.0,
+"inferred": true
 },
 "trafficPeak": {
-"value": null,
-"force": true
+"value": 95.0,
+"inferred": true
 }
 },
 "随州万达广场": {
@@ -242,6 +250,10 @@
 },
 "buildingArea": {
 "value": 4.0,
+"inferred": true
+},
+"brands": {
+"value": 80.0,
 "inferred": true
 }
 },
@@ -487,6 +499,10 @@
 "buildingArea": {
 "value": 4.0,
 "inferred": false
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "合肥万科广场": {
@@ -496,6 +512,10 @@
 },
 "openedYear": {
 "value": 2019.0,
+"inferred": true
+},
+"brands": {
+"value": 128.0,
 "inferred": true
 }
 },
@@ -543,6 +563,10 @@
 "parking": {
 "value": 1200.0,
 "inferred": true
+},
+"brands": {
+"value": 300.0,
+"inferred": true
 }
 },
 "大连开发区万达广场": {
@@ -552,6 +576,10 @@
 },
 "openedYear": {
 "value": 2007.0,
+"inferred": true
+},
+"brands": {
+"value": 400.0,
 "inferred": true
 }
 },
@@ -830,11 +858,19 @@
 "rent": {
 "value": 4.0,
 "inferred": true
+},
+"brands": {
+"value": 230.0,
+"inferred": true
 }
 },
 "清远城市广场（先锋路）": {
 "rent": {
 "value": 6.33,
+"inferred": true
+},
+"brands": {
+"value": 200.0,
 "inferred": true
 }
 },
@@ -847,6 +883,10 @@
 "佛山南海印象汇": {
 "rent": {
 "value": 15.13,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -1096,6 +1136,10 @@
 "rent": {
 "value": 0.75,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "西安太奥广场": {
@@ -1105,6 +1149,10 @@
 },
 "trafficWeekend": {
 "value": 3.25,
+"inferred": true
+},
+"brands": {
+"value": 600.0,
 "inferred": true
 }
 },
@@ -1355,6 +1403,10 @@
 "buildingArea": {
 "value": 1.3,
 "inferred": true
+},
+"brands": {
+"value": 30.0,
+"inferred": true
 }
 },
 "唐山迁安东安悦购城": {
@@ -1364,6 +1416,10 @@
 },
 "trafficWeekend": {
 "value": 2.93,
+"inferred": true
+},
+"brands": {
+"value": 120.0,
 "inferred": true
 }
 },
@@ -1414,6 +1470,10 @@
 "rent": {
 "value": 7.2,
 "inferred": false
+},
+"brands": {
+"value": 154.0,
+"inferred": true
 }
 },
 "湖州安吉万象世界购物中心": {
@@ -1500,6 +1560,10 @@
 "parking": {
 "value": 703.0,
 "inferred": true
+},
+"brands": {
+"value": 176.0,
+"inferred": true
 }
 },
 "南通枫叶小镇奥特莱斯": {
@@ -1582,6 +1646,10 @@
 "buildingArea": {
 "value": 8.0,
 "inferred": true
+},
+"brands": {
+"value": 160.0,
+"inferred": true
 }
 },
 "西宁城东吾悦广场": {
@@ -1595,6 +1663,10 @@
 },
 "openedYear": {
 "value": 2023.0,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -1610,6 +1682,10 @@
 "parking": {
 "value": 320.0,
 "inferred": true
+},
+"brands": {
+"value": 48.0,
+"inferred": true
 }
 },
 "北京京北大世界": {
@@ -1623,6 +1699,10 @@
 },
 "buildingArea": {
 "value": 5.0,
+"inferred": true
+},
+"brands": {
+"value": 100.0,
 "inferred": true
 }
 },
@@ -1685,6 +1765,10 @@
 },
 "parking": {
 "value": 96.0,
+"inferred": true
+},
+"brands": {
+"value": 30.0,
 "inferred": true
 }
 },
@@ -1880,6 +1964,18 @@
 "trafficWeekday": {
 "value": 0.65,
 "inferred": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
+},
+"buildingArea": {
+"value": 5.0,
+"inferred": true
+},
+"parking": {
+"value": 400.0,
+"inferred": true
 }
 },
 "济南万虹广场": {
@@ -1924,6 +2020,10 @@
 "parking": {
 "value": 640.0,
 "inferred": true
+},
+"brands": {
+"value": 160.0,
+"inferred": true
 }
 },
 "广州塔广场": {
@@ -1950,6 +2050,10 @@
 },
 "parking": {
 "value": 880.0,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -1978,6 +2082,10 @@
 },
 "parking": {
 "value": 1000.0,
+"inferred": true
+},
+"brands": {
+"value": 90.0,
 "inferred": true
 }
 },
@@ -2056,6 +2164,10 @@
 "武汉中商广场（中南路店）": {
 "trafficWeekend": {
 "value": 3.5,
+"inferred": true
+},
+"brands": {
+"value": 120.0,
 "inferred": true
 }
 },
@@ -2302,6 +2414,10 @@
 "firstStores": {
 "value": 100.0,
 "inferred": false
+},
+"brands": {
+"value": 257.0,
+"inferred": true
 }
 },
 "上海汇智国际商业中心": {
@@ -2390,6 +2506,10 @@
 "parking": {
 "value": 1080.0,
 "inferred": true
+},
+"brands": {
+"value": 270.0,
+"inferred": true
 }
 },
 "成都温江合生汇": {
@@ -2474,6 +2594,10 @@
 "parking": {
 "value": 750.0,
 "inferred": true
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "北京新世界百货(望京店)": {
@@ -2504,6 +2628,10 @@
 "trafficPeak": {
 "value": 3.75,
 "inferred": true
+},
+"openedYear": {
+"value": 2016.0,
+"inferred": true
 }
 },
 "宁波海曙印象城": {
@@ -2527,6 +2655,10 @@
 },
 "parking": {
 "value": 520.0,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -2663,6 +2795,10 @@
 "openedYear": {
 "value": 2015,
 "inferred": true
+},
+"brands": {
+"value": 220.0,
+"inferred": true
 }
 },
 "泰州泰兴吾悦广场": {
@@ -2675,6 +2811,10 @@
 "trafficPeak": {
 "value": 7.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "珠海南湾华发商都": {
@@ -2684,6 +2824,10 @@
 },
 "parking": {
 "value": 800.0,
+"inferred": true
+},
+"brands": {
+"value": 200.0,
 "inferred": true
 }
 },
@@ -2700,6 +2844,10 @@
 },
 "openedYear": {
 "value": 2009.0,
+"inferred": true
+},
+"brands": {
+"value": 100.0,
 "inferred": true
 }
 },
@@ -2720,6 +2868,10 @@
 },
 "openedYear": {
 "value": 2007,
+"inferred": true
+},
+"brands": {
+"value": 150.0,
 "inferred": true
 }
 },
@@ -2750,6 +2902,14 @@
 },
 "parking": {
 "value": 1500.0,
+"inferred": true
+},
+"brands": {
+"value": 180.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2016.0,
 "inferred": true
 }
 },
@@ -2849,6 +3009,10 @@
 "trafficPeak": {
 "value": 10.0,
 "inferred": true
+},
+"brands": {
+"value": 500.0,
+"inferred": true
 }
 },
 "三亚湾壹号·新地Mall": {
@@ -2869,6 +3033,10 @@
 "buildingArea": {
 "value": 3.5,
 "inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
 }
 },
 "苏州吴中万达广场": {
@@ -2885,6 +3053,10 @@
 "trafficPeak": {
 "value": 6.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "杭州拱墅万达广场": {
@@ -2894,6 +3066,10 @@
 },
 "parking": {
 "value": 1200.0,
+"inferred": true
+},
+"brands": {
+"value": 270.0,
 "inferred": true
 }
 },
@@ -2918,6 +3094,10 @@
 },
 "parking": {
 "value": 920.0,
+"inferred": true
+},
+"brands": {
+"value": 230.0,
 "inferred": true
 }
 },
@@ -2958,6 +3138,10 @@
 "宁波世纪东方广场": {
 "trafficPeak": {
 "value": 10.0,
+"inferred": true
+},
+"brands": {
+"value": 240.0,
 "inferred": true
 }
 },
@@ -3006,11 +3190,19 @@
 "parking": {
 "value": 400.0,
 "inferred": true
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "上海第一八佰伴": {
 "trafficPeak": {
 "value": 12.5,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -3226,6 +3418,10 @@
 "trafficWeekday": {
 "value": 1.65,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "北京悦荟广场": {
@@ -3239,6 +3435,10 @@
 },
 "parking": {
 "value": 1040.0,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -3264,6 +3464,10 @@
 "buildingArea": {
 "value": 2.0,
 "inferred": false
+},
+"brands": {
+"value": 40.0,
+"inferred": true
 }
 },
 "成都都江堰大融城": {
@@ -3309,6 +3513,10 @@
 },
 "trafficWeekend": {
 "value": 4.55,
+"inferred": true
+},
+"brands": {
+"value": 338.0,
 "inferred": true
 }
 },
@@ -3423,6 +3631,10 @@
 },
 "buildingArea": {
 "value": 6.5,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -3551,8 +3763,8 @@
 "inferred": true
 },
 "brands": {
-"value": null,
-"force": true
+"value": 74.0,
+"inferred": true
 }
 },
 "郑州锦艺城购物中心C区": {
@@ -4075,8 +4287,8 @@
 "inferred": false
 },
 "parking": {
-"value": null,
-"force": true
+"value": 230.0,
+"inferred": true
 }
 },
 "重庆新世纪百货瑞成商都": {
@@ -4491,8 +4703,8 @@
 "inferred": true
 },
 "trafficWeekday": {
-"value": null,
-"force": true
+"value": 30.0,
+"inferred": true
 }
 },
 "成都铁建186MALL": {
@@ -5186,8 +5398,8 @@
 "inferred": false
 },
 "parking": {
-"value": null,
-"force": true
+"value": 353.0,
+"inferred": true
 }
 },
 "杭州来福士广场": {
@@ -5252,8 +5464,8 @@
 "inferred": false
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 2.11,
+"inferred": true
 }
 },
 "长沙CFC富兴时代": {
@@ -5298,6 +5510,18 @@
 "firstStores": {
 "value": 315.0,
 "inferred": false
+},
+"trafficWeekday": {
+"value": 6.5,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 6.5,
+"inferred": true
+},
+"trafficPeak": {
+"value": 6.5,
+"inferred": true
 }
 },
 "苏州太仓万达广场": {
@@ -6433,6 +6657,10 @@
 "parking": {
 "value": 400.0,
 "inferred": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "深圳前海壹方汇": {
@@ -6487,6 +6715,10 @@
 "value": 5.25,
 "inferred": true,
 "force": true
+},
+"brands": {
+"value": 69.0,
+"inferred": true
 }
 },
 "首开龙湖北京熙悦天街": {
@@ -6521,12 +6753,20 @@
 "buildingArea": {
 "value": 5.3,
 "inferred": false
+},
+"brands": {
+"value": 106.0,
+"inferred": true
 }
 },
 "固原新华百货": {
 "competitors": {
 "value": 9.0,
 "inferred": false
+},
+"brands": {
+"value": 99.0,
+"inferred": true
 }
 },
 "武汉江宸天街": {
@@ -6695,6 +6935,10 @@
 "parking": {
 "value": 504.0,
 "inferred": true
+},
+"brands": {
+"value": 126.0,
+"inferred": true
 }
 },
 "杭州萧山万象汇": {
@@ -6706,6 +6950,10 @@
 "东莞碧桂园里悦里": {
 "competitors": {
 "value": 4.0,
+"inferred": true
+},
+"brands": {
+"value": 80.0,
 "inferred": true
 }
 },
@@ -6746,6 +6994,10 @@
 },
 "parking": {
 "value": 800.0,
+"inferred": true
+},
+"brands": {
+"value": 200.0,
 "inferred": true
 }
 },
@@ -6931,6 +7183,10 @@
 "competitors": {
 "value": 4.0,
 "inferred": false
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "赣州君尚购物中心": {
@@ -6983,6 +7239,10 @@
 "parking": {
 "value": 256.0,
 "inferred": true
+},
+"brands": {
+"value": 60.0,
+"inferred": true
 }
 },
 "龙湖长沙开福天街": {
@@ -7000,6 +7260,10 @@
 },
 "trafficPeak": {
 "value": 4.5,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -7083,6 +7347,10 @@
 "parking": {
 "value": 160.0,
 "inferred": true
+},
+"brands": {
+"value": 40.0,
+"inferred": true
 }
 },
 "长春万象城": {
@@ -7135,6 +7403,18 @@
 "parking": {
 "value": 528.0,
 "inferred": true
+},
+"trafficWeekday": {
+"value": 0.3,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 0.45,
+"inferred": true
+},
+"brands": {
+"value": 132.0,
+"inferred": true
 }
 },
 "东莞君尚百货": {
@@ -7145,6 +7425,10 @@
 "buildingArea": {
 "value": 7.7,
 "inferred": false
+},
+"brands": {
+"value": 154.0,
+"inferred": true
 }
 },
 "泰州兴化吾悦广场": {
@@ -7158,6 +7442,10 @@
 },
 "parking": {
 "value": 750.0,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -7173,6 +7461,10 @@
 "parking": {
 "value": 600.0,
 "inferred": true
+},
+"brands": {
+"value": 150.0,
+"inferred": true
 }
 },
 "苏州石路国际商城": {
@@ -7183,6 +7475,10 @@
 "buildingArea": {
 "value": 3.4,
 "inferred": false
+},
+"brands": {
+"value": 68.0,
+"inferred": true
 }
 },
 "北京华宇时尚购物中心": {
@@ -7193,6 +7489,22 @@
 "buildingArea": {
 "value": 2.5,
 "inferred": false
+},
+"trafficWeekday": {
+"value": 4.9,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 6.3,
+"inferred": true
+},
+"trafficPeak": {
+"value": 8.8,
+"inferred": true
+},
+"brands": {
+"value": 50.0,
+"inferred": true
 }
 },
 "烟台振华商厦（南大街店）": {
@@ -7206,6 +7518,10 @@
 },
 "parking": {
 "value": 200.0,
+"inferred": true
+},
+"brands": {
+"value": 50.0,
 "inferred": true
 }
 },
@@ -7250,6 +7566,10 @@
 },
 "buildingArea": {
 "value": 4.0,
+"inferred": true
+},
+"openedYear": {
+"value": 1988.0,
 "inferred": true
 }
 },
@@ -7343,6 +7663,10 @@
 "buildingArea": {
 "value": 8.0,
 "inferred": false
+},
+"brands": {
+"value": 160.0,
+"inferred": true
 }
 },
 "西安御锦城凯德广场一期": {
@@ -7377,6 +7701,10 @@
 "buildingArea": {
 "value": 10.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "金华第一百货（东阳店）": {
@@ -7406,6 +7734,10 @@
 },
 "parking": {
 "value": 650.0,
+"inferred": true
+},
+"brands": {
+"value": 60.0,
 "inferred": true
 }
 },
@@ -7479,6 +7811,10 @@
 "parking": {
 "value": 560.0,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "济南嘉华购物广场": {
@@ -7499,6 +7835,10 @@
 "buildingArea": {
 "value": 31.0,
 "inferred": false
+},
+"brands": {
+"value": 600.0,
+"inferred": true
 }
 },
 "北京上品+（奥运村店）": {
@@ -7579,6 +7919,10 @@
 "parking": {
 "value": 512.0,
 "inferred": true
+},
+"brands": {
+"value": 128.0,
+"inferred": true
 }
 },
 "萍乡三华润达国际": {
@@ -7628,6 +7972,10 @@
 "buildingArea": {
 "value": 3.6,
 "inferred": false
+},
+"brands": {
+"value": 72.0,
+"inferred": true
 }
 },
 "西安四海唐人街": {
@@ -7661,6 +8009,10 @@
 "buildingArea": {
 "value": 12.0,
 "inferred": false
+},
+"brands": {
+"value": 240.0,
+"inferred": true
 }
 },
 "怀化步步高广场(城北路店)": {
@@ -7706,6 +8058,10 @@
 },
 "trafficWeekend": {
 "value": 3.9,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -7796,6 +8152,10 @@
 "value": 10000.0,
 "inferred": true,
 "force": true
+},
+"brands": {
+"value": 600.0,
+"inferred": true
 }
 },
 "镇江丹阳八佰伴(丹阳店)": {
@@ -7883,6 +8243,10 @@
 "openedYear": {
 "value": 2020,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "扬州万象汇": {
@@ -7902,6 +8266,10 @@
 "北京双桥万达广场": {
 "parking": {
 "value": 1250.0,
+"inferred": true
+},
+"brands": {
+"value": 150.0,
 "inferred": true
 }
 },
@@ -7983,6 +8351,10 @@
 "trafficPeak": {
 "value": 7.6,
 "inferred": false
+},
+"brands": {
+"value": 270.0,
+"inferred": true
 }
 },
 "东莞虎门天虹购物中心": {
@@ -8011,6 +8383,10 @@
 "buildingArea": {
 "value": 5.5,
 "inferred": false
+},
+"brands": {
+"value": 110.0,
+"inferred": true
 }
 },
 "天津滨海吾悦广场": {
@@ -8086,6 +8462,10 @@
 "parking": {
 "value": 920.0,
 "inferred": true
+},
+"brands": {
+"value": 230.0,
+"inferred": true
 }
 },
 "潍坊谷德锦中百奥莱": {
@@ -8108,6 +8488,10 @@
 "openedYear": {
 "value": 2020.0,
 "inferred": false
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "海口友谊·南海城": {
@@ -8134,6 +8518,10 @@
 },
 "parking": {
 "value": 1150.0,
+"inferred": true
+},
+"brands": {
+"value": 230.0,
 "inferred": true
 }
 },
@@ -8193,11 +8581,19 @@
 "openedYear": {
 "value": 2018.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "阳泉新城万达广场": {
 "openedYear": {
 "value": 2020.0,
+"inferred": true
+},
+"brands": {
+"value": 200.0,
 "inferred": true
 }
 },
@@ -8231,6 +8627,10 @@
 "parking": {
 "value": 800.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "广州融创茂": {
@@ -8240,6 +8640,10 @@
 },
 "parking": {
 "value": 852.0,
+"inferred": true
+},
+"brands": {
+"value": 213.0,
 "inferred": true
 }
 },
@@ -8291,6 +8695,10 @@
 "value": 5.0,
 "inferred": false,
 "force": true
+},
+"brands": {
+"value": 84.0,
+"inferred": true
 }
 },
 "上海吴泾满天星生活广场": {
@@ -8303,6 +8711,10 @@
 "openedYear": {
 "value": 2019.0,
 "inferred": false
+},
+"brands": {
+"value": 160.0,
+"inferred": true
 }
 },
 "吉林欧亚城": {
@@ -8313,6 +8725,10 @@
 "buildingArea": {
 "value": 30.0,
 "inferred": false
+},
+"brands": {
+"value": 600.0,
+"inferred": true
 }
 },
 "绵阳新世界百货": {
@@ -8322,6 +8738,10 @@
 },
 "parking": {
 "value": 200.0,
+"inferred": true
+},
+"brands": {
+"value": 50.0,
 "inferred": true
 }
 },
@@ -8348,6 +8768,10 @@
 },
 "parking": {
 "value": 100.0,
+"inferred": true
+},
+"brands": {
+"value": 30.0,
 "inferred": true
 }
 },
@@ -8589,6 +9013,10 @@
 "parking": {
 "value": 520.0,
 "inferred": true
+},
+"brands": {
+"value": 130.0,
+"inferred": true
 }
 },
 "昆明呈贡吾悦广场": {
@@ -8631,12 +9059,20 @@
 "parking": {
 "value": 1000.0,
 "inferred": true
+},
+"brands": {
+"value": 250.0,
+"inferred": true
 }
 },
 "乌鲁木齐天山百货": {
 "openedYear": {
 "value": 1957.0,
 "inferred": false
+},
+"brands": {
+"value": 50.0,
+"inferred": true
 }
 },
 "南京新百": {
@@ -8676,6 +9112,10 @@
 },
 "parking": {
 "value": 720.0,
+"inferred": true
+},
+"brands": {
+"value": 180.0,
 "inferred": true
 }
 },
@@ -8721,6 +9161,10 @@
 "parking": {
 "value": 920.0,
 "inferred": true
+},
+"brands": {
+"value": 170.0,
+"inferred": true
 }
 },
 "长沙友阿奥特莱斯购物公园": {
@@ -8733,6 +9177,10 @@
 "openedYear": {
 "value": 2012.0,
 "inferred": false
+},
+"brands": {
+"value": 240.0,
+"inferred": true
 }
 },
 "西安西咸吾悦广场": {
@@ -8742,6 +9190,10 @@
 },
 "parking": {
 "value": 880.0,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -8765,6 +9217,10 @@
 "parking": {
 "value": 440.0,
 "inferred": true
+},
+"brands": {
+"value": 110.0,
+"inferred": true
 }
 },
 "成都华熙LIVE·528": {
@@ -8775,6 +9231,10 @@
 "parking": {
 "value": 10000.0,
 "inferred": true
+},
+"brands": {
+"value": 600.0,
+"inferred": true
 }
 },
 "青岛东方影都融创茂": {
@@ -8784,6 +9244,10 @@
 },
 "parking": {
 "value": 2880.0,
+"inferred": true
+},
+"brands": {
+"value": 330.0,
 "inferred": true
 }
 },
@@ -8813,6 +9277,10 @@
 "parking": {
 "value": 280.0,
 "inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
 }
 },
 "重庆盘龙奥园广场": {
@@ -8822,6 +9290,10 @@
 },
 "buildingArea": {
 "value": 7.5,
+"inferred": true
+},
+"brands": {
+"value": 150.0,
 "inferred": true
 }
 },
@@ -8851,6 +9323,10 @@
 "parking": {
 "value": 840.0,
 "inferred": true
+},
+"brands": {
+"value": 210.0,
+"inferred": true
 }
 },
 "佛山顺德印象城": {
@@ -8863,6 +9339,10 @@
 "openedYear": {
 "value": 2019.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "海口秀英万达广场": {
@@ -8873,11 +9353,19 @@
 "parking": {
 "value": 800.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "常德友阿国际广场": {
 "openedYear": {
 "value": 2016.0,
+"inferred": true
+},
+"pop3km": {
+"value": 30.0,
 "inferred": true
 }
 },
@@ -8952,11 +9440,19 @@
 "parking": {
 "value": 800.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "牡丹江西安万达广场": {
 "openedYear": {
 "value": 2019,
+"inferred": true
+},
+"brands": {
+"value": 200.0,
 "inferred": true
 }
 },
@@ -8996,12 +9492,20 @@
 "openedYear": {
 "value": 2011.0,
 "inferred": true
+},
+"brands": {
+"value": 170.0,
+"inferred": true
 }
 },
 "长沙阿波罗商业广场": {
 "openedYear": {
 "value": 1971.0,
 "inferred": false
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "北京凤凰汇购物中心": {
@@ -9032,6 +9536,10 @@
 "buildingArea": {
 "value": 7.5,
 "inferred": true
+},
+"brands": {
+"value": 150.0,
+"inferred": true
 }
 },
 "大同百盛百货": {
@@ -9041,6 +9549,10 @@
 },
 "parking": {
 "value": 240.0,
+"inferred": true
+},
+"brands": {
+"value": 60.0,
 "inferred": true
 }
 },
@@ -9064,6 +9576,10 @@
 "openedYear": {
 "value": 2016.0,
 "inferred": true
+},
+"brands": {
+"value": 190.0,
+"inferred": true
 }
 },
 "上海紫荆广场": {
@@ -9080,6 +9596,10 @@
 "parking": {
 "value": 520.0,
 "inferred": true
+},
+"brands": {
+"value": 130.0,
+"inferred": true
 }
 },
 "台州经开万达广场": {
@@ -9089,6 +9609,10 @@
 },
 "parking": {
 "value": 960.0,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -9205,6 +9729,10 @@
 "openedYear": {
 "value": 2016.0,
 "inferred": false
+},
+"brands": {
+"value": 280.0,
+"inferred": true
 }
 },
 "黄石黄石港万达广场": {
@@ -9536,6 +10064,10 @@
 "firstStores": {
 "value": 7.0,
 "inferred": false
+},
+"brands": {
+"value": 134.0,
+"inferred": true
 }
 },
 "成都温江旭辉Cmall": {
@@ -9588,8 +10120,8 @@
 "inferred": false
 },
 "trafficWeekday": {
-"value": null,
-"force": true
+"value": 3.4,
+"inferred": true
 }
 },
 "杭州银泰百货（萧山店）": {
@@ -9638,6 +10170,10 @@
 "firstStores": {
 "value": 30.0,
 "inferred": false
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "天水秦州万达广场": {
@@ -10252,6 +10788,10 @@
 "parking": {
 "value": 2200.0,
 "inferred": true
+},
+"brands": {
+"value": 240.0,
+"inferred": true
 }
 },
 "珠海前山环宇城": {
@@ -10352,6 +10892,10 @@
 "firstStores": {
 "value": 30.0,
 "inferred": false
+},
+"brands": {
+"value": 240.0,
+"inferred": true
 }
 },
 "长春重庆路活力城village": {
@@ -10503,6 +11047,10 @@
 "parking": {
 "value": 280.0,
 "inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
 }
 },
 "南宁首创奥特莱斯": {
@@ -10611,6 +11159,10 @@
 "parking": {
 "value": 978.0,
 "inferred": true
+},
+"brands": {
+"value": 245.0,
+"inferred": true
 }
 },
 "阜阳商厦中心": {
@@ -10624,6 +11176,10 @@
 },
 "parking": {
 "value": 640.0,
+"inferred": true
+},
+"brands": {
+"value": 160.0,
 "inferred": true
 }
 },
@@ -10719,6 +11275,18 @@
 "brands": {
 "value": 1000.0,
 "inferred": false
+},
+"trafficWeekday": {
+"value": 10.0,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 10.0,
+"inferred": true
+},
+"trafficPeak": {
+"value": 10.0,
+"inferred": true
 }
 },
 "上海仲盛世界商城": {
@@ -10925,12 +11493,20 @@
 "parking": {
 "value": 2000.0,
 "inferred": false
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "龙湖重庆江岸天街": {
 "parking": {
 "value": 1500.0,
 "inferred": false
+},
+"brands": {
+"value": 182.0,
+"inferred": true
 }
 },
 "长沙望城永旺梦乐城": {
@@ -10962,8 +11538,8 @@
 "force": true
 },
 "trafficPeak": {
-"value": null,
-"force": true
+"value": 4.8,
+"inferred": true
 }
 },
 "上海北外滩来福士": {
@@ -10973,6 +11549,18 @@
 },
 "brands": {
 "value": 120.0,
+"inferred": true
+},
+"trafficWeekday": {
+"value": 20.0,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 20.0,
+"inferred": true
+},
+"trafficPeak": {
+"value": 20.0,
 "inferred": true
 }
 },
@@ -11014,6 +11602,10 @@
 "parking": {
 "value": 1150.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "茂名电白万达广场": {
@@ -11041,6 +11633,10 @@
 "天水兰天城市广场": {
 "parking": {
 "value": 450.0,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -11078,6 +11674,10 @@
 "parking": {
 "value": 750.0,
 "inferred": true
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "石家庄北国先天下广场": {
@@ -11089,6 +11689,10 @@
 "桂林万象城": {
 "parking": {
 "value": 1150.0,
+"inferred": true
+},
+"brands": {
+"value": 250.0,
 "inferred": true
 }
 },
@@ -11205,6 +11809,10 @@
 "parking": {
 "value": 2000.0,
 "inferred": false
+},
+"brands": {
+"value": 208.0,
+"inferred": true
 }
 },
 "台州温岭银泰百货": {
@@ -11217,18 +11825,30 @@
 "parking": {
 "value": 500.0,
 "inferred": true
+},
+"brands": {
+"value": 353.0,
+"inferred": true
 }
 },
 "许昌宇龙广场": {
 "parking": {
 "value": 500.0,
 "inferred": false
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "湛江鼎盛广场": {
 "parking": {
 "value": 1400.0,
 "inferred": false
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "哈尔滨红博会展购物公园": {
@@ -11356,6 +11976,14 @@
 "parking": {
 "value": 280.0,
 "inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2018.0,
+"inferred": true
 }
 },
 "滁州苏宁广场": {
@@ -11396,8 +12024,8 @@
 "inferred": false
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 1.64,
+"inferred": true
 },
 "parking": {
 "value": 2560.0,
@@ -11433,8 +12061,8 @@
 "inferred": false
 },
 "brands": {
-"value": null,
-"force": true
+"value": 290.0,
+"inferred": true
 }
 },
 "上海Gate M西岸梦中心": {
@@ -11683,6 +12311,10 @@
 },
 "parking": {
 "value": 640.0,
+"inferred": true
+},
+"brands": {
+"value": 160.0,
 "inferred": true
 }
 },
@@ -12028,6 +12660,10 @@
 "parking": {
 "value": 2200.0,
 "inferred": false
+},
+"brands": {
+"value": 260.0,
+"inferred": true
 }
 },
 "郑州中原万达广场": {
@@ -12051,6 +12687,10 @@
 },
 "trafficWeekend": {
 "value": 2.09,
+"inferred": true
+},
+"brands": {
+"value": 80.0,
 "inferred": true
 }
 },
@@ -12202,6 +12842,10 @@
 "value": 20.7,
 "inferred": false,
 "force": true
+},
+"brands": {
+"value": 414.0,
+"inferred": true
 }
 },
 "上海蟠龙天地": {
@@ -12244,6 +12888,10 @@
 },
 "parking": {
 "value": 360.0,
+"inferred": true
+},
+"brands": {
+"value": 90.0,
 "inferred": true
 }
 },
@@ -12291,6 +12939,10 @@
 "trafficPeak": {
 "value": 4.4,
 "inferred": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "东莞寮步万润广场": {
@@ -12320,6 +12972,10 @@
 "value": 2000.0,
 "inferred": false,
 "force": true
+},
+"brands": {
+"value": 300.0,
+"inferred": true
 }
 },
 "成都天府和悦广场": {
@@ -12350,6 +13006,10 @@
 "parking": {
 "value": 1216.0,
 "inferred": true
+},
+"brands": {
+"value": 304.0,
+"inferred": true
 }
 },
 "荆门东方百货(中天街)": {
@@ -12359,6 +13019,10 @@
 },
 "parking": {
 "value": 320.0,
+"inferred": true
+},
+"brands": {
+"value": 80.0,
 "inferred": true
 }
 },
@@ -12411,6 +13075,10 @@
 "trafficWeekend": {
 "value": null,
 "force": true
+},
+"brands": {
+"value": 130.0,
+"inferred": true
 }
 },
 "武汉洪山万科广场ViviLand": {
@@ -12423,6 +13091,10 @@
 "buildingArea": {
 "value": 6.0,
 "inferred": false
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "上海宝龙·旭辉广场": {
@@ -12457,6 +13129,10 @@
 "parking": {
 "value": 915.0,
 "inferred": false
+},
+"brands": {
+"value": 280.0,
+"inferred": true
 }
 },
 "天津蓟州万达广场": {
@@ -12505,6 +13181,10 @@
 "parking": {
 "value": 176.0,
 "inferred": true
+},
+"brands": {
+"value": 44.0,
+"inferred": true
 }
 },
 "大连安盛购物广场(开发区店)": {
@@ -12547,6 +13227,22 @@
 "parking": {
 "value": 360.0,
 "inferred": true
+},
+"trafficWeekday": {
+"value": 1.0,
+"inferred": true
+},
+"trafficWeekend": {
+"value": 1.25,
+"inferred": true
+},
+"trafficPeak": {
+"value": 1.75,
+"inferred": true
+},
+"brands": {
+"value": 90.0,
+"inferred": true
 }
 },
 "大庆让胡路万达广场": {
@@ -12559,6 +13255,10 @@
 "buildingArea": {
 "value": 6.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "哈尔滨中央商城": {
@@ -12569,6 +13269,10 @@
 "parking": {
 "value": 160.0,
 "inferred": true
+},
+"brands": {
+"value": 40.0,
+"inferred": true
 }
 },
 "兰州王府井百货": {
@@ -12578,6 +13282,14 @@
 },
 "parking": {
 "value": 280.0,
+"inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2007.0,
 "inferred": true
 }
 },
@@ -12605,6 +13317,10 @@
 },
 "parking": {
 "value": 160.0,
+"inferred": true
+},
+"brands": {
+"value": 40.0,
 "inferred": true
 }
 },
@@ -12690,11 +13406,23 @@
 "parking": {
 "value": 240.0,
 "inferred": true
+},
+"brands": {
+"value": 60.0,
+"inferred": true
 }
 },
 "郑州丹尼斯百货（花园店）": {
 "buildingArea": {
 "value": 3.5,
+"inferred": true
+},
+"brands": {
+"value": 70.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2000.0,
 "inferred": true
 }
 },
@@ -12705,6 +13433,10 @@
 },
 "parking": {
 "value": 180.0,
+"inferred": true
+},
+"brands": {
+"value": 45.0,
 "inferred": true
 }
 },
@@ -12814,6 +13546,10 @@
 "parking": {
 "value": 736.0,
 "inferred": true
+},
+"brands": {
+"value": 184.0,
+"inferred": true
 }
 },
 "衡水衡百国际": {
@@ -12830,6 +13566,10 @@
 "parking": {
 "value": 424.0,
 "inferred": true
+},
+"brands": {
+"value": 106.0,
+"inferred": true
 }
 },
 "东莞上悦汇": {
@@ -12845,6 +13585,14 @@
 "上海富绅时代广场": {
 "buildingArea": {
 "value": 7.0,
+"inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2005.0,
 "inferred": true
 }
 },
@@ -12870,6 +13618,10 @@
 "trafficWeekend": {
 "value": 35.0,
 "inferred": true
+},
+"brands": {
+"value": 129.0,
+"inferred": true
 }
 },
 "肇庆星湖国际广场": {
@@ -12888,6 +13640,10 @@
 "buildingArea": {
 "value": 16.0,
 "inferred": false
+},
+"brands": {
+"value": 320.0,
+"inferred": true
 }
 },
 "德阳旌阳万达广场": {
@@ -12910,6 +13666,10 @@
 "buildingArea": {
 "value": 5.0,
 "inferred": false
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "永旺梦乐城常熟新区": {
@@ -12951,11 +13711,19 @@
 "parking": {
 "value": 220.0,
 "inferred": true
+},
+"brands": {
+"value": 55.0,
+"inferred": true
 }
 },
 "南京六合万达广场一期": {
 "buildingArea": {
 "value": 13.0,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -13010,6 +13778,14 @@
 },
 "parking": {
 "value": 320.0,
+"inferred": true
+},
+"brands": {
+"value": 80.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2000.0,
 "inferred": true
 }
 },
@@ -13128,6 +13904,10 @@
 "buildingArea": {
 "value": 11.5,
 "inferred": true
+},
+"brands": {
+"value": 230.0,
+"inferred": true
 }
 },
 "广州中华广场": {
@@ -13162,6 +13942,10 @@
 "buildingArea": {
 "value": 8.1,
 "inferred": false
+},
+"brands": {
+"value": 162.0,
+"inferred": true
 }
 },
 "北京颐堤港": {
@@ -13366,6 +14150,10 @@
 "parking": {
 "value": 456.0,
 "inferred": true
+},
+"brands": {
+"value": 114.0,
+"inferred": true
 }
 },
 "合肥瑶海保利广场": {
@@ -13388,6 +14176,10 @@
 "buildingArea": {
 "value": 9.0,
 "inferred": false
+},
+"brands": {
+"value": 180.0,
+"inferred": true
 }
 },
 "银川金凤万达广场": {
@@ -13590,6 +14382,10 @@
 "parking": {
 "value": 320.0,
 "inferred": true
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "金华义乌天地": {
@@ -13622,6 +14418,10 @@
 "parking": {
 "value": 228.0,
 "inferred": true
+},
+"brands": {
+"value": 57.0,
+"inferred": true
 }
 },
 "海口上邦百汇城": {
@@ -13631,6 +14431,10 @@
 },
 "trafficWeekend": {
 "value": 3.25,
+"inferred": true
+},
+"brands": {
+"value": 154.0,
 "inferred": true
 }
 },
@@ -13718,12 +14522,20 @@
 "buildingArea": {
 "value": 3.0,
 "inferred": false
+},
+"brands": {
+"value": 60.0,
+"inferred": true
 }
 },
 "潍坊全福元(天水路店)": {
 "buildingArea": {
 "value": 4.0,
 "inferred": false
+},
+"brands": {
+"value": 80.0,
+"inferred": true
 }
 },
 "台州温岭宝龙广场": {
@@ -13804,8 +14616,8 @@
 },
 "BHG Mall北京华联同成街购物中心": {
 "parking": {
-"value": null,
-"force": true
+"value": 386.0,
+"inferred": true
 }
 },
 "深圳坪山莹展荟": {
@@ -13829,8 +14641,12 @@
 },
 "葫芦岛百货大楼(兴工路)": {
 "parking": {
-"value": null,
-"force": true
+"value": 365.0,
+"inferred": true
+},
+"brands": {
+"value": 91.0,
+"inferred": true
 }
 },
 "深圳西荟城": {
@@ -13850,6 +14666,10 @@
 "value": 5.5,
 "inferred": true,
 "force": true
+},
+"brands": {
+"value": 50.0,
+"inferred": true
 }
 },
 "广百百货花都新一城店": {
@@ -13880,6 +14700,10 @@
 "value": 6.0,
 "inferred": true,
 "force": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "湘潭步步高广场": {
@@ -13928,6 +14752,10 @@
 "value": 7.5,
 "inferred": false,
 "force": true
+},
+"brands": {
+"value": 217.0,
+"inferred": true
 }
 },
 "西昌东城万达广场": {
@@ -13946,8 +14774,8 @@
 },
 "武汉汉商21世纪购物中心": {
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 3.1,
+"inferred": true
 },
 "parking": {
 "value": 1600.0,
@@ -13977,6 +14805,10 @@
 "value": 2.5,
 "inferred": true,
 "force": true
+},
+"parking": {
+"value": 270.0,
+"inferred": true
 }
 },
 "大庆大商百货": {
@@ -14114,6 +14946,10 @@
 "parking": {
 "value": 480.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "北京乐多港万达广场": {
@@ -14146,8 +14982,8 @@
 },
 "长春欧亚商都(红旗街)": {
 "brands": {
-"value": null,
-"force": true
+"value": 700.0,
+"inferred": true
 },
 "parking": {
 "value": 1000.0,
@@ -14197,12 +15033,12 @@
 "inferred": true
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 6.0,
+"inferred": true
 },
 "trafficPeak": {
-"value": null,
-"force": true
+"value": 6.0,
+"inferred": true
 }
 },
 "东莞益田假日奥特莱斯": {
@@ -14256,6 +15092,10 @@
 "parking": {
 "value": 400.0,
 "inferred": true
+},
+"brands": {
+"value": 800.0,
+"inferred": true
 }
 },
 "常德汉寿万达广场": {
@@ -14288,6 +15128,10 @@
 "parking": {
 "value": 800.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "广州南沙星河COCO Park": {
@@ -14306,6 +15150,10 @@
 "parking": {
 "value": 496.0,
 "inferred": true
+},
+"brands": {
+"value": 124.0,
+"inferred": true
 }
 },
 "龙湖西安未央天街": {
@@ -14321,6 +15169,10 @@
 "上海世博天地": {
 "parking": {
 "value": 1120.0,
+"inferred": true
+},
+"brands": {
+"value": 280.0,
 "inferred": true
 }
 },
@@ -14353,6 +15205,10 @@
 "南宁华星城市奥特莱斯": {
 "parking": {
 "value": 480.0,
+"inferred": true
+},
+"brands": {
+"value": 120.0,
 "inferred": true
 }
 },
@@ -14403,6 +15259,10 @@
 "温州滨江万象城": {
 "parking": {
 "value": 1120.0,
+"inferred": true
+},
+"brands": {
+"value": 280.0,
 "inferred": true
 }
 },
@@ -14470,6 +15330,10 @@
 "parking": {
 "value": 560.0,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "北京丽泽天地": {
@@ -14500,6 +15364,10 @@
 "parking": {
 "value": 640.0,
 "inferred": true
+},
+"brands": {
+"value": 160.0,
+"inferred": true
 }
 },
 "惠州隆生金山湖中心": {
@@ -14515,6 +15383,10 @@
 "北京上品宜购城市奥特莱斯": {
 "parking": {
 "value": 384.0,
+"inferred": true
+},
+"brands": {
+"value": 68.0,
 "inferred": true
 }
 },
@@ -14556,11 +15428,19 @@
 "parking": {
 "value": 800.0,
 "inferred": true
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "伊犁新茂业国际购物中心": {
 "parking": {
 "value": 720.0,
+"inferred": true
+},
+"brands": {
+"value": 180.0,
 "inferred": true
 }
 },
@@ -14577,6 +15457,10 @@
 },
 "parking": {
 "value": 240.0,
+"inferred": true
+},
+"brands": {
+"value": 60.0,
 "inferred": true
 }
 },
@@ -14596,11 +15480,19 @@
 "parking": {
 "value": 274.0,
 "inferred": true
+},
+"brands": {
+"value": 69.0,
+"inferred": true
 }
 },
 "北京翠微百货(大成路店)": {
 "parking": {
 "value": 240.0,
+"inferred": true
+},
+"brands": {
+"value": 60.0,
 "inferred": true
 }
 },
@@ -14610,12 +15502,16 @@
 "inferred": true
 },
 "trafficWeekday": {
-"value": null,
-"force": true
+"value": 33.0,
+"inferred": false
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 50.0,
+"inferred": false
+},
+"trafficPeak": {
+"value": 90.0,
+"inferred": true
 }
 },
 "西安开元商城西旺店": {
@@ -14657,6 +15553,10 @@
 },
 "parking": {
 "value": 840.0,
+"inferred": true
+},
+"brands": {
+"value": 210.0,
 "inferred": true
 }
 },
@@ -14722,11 +15622,23 @@
 "parking": {
 "value": 400.0,
 "inferred": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
 }
 },
 "银川新华百货CCmall": {
 "parking": {
 "value": 360.0,
+"inferred": true
+},
+"brands": {
+"value": 90.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2023.0,
 "inferred": true
 }
 },
@@ -14949,6 +15861,10 @@
 "parking": {
 "value": 1232.0,
 "inferred": true
+},
+"brands": {
+"value": 308.0,
+"inferred": true
 }
 },
 "龙湖南京六合天街": {
@@ -14965,6 +15881,10 @@
 "parking": {
 "value": 480.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "大连麦凯乐（大连总店）": {
@@ -14976,6 +15896,14 @@
 "贵阳·悦然广场": {
 "parking": {
 "value": 400.0,
+"inferred": true
+},
+"brands": {
+"value": 100.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2024.0,
 "inferred": true
 }
 },
@@ -15001,6 +15929,10 @@
 "parking": {
 "value": 600.0,
 "inferred": true
+},
+"brands": {
+"value": 150.0,
+"inferred": true
 }
 },
 "乌鲁木齐友好商场": {
@@ -15017,6 +15949,10 @@
 "parking": {
 "value": 560.0,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "信阳西亚和美广场(浉河店)": {
@@ -15032,6 +15968,10 @@
 "乌鲁木齐北京路汇嘉时代广场": {
 "parking": {
 "value": 720.0,
+"inferred": true
+},
+"brands": {
+"value": 180.0,
 "inferred": true
 }
 },
@@ -15052,8 +15992,12 @@
 "force": true
 },
 "trafficWeekend": {
-"value": null,
-"force": true
+"value": 3.42,
+"inferred": true
+},
+"brands": {
+"value": 50.0,
+"inferred": true
 }
 },
 "龙湖南京河西天街": {
@@ -15071,6 +16015,14 @@
 "南通文峰大世界（南大街）": {
 "parking": {
 "value": 600.0,
+"inferred": true
+},
+"brands": {
+"value": 150.0,
+"inferred": true
+},
+"openedYear": {
+"value": 1995.0,
 "inferred": true
 }
 },
@@ -15096,6 +16048,10 @@
 "parking": {
 "value": 560.0,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "南京汤山百联奥特莱斯": {
@@ -15114,6 +16070,10 @@
 "parking": {
 "value": 480.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "北京顺义鲁能美丽汇": {
@@ -15126,11 +16086,19 @@
 "parking": {
 "value": 560.0,
 "inferred": true
+},
+"brands": {
+"value": 140.0,
+"inferred": true
 }
 },
 "南通圆融购物中心": {
 "parking": {
 "value": 560.0,
+"inferred": true
+},
+"brands": {
+"value": 140.0,
 "inferred": true
 }
 },
@@ -15161,11 +16129,19 @@
 "value": 15.0,
 "inferred": false,
 "force": true
+},
+"brands": {
+"value": 300.0,
+"inferred": true
 }
 },
 "上海宝山经纬汇": {
 "parking": {
 "value": 880.0,
+"inferred": true
+},
+"brands": {
+"value": 220.0,
 "inferred": true
 }
 },
@@ -15179,6 +16155,10 @@
 "parking": {
 "value": 1120.0,
 "inferred": true
+},
+"brands": {
+"value": 280.0,
+"inferred": true
 }
 },
 "哈尔滨凯德广场（埃德蒙顿店）": {
@@ -15190,6 +16170,10 @@
 "海口明珠广场": {
 "parking": {
 "value": 520.0,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -15207,11 +16191,23 @@
 "parking": {
 "value": 480.0,
 "inferred": true
+},
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 },
 "杭州银泰百货（西湖店）": {
 "parking": {
 "value": 360.0,
+"inferred": true
+},
+"brands": {
+"value": 90.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2004.0,
 "inferred": true
 }
 },
@@ -15219,6 +16215,10 @@
 "parking": {
 "value": 1000.0,
 "inferred": false
+},
+"brands": {
+"value": 200.0,
+"inferred": true
 }
 },
 "枣庄薛城万达广场": {
@@ -15241,11 +16241,19 @@
 "parking": {
 "value": 440.0,
 "inferred": true
+},
+"brands": {
+"value": 110.0,
+"inferred": true
 }
 },
 "北京君太百货": {
 "parking": {
 "value": 440.0,
+"inferred": true
+},
+"brands": {
+"value": 110.0,
 "inferred": true
 }
 },
@@ -15279,6 +16287,14 @@
 "parking": {
 "value": 920.0,
 "inferred": true
+},
+"brands": {
+"value": 230.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2015.0,
+"inferred": true
 }
 },
 "苏州昆山万达广场": {
@@ -15303,17 +16319,29 @@
 "parking": {
 "value": 360.0,
 "inferred": true
+},
+"brands": {
+"value": 90.0,
+"inferred": true
 }
 },
 "上饶信州万达广场": {
 "parking": {
 "value": 1358.0,
 "inferred": true
+},
+"brands": {
+"value": 340.0,
+"inferred": true
 }
 },
 "莆田水韵城天虹购物中心": {
 "parking": {
 "value": 520.0,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -15355,6 +16383,10 @@
 "parking": {
 "value": 1080.0,
 "inferred": true
+},
+"brands": {
+"value": 270.0,
+"inferred": true
 }
 },
 "南宁东盟盛天地": {
@@ -15366,6 +16398,10 @@
 "阜阳颍州万达广场": {
 "parking": {
 "value": 1040.0,
+"inferred": true
+},
+"brands": {
+"value": 260.0,
 "inferred": true
 }
 },
@@ -15382,6 +16418,10 @@
 "昆明金鹰购物中心": {
 "parking": {
 "value": 1000.0,
+"inferred": true
+},
+"brands": {
+"value": 250.0,
 "inferred": true
 }
 },
@@ -15606,6 +16646,10 @@
 "parking": {
 "value": 336.0,
 "inferred": true
+},
+"brands": {
+"value": 84.0,
+"inferred": true
 }
 },
 "南京万象天地": {
@@ -15617,6 +16661,10 @@
 "杭州EFC LIVE欧美广场": {
 "parking": {
 "value": 4750.0,
+"inferred": true
+},
+"brands": {
+"value": 130.0,
 "inferred": true
 }
 },
@@ -15647,6 +16695,10 @@
 "上海日月光中心": {
 "parking": {
 "value": 1120.0,
+"inferred": true
+},
+"brands": {
+"value": 280.0,
 "inferred": true
 }
 },
@@ -15774,11 +16826,19 @@
 "parking": {
 "value": 416.0,
 "inferred": true
+},
+"brands": {
+"value": 104.0,
+"inferred": true
 }
 },
 "南昌百盛优客城市广场": {
 "trafficWeekend": {
 "value": 2.6,
+"inferred": true
+},
+"brands": {
+"value": 65.0,
 "inferred": true
 }
 },
@@ -15792,6 +16852,10 @@
 "parking": {
 "value": 200.0,
 "inferred": false
+},
+"brands": {
+"value": 60.0,
+"inferred": true
 }
 },
 "青岛家佳源购物中心(长江中路店)": {
@@ -15804,17 +16868,29 @@
 "trafficWeekend": {
 "value": 3.25,
 "inferred": true
+},
+"brands": {
+"value": 260.0,
+"inferred": true
 }
 },
 "武汉凯德广场·武胜": {
 "trafficWeekend": {
 "value": 2.28,
 "inferred": true
+},
+"brands": {
+"value": 199.0,
+"inferred": true
 }
 },
 "成都都江堰百伦广场": {
 "parking": {
 "value": 400.0,
+"inferred": true
+},
+"brands": {
+"value": 100.0,
 "inferred": true
 }
 },
@@ -15955,6 +17031,444 @@
 "value": 27.0,
 "inferred": false,
 "force": true
+}
+},
+"重庆光环花园城": {
+"brands": {
+"value": 110.0,
+"inferred": true
+},
+"buildingArea": {
+"value": 5.5,
+"inferred": true
+},
+"parking": {
+"value": 440.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2020.0,
+"inferred": true
+}
+},
+"莆田秀屿万达广场": {
+"brands": {
+"value": 130.0,
+"inferred": true
+}
+},
+"龙湖武汉白沙天街A馆": {
+"brands": {
+"value": 250.0,
+"inferred": true
+}
+},
+"郑州正弘汇": {
+"brands": {
+"value": 280.0,
+"inferred": true
+}
+},
+"莆田益田假日世界": {
+"brands": {
+"value": 230.0,
+"inferred": true
+}
+},
+"西安体育之窗·NMC中心": {
+"brands": {
+"value": 146.0,
+"inferred": true
+}
+},
+"天津未来天地": {
+"brands": {
+"value": 40.0,
+"inferred": true
+}
+},
+"北京上品+(草桥店)": {
+"buildingArea": {
+"value": 1.15,
+"inferred": true
+},
+"parking": {
+"value": 92.0,
+"inferred": true
+}
+},
+"眉山万景国际中心": {
+"brands": {
+"value": 200.0,
+"inferred": true
+}
+},
+"南昌万象城": {
+"brands": {
+"value": 350.0,
+"inferred": true
+}
+},
+"南宁新梦百货": {
+"brands": {
+"value": 160.0,
+"inferred": true
+},
+"buildingArea": {
+"value": 8.0,
+"inferred": true
+},
+"parking": {
+"value": 640.0,
+"inferred": true
+}
+},
+"济宁龙贵购物广场（兖州店）": {
+"brands": {
+"value": 200.0,
+"inferred": true
+}
+},
+"廊坊新朝阳购物中心": {
+"brands": {
+"value": 160.0,
+"inferred": true
+}
+},
+"潍坊泰华城": {
+"brands": {
+"value": 400.0,
+"inferred": true
+}
+},
+"济宁龙贵购物广场（金宇路店）": {
+"brands": {
+"value": 320.0,
+"inferred": true
+}
+},
+"扬州宝应吾悦广场": {
+"brands": {
+"value": 210.0,
+"inferred": true
+}
+},
+"BHG Mall北京华联成都空港购物中心": {
+"brands": {
+"value": 148.0,
+"inferred": true
+}
+},
+"成都泛悦Mall•城市广场": {
+"brands": {
+"value": 164.0,
+"inferred": true
+}
+},
+"德州齐河万达广场": {
+"brands": {
+"value": 160.0,
+"inferred": true
+}
+},
+"长沙浏阳天虹购物中心": {
+"pop3km": {
+"value": 21.0,
+"inferred": true
+}
+},
+"绵阳茂业百货": {
+"brands": {
+"value": 55.0,
+"inferred": true
+}
+},
+"桂林微笑堂商厦": {
+"openedYear": {
+"value": 1995.0,
+"inferred": true
+}
+},
+"昆明金格百货(时光店)": {
+"brands": {
+"value": 60.0,
+"inferred": true
+}
+},
+"厦门五缘湾天虹购物中心": {
+"brands": {
+"value": 70.0,
+"inferred": true
+}
+},
+"上海恒生万鹂商业广场": {
+"brands": {
+"value": 72.0,
+"inferred": true
+}
+},
+"莆田城厢万达广场": {
+"brands": {
+"value": 300.0,
+"inferred": true
+}
+},
+"鞍山百盛商城": {
+"brands": {
+"value": 70.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2008.0,
+"inferred": true
+}
+},
+"鸡西新玛特（广益店）": {
+"brands": {
+"value": 70.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2010.0,
+"inferred": true
+}
+},
+"长沙天虹商场（芙蓉南路店）": {
+"brands": {
+"value": 125.0,
+"inferred": true
+}
+},
+"大同平城万达广场": {
+"brands": {
+"value": 100.0,
+"inferred": true
+}
+},
+"长治高新万达广场": {
+"brands": {
+"value": 230.0,
+"inferred": true
+}
+},
+"大连新玛特（总店）": {
+"brands": {
+"value": 110.0,
+"inferred": true
+}
+},
+"太原中正天街": {
+"brands": {
+"value": 160.0,
+"inferred": true
+}
+},
+"许昌魏都万达广场": {
+"brands": {
+"value": 200.0,
+"inferred": true
+}
+},
+"深圳红山6979": {
+"brands": {
+"value": 180.0,
+"inferred": true
+}
+},
+"江门昌大昌广场": {
+"brands": {
+"value": 100.0,
+"inferred": true
+},
+"openedYear": {
+"value": 2015.0,
+"inferred": true
+}
+},
+"雅安雨城万达广场": {
+"brands": {
+"value": 105.0,
+"inferred": true
+}
+},
+"杭州金地广场": {
+"brands": {
+"value": 130.0,
+"inferred": true
+}
+},
+"佛山嘉洲广场": {
+"brands": {
+"value": 55.0,
+"inferred": true
+}
+},
+"达州宣汉宏帆巴人广场": {
+"brands": {
+"value": 120.0,
+"inferred": true
+}
+},
+"沈阳市府恒隆广场": {
+"brands": {
+"value": 220.0,
+"inferred": true
+}
+},
+"永旺梦乐城天津梅江": {
+"brands": {
+"value": 250.0,
+"inferred": true
+}
+},
+"天津河东爱琴海购物中心": {
+"brands": {
+"value": 280.0,
+"inferred": true
+}
+},
+"长春新天地购物公园": {
+"openedYear": {
+"value": 2015.0,
+"inferred": true
+}
+},
+"上海百联南方购物中心一区": {
+"brands": {
+"value": 150.0,
+"inferred": true
+}
+},
+"长沙河西王府井FamilyPark": {
+"brands": {
+"value": 100.0,
+"inferred": true
+}
+},
+"广州祈福缤纷世界一期": {
+"openedYear": {
+"value": 2016.0,
+"inferred": true
+}
+},
+"上海百盛优客城市广场（天山店）": {
+"brands": {
+"value": 85.0,
+"inferred": true
+}
+},
+"上海都市奥特莱斯（飞洲国际店）": {
+"brands": {
+"value": 58.0,
+"inferred": true
+}
+},
+"北京新奥购物中心": {
+"brands": {
+"value": 282.0,
+"inferred": true
+}
+},
+"深圳西丽益田假日里": {
+"brands": {
+"value": 120.0,
+"inferred": true
+}
+},
+"广州天娱广场": {
+"brands": {
+"value": 180.0,
+"inferred": true
+}
+},
+"广州番禺万达广场": {
+"brands": {
+"value": 377.0,
+"inferred": true
+}
+},
+"西安华旗C99小寨购物中心": {
+"brands": {
+"value": 40.0,
+"inferred": true
+}
+},
+"贵阳万科广场": {
+"brands": {
+"value": 132.0,
+"inferred": true
+}
+},
+"南阳新华城市广场": {
+"brands": {
+"value": 1543.0,
+"inferred": true
+}
+},
+"绍兴新昌万达广场": {
+"brands": {
+"value": 300.0,
+"inferred": true
+}
+},
+"宜昌兴发广场": {
+"brands": {
+"value": 127.0,
+"inferred": true
+}
+},
+"蚌埠百大名品中心": {
+"brands": {
+"value": 108.0,
+"inferred": true
+}
+},
+"徐州淮海环球港": {
+"brands": {
+"value": 280.0,
+"inferred": true
+}
+},
+"上海恒基名人购物中心": {
+"brands": {
+"value": 71.0,
+"inferred": true
+}
+},
+"苏州张家港曼巴特购物广场": {
+"brands": {
+"value": 240.0,
+"inferred": true
+}
+},
+"舟山东港凯虹广场": {
+"brands": {
+"value": 120.0,
+"inferred": true
+}
+},
+"中山天悦城购物中心": {
+"brands": {
+"value": 198.0,
+"inferred": true
+}
+},
+"呼市赛罕万达广场": {
+"brands": {
+"value": 320.0,
+"inferred": true
+}
+},
+"广州动漫星城": {
+"brands": {
+"value": 45.0,
+"inferred": true
+}
+},
+"深圳摩尔城": {
+"brands": {
+"value": 120.0,
+"inferred": true
 }
 }
 }

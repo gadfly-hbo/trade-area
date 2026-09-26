@@ -1,0 +1,15 @@
+[
+  {"name": "成都都江堰百伦广场", "metric": "brands", "value": 100, "inferred": true},
+  {"name": "成都阳光新业中心", "metric": "brands", "value": 120, "inferred": true},
+  {"name": "北京悦荟广场", "metric": "brands", "value": 260, "inferred": true},
+  {"name": "烟台芝罘万达广场", "metric": "pop3km", "value": null, "inferred": false},
+  {"name": "上海鹿都国际商业广场", "metric": "brands", "value": 154, "inferred": true},
+  {"name": "深圳摩尔城", "metric": "brands", "value": 120, "inferred": true},
+  {"name": "新乡胖东来生活广场(健康路店)", "metric": "brands", "value": 40, "inferred": true},
+  {"name": "三亚蓝海购物广场", "metric": "trafficWeekday", "value": null, "inferred": false},
+  {"name": "三亚蓝海购物广场", "metric": "trafficWeekend", "value": null, "inferred": false},
+  {"name": "三亚蓝海购物广场", "metric": "trafficPeak", "value": null, "inferred": false},
+  {"name": "许昌襄城一峰城市广场", "metric": "brands", "value": 60, "inferred": true},
+  {"name": "潍坊全福元(天水路店)", "metric": "brands", "value": 80, "inferred": true},
+  {"name": "湖州安吉新浙北大厦（云鸿西路店）", "metric": "brands", "value": 74, "inferred": true}
+]

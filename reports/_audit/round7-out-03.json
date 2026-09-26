@@ -1,0 +1,686 @@
+[
+  {
+    "name": "长沙王府井百货(五一广场店)",
+    "metric": "brands",
+    "value": 45,
+    "inferred": true
+  },
+  {
+    "name": "长沙王府井百货(五一广场店)",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "上海巴黎春天(宝山店)",
+    "metric": "parking",
+    "value": 230,
+    "inferred": true
+  },
+  {
+    "name": "广州广百百货(天河中怡店)",
+    "metric": "pop3km",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广州广百百货(天河中怡店)",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广州广百百货(天河中怡店)",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广州广百百货(天河中怡店)",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "广州广百百货(天河中怡店)",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安盛安广场·星光CityMore",
+    "metric": "pop3km",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安盛安广场·星光CityMore",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安盛安广场·星光CityMore",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安盛安广场·星光CityMore",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安盛安广场·星光CityMore",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "邵阳友阿国际广场",
+    "metric": "trafficWeekday",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "邵阳友阿国际广场",
+    "metric": "trafficWeekend",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "邵阳友阿国际广场",
+    "metric": "trafficPeak",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "邵阳友阿国际广场",
+    "metric": "brands",
+    "value": 308,
+    "inferred": true
+  },
+  {
+    "name": "柳州地王新天地",
+    "metric": "brands",
+    "value": 130,
+    "inferred": true
+  },
+  {
+    "name": "厦门五缘湾天虹购物中心",
+    "metric": "brands",
+    "value": 70,
+    "inferred": true
+  },
+  {
+    "name": "厦门五缘湾天虹购物中心",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "杭州新天地购物中心",
+    "metric": "brands",
+    "value": 220,
+    "inferred": true
+  },
+  {
+    "name": "赣州步步高新天地",
+    "metric": "brands",
+    "value": 120,
+    "inferred": true
+  },
+  {
+    "name": "贵阳·悦然广场",
+    "metric": "brands",
+    "value": 100,
+    "inferred": true
+  },
+  {
+    "name": "贵阳·悦然广场",
+    "metric": "openedYear",
+    "value": 2024,
+    "inferred": true
+  },
+  {
+    "name": "上海恒生万鹂商业广场",
+    "metric": "brands",
+    "value": 72,
+    "inferred": true
+  },
+  {
+    "name": "大庆大商百货",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大庆大商百货",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大庆大商百货",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "大庆大商百货",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "莆田城厢万达广场",
+    "metric": "brands",
+    "value": 300,
+    "inferred": true
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "trafficWeekday",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "trafficWeekend",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "trafficPeak",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "呼伦贝尔伊仕丹购物广场",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "赤峰维多利广场(哈达西街)",
+    "metric": "brands",
+    "value": 184,
+    "inferred": true
+  },
+  {
+    "name": "阜新新玛特(解放大街店)",
+    "metric": "brands",
+    "value": 106,
+    "inferred": true
+  },
+  {
+    "name": "鞍山百盛商城",
+    "metric": "brands",
+    "value": 70,
+    "inferred": true
+  },
+  {
+    "name": "鞍山百盛商城",
+    "metric": "openedYear",
+    "value": 2008,
+    "inferred": true
+  },
+  {
+    "name": "白山欧亚合兴商场",
+    "metric": "trafficWeekday",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "白山欧亚合兴商场",
+    "metric": "trafficWeekend",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "白山欧亚合兴商场",
+    "metric": "trafficPeak",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "吉林财富购物广场",
+    "metric": "brands",
+    "value": 150,
+    "inferred": true
+  },
+  {
+    "name": "吉林财富购物广场",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "鸡西新玛特（广益店）",
+    "metric": "brands",
+    "value": 70,
+    "inferred": true
+  },
+  {
+    "name": "鸡西新玛特（广益店）",
+    "metric": "openedYear",
+    "value": 2010,
+    "inferred": true
+  },
+  {
+    "name": "邵阳步步高新天地",
+    "metric": "brands",
+    "value": 250,
+    "inferred": true
+  },
+  {
+    "name": "乌鲁木齐天山百货",
+    "metric": "brands",
+    "value": 50,
+    "inferred": true
+  },
+  {
+    "name": "绍兴国金大悦城",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "绍兴国金大悦城",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "绍兴国金大悦城",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "绍兴国金大悦城",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "鹤壁裕隆·爱之城",
+    "metric": "brands",
+    "value": 140,
+    "inferred": true
+  },
+  {
+    "name": "鹤壁裕隆·爱之城",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西宁王府井大象城",
+    "metric": "pop3km",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐北京路汇嘉时代广场",
+    "metric": "brands",
+    "value": 180,
+    "inferred": true
+  },
+  {
+    "name": "长沙天虹商场（芙蓉南路店）",
+    "metric": "brands",
+    "value": 125,
+    "inferred": true
+  },
+  {
+    "name": "苏州昆山吾悦广场",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州昆山吾悦广场",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "河源坚基购物中心",
+    "metric": "brands",
+    "value": 200,
+    "inferred": true
+  },
+  {
+    "name": "重庆观音桥新世界百货",
+    "metric": "trafficWeekend",
+    "value": 3.42,
+    "inferred": true
+  },
+  {
+    "name": "重庆观音桥新世界百货",
+    "metric": "brands",
+    "value": 50,
+    "inferred": true
+  },
+  {
+    "name": "珠海南湾华发商都",
+    "metric": "brands",
+    "value": 200,
+    "inferred": true
+  },
+  {
+    "name": "重庆茂业天地",
+    "metric": "brands",
+    "value": 180,
+    "inferred": true
+  },
+  {
+    "name": "上海富绅时代广场",
+    "metric": "brands",
+    "value": 140,
+    "inferred": true
+  },
+  {
+    "name": "上海富绅时代广场",
+    "metric": "openedYear",
+    "value": 2005,
+    "inferred": true
+  },
+  {
+    "name": "宜昌CBD购物中心",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宜昌CBD购物中心",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南通文峰大世界（南大街）",
+    "metric": "brands",
+    "value": 150,
+    "inferred": true
+  },
+  {
+    "name": "南通文峰大世界（南大街）",
+    "metric": "openedYear",
+    "value": 1995,
+    "inferred": true
+  },
+  {
+    "name": "郑州永和时光里",
+    "metric": "brands",
+    "value": 70,
+    "inferred": true
+  },
+  {
+    "name": "郑州永和时光里",
+    "metric": "openedYear",
+    "value": 2018,
+    "inferred": true
+  },
+  {
+    "name": "青岛青特万达广场",
+    "metric": "brands",
+    "value": 200,
+    "inferred": true
+  },
+  {
+    "name": "金华江北银泰百货",
+    "metric": "brands",
+    "value": 100,
+    "inferred": true
+  },
+  {
+    "name": "青岛利群商厦",
+    "metric": "brands",
+    "value": 50,
+    "inferred": true
+  },
+  {
+    "name": "青岛台东利群商业项目",
+    "metric": "brands",
+    "value": 129,
+    "inferred": true
+  },
+  {
+    "name": "德州铜锣湾奥特莱斯小镇",
+    "metric": "brands",
+    "value": 100,
+    "inferred": true
+  },
+  {
+    "name": "德州铜锣湾奥特莱斯小镇",
+    "metric": "buildingArea",
+    "value": 5,
+    "inferred": true
+  },
+  {
+    "name": "德州铜锣湾奥特莱斯小镇",
+    "metric": "parking",
+    "value": 400,
+    "inferred": true
+  },
+  {
+    "name": "德州铜锣湾奥特莱斯小镇",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "南京德基广场二期",
+    "metric": "brands",
+    "value": 320,
+    "inferred": true
+  },
+  {
+    "name": "合肥滨湖银泰百货",
+    "metric": "brands",
+    "value": 170,
+    "inferred": true
+  },
+  {
+    "name": "大同平城万达广场",
+    "metric": "brands",
+    "value": 100,
+    "inferred": true
+  },
+  {
+    "name": "遵义国贸购物中心",
+    "metric": "brands",
+    "value": 126,
+    "inferred": true
+  },
+  {
+    "name": "广州信达金茂广场·益田假日世界",
+    "metric": "brands",
+    "value": 160,
+    "inferred": true
+  },
+  {
+    "name": "乌鲁木齐时代广场CC MALL",
+    "metric": "trafficWeekday",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐时代广场CC MALL",
+    "metric": "trafficWeekend",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐时代广场CC MALL",
+    "metric": "trafficPeak",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "乌鲁木齐时代广场CC MALL",
+    "metric": "brands",
+    "value": 240,
+    "inferred": true
+  },
+  {
+    "name": "长治高新万达广场",
+    "metric": "brands",
+    "value": 230,
+    "inferred": true
+  },
+  {
+    "name": "南宁梦之岛水晶城百货(水晶城店)",
+    "metric": "brands",
+    "value": 100,
+    "inferred": true
+  },
+  {
+    "name": "宜宾万达广场",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宜宾万达广场",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宜宾万达广场",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宜宾万达广场",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "西安西咸吾悦广场",
+    "metric": "brands",
+    "value": 220,
+    "inferred": true
+  },
+  {
+    "name": "南京建邺吾悦广场",
+    "metric": "pop3km",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宿州苏宁广场(汴河中路店)",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "宿州苏宁广场(汴河中路店)",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "佛山容桂天佑城",
+    "metric": "brands",
+    "value": 150,
+    "inferred": true
+  },
+  {
+    "name": "成都锦江大融城",
+    "metric": "brands",
+    "value": 160,
+    "inferred": true
+  },
+  {
+    "name": "郑州新田360广场（国贸店）南区",
+    "metric": "brands",
+    "value": 140,
+    "inferred": true
+  },
+  {
+    "name": "苏州相城天虹购物中心",
+    "metric": "trafficWeekday",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州相城天虹购物中心",
+    "metric": "trafficWeekend",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州相城天虹购物中心",
+    "metric": "trafficPeak",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "苏州相城天虹购物中心",
+    "metric": "pop3km",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡八佰伴中心（锡沪路店）",
+    "metric": "brands",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡八佰伴中心（锡沪路店）",
+    "metric": "buildingArea",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡八佰伴中心（锡沪路店）",
+    "metric": "parking",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "无锡八佰伴中心（锡沪路店）",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  },
+  {
+    "name": "临沂泰盛广场一期",
+    "metric": "brands",
+    "value": 200,
+    "inferred": true
+  },
+  {
+    "name": "眉山东坡万达广场",
+    "metric": "brands",
+    "value": 120,
+    "inferred": true
+  },
+  {
+    "name": "眉山东坡万达广场",
+    "metric": "openedYear",
+    "value": null,
+    "inferred": false
+  }
+]
