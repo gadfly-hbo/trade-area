@@ -187,6 +187,18 @@
 "rent": {
 "value": 2.79,
 "inferred": false
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "南通海安万达广场": {
@@ -679,6 +691,18 @@
 "buildingArea": {
 "value": 13.81,
 "inferred": false
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 52.0,
+"inferred": true
 }
 },
 "廊坊广阳万达广场": {
@@ -748,6 +772,18 @@
 },
 "brands": {
 "value": 300.0,
+"inferred": true
+},
+"crowdA": {
+"value": 28.0,
+"inferred": true
+},
+"crowdB": {
+"value": 54.0,
+"inferred": true
+},
+"crowdC": {
+"value": 18.0,
 "inferred": true
 }
 },
@@ -1280,6 +1316,18 @@
 "buildingArea": {
 "value": 13.8,
 "inferred": true
+},
+"crowdA": {
+"value": 20.6,
+"inferred": true
+},
+"crowdB": {
+"value": 40.2,
+"inferred": true
+},
+"crowdC": {
+"value": 39.2,
+"inferred": true
 }
 },
 "上海美罗城": {
@@ -1385,6 +1433,18 @@
 "parking": {
 "value": 254.0,
 "inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "上海新天地北里": {
@@ -1407,6 +1467,18 @@
 "brands": {
 "value": 30.0,
 "inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 70.0,
+"inferred": true
+},
+"crowdC": {
+"value": 15.0,
+"inferred": true
 }
 },
 "唐山迁安东安悦购城": {
@@ -1420,6 +1492,18 @@
 },
 "brands": {
 "value": 120.0,
+"inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
 "inferred": true
 }
 },
@@ -1439,6 +1523,18 @@
 },
 "trafficWeekend": {
 "value": 8.21,
+"inferred": true
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -1751,6 +1847,18 @@
 },
 "parking": {
 "value": 496.0,
+"inferred": true
+},
+"crowdA": {
+"value": 23.0,
+"inferred": true
+},
+"crowdB": {
+"value": 46.0,
+"inferred": true
+},
+"crowdC": {
+"value": 31.0,
 "inferred": true
 }
 },
@@ -2125,6 +2233,18 @@
 "buildingArea": {
 "value": 80.0,
 "inferred": true
+},
+"crowdA": {
+"value": 33.0,
+"inferred": true
+},
+"crowdB": {
+"value": 46.0,
+"inferred": true
+},
+"crowdC": {
+"value": 21.0,
+"inferred": true
 }
 },
 "西安首创奥特莱斯": {
@@ -2245,6 +2365,18 @@
 "buildingArea": {
 "value": 21.0,
 "inferred": false
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 44.0,
+"inferred": true
+},
+"crowdC": {
+"value": 38.0,
+"inferred": true
 }
 },
 "北京燕莎友谊商城（亮马桥店）": {
@@ -2736,6 +2868,18 @@
 "珠海玖洲道": {
 "trafficPeak": {
 "value": 13.5,
+"inferred": true
+},
+"crowdA": {
+"value": 26.0,
+"inferred": true
+},
+"crowdB": {
+"value": 37.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
 "inferred": true
 }
 },
@@ -3408,6 +3552,18 @@
 "trafficWeekend": {
 "value": 3.36,
 "inferred": true
+},
+"crowdA": {
+"value": 65.0,
+"inferred": true
+},
+"crowdB": {
+"value": 15.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "成都阳光新业中心": {
@@ -3787,6 +3943,18 @@
 "parking": {
 "value": 1600.0,
 "inferred": false
+},
+"crowdA": {
+"value": 14.0,
+"inferred": true
+},
+"crowdB": {
+"value": 42.0,
+"inferred": true
+},
+"crowdC": {
+"value": 44.0,
+"inferred": true
 }
 },
 "合肥银泰中心一期": {
@@ -3869,6 +4037,18 @@
 "value": 610.0,
 "inferred": false,
 "force": true
+},
+"crowdA": {
+"value": 4.0,
+"inferred": true
+},
+"crowdB": {
+"value": 33.0,
+"inferred": true
+},
+"crowdC": {
+"value": 63.0,
+"inferred": true
 }
 },
 "武汉亲橙万象汇": {
@@ -4619,6 +4799,18 @@
 "brands": {
 "value": 200.0,
 "inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
+"inferred": true
 }
 },
 "常州泰富百货": {
@@ -4634,6 +4826,18 @@
 "贵阳云岩万达广场": {
 "brands": {
 "value": 215.0,
+"inferred": true
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 48.0,
+"inferred": true
+},
+"crowdC": {
+"value": 34.0,
 "inferred": true
 }
 },
@@ -4776,6 +4980,18 @@
 "brands": {
 "value": 160.0,
 "inferred": false
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "石家庄新百广场（中山西路店）": {
@@ -4844,6 +5060,18 @@
 "value": 3.75,
 "inferred": true,
 "force": true
+},
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
+"inferred": true
 }
 },
 "龙湖上海闵行天街": {
@@ -4908,6 +5136,18 @@
 "trafficWeekday": {
 "value": 1.0,
 "inferred": true
+},
+"crowdA": {
+"value": 12.0,
+"inferred": true
+},
+"crowdB": {
+"value": 43.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
+"inferred": true
 }
 },
 "桂林叠彩万达广场": {
@@ -4966,6 +5206,18 @@
 "merchants": {
 "value": 250.0,
 "inferred": false
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "无锡万象城": {
@@ -5606,6 +5858,18 @@
 "brands": {
 "value": 450.0,
 "inferred": false
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "深圳南山欢乐颂": {
@@ -5638,6 +5902,18 @@
 "trafficPeak": {
 "value": 16.7,
 "inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 55.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "九江联盛购物广场(修水店)": {
@@ -5655,6 +5931,18 @@
 },
 "parking": {
 "value": 504.0,
+"inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 22.0,
+"inferred": true
+},
+"crowdC": {
+"value": 58.0,
 "inferred": true
 }
 },
@@ -5677,6 +5965,18 @@
 },
 "parking": {
 "value": 152.0,
+"inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 55.0,
 "inferred": true
 }
 },
@@ -6525,6 +6825,18 @@
 "brands": {
 "value": 198.0,
 "inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "广州GOGO新天地": {
@@ -6999,6 +7311,18 @@
 "brands": {
 "value": 200.0,
 "inferred": true
+},
+"crowdA": {
+"value": 9.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 41.0,
+"inferred": true
 }
 },
 "重庆阳光世纪城市奥莱": {
@@ -7052,6 +7376,18 @@
 },
 "buildingArea": {
 "value": 4.25,
+"inferred": true
+},
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 62.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
 "inferred": true
 }
 },
@@ -7199,6 +7535,18 @@
 "competitors": {
 "value": 1.0,
 "inferred": false
+},
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 38.0,
+"inferred": true
 }
 },
 "深圳天虹商场（坂田店）": {
@@ -7243,6 +7591,18 @@
 "brands": {
 "value": 60.0,
 "inferred": true
+},
+"crowdA": {
+"value": 22.0,
+"inferred": true
+},
+"crowdB": {
+"value": 23.0,
+"inferred": true
+},
+"crowdC": {
+"value": 55.0,
+"inferred": true
 }
 },
 "龙湖长沙开福天街": {
@@ -7264,6 +7624,18 @@
 },
 "brands": {
 "value": 220.0,
+"inferred": true
+},
+"crowdA": {
+"value": 24.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 24.0,
 "inferred": true
 }
 },
@@ -8013,6 +8385,18 @@
 "brands": {
 "value": 240.0,
 "inferred": true
+},
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 60.0,
+"inferred": true
 }
 },
 "怀化步步高广场(城北路店)": {
@@ -8023,6 +8407,18 @@
 "buildingArea": {
 "value": 3.5,
 "inferred": false
+},
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 33.0,
+"inferred": true
+},
+"crowdC": {
+"value": 50.0,
+"inferred": true
 }
 },
 "宜宾万象天地": {
@@ -8040,6 +8436,18 @@
 },
 "parking": {
 "value": 1120.0,
+"inferred": true
+},
+"crowdA": {
+"value": 38.0,
+"inferred": true
+},
+"crowdB": {
+"value": 37.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -8062,6 +8470,18 @@
 },
 "brands": {
 "value": 220.0,
+"inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 55.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -8139,6 +8559,18 @@
 "openedYear": {
 "value": 2022.0,
 "inferred": false
+},
+"crowdA": {
+"value": 22.0,
+"inferred": true
+},
+"crowdB": {
+"value": 53.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "珠海高新宝龙广场": {
@@ -8372,6 +8804,18 @@
 "南通文峰大世界(海安店)": {
 "parking": {
 "value": 200.0,
+"inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
 "inferred": true
 }
 },
@@ -9043,6 +9487,18 @@
 "brands": {
 "value": 300.0,
 "inferred": true
+},
+"crowdA": {
+"value": 9.0,
+"inferred": true
+},
+"crowdB": {
+"value": 41.0,
+"inferred": true
+},
+"crowdC": {
+"value": 50.0,
+"inferred": true
 }
 },
 "铜陵百大购物中心": {
@@ -9248,6 +9704,18 @@
 },
 "brands": {
 "value": 330.0,
+"inferred": true
+},
+"crowdA": {
+"value": 8.0,
+"inferred": true
+},
+"crowdB": {
+"value": 36.0,
+"inferred": true
+},
+"crowdC": {
+"value": 56.0,
 "inferred": true
 }
 },
@@ -9803,6 +10271,18 @@
 "openedYear": {
 "value": 2012.0,
 "inferred": false
+},
+"crowdA": {
+"value": 31.6,
+"inferred": true
+},
+"crowdB": {
+"value": 57.9,
+"inferred": true
+},
+"crowdC": {
+"value": 10.5,
+"inferred": true
 }
 },
 "南京金鹰世界": {
@@ -9826,6 +10306,18 @@
 },
 "trafficWeekend": {
 "value": 5.53,
+"inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
 "inferred": true
 }
 },
@@ -9933,6 +10425,18 @@
 "parking": {
 "value": 1000.0,
 "inferred": false
+},
+"crowdA": {
+"value": 28.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "济宁吾悦广场": {
@@ -10040,6 +10544,18 @@
 "trafficWeekend": {
 "value": 4.0,
 "inferred": true
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 32.0,
+"inferred": true
 }
 },
 "杭州西投银泰城": {
@@ -10084,6 +10600,18 @@
 "firstStores": {
 "value": 116.0,
 "inferred": false
+},
+"crowdA": {
+"value": 11.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
+"inferred": true
 }
 },
 "宜宾吾悦广场": {
@@ -10132,6 +10660,18 @@
 "buildingArea": {
 "value": 12.25,
 "inferred": false
+},
+"crowdA": {
+"value": 27.0,
+"inferred": true
+},
+"crowdB": {
+"value": 39.0,
+"inferred": true
+},
+"crowdC": {
+"value": 34.0,
+"inferred": true
 }
 },
 "北京超极合生汇东区": {
@@ -10356,6 +10896,18 @@
 "firstStores": {
 "value": 54.0,
 "inferred": false
+},
+"crowdA": {
+"value": 23.0,
+"inferred": true
+},
+"crowdB": {
+"value": 35.0,
+"inferred": true
+},
+"crowdC": {
+"value": 42.0,
+"inferred": true
 }
 },
 "重庆光环购物公园": {
@@ -11027,6 +11579,18 @@
 "trafficWeekend": {
 "value": 4.0,
 "inferred": true
+},
+"crowdA": {
+"value": 28.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 27.0,
+"inferred": true
 }
 },
 "武汉杉杉奥特莱斯广场": {
@@ -11036,6 +11600,18 @@
 },
 "trafficWeekend": {
 "value": 3.9,
+"inferred": true
+},
+"crowdA": {
+"value": 32.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 38.0,
 "inferred": true
 }
 },
@@ -11050,6 +11626,18 @@
 },
 "brands": {
 "value": 70.0,
+"inferred": true
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 34.0,
+"inferred": true
+},
+"crowdC": {
+"value": 48.0,
 "inferred": true
 }
 },
@@ -11163,6 +11751,18 @@
 "brands": {
 "value": 245.0,
 "inferred": true
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 33.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
+"inferred": true
 }
 },
 "阜阳商厦中心": {
@@ -11181,6 +11781,18 @@
 "brands": {
 "value": 160.0,
 "inferred": true
+},
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 55.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
+"inferred": true
 }
 },
 "宁波慈溪银泰百货": {
@@ -11190,6 +11802,18 @@
 },
 "trafficWeekend": {
 "value": 3.25,
+"inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 60.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
 "inferred": true
 }
 },
@@ -11287,6 +11911,18 @@
 "trafficPeak": {
 "value": 10.0,
 "inferred": true
+},
+"crowdA": {
+"value": 16.0,
+"inferred": true
+},
+"crowdB": {
+"value": 54.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "上海仲盛世界商城": {
@@ -11314,6 +11950,18 @@
 },
 "trafficPeak": {
 "value": 3.75,
+"inferred": true
+},
+"crowdA": {
+"value": 27.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 21.0,
 "inferred": true
 }
 },
@@ -11884,6 +12532,18 @@
 "trafficPeak": {
 "value": 10.5,
 "inferred": true
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 35.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
+"inferred": true
 }
 },
 "宁波前湾盛世里文旅·奥特莱斯": {
@@ -11893,6 +12553,18 @@
 },
 "trafficWeekend": {
 "value": 3.9,
+"inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
 "inferred": true
 }
 },
@@ -11911,6 +12583,18 @@
 },
 "trafficPeak": {
 "value": 1.15,
+"inferred": true
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 37.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
 "inferred": true
 }
 },
@@ -11934,6 +12618,18 @@
 "brands": {
 "value": 186.0,
 "inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
+"inferred": true
 }
 },
 "天津中国铁建广场": {
@@ -11943,6 +12639,18 @@
 },
 "trafficWeekend": {
 "value": 1.5,
+"inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 42.0,
+"inferred": true
+},
+"crowdC": {
+"value": 43.0,
 "inferred": true
 }
 },
@@ -12043,6 +12751,18 @@
 "trafficWeekday": {
 "value": 9.0,
 "inferred": false
+},
+"crowdA": {
+"value": 24.0,
+"inferred": true
+},
+"crowdB": {
+"value": 54.0,
+"inferred": true
+},
+"crowdC": {
+"value": 22.0,
+"inferred": true
 }
 },
 "武汉世界城广场": {
@@ -12063,6 +12783,18 @@
 "brands": {
 "value": 290.0,
 "inferred": true
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 37.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
+"inferred": true
 }
 },
 "上海Gate M西岸梦中心": {
@@ -12072,6 +12804,18 @@
 },
 "trafficWeekday": {
 "value": 3.65,
+"inferred": true
+},
+"crowdA": {
+"value": 38.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 17.0,
 "inferred": true
 }
 },
@@ -12083,6 +12827,18 @@
 "parking": {
 "value": 528.0,
 "inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "鹤岗比优特时代广场": {
@@ -12092,6 +12848,18 @@
 },
 "parking": {
 "value": 640.0,
+"inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 35.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
 "inferred": true
 }
 },
@@ -12248,6 +13016,18 @@
 "trafficPeak": {
 "value": 2.11,
 "inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
+"inferred": true
 }
 },
 "东莞百花时代广场": {
@@ -12315,6 +13095,18 @@
 },
 "brands": {
 "value": 160.0,
+"inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 53.0,
+"inferred": true
+},
+"crowdC": {
+"value": 32.0,
 "inferred": true
 }
 },
@@ -12756,6 +13548,18 @@
 "parking": {
 "value": 2000.0,
 "inferred": true
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 15.0,
+"inferred": true
 }
 },
 "南京虹悦城": {
@@ -12846,6 +13650,18 @@
 "brands": {
 "value": 414.0,
 "inferred": true
+},
+"crowdA": {
+"value": 28.0,
+"inferred": true
+},
+"crowdB": {
+"value": 47.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "上海蟠龙天地": {
@@ -12855,6 +13671,18 @@
 },
 "trafficWeekend": {
 "value": 4.93,
+"inferred": true
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -12871,6 +13699,18 @@
 "value": 17.5,
 "inferred": true,
 "force": true
+},
+"crowdA": {
+"value": 38.0,
+"inferred": true
+},
+"crowdB": {
+"value": 34.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
+"inferred": true
 }
 },
 "威海齐鲁商城": {
@@ -12893,6 +13733,18 @@
 "brands": {
 "value": 90.0,
 "inferred": true
+},
+"crowdA": {
+"value": 8.0,
+"inferred": true
+},
+"crowdB": {
+"value": 22.0,
+"inferred": true
+},
+"crowdC": {
+"value": 70.0,
+"inferred": true
 }
 },
 "深圳BREWTOWN啤酒小镇": {
@@ -12911,6 +13763,18 @@
 "parking": {
 "value": 400.0,
 "inferred": true
+},
+"crowdA": {
+"value": 55.0,
+"inferred": true
+},
+"crowdB": {
+"value": 32.0,
+"inferred": true
+},
+"crowdC": {
+"value": 13.0,
+"inferred": true
 }
 },
 "成都天荟·万科广场": {
@@ -12924,6 +13788,18 @@
 },
 "parking": {
 "value": 204.0,
+"inferred": true
+},
+"crowdA": {
+"value": 50.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
 "inferred": true
 }
 },
@@ -12943,6 +13819,18 @@
 "brands": {
 "value": 100.0,
 "inferred": true
+},
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 65.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "东莞寮步万润广场": {
@@ -12956,6 +13844,18 @@
 },
 "trafficPeak": {
 "value": 2.5,
+"inferred": true
+},
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 37.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
 "inferred": true
 }
 },
@@ -12975,6 +13875,18 @@
 },
 "brands": {
 "value": 300.0,
+"inferred": true
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -13085,6 +13997,18 @@
 "buildingArea": {
 "value": 9.11,
 "inferred": false
+},
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
+"inferred": true
 }
 },
 "贵阳·悦然时光": {
@@ -13660,6 +14584,18 @@
 "parking": {
 "value": 326.0,
 "inferred": true
+},
+"crowdA": {
+"value": 7.0,
+"inferred": true
+},
+"crowdB": {
+"value": 38.0,
+"inferred": true
+},
+"crowdC": {
+"value": 55.0,
+"inferred": true
 }
 },
 "南宁梦之岛水晶城百货(水晶城店)": {
@@ -14009,6 +14945,18 @@
 "buildingArea": {
 "value": 23.0,
 "inferred": false
+},
+"crowdA": {
+"value": 30.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "砂之船（西安）奥莱": {
@@ -14354,6 +15302,18 @@
 "parking": {
 "value": 520.0,
 "inferred": true
+},
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 31.0,
+"inferred": true
 }
 },
 "上海前滩公园巷": {
@@ -14372,6 +15332,18 @@
 "parking": {
 "value": 464.0,
 "inferred": true
+},
+"crowdA": {
+"value": 32.0,
+"inferred": true
+},
+"crowdB": {
+"value": 48.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "南昌百盛百货B馆": {
@@ -14385,6 +15357,18 @@
 },
 "brands": {
 "value": 80.0,
+"inferred": true
+},
+"crowdA": {
+"value": 65.0,
+"inferred": true
+},
+"crowdB": {
+"value": 15.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
 "inferred": true
 }
 },
@@ -14404,6 +15388,18 @@
 "parking": {
 "value": 480.0,
 "inferred": true
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "上海百盛(淮海店)": {
@@ -14422,6 +15418,18 @@
 "brands": {
 "value": 57.0,
 "inferred": true
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 15.0,
+"inferred": true
 }
 },
 "海口上邦百汇城": {
@@ -14436,6 +15444,18 @@
 "brands": {
 "value": 154.0,
 "inferred": true
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 18.0,
+"inferred": true
+},
+"crowdC": {
+"value": 47.0,
+"inferred": true
 }
 },
 "承德金龙购物广场": {
@@ -14445,6 +15465,18 @@
 },
 "parking": {
 "value": 1344.0,
+"inferred": true
+},
+"crowdA": {
+"value": 33.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 27.0,
 "inferred": true
 }
 },
@@ -14466,6 +15498,18 @@
 "brands": {
 "value": 500.0,
 "inferred": false
+},
+"crowdA": {
+"value": 22.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 33.0,
+"inferred": true
 }
 },
 "上海五角场万达广场": {
@@ -14478,6 +15522,18 @@
 "buildingArea": {
 "value": 33.0,
 "inferred": false
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 35.0,
+"inferred": true
 }
 },
 "广州荔湾领展广场": {
@@ -14489,6 +15545,18 @@
 "value": 17.0,
 "inferred": true,
 "force": true
+},
+"crowdA": {
+"value": 23.0,
+"inferred": true
+},
+"crowdB": {
+"value": 38.0,
+"inferred": true
+},
+"crowdC": {
+"value": 39.0,
+"inferred": true
 }
 },
 "六安舒城万达广场": {
@@ -14580,6 +15648,18 @@
 "buildingArea": {
 "value": 10.82,
 "inferred": false
+},
+"crowdA": {
+"value": 22.0,
+"inferred": true
+},
+"crowdB": {
+"value": 42.0,
+"inferred": true
+},
+"crowdC": {
+"value": 36.0,
+"inferred": true
 }
 },
 "深圳龙岗·天光城": {
@@ -14950,6 +16030,18 @@
 "brands": {
 "value": 120.0,
 "inferred": true
+},
+"crowdA": {
+"value": 40.0,
+"inferred": true
+},
+"crowdB": {
+"value": 20.0,
+"inferred": true
+},
+"crowdC": {
+"value": 40.0,
+"inferred": true
 }
 },
 "北京乐多港万达广场": {
@@ -15236,6 +16328,18 @@
 "parking": {
 "value": 1000.0,
 "inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 55.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "杭州滨江开元广场": {
@@ -15421,6 +16525,18 @@
 "西宁中惠万达广场": {
 "parking": {
 "value": 1082.0,
+"inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
 "inferred": true
 }
 },
@@ -16052,6 +17168,18 @@
 "brands": {
 "value": 140.0,
 "inferred": true
+},
+"crowdA": {
+"value": 19.0,
+"inferred": true
+},
+"crowdB": {
+"value": 38.0,
+"inferred": true
+},
+"crowdC": {
+"value": 43.0,
+"inferred": true
 }
 },
 "南京汤山百联奥特莱斯": {
@@ -16100,6 +17228,18 @@
 "brands": {
 "value": 140.0,
 "inferred": true
+},
+"crowdA": {
+"value": 16.0,
+"inferred": true
+},
+"crowdB": {
+"value": 53.0,
+"inferred": true
+},
+"crowdC": {
+"value": 31.0,
+"inferred": true
 }
 },
 "西安龙首印象城": {
@@ -16117,6 +17257,18 @@
 "茂悦东荟城": {
 "parking": {
 "value": 800.0,
+"inferred": true
+},
+"crowdA": {
+"value": 8.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 62.0,
 "inferred": true
 }
 },
@@ -16423,6 +17575,18 @@
 "brands": {
 "value": 250.0,
 "inferred": true
+},
+"crowdA": {
+"value": 13.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
+"inferred": true
 }
 },
 "宜宾莱茵春天购物中心": {
@@ -16468,6 +17632,18 @@
 "上海百联金山购物中心": {
 "brands": {
 "value": 162.0,
+"inferred": true
+},
+"crowdA": {
+"value": 3.0,
+"inferred": true
+},
+"crowdB": {
+"value": 13.0,
+"inferred": true
+},
+"crowdC": {
+"value": 84.0,
 "inferred": true
 }
 },
@@ -16515,6 +17691,18 @@
 "北京金融街购物中心": {
 "trafficWeekend": {
 "value": 0.4,
+"inferred": true
+},
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 70.0,
+"inferred": true
+},
+"crowdC": {
+"value": 13.0,
 "inferred": true
 }
 },
@@ -16610,6 +17798,18 @@
 "parking": {
 "value": 1200.0,
 "inferred": false
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
 }
 },
 "孝感银泰百货": {
@@ -16810,11 +18010,35 @@
 "trafficPeak": {
 "value": 10.5,
 "inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 30.0,
+"inferred": true
+},
+"crowdC": {
+"value": 50.0,
+"inferred": true
 }
 },
 "合肥瑶海万象汇": {
 "trafficWeekend": {
 "value": 13.0,
+"inferred": true
+},
+"crowdA": {
+"value": 32.0,
+"inferred": true
+},
+"crowdB": {
+"value": 40.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
 "inferred": true
 }
 },
@@ -16830,6 +18054,18 @@
 "brands": {
 "value": 104.0,
 "inferred": true
+},
+"crowdA": {
+"value": 28.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 27.0,
+"inferred": true
 }
 },
 "南昌百盛优客城市广场": {
@@ -16840,11 +18076,35 @@
 "brands": {
 "value": 65.0,
 "inferred": true
+},
+"crowdA": {
+"value": 40.0,
+"inferred": true
+},
+"crowdB": {
+"value": 15.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
+"inferred": true
 }
 },
 "长沙通程商业广场（浏阳金沙中路店）": {
 "trafficWeekend": {
 "value": 0.59,
+"inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 38.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
 "inferred": true
 }
 },
@@ -16856,11 +18116,35 @@
 "brands": {
 "value": 60.0,
 "inferred": true
+},
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 60.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "青岛家佳源购物中心(长江中路店)": {
 "trafficWeekend": {
 "value": 1.63,
+"inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 35.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
 "inferred": true
 }
 },
@@ -16872,6 +18156,18 @@
 "brands": {
 "value": 260.0,
 "inferred": true
+},
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
 }
 },
 "武汉凯德广场·武胜": {
@@ -16881,6 +18177,18 @@
 },
 "brands": {
 "value": 199.0,
+"inferred": true
+},
+"crowdA": {
+"value": 45.0,
+"inferred": true
+},
+"crowdB": {
+"value": 38.0,
+"inferred": true
+},
+"crowdC": {
+"value": 17.0,
 "inferred": true
 }
 },
@@ -16950,6 +18258,18 @@
 "parking": {
 "value": 972.0,
 "inferred": false
+},
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "上海天空万科广场": {
@@ -17132,6 +18452,18 @@
 "廊坊新朝阳购物中心": {
 "brands": {
 "value": 160.0,
+"inferred": true
+},
+"crowdA": {
+"value": 3.0,
+"inferred": true
+},
+"crowdB": {
+"value": 29.0,
+"inferred": true
+},
+"crowdC": {
+"value": 68.0,
 "inferred": true
 }
 },
@@ -17319,6 +18651,18 @@
 "brands": {
 "value": 250.0,
 "inferred": true
+},
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 65.0,
+"inferred": true
+},
+"crowdC": {
+"value": 15.0,
+"inferred": true
 }
 },
 "天津河东爱琴海购物中心": {
@@ -17433,6 +18777,18 @@
 "brands": {
 "value": 71.0,
 "inferred": true
+},
+"crowdA": {
+"value": 36.0,
+"inferred": true
+},
+"crowdB": {
+"value": 44.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
 }
 },
 "苏州张家港曼巴特购物广场": {
@@ -17468,6 +18824,272 @@
 "深圳摩尔城": {
 "brands": {
 "value": 120.0,
+"inferred": true
+}
+},
+"北京西红门新光界": {
+"crowdA": {
+"value": 14.0,
+"inferred": true
+},
+"crowdB": {
+"value": 43.0,
+"inferred": true
+},
+"crowdC": {
+"value": 43.0,
+"inferred": true
+}
+},
+"上海川沙96广场": {
+"crowdA": {
+"value": 10.0,
+"inferred": true
+},
+"crowdB": {
+"value": 48.0,
+"inferred": true
+},
+"crowdC": {
+"value": 42.0,
+"inferred": true
+}
+},
+"成都天府大悦城": {
+"crowdA": {
+"value": 35.0,
+"inferred": true
+},
+"crowdB": {
+"value": 45.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.0,
+"inferred": true
+}
+},
+"龙湖上海华泾天街": {
+"crowdA": {
+"value": 16.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 34.0,
+"inferred": true
+}
+},
+"广州广百百货(天河中怡店)": {
+"crowdA": {
+"value": 23.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 25.0,
+"inferred": true
+}
+},
+"广州金沙洲金铂天地": {
+"crowdA": {
+"value": 11.0,
+"inferred": true
+},
+"crowdB": {
+"value": 52.0,
+"inferred": true
+},
+"crowdC": {
+"value": 37.0,
+"inferred": true
+}
+},
+"重庆砂之船(两江新区)奥莱": {
+"crowdA": {
+"value": 17.0,
+"inferred": true
+},
+"crowdB": {
+"value": 55.0,
+"inferred": true
+},
+"crowdC": {
+"value": 28.0,
+"inferred": true
+}
+},
+"扬州吾悦广场": {
+"crowdA": {
+"value": 11.0,
+"inferred": true
+},
+"crowdB": {
+"value": 44.0,
+"inferred": true
+},
+"crowdC": {
+"value": 45.0,
+"inferred": true
+}
+},
+"BHG Mall北京华联天通苑购物中心": {
+"crowdA": {
+"value": 15.0,
+"inferred": true
+},
+"crowdB": {
+"value": 49.0,
+"inferred": true
+},
+"crowdC": {
+"value": 36.0,
+"inferred": true
+}
+},
+"杭州万象城": {
+"crowdA": {
+"value": 27.0,
+"inferred": true
+},
+"crowdB": {
+"value": 57.0,
+"inferred": true
+},
+"crowdC": {
+"value": 16.0,
+"inferred": true
+}
+},
+"湖州吴兴万达广场": {
+"crowdA": {
+"value": 18.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 32.0,
+"inferred": true
+}
+},
+"上海嘉亭荟城市生活广场一期": {
+"crowdA": {
+"value": 20.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 30.0,
+"inferred": true
+}
+},
+"北京国瑞购物中心": {
+"crowdA": {
+"value": 18.3,
+"inferred": true
+},
+"crowdB": {
+"value": 61.0,
+"inferred": true
+},
+"crowdC": {
+"value": 20.7,
+"inferred": true
+}
+},
+"深圳龙华星河iCO": {
+"crowdA": {
+"value": 11.0,
+"inferred": true
+},
+"crowdB": {
+"value": 50.0,
+"inferred": true
+},
+"crowdC": {
+"value": 39.0,
+"inferred": true
+}
+},
+"芜湖银泰百货": {
+"crowdA": {
+"value": 13.4,
+"inferred": true
+},
+"crowdB": {
+"value": 34.2,
+"inferred": true
+},
+"crowdC": {
+"value": 52.4,
+"inferred": true
+}
+},
+"东莞东城万达广场": {
+"crowdA": {
+"value": 5.0,
+"inferred": true
+},
+"crowdB": {
+"value": 32.0,
+"inferred": true
+},
+"crowdC": {
+"value": 63.0,
+"inferred": true
+}
+},
+"广州智慧城广百广场": {
+"crowdA": {
+"value": 25.0,
+"inferred": true
+},
+"crowdB": {
+"value": 42.0,
+"inferred": true
+},
+"crowdC": {
+"value": 33.0,
+"inferred": true
+}
+},
+"南昌红谷滩万达广场": {
+"crowdA": {
+"value": 29.0,
+"inferred": true
+},
+"crowdB": {
+"value": 53.0,
+"inferred": true
+},
+"crowdC": {
+"value": 18.0,
+"inferred": true
+}
+},
+"金华兰溪宝龙广场": {
+"crowdA": {
+"value": 11.0,
+"inferred": true
+},
+"crowdB": {
+"value": 42.0,
+"inferred": true
+},
+"crowdC": {
+"value": 47.0,
 "inferred": true
 }
 }
