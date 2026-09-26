@@ -74,11 +74,17 @@ async function main() {
     }
   }
 
-  // 语义核定覆盖：默认仅填补正则未提取到的指标；带 force 的验算修正条目可覆盖/删除正则值
+  // 语义核定覆盖：默认仅填补正则未提取到的指标；带 force 的验算修正条目可覆盖/删除正则值。
+  // basis='benchmark' 额外写入 d.basis（行业基准层，推断中可信度最低，UI 可区分展示）。
   const overrides = fs.existsSync(OVERRIDES_PATH)
     ? (JSON.parse(fs.readFileSync(OVERRIDES_PATH, 'utf8')) as Record<
         string,
-        Record<string, { value: number | null; inferred?: boolean; force?: boolean }>
+        Record<string, {
+          value: number | null;
+          inferred?: boolean;
+          force?: boolean;
+          basis?: 'benchmark';
+        }>
       >)
     : {};
   let overridden = 0;
@@ -89,11 +95,15 @@ async function main() {
       if (!ov || (typeof ov.value !== 'number' && ov.value !== null)) continue;
       const metrics = d.metrics as Record<string, unknown>;
       if (metrics[k] !== undefined && !ov.force) continue;
+      const dropBasis = () => {
+        if (d.basis) delete (d.basis as Record<string, unknown>)[k];
+      };
       if (ov.value === null) {
         // force+null = 验算判定该值无效，删除（连同推断标记）
         if (ov.force && metrics[k] !== undefined) {
           delete metrics[k];
           if (d.inferred) delete (d.inferred as Record<string, boolean>)[k];
+          dropBasis();
           overridden++;
         }
         continue;
@@ -104,6 +114,12 @@ async function main() {
         (d.inferred as Record<string, boolean>)[k] = true;
       } else if (d.inferred) {
         delete (d.inferred as Record<string, boolean>)[k];
+      }
+      if (ov.basis === 'benchmark') {
+        d.basis = d.basis ?? {};
+        (d.basis as Record<string, string>)[k] = 'benchmark';
+      } else {
+        dropBasis();
       }
       overridden++;
     }

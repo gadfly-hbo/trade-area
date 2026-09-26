@@ -20,6 +20,10 @@ export type DimensionKey = (typeof DIMENSION_KEYS)[number];
 
 export type Confidence = 'A' | 'B';
 
+/** 语义核定值的来源分层：direct=文内直取 / computed=文内数字推算 / benchmark=行业基准（可信度最低层）。
+ *  仅 benchmark 写入 basis（正则直取与文内直取缺省不记录，payload 保持精简）。 */
+export type ValueBasis = 'direct' | 'computed' | 'benchmark';
+
 /** 森马渠道项目评级（来自渠道项目管理清单）：S > A+ > A > B > C */
 export type ProjectRating = 'S' | 'A+' | 'A' | 'B' | 'C';
 
@@ -80,6 +84,8 @@ export interface DistrictSummary {
   metrics: DistrictMetrics;
   /** 报告标注[推断]口径的指标集合：值参与对比/评分，但 UI 需显示「推断」警示标 */
   inferred?: Partial<Record<keyof DistrictMetrics, boolean>>;
+  /** 行业基准推算的指标集合（推断值中可信度最低层，基准表见 reports/ETL复盘与推断基准.md） */
+  basis?: Partial<Record<keyof DistrictMetrics, ValueBasis>>;
   percentiles: PercentileMap;
   /** 默认权重下的综合评分（0-100），无可用指标时为 null */
   score: number | null;
