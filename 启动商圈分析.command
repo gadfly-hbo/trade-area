@@ -29,6 +29,11 @@ if lsof -iTCP:"$PORT" -sTCP:LISTEN >/dev/null 2>&1; then
 fi
 
 # 3) 首次运行：安装依赖
+if ! command -v npm >/dev/null 2>&1; then
+  echo "❌ 未检测到 Node.js，请先安装（需 20 或更高版本）：https://nodejs.org/zh-cn"
+  echo "   安装完成后重新双击本脚本。"
+  pause_and_exit
+fi
 if [ ! -d node_modules ]; then
   echo "📦 首次运行，正在安装依赖（约 1-2 分钟）…"
   npm install --no-fund --no-audit || { echo "❌ 依赖安装失败"; pause_and_exit; }
