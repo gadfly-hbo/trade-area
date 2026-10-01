@@ -1,0 +1,722 @@
+[
+ {
+  "name": "中山东凤领丰汇购物中心",
+  "metric": "buildingArea",
+  "value": 3.18,
+  "inferred": false
+ },
+ {
+  "name": "中山东凤领丰汇购物中心",
+  "metric": "parking",
+  "value": 254,
+  "inferred": true
+ },
+ {
+  "name": "上海外滩中央广场",
+  "metric": "trafficPeak",
+  "value": 2.6,
+  "inferred": true
+ },
+ {
+  "name": "上海外滩中央广场",
+  "metric": "brands",
+  "value": 23,
+  "inferred": false
+ },
+ {
+  "name": "上海外滩中央广场",
+  "metric": "parking",
+  "value": 394,
+  "inferred": true
+ },
+ {
+  "name": "深圳仟里食家",
+  "metric": "buildingArea",
+  "value": 3.0,
+  "inferred": false
+ },
+ {
+  "name": "绍兴万风新天地",
+  "metric": "parking",
+  "value": 2000,
+  "inferred": false
+ },
+ {
+  "name": "锦州锦绣前程购物中心",
+  "metric": "brands",
+  "value": 200,
+  "inferred": false
+ },
+ {
+  "name": "青岛伟东·乐客城",
+  "metric": "buildingArea",
+  "value": 13,
+  "inferred": false
+ },
+ {
+  "name": "青岛伟东·乐客城",
+  "metric": "openedYear",
+  "value": 2013,
+  "inferred": false
+ },
+ {
+  "name": "西安量子晨",
+  "metric": "trafficWeekday",
+  "value": 0.26,
+  "inferred": true
+ },
+ {
+  "name": "西安量子晨",
+  "metric": "trafficWeekend",
+  "value": 0.26,
+  "inferred": true
+ },
+ {
+  "name": "西安量子晨",
+  "metric": "trafficPeak",
+  "value": 0.26,
+  "inferred": true
+ },
+ {
+  "name": "西安量子晨",
+  "metric": "brands",
+  "value": 30,
+  "inferred": false
+ },
+ {
+  "name": "广州优托邦CBD店",
+  "metric": "brands",
+  "value": 200,
+  "inferred": true
+ },
+ {
+  "name": "天津远洋未来广场",
+  "metric": "brands",
+  "value": 160,
+  "inferred": true
+ },
+ {
+  "name": "北京丰联广场",
+  "metric": "brands",
+  "value": 60,
+  "inferred": true
+ },
+ {
+  "name": "深圳鹏润达商业广场",
+  "metric": "trafficWeekday",
+  "value": 7.0,
+  "inferred": true
+ },
+ {
+  "name": "深圳鹏润达商业广场",
+  "metric": "openedYear",
+  "value": 2021,
+  "inferred": false
+ },
+ {
+  "name": "武汉华发外滩荟",
+  "metric": "buildingArea",
+  "value": 6.23,
+  "inferred": false
+ },
+ {
+  "name": "武汉华发外滩荟",
+  "metric": "parking",
+  "value": 498,
+  "inferred": true
+ },
+ {
+  "name": "西安立丰国际购物广场",
+  "metric": "parking",
+  "value": 800,
+  "inferred": false
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "trafficPeak",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "brands",
+  "value": 32,
+  "inferred": true
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "buildingArea",
+  "value": 1.6,
+  "inferred": false
+ },
+ {
+  "name": "藁城信誉楼",
+  "metric": "parking",
+  "value": 128,
+  "inferred": true
+ },
+ {
+  "name": "京津佛罗伦萨小镇",
+  "metric": "trafficPeak",
+  "value": 13.98,
+  "inferred": false
+ },
+ {
+  "name": "京津佛罗伦萨小镇",
+  "metric": "brands",
+  "value": 300,
+  "inferred": false
+ },
+ {
+  "name": "京津佛罗伦萨小镇",
+  "metric": "buildingArea",
+  "value": 10,
+  "inferred": false
+ },
+ {
+  "name": "京津佛罗伦萨小镇",
+  "metric": "parking",
+  "value": 2800,
+  "inferred": false
+ },
+ {
+  "name": "武汉新天地南馆",
+  "metric": "trafficPeak",
+  "value": 15.0,
+  "inferred": true
+ },
+ {
+  "name": "武汉新天地南馆",
+  "metric": "brands",
+  "value": 200,
+  "inferred": false
+ },
+ {
+  "name": "武汉新天地南馆",
+  "metric": "buildingArea",
+  "value": 11.5,
+  "inferred": false
+ },
+ {
+  "name": "贵阳花果园购物中心",
+  "metric": "buildingArea",
+  "value": 18.3,
+  "inferred": true
+ },
+ {
+  "name": "新乡胖东来（大胖店）",
+  "metric": "brands",
+  "value": 77,
+  "inferred": true
+ },
+ {
+  "name": "新乡胖东来（大胖店）",
+  "metric": "buildingArea",
+  "value": 3.83,
+  "inferred": false
+ },
+ {
+  "name": "新乡胖东来（大胖店）",
+  "metric": "parking",
+  "value": 75,
+  "inferred": true
+ },
+ {
+  "name": "砂之船（长沙）奥莱",
+  "metric": "trafficWeekend",
+  "value": 9.9,
+  "inferred": true
+ },
+ {
+  "name": "苏州万象天地",
+  "metric": "buildingArea",
+  "value": 14,
+  "inferred": false
+ },
+ {
+  "name": "青岛万象城一期",
+  "metric": "trafficWeekday",
+  "value": 8.0,
+  "inferred": false
+ },
+ {
+  "name": "北京西宸里",
+  "metric": "trafficWeekday",
+  "value": 1.5,
+  "inferred": true
+ },
+ {
+  "name": "北京西宸里",
+  "metric": "brands",
+  "value": 50,
+  "inferred": false
+ },
+ {
+  "name": "北京西宸里",
+  "metric": "parking",
+  "value": 240,
+  "inferred": true
+ },
+ {
+  "name": "上海金汇四季广场",
+  "metric": "trafficWeekend",
+  "value": 0.98,
+  "inferred": true
+ },
+ {
+  "name": "南京雨花虹悦城",
+  "metric": "brands",
+  "value": 416,
+  "inferred": true
+ },
+ {
+  "name": "天津远洋乐堤港",
+  "metric": "brands",
+  "value": 280,
+  "inferred": false
+ },
+ {
+  "name": "武汉中商世界里销品茂",
+  "metric": "brands",
+  "value": 300,
+  "inferred": false
+ },
+ {
+  "name": "砂之船（福州）小镇",
+  "metric": "parking",
+  "value": 3880,
+  "inferred": false
+ },
+ {
+  "name": "北京活力东方购物广场",
+  "metric": "trafficWeekday",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "北京活力东方购物广场",
+  "metric": "trafficWeekend",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "佛山映月湖环宇城",
+  "metric": "trafficWeekend",
+  "value": 4.25,
+  "inferred": false
+ },
+ {
+  "name": "佛山映月湖环宇城",
+  "metric": "brands",
+  "value": 221,
+  "inferred": false
+ },
+ {
+  "name": "佛山映月湖环宇城",
+  "metric": "buildingArea",
+  "value": 6.97,
+  "inferred": false
+ },
+ {
+  "name": "南京德基广场一期",
+  "metric": "trafficWeekday",
+  "value": 18.0,
+  "inferred": true
+ },
+ {
+  "name": "南京德基广场一期",
+  "metric": "trafficWeekend",
+  "value": 18.0,
+  "inferred": true
+ },
+ {
+  "name": "广州太古汇",
+  "metric": "buildingArea",
+  "value": 13.8,
+  "inferred": false
+ },
+ {
+  "name": "厦门万象城二期",
+  "metric": "parking",
+  "value": 384,
+  "inferred": true
+ },
+ {
+  "name": "上海玖博广场",
+  "metric": "brands",
+  "value": 30,
+  "inferred": true
+ },
+ {
+  "name": "上海玖博广场",
+  "metric": "buildingArea",
+  "value": 1.31,
+  "inferred": false
+ },
+ {
+  "name": "上海玖博广场",
+  "metric": "parking",
+  "value": 105,
+  "inferred": true
+ },
+ {
+  "name": "北京太阳飘亮购物中心",
+  "metric": "trafficPeak",
+  "value": 30.0,
+  "inferred": true
+ },
+ {
+  "name": "北京通州领展广场",
+  "metric": "brands",
+  "value": 132,
+  "inferred": true
+ },
+ {
+  "name": "北京通州领展广场",
+  "metric": "buildingArea",
+  "value": 6.75,
+  "inferred": false
+ },
+ {
+  "name": "北京通州领展广场",
+  "metric": "openedYear",
+  "value": 2014,
+  "inferred": false
+ },
+ {
+  "name": "上海亚新生活广场",
+  "metric": "brands",
+  "value": 74,
+  "inferred": true
+ },
+ {
+  "name": "上海亚新生活广场",
+  "metric": "buildingArea",
+  "value": 3.68,
+  "inferred": false
+ },
+ {
+  "name": "上海广场",
+  "metric": "trafficWeekday",
+  "value": 1.5,
+  "inferred": true
+ },
+ {
+  "name": "上海广场",
+  "metric": "brands",
+  "value": 30,
+  "inferred": true
+ },
+ {
+  "name": "合肥万象城",
+  "metric": "brands",
+  "value": 460,
+  "inferred": false
+ },
+ {
+  "name": "合肥万象城",
+  "metric": "buildingArea",
+  "value": 18,
+  "inferred": false
+ },
+ {
+  "name": "深圳皇庭广场",
+  "metric": "trafficWeekday",
+  "value": 10.0,
+  "inferred": true
+ },
+ {
+  "name": "深圳皇庭广场",
+  "metric": "openedYear",
+  "value": 2013,
+  "inferred": false
+ },
+ {
+  "name": "衢州东方商厦",
+  "metric": "buildingArea",
+  "value": 3.3,
+  "inferred": false
+ },
+ {
+  "name": "衢州东方商厦",
+  "metric": "parking",
+  "value": 264,
+  "inferred": true
+ },
+ {
+  "name": "南阳大统百货",
+  "metric": "trafficWeekday",
+  "value": 1.0,
+  "inferred": true
+ },
+ {
+  "name": "南阳大统百货",
+  "metric": "trafficWeekend",
+  "value": 2.0,
+  "inferred": true
+ },
+ {
+  "name": "南阳大统百货",
+  "metric": "parking",
+  "value": 224,
+  "inferred": true
+ },
+ {
+  "name": "昆明金地中心MALL",
+  "metric": "brands",
+  "value": 50,
+  "inferred": true
+ },
+ {
+  "name": "昆明金地中心MALL",
+  "metric": "buildingArea",
+  "value": 2.52,
+  "inferred": false
+ },
+ {
+  "name": "上海久金广场",
+  "metric": "parking",
+  "value": 300,
+  "inferred": false
+ },
+ {
+  "name": "上海久金广场",
+  "metric": "openedYear",
+  "value": null,
+  "inferred": true
+ },
+ {
+  "name": "北京月恒正大新生活广场",
+  "metric": "parking",
+  "value": 240,
+  "inferred": true
+ },
+ {
+  "name": "上海莘潮国际家居(嘉定店)",
+  "metric": "brands",
+  "value": 80,
+  "inferred": false
+ },
+ {
+  "name": "福州泰禾广场",
+  "metric": "parking",
+  "value": 12000,
+  "inferred": false
+ },
+ {
+  "name": "南京澳林购物广场",
+  "metric": "parking",
+  "value": 640,
+  "inferred": true
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "trafficWeekend",
+  "value": 0.98,
+  "inferred": true
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "buildingArea",
+  "value": 2.6,
+  "inferred": false
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "parking",
+  "value": 150,
+  "inferred": false
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "crowdA",
+  "value": 17,
+  "inferred": true
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "crowdB",
+  "value": 25,
+  "inferred": true
+ },
+ {
+  "name": "深圳天虹商场(东门店)",
+  "metric": "crowdC",
+  "value": 58,
+  "inferred": true
+ },
+ {
+  "name": "绵阳凯德广场",
+  "metric": "trafficPeak",
+  "value": 8.0,
+  "inferred": false
+ },
+ {
+  "name": "沧州华北石油购物广场",
+  "metric": "brands",
+  "value": 134,
+  "inferred": true
+ },
+ {
+  "name": "沧州华北石油购物广场",
+  "metric": "buildingArea",
+  "value": 1.45,
+  "inferred": true
+ },
+ {
+  "name": "沧州华北石油购物广场",
+  "metric": "parking",
+  "value": 116,
+  "inferred": true
+ },
+ {
+  "name": "深圳方大城",
+  "metric": "brands",
+  "value": 80,
+  "inferred": true
+ },
+ {
+  "name": "深圳方大城",
+  "metric": "buildingArea",
+  "value": 4.0,
+  "inferred": false
+ },
+ {
+  "name": "上海华润时代广场",
+  "metric": "brands",
+  "value": 102,
+  "inferred": true
+ },
+ {
+  "name": "龙湖杭州吾角天街",
+  "metric": "trafficWeekday",
+  "value": 2.4,
+  "inferred": true
+ },
+ {
+  "name": "龙湖杭州吾角天街",
+  "metric": "trafficWeekend",
+  "value": 4.0,
+  "inferred": true
+ },
+ {
+  "name": "长沙北辰荟",
+  "metric": "openedYear",
+  "value": 2021,
+  "inferred": false
+ },
+ {
+  "name": "上海乐虹坊精致生活广场",
+  "metric": "trafficWeekend",
+  "value": 5.5,
+  "inferred": true
+ },
+ {
+  "name": "上海乐虹坊精致生活广场",
+  "metric": "crowdA",
+  "value": 9,
+  "inferred": true
+ },
+ {
+  "name": "上海乐虹坊精致生活广场",
+  "metric": "crowdB",
+  "value": 44,
+  "inferred": true
+ },
+ {
+  "name": "上海乐虹坊精致生活广场",
+  "metric": "crowdC",
+  "value": 46,
+  "inferred": true
+ },
+ {
+  "name": "上海葫芦斗亲子文创中心",
+  "metric": "trafficWeekday",
+  "value": 2.5,
+  "inferred": true
+ },
+ {
+  "name": "上海葫芦斗亲子文创中心",
+  "metric": "trafficWeekend",
+  "value": 5.0,
+  "inferred": true
+ },
+ {
+  "name": "上海葫芦斗亲子文创中心",
+  "metric": "parking",
+  "value": 1760,
+  "inferred": true
+ },
+ {
+  "name": "上海丁香国际商业中心",
+  "metric": "parking",
+  "value": 540,
+  "inferred": false
+ },
+ {
+  "name": "上海漫游城",
+  "metric": "trafficWeekday",
+  "value": 0.75,
+  "inferred": true
+ },
+ {
+  "name": "上海漫游城",
+  "metric": "trafficWeekend",
+  "value": 0.98,
+  "inferred": true
+ },
+ {
+  "name": "上海漫游城",
+  "metric": "trafficPeak",
+  "value": 7.0,
+  "inferred": false
+ },
+ {
+  "name": "上海漫游城",
+  "metric": "parking",
+  "value": 2800,
+  "inferred": false
+ },
+ {
+  "name": "赣州杉杉奥特莱斯广场",
+  "metric": "trafficWeekday",
+  "value": 1.25,
+  "inferred": true
+ },
+ {
+  "name": "赣州杉杉奥特莱斯广场",
+  "metric": "trafficWeekend",
+  "value": 1.25,
+  "inferred": true
+ },
+ {
+  "name": "赣州杉杉奥特莱斯广场",
+  "metric": "trafficPeak",
+  "value": 1.25,
+  "inferred": true
+ },
+ {
+  "name": "新乡胖东来(小胖店)",
+  "metric": "brands",
+  "value": 138,
+  "inferred": true
+ },
+ {
+  "name": "新乡胖东来(小胖店)",
+  "metric": "parking",
+  "value": 180,
+  "inferred": false
+ }
+]
