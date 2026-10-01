@@ -2,6 +2,7 @@
 # 双击打包「商圈对比分析」分发包：在桌面生成可直接发送的 zip
 # 用 Python zipfile 打包（中文文件名带 UTF-8 标志，Windows 解压不乱码；保留可执行权限）
 cd "$(dirname "$0")" || exit 1
+export LANG=zh_CN.UTF-8
 
 OUT="$HOME/Desktop/trade-area-分发包-$(date +%Y%m%d).zip"
 rm -f "$OUT"
@@ -33,7 +34,9 @@ print(f'  共打包 {n} 个文件')
 PYEOF
 
 SIZE=$(du -h "$OUT" | cut -f1 | tr -d ' ')
-echo "✅ 打包完成：$OUT（$SIZE）"
-echo "   直接发送该 zip 即可。收方使用说明见包内「分发说明.md」。"
-echo "   中文文件名已带 UTF-8 标志，Windows 自带解压不会乱码。"
+echo "✅ 打包完成（共 $SIZE）："
+echo "   位置：桌面（Desktop），文件名 trade-area-分发包-$(date +%Y%m%d).zip"
+echo "   已在访达中帮你定位选中，直接拖到微信/邮件发送即可。"
+echo "   收方使用说明见包内「分发说明.md」。"
+open -R "$OUT"
 read -n 1 -s -r -p "按任意键关闭窗口…"
