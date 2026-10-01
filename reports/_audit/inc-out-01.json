@@ -1,0 +1,536 @@
+[
+ {
+  "name": "长沙通程奥特莱斯（万家丽中路店）",
+  "metric": "openedYear",
+  "value": 2015,
+  "inferred": false
+ },
+ {
+  "name": "郑州丹尼斯3天地",
+  "metric": "brands",
+  "value": 50,
+  "inferred": true
+ },
+ {
+  "name": "郑州丹尼斯3天地",
+  "metric": "parking",
+  "value": 171,
+  "inferred": true
+ },
+ {
+  "name": "成都伊藤洋华堂（双楠店）",
+  "metric": "buildingArea",
+  "value": 3.5,
+  "inferred": false
+ },
+ {
+  "name": "深圳前海卓悦INTOWN",
+  "metric": "trafficWeekend",
+  "value": 3.5,
+  "inferred": true
+ },
+ {
+  "name": "深圳前海卓悦INTOWN",
+  "metric": "parking",
+  "value": 1602,
+  "inferred": false
+ },
+ {
+  "name": "武汉中心百货（江汉路店）",
+  "metric": "buildingArea",
+  "value": 2,
+  "inferred": false
+ },
+ {
+  "name": "武汉中心百货（江汉路店）",
+  "metric": "parking",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "上海光明·koko都乐汇",
+  "metric": "brands",
+  "value": 32,
+  "inferred": true
+ },
+ {
+  "name": "盐城金鹰国际购物中心（建军路）",
+  "metric": "parking",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "郑州丹尼斯百货（花园店）",
+  "metric": "parking",
+  "value": 200,
+  "inferred": false
+ },
+ {
+  "name": "广州信达金茂广场·益田假日世界",
+  "metric": "parking",
+  "value": 1300,
+  "inferred": false
+ },
+ {
+  "name": "上海宝山大华荟品仓城市奥莱",
+  "metric": "trafficWeekday",
+  "value": 0.15,
+  "inferred": true
+ },
+ {
+  "name": "上海宝山大华荟品仓城市奥莱",
+  "metric": "trafficWeekend",
+  "value": 0.33,
+  "inferred": true
+ },
+ {
+  "name": "上海宝山大华荟品仓城市奥莱",
+  "metric": "brands",
+  "value": 300,
+  "inferred": false
+ },
+ {
+  "name": "天津西青杉杉奥特莱斯广场",
+  "metric": "buildingArea",
+  "value": 16,
+  "inferred": true
+ },
+ {
+  "name": "天津西青杉杉奥特莱斯广场",
+  "metric": "crowdA",
+  "value": 16,
+  "inferred": false
+ },
+ {
+  "name": "天津西青杉杉奥特莱斯广场",
+  "metric": "crowdB",
+  "value": 52,
+  "inferred": false
+ },
+ {
+  "name": "天津西青杉杉奥特莱斯广场",
+  "metric": "crowdC",
+  "value": 32,
+  "inferred": false
+ },
+ {
+  "name": "信阳市罗山西亚·美悦广场",
+  "metric": "openedYear",
+  "value": 2019,
+  "inferred": true
+ },
+ {
+  "name": "北京新辰天地南区（大兴店）",
+  "metric": "buildingArea",
+  "value": 4,
+  "inferred": false
+ },
+ {
+  "name": "深圳湾万象城BCD区",
+  "metric": "parking",
+  "value": 2000,
+  "inferred": true
+ },
+ {
+  "name": "深圳天虹商场-宝安店",
+  "metric": "brands",
+  "value": 250,
+  "inferred": false
+ },
+ {
+  "name": "深圳天虹商场-宝安店",
+  "metric": "buildingArea",
+  "value": 7.14,
+  "inferred": false
+ },
+ {
+  "name": "金华银泰百货（金华之心店）",
+  "metric": "parking",
+  "value": 5000,
+  "inferred": true
+ },
+ {
+  "name": "郑州杉杉奥特莱斯广场（二七店）",
+  "metric": "parking",
+  "value": 5000,
+  "inferred": false
+ },
+ {
+  "name": "SM泉州晋江城市广场",
+  "metric": "trafficWeekend",
+  "value": 3.6,
+  "inferred": true
+ },
+ {
+  "name": "SM泉州晋江城市广场",
+  "metric": "parking",
+  "value": 1700,
+  "inferred": false
+ },
+ {
+  "name": "深圳前海HOP天地",
+  "metric": "brands",
+  "value": 150,
+  "inferred": false
+ },
+ {
+  "name": "杭州黄龙国际中心k-lab",
+  "metric": "brands",
+  "value": 160,
+  "inferred": true
+ },
+ {
+  "name": "杭州黄龙国际中心k-lab",
+  "metric": "openedYear",
+  "value": 2018,
+  "inferred": false
+ },
+ {
+  "name": "杭州黄龙国际中心k-lab",
+  "metric": "crowdA",
+  "value": 25,
+  "inferred": false
+ },
+ {
+  "name": "杭州黄龙国际中心k-lab",
+  "metric": "crowdB",
+  "value": 50,
+  "inferred": false
+ },
+ {
+  "name": "杭州黄龙国际中心k-lab",
+  "metric": "crowdC",
+  "value": 25,
+  "inferred": false
+ },
+ {
+  "name": "杭州万科杭行荟Mo-Mall",
+  "metric": "trafficWeekday",
+  "value": 1,
+  "inferred": true
+ },
+ {
+  "name": "杭州万科杭行荟Mo-Mall",
+  "metric": "trafficWeekend",
+  "value": 2,
+  "inferred": true
+ },
+ {
+  "name": "杭州万科杭行荟Mo-Mall",
+  "metric": "trafficPeak",
+  "value": 2.5,
+  "inferred": true
+ },
+ {
+  "name": "杭州万科杭行荟Mo-Mall",
+  "metric": "brands",
+  "value": 90,
+  "inferred": false
+ },
+ {
+  "name": "杭州万科杭行荟Mo-Mall",
+  "metric": "buildingArea",
+  "value": 3.92,
+  "inferred": true
+ },
+ {
+  "name": "北京POLPAS北辰荟",
+  "metric": "trafficPeak",
+  "value": 2.3,
+  "inferred": false
+ },
+ {
+  "name": "西宁王府井百货（中心店）",
+  "metric": "trafficWeekday",
+  "value": 1.75,
+  "inferred": true
+ },
+ {
+  "name": "西宁王府井百货（中心店）",
+  "metric": "buildingArea",
+  "value": 6.32,
+  "inferred": false
+ },
+ {
+  "name": "成都后花园·爱琴海购物中心",
+  "metric": "buildingArea",
+  "value": 12.5,
+  "inferred": true
+ },
+ {
+  "name": "广州汉溪K11",
+  "metric": "buildingArea",
+  "value": 8.1,
+  "inferred": false
+ },
+ {
+  "name": "上海主场ESP电竞文化体验中心",
+  "metric": "brands",
+  "value": 50,
+  "inferred": true
+ },
+ {
+  "name": "洛阳熙市奥特莱斯购物公园",
+  "metric": "openedYear",
+  "value": 2024,
+  "inferred": false
+ },
+ {
+  "name": "新乡王府井奥莱·平原小镇",
+  "metric": "brands",
+  "value": 400,
+  "inferred": false
+ },
+ {
+  "name": "新乡王府井奥莱·平原小镇",
+  "metric": "buildingArea",
+  "value": 10,
+  "inferred": true
+ },
+ {
+  "name": "新乡王府井奥莱·平原小镇",
+  "metric": "parking",
+  "value": 4000,
+  "inferred": false
+ },
+ {
+  "name": "北京银泰中心in01",
+  "metric": "trafficWeekday",
+  "value": 1.2,
+  "inferred": true
+ },
+ {
+  "name": "北京乐成中心SPACE3",
+  "metric": "trafficWeekend",
+  "value": 4,
+  "inferred": true
+ },
+ {
+  "name": "北京乐成中心SPACE3",
+  "metric": "parking",
+  "value": 533,
+  "inferred": false
+ },
+ {
+  "name": "天津凯德MALL（天津湾店）",
+  "metric": "parking",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "成都伊藤洋华堂（建设路）",
+  "metric": "brands",
+  "value": 230,
+  "inferred": true
+ },
+ {
+  "name": "三亚合联中央商务区格力项目",
+  "metric": "buildingArea",
+  "value": 12,
+  "inferred": false
+ },
+ {
+  "name": "三亚合联中央商务区格力项目",
+  "metric": "crowdA",
+  "value": 25,
+  "inferred": false
+ },
+ {
+  "name": "三亚合联中央商务区格力项目",
+  "metric": "crowdB",
+  "value": 45,
+  "inferred": false
+ },
+ {
+  "name": "三亚合联中央商务区格力项目",
+  "metric": "crowdC",
+  "value": 30,
+  "inferred": false
+ },
+ {
+  "name": "北京凯德MALL·太阳宫",
+  "metric": "trafficWeekend",
+  "value": 7,
+  "inferred": true
+ },
+ {
+  "name": "北京百盛商城（复兴门店）",
+  "metric": "brands",
+  "value": 54,
+  "inferred": true
+ },
+ {
+  "name": "南昌T16购物中心a馆",
+  "metric": "trafficWeekend",
+  "value": 7,
+  "inferred": true
+ },
+ {
+  "name": "杭州银泰百货（文化广场店）",
+  "metric": "buildingArea",
+  "value": 4,
+  "inferred": false
+ },
+ {
+  "name": "深圳Kaledo嘉乐道",
+  "metric": "brands",
+  "value": 85,
+  "inferred": true
+ },
+ {
+  "name": "深圳Kaledo嘉乐道",
+  "metric": "parking",
+  "value": 940,
+  "inferred": false
+ },
+ {
+  "name": "中山TMore天奕荟",
+  "metric": "buildingArea",
+  "value": 14.69,
+  "inferred": false
+ },
+ {
+  "name": "中山TMore天奕荟",
+  "metric": "openedYear",
+  "value": 2020,
+  "inferred": false
+ },
+ {
+  "name": "成都GOGOEGO",
+  "metric": "parking",
+  "value": 10,
+  "inferred": true
+ },
+ {
+  "name": "上海新六百·YOUNG",
+  "metric": "brands",
+  "value": 70,
+  "inferred": true
+ },
+ {
+  "name": "宜昌CBD购物中心",
+  "metric": "brands",
+  "value": 1000,
+  "inferred": false
+ },
+ {
+  "name": "宜昌CBD购物中心",
+  "metric": "buildingArea",
+  "value": 8,
+  "inferred": false
+ },
+ {
+  "name": "北京银座mall(东直门店)",
+  "metric": "trafficWeekday",
+  "value": 2.75,
+  "inferred": true
+ },
+ {
+  "name": "北京银座mall(东直门店)",
+  "metric": "trafficWeekend",
+  "value": 2.05,
+  "inferred": true
+ },
+ {
+  "name": "北京银座mall(东直门店)",
+  "metric": "trafficPeak",
+  "value": 1.8,
+  "inferred": true
+ },
+ {
+  "name": "北京银座mall(东直门店)",
+  "metric": "buildingArea",
+  "value": 3.1,
+  "inferred": false
+ },
+ {
+  "name": "太原天美杉杉奥特莱斯购物广场",
+  "metric": "parking",
+  "value": 2000,
+  "inferred": false
+ },
+ {
+  "name": "哈尔滨远大购物中心（南岗店）",
+  "metric": "parking",
+  "value": 75,
+  "inferred": false
+ },
+ {
+  "name": "乌鲁木齐北京路汇嘉时代广场",
+  "metric": "buildingArea",
+  "value": 8,
+  "inferred": false
+ },
+ {
+  "name": "西安未央国际168商业街区",
+  "metric": "brands",
+  "value": null,
+  "inferred": false
+ },
+ {
+  "name": "北京T+MALL",
+  "metric": "trafficWeekend",
+  "value": 5,
+  "inferred": true
+ },
+ {
+  "name": "北京T+MALL",
+  "metric": "brands",
+  "value": 100,
+  "inferred": true
+ },
+ {
+  "name": "上海青浦百联奥特莱斯一期",
+  "metric": "parking",
+  "value": 2800,
+  "inferred": false
+ },
+ {
+  "name": "顺德O'PLAZA欢乐海岸购物中心",
+  "metric": "brands",
+  "value": 100,
+  "inferred": false
+ },
+ {
+  "name": "顺德O'PLAZA欢乐海岸购物中心",
+  "metric": "buildingArea",
+  "value": 8.7,
+  "inferred": true
+ },
+ {
+  "name": "上海1788square",
+  "metric": "trafficWeekday",
+  "value": 2.5,
+  "inferred": true
+ },
+ {
+  "name": "上海1788square",
+  "metric": "trafficWeekend",
+  "value": 1.5,
+  "inferred": true
+ },
+ {
+  "name": "上海1788square",
+  "metric": "trafficPeak",
+  "value": 2,
+  "inferred": true
+ },
+ {
+  "name": "上海1788square",
+  "metric": "brands",
+  "value": 42,
+  "inferred": true
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "trafficWeekday",
+  "value": 1,
+  "inferred": true
+ },
+ {
+  "name": "乌鲁木齐友好时尚购物中心长春路店",
+  "metric": "buildingArea",
+  "value": 4.98,
+  "inferred": false
+ }
+]

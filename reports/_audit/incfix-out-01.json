@@ -1,0 +1,50 @@
+[
+  {
+    "name": "昆明王府井奥莱·滇池小镇",
+    "metric": "parking",
+    "verdict": "ok",
+    "value": 12000,
+    "inferred": false,
+    "reason": "文内明载12000个免费车位"
+  },
+  {
+    "name": "徐州潘安湖奥特莱斯购物广场",
+    "metric": "parking",
+    "verdict": "fix",
+    "value": 3000,
+    "inferred": false,
+    "reason": "原文3000车位，10系投资额"
+  },
+  {
+    "name": "杭州银泰百货（文化广场店）",
+    "metric": "trafficWeekday",
+    "verdict": "drop",
+    "value": null,
+    "inferred": false,
+    "reason": "商圈口径，门店客流未公开"
+  },
+  {
+    "name": "广州IFC国金天地",
+    "metric": "brands",
+    "verdict": "fix",
+    "value": 100,
+    "inferred": true,
+    "reason": "年份误取，实估80-120家"
+  },
+  {
+    "name": "成都GOGOEGO",
+    "metric": "parking",
+    "verdict": "ok",
+    "value": 10,
+    "inferred": true,
+    "reason": "文内估测0-20取中值"
+  },
+  {
+    "name": "北京凯德MALL·太阳宫",
+    "metric": "trafficWeekday",
+    "verdict": "fix",
+    "value": 7,
+    "inferred": false,
+    "reason": "72万系多场合计，项目约7万"
+  }
+]
