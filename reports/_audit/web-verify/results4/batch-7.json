@@ -1,0 +1,745 @@
+[
+ {
+  "id": "1416",
+  "name": "营口站前万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "营口站前万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "搜狐《40年营口变化有多大》(2018)：营口万达广场于2015年开业，总投资60亿元",
+    "note": "另有万达商管债券募集说明书载2015年6月开业；原文URL经搜索摘要转述未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.81,
+    "external": 13.81,
+    "verdict": "match",
+    "query": "营口站前万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "万达商管债券募集说明书：商业广场建筑面积约13.81万平方米",
+    "note": "上交所披露文件，URL未留存完整链接，经搜索摘要转述"
+   },
+   {
+    "metric": "parking",
+    "internal": 2575,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "营口万达广场 停车场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到营口站前万达广场车位数",
+    "note": "2次搜索无果，2575为benchmark推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "营口万达广场 客流 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流数据",
+    "note": "搜索多命中鲅鱼圈万达，站前店无峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "1417",
+  "name": "长春新天地购物公园",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2005,
+    "verdict": "conflict",
+    "query": "中东新天地购物公园 长春 2005年 开业",
+    "source_url": "http://swt.fujian.gov.cn/xxgk/jgzn/jgcs/ltyfzc/cssy/202512/t20251225_7060681.htm",
+    "source_level": "official",
+    "evidence": "商务厅转载：2022年完成改造升级；另有报道称2005年由龙兴商贸园升级为摩尔业态",
+    "note": "外部多源指向2005年前后开业（前身为2003年批发市场），无任何2015年开业证据；2015为ETL推断值，建议回查"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": 4.5,
+    "verdict": "unit_mismatch",
+    "query": "长春新天地购物公园 开业 建筑面积",
+    "source_url": "http://swt.fujian.gov.cn/xxgk/jgzn/jgcs/ltyfzc/cssy/202512/t20251225_7060681.htm",
+    "source_level": "official",
+    "evidence": "商务厅转载文：改造后日均客流量回升至4.5万人次",
+    "note": "外部仅日常日均口径，非节假日单日峰值，不可直接比较；4.5万日均与6.5万峰值数量级相容"
+   }
+  ]
+ },
+ {
+  "id": "1427",
+  "name": "湖州八佰伴（长兴店）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长兴八佰伴 湖州 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅查到长兴八佰伴商贸有限公司2009-11-17注册（华地国际控股HKEX年报）",
+    "note": "公司注册≠商场开业；招股书显示2012年已有专柜销售记录，间接佐证2012年前后已营业，但无开业报道"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长兴八佰伴 湖州 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到长兴八佰伴建筑面积披露",
+    "note": "4次搜索无果，县域项目外部报道少"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长兴八佰伴 湖州 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.85,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长兴八佰伴 湖州 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1438",
+  "name": "宜宾莱茵春天购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "宜宾莱茵春天购物中心 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E8%8E%B1%E8%8C%B5%E6%98%A5%E5%A4%A9%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/1093929",
+    "source_level": "self-media",
+    "evidence": "百科：2014年1月20日莱茵春天购物中心携多个品牌同步开业",
+    "note": "主力店大润发2013年12月先行开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.5,
+    "external": 13.5,
+    "verdict": "match",
+    "query": "宜宾莱茵春天购物中心 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E8%8E%B1%E8%8C%B5%E6%98%A5%E5%A4%A9%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/1093929",
+    "source_level": "self-media",
+    "evidence": "百科：建筑面积约13.5万平方米，共十层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1000,
+    "verdict": "match",
+    "query": "宜宾莱茵春天购物中心 2014年5月 开业 停车位",
+    "source_url": "https://baike.baidu.com/item/%E8%8E%B1%E8%8C%B5%E6%98%A5%E5%A4%A9%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/1093929",
+    "source_level": "self-media",
+    "evidence": "百科：B4-B3层地下停车场加地面停车位，规划停车位约1000个",
+    "note": "auditFlag「邻接品牌/扶梯等词」疑虑解除，确为规划车位口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宜宾莱茵春天购物中心 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见开业一周后日均客流上万人次（开业期日均口径）",
+    "note": "日均口径与节假日峰值不可比，判无有效外部数据"
+   }
+  ]
+ },
+ {
+  "id": "1467",
+  "name": "上海紫荆广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "紫荆广场 上海杨浦 开业 建筑面积 万平方米 商业",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "港交所2015年中期业绩公告已将紫荆广场列为建成运营项目；另有2015年12月开业记录",
+    "note": "公告URL经搜索摘要转述未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 25.5,
+    "external": 9.73,
+    "verdict": "conflict",
+    "query": "紫荆广场 上海杨浦 开业 建筑面积 万平方米 商业",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "港交所公告：两幅地块总用地约18101㎡，总建筑面积约97307㎡，11层购物中心",
+    "note": "两个独立来源一致为9.7-10万㎡；内部25.5万㎡疑混入综合体或其他项目口径，未见支撑"
+   },
+   {
+    "metric": "parking",
+    "internal": 530,
+    "external": 500,
+    "verdict": "match",
+    "query": "紫荆广场 上海杨浦 开业 建筑面积 万平方米 商业",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "港交所公告：设有超过500个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "紫荆广场 上海杨浦 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1471",
+  "name": "常德欢乐城国际购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "常德 和瑞欢乐城 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科「和瑞欢乐城」：一期2016年8月13日开业，引进华润万家、万达影城等",
+    "note": "条目对应一期旗舰MALL（武陵大道与三星路）；二期2021-12-25启动运营；URL为百科词条未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 37,
+    "external": 12.6,
+    "verdict": "unit_mismatch",
+    "query": "常德 和瑞欢乐城 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百科/房天下：一期总建筑面积约12.6万㎡；二期为37万方城市综合体",
+    "note": "内部37万㎡疑取自二期综合体总口径，与条目所指购物中心（一期12.6-13万㎡）口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常德 和瑞欢乐城 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常德 和瑞欢乐城 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1472",
+  "name": "湘潭高新万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "湘潭万达广场 2016年10月28日 盛大开业 停车位",
+    "source_url": "https://www.wanda.cn/2016/2016latest_0611/33172.html",
+    "source_level": "official",
+    "evidence": "万达官网《湖南湘潭万达广场盛大开业》(2016)：项目总投资约60亿元",
+    "note": "官网新闻目录为2016年6月，百科同标2016年6月开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 88.6,
+    "external": 88.6,
+    "verdict": "match",
+    "query": "湘潭万达广场 2016年10月28日 盛大开业 停车位",
+    "source_url": "https://www.wanda.cn/2016/2016latest_0611/33172.html",
+    "source_level": "official",
+    "evidence": "万达官网：总建筑面积88.6万平米，集购物中心、室外步行街、写字楼、高档住宅于一体",
+    "note": "综合体总口径，与内部一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": 3450,
+    "verdict": "minor_diff",
+    "query": "湘潭万达广场 2016年10月28日 盛大开业 停车位",
+    "source_url": "https://news.sina.cn/2016-01-13/detail-ifxnkkux1268234.d.html",
+    "source_level": "media",
+    "evidence": "新浪(2016-01)：湘潭万达广场总建面88.6万㎡，停车位3450个",
+    "note": "差38%；后续另建立体停车楼增438个机械车位；auditFlag邻接词疑虑解除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "湘潭万达广场 开业时间 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1473",
+  "name": "珠海印象城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "珠海印象城 印力 开业 2021 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "界面/观点地产(2019-01)：印力收购珠海乐世界（2016年5月开业），2019-01-27更名珠海印象城",
+    "note": "条目物业原始开业为2016年（沃尔玛乐世界），2019更名；未检索到2022年开业/重启事件；媒体URL未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "珠海印象城 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到珠海印象城商业面积披露",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 520,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "珠海印象城 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": "520为benchmark推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "珠海印象城 2022年 开业 改造",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1479",
+  "name": "长春宽城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春宽城万达广场 2011年 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到2011年开业直接报道；人民网吉林：宽城区「上海路万达广场」2024-12-14开业",
+    "note": "2024年上海路万达或为另一项目；「长春宽城万达广场有限公司」现存于企业年报；2011无法证实也无法证伪"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春宽城万达广场 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到建筑面积披露",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春宽城万达广场 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春宽城万达广场 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1491",
+  "name": "北京荟聚（西红门）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "北京荟聚西红门 开业时间 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "网易《北京荟聚十周年打造大众聚会体验中心》(2024-12-13)：宜家商场2014年9月、荟聚购物中心2014年12月开业",
+    "note": "文章URL经搜索摘要转述未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京荟聚 总建筑面积 万平方米 租赁面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多轮转述：可租赁面积约17-20万㎡、总建面约50万㎡（含宜家及停车楼）",
+    "note": "各转述口径不一且无可引用URL；与内部21万㎡口径难以对齐，不下判定"
+   },
+   {
+    "metric": "parking",
+    "internal": 7000,
+    "external": 7000,
+    "verdict": "match",
+    "query": "北京荟聚中心 2014年 开业 7000个车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "多轮搜索摘要一致：地下三层停车场约7000个停车位，号称亚洲最大停车场",
+    "note": "转述无原文URL留存，与内部7000一致；搜索上限已达"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京荟聚西红门 开业时间 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1493",
+  "name": "上海嘉定宝龙广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "嘉定宝龙广场 开业 停车位 商业面积",
+    "source_url": "https://www.sohu.com/a/947330034_99997925",
+    "source_level": "self-media",
+    "evidence": "搜狐/房天下：项目2016年竣工投入使用（嘉定新城阿克苏路1077、1097号）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 19.8,
+    "external": 20,
+    "verdict": "match",
+    "query": "嘉定宝龙广场 开业 停车位 商业面积",
+    "source_url": "https://www.sohu.com/a/947330034_99997925",
+    "source_level": "self-media",
+    "evidence": "搜狐：总占地4.09万㎡，总建面约20万㎡",
+    "note": "外部另称商业面积约8万㎡（自持超70%），与内部19.8总建面口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1279,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "嘉定宝龙广场 开业 停车位 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到嘉定项目车位公开数据",
+    "note": "auditFlag邻接词疑虑无法经外部解除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "嘉定宝龙广场 开业 停车位 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0151",
+  "name": "长沙望城永旺梦乐城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "永旺梦乐城 湘江新区 望城 正式开业 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "湖南日报/livejapan(2025-11-27)：永旺梦乐城湘江新区店正式开业，为长沙第二家",
+    "note": "此前36氪(2025-02)与国际商报(2025-08)均预告年内开业；文章URL未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23.6,
+    "external": 23,
+    "verdict": "match",
+    "query": "永旺梦乐城 湘江新区 望城 正式开业 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "项目报道：总投资约20亿元，总体量约23万方，含4层购物中心、6层停车楼",
+    "note": "差2.6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 3200,
+    "external": 3150,
+    "verdict": "match",
+    "query": "永旺梦乐城 湘江新区 望城 正式开业 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "项目报道：停车位约3150个",
+    "note": "差1.6%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "永旺梦乐城 湘江新区 望城 正式开业 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "开业火爆但无单日峰值数据；创单日客流纪录的是星沙店(2024)",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0158",
+  "name": "南京玄武招商花园城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "南京玄武招商花园城 开业时间 2025",
+    "source_url": "http://www.xwzf.gov.cn",
+    "source_level": "official",
+    "evidence": "玄武区政府工作报告：红山新城15万平方米的玄武招商花园城已开业，落地首店上百家",
+    "note": "媒体报道开业日2025年6月26日；政府页URL未留存完整链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 15,
+    "verdict": "match",
+    "query": "南京玄武招商花园城 开业时间 2025",
+    "source_url": "http://www.xwzf.gov.cn",
+    "source_level": "official",
+    "evidence": "玄武区政府工作报告：15万平方米；另有报道称商业建筑面积约14.9万㎡",
+    "note": "差6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1573,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京玄武花园城 停车位 车位 停车场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅伍兹贝格项目页提及设地下停车场，无车位数",
+    "note": "auditFlag邻接词疑虑无法经外部解除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京玄武招商花园城 开业时间 2025",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0181",
+  "name": "常州飞龙吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "\"飞龙吾悦\" 开业",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "观点网/QQ新闻：常州飞龙吾悦广场12月20日正式开业，盒马同步开业(2024-12)",
+    "note": "文章URL未留存完整链接；flag「2022年发布会→2024」线索与实际开业吻合"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "\"飞龙吾悦\" 开业",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "观点网：飞龙吾悦广场总体建筑面积约10万平方米，与钟楼吾悦、中吴广场相仿",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州 飞龙吾悦广场 开业 时间 商业体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州 飞龙吾悦广场 开业 时间 商业体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见开业后长江中路车流暴增投诉，无客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0183",
+  "name": "银川新华百货B馆",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "银川新华百货B馆 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅地图/点评类页面确认新华百货总店B馆（鼓楼步行街）现存营业",
+    "note": "4次搜索无开业日期报道，2024无法证实；低线项目外部报道常态缺失"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 1.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新华百货B馆 银川 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到建筑面积披露",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新华百货B馆 银川 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新华百货B馆 银川 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1233",
+  "name": "商丘万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "商丘万达广场 开业时间 2018",
+    "source_url": "http://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "万达官网：7月6日，商丘万达广场开业，系万达在河南省第11座万达广场",
+    "note": "2018-07-06开业（商丘示范区/睽阳），无邻近动词疑虑解除"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.06,
+    "external": 10.05,
+    "verdict": "match",
+    "query": "商丘万达广场 开业时间 2018",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业面积约10.05万平方米（搜索摘要引百科口径）",
+    "note": "与内部10.06几乎一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "商丘万达广场 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索2次未获车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": 27.5,
+    "verdict": "unit_mismatch",
+    "query": "商丘万达广场 开业时间 2018",
+    "source_url": "http://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "开业首日，客流27.5万人次",
+    "note": "外部仅见开业首日口径，与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "1250",
+  "name": "成都锦城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2012,
+    "verdict": "conflict",
+    "query": "成都锦城万达广场 接管 更名 开业 奥克斯",
+    "source_url": "https://baike.baidu.com/item/%E9%94%A6%E5%9F%8E%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA",
+    "source_level": "media",
+    "evidence": "前身为2012年11月底开业的成都奥克斯广场，2022年底由万达商管接手并更名",
+    "note": "内部2023为焕新亮相年（2023-09-22焕新启幕，赢商网），按规则更名/焕新不算开业，原始开业为2012年，差11年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.36,
+    "external": 18,
+    "verdict": "match",
+    "query": "成都锦城万达广场 接管 更名 开业 奥克斯",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "奥克斯广场占地80亩，总建面56万㎡，其中商业18万㎡",
+    "note": "内部16.36疑为购物中心部分口径，与18万㎡商业差约9%，≤20%判match"
+   },
+   {
+    "metric": "parking",
+    "internal": 1431,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "锦城万达广场 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索结果仅命中锦华路万达等无关项目"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "锦城万达广场 停车位数量 日均客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1256",
+  "name": "苏州昆山万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "昆山万达广场 开业时间",
+    "source_url": "http://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "万达官网2017-07-10发布《昆山万达广场开业》新闻",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 42.9,
+    "external": 44.32,
+    "verdict": "match",
+    "query": "昆山万达广场 2016年 开业 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%98%86%E5%B1%B1%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA",
+    "source_level": "media",
+    "evidence": "总建面44.32万㎡，含购物中心、住宅、SOHO及室外商业街",
+    "note": "另有商业建面约42.6万㎡口径，与内部42.9接近；总建面口径差3.2%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2387,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山万达广场 停车位 2387",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记parking邻接词风险：搜索2次未获任何车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山万达广场 停车位数量 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1295",
+  "name": "西安首创奥特莱斯",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "西安首创奥特莱斯 开业 2017 国际港务区 建筑面积",
+    "source_url": "https://www.hsw.cn/system/2019/0914/161389.shtml",
+    "source_level": "media",
+    "evidence": "2019年9月13日盛大开业（华商网/搜狐）；2016年1月拿地西安高新区国际社区",
+    "note": "项目位于高新区国际社区（沣河东岸）而非国际港务区；内部2017差2年，判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.5,
+    "external": 11,
+    "verdict": "minor_diff",
+    "query": "西安首创奥特莱斯 开业 2017 国际港务区 建筑面积",
+    "source_url": "https://www.2bulu.com",
+    "source_level": "self-media",
+    "evidence": "西安首创奥特莱斯项目建筑面积近11万平米（另有11.8万、规划12.6万㎡等说法）",
+    "note": "差约29%，20-50%区间判minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安首创奥特莱斯 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记parking邻接词风险：仅见「室内外大量免费停车位」描述，无具体数量"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安首创奥特莱斯 停车场 收费 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1303",
+  "name": "乐山市中万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "乐山万达广场 开业时间",
+    "source_url": "http://www.wandaplazas.com/2016/company_0925/1517.html",
+    "source_level": "official",
+    "evidence": "2016年9月23日，万达商业第157座万达广场——乐山万达广场开幕",
+    "note": "内部2018与官网2016差2年，判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 13,
+    "verdict": "match",
+    "query": "乐山万达广场 开业时间",
+    "source_url": "http://www.wandaplazas.com/2016/company_0925/1517.html",
+    "source_level": "official",
+    "evidence": "乐山万达广场建筑面积13万平米，系乐山规模最大的城市综合体",
+    "note": "差约13%，≤20%判match"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乐山万达广场 车位 停车场 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜到的「地下798个车位」经核原文属彭州市万达广场，与乐山无关，已排除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乐山万达广场 车位 停车场 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1304",
+  "name": "郑州首创奥特莱斯",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2018,
+    "verdict": "minor_diff",
+    "query": "郑州首创奥特莱斯 开业时间 航空港区",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2018年12月23日开业，首创钜大全国第九个奥莱，位于荥阳市",
+    "note": "差1年（2018-12-23开业），±1年判minor_diff；项目在荥阳非航空港区"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9.6,
+    "verdict": "match",
+    "query": "郑州首创奥特莱斯 开业时间 航空港区",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "建筑面积约9.6万㎡，汇集近200个国际国内品牌",
+    "note": "差4%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州首创奥特莱斯 开业时间 航空港区",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州首创奥特莱斯 开业时间 航空港区",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "外部仅见开业首日销售额近千万元，无客流口径"
+   }
+  ]
+ },
+ {
+  "id": "1311",
+  "name": "鸡西中心大街万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "鸡西万达广场 什么时间开业的",
+    "source_url": "http://www.wandaplazas.com/2016/company_0716/1491.html",
+    "source_level": "official",
+    "evidence": "7月15日，万达商业第143座万达广场——鸡西万达广场盛大开业",
+    "note": "位于鸡冠区中心大街8号，与条目名相符；2016-07-15开业，内部2018差2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 12.36,
+    "verdict": "minor_diff",
+    "query": "鸡西万达广场 建筑面积 车位",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "万达商管债券募集说明书载鸡西万达广场12.36万平方米",
+    "note": "差约24%，判minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "鸡西万达广场 建筑面积 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索摘要中「142」数值口径不明（疑误读表格），不足采信"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": 31,
+    "verdict": "unit_mismatch",
+    "query": "鸡西万达广场 什么时间开业的",
+    "source_url": "http://www.wandaplazas.com/2016/company_0716/1491.html",
+    "source_level": "official",
+    "evidence": "开业首日近31万鸡西市民共同见证",
+    "note": "开业首日口径与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "1315",
+  "name": "牡丹江西安万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "牡丹江万达广场 开业时间 新闻",
+    "source_url": "http://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "7月22日，万达商业第144座万达广场——牡丹江万达广场盛大开业（2016-07-24官网发布）",
+    "note": "位于西安区西新安街，与条目名相符；内部2019差3年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 13.49,
+    "verdict": "minor_diff",
+    "query": "牡丹江万达广场 开业时间 新闻",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "万达商管债券募集书载牡丹江万达13.49万㎡；百科载商业建面约13.28万㎡",
+    "note": "内部10万与外部13.3-13.5万差约33%，判minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "牡丹江万达广场 停车位 车位 个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索2次无车位数；募集书「143」口径不明不采"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 26.3,
+    "verdict": "unit_mismatch",
+    "query": "牡丹江万达广场 开业时间 新闻",
+    "source_url": "http://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "开业当天客流达26.3万人次",
+    "note": "开业首日口径不可比"
+   }
+  ]
+ },
+ {
+  "id": "1316",
+  "name": "阜新玉龙万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "阜新玉龙万达广场 开业时间",
+    "source_url": "http://www.wandaplazas.com/2018/company_0812/1696.html",
+    "source_level": "official",
+    "evidence": "8月10日，阜新万达广场开业，系万达在沈阳区域第13座万达广场",
+    "note": "官网2018-08-10开业（细河区解放大街甲17号，玉龙新城片区）；内部2015疑为拿地/动工年，差3年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 12.5,
+    "verdict": "match",
+    "query": "阜新万达广场开业",
+    "source_url": "http://www.wandaplazas.com/2018/company_0812/1696.html",
+    "source_level": "official",
+    "evidence": "广场地处阜新北区中心地带，总建筑面积12.5万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "阜新万达广场 停车位 车位 个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索2次无车位数（仅细河区全区临时车位2300个口径）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "阜新万达广场 开业 建筑面积 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1317",
+  "name": "昆明正义坊购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2005,
+    "external": 2009,
+    "verdict": "conflict",
+    "query": "昆明正义坊购物中心 开业时间 建筑面积",
+    "source_url": "https://kknews.cc",
+    "source_level": "trade",
+    "evidence": "昆明老街董事长专访：一期正义坊购物中心2007年开工建设，2009年开门营业",
+    "note": "2004年市政府确立老街改造、2005疑为项目启动年；开业为2009年，差4年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20.9,
+    "external": 10,
+    "verdict": "conflict",
+    "query": "正义坊 昆明老街 商业 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%AD%A3%E4%B9%89%E5%9D%8A/14199430",
+    "source_level": "media",
+    "evidence": "正义坊购物中心体量约10万㎡，地上6.2万㎡、地下3.8万㎡",
+    "note": "内部20.9万㎡疑为昆明老街项目整体口径；若按整体口径比较则属口径不可比，按购物中心口径差>50%判conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 1672,
+    "external": 500,
+    "verdict": "conflict",
+    "query": "昆明正义坊 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "昆明老街·正义坊南北两厦地下车库总计500余个车位",
+    "note": "自媒体停车攻略，置信度低；内部1672为3倍余，判conflict"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明正义坊 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1335",
+  "name": "青岛利群城阳购物广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "青岛城阳 利群 购物广场 2008年 开业",
+    "source_url": "https://news.qingdaonews.com/qingdao/2019-11/14/content_20889270.htm",
+    "source_level": "media",
+    "evidence": "青岛新闻网：家佳源落户城阳东部，随后利群也于2008年进驻",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "利群城阳购物广场 万平方米 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2025年改造规划公示报道未含面积数；利群集团仅披露整体300万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "利群城阳购物广场 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "利群城阳购物广场 简介 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1382",
+  "name": "北京华冠购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京华冠购物中心 房山 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "华冠商贸1995年创立、房山本土龙头，良乡华冠购物中心（秋树街）无开业年份报道；长阳华冠天地约2010年开业为另一门店"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "华冠购物中心 良乡 开业 2004",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "华冠购物中心 良乡 开业 2004",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "华冠商业 房山 发展历程 购物中心 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1393",
+  "name": "大同百盛百货",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "大同百盛 凯德世家 永泰 2012年 开业",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "山西百盛商业发展有限公司大同分公司2012-08-08注册于永泰南路凯德世家购物中心",
+    "note": "工商注册时间佐证2012年入驻（永泰店），未见开业报道原文；百盛大同另有云中店及2025-05开业的奥莱（第三家店）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同百盛百货 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "外部仅见太和汇城市广场19万㎡、大同百盛奥莱商业建面20万㎡等他项目口径，永泰百货店面积无数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 240,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同百盛百货 营业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同百盛 云中店 开业日期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1406",
+  "name": "宁波西子国际广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "\"西子国际\" 宁海 开业时间",
+    "source_url": "http://m.winshang.com/xm40899.html",
+    "source_level": "trade",
+    "evidence": "赢商网：已开业，开业时间2016-09-28，宁海县桃源中路168号",
+    "note": "2014-11-29为楼盘开盘时间，疑被误作商场开业；差2年判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 31,
+    "external": 31.05,
+    "verdict": "match",
+    "query": "宁波西子国际广场 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com/xm40899.html",
+    "source_level": "trade",
+    "evidence": "开发商口径总建筑面积31.049万㎡（购物中心约10万㎡+街区4万㎡）",
+    "note": "与内部31一致；赢商网页面另标建面14万㎡，疑为商业部分口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"西子国际\" 宁海 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "赢商网页面停车位栏为「暂无数据」"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宁海西子国际 开业 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1409",
+  "name": "北京泰华龙旗购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2013,
+    "verdict": "minor_diff",
+    "query": "北京龙旗购物中心 开业时间 回龙观",
+    "source_url": "https://baike.baidu.com/item/%E5%8C%97%E4%BA%AC%E9%BE%99%E6%97%97%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/6876047",
+    "source_level": "media",
+    "evidence": "百科：龙旗购物中心（又称泰华龙旗购物中心）开业时间2013年6月",
+    "note": "龙旗广场综合体2011年建成，内部2012或为试营业/筹备口径，±1年判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 7,
+    "verdict": "match",
+    "query": "龙旗购物中心 泰华 商业面积 万平方米",
+    "source_url": "https://www.bjtaihua.com/asset/%E9%BE%99%E6%97%97%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83",
+    "source_level": "official",
+    "evidence": "泰华集团官网：地上四层地下二层，总面积近7万平方米",
+    "note": "差约8%；龙旗广场综合体总建面23.65万㎡为另一口径（含写字楼酒店公寓）"
+   },
+   {
+    "metric": "parking",
+    "internal": 550,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙旗购物中心 泰华 商业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙旗购物中心 回龙观 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ }
+]

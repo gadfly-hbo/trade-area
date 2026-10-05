@@ -1,0 +1,275 @@
+[
+ {
+  "id": "0434",
+  "name": "咸阳静安荟奥莱公园",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "静安荟奥莱公园 12月30日 开业 泾河新城",
+    "source_url": "https://sn.ifeng.com",
+    "source_level": "media",
+    "evidence": "2018年12月30日，位于泾河新城正阳大道与泾河大道交汇处的静安国际·万国荟公园奥特莱斯开园迎客。",
+    "note": "原 trending 名静安国际·万国荟公园奥莱，现名静安荟奥莱公园；实位于西咸新区泾河新城。auditFlag（2018无邻近开业动词）经外源确认为真实开业年。"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "咸阳 静安荟奥莱公园 开业",
+    "source_url": "https://m.cnr.cn",
+    "source_level": "media",
+    "evidence": "商业体量约10万㎡开放式商业+6万㎡绿地公园，西北首个公园式奥莱。",
+    "note": "10万㎡为开放式商业体量口径，另有6万㎡绿地公园不计入。"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "静安国际万国荟公园奥特莱斯 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两轮检索均无车位数公开数据；内部值为推断（benchmark基准）。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": 15,
+    "verdict": "unit_mismatch",
+    "query": "静安荟奥莱公园 停车位 客流 泾河新城",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "债券募集文件披露：开业当天实现约15万客流，约40支品牌当日开业。",
+    "note": "外源仅有2018-12-30开业首日累计客流约15万，非节假日单日峰值，口径不可比；4万人次/日峰值无外部数据。"
+   }
+  ]
+ },
+ {
+  "id": "0440",
+  "name": "怀化岳麓青城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "怀化鹤城万达广场 开业 万达",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2019年12月正式开业（前期官宣提前至2019年12月21日开业）；现名怀化鹤城万达广场。",
+    "note": "auditFlag中2019见于奠基/动工语段，但外源确认实际开业也在2019年12月，match。"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "怀化 岳麓青城万达广场 开业",
+    "source_url": "https://huaihua.jiwu.com/loupan/597095.html",
+    "source_level": "trade",
+    "evidence": "总投资约16亿元，总体量超15万㎡；另一来源称商业面积14.18万㎡。",
+    "note": "内部15对应总体量口径；商业面积另有约9.3万/14.18万两种说法，口径混杂，与总体量15万一致。"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1000,
+    "verdict": "match",
+    "query": "怀化鹤城万达广场 开业 万达",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业面积14.18万平方米，配套1000余个停车位。",
+    "note": "内部推断值（benchmark）获外源直接印证。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 11.5,
+    "verdict": "match",
+    "query": "鹤城万达广场 怀化 客流",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "五一黄金周首日，怀化鹤城万达广场客流突破11.5万人次，创开业以来新高（怀化市政府官网）。",
+    "note": "节假日单日口径，与内部一致；未取到深链URL。"
+   }
+  ]
+ },
+ {
+  "id": "0455",
+  "name": "松原金钻百货",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "松原 金钻百货 乌兰大街 开业 时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无开业报道。仅见公司注册2007-03-19、建行联名卡2007年前后发行，暗示运营远早于2016；内部2016为推断值，存疑待人工核。"
+   },
+   {
+    "metric": "parking",
+    "internal": 139,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金钻百货 松原 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见地下B1层停车场及充电桩信息，无车位数。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "松原市 金钻百货 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无客流公开数据。"
+   }
+  ]
+ },
+ {
+  "id": "0463",
+  "name": "上海信业购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "上海 信业购物中心 开业",
+    "source_url": "https://www.powerde.com/news_in-5215.html",
+    "source_level": "trade",
+    "evidence": "2019年9月28日盛大开业；赢商网2018-11报道计划2019年10月1日开业。",
+    "note": "位于嘉定区环城路，信业集团在沪首座商业项目，实际开业较计划提前。"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.7,
+    "external": 14.7,
+    "verdict": "match",
+    "query": "上海信业购物中心 嘉定 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E4%BF%A1%E4%B8%9A%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/23051696",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约14.7万平方米，商业面积约6万平方米；赢商网记14.8万㎡。",
+    "note": "总建面口径，完全一致。"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": 1100,
+    "verdict": "match",
+    "query": "上海信业购物中心 嘉定 建筑面积",
+    "source_url": "https://www.powerde.com/news_in-5215.html",
+    "source_level": "trade",
+    "evidence": "开业报道与百科均载停车位1100席。",
+    "note": "auditFlag「邻接品牌/扶梯等词」排除：外源多口径确认为车位数1100席。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "信业购物中心 嘉定 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "社区型mall，无公开客流数据。"
+   }
+  ]
+ },
+ {
+  "id": "0469",
+  "name": "上海吴泾满天星生活广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "吴泾 满天星生活广场 开业 闵行",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "确认项目在闵行吴泾镇莲花南路3999弄（社区商业），但无开业时间报道；内部2022为推断值。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.55,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "吴泾满天星广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无项目级客流数据；注意与闵行满天星马桥商业中心等同系项目区分。"
+   }
+  ]
+ },
+ {
+  "id": "0473",
+  "name": "广州星寰国际商业中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "广州 星寰国际商业中心 开业",
+    "source_url": "https://www.hld.com",
+    "source_level": "official",
+    "evidence": "恒基官网：商场已于2022年第一季度落成，办公楼自2022年6月竣工；媒体记2022年12月体验期、2023年正式开业。",
+    "note": "内部2019疑取项目主体竣工年而非商业开业年；auditFlag（2019无邻近开业动词）成立，差≥2年判conflict。"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30.4,
+    "external": 30.4,
+    "verdict": "match",
+    "query": "星寰国际商业中心 开业 2022 海珠广场 恒基",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "2019年竣工，总建筑面积约30.4万平方米，双子塔办公楼+大型商业。",
+    "note": "总建面口径完全一致；恒基官网口径为办公约9万㎡+商业约7.4万㎡（平方呎折算）。"
+   },
+   {
+    "metric": "parking",
+    "internal": 900,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "星寰国际商业中心 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见B2停车场及计费方式（30分钟起算、16元/时），无总车位数。"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "星寰国际商业中心 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无项目级客流数据；仅有北京路-海珠广场商圈级年累计客流（2023年超1亿人次），口径与项目单日峰值不可比。"
+   }
+  ]
+ }
+]

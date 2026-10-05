@@ -1,0 +1,734 @@
+[
+ {
+  "id": "0267",
+  "name": "兰州安宁吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "兰州安宁吾悦广场 开业时间 新城控股",
+    "source_url": "http://blog.linkshop.com",
+    "source_level": "trade",
+    "evidence": "新城控股甘肃首座吾悦广场（第131座），2023年1月7日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兰州安宁吾悦广场 总建筑面积 平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目建面/商业体量的外部报道",
+    "note": "3组查询仅命中其他城市吾悦广场数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 720,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兰州安宁吾悦广场 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兰州安宁吾悦广场 客流 万人次 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到开业/节假日客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0271",
+  "name": "连云港灌南恒基广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "灌南恒基广场 连云港 开业",
+    "source_url": "http://www.archina.com",
+    "source_level": "trade",
+    "evidence": "星盛商业「灌南恒基星河COCO City」列2022年拟开项目，2022年10月开业",
+    "note": "运营名为灌南恒基星河COCO City（星盛商业输出），未见2020年开业依据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.75,
+    "external": 13,
+    "verdict": "conflict",
+    "query": "灌南恒基广场 连云港 开业",
+    "source_url": "http://www.archina.com",
+    "source_level": "trade",
+    "evidence": "综合体建面约33万㎡，商业建筑面积约12.66–13万㎡",
+    "note": "内部2.75万㎡与外部商业建面13万㎡差距>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "灌南恒基广场 连云港 开业",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "报道称开业首年客流近千万人次（折合日均约2.7万）",
+    "note": "外部为年累计口径，与节假日单日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "0285",
+  "name": "SM厦门海沧",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "SM厦门海沧 开业 2025",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2025年10月24日正式开业，厦门岛外首个SM商场",
+    "note": "2025-04-30通过竣工验收进入开业倒计时"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "SM厦门海沧 开业 2025",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "总投资超10亿元，总建筑面积约14万㎡（地上4层地下2层）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 915,
+    "external": 1000,
+    "verdict": "match",
+    "query": "SM厦门海沧 停车位 车位数量",
+    "source_url": "https://m.10100.com",
+    "source_level": "self-media",
+    "evidence": "海沧本地资讯：SM马銮湾项目计划配套1000个停车位",
+    "note": "外部为规划口径（自媒体），与内部915差约9%"
+   }
+  ]
+ },
+ {
+  "id": "0287",
+  "name": "阜阳颖上吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "颍上吾悦广场 购物中心 盛大开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到购物中心确切开业日期报道",
+    "note": "2021-01拿地；新城年报综合体仍列在建（含住宅分期）；条目名「颖上」应为「颍上」"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 45,
+    "external": 46.1,
+    "verdict": "match",
+    "query": "颍上吾悦广场 开业 总建筑面积",
+    "source_url": "https://www1.hkexnews.hk",
+    "source_level": "official",
+    "evidence": "新城年报：颍上综合体总规划建面89.9万㎡，商业相关建面约46.1万㎡",
+    "note": "外部赢商网另载购物中心体量不低于8万㎡；内部45万㎡与商业相关建面46.1万㎡基本一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "颍上吾悦广场 客流 人次 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0291",
+  "name": "上海佘山宝乐汇",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2021,
+    "verdict": "minor_diff",
+    "query": "上海佘山宝乐汇 开业时间 松江",
+    "source_url": "http://m.winshang.com/xm78501093.html",
+    "source_level": "trade",
+    "evidence": "2021年1月30日上午10时开启试营业（宝地不动产开发）",
+    "note": "±1年且涉试营业；外部另有总建面约3.2万㎡记载"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "佘山宝乐汇 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流外部数据（社区型商业，体量3.2万㎡）",
+    "note": "内部6万人次/日对3.2万㎡社区商业明显偏高，无外部佐证"
+   }
+  ]
+ },
+ {
+  "id": "2510",
+  "name": "西安高新新天地生活奥莱",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2025,
+    "verdict": "conflict",
+    "query": "西安 新天地生活奥莱 高新 开业",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "2025年中国奥莱行业报告：列为2025年12月计划开业的盒子式奥莱",
+    "note": "内部2022无外部开业依据；是否如期开业未获后续报道证实"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安 新天地生活奥莱 高新 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到建面外部数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1830,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2523",
+  "name": "贵阳杉杉奥特莱斯广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2021,
+    "verdict": "minor_diff",
+    "query": "贵阳杉杉奥特莱斯广场 开业时间",
+    "source_url": "http://m.winshang.com/xm82349.html",
+    "source_level": "trade",
+    "evidence": "2021年12月3日试营业，12月底正式开业（杉杉奥莱西南首店）",
+    "note": "±1年且涉试营业/正式开业；百科载2021年12月开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21,
+    "external": 21,
+    "verdict": "match",
+    "query": "贵阳杉杉奥特莱斯广场 开业时间",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总投资约30亿元，建筑面积约21万平方米",
+    "note": "百科与赢商网口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "贵阳杉杉奥特莱斯广场 2500个停车位 占地",
+    "source_url": "http://m.winshang.com/xm82349.html",
+    "source_level": "trade",
+    "evidence": "启幕报道：设置3000余停车位，常年免费；赢商项目页载2500个",
+    "note": "外部2500–3000余区间，内部3000与开业报道一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳杉杉奥特莱斯 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2024国庆7天销售额3600万（客流同比大增，无单日数值）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2525",
+  "name": "武汉新荣天街",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "武汉新荣天街 龙湖 开业 2025",
+    "source_url": "https://wucea.com",
+    "source_level": "media",
+    "evidence": "2025年10月17日在江岸区后湖片区启幕（联投清能与龙湖打造）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 78,
+    "external": 17.1,
+    "verdict": "unit_mismatch",
+    "query": "武汉新荣天街 总建筑面积 TOD 项目 体量",
+    "source_url": "https://wucea.com",
+    "source_level": "media",
+    "evidence": "商业建筑面积17.1万㎡共7层（另有商业体量约15万方之说）",
+    "note": "内部78万㎡疑为TOD综合体总建面（含住宅办公），外部无总建面印证，口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1216,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉新荣天街 停车位 开业 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": 5.7,
+    "verdict": "match",
+    "query": "武汉新荣天街 停车位 开业 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2026春节假期前7天客流突破40万人次（日均约5.7万）",
+    "note": "外部为假期日均口径，内部为节假日峰值，量级一致"
+   }
+  ]
+ },
+ {
+  "id": "2540",
+  "name": "金华永盛购物中心B馆",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2002,
+    "external": 2013,
+    "verdict": "conflict",
+    "query": "金华 永盛购物广场 开业时间 婺城",
+    "source_url": "https://baike.baidu.com/item/%E6%B0%B8%E7%9B%9B%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA/12026744",
+    "source_level": "self-media",
+    "evidence": "百科：永盛购物广场2013年10月31日正式开业（新华街67号）",
+    "note": "内部2002疑为前身（1984年百货大楼）/改造年份；B馆单独开业无外部报道，另有条目称2014年开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.6,
+    "external": 7,
+    "verdict": "unit_mismatch",
+    "query": "金华 永盛购物广场 开业时间 婺城",
+    "source_url": "https://baike.baidu.com/item/%E6%B0%B8%E7%9B%9B%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA/12026744",
+    "source_level": "self-media",
+    "evidence": "永盛购物广场总建筑面积约7万㎡（地2层至地上6层）",
+    "note": "外部为广场总体建面，内部2.6万㎡疑为B馆单馆，口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 100,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金华永盛购物中心 B馆 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2545",
+  "name": "沈阳百盛购物广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2003,
+    "verdict": "match",
+    "query": "\"沈阳百盛\" 开业 2003 OR 2002 OR 2004",
+    "source_url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E7%99%BE%E7%9B%9B%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/54607818",
+    "source_level": "self-media",
+    "evidence": "沈阳百盛购物广场有限公司成立于2003年11月28日（和平区中华路21号）",
+    "note": "以公司注册年份佐证开业年份，非开业报道直接印证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.66,
+    "external": 7,
+    "verdict": "unit_mismatch",
+    "query": "\"沈阳百盛\" 开业 2003 OR 2002 OR 2004",
+    "source_url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E7%99%BE%E7%9B%9B%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/54607818",
+    "source_level": "self-media",
+    "evidence": "百盛太原街店营业面积约7万㎡",
+    "note": "外部为营业面积口径，与建筑面积不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 373,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 30.1,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳百盛购物广场 太原街 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流外部数据",
+    "note": "内部30.1万人次/日对百货业态明显偏高，疑为累计口径误提取，无外部佐证"
+   }
+  ]
+ },
+ {
+  "id": "2577",
+  "name": "砂之船（福州）小镇",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "砂之船 福州 奥莱 开业时间",
+    "source_url": "https://outletscn.com",
+    "source_level": "trade",
+    "evidence": "2021年10月入主原天泽奥莱时代改造，2022年12月24日正式开业",
+    "note": "条目所指即砂之船接手后的项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23,
+    "external": 23,
+    "verdict": "match",
+    "query": "砂之船 福州 奥莱 开业时间",
+    "source_url": "https://cn.chinadaily.com.cn",
+    "source_level": "media",
+    "evidence": "建筑总面积约33万㎡，商业面积约23万㎡",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3880,
+    "external": 3880,
+    "verdict": "match",
+    "query": "砂之船福州超级奥莱 停车位 闽侯",
+    "source_url": "http://www.sasseur.com",
+    "source_level": "official",
+    "evidence": "砂之船官网：3880个超大免费停车位（砂之船小镇1号门入口）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "砂之船 福州 开业 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日单日客流外部数据",
+    "note": "检索中「年接待量超1850万人次」经核对为烟台山项目，不采用"
+   }
+  ]
+ },
+ {
+  "id": "2583",
+  "name": "CityOn熙地港（西安）购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "CityOn熙地港西安购物中心 开业 2016",
+    "source_url": "https://xian.cityoncenter.com/introduction.html?locale=zh_cn",
+    "source_level": "official",
+    "evidence": "2016年4月28日开业（塔博曼亚洲与王府井集团合资）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18,
+    "external": 18,
+    "verdict": "match",
+    "query": "CityOn熙地港西安购物中心 开业 2016",
+    "source_url": "https://baike.baidu.com/item/%E7%86%99%E5%9C%B0%E6%B8%AF%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/17879749",
+    "source_level": "self-media",
+    "evidence": "建筑面积约18万㎡，商业面积约9万㎡，共7层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2094,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安熙地港 停车位 客流 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": "审计标记「邻接品牌/扶梯等词」成立：外部无数据可核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13,
+    "external": 10.78,
+    "verdict": "minor_diff",
+    "query": "熙地港 西安 国庆 假期 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2024年春节期间熙地港日均客流量10.78万人（中新网陕西）",
+    "note": "外部为春节日均口径，内部13万为节假日峰值，差约20.6%，量级相当"
+   }
+  ]
+ },
+ {
+  "id": "2601",
+  "name": "福州远洋德呈乐堤港",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "福州爱琴海购物公园 仓山 开业 2015",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "原仓山爱琴海购物中心2015年9月19日开业，2025年7月更名远洋德呈乐堤港",
+    "note": "更名不算开业，以条目所指物业原始开业为准"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21,
+    "external": 9.2,
+    "verdict": "unit_mismatch",
+    "query": "福州爱琴海购物公园 仓山 开业 2015",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "爱琴海购物中心商业面积约9.2万㎡（红星国际广场内）",
+    "note": "内部21万㎡疑为含街区/综合体总建面，总建面口径无外部印证，与商业面积不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福州 远洋乐堤港 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2015开业当日「打破东南地区开业客流纪录」，无具体数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2606",
+  "name": "深圳缤果空间购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "缤果空间 深圳北站 2014年 开业",
+    "source_url": "http://k.sina.cn",
+    "source_level": "media",
+    "evidence": "Bingo缤果空间于2014年9月开业（深圳北站东广场1-2层）",
+    "note": "益田集团首个枢纽商业项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": 3,
+    "verdict": "match",
+    "query": "缤果空间 深圳北站 2014年 开业",
+    "source_url": "http://k.sina.cn",
+    "source_level": "media",
+    "evidence": "商业面积：3万㎡（深圳北站东广场）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳缤果空间 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": "项目为高铁站上盖商业，自身车位信息外部几无记载"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳缤果空间 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到单日客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2608",
+  "name": "成都银石广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2015,
+    "verdict": "conflict",
+    "query": "成都银石广场 春熙路 开业时间",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2020年重装开业报道：银石广场自2015年对外营业",
+    "note": "2013年开业未获任何外部印证，权威来源均指向2015年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "银石广场 成都 2013年 开业 红星路",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "占地6215㎡，总建筑面积近10万㎡，总高151米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 338,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都银石广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数外部数据",
+    "note": "审计标记「邻接品牌/扶梯等词」成立：外部无数据可核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都银石广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到单日客流外部数据",
+    "note": ""
+   }
+  ]
+ }
+]

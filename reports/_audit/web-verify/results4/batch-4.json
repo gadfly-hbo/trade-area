@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0890",
+  "name": "东莞塘厦万科生活广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2014,
+    "verdict": "conflict",
+    "query": "塘厦万科生活广场 开业 万科",
+    "source_url": "https://news.ifeng.com",
+    "source_level": "media",
+    "evidence": "南都2014-07-04：塘厦万科生活广场6月28日正式开业，系万科东莞第三个商业项目",
+    "note": "内部2019年无外部佐证，外部一致指向2014-06-28开业（2021年七周年庆亦印证）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 3,
+    "verdict": "minor_diff",
+    "query": "\"塘厦万科生活广场\" 建筑面积",
+    "source_url": "https://news.ifeng.com",
+    "source_level": "media",
+    "evidence": "整个项目总建筑面积约3万平方米，集超市、影院、餐饮和精品零售",
+    "note": "差约33%"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "塘厦万科生活广场 建筑面积 万平方米 商业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "塘厦万科生活广场 开业 万科",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0901",
+  "name": "北京怀柔青春万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "北京怀柔青春万达广场 开业时间 商业面积",
+    "source_url": "http://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "2017-12-29开业，2018-01-01正式对外营业，为2018年全国首座开业万达广场",
+    "note": "内部2022疑为焕新/调整年份，原始开业为2017末-2018初"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 9,
+    "verdict": "minor_diff",
+    "query": "北京怀柔青春万达广场 开业时间 商业面积",
+    "source_url": "http://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "总建筑面积约11.6万㎡，商业面积约9万㎡",
+    "note": "内部6万㎡与商业面积口径差约33%（与总建面口径差48%亦为minor_diff）"
+   },
+   {
+    "metric": "parking",
+    "internal": 650,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京怀柔青春万达广场 开业时间 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 0.68,
+    "external": 11,
+    "verdict": "unit_mismatch",
+    "query": "北京怀柔青春万达广场 开业时间 商业面积",
+    "source_url": "http://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "2018-01-01开业首日客流达11万人次，销售额693万元",
+    "note": "外部为开业首日口径，非节假日单日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0904",
+  "name": "郑州永和时光里",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "郑州 永和时光里 龙子湖 盛大开业 时间",
+    "source_url": "https://m.winshang.com/news695033.html",
+    "source_level": "trade",
+    "evidence": "永和时光里2022-12-31开业，位于龙子湖湖心岛，2021-12招商期报道",
+    "note": "2018年前后项目尚处规划期，无外部2018开业佐证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 7,
+    "verdict": "minor_diff",
+    "query": "郑州永和时光里 开业 建筑面积",
+    "source_url": "https://m.winshang.com/news695033.html",
+    "source_level": "trade",
+    "evidence": "项目总面积39.2万㎡，其中商业体量约7万㎡，地上6层地下4层",
+    "note": "商业体量口径差50%，处于minor_diff上边界"
+   },
+   {
+    "metric": "parking",
+    "internal": 280,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州 永和时光里 龙子湖 盛大开业 时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.27,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州永和时光里 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0907",
+  "name": "金华江北银泰百货",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "金华银泰城 江北 西市街 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "银泰2008年布局江南店、2009年在江北西市街商圈开设金华银泰城",
+    "note": "检索摘要未给出单页链接；注意与2023年开业江南金华之心店区分"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"金华银泰城\" 总建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索仅命中金华之心店（11万方），江北店面积无公开数字"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金华银泰城 江北 西市街 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金华 银泰百货 江北 开业 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0914",
+  "name": "中山汇丰城购物公园",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "中山 汇丰城 购物公园 开业 商业面积",
+    "source_url": "https://pc.nfnews.com",
+    "source_level": "media",
+    "evidence": "南方+2024-09：小榄汇丰城购物公园于2019年年底开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 35,
+    "external": 35,
+    "verdict": "match",
+    "query": "中山汇丰城购物公园 开业时间 商业体量",
+    "source_url": "https://pc.nfnews.com",
+    "source_level": "media",
+    "evidence": "项目占地150亩，总体量35万㎡，其中包括10万㎡购物公园",
+    "note": "35万㎡为汇丰城项目总体量口径；纯购物公园部分约10万㎡，引用时注意口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "中山 汇丰城 购物公园 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "中山汇丰城购物公园 开业时间 商业体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0918",
+  "name": "兴安盟万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "\"兴安盟万达广场\" 开业",
+    "source_url": "https://m.sohu.com",
+    "source_level": "media",
+    "evidence": "搜狐2019-09-15：9月共3座万达广场开业，兴安盟万达广场9月13日率先亮相",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.16,
+    "external": 13.21,
+    "verdict": "match",
+    "query": "乌兰浩特 兴安盟万达广场 开业 建筑面积 停车位",
+    "source_url": "https://www.sina.cn",
+    "source_level": "official",
+    "evidence": "兴安盟万达广场官方微博：建筑面积13.21万平方米，品牌200家+",
+    "note": "另有万达项目介绍口径商业面积约5.87万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 216,
+    "external": 674,
+    "verdict": "conflict",
+    "query": "乌兰浩特 兴安盟万达广场 开业 建筑面积 停车位",
+    "source_url": "https://www.sina.cn",
+    "source_level": "official",
+    "evidence": "官方微博：停车位674",
+    "note": "审计标记命中：内部216系邻接品牌/扶梯词提取，官方口径为674，建议修正"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌兰浩特 万达广场 开业 2019年",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0923",
+  "name": "岳阳步步高新天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2017,
+    "verdict": "conflict",
+    "query": "岳阳步步高新天地 开业 商业面积 停车位",
+    "source_url": "https://m.voc.com.cn",
+    "source_level": "media",
+    "evidence": "华声在线2017-12-29：岳阳最大商业综合体（步步高新天地）开业",
+    "note": "外部一致指向2017-12-29开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 15,
+    "verdict": "minor_diff",
+    "query": "岳阳步步高新天地 开业 商业面积 停车位",
+    "source_url": "https://m.voc.com.cn",
+    "source_level": "media",
+    "evidence": "总建筑面积约13-15万㎡（多数报道称15万㎡），共10层",
+    "note": "总建面口径，与内部10万㎡差33%（若按13万㎡口径差23%）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1000,
+    "verdict": "match",
+    "query": "岳阳步步高新天地 开业 商业面积 停车位",
+    "source_url": "https://www.yylq.gov.cn",
+    "source_level": "official",
+    "evidence": "岳阳楼区政府网：城市核心1000个智能停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "岳阳步步高新天地 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0955",
+  "name": "成都保利时光里",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "成都保利时光里 开业 商业面积",
+    "source_url": "https://m.winshang.com/news728444.html",
+    "source_level": "trade",
+    "evidence": "赢商网2024-10-21：2024年10月18日成都保利时光里开业，超100家品牌入驻",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "成都保利时光里 开业 商业面积",
+    "source_url": "https://m.winshang.com/news728444.html",
+    "source_level": "trade",
+    "evidence": "项目体量超10万㎡（低密度开放式商业街区）",
+    "note": "差50%处边界；街区形态口径，另有公共空间占地6万㎡说法"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都保利时光里 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "开业报道未提及停车位"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都保利时光里 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0965",
+  "name": "佛山容桂天佑城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2005,
+    "verdict": "conflict",
+    "query": "顺德容桂天佑城购物中心 简介 商业面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百科：天佑城首店2005年12月17日在顺德容桂正式对外营业",
+    "note": "内部2007与外部2005差2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 12.5,
+    "verdict": "minor_diff",
+    "query": "顺德容桂天佑城购物中心 简介 商业面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总建筑面积超12.5万㎡，其中商业面积超10万㎡，主体三层",
+    "note": "总建面口径差40%"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": 1300,
+    "verdict": "minor_diff",
+    "query": "容桂天佑城 停车位 多少个",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "大型地下停车场及户外停车场可停放1300多辆轿车及1000辆摩托车",
+    "note": "另有登记口径约500个，外部口径不一（1300为轿车位，内部750介于两者间）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "佛山容桂天佑城 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0998",
+  "name": "深圳福田卓悦INTOWN",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2012,
+    "verdict": "conflict",
+    "query": "\"卓悦INTOWN\" 深圳 开业",
+    "source_url": "https://baike.baidu.com/item/%E5%8D%93%E6%82%A6INTOWN/55634081",
+    "source_level": "self-media",
+    "evidence": "福田卓悦INTOWN为首个落地项目，依托卓越世纪中心于2012-06-28开业",
+    "note": "赢商网产品线报道佐证；内部2020疑为调整/焕新年份，原始开业2012"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 4.2,
+    "verdict": "minor_diff",
+    "query": "\"卓悦INTOWN\" 深圳 开业",
+    "source_url": "https://baike.baidu.com/item/%E5%8D%93%E6%82%A6INTOWN/55634081",
+    "source_level": "self-media",
+    "evidence": "福田卓悦INTOWN商业面积约4.2万平方米（半开放街区+盒子mall）",
+    "note": "差约31%"
+   },
+   {
+    "metric": "parking",
+    "internal": 440,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 卓悦INTOWN 福田 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"卓悦INTOWN\" 深圳 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0104",
+  "name": "绍兴天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "绍兴天地 开业 2024 商业面积 871",
+    "source_url": "https://www.guandian.cn/m/show/438102",
+    "source_level": "media",
+    "evidence": "观点网：华润绍兴天地9月28日于原871芯片厂址开业，9月25-27试营业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.6,
+    "external": 5.2,
+    "verdict": "match",
+    "query": "绍兴天地 开业 2024 商业面积 871",
+    "source_url": "https://www.guandian.cn/m/show/438102",
+    "source_level": "media",
+    "evidence": "总建筑面积约37万㎡，其中商业面积5.1-5.2万㎡（商业建筑部分约6.1万㎡）",
+    "note": "内部5.6万㎡落于商业面积与商业建筑部分区间，项目总建面37万㎡为文商旅住综合体口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "绍兴天地 开业 2024 商业面积 871",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "绍兴天地 开业 2024 商业面积 871",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "内部14万人次/日相对5.6万㎡体量明显偏高，且无外部佐证，建议复核"
+   }
+  ]
+ },
+ {
+  "id": "0110",
+  "name": "南昌红谷滩万象天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "南昌红谷滩万象天地 开业 商业面积",
+    "source_url": "https://www.crmixclifestyle.com.hk/gsxw/2024-01-03/1974447.html",
+    "source_level": "official",
+    "evidence": "华润万象生活官网：2023-12-24起试营业，12-30正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "南昌红谷滩万象天地 开业 商业面积",
+    "source_url": "https://www.crmixclifestyle.com.hk/gsxw/2024-01-03/1974447.html",
+    "source_level": "official",
+    "evidence": "总商业建筑面积约12万平方米，街区+MALL开放式商业",
+    "note": "由原红谷滩红星美凯龙改造"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌红谷滩万象天地 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌红谷滩万象天地 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0119",
+  "name": "上海山钢和润旭辉里",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2023,
+    "verdict": "minor_diff",
+    "query": "山钢和润 旭辉里 项目 开业",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2022-09招商推介会进入开业倒计时；2023-01报道称已正式开业（2022年底口径）",
+    "note": "跨年开业口径：按2022年底开业则match，按2023年初正式开业则±1年minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 8,
+    "verdict": "match",
+    "query": "上海 山钢和润 旭辉里 开业 面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积约8万平方米，商业面积超3.5万平方米，127个铺位",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 610,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海 山钢和润 旭辉里 开业 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "山钢和润 旭辉里 项目 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0147",
+  "name": "郑州丹尼斯5天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丹尼斯五天地 2012年 开业 花园路",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索（含变体）未命中5天地专属报道，公开报道集中于大卫城/人民路店"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20.6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州 \"五天地\" 丹尼斯 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州 \"五天地\" 丹尼斯 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州丹尼斯五天地 开业 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1028",
+  "name": "杭州银泰百货（下沙工厂店）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "杭州银泰百货下沙工厂店 开业 面积 停车位",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "维基百科\"下沙银泰\"：2016年1月正式开业，地面8层地下2层",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.8,
+    "external": 9.8,
+    "verdict": "match",
+    "query": "杭州银泰百货下沙工厂店 开业 面积 停车位",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约9.8万平方米（约98,000平方米）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "下沙银泰 停车位 多少个 海达南路",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记命中：内部1000系邻接品牌/扶梯词提取，检索未见公开车位数，无法证实亦无法证伪"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州下沙银泰百货 工厂店 营业面积 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ }
+]

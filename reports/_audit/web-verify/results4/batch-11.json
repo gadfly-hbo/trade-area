@@ -1,0 +1,767 @@
+[
+  {
+    "id": "2231",
+    "name": "金华义乌天地",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2020,
+        "external": 2024,
+        "verdict": "conflict",
+        "query": "金华 义乌天地 开业时间 购物中心",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "观点网2024-07-19：华润置地义乌天地正式开业，华润置地董事会主席出席",
+        "note": "内部2020疑为华润拿地年份（2020年6月39.55亿元竞得下车门地块），非开业年份；实际2024-07-19开业"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 6,
+        "external": 6,
+        "verdict": "match",
+        "query": "义乌天地 华润 2024年7月19日 开业",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "华润置地义乌天地开业，商业建筑面积约6万平方米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 480,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "义乌天地 停车场 车位 开业 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未披露车位数（首次查询429已重试一次）；内部为基准推断值"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 10,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "义乌天地 停车场 车位 开业 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未见节假日单日峰值口径数据；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2232",
+    "name": "龙湖长沙开福天街",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2020,
+        "external": 2026,
+        "verdict": "conflict",
+        "query": "\"开福天街\" 长沙 商业 面积 开业",
+        "source_url": "https://m.2haofang.com",
+        "source_level": "self-media",
+        "evidence": "2026-01报道：约12万㎡龙湖开福天街预计2026年9月正式开业；截至2026年8月招商率超90%",
+        "note": "2020为签约/拿地及商圈报道年份（原计划2023年6月开业后推迟）；项目2026年才开业，内部开业年份失真"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 56,
+        "external": 12,
+        "verdict": "unit_mismatch",
+        "query": "\"开福天街\" 长沙 商业 面积 开业",
+        "source_url": "https://m.2haofang.com",
+        "source_level": "self-media",
+        "evidence": "商业体量约12万平方米（一说建面约14万㎡），长沙首个POD+TOD商业综合体",
+        "note": "内部56万㎡疑为整体项目（含住宅）总建面，与商业体量12-14万㎡口径不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 1730,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "\"开福天街\" 长沙 商业 面积 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "项目2026年方开业，外部无车位数披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "\"开福天街\" 长沙 商业 面积 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "项目2026年方开业，不存在历史节假日峰值；内部4.5为推断值，可信度低"
+      }
+    ]
+  },
+  {
+    "id": "2264",
+    "name": "上海中房金谊广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2010,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "\"金谊广场\" 三林 开业 2010 OR 2011",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "百科仅载项目概况与2024年B1层改造，未披露开业年份；同期住宅2008-2009年建成，2010口径无法证实亦无法证伪（已达3次搜索上限）"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 8.35,
+        "external": 8.7,
+        "verdict": "match",
+        "query": "中房金谊广场 浦东 三林 开业时间 商业面积",
+        "source_url": "https://baike.baidu.com",
+        "source_level": "self-media",
+        "evidence": "项目规划用地约2.5公顷，总建筑面积约86952平方米，地上五层",
+        "note": "差约4%，一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 565,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "中房金谊广场 浦东 三林 开业时间 商业面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未见车位数披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 3.75,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "中房金谊广场 浦东 三林 开业时间 商业面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "社区型购物中心，外部无节假日峰值口径数据"
+      }
+    ]
+  },
+  {
+    "id": "2283",
+    "name": "武汉黄陂广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2009,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "\"黄陂广场\" 开业 2009 OR 2010 沃尔玛",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "3次搜索（含前川/沃尔玛变体）均未命中该商业体开业报道，县域项目外部报道缺失；auditFlag上下文为2008-10动工、2009"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 12,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "武汉 黄陂广场 开业时间 购物中心",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无建面数据"
+      },
+      {
+        "metric": "parking",
+        "internal": 900,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "武汉 黄陂广场 开业时间 购物中心",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "黄陂广场 前川 开业 商业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无客流数据"
+      }
+    ]
+  },
+  {
+    "id": "2329",
+    "name": "丹东汇侨国际广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2012,
+        "external": 2013,
+        "verdict": "minor_diff",
+        "query": "丹东汇侨国际广场 开业 建筑面积",
+        "source_url": "http://www.irgroad.com",
+        "source_level": "trade",
+        "evidence": "商业地产招商平台：开业时间2013-12，开发商丹东汇隆实业，振兴区十纬路30号",
+        "note": "±1年；内部2012疑为招商/筹备年份，正式开业为2013年12月"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 5,
+        "external": 6,
+        "verdict": "match",
+        "query": "丹东汇侨国际广场 开业 建筑面积",
+        "source_url": "http://www.irgroad.com",
+        "source_level": "trade",
+        "evidence": "商业面积60000m²；另有报道称总体面积4万多平方米",
+        "note": "差恰为20%（边界内）；外部口径本身存在4-6万区间"
+      },
+      {
+        "metric": "parking",
+        "internal": 360,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "丹东汇侨国际广场 开业 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 5.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "丹东汇侨国际广场 开业 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无客流数据"
+      }
+    ]
+  },
+  {
+    "id": "2332",
+    "name": "上海虹桥中心Art Park大融城",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "虹桥中心 Art Park大融城 开业 时间",
+        "source_url": "https://www.sohu.com",
+        "source_level": "media",
+        "evidence": "2021-12-29报道：光大安石ART PARK大融城（长宁）年末一周内完成开业",
+        "note": "auditFlag中的2021既是改造年份也恰为实际开业年份，内部值正确"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 17,
+        "external": 17,
+        "verdict": "match",
+        "query": "虹桥中心 Art Park大融城 开业 时间",
+        "source_url": "https://www.sohu.com",
+        "source_level": "media",
+        "evidence": "总建筑面积约17万㎡，商业面积约6万㎡，毗邻虹桥枢纽、淞虹路站上盖",
+        "note": "内部17万与总建面口径一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 972,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "虹桥中心 Art Park大融城 开业 时间",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 11,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "虹桥中心 Art Park大融城 开业 时间",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无节假日单日峰值数据；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2333",
+    "name": "鄂州吾悦广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2022,
+        "external": 2022,
+        "verdict": "match",
+        "query": "鄂州吾悦广场 正式开业 葛店",
+        "source_url": "https://sthjj.ezhou.gov.cn",
+        "source_level": "official",
+        "evidence": "鄂州市2023年政府工作报告（2022年回顾）：吾悦广场建成开业，三日销售额突破2000万元",
+        "note": "2021-05封顶时曾计划当年底开业，实际2022年开业，与内部一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 80,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "鄂州吾悦广场 开业 2022",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未见建面披露；80万㎡疑为商住一体化总口径（吾悦广场通常含住宅），商业部分应远小于此"
+      },
+      {
+        "metric": "parking",
+        "internal": 1200,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "鄂州吾悦广场 开业 2022",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 10,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "鄂州吾悦广场 正式开业 葛店",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅见开业三日销售额口径，无节假日单日客流披露"
+      }
+    ]
+  },
+  {
+    "id": "2335",
+    "name": "济南弘阳广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "济南弘阳广场 开业时间",
+        "source_url": "http://sd.people.com.cn",
+        "source_level": "media",
+        "evidence": "2021-10-30人民网：入驻省会文化艺术中心三馆二期的弘阳广场将在年底对外营业，招商率已达99%",
+        "note": "2021-12-24正式开业，与内部一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 10,
+        "external": 10,
+        "verdict": "match",
+        "query": "济南弘阳广场 商业面积 万平方米 停车",
+        "source_url": "http://sd.people.com.cn",
+        "source_level": "media",
+        "evidence": "入驻省会文化艺术中心三馆二期的弘阳广场总面积约10万平方米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 1000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "济南弘阳广场 商业面积 万平方米 停车",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部仅证实有地下停车场（负一层直连），总数未披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 7.35,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "济南弘阳广场 开业时间",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无节假日峰值客流数据；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2341",
+    "name": "长春这有山thehill",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2019,
+        "external": 2019,
+        "verdict": "match",
+        "query": "长春这有山 开业时间 建筑面积",
+        "source_url": "https://news.cnr.cn",
+        "source_level": "media",
+        "evidence": "央广网：2019年国庆期间正式开业，开业当天数万人流，连续七天限流、24小时不闭店",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 2.2,
+        "external": 7,
+        "verdict": "conflict",
+        "query": "\"这有山\" 长春 建筑面积 红旗街",
+        "source_url": "https://jl.ifeng.com",
+        "source_level": "media",
+        "evidence": "凤凰网吉林2020-01：项目建筑面积近7万平方米；搜狐：总建筑面积73600㎡；BIM资料：64034.82㎡",
+        "note": "多来源收敛于6.4-7.4万㎡，内部2.2万㎡偏差>50%；2.2或指精装面积2.8万㎡的部分口径，仍不符"
+      },
+      {
+        "metric": "parking",
+        "internal": 176,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "这有山 长春 停车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未披露车位数；内部176为最低置信度基准推断值，与近7万㎡体量明显不匹配，疑为局部区域车位"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 15,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长春\"这有山\" 客流量 万人次 停车",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅见开业报道\"数万人流\"，未见节假日单日15万口径；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2344",
+    "name": "宁波高新宝龙广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "宁波高新宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "宝龙商业港交所公告（2025-03-26）：宁波高新宝龙广场于2021年10月开业，商业管理面积约143588平方米",
+        "note": "上市公司公告口径，与内部一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 35,
+        "external": 14.36,
+        "verdict": "unit_mismatch",
+        "query": "宁波高新宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "公告载商业管理面积约143,588㎡，为宝龙地产委托管理项目",
+        "note": "内部35万㎡疑为整体项目总建面（含住宅），与商管商业面积14.36万㎡口径不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 2743,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "宁波高新宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "auditFlag提示提取值邻接品牌/扶梯词；公告及公开报道均未披露车位数，无法佐证，需人工复核原句"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 3,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "宁波高新宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无节假日峰值数据"
+      }
+    ]
+  },
+  {
+    "id": "2345",
+    "name": "广安吾悦广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2022,
+        "external": 2022,
+        "verdict": "match",
+        "query": "四川 广安吾悦广场 正式开业 2021年12月 OR 2022年",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "新浪财经2022年10月：新城控股已开业包括广安吾悦广场在内的两座吾悦广场（2021-06报道当时尚为\"即将开业\"）",
+        "note": "2021年底商户进场装修，2022年内开业，与内部一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 70,
+        "external": 67,
+        "verdict": "match",
+        "query": "四川 广安吾悦广场 正式开业 2021年12月 OR 2022年",
+        "source_url": null,
+        "source_level": "self-media",
+        "evidence": "项目总建筑面积约67万㎡，其中商业地块18万㎡（含1栋9万㎡综合体及14栋商业街建筑）",
+        "note": "差约4%；信源为行业资料汇编（弱信源），方向性一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 1265,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "广安吾悦广场 开业时间",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 12,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "四川 广安吾悦广场 正式开业 2021年12月 OR 2022年",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅见2025年国庆日均客流8万+的近年运营口径，非节假日单日峰值披露，不直接可比；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2346",
+    "name": "上海太平洋新天地商业广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2025,
+        "external": 2025,
+        "verdict": "match",
+        "query": "上海太平洋新天地商业广场 开业",
+        "source_url": "https://www.shhuangpu.gov.cn",
+        "source_level": "official",
+        "evidence": "黄浦区政府对区人大代表建议的答复（2026-07）：太平洋新天地于2025年12月正式启幕",
+        "note": "auditFlag上下文\"2025 Q4 T1/T2竣工\"与12月启幕吻合"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 39,
+        "external": 39,
+        "verdict": "match",
+        "query": "太平洋新天地 瑞安 商业 建筑面积 万平方米",
+        "source_url": "https://finance.sina.com.cn",
+        "source_level": "media",
+        "evidence": "太平桥板块项目总建筑面积约39万平方米（办公约20万㎡+商业约8.3万㎡），2019年开工",
+        "note": "由太保寿险、瑞安房地产、永业集团联合开发，总建面口径与内部一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 1300,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海太平洋新天地商业广场 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 10,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海太平洋新天地商业广场 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "2025-12才启幕，无节假日峰值披露；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2354",
+    "name": "金华兰溪宝龙广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "兰溪宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "宝龙商业2025年年报项目列表：兰溪宝龙广场2021年12月开业，兰溪首个大型综合体",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 13.5,
+        "external": 13.9,
+        "verdict": "match",
+        "query": "兰溪宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "商业体量约14.3万㎡（总建面约13.9万㎡委托管理口径）",
+        "note": "内部13.5与13.9/14.3差2.9%-5.9%，一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 1520,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "\"兰溪宝龙广场\" 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "auditFlag提示提取值邻接品牌/扶梯词；外部仅证实B1地下停车场存在，总泊位数未披露，需人工复核原句"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6.25,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "兰溪宝龙广场 开业时间 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无节假日峰值数据"
+      }
+    ]
+  },
+  {
+    "id": "2358",
+    "name": "南宁爱琴海城市广场",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "华丰城爱琴海城市广场 南宁 盛大开业 埌东",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "赢商网2021-12-25：12月24日爱琴海集团南宁首个商业项目——南宁华丰城爱琴海城市广场开业",
+        "note": "条目对应青秀区民族大道181号华丰城项目（非江南区爱琴海）；auditFlag的2021确为开业年"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 9,
+        "external": 9,
+        "verdict": "match",
+        "query": "华丰城爱琴海城市广场 南宁 盛大开业 埌东",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "埌东客运站TOD商业综合体，约9万㎡商业面积，定位南宁东精致生活体验中心",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "华丰城爱琴海城市广场 南宁 盛大开业 埌东",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "auditFlag提示提取值邻接品牌/扶梯词；外部未披露车位数，需人工复核原句"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4.25,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "南宁 \"爱琴海城市广场\" 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无节假日峰值数据；内部为推断值"
+      }
+    ]
+  },
+  {
+    "id": "2360",
+    "name": "枣庄双子星恒太城",
+    "layer": "r4",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2022,
+        "external": 2022,
+        "verdict": "match",
+        "query": "枣庄双子星恒太城 开业时间",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "2022年9月30日枣庄双子星恒太城开业，约200余品牌、首进品牌占比超40%（百科同载）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 13,
+        "external": 13,
+        "verdict": "match",
+        "query": "枣庄双子星恒太城 开业时间",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "商业体量约13万平方米，共六个楼层；所在双子星城市广场建筑高258.7米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 2800,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "枣庄双子星恒太城 开业时间",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位数数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 13.5,
+        "external": 19,
+        "verdict": "unit_mismatch",
+        "query": "枣庄双子星恒太城 开业时间",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "开业首日客流超19万人次，销售额1320万元",
+        "note": "外部为开业首日口径，与节假日单日峰值不可比；内部13.5为推断值"
+      }
+    ]
+  }
+]

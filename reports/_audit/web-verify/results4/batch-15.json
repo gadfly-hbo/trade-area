@@ -1,0 +1,767 @@
+[
+ {
+  "id": "2818",
+  "name": "连云港利群广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "连云港利群广场 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "利群股份省外首家大型购物中心2017年9月开业，填补连云港东南片区空白",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 8,
+    "verdict": "match",
+    "query": "连云港利群广场 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "商业建设面积约8万㎡，与内部一致",
+    "note": "内部值原标记为推断，外部证实"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "连云港利群广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组词未检索到车位数报道",
+    "note": "auditFlag「邻接品牌/扶梯等词」无法用外部数据裁定，维持存疑"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "连云港利群广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0313",
+  "name": "深圳光明万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2022,
+    "verdict": "minor_diff",
+    "query": "深圳光明万达广场 开业 2023",
+    "source_url": "https://www.sznews.com/news/content/mb/2022-08/01/content_25282055.htm",
+    "source_level": "media",
+    "evidence": "深圳新闻网：光明万达广场2022年7月30日正式开业，深圳第三座万达广场",
+    "note": "内部2023系推断（无开业动词），外部正式开业为2022-07-30，±1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 6,
+    "verdict": "conflict",
+    "query": "光明万达广场 特区建发乐府广场 商业面积 万平方米",
+    "source_url": "https://www.sznews.com/news/content/mb/2022-08/01/content_25282055.htm",
+    "source_level": "media",
+    "evidence": "商业面积约6万㎡（开业报道）；乐府广场租赁页称商业约5万㎡；总建面37.51万㎡",
+    "note": "内部12万㎡与商业面积5-6万㎡及综合体总建面37.5万㎡均不符，来源存疑"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 2100,
+    "verdict": "conflict",
+    "query": "深圳光明万达广场 商业面积 6万 停车",
+    "source_url": "https://www.sznews.com/news/content/mb/2022-08/01/content_25282055.htm",
+    "source_level": "media",
+    "evidence": "B2-B3层停车场提供超2100个停车位",
+    "note": "内部1000系基准推断，外部2100+，差>50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明万达广场 商业面积 6万 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": "内部12.5万/日系推断值，对社区型商场明显偏高"
+   }
+  ]
+ },
+ {
+  "id": "0329",
+  "name": "龙湖杭州丁桥天街",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "龙湖杭州丁桥天街 开业 2021 建筑面积",
+    "source_url": "https://hznews.hangzhou.com.cn",
+    "source_level": "media",
+    "evidence": "多家杭州媒体报道2021年10月15日正式开业",
+    "note": "auditFlag「规划公示→2021」消除，2021为实际开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 12.52,
+    "verdict": "match",
+    "query": "龙湖杭州丁桥天街 开业 2021 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "龙湖集团2021年报：计容建筑面积约125,186㎡（约12.52万㎡）",
+    "note": "另有规划设计总建面20.68万㎡口径（含配套），内部值对应计容口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州丁桥天街 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两组词均未检索到确切车位数",
+    "note": "auditFlag「邻接品牌/扶梯等词」无法外部裁定；参考西溪天街2578个，内部值不排除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": 60,
+    "verdict": "unit_mismatch",
+    "query": "杭州丁桥天街 停车位 数量",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "开业三天总客流突破60万人，销售总额超4698万元",
+    "note": "外部为开业三日累计口径，与节假日单日不可比"
+   }
+  ]
+ },
+ {
+  "id": "0336",
+  "name": "徐州丰县吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2022,
+    "verdict": "minor_diff",
+    "query": "徐州 丰县吾悦广场 开业 运营 报道",
+    "source_url": "http://jsnews.jschina.com.cn",
+    "source_level": "media",
+    "evidence": "中国江苏网：2022年12月23日正式营业，新城苏鲁豫皖交界县区首店",
+    "note": "内部2021应为三期竣工年（新城年报2021年6月竣工），±1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "徐州 丰县吾悦广场 开业 运营 报道",
+    "source_url": "http://jsnews.jschina.com.cn",
+    "source_level": "media",
+    "evidence": "丰县周边县域内唯一超10万平方米的商业综合体；赢商网列商业体量10万㎡",
+    "note": "差约30%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丰县吾悦广场 12月23日 盛大开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丰县吾悦广场 12月23日 盛大开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "报道仅称「人头攒动」，无客流数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0337",
+  "name": "深圳天虹商场(松柏店)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "横岗 松柏 天虹 开业 2014",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "天虹商场2014年年报：当年新开深圳松柏天虹等5家综合百货",
+    "note": "auditFlag「年租期2014」消除，2014为实际开业年（8月21日启幕）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.44,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "松柏天虹 深圳营业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该店面积数据，年报门店明细未入库",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2322,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 天虹商场 松柏店 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 天虹商场 松柏店 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0339",
+  "name": "宜昌夷陵万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2020,
+    "verdict": "conflict",
+    "query": "夷陵万达广场 2020年12月 开业 宜昌",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/50331577",
+    "source_level": "self-media",
+    "evidence": "2020年12月18日开业；界面新闻2021年4月报道已运营",
+    "note": "内部2018与外部差2年；2018或为拿地/开工年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 14.45,
+    "verdict": "conflict",
+    "query": "宜昌夷陵万达广场 购物中心 建筑面积 万㎡",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/50331577",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约14.45万㎡（购物中心+步行街）；万达商管口径商业面积14.43万㎡",
+    "note": "内部6万㎡显著偏低（差>50%），中建三局数据14.42万㎡互证"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": 1200,
+    "verdict": "conflict",
+    "query": "宜昌夷陵万达广场 购物中心 建筑面积 万㎡",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/50331577",
+    "source_level": "self-media",
+    "evidence": "配套1200+停车位",
+    "note": "内部600系推断值，差50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宜昌夷陵万达广场 开业 2018 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0345",
+  "name": "安康汉滨万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "安康汉滨万达广场 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "2020年11月20日正式开业运营，陕西省第十座万达广场",
+    "note": "另有赢商网项目页佐证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.7,
+    "external": 11.7,
+    "verdict": "match",
+    "query": "安康汉滨万达广场 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "商业体量约11.7万平方米；赢商网列建面12万㎡",
+    "note": "总建面约11.86万㎡口径亦在±20%内"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1200,
+    "verdict": "match",
+    "query": "安康汉滨万达广场 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "地上+地下共设1200余个停车位",
+    "note": "内部1000系基准推断且带邻接词标记；差20%恰在上限，判match"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "安康汉滨万达广场 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0347",
+  "name": "阳泉新城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "阳泉万达广场 盛大开业 2022",
+    "source_url": "https://finance.sina.cn",
+    "source_level": "official",
+    "evidence": "2021年12月仍在幕墙施工（搜狐航拍）；2023年2月政府工作报告称已开业运营",
+    "note": "内部2020为推断值，外部证据指向2022年开业，差2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 14.3,
+    "verdict": "minor_diff",
+    "query": "阳泉新城万达广场 开业 时间 建筑面积",
+    "source_url": "https://www.sina.cn",
+    "source_level": "self-media",
+    "evidence": "阳泉新城万达广场官方微博：项目总面积14.3万平方米",
+    "note": "总面积口径，差约43%"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "阳泉万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两组词均未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "阳泉万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": "内部12.5万/日系推断值，对阳泉体量明显偏高"
+   }
+  ]
+ },
+ {
+  "id": "0365",
+  "name": "西宁城东吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2020,
+    "verdict": "conflict",
+    "query": "西宁城东吾悦广场 体量 万方 停车位",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网项目档案：开业时间2020-11（2020年11月20日开业，拿地到开业约24个月）",
+    "note": "内部2023与外部差3年；2022年2月新城西北区域资料已列为已开业项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "西宁城东吾悦广场 体量 万方 停车位",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网项目档案：建筑面积10万㎡",
+    "note": "差约30%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": 1300,
+    "verdict": "match",
+    "query": "西宁城东吾悦广场 体量 万方 停车位",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "联商网报道：停车位1300多个",
+    "note": "差约13%；内部1150系推断值，外部证实量级正确"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西宁城东吾悦广场 开业 2023 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0373",
+  "name": "岳阳步步高广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2017,
+    "verdict": "minor_diff",
+    "query": "岳阳步步高广场 开业 时间 建筑面积",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "步步高半年报：岳阳东方红广场店（东茅岭步行街1号）2017/12/9开业",
+    "note": "内部2016差1年，上市公司披露为权威口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 11.99,
+    "verdict": "conflict",
+    "query": "步步高广场 岳阳 东茅岭 商业面积 万方",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "步步高年报：东茅岭店建筑面积119,874㎡（约11.99万㎡）",
+    "note": "内部7.5万㎡系推断，差60%；未检索到7.5万口径来源"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "岳阳步步高广场 开业 时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "岳阳步步高广场 开业 时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0387",
+  "name": "广州融创茂",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "广州融创茂 开业 2019 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：2019年6月15日广州融创文旅城及融创茂正式开业",
+    "note": "auditFlag消除，2019为正式开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.65,
+    "external": 10.65,
+    "verdict": "match",
+    "query": "广州融创茂 开业 2019 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "商业经营部分体量约10.65万㎡（总建面34.58万㎡为文旅城大口径）",
+    "note": "内部值与商业经营体量完全一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 852,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州融创茂 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两组词均未检索到官方车位数，仅见停车楼分区描述",
+    "note": "内部852系基准推断"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 30,
+    "verdict": "unit_mismatch",
+    "query": "广州融创茂 开业 2019 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "开业首日接待客流达30万+人次",
+    "note": "开业首日口径，不可与节假日单日比较"
+   }
+  ]
+ },
+ {
+  "id": "0389",
+  "name": "驻马店爱克玖隆茂",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2021,
+    "verdict": "conflict",
+    "query": "驻马店 玖隆茂 商业 开业时间 体量",
+    "source_url": "http://m.winshang.com/xm75007.html",
+    "source_level": "trade",
+    "evidence": "赢商网：开业时间2021-01；驻马店广视网：1月30日-2月1日试营业",
+    "note": "内部2019与外部差2年；2019或为招商/竣工节点"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 35,
+    "external": 20,
+    "verdict": "conflict",
+    "query": "驻马店 玖隆茂 商业 开业时间 体量",
+    "source_url": "http://m.winshang.com/xm75007.html",
+    "source_level": "trade",
+    "evidence": "商业建筑面积约20万㎡、营业面积约11万㎡，称豫中南最大体量购物中心",
+    "note": "内部35万㎡系推断，差75%；未检索到35万口径来源"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "玖隆茂购物公园 驻马店 爱克 开业 商业面积 万方",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "赢商网项目页停车位字段未在检索结果中显示数值",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "驻马店 玖隆茂 商业 开业时间 体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "试营业报道仅称销售额位居同体量前列，无客流数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0404",
+  "name": "武汉大洋晶典(中山店)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "武汉大洋晶典 中山大道 开业",
+    "source_url": "http://m.winshang.com/xm74659.html",
+    "source_level": "trade",
+    "evidence": "赢商网：开业2004-12；大洋百货武汉首店2004年12月18日开业（全国第七店）",
+    "note": "auditFlag「经营主体2004」消除，2004为门店实际开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 9,
+    "verdict": "unit_mismatch",
+    "query": "武汉大洋晶典 中山大道 开业",
+    "source_url": "http://m.winshang.com/xm74659.html",
+    "source_level": "trade",
+    "evidence": "赢商网：建筑面积9万㎡、营业面积5.5万㎡",
+    "note": "内部5.5恰为营业面积口径，与建筑面积9万㎡错配；非数值错误而是口径错标"
+   },
+   {
+    "metric": "parking",
+    "internal": 440,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉大洋晶典 中山大道 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "赢商网停车位字段无数据（项目页直连404，仅检索快照可见）",
+    "note": "内部440系基准推断"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 47.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉大洋晶典 中山大道 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到单日客流数据",
+    "note": "内部47.5万/日系推断，对单体百货明显偏高，疑混入商圈全域口径"
+   }
+  ]
+ },
+ {
+  "id": "0407",
+  "name": "北京新世界百货(望京店)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "望京 嘉美中心 新世界百货 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "2007年7月报道签约入驻望京嘉美中心，未见确切开业日期报道",
+    "note": "签约2007、开业应在2007-2008年间，无法确认2007；三次检索未获直接证据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.15,
+    "external": 6,
+    "verdict": "minor_diff",
+    "query": "\"新世界百货\" 望京店 2007年 开业",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "百科/当年报道：进驻嘉美中心新店面积近6万平方米",
+    "note": "签约口径约5万㎡商业中心，与内部4.15差44%；信源较弱"
+   },
+   {
+    "metric": "parking",
+    "internal": 332,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京新世界百货 望京店 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京新世界百货 望京店 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0424",
+  "name": "昭通吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "昭通吾悦广场 开业 2021 建筑面积",
+    "source_url": "https://www1.hkexnews.hk",
+    "source_level": "official",
+    "evidence": "新城控股2021年6月简报昭通吾悦出租率93.57%，2021年9月列入已开业统计",
+    "note": "永辉超市2020-09-30先行开业（超市先开），商业整体2021年内开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 65,
+    "external": 82,
+    "verdict": "minor_diff",
+    "query": "昭通吾悦广场 开业 商业体量 12万 总建筑面积",
+    "source_url": "http://www.gzzixun.cn",
+    "source_level": "self-media",
+    "evidence": "宣传稿：约82万㎡城市旗舰综合体，超9万㎡自持购物中心+约3万㎡步行街",
+    "note": "差约26%；昭通新闻网口径商业体量约12万㎡（购物中心+步行街），内部65万㎡或为中期规划口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1262,
+    "verdict": "minor_diff",
+    "query": "昭通吾悦广场 开业 2021 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "昭通新闻网：智能车位1262个",
+    "note": "内部1000带邻接词标记，差约21%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昭通吾悦广场 开业 商业体量 12万 总建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日客流数据",
+    "note": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1817",
+  "name": "深圳欢乐海岸",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "深圳欢乐海岸 OCT Harbour 2011年开业 购物中心面积",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎专栏《深圳华侨城欢乐海岸八周年》（2019-08）：2011年8月开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "欢乐海岸 O'PLAZA购物中心 建筑面积 万平方米",
+    "source_url": "http://pdf.wenweipo.com",
+    "source_level": "media",
+    "evidence": "网易号：O'PLAZA购物中心约10万㎡；文汇报2016：欢乐海岸商业面积近20万㎡",
+    "note": "内部8万㎡接近O'PLAZA购物中心单体口径（差20-25%）；全项目商业面积近20万㎡为另一口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 3500,
+    "external": 3000,
+    "verdict": "match",
+    "query": "深圳欢乐海岸 停车场 车位 多少个",
+    "source_url": "https://m.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪2012：欢乐海岸配建可停3000辆的超大型地下停车场",
+    "note": "审计标记「邻接品牌词」经外源复核：3000与内部3500差16.7%，可接受"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 8.3,
+    "verdict": "match",
+    "query": "深圳欢乐海岸 客流 日均 万人次 节假日",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2025五一欢乐海岸接待41.64万人次（约8.3万/日）；2024春节前4天31.19万（约7.8万/日）",
+    "note": "外源为假期总量折算日均，未见单日峰值；10万与折算日均8.3万方向一致（差约17%）"
+   }
+  ]
+ },
+ {
+  "id": "1822",
+  "name": "深圳石厦时代广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳石厦时代广场 开业时间 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无独立外源；疑与石厦站旁「马成时代广场」（新天CBC一期商业，石厦北二街89号）相关，该项目确切开业年份亦未见权威外源（有约2016-2017年说法，未证实），不能证实内部2014"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石厦时代广场 购物中心 深圳 福田 开业 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福田石厦 时代广场 商场 2014年开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石厦时代广场 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "ETL已标推断（trafficPeak inferred），无外源"
+   }
+  ]
+ },
+ {
+  "id": "1834",
+  "name": "BHG Mall北京华联常营购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "BHG Mall 北京华联常营购物中心 开业时间 商业面积",
+    "source_url": "http://www.cnr.cn",
+    "source_level": "media",
+    "evidence": "央广网：2021年7月17日常营店办8周年庆，倒推2013年7月开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 11,
+    "verdict": "match",
+    "query": "BHG Mall 北京华联常营购物中心 开业时间 商业面积",
+    "source_url": "http://www.cnr.cn",
+    "source_level": "media",
+    "evidence": "商业面积约11万平方米，一站式社区型购物中心（朝阳北路17号）",
+    "note": "ETL标推断(inferred)经外源证实"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "BHG Mall 常营 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": 6,
+    "verdict": "minor_diff",
+    "query": "BHG Mall 常营购物中心 客流 万人次",
+    "source_url": "http://www.cnr.cn",
+    "source_level": "media",
+    "evidence": "央广网：2021年8周年庆创单日客流量超6万人",
+    "note": "外源为周年庆单日（非明确节假日），6万与内部8万差约25%；节假日峰值未见直接数据"
+   }
+  ]
+ },
+ {
+  "id": "1876",
+  "name": "深圳喜荟城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "\"喜荟城\" 开业 2010年12月",
+    "source_url": "https://www.sz.gov.cn/zfgb/2010/gb689/content/post_5019379.html",
+    "source_level": "official",
+    "evidence": "罗湖区政府2010年度白皮书：2010年促成百仕达喜荟城开业（当年12月开业）",
+    "note": "2011-12本地宝已有促销信息佐证持续运营"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 6,
+    "verdict": "match",
+    "query": "喜荟城购物中心 罗湖 总建筑面积 平方米",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E5%96%9C%E8%8D%9F%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "维基百科/百度百科：建筑面积约60,000平方米，共4层",
+    "note": "另有「商业体量4万多㎡」口径，内部6万取建面口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 喜荟城 购物中心 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅确认设地下停车场，无车位数；审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "喜荟城 客流量 万人次 日均",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见罗湖三大商圈（万象城/KKmall/喜荟城）春节日均合计约19万人次，单体不可比；ETL已标推断"
+   }
+  ]
+ },
+ {
+  "id": "1916",
+  "name": "福州金融街万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "福州金融街万达广场 2010 开业 商业面积",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "万达商管债券募集说明书：福州金融街万达广场2010年12月开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22.06,
+    "external": 17.4,
+    "verdict": "unit_mismatch",
+    "query": "福州金融街万达广场 2010 开业 商业面积",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "募集书披露可租/经营面积17.40万平方米",
+    "note": "外源为可租/经营面积口径，与建筑面积不可比；未检索到22.06万㎡建面直接外源"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福州金融街万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福州金融街万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1973",
+  "name": "天津友阿奥特莱斯购物公园",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2015,
+    "verdict": "conflict",
+    "query": "天津友阿奥特莱斯 开业时间 商业面积",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%8F%8B%E9%98%BF%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E5%95%86%E4%B8%9A%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "source_level": "self-media",
+    "evidence": "百科/友阿股份：2015年9月30日试营业，友阿集团华北首家直营奥莱",
+    "note": "外源口径一致为2015年开业；内部2012年无外源支持，疑为拿地/立项时间误作开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.04,
+    "external": 8.6,
+    "verdict": "match",
+    "query": "天津友阿奥特莱斯 滨海新区 开业 面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%A9%E6%B4%A5%E5%8F%8B%E9%98%BF%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E5%95%86%E4%B8%9A%E6%8A%95%E8%B5%84%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8",
+    "source_level": "self-media",
+    "evidence": "友阿股份公告口径：奥莱经营面积约8.6万㎡；项目总建筑面积约11万㎡",
+    "note": "内部7.04万与经营面积8.6万差约18%；总建面11万为另一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1530,
+    "verdict": "minor_diff",
+    "query": "天津友阿奥特莱斯 停车位 客流量",
+    "source_url": "http://www.vcinchina.com/c/29/52498.html",
+    "source_level": "media",
+    "evidence": "友阿股份优化方案：停车位增至1530个；首期开放1080个，百科称共3000多个",
+    "note": "外源三口径1080/1530/3000+；内部1200与优化后1530差约22%，与首期1080差11%；审计标记经复核内部值介于外源区间内"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天津友阿奥特莱斯 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "新华社奥莱报道有「五一销售5200万、客流10.7万人次」疑似该项目累计口径，但主体不能确证，不作比对；ETL已标推断"
+   }
+  ]
+ },
+ {
+  "id": "1981",
+  "name": "苏州昆山首创奥特莱斯",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "昆山首创奥特莱斯 开业 2015 商业面积 万方",
+    "source_url": "http://news.dichan.sina.com.cn/news/8544bd45-602d-4b20-b741-e25112a616ac",
+    "source_level": "media",
+    "evidence": "新浪地产（首创品牌介绍）：至2015年9月昆山首创奥特莱斯开业",
+    "note": "审计标记「无邻近开业动词」经外源证实2015年9月开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 28,
+    "external": 18,
+    "verdict": "minor_diff",
+    "query": "昆山首创奥特莱斯 开业 2015 商业面积 万方",
+    "source_url": "http://news.dichan.sina.com.cn/news/8544bd45-602d-4b20-b741-e25112a616ac",
+    "source_level": "media",
+    "evidence": "商业总建筑面积18万㎡，其中奥莱建筑面积10万㎡；另有整体规模20-24万方口径",
+    "note": "内部28万㎡与18万㎡差约36%；外源口径分散（18万/20-24万方），偏高"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 4000,
+    "verdict": "minor_diff",
+    "query": "昆山首创奥特莱斯 开业 2015 商业面积 万方",
+    "source_url": "http://news.dichan.sina.com.cn/news/8544bd45-602d-4b20-b741-e25112a616ac",
+    "source_level": "media",
+    "evidence": "项目配套4000个停车位、300余店铺、500余品牌",
+    "note": "内部3000与外源4000差25%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山首创奥特莱斯 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "报道称节假日客流爆满、曾创单日数万人次、昆山第二（次于万象汇），无精确峰值数据；ETL已标推断"
+   }
+  ]
+ },
+ {
+  "id": "0207",
+  "name": "广州设计之都时光汇",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "设计之都时光汇 白云区 开业 商场",
+    "source_url": "https://www.by.gov.cn",
+    "source_level": "official",
+    "evidence": "白云区政府网（2022-12-27）：时光汇将于12月30日迎客",
+    "note": "审计标记「无邻近开业动词」经区政府官网证实2022-12-30开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.7,
+    "external": 5.7,
+    "verdict": "match",
+    "query": "广州设计之都时光汇 开业 商业体量",
+    "source_url": "https://www.by.gov.cn",
+    "source_level": "official",
+    "evidence": "购物中心建筑面积约5.7万平方米（保利商旅运营）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 456,
+    "external": 1637,
+    "verdict": "conflict",
+    "query": "广州设计之都时光汇 停车场 收费 车位数",
+    "source_url": "https://aeon.com.cn/shop_info/shop_info.php?id=37",
+    "source_level": "official",
+    "evidence": "永旺门店官方页：停车位数量1637个（负一楼）",
+    "note": "内部456为benchmark推断（最低可信层）；永旺官方1637个差超50%；1637或含设计之都园区整体车位，建议改取外源值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.1,
+    "external": 10,
+    "verdict": "unit_mismatch",
+    "query": "设计之都时光汇 停车位 客流 节假日",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "开业当天购物中心客流约10万人次、商铺开业率近九成",
+    "note": "外源仅开业首日口径，非节假日单日，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0208",
+  "name": "景德镇宝龙广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "景德镇宝龙广场 开业时间 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：景德镇宝龙广场开业时间2023年10月14日，宝龙首进江西",
+    "note": "审计标记「08-27摘牌三宗地块,2023」为摘牌与开业混排；外源确认开业为2023-10-14，年份正确"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.12,
+    "external": 8,
+    "verdict": "minor_diff",
+    "query": "景德镇宝龙广场 开业时间 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "商业体量约8万方（购物中心），另有总规划建面超21万㎡（含酒店/公寓/街区）",
+    "note": "内部5.12万与购物中心8万方差约36%；21万为全项目总建面口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "景德镇宝龙广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索受429限流，仅完成1轮有效查询，未见车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "景德镇宝龙广场 开业 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "ETL已标推断；未见节假日单日客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0212",
+  "name": "唐山中骏世界城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "\"唐山中骏世界城\" 2023年 开业",
+    "source_url": "https://www.guandian.cn/m/show/335457",
+    "source_level": "media",
+    "evidence": "观点网：唐山中骏世界城于（2023年）3月18日迎来开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "唐山中骏世界城 开业时间 面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "新浪财经（开平区报道）：占地284亩，总建筑面积近10万平方米",
+    "note": "ETL标推断(inferred)经外源证实；报道未留存链接"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "唐山中骏世界城 开平 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "唐山中骏世界城 开平 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "ETL已标推断"
+   }
+  ]
+ },
+ {
+  "id": "0218",
+  "name": "天津梅江环宇城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "天津梅江环宇城 开业 商业面积",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "中海商业图鉴：梅江环宇城2023年开业，2023年11月已入河西「国潮津典」商圈报道",
+    "note": "审计标记「无邻近开业动词」经外源证实2023年开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 11.12,
+    "verdict": "match",
+    "query": "天津梅江环宇城 开业 商业面积",
+    "source_url": "https://cn.inhabitgroup.com",
+    "source_level": "trade",
+    "evidence": "总建筑面数111,196㎡，其中地上89,196㎡，新梅江首个大型TOD购物中心",
+    "note": "内部12万与总建面11.12万差约8%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "梅江环宇城 停车位 客流 开业 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索受429限流，未见车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "梅江环宇城 停车位 客流 开业 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索受429限流，未见节假日单日客流"
+   }
+  ]
+ },
+ {
+  "id": "0220",
+  "name": "青岛西海岸万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "青岛西海岸新区 黄岛 万达广场 开业时间",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "万达商管债券募集书开业物业清单：2021年12月开业（与咸阳秦都等同期）",
+    "note": "审计标记「无邻近开业动词」经外源证实2021年开业；注意与2018年开业的东方影都万达茂（现融创茂）区分"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.26,
+    "external": 6.28,
+    "verdict": "match",
+    "query": "青岛西海岸新区 黄岛 万达广场 开业时间",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "募集书：体量约6.28万㎡；搜狐焦点：总建面约7.6万㎡（地上5.17万+地下2.44万）",
+    "note": "内部6.26与募集书6.28几乎一致；与7.6万总建面口径差17.6%亦在容差内"
+   },
+   {
+    "metric": "parking",
+    "internal": 377,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛西海岸万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛西海岸万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "ETL已标推断"
+   }
+  ]
+ },
+ {
+  "id": "2007",
+  "name": "长沙金茂览秀城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "长沙金茂览秀城 开业时间 2016 商业面积",
+    "source_url": "https://m.jiemian.com",
+    "source_level": "media",
+    "evidence": "界面（华夏金茂商业REIT）：长沙览秀城2016年底开业，已运营近7年",
+    "note": "审计标记「-11-21开工→2016」链式推断不必依赖；外源直接确认2016年底开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.09,
+    "external": 10.27,
+    "verdict": "minor_diff",
+    "query": "长沙金茂览秀城 开业时间 2016 商业面积",
+    "source_url": "https://www.sse.com.cn",
+    "source_level": "official",
+    "evidence": "REIT招募说明书：总建筑面积102,741.61㎡；界面：建筑面积约10万平方米",
+    "note": "内部6.09万疑为商业/租赁部分口径，与总建面10.27万差约41%；REIT文件为权威口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 5643,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙金茂览秀城 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "REIT季报仅披露出租率/营收，未检索到车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙金茂览秀城 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见节假日单日客流数据"
+   }
+  ]
+ },
+ {
+  "id": "2011",
+  "name": "连云港苏宁广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "\"连云港苏宁广场\" 开业",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网（2023-10）：连云港苏宁广场9周年庆，即2014年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "连云港苏宁广场 总建筑面积 30万㎡ 海州",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约22万㎡，商业面积约10万㎡（地下1层地上7层）",
+    "note": "内部10万为商业面积口径与外源一致；总建面22万为另一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 785,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "连云港苏宁广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "审计标记「邻接品牌词」无外源可复核；搜索受429限流"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 17,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "连云港苏宁广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见客流数据"
+   }
+  ]
+ },
+ {
+  "id": "2016",
+  "name": "深圳iN城市广场INCITY PARK",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "深圳 iN城市广场 INCITY PARK 开业 商业面积",
+    "source_url": "https://www.scpgroup.com/media/data?parentid=3&catid=13&id=2021632",
+    "source_level": "official",
+    "evidence": "运营商官网：iN城市广场4.29盛大开业（2025年4月29日）",
+    "note": "前身为「新城市广场」存量改造焕新，2025焕新开业口径成立"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "深圳 iN城市广场 INCITY PARK 开业 商业面积",
+    "source_url": "https://www.scpgroup.com/media/data?parentid=3&catid=13&id=2021632",
+    "source_level": "official",
+    "evidence": "总体量14万平方米，共7层（另含3万㎡FUSION PARK户外运动公园）",
+    "note": "ETL标推断(inferred)经外源证实"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1200,
+    "verdict": "match",
+    "query": "深圳 iN城市广场 INCITY PARK 开业 商业面积",
+    "source_url": "https://www.scpgroup.com/media/data?parentid=3&catid=13&id=2021632",
+    "source_level": "official",
+    "evidence": "开业报道：配备1200余个车位",
+    "note": "审计标记「邻接品牌词」经外源复核：开业报道明确1200余个车位，内部值一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "iN城市广场 深圳 客流 万人次 五一",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见该项目节假日单日客流数据"
+   }
+  ]
+ }
+]

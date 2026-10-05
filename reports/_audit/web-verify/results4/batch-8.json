@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0184",
+  "name": "天津生态城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "天津生态城万达广场 开业 建筑面积 万平方米",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "天津生态城万达广场于2022年12月24日开业，为万达商管在天津第8家店",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.2,
+    "external": 9.22,
+    "verdict": "match",
+    "query": "天津生态城万达广场 开业 建筑面积 万平方米",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "项目总建筑面积约为9.22万㎡，地上三层地下一层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天津生态城万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见停车活动/收费报道，无车位总数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天津生态城万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0198",
+  "name": "长春中商世界里",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "长春 中商世界里 购物中心 开业时间 建筑面积",
+    "source_url": "https://www.juran.com.cn",
+    "source_level": "official",
+    "evidence": "2021年底，该公司在长春市开业第一家“中商世界里”购物中心",
+    "note": "居然之家官网；另载2023年销售6.33亿元、年客流1094.76万人次"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": 16,
+    "verdict": "match",
+    "query": "长春 中商世界里 购物中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "建筑面积约16万㎡，涵盖超市、院线、运动馆、儿童全业态等",
+    "note": "人民网吉林频道口径，经搜索摘要转述，未获直接链接"
+   },
+   {
+    "metric": "parking",
+    "internal": 2702,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春 中商世界里 停车场 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索均无车位数据；审计标记（邻接品牌/扶梯词）无法证实或证伪"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 1094.76,
+    "verdict": "unit_mismatch",
+    "query": "长春 中商世界里 购物中心 开业时间 建筑面积",
+    "source_url": "https://www.juran.com.cn",
+    "source_level": "official",
+    "evidence": "长春“中商世界里”2023年实现销售6.33亿元，年客流达1094.76万人次",
+    "note": "外部为年度累计客流（约合日均3万），与节假日单日峰值口径不可比"
+   }
+  ]
+ },
+ {
+  "id": "1525",
+  "name": "北京领展购物广场·中关村",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2009,
+    "verdict": "conflict",
+    "query": "领展 中关村 购物中心 25.6亿元 收购",
+    "source_url": "https://www.linkreit.com/sc/media/news-releases/first-expansion-into-mainland-china-with-acquisition-of-beijings-ec-mall-for-rmb-2500-million",
+    "source_level": "official",
+    "evidence": "领汇2015年3月以25亿元收购中关村欧美汇购物中心，商场总楼面面积达七万平方米",
+    "note": "内部2021为领展更名/焕新年；前身欧美汇购物中心(EC Mall)2009年落成开业，2015-03领展25亿收购后更名，2021非原始开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.54,
+    "external": 7,
+    "verdict": "minor_diff",
+    "query": "领展 收购 中关村 购物中心 25.6亿元 收购",
+    "source_url": "https://www.linkreit.com/sc/media/news-releases/first-expansion-into-mainland-china-with-acquisition-of-beijings-ec-mall-for-rmb-2500-million",
+    "source_level": "official",
+    "evidence": "商场总楼面面积达七万平方米，拥有七层零售楼面",
+    "note": "外部为总楼面面积(GFA)口径；内部5.54万为推断值，差约21%，取minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 367,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "领展购物广场·中关村 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索到的1800个/690个车位数据属中关村广场其他项目（ART PARK大融城等），非本物业"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "领展购物广场·中关村 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅有北京60商圈/中关村区域合计口径，无本项目单日数据"
+   }
+  ]
+ },
+ {
+  "id": "1582",
+  "name": "上海白玉兰广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2019,
+    "verdict": "minor_diff",
+    "query": "白玉兰广场 虹口 停车位 购物中心 客流",
+    "source_url": "https://www.pinterest.com",
+    "source_level": "media",
+    "evidence": "上海白玉兰广场购物中心首秀，于12月23日迎来首批品牌商户正式开业（2019-12）",
+    "note": "W酒店2017-01-28先行开业；购物中心原计划2018年底，实际2019-12分阶段开业，±1年判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 42,
+    "external": 42,
+    "verdict": "match",
+    "query": "北外滩 白玉兰广场 总建筑面积 42万平方米 开业",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "金光集团白玉兰广场总建筑面积42万㎡（地上26万+地下16万），320米浦西第一高",
+    "note": "内部42为整体综合体口径，与外部一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1408,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "白玉兰广场 虹口 停车位 购物中心 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅大众点评停车场实拍，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "白玉兰广场 虹口 停车位 购物中心 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅虹口区五一全区145万人次合计口径，不适用本项目"
+   }
+  ]
+ },
+ {
+  "id": "1588",
+  "name": "南京兴地美利广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2016,
+    "verdict": "minor_diff",
+    "query": "兴地美利广场 开业时间 2017 南京",
+    "source_url": "http://k.sina.cn",
+    "source_level": "media",
+    "evidence": "2017年文章回溯：“大厂美利广场——去年10月28日已开业的兴地美利广场”",
+    "note": "外部2016-10-28开业，与内部2017差±1年，判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7,
+    "verdict": "match",
+    "query": "南京 美利广场 迈皋桥 开业 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "兴地集团官网：约16万㎡城市商业综合体，其中购物中心7万多㎡",
+    "note": "开发商官网口径（综述转述）；百科口径项目总建面约17万㎡含住宅"
+   },
+   {
+    "metric": "parking",
+    "internal": 1112,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京 美利广场 迈皋桥 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兴地美利广场 开业时间 2017 南京",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1623",
+  "name": "北京木樨园合生广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "合生广场 木樨园 购物中心 开业 2016年",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2016年，合生创展将收购的大红门天雅国际服装城改造后开业，命名为木樨园合生广场",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "木樨园合生广场 建筑面积 停车位 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索出现“总面积约60万㎡”说法与本项目明显不符（疑似区域混淆），不采信"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京 合生广场 木樨园 开业 停车位 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京 合生广场 木樨园 开业 停车位 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1634",
+  "name": "佛山万民金海城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "佛山爱琴海购物公园 2022年开业 东平",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "佛山爱琴海购物公园（万民金海城前身）2022-12-27在佛山新城裕和路开业",
+    "note": "2024-03万民商业接管、2024-06更名（xueqiu.com 2025-03证实前身关系）、2025-06-01重开；内部2022指原始开业，成立"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.8,
+    "external": 13.8,
+    "verdict": "match",
+    "query": "佛山 万民金海城 爱琴海 开业",
+    "source_url": "https://content.foshanplus.com",
+    "source_level": "media",
+    "evidence": "总建筑规模超70万㎡，其中商业面积13.8万㎡",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3500,
+    "external": 3500,
+    "verdict": "match",
+    "query": "佛山万民金海城 开业时间",
+    "source_url": "https://xueqiu.com",
+    "source_level": "self-media",
+    "evidence": "规划约3500个停车位（佛山新城商业综述）",
+    "note": "自媒体/行业综述口径，与内部一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": 16,
+    "verdict": "unit_mismatch",
+    "query": "佛山 万民金海城 爱琴海 开业",
+    "source_url": "https://content.foshanplus.com",
+    "source_level": "media",
+    "evidence": "首日迎客16万！万民·金海城火爆开业（2025-06-01）",
+    "note": "16万对应开业首日口径（规则判unit_mismatch）；另2026五一总客流40.71万/日均8.14万，节假日日均低于16万，内部峰值疑取开业首日"
+   }
+  ]
+ },
+ {
+  "id": "1666",
+  "name": "合肥融创茂",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "合肥融创茂 万达茂 开业 2016 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "合肥万达城2016年9月24日开业（万达茂同期），2017年融创收购后更名合肥融创茂",
+    "note": "2017更名属更名不算开业，原始开业2016一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18.76,
+    "external": 19.5,
+    "verdict": "match",
+    "query": "合肥万达茂 融创茂 总建筑面积 万平方米 滨湖",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "公开介绍多称总建面约19-20万㎡（此处取区间中值）",
+    "note": "另有含乐园等综合体裁荷30-35万㎡口径，口径分歧大；购物中心主体口径19-20万与内部18.76接近"
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥融创茂 滨湖 万达茂 建筑面积 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索到的1280车位属合肥万达中心（写字楼），非融创茂"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": 4.5,
+    "verdict": "minor_diff",
+    "query": "合肥融创茂 五一假期 客流量",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2026体彩潮玩节期间融创茂单日峰值超4.5万人次、7日累计超25万",
+    "note": "活动期（非节假日）单日峰值4.5万；未检索到节假日单日数据，内部7.5万为推断值，建议复核"
+   }
+  ]
+ },
+ {
+  "id": "1678",
+  "name": "深圳百佳华领汇购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "深圳 百佳华领汇购物中心 开业 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2017年12月29日开业，是坂田区域首家购物中心（百佳华Max City坂田店）",
+    "note": "龙岗区政府官网(lg.gov.cn)2018年项目简介佐证项目体量"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 8,
+    "verdict": "minor_diff",
+    "query": "深圳 百佳华领汇购物中心 开业 建筑面积",
+    "source_url": "https://www.lg.gov.cn",
+    "source_level": "official",
+    "evidence": "百佳华坂田领汇广场总建筑面积近22万㎡，商业面积8万平方米",
+    "note": "官方口径商业面积8万㎡（另有购物中心6.5万说法）；内部4万偏低，或仅计部分口径，建议复核（差约50%边界）"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": 800,
+    "verdict": "minor_diff",
+    "query": "深圳 百佳华领汇购物中心 开业 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "项目停车位约800个（百科/搜索综述）",
+    "note": "内部500为审计标记值（邻接品牌词），外部约800，差约37.5%，建议复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 百佳华领汇购物中心 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1692",
+  "name": "上海徐汇日月光中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "上海徐汇日月光中心 开业 2017 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2017年上海开业购物中心之一：8万㎡的徐汇日月光（漕宝路站上盖）",
+    "note": "媒体年度盘点综述口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 13.2,
+    "verdict": "match",
+    "query": "徐汇日月光中心 总建筑面积 万平方米 项目",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "项目总建筑面积约13.2万平方米，集办公、购物、餐饮、娱乐于一体",
+    "note": "外部另有8万㎡商业面积口径，内部13为项目总建面口径，与13.2万一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "徐汇日月光中心 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅知其为演唱会官方分流停车点，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "徐汇日月光中心 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅餐饮占比等运营数据，无单日客流"
+   }
+  ]
+ },
+ {
+  "id": "1694",
+  "name": "清远城市广场（先锋路）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2003,
+    "verdict": "match",
+    "query": "清远城市广场 2003年 开业 清城",
+    "source_url": "https://www.newton.com.tw",
+    "source_level": "self-media",
+    "evidence": "2003年开业的城市广场首期，给清远商业带来极大的规模效应",
+    "note": "百科镜像口径，无更权威来源"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "清远 城市广场 先锋路 开业 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%B8%85%E8%BF%9C%E5%9F%8E%E5%B8%82%E5%B9%BF%E5%9C%BA/2864924",
+    "source_level": "self-media",
+    "evidence": "项目总建筑面积超10万平方米，位于先锋中路18号",
+    "note": "首期购物中心约7万㎡，内部10取全项目口径，与百科一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "清远 城市广场 先锋路 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "百科仅称“地下一层为大型停车场”，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "清远城市广场 2003年 开业 清城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1697",
+  "name": "上海奉贤宝龙广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "\"奉贤宝龙\" 开业 12月 2015 客流",
+    "source_url": "https://www.chinanews.com.cn/m/house/2016/03-16/7799867.shtml",
+    "source_level": "media",
+    "evidence": "上海奉贤宝龙广场2015年11月开业，开业三天客流创下50万人次纪录",
+    "note": "中新网引宝龙地产2015年业绩披露"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.3,
+    "external": 8,
+    "verdict": "minor_diff",
+    "query": "上海奉贤宝龙广场 开业 建筑面积 停车位",
+    "source_url": "https://sh.focus.cn",
+    "source_level": "media",
+    "evidence": "项目总建面约18.25万㎡（含住宅10栋），商场面积约80,000㎡",
+    "note": "外部商场口径约8万㎡ vs 内部5.3万，差约34%；内部或为购物中心单一口径，建议复核"
+   },
+   {
+    "metric": "parking",
+    "internal": 1166,
+    "external": 1166,
+    "verdict": "match",
+    "query": "上海奉贤宝龙广场 开业 建筑面积 停车位",
+    "source_url": "https://sh.focus.cn",
+    "source_level": "media",
+    "evidence": "楼盘详情：停车位1166个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": 11,
+    "verdict": "match",
+    "query": "\"奉贤宝龙\" 开业 12月 2015 客流",
+    "source_url": "https://www.chinanews.com.cn/m/house/2016/03-16/7799867.shtml",
+    "source_level": "media",
+    "evidence": "除开业外日最高客流达11万人次，月均客流约150万人次",
+    "note": "外部为2015-16年日最高口径，与节假日峰值可比，差约14%"
+   }
+  ]
+ },
+ {
+  "id": "1704",
+  "name": "广州花城汇",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "花城汇 2013年 开业 珠江新城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅获“2011-2013年分期投运”模糊综述及2010-12兰桂坊中标经营权报道，未见具体开业年份可靠来源；内部2013落在分期投运区间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 18.3,
+    "verdict": "match",
+    "query": "广州花城汇 开业 建筑面积 地下商场",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业建筑面积约18.3万平方米（春7.4万/夏2.4万/秋2.6万/冬10万分广场）",
+    "note": "分广场商场面积合计与18.3万报道有出入，差约18%，判match但建议复核"
+   },
+   {
+    "metric": "parking",
+    "internal": 50,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "花城汇 停车位 客流 万人次 花城广场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "地下空间商业体，车位数据无公开报道"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 35,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "花城汇 停车位 客流 万人次 花城广场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "有花城广场区域节假日大客流报道，但无商场单日万人次口径"
+   }
+  ]
+ },
+ {
+  "id": "1721",
+  "name": "柳州城中万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "柳州城中万达广场 开业 2015 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "柳州万达嘉华酒店2015-11-27开业，购物中心2015年下半年投运（综述）",
+    "note": "未见购物中心确切开业日来源，外部背景支持2015"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 67.35,
+    "external": 68,
+    "verdict": "match",
+    "query": "柳州城中万达广场 开业 2015 建筑面积 停车位",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约68万㎡，涵盖购物中心、室外步行街、酒店、写字楼、住宅等",
+    "note": "内部67.35为全综合体口径（非纯购物中心），与外部一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州城中万达广场 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索到的1585车位属南宁青秀万达，非本项目；内部200为审计标记值，存疑但无法证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州万达广场 开业时间 城中区",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1724",
+  "name": "北京金唐新光界",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2020,
+    "verdict": "conflict",
+    "query": "恒泰广场 西局 丰台 开业时间 购物中心",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2020-05：1000米左右有开业的恒泰广场，影院、物美超市等已入驻",
+    "note": "前身恒泰广场最迟2020年上半年已开业（确切年份未证）；2021-10-01启动改造（赢商网2022-08，并证实前身关系），2024-06重装更名金唐新光界（百科/丰台时报）；内部2024为焕新年，非原始开业，判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 24,
+    "verdict": "unit_mismatch",
+    "query": "金唐新光界 购物中心 建筑面积 万平方米 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E9%87%91%E5%94%90%E4%B8%AD%E5%BF%83/67842258",
+    "source_level": "self-media",
+    "evidence": "金唐中心总建筑面积约23.8-24万㎡，由三栋5A写字楼和一座购物中心组成",
+    "note": "外部为综合体总建面口径；购物中心单独面积未获证，内部8万为推断值，口径存疑"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金唐新光界 开业 改造 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.67,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金唐新光界 开业 改造 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0770",
+  "name": "郑州巩义正上豪布斯卡",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2021,
+    "verdict": "minor_diff",
+    "query": "巩义正上豪布斯卡 开业时间",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网《2021郑州商业大事件》：7月18日巩义正上·豪布斯卡盛大开业",
+    "note": "auditFlag无开业动词；外部明确2021-07-18开业，与2020差1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30,
+    "verdict": "match",
+    "query": "巩义正上豪布斯卡 开业时间",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "同源称其为中原首个30万㎡摩天商业综合体",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 550,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "巩义正上豪布斯卡 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见设地下停车场及政府取消周边200个路内泊位，无项目车位数",
+    "note": "internal为推断值(benchmark)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "巩义正上豪布斯卡 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无公开客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0772",
+  "name": "重庆双福爱琴海购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2022,
+    "verdict": "minor_diff",
+    "query": "重庆江津双福爱琴海购物中心 开业时间",
+    "source_url": "https://finance.sina.cn",
+    "source_level": "media",
+    "evidence": "2022-06-25开业，较原计划提前约60天（华龙网/新浪财经）",
+    "note": "内部2021差1年，涉正式开业判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "重庆江津双福爱琴海购物中心 开业时间",
+    "source_url": "https://www.cqnews.net/1/detail/content_990990064935153664.html",
+    "source_level": "media",
+    "evidence": "总规划面积约10万㎡，江津区域规模最大一站式商业综合体",
+    "note": "外部口径或为总规划面积，8与10差25%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "双福爱琴海购物公园 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无项目车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "双福爱琴海购物公园 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无节假日峰值客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0777",
+  "name": "成都后花园·爱琴海购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "成都后花园爱琴海购物中心 开业时间",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "CRR市调实录：12月21日开业，12月27日举办正式启幕活动",
+    "note": "另一盘点稿称12月27日开业，年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "\"爱琴海购物公园\" 犀浦 商业体量",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "外部口径约8-10万方（楼盘稿称自带10万方爱琴海购物公园）",
+    "note": "外部区间8-10万㎡，与内部12.5差20-36%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都后花园爱琴海购物公园 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两次检索未见车位数披露",
+    "note": "auditFlag标记项；internal为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都后花园爱琴海购物公园 开业 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见6周年庆累计20万人次，无节假日单日峰值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0792",
+  "name": "贵阳·悦然广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "贵阳美的悦然广场开业",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "media",
+    "evidence": "2022-12-30盛大开业（知乎/观点网跨年开业报道）",
+    "note": "auditFlag无开业动词；内部2024疑为其他节点，与外部差2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 10,
+    "verdict": "conflict",
+    "query": "贵阳美的悦然广场 开业 商业体量",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "media",
+    "evidence": "购物中心体量约10万㎡，综合体总建面近40万㎡",
+    "note": "内部5万㎡与购物中心口径差>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳悦然广场 停车 开业客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数公开数据",
+    "note": "internal为推断值(benchmark)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳悦然广场 停车 开业客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅定性报道开业人气旺，无客流数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0801",
+  "name": "铜陵百大购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2003,
+    "verdict": "conflict",
+    "query": "铜陵百大购物中心 开业 合肥百货",
+    "source_url": "https://www.fenbi.com",
+    "source_level": "self-media",
+    "evidence": "合肥百大旗下铜陵合百商厦2003-12-20开门营业",
+    "note": "招聘平台转载企业简介；2012未见开业或重装旁证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 3,
+    "verdict": "unit_mismatch",
+    "query": "铜陵合百商厦 停车位 营业面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "企业简介：营业面积近3万㎡，皖南规模最大商场之一",
+    "note": "外部仅营业面积口径，与建筑面积不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "铜陵合百商厦 停车位 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅有市政公共停车场建设信息，无商场自有车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "铜陵合百商厦 停车位 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0810",
+  "name": "本溪新玛特(解放南路店)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "本溪 新玛特 2010年 开业",
+    "source_url": "https://www.ln.gov.cn/web/zwgkx/zfgzbg/shizfgzbg/bxs/E76B590B728C4F0F878EE053D421748F/index.shtml",
+    "source_level": "official",
+    "evidence": "本溪市政府工作报告(2010-01)：新玛特购物广场等项目竣工投入使用",
+    "note": "赢商网项目页标2016-01存疑，采官方口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "本溪新玛特购物休闲广场 开业 解放南路",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "赢商网列表页标约3万㎡但同一页面开业年份有误，可靠性低",
+    "note": "不采信低质列表数据，按无有效外部数据处理"
+   },
+   {
+    "metric": "parking",
+    "internal": 275,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "本溪新玛特 购物广场 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见解放南路道路泊位治理新闻，无商场车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "本溪新玛特 购物广场 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0811",
+  "name": "鞍山百盛商城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2002,
+    "verdict": "conflict",
+    "query": "鞍山百盛购物中心 开业 二道街",
+    "source_url": "http://m.winshang.com/xm58877.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：已开业，开业时间2002-04，铁东二道街88号",
+    "note": "2007年百盛收购剩余49%股权或为内部年份来源；按原始开业2002判"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 5,
+    "verdict": "minor_diff",
+    "query": "鞍山百盛购物中心 开业 二道街",
+    "source_url": "http://m.winshang.com/xm58877.html",
+    "source_level": "trade",
+    "evidence": "赢商网：建筑面积5万㎡、营业面积3万㎡",
+    "note": "内部3.5介于两口径之间，与建面差30%"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "鞍山百盛购物中心 开业 二道街",
+    "source_url": "http://m.winshang.com/xm58877.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页停车位字段为暂无数据",
+    "note": "internal为推断值(benchmark)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "鞍山百盛商城 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见鞍山各商场假期客流旺的定性报道，无该项目数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0816",
+  "name": "七台河新玛特",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2006,
+    "verdict": "conflict",
+    "query": "七台河 桃山区 新玛特 开业 万平方米",
+    "source_url": "https://baike.baidu.com/item/七台河新玛特/13852809",
+    "source_level": "self-media",
+    "evidence": "百度百科：2006-03-24成立，2006-10-01建成开业",
+    "note": "内部2011与外部差5年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 4.2,
+    "verdict": "match",
+    "query": "七台河 桃山区 新玛特 开业 万平方米",
+    "source_url": "https://baike.baidu.com/item/七台河新玛特/13852809",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约4.2万平方米（另有5.3万㎡说法）",
+    "note": "3.5与4.2差16.7%"
+   },
+   {
+    "metric": "parking",
+    "internal": 280,
+    "external": 100,
+    "verdict": "conflict",
+    "query": "七台河新玛特 停车 客流",
+    "source_url": "https://baike.baidu.com/item/七台河新玛特/13852809",
+    "source_level": "self-media",
+    "evidence": "门前1000多㎡停车场，可同时停放百余台车辆",
+    "note": "百科为约数口径（百余台≈100+），与280差>50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "七台河新玛特 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅疫情期恢复营业客流比例及全省双节定性报道",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0823",
+  "name": "青岛丽达购物中心（绿城店）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "青岛丽达购物中心 绿城店 开业时间",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "青岛新闻网：2017-11-09开业，李沧区铜川路216号，2017年青岛新增7家大型购物中心之一",
+    "note": "报道直链未留存"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丽达绿城广场 青岛 李沧区 铜川路 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多次检索未见该项目建筑面积披露",
+    "note": "百科丽达购物中心条目为崂山店，非本店"
+   },
+   {
+    "metric": "parking",
+    "internal": 700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛丽达绿城广场 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见车位数",
+    "note": "auditFlag标记项；internal为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛丽达绿城广场 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0839",
+  "name": "平顶山卫东万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2017,
+    "verdict": "conflict",
+    "query": "\"卫东万达广场\" 平顶山 开业",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "万达商管债券募集书：平顶山卫东万达广场2017年11月开业",
+    "note": "内部2021疑与其他项目混淆（2021-12开业的是平顶山中骏世界城）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 13.02,
+    "verdict": "conflict",
+    "query": "\"卫东万达广场\" 平顶山 开业",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "同一债券文件列其建面13.02万㎡",
+    "note": "内部4.5万㎡与官方口径差>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": 798,
+    "verdict": "conflict",
+    "query": "平顶山万达广场 停车位 798 客流",
+    "source_url": "http://sc.china.com.cn/2025-11/14/content_43275670.html",
+    "source_level": "media",
+    "evidence": "中国网：平顶山万达广场地下停车场798个车位（2025-10启用）",
+    "note": "内部350与798差>50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "平顶山万达广场 停车位 798 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无节假日峰值客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0842",
+  "name": "广元利州万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "广元利州万达广场 开业时间 建筑面积 停车位",
+    "source_url": "http://www.wanda.cn/mobile/magazine/mobile/53/1486_info.html?id=1486&icon=4",
+    "source_level": "official",
+    "evidence": "万达官网刊物：2015-06-05广元万达广场盛大开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 63,
+    "external": 63,
+    "verdict": "match",
+    "query": "\"广元万达广场\" 停车位 面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百科等：项目总建筑面积约63万平方米",
+    "note": "口径为综合体总建面（含住宅万达中央华城），与内部一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 2905,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广元万达广场 地下停车场 车位 个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两次检索未见项目车位数披露",
+    "note": "auditFlag标记项；internal为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 30,
+    "verdict": "unit_mismatch",
+    "query": "广元万达广场开业 首个商业综合体 客流 停车位",
+    "source_url": "http://www.wanda.cn/mobile/magazine/mobile/53/1486_info.html?id=1486&icon=4",
+    "source_level": "official",
+    "evidence": "万达官网：开业当天30万人次，三天累计75万人次",
+    "note": "开业首日/累计口径，非节假日稳态峰值"
+   }
+  ]
+ },
+ {
+  "id": "0868",
+  "name": "重庆茂业天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2013,
+    "verdict": "conflict",
+    "query": "重庆茂业天地商业综合体 观音桥 开业",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "茂业国际2015年报：重庆江北茂业天地自2013年4月起逐层开业",
+    "note": "前身茂业百货（原迪康百货）2004年即营业；内部2015无外部对应节点"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": 18.43,
+    "verdict": "unit_mismatch",
+    "query": "\"茂业天地\" 重庆 项目 建筑面积 总投资",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "茂业商业公告：茂业天地(北区)规划总建面约18.43万㎡",
+    "note": "外部为商业+办公+酒店公寓综合体总建面，与购物中心口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 720,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆茂业天地 观音桥 停车场 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅周边酒店停车场信息，无项目车位数",
+    "note": "internal为推断值(benchmark)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆茂业天地 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅商圈级数据（观音桥五一5天297万人次），非项目口径",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0872",
+  "name": "上海富绅时代广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2005,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "百联悠迈生活广场 青浦 开业时间 富绅",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅知现名百联悠迈生活广场（百联收购更名），原始开业年份无外部记载",
+    "note": "源报告亦标注开业时间为数据缺口"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 6,
+    "verdict": "match",
+    "query": "青浦 富绅时代广场 盈港路1560号",
+    "source_url": "https://m.001zf.com/show.php?itemid=2971",
+    "source_level": "self-media",
+    "evidence": "租赁平台项目概况：体量近6万㎡（一说5.6万㎡）",
+    "note": "7与6差约14%"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青浦 富绅时代广场 盈港路1560号",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅称配套与地铁站相连地下车库，无车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "百联悠迈生活广场 青浦 开业时间 富绅",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0880",
+  "name": "南京瞻园奥特莱斯",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "瞻园奥特莱斯 南京 开业",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "2025年1月商场举办14周年庆活动，推算约2011年开业",
+    "note": "周年庆报道未留存直链；推算口径与内部一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京瞻园奥特莱斯 商业面积 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅点评/地图商户页，无面积数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京瞻园奥特莱斯 商业面积 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见车位数",
+    "note": "auditFlag标记项；internal为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京瞻园奥特莱斯 商业面积 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0886",
+  "name": "衢州柯城万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "\"衢州柯城万达广场\" 2017年12月 建筑面积",
+    "source_url": "https://www.wanda.cn/2017/2017latest_1218/37511.html",
+    "source_level": "official",
+    "evidence": "万达官网：12月15日第233座万达广场衢州万达广场开业",
+    "note": "赢商网同标2017-12-15；auditFlag所引2016-07为开工时间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.45,
+    "external": 12.4,
+    "verdict": "match",
+    "query": "\"衢州柯城万达广场\" 2017年12月 建筑面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网：建面12.4万㎡；万达债券文件：12.50万㎡",
+    "note": "内部12.45介于两官方/行业口径之间"
+   },
+   {
+    "metric": "parking",
+    "internal": 932,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "衢州万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "开业期交警仅提示停车位不足，无总数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": 19.3,
+    "verdict": "unit_mismatch",
+    "query": "衢州万达广场 停车位 客流 万人次",
+    "source_url": "https://www.wanda.cn/2017/2017latest_1218/37511.html",
+    "source_level": "official",
+    "evidence": "万达官网：开业首日客流19.3万人次，销售额1250万元",
+    "note": "开业首日口径，非节假日稳态峰值"
+   }
+  ]
+ }
+]

@@ -1,0 +1,745 @@
+[
+ {
+  "id": "0024",
+  "name": "中山天奕星河COCO City",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "中山 天奕星河COCO City 开业时间",
+    "source_url": "http://zs.xhcococity.com",
+    "source_level": "official",
+    "evidence": "官网及开业报道：2020-11-28「奕彩开业」，星河商置首进中山项目",
+    "note": "auditFlag「无邻近开业动词」可排除：外部明确开业动词与日期（2020-11-28）；2026-06 更名天奕荟属焕新，不影响原始开业年份"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.95,
+    "external": 14.69,
+    "verdict": "match",
+    "query": "中山 天奕星河COCO City 建筑面积 停车位",
+    "source_url": "http://zs.xhcococity.com",
+    "source_level": "official",
+    "evidence": "官网：项目管理面积14.69万㎡，地下两层（另有总建面约15万㎡口径）",
+    "note": "差约1.8%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1216,
+    "external": 2000,
+    "verdict": "minor_diff",
+    "query": "中山 天奕星河COCO City 停车位 车位",
+    "source_url": "http://zs.xhcococity.com",
+    "source_level": "official",
+    "evidence": "官网/赢商网开业报道：地下车库配套车位数超2000个",
+    "note": "内部1216为基准推断值（basis=benchmark）；外部口径「超2000个」为下限，最小差约39%，落入20-50%档"
+   }
+  ]
+ },
+ {
+  "id": "0094",
+  "name": "武汉百联奥特莱斯二期缤购天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2011,
+    "verdict": "minor_diff",
+    "query": "武汉百联奥特莱斯 缤购天地 开业",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "抖音百科：2011-12-24 试营业（仅用8个月建成）",
+    "note": "差1年且涉试营业/正式开业（2011-12-24试营业）；「二期缤购天地」本身无独立开业披露（2013年启动招商、2019年并入百联奥莱主题街区一体化运营），内部2012实为整体/一期开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 5.2,
+    "verdict": "unit_mismatch",
+    "query": "百联奥特莱斯 武汉盘龙 二期开业 扩建 面积 停车",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：项目总占地17万㎡、建面14万㎡，通过二期新增5.2万㎡经营面积",
+    "note": "内部11万为二期规划建面口径（md自述），外部仅见一期建面14万/营业面积9万余与二期新增经营面积5.2万，口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2600,
+    "external": 2600,
+    "verdict": "match",
+    "query": "武汉百联奥特莱斯广场 二期 商业面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：广场…拥有停车位2600个；另见「年客流超670万人次，配套2600个车位」",
+    "note": "auditFlag「邻接品牌词」可排除：2600为奥莱一期+二期整体车位数，多源一致；二期独立车位未单独披露"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": 670,
+    "verdict": "unit_mismatch",
+    "query": "武汉百联奥特莱斯广场 国庆假期 客流量 销售额",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "检索仅见年客流量超670万人次（≈日均1.8万），无节假日单日峰值数据",
+    "note": "外部670为万人次/年口径，与节假日峰值（万人次/日）不可比"
+   }
+  ]
+ },
+ {
+  "id": "0096",
+  "name": "拉萨王府井购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "拉萨王府井购物中心 开业时间 建筑面积",
+    "source_url": "https://www.lasa.gov.cn",
+    "source_level": "official",
+    "evidence": "拉萨市政府：2024-12-28试营业；王府井集团2025可持续报告：2025-05-01正式开业",
+    "note": "内部2025对应正式开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30.2,
+    "external": 30.2,
+    "verdict": "match",
+    "query": "拉萨王府井购物中心 开业时间 建筑面积",
+    "source_url": "https://www.xizang.gov.cn",
+    "source_level": "official",
+    "evidence": "开业报道：总建面约30.2万㎡、商业约18.2-22万㎡（2022年政府门户早期口径为约34万㎡）",
+    "note": "30.2万㎡为开业前后通行口径；早期34万为规划口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2300,
+    "external": 1300,
+    "verdict": "conflict",
+    "query": "拉萨王府井购物中心 停车位 客流",
+    "source_url": "https://www.xizang.gov.cn",
+    "source_level": "official",
+    "evidence": "西藏自治区政府门户（2022-04）：项目…可提供1300余个停车位",
+    "note": "内部2300+标注为王府井集团官网口径（md），本轮外部检索仅见政府门户1300余个，差约77%>50%；两组官方口径本身不一致，建议以集团最新披露复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "拉萨王府井购物中心 开业 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见官方预期年客流破1000万人次（≈日均2.74万），无节假日单日峰值披露",
+    "note": "内部9为推断中值（8-10万）"
+   }
+  ]
+ },
+ {
+  "id": "0539",
+  "name": "吉林欧亚城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "吉林欧亚城 开业时间 商业面积",
+    "source_url": "https://news.sina.cn/gn/2014-12-29/detail-iawzunex8502449.d.html",
+    "source_level": "media",
+    "evidence": "新浪新闻/香港商报：2014-12-28 吉林欧亚商都综合体一期盛大启幕",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30,
+    "verdict": "match",
+    "query": "吉林欧亚城市综合体 开业时间 商业面积",
+    "source_url": "https://news.sina.cn/gn/2014-12-29/detail-iawzunex8502449.d.html",
+    "source_level": "media",
+    "evidence": "开业报道：一期一次性开业面积达30万平方米（「五个一次性」）",
+    "note": "为购物中心口径；综合体总建面另有118万㎡（含住宅，抖音百科），非同一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 108,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "吉林 欧亚城市综合体 停车位 5000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部检索未见该项目车位数",
+    "note": "auditFlag提示108疑为邻接「电梯」词误提取（108部电梯）；md载5000停车位[中国证券报/欧亚集团官网A级]未能独立复现；30万㎡购物中心配108车位明显不合理，建议修数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "吉林欧亚城 开业 首日客流 20万",
+    "source_url": "https://news.sina.cn/gn/2014-12-29/detail-iawzunex8502449.d.html",
+    "source_level": "media",
+    "evidence": "新浪：开业首日客流量达20万人次、销售4000万元",
+    "note": "开业首日口径不可比节假日峰值；内部11.5为推断中值（8-15万）；另2019年活动当日客流15万+"
+   }
+  ]
+ },
+ {
+  "id": "0543",
+  "name": "绵阳新世界百货",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2011,
+    "verdict": "minor_diff",
+    "query": "绵阳新世界百货 开业时间 建筑面积",
+    "source_url": "https://www.nwds.com.hk",
+    "source_level": "official",
+    "evidence": "新世界百货官网：绵阳店2011-12-22开业，为当地首家「生活馆」业态门店",
+    "note": "差1年且涉正式开业；新世界2011年公告曾预计2012年营业，实际2011-12-22开业，内部2010无外部依据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.5,
+    "external": 3.5,
+    "verdict": "minor_diff",
+    "query": "绵阳新世界百货 开业时间 建筑面积",
+    "source_url": "https://www.nwd.com.hk",
+    "source_level": "official",
+    "evidence": "新世界发展公告：绵阳新自有店概约楼面面积为35,000平方米、楼高五层",
+    "note": "差约28.6%，落入20-50%档"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "绵阳新世界百货 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索被限流且无有效命中，未见车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "绵阳新世界百货 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": "传统百货，外部报道极少"
+   }
+  ]
+ },
+ {
+  "id": "0544",
+  "name": "岳阳百盛购物广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2004,
+    "verdict": "minor_diff",
+    "query": "岳阳百盛购物广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科「百盛」词条：岳阳百盛2004年开业，湖南首家百盛",
+    "note": "差1年且涉正式开业；auditFlag「2003无邻近开业动词」与外部2004口径并存，建议按2004修"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.55,
+    "external": 3.1,
+    "verdict": "match",
+    "query": "\"岳阳百盛\" 开业 营业面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "第三方招商信息（搜狐2019）：岳阳百盛购物中心总体量约31,000平方米",
+    "note": "差约17.7%≤20%；第三方口径非官方披露"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "岳阳百盛 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见百盛地下停车场存在及收费投诉（岳阳市发改委信箱），无车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "岳阳百盛 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0546",
+  "name": "桂林微笑堂商厦",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1995,
+    "external": 1997,
+    "verdict": "conflict",
+    "query": "桂林微笑堂商厦 开业时间 1995 停车位",
+    "source_url": "https://epaper.guilinlife.com",
+    "source_level": "media",
+    "evidence": "桂林日报（2025-08）：1997年6月15日桂林微笑堂商厦正式开业；维基/百度百科一致",
+    "note": "差2年≥2年=conflict；auditFlag「1995无邻近开业动词」成立，应为1997（1995/1996或为筹建期）"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "桂林微笑堂商厦 客流 万人次 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "桂林人论坛称「没有停车位就是硬伤」、车位紧张，无车位数披露",
+    "note": "市中心十字街地段，外部口径与500车位相悖（偏紧），无法证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "桂林微笑堂商厦 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日客流；开业日「销售人次达150万」为销售人次/累计口径",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0558",
+  "name": "淮安吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "淮安吾悦广场 2019年7月19日 开业 万平方米",
+    "source_url": "https://mtz.china.com",
+    "source_level": "media",
+    "evidence": "中国网/赢商网：淮安首座吾悦广场2019-07-19开业（生态文旅区承恩大道与枚皋路交汇处）",
+    "note": "差2年=conflict；auditFlag「2021无邻近开业动词」成立；2021-07「滨河新城吾悦签约落户」为淮安第4座吾悦签约事件，疑为错配来源"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 14,
+    "verdict": "conflict",
+    "query": "淮安吾悦广场 开业 2021年 购物中心 面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网：项目总体量61万㎡，其中购物中心约14万平方米",
+    "note": "差约53.6%>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "淮安吾悦广场 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见该车位数；注意港交所文件中「淮安涟水吾悦广场（在建，约61.4万㎡）」为另一项目，勿混",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "淮安吾悦广场 开业 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见单店节假日客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0560",
+  "name": "阜阳颍州吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2020,
+    "verdict": "minor_diff",
+    "query": "阜阳颍州吾悦广场 开业",
+    "source_url": "https://baike.baidu.com/item/%E5%90%BE%E6%82%A6%E5%B9%BF%E5%9C%BA/49863843",
+    "source_level": "self-media",
+    "evidence": "百度百科/雪球：2020-09-19 阜阳颍州吾悦广场正式开业（新城第66座、安徽第7座）",
+    "note": "差1年且涉正式开业；另见阜阳新城吾悦商管词条载2020-07-18开业，两口径均指向2020"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9,
+    "verdict": "match",
+    "query": "阜阳颍州吾悦广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%90%BE%E6%82%A6%E5%B9%BF%E5%9C%BA/49863843",
+    "source_level": "self-media",
+    "evidence": "购物中心体量约9万㎡（B1+6F，200余品牌），整体约60万㎡文商旅复合体",
+    "note": "差约11%≤20%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "阜阳颍州吾悦广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数披露",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": 5.6,
+    "verdict": "minor_diff",
+    "query": "阜阳颍州吾悦广场 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "凤凰网：颍州吾悦广场国庆假期总客流50.67万人、日均约5.6万人",
+    "note": "节假日日均口径可比；差约30%，落入20-50%档；报道年份未注明"
+   }
+  ]
+ },
+ {
+  "id": "0567",
+  "name": "郑州丹尼斯新天地",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2012,
+    "verdict": "conflict",
+    "query": "郑州丹尼斯新天地 开业时间",
+    "source_url": "http://m.winshang.com/xm69562.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：郑州丹尼斯新天地，已开业，开业时间2012-06",
+    "note": "差6年=conflict；内部2018为md低置信推断（2015-2022区间中值），md本身自述开业日期数据缺口"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 1.25,
+    "external": 8,
+    "verdict": "conflict",
+    "query": "郑州丹尼斯新天地 开业时间",
+    "source_url": "http://m.winshang.com/xm69562.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：建筑面积8万㎡，项目类型为地上停车楼",
+    "note": "差约84%>50%；内部1.25万为md推断值（数千至一两万㎡）"
+   },
+   {
+    "metric": "parking",
+    "internal": 100,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州丹尼斯新天地 停车楼 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "项目类型为地上停车楼，但车位数未见披露",
+    "note": "内部100为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州丹尼斯新天地 停车楼 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": "内部10为推断值（md自述节假日峰值8-12万推断·低置信）"
+   }
+  ]
+ },
+ {
+  "id": "0587",
+  "name": "包头包百大楼(钢铁大街店)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1988,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "包头百货大楼 包百 历史 建成 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部仅见「具有悠久历史的包头百货大楼」（人民日报1998年报道转述）及包百集团1997-11注册，未见1988年开业记载",
+    "note": "auditFlag「1988无邻近开业动词」成立；包百历史更早（一说50年代昆区开发初期），1988无法证实，属md低置信推断区间(1985-1990)中值"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "包头包百大楼 钢铁大街 开业时间 1988",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见面积披露",
+    "note": "内部4为推断值（营业面积3-5万中值）"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "包头包百大楼 钢铁大街 开业时间 1988",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数",
+    "note": "内部200为推断值（车位≤200）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "包头包百大楼 钢铁大街 开业时间 1988",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": "内部1.15为推断值"
+   }
+  ]
+ },
+ {
+  "id": "0598",
+  "name": "呼和浩特维多利商厦",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1997,
+    "external": 2003,
+    "verdict": "conflict",
+    "query": "呼和浩特维多利商厦 开业时间 中山路",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网：维多利商厦2003-05-28对外营业；中山路商圈沿革（1991满达、1994天元、2003维多利）一致",
+    "note": "差6年=conflict；内部1997为md推断区间(1996-1999)取值，无外部依据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 6.3,
+    "verdict": "minor_diff",
+    "query": "呼和浩特维多利商厦 开业时间 中山路",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网：建筑面积63000平方米，时为内蒙古最大百货商场（另有约7万㎡说法）",
+    "note": "差约28.6%，落入20-50%档；内部4.5为md推断区间(3-6万)中值"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特维多利商厦 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索被限流且无有效命中，未见车位数",
+    "note": "内部350为推断值（200-500中值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特维多利商厦 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": "内部8为推断值（6-10万中值）"
+   }
+  ]
+ },
+ {
+  "id": "0604",
+  "name": "濮阳龙之光万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "濮阳万达广场 开业时间 龙之光",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "赢商网（2018-07/2019-05）：龙之光万达广场2018-03-08开工，拟2019-12-20开业；项目现正常运营",
+    "note": "auditFlag「2019无邻近开业动词」可缓解：外部开业时间为2019-12-20；md载「2019-12-20盛大开业（河南第14座万达广场）[濮阳市政府A级]」与本轮检索的拟开业日期一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.2,
+    "external": 15,
+    "verdict": "match",
+    "query": "濮阳万达广场 开业时间 龙之光",
+    "source_url": "https://m.winshang.com",
+    "source_level": "media",
+    "evidence": "赢商网：总建筑面积约15万平方米（总投资约35亿元）",
+    "note": "差约5.3%≤20%；外部为总建面、内部14.2为商业面积（万达商管口径），口径接近"
+   },
+   {
+    "metric": "parking",
+    "internal": 808,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "濮阳万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数披露",
+    "note": "内部808为md载「B1+B2共808个机动车位」[濮阳日报A级]，本轮检索未能独立复现"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "濮阳万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见单店节假日单日客流报道",
+    "note": "内部9.75为推断中值（md载节假日峰值4.5-15万：2024五一日均4.5万、2026春节日均15.3万[濮阳市政府/濮阳日报A级]）"
+   }
+  ]
+ },
+ {
+  "id": "0611",
+  "name": "北京贵友百货（通州店）",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "北京贵友大厦 通州店 开业时间",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "王府井集团2025年年度报告：贵友大厦通州店（云景东路1号）2008年7月开业",
+    "note": "auditFlag「2008无邻近开业动词」可排除"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 1.5,
+    "external": 3.5,
+    "verdict": "conflict",
+    "query": "贵友大厦通州店 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "王府井集团2025年年度报告门店表：通州店建筑面积3.5万平方米",
+    "note": "差约57%>50%；内部1.5万为md推断区间(0.8-1.5万)上沿，显著低于年报口径，建议修数"
+   },
+   {
+    "metric": "parking",
+    "internal": 90,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京贵友大厦 通州店 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数披露",
+    "note": "内部90为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京贵友大厦 通州店 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流数据",
+    "note": "内部3.25为推断值（2.5-4万中值）"
+   }
+  ]
+ },
+ {
+  "id": "0615",
+  "name": "泰安爱琴海购物中心",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "泰安爱琴海购物中心 开业时间",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：2020-10-30 泰安爱琴海购物公园在试营业后正式开业（泰安西部）",
+    "note": "auditFlag「2020无邻近开业动词」可排除：外部为2020-10-30正式开业；2020-06-23永辉先期开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰安爱琴海购物公园 建筑面积 商业面积 开业客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组检索未见泰安项目面积数据（命中的55万㎡为上海爱琴海，非本项目）",
+    "note": "内部10为商业面积口径（md载总建面15万㎡[澎湃/联商/齐鲁晚报A级]），未能独立复现"
+   },
+   {
+    "metric": "parking",
+    "internal": 8200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰安爱琴海购物公园 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数披露",
+    "note": "内部8200为md载「本地商业体最大」口径[澎湃/买购网A级]，数值偏大但未能独立证实或证伪"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰安爱琴海购物公园 开业首日 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日客流；新华社2025-02报道仅描述商场人气火爆无数字",
+    "note": "内部15为推断值；md载开业首日16万人次[联商A级]——即使证实亦属开业首日口径不可比"
+   }
+  ]
+ }
+]

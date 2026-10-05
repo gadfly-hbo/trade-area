@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0619",
+  "name": "北京昌发展万科广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "北京昌发展万科广场 开业 2020 回龙观",
+    "source_url": "https://baike.baidu.com/item/%E6%98%8C%E5%8F%91%E5%B1%95%E4%B8%87%E7%A7%91%E5%B9%BF%E5%9C%BA/67267839",
+    "source_level": "self-media",
+    "evidence": "昌发展万科广场于2018年10月1日开业，开业首日客流突破14万人次",
+    "note": "2020为推断值；实际2018-10-01开业，差2年判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 5.5,
+    "verdict": "match",
+    "query": "北京昌发展万科广场 开业 2020 回龙观",
+    "source_url": "https://baike.baidu.com/item/%E6%98%8C%E5%8F%91%E5%B1%95%E4%B8%87%E7%A7%91%E5%B9%BF%E5%9C%BA/67267839",
+    "source_level": "self-media",
+    "evidence": "商业体量约5-6万平方米（回龙观职住融合综合体）",
+    "note": "外部为5-6万区间口径，取中值5.5；6.5在±20%内"
+   },
+   {
+    "metric": "parking",
+    "internal": 550,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昌发展万科广场 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索遇429限流未获数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": 14,
+    "verdict": "unit_mismatch",
+    "query": "北京昌发展万科广场 开业 2020 回龙观",
+    "source_url": "https://baike.baidu.com/item/%E6%98%8C%E5%8F%91%E5%B1%95%E4%B8%87%E7%A7%91%E5%B9%BF%E5%9C%BA/67267839",
+    "source_level": "self-media",
+    "evidence": "开业首日客流突破14万人次",
+    "note": "外部仅开业首日口径，与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "0620",
+  "name": "广州保利时光里",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2011,
+    "verdict": "conflict",
+    "query": "保利中环广场 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E4%BF%9D%E5%88%A9%E4%B8%AD%E7%8E%AF%E5%B9%BF%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "2011年6月保利中环广场开业；2018年启动全面升级改造，推出保利时光里品牌",
+    "note": "2018为更名焕新年，按规则以原始开业2011为准，判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 6,
+    "verdict": "match",
+    "query": "保利中环广场 广州 购物中心 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E4%BF%9D%E5%88%A9%E4%B8%AD%E7%8E%AF%E5%9B%BD%E9%99%85%E5%95%86%E4%B8%9A",
+    "source_level": "self-media",
+    "evidence": "核心商业部分为保利中环广场购物中心，总建筑面积超过6万平方米",
+    "note": "项目总建面29万㎡含住宅公寓写字楼，购物中心部分超6万㎡与内值一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保利时光里 广州 商业面积 万平方米 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保利时光里 广州 商业面积 万平方米 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0621",
+  "name": "北京凯德MALL·大兴",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "凯德MALL·大兴 开业 2018 商业面积",
+    "source_url": "https://baike.baidu.com/item/%E5%87%AF%E5%BE%B7MALL%C2%B7%E5%A4%A7%E5%85%B4",
+    "source_level": "self-media",
+    "evidence": "2018年12月30日开业（时名凯德MALL·天宫院），开业率超97%；2021年更名凯德MALL·大兴",
+    "note": "2018开业一致；更名不影响开业年份"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "凯德MALL天宫院 面积 车位",
+    "source_url": "https://baike.baidu.com/item/%E5%87%AF%E5%BE%B7MALL%C2%B7%E5%A4%A7%E5%85%B4",
+    "source_level": "self-media",
+    "evidence": "总体量约20万平方米，凯德集团在北京投资最大的购物中心",
+    "note": "外部20万为总体量（含办公等），未见购物中心单独商业面积，与内值8万口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "凯德MALL天宫院 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": 16,
+    "verdict": "unit_mismatch",
+    "query": "凯德MALL·大兴 开业 2018 商业面积",
+    "source_url": "https://baike.baidu.com/item/%E5%87%AF%E5%BE%B7MALL%C2%B7%E5%A4%A7%E5%85%B4",
+    "source_level": "self-media",
+    "evidence": "开业当天客流达16万人",
+    "note": "开业首日口径，与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "0631",
+  "name": "仁怀酒都·方圆荟",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "仁怀 酒都方圆荟",
+    "source_url": "https://m.winshang.com/news651280.html",
+    "source_level": "trade",
+    "evidence": "酒都·方圆荟购物广场2018年12月22日开业，系方圆荟贵州第3个开业项目",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.8,
+    "external": 10,
+    "verdict": "match",
+    "query": "仁怀 方圆荟 购物广场 停车位",
+    "source_url": "https://m.winshang.com/news651280.html",
+    "source_level": "trade",
+    "evidence": "总面积达23万平方米，其中商业面积约10万平方米",
+    "note": "内值9.8为商业面积口径，与外部10万差2%"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "仁怀 方圆荟 购物广场 停车位",
+    "source_url": "https://m.winshang.com/news651280.html",
+    "source_level": "trade",
+    "evidence": "配套近3千个停车位",
+    "note": "auditFlag疑邻接词污染，经核与外部一致，flag可解除"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "仁怀 方圆荟 购物广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0642",
+  "name": "兰州新区瑞岭国际商业广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "瑞岭国际商业广场 兰州新区 开业",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2018年11月25日瑞岭国际商业广场正式开业，为当时新区核心区规模最大商业综合体（甘肃新闻网2018-11-26）",
+    "note": "搜索摘要引甘肃新闻网，未返回直链"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24,
+    "external": 22.3,
+    "verdict": "match",
+    "query": "瑞岭国际商业广场 建筑面积",
+    "source_url": "http://www.lzxq.gov.cn/system/2017/08/01/000074982.shtml",
+    "source_level": "official",
+    "evidence": "总占地面积234.4亩，总建筑面积约22.3万平方米（另有来源作24.3万）",
+    "note": "内值24落在两个外部口径之间，差7.6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1305,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "瑞岭国际商业广场 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见附近会展中心1000车位，非本项目；auditFlag疑邻接词污染无法外部证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "瑞岭国际商业广场 兰州新区 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0645",
+  "name": "上海永安百货",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1999,
+    "external": 1918,
+    "verdict": "conflict",
+    "query": "上海永安百货 南京东路 开业 1918年",
+    "source_url": "https://news.qq.com",
+    "source_level": "media",
+    "evidence": "永安百货1918年9月南京东路开张，上海四大百货公司之一",
+    "note": "1991重开、2005恢复永安百货招牌均非1999；内值1999疑为文本误读，建议人工复核"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.25,
+    "external": 3.2,
+    "verdict": "match",
+    "query": "上海永安百货 建筑面积 营业面积",
+    "source_url": "https://m.online.sh.cn",
+    "source_level": "media",
+    "evidence": "总面积约三万余平方米（一说32000平方米），分五个营业楼面",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 50,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海永安百货 建筑面积 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "南京路步行街历史建筑，外部无车位数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海永安百货 建筑面积 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0649",
+  "name": "深圳前海欢乐港湾",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "深圳 欢乐港湾 开业时间 商业",
+    "source_url": "https://www.laguardalow.com",
+    "source_level": "media",
+    "evidence": "东岸商业街区2021年初开业，西岸2021年中开放；滨海文化公园2020年8月开园",
+    "note": "商业部分2021年开业与内值一致；2020为公园开园不计"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 12,
+    "verdict": "match",
+    "query": "深圳欢乐港湾 商业街区 总商业面积 万平方米 东岸 西岸",
+    "source_url": "https://www.archiposition.com",
+    "source_level": "media",
+    "evidence": "东西岸总商业面积约12万平方米，分两期开业；东岸计容建面3.5万平方米",
+    "note": "10 vs 12 差16.7%，在±20%内"
+   },
+   {
+    "metric": "parking",
+    "internal": 2250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳 欢乐港湾 开业时间 商业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": 60,
+    "verdict": "unit_mismatch",
+    "query": "欢乐港湾 国庆 单日 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2023年国庆中秋假期欢乐港湾累计接待超60万人次（东方财富报道）",
+    "note": "外部仅假期累计口径，无单日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0678",
+  "name": "重庆新世纪百货(兴华中路)",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "涪陵商都 新世纪百货 高笋塘 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次查询无直接开业报道；仅爱迪尔招股书显示2009-11起涪陵商都（兴华中路34号）已设专柜在营"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新世纪百货 涪陵商都 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "涪陵商都 新世纪百货 高笋塘 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "涪陵商都 新世纪百货 高笋塘 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0682",
+  "name": "苏州高铁吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州高铁吾悦广场 开业时间 相城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "多轮查询遇429限流，百度百科403；仅确认项目在营（新城控股2025年报已开业名单），未获可引用开业日期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州高铁吾悦广场 商业体量 万方 相城大道",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流未获体量数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 1400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州高铁吾悦广场 开业时间 相城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州高铁吾悦广场 开业时间 相城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0684",
+  "name": "枣庄滕州保利万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "滕州 保利万达广场 开业 2023",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "滕州保利万达广场2018-11封顶，2019年12月21日正式满铺开业，引进200余个品牌（赢商网）",
+    "note": "内值2023与外部2019差4年，判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 14,
+    "verdict": "match",
+    "query": "滕州 保利万达广场 开业 2023",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积约14万平方米，万达与保利建设联合开发，总投资约12亿元",
+    "note": "11.5 vs 14 差17.9%，边界内判match"
+   },
+   {
+    "metric": "parking",
+    "internal": 1050,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "滕州 保利万达广场 开业 2023",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "滕州 保利万达广场 开业 2023",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0723",
+  "name": "延安宝塔万达广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2018,
+    "verdict": "minor_diff",
+    "query": "延安万达广场 2019年 开业",
+    "source_url": "http://www.wandaplazas.com/2018/company_0211/1661.html",
+    "source_level": "official",
+    "evidence": "万达商管官网：2月9日延安万达广场开业，当天客流11.7万人次、营业额1058万元（2018年）",
+    "note": "2018-02-09开业，与内值2019差1年，按规则判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "延安万达广场 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "外部仅见延安万达城住宅18.1万㎡，非本广场商业面积"
+   },
+   {
+    "metric": "parking",
+    "internal": 720,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "延安 万达广场 宝塔区 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": 11.7,
+    "verdict": "unit_mismatch",
+    "query": "延安万达广场 2019年 开业",
+    "source_url": "http://www.wandaplazas.com/2018/company_0211/1661.html",
+    "source_level": "official",
+    "evidence": "开业当天客流量11.7万人次",
+    "note": "开业首日口径，与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "0729",
+  "name": "沈阳百盛商城",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳百盛 太原街 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "多轮查询限流/无果；仅自媒体提及中街百盛沿革，无可信开业年份来源"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.66,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳 百盛百货 商场 开业 2003年",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 115,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳百盛 太原街 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳 百盛百货 商场 开业 2003年",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0742",
+  "name": "宝鸡吾悦广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "宝鸡吾悦广场 开业时间",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "宝鸡吾悦广场2019年10月25日开业，约12万㎡、200余家品牌；2025年10月办6周年店庆",
+    "note": "差2年判conflict；6周年店庆佐证2019；搜索摘要未返回直链"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 12,
+    "verdict": "match",
+    "query": "宝鸡吾悦广场 开业时间",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业体量约12万平方米，地上地下共7层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宝鸡吾悦广场 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宝鸡吾悦广场 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0749",
+  "name": "佛山大信新都汇顺德店",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "顺德 大信新都汇 2018年9月 开业 大良",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "羊城晚报2019-09报道：大信新都汇2018年年底正式开业，填补大良新城区大型商业综合体空白",
+    "note": "同年底开业与内值2018一致；报道经搜索摘要引羊城晚报，无直链"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.73,
+    "external": 15,
+    "verdict": "match",
+    "query": "顺德 大信新都汇 2018年9月 开业 大良",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业体量约15万平方米，共4层（大良彩虹路1号）",
+    "note": "17.73 vs 15 差18.2%，边界内判match"
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大信新都汇 顺德店 永旺 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "顺德 大信新都汇 2018年9月 开业 大良",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0750",
+  "name": "泉州石狮德辉广场",
+  "layer": "r4",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2005,
+    "external": 2005,
+    "verdict": "match",
+    "query": "石狮 德辉广场 开业 服装城 商业",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "石狮德辉广场2005年开业，大泉州首个购物中心（赢商网泉州商业脉络文）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.9,
+    "external": 13.9,
+    "verdict": "match",
+    "query": "石狮 德辉广场 开业 服装城 商业",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "石狮德辉广场2005年开业，建筑面积约13.9万平方米",
+    "note": "与内值完全一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": 203,
+    "verdict": "conflict",
+    "query": "石狮 德辉广场 停车场 车位数量",
+    "source_url": "https://m.icauto.com.cn",
+    "source_level": "self-media",
+    "evidence": "石狮停车场查询平台：德辉广场停车场203个",
+    "note": "第三方平台口径或非商场官方车位数，低置信；与auditFlag（1100疑邻接词污染）同向，建议人工复核内部值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石狮 德辉广场 开业 服装城 商业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ }
+]
