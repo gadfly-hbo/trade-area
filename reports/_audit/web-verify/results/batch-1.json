@@ -1,0 +1,746 @@
+[
+ {
+  "id": "1489",
+  "name": "上海国金中心IFC",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "上海市/上海市 上海市浦东新区世纪大道8号",
+    "external": "上海市浦东新区世纪大道8号",
+    "verdict": "match",
+    "query": "上海国金中心商场 建筑面积 停车位 数量",
+    "source_url": "https://www.shkp.com",
+    "source_level": "official",
+    "evidence": "新鸿基地产官网：上海国金中心项目位于浦东陆家嘴世纪大道8号",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "上海国金中心IFC商场 开业时间",
+    "source_url": "https://www.guandian.cn",
+    "source_level": "trade",
+    "evidence": "观点网：新鸿基上海国际金融中心（IFC商场）世博前开业（2010年）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 40,
+    "external": 11,
+    "verdict": "match",
+    "query": "上海国金中心商场 建筑面积 停车位 数量",
+    "source_url": "https://www.shkp.com",
+    "source_level": "official",
+    "evidence": "官网：商场总面积约11万平方米（约120万平方呎），超260家品牌",
+    "note": "口径：官网为商场单体约11万㎡；检索另见项目整体总建面约37-40万㎡（含写字楼/酒店），内部40应取项目总体量口径，与项目口径差≤20%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": 1900,
+    "verdict": "match",
+    "query": "上海国金中心商场 建筑面积 停车位 数量",
+    "source_url": "https://www.shkp.com",
+    "source_level": "official",
+    "evidence": "官网：与地铁陆家嘴站零换乘，提供约1900个车位",
+    "note": "差约5%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海国金中心商场 客流量 万人次 日均",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组词检索仅见销售额超百亿、商圈级客流及年客流转述，无单店节假日单日峰值数据",
+    "note": "外部仅见『年均约3000万人次』自媒体转述且未锚定来源，无节假日单日峰值可核"
+   }
+  ]
+ },
+ {
+  "id": "1024",
+  "name": "郑州丹尼斯大卫城",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "河南省/郑州市 河南省郑州市金水区西太康路与二七路交汇处西北角",
+    "external": "郑州市二七区二七路与西太康路交叉口（二七广场旁）",
+    "verdict": "match",
+    "query": "丹尼斯大卫城 地址 西太康路 二七路 交汇",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "位于郑州市二七区二七路与太康路（西太康路）交叉口，紧邻二七广场",
+    "note": "城市核验通过；注意外部区划为二七区，内部写『金水区』疑有误（不影响城市级判定）"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "郑州丹尼斯大卫城 开业时间 建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2015年5月8日丹尼斯大卫城开业（搜狐当年报道）",
+    "note": "另有口径称5月8日试营业，年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 40,
+    "external": 40,
+    "verdict": "match",
+    "query": "郑州丹尼斯大卫城 开业时间 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：总建筑面积近40万平方米，商业体量约26万平方米",
+    "note": "口径为项目总建面；另有『总体规模约70万㎡』说法（含未建部分）"
+   },
+   {
+    "metric": "parking",
+    "internal": 108,
+    "external": 2000,
+    "verdict": "conflict",
+    "query": "郑州丹尼斯大卫城 开业时间 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：地下共4层，设有约2000个停车位",
+    "note": "内部108与外部约2000差异>90%，内部值疑为解析异常"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 10,
+    "verdict": "match",
+    "query": "郑州丹尼斯大卫城 开业时间 建筑面积 停车位",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "日均客流量达数万人次，节假日更达到10万+（户外广告价值分析）",
+    "note": "节假日单日口径与内部9万同量级，差约10%"
+   }
+  ]
+ },
+ {
+  "id": "0726",
+  "name": "北京市百货大楼",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "北京市/北京市 北京市东城区王府井大街255号",
+    "external": "北京市东城区王府井大街255号",
+    "verdict": "match",
+    "query": "北京市百货大楼 王府井大街255号 1955年开业 建筑面积",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "王府井集团（600859）注册地址：北京市东城区王府井大街255号",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 1955,
+    "external": 1955,
+    "verdict": "match",
+    "query": "王府井百货大楼 建筑面积 万平方米 改造 扩建",
+    "source_url": "https://baike.baidu.com/item/%E7%8E%8B%E5%BA%9C%E4%BA%95%E7%99%BE%E8%B4%A7%E5%A4%A7%E6%A5%BC/4241445",
+    "source_level": "self-media",
+    "evidence": "1955年9月开业，原名北京市百货公司王府井百货商店，誉为新中国第一店",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 3.9,
+    "verdict": "match",
+    "query": "王府井百货大楼 建筑面积 万平方米 改造 扩建",
+    "source_url": "https://baike.baidu.com/item/%E7%8E%8B%E5%BA%9C%E4%BA%95%E7%99%BE%E8%B4%A7%E5%A4%A7%E6%A5%BC/4241445",
+    "source_level": "self-media",
+    "evidence": "建筑面积3.9万平方米，营业面积1.8万平方米",
+    "note": "差约2.5%；口径为大楼建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "王府井百货大楼 停车场 车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索仅见王府井街区周边18个公共停车场共约3676车位（2010年），无单店配建车位数据",
+    "note": "大楼位于步行街内，无自建停车场公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 65,
+    "external": 30,
+    "verdict": "unit_mismatch",
+    "query": "王府井 步行街 节假日 客流 万人次 百货大楼",
+    "source_url": "https://www.bjdch.gov.cn",
+    "source_level": "official",
+    "evidence": "东城区政府：国庆期间王府井大街以296万人次居北京景区接待量第一",
+    "note": "口径：外部为王府井街区全域（平日日均约30万、假日单日超120万、国庆8天296万），非百货大楼单店日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "2778",
+  "name": "沈阳万象城",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "辽宁省/沈阳市 辽宁省沈阳市和平区青年大街288号",
+    "external": "沈阳市和平区青年大街288号",
+    "verdict": "match",
+    "query": "沈阳万象城 开业时间 建筑面积 青年大街288号 停车位",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "美克家居年报门店地址：沈阳市和平区青年大街288号沈阳华润中心万象城",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "沈阳万象城 2011年开业 华润",
+    "source_url": "https://news.ifeng.com",
+    "source_level": "media",
+    "evidence": "华润万象城先后在杭州、沈阳等地开业；2010年9月沈阳万象城招商成果发布会",
+    "note": "多条来源与2010年9月招商时序交叉印证2011年正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 36.6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳万象城 总建筑面积 万平方米 华润中心 简介",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索仅见华润中心综合体规划总建面约84.98万㎡（未锚定直链），无万象城单体权威建面",
+    "note": "综合体系口径含写字楼，与单体口径不可比，故不计为可比外部值"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": 2000,
+    "verdict": "minor_diff",
+    "query": "沈阳万象城 商业面积 万平方米 二期扩建 车位",
+    "source_url": "https://dcbbs.com",
+    "source_level": "self-media",
+    "evidence": "2011年商业规划资料：负二、三层为停车场，约有2000个停车位",
+    "note": "差约20-25%，处判定边界，取minor_diff"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳万象城 日客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2025双节日均客流同比增长166%的相对数，无绝对万人次数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1734",
+  "name": "南京金鹰中心（新街口）A座",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江苏省/南京市 江苏省南京市秦淮区新街口汉中路89号",
+    "external": "南京市新街口汉中路89号",
+    "verdict": "match",
+    "query": "金鹰国际商城 南京 1996年 开业 新街口",
+    "source_url": "https://www.baike.com",
+    "source_level": "self-media",
+    "evidence": "南京金鹰国际购物中心位于新街口西北侧（汉中路89号）",
+    "note": "城市核验通过；金鹰国际酒店官网亦载『新街口金鹰商城B座』（注：外部资料多记玄武区/鼓楼区交界的新街口，内部写秦淮区存疑但不影响城市级判定）"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "金鹰国际商城 南京 1996年 开业 新街口",
+    "source_url": "https://www.baike.com",
+    "source_level": "self-media",
+    "evidence": "1996年金鹰集团旗下首家门店南京金鹰国际购物中心正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京金鹰国际购物中心 新街口 商业面积 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组词检索未见新街口金鹰单体建面/商业面积权威数值",
+    "note": "仅见河西金鹰世界91.8万㎡（另一项目），不可混用"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京新街口金鹰国际商城 建筑面积 停车位 商场介绍",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见新街口金鹰停车位数量的公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 50,
+    "verdict": "unit_mismatch",
+    "query": "南京金鹰国际购物中心 新街口 商业面积 车位 客流",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "网易：新街口商圈平均每天吸引客流超50万人次",
+    "note": "口径：外部为新街口商圈全域日均，非金鹰单店日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "1132",
+  "name": "成都时代奥特莱斯",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "四川省/成都市 四川省成都市双流区双楠大道中段633号",
+    "external": "成都市双流区双楠大道中段633号",
+    "verdict": "match",
+    "query": "成都时代奥特莱斯 双楠大道 开业时间 2009 建筑面积",
+    "source_url": "https://map.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度地图POI：双流县双楠大道中段633号双流时代奥特莱斯",
+    "note": "百度百科词条名为『双流奥特莱斯』，同址"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "成都时代奥特莱斯 双楠大道 开业时间 2009 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%8F%8C%E6%B5%81%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF/4646042",
+    "source_level": "self-media",
+    "evidence": "百度百科：项目于2009年开业，2010年引入ARMANI、BALLY等品牌折扣",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 6,
+    "verdict": "unit_mismatch",
+    "query": "成都时代奥特莱斯 双楠大道 开业时间 2009 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%8F%8C%E6%B5%81%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF/4646042",
+    "source_level": "self-media",
+    "evidence": "百度百科：占地面积60,000平方米（未见建筑面积口径）",
+    "note": "外部仅见占地6万㎡（与内部同值，疑口径误用）及同系项目页『营业面积4.5万㎡』口径，无权威『建筑面积』数值"
+   },
+   {
+    "metric": "parking",
+    "internal": 480,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都时代奥特莱斯 客流量 停车场 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "官方未公布车位总数；仅见同系长沙项目规划车位超3000个及杉杉奥莱约1500个参考",
+    "note": "内部480为benchmark推断值，无本项目外部数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都时代奥特莱斯 客流量 停车场 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2025春节五一客流同比+5%及全国TOP30奥莱节假日场均4.1万人次的行业数据",
+    "note": "无本项目单日客流绝对值"
+   }
+  ]
+ },
+ {
+  "id": "0881",
+  "name": "哈尔滨卓展购物中心二期",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "黑龙江省/哈尔滨市 黑龙江省哈尔滨市道里区上海街99号",
+    "external": "哈尔滨市道里区上海街99号（卓展购物中心二期）",
+    "verdict": "match",
+    "query": "哈尔滨卓展购物中心 上海街99号 二期 开业时间",
+    "source_url": "https://www.chanel.com/tw/fashion/services/boutique-harbin-charter",
+    "source_level": "official",
+    "evidence": "香奈儿官网门店页：上海街99号哈尔滨卓展购物中心二期首层",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2018,
+    "verdict": "minor_diff",
+    "query": "哈尔滨卓展购物中心 上海街99号 二期 开业时间",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "检索摘要载黑龙江日报2018年9月报道：卓展B座（二期）9月底前后正式开业",
+    "note": "差1年涉开业口径；原报道未获直链，置信中等"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨卓展购物中心 B座 二期 2018年 开业 29万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见『总面积达29万平方米』的卓展整体口径，二期单体无权威建面",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 126,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨卓展购物中心 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见卓展哈尔滨停车位数量公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨卓展 停车位多少 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见异地客群占比分析，无单店日客流绝对值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0885",
+  "name": "福州东百中心",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "福建省/福州市 福建省福州市鼓楼区八一七北路88号",
+    "external": "福州市鼓楼区八一七北路88号（东街口）",
+    "verdict": "match",
+    "query": "福州东百中心 八一七北路88号 开业时间 建筑面积",
+    "source_url": "https://www.clnews.com.cn/html/11/2017-09-12/080928110763.shtml",
+    "source_level": "media",
+    "evidence": "东百东街店与东方百货合并升级为全新东百中心（东街口八一七北路）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "福州东百中心 八一七北路88号 开业时间 建筑面积",
+    "source_url": "https://www.clnews.com.cn/html/11/2017-09-12/080928110763.shtml",
+    "source_level": "media",
+    "evidence": "2017年东百集团60年来最大调整，重装东百中心当年10月亮相",
+    "note": "口径：2017年三馆合并重装开业（C馆2018年9月开业）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.9,
+    "external": 17,
+    "verdict": "match",
+    "query": "福州东百中心 八一七北路88号 开业时间 建筑面积",
+    "source_url": "https://www.clnews.com.cn/html/11/2017-09-12/080928110763.shtml",
+    "source_level": "media",
+    "evidence": "东百中心商业总面积达到近17万平方米，成福州最大城市综合体",
+    "note": "口径为A/B/C三馆商业总面积，差约6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 580,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福州东百中心 东街口 客流 万人次 停车场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见东百中心停车场车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18,
+    "external": 610,
+    "verdict": "unit_mismatch",
+    "query": "福州东百中心 东街口 客流 万人次 停车场",
+    "source_url": "https://user.guancha.cn",
+    "source_level": "media",
+    "evidence": "观察者网：2025年上半年东街口客流超610万人次",
+    "note": "口径：外部为东街口商圈半年累计，非东百单店日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0016",
+  "name": "合肥银泰中心一期",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "安徽省/合肥市 安徽省合肥市庐阳区长江中路98号",
+    "external": "合肥市庐阳区长江中路98号",
+    "verdict": "match",
+    "query": "合肥银泰中心 长江中路 开业时间 2012 建筑面积 停车位",
+    "source_url": "http://money.finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "上市公司公告商铺地址：合肥市庐阳区长江中路98号合肥银泰中心B1层",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "合肥银泰中心 长江中路 开业时间 2012 建筑面积 停车位",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2012年1月8日正式开业，安徽首家大型中高档购物中心",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": 9,
+    "verdict": "match",
+    "query": "合肥银泰中心 长江中路 开业时间 2012 建筑面积 停车位",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "一期商业面积约9万平方米（前身为华侨广场，约8万多平米商业）",
+    "note": "口径为一期商业面积；2023年二期开业后整体约15万㎡，内部9万对应一期正确"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥银泰中心 车位数量 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见银泰中心官方车位数，仅见老城区泊位总量等周边信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 4.2,
+    "verdict": "unit_mismatch",
+    "query": "合肥银泰中心 车位数量 客流量",
+    "source_url": "https://m.jiemian.com",
+    "source_level": "media",
+    "evidence": "界面新闻REITs报道：客流量稳定在1500万人/年及以上",
+    "note": "口径：外部为年累计（一期+二期，折日均约4.2万），与日峰值10万不可比"
+   }
+  ]
+ },
+ {
+  "id": "2136",
+  "name": "重庆IFS",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "重庆市/重庆市 重庆市江北区江北嘴庆云路1号",
+    "external": "重庆市江北区江北嘴庆云路1号",
+    "verdict": "match",
+    "query": "重庆IFS国金中心 江北嘴 庆云路 开业时间 建筑面积 停车位",
+    "source_url": "https://cj.sina.cn",
+    "source_level": "media",
+    "evidence": "重庆IFS国金中心位于两江新区江北嘴庆云路1号",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2017,
+    "verdict": "conflict",
+    "query": "重庆国金中心IFS 2010年 开业 商场",
+    "source_url": "https://cj.sina.cn",
+    "source_level": "media",
+    "evidence": "重庆国金中心2017年9月15日正式开幕，约20个品牌首进重庆",
+    "note": "商场2017年9月开幕获多源印证（尼依格罗酒店2017-09-08开业、楼盘页2017年开盘）；未检索到任何2010年开业依据，内部2010疑误或与其他项目混淆"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 66,
+    "external": 66,
+    "verdict": "match",
+    "query": "重庆IFS国金中心 江北嘴 庆云路 开业时间 建筑面积 停车位",
+    "source_url": "https://cj.sina.cn",
+    "source_level": "media",
+    "evidence": "总建筑面积超66万平方米，为江北嘴规模最大的综合发展项目",
+    "note": "口径为项目总建面（含写字楼/酒店/商场）"
+   },
+   {
+    "metric": "parking",
+    "internal": 2280,
+    "external": 2300,
+    "verdict": "match",
+    "query": "重庆IFS国金中心 江北嘴 庆云路 开业时间 建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "self-media",
+    "evidence": "重庆IFS国金中心T1塔楼配备约2300个地下停车位",
+    "note": "差<1%；楼盘页亦载车位2300个"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 22,
+    "external": 7.3,
+    "verdict": "unit_mismatch",
+    "query": "重庆IFS国金中心 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "《2020中国购物中心租金趋势报告》载重庆IFS全年客流约2681万人次（检索摘要，未获直链）",
+    "note": "口径：外部为年累计（折日均约7.3万，商业体量10.6万㎡），与日峰值22万不可比"
+   }
+  ]
+ },
+ {
+  "id": "1326",
+  "name": "苏州美罗百货（观前店）",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江苏省/苏州市 江苏省苏州市姑苏区观前街245号",
+    "external": "苏州市姑苏区观前街245号（美罗城）",
+    "verdict": "match",
+    "query": "苏州美罗百货 观前街245号 开业时间 建筑面积",
+    "source_url": "https://hk.trip.com",
+    "source_level": "media",
+    "evidence": "Trip.com商户地址：觀前街245號美羅城2層",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州美罗商城 观前 开业 历史 百货",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索仅见美罗商城现况与观前商圈史料（人民商场1934年开业），未见美罗观前店开业年份权威记载",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州美罗百货 观前街245号 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见美罗观前店建筑面积权威数值",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州美罗百货 观前 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见美罗观前店停车位公开数据（观前街为步行街，停车依赖社会停车场）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州美罗百货 观前 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见美罗单店日客流数据，仅见观前街商圈级描述",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0861",
+  "name": "北京世纪金源购物中心",
+  "layer": "S",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "北京市/北京市 北京市海淀区远大路1号",
+    "external": "北京市海淀区远大路1号（金源时代购物中心）",
+    "verdict": "match",
+    "query": "北京世纪金源购物中心 远大路 开业时间 2004 建筑面积 停车位",
+    "source_url": "https://pdf.dfcfw.com",
+    "source_level": "media",
+    "evidence": "招股书门店地址：北京市海淀区远大路1号金源时代购物中心",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "北京世纪金源购物中心 远大路 开业时间 2004 建筑面积 停车位",
+    "source_url": "https://news.sina.cn/sa/2004-10-27/detail-ikkntiam1484846.d.html",
+    "source_level": "media",
+    "evidence": "新浪2004年10月报道：北京金源时代购物中心开业，全球最大单体Mall之一",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 68,
+    "external": 68,
+    "verdict": "match",
+    "query": "金源时代购物中心 \"68万平方米\"",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "规划建筑面积68万平方米（占地18.2公顷，投资38亿元）",
+    "note": "另有总建面约55万㎡及金源新燕莎MALL部分18.2万㎡（王府井年报）等口径，内部68对应规划总建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 10000,
+    "external": 10000,
+    "verdict": "match",
+    "query": "北京世纪金源购物中心 远大路 开业时间 2004 建筑面积 停车位",
+    "source_url": "https://www.maigoo.com",
+    "source_level": "self-media",
+    "evidence": "拥有12万平方米立体停车场，可提供上万个车位",
+    "note": "外部无精确计数（数千至上万），量级与内部10000一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京金源时代购物中心 日客流量 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2004年开业时『预计日客流10万人次』及2025年及刻报告日均约9.3万，均为日均/预期口径，无节假日单日峰值",
+    "note": "内部20万为日峰值口径，无同口径外部数据可核"
+   }
+  ]
+ }
+]

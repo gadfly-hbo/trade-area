@@ -1,0 +1,724 @@
+[
+ {
+  "id": "1819",
+  "name": "广州凯德广场·云尚",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "广东省/广州市 广东省广州市白云区云城西路890号",
+    "external": "广东省广州市白云区云城西路890号",
+    "verdict": "match",
+    "query": "凯德广场云尚 停车位 车位 云城西路890号",
+    "source_url": "https://www.capitaland.com",
+    "source_level": "official",
+    "evidence": "凯德官网：广东省广州市白云区云城西路890号（CapitaMall SKY+）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "\"凯德广场·云尚\" 开业",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "项目于2015年开业，这是凯德进入广州的首个商业项目",
+    "note": "百度百科称2015年12月开业；华夏凯德商业REIT招募说明书亦载云尚项目2015年运营"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.3,
+    "external": 9.3,
+    "verdict": "match",
+    "query": "凯德广场·云尚 建筑面积 万㎡ 停车位",
+    "source_url": "https://static.sse.com.cn",
+    "source_level": "official",
+    "evidence": "REIT入池两资产合计168,405㎡，减雨花亭75,430.60㎡，云尚92,974㎡(约9.3万㎡)",
+    "note": "华夏凯德商业REIT招募说明书口径；百度百科口径约8.6万㎡（差异<10%，不影响判定）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1620,
+    "external": 1620,
+    "verdict": "match",
+    "query": "凯德广场云尚 停车位 车位 云城西路890号",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "凯德广场·云尚建筑面积约8.6万平方米，拥有约1620个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "凯德广场·云尚 日均客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "公开报道仅见五一客流同比+40%、春节客流+10%等相对口径，无日均/单日绝对值（inferred 层未获外部佐证）"
+   }
+  ]
+ },
+ {
+  "id": "1116",
+  "name": "石家庄新百广场（中山西路店）",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "河北省/石家庄市 河北省石家庄市桥西区中山西路139号",
+    "external": "河北省石家庄市桥西区中山西路139号",
+    "verdict": "match",
+    "query": "石家庄新百广场 百度百科 中山西路139号",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "石家庄中山西路139号新百商场（新百广场）属于桥西区，临近新百广场地铁站",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 1947,
+    "external": 1947,
+    "verdict": "match",
+    "query": "新百广场 石家庄 万平方米 购物中心 体量",
+    "source_url": "https://m.winshang.com/news732205.html",
+    "source_level": "trade",
+    "evidence": "始建于1947年，前身为石家庄人民商场，有\"新中国百货第一店\"之称",
+    "note": "百度知道旧帖\"新百广场拥有58年的历史\"为侧面印证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新百广场 石家庄 万平方米 购物中心 体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到新百广场建筑面积的可靠公开数据（赢商网无收录页）"
+   },
+   {
+    "metric": "parking",
+    "internal": 575,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄新百广场 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无车位数量公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄新百广场 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无店级客流公开数据"
+   }
+  ]
+ },
+ {
+  "id": "0704",
+  "name": "重庆新世纪百货世纪新都店",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "重庆市/重庆市 重庆市江北区观音桥步行街7号",
+    "external": "重庆市江北区观音桥步行街7号",
+    "verdict": "match",
+    "query": "重庆 新世纪百货 世纪新都 观音桥 开业时间 历史",
+    "source_url": "http://cq.people.com.cn/n2/2026/0923/c367647-41705651.html",
+    "source_level": "media",
+    "evidence": "世纪新都是新世纪百货在江北区观音桥商圈的旗舰门店，位于观音桥步行街",
+    "note": "搜索摘要明确\"位于观音桥步行街7号\""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2026,
+    "external": 2005,
+    "verdict": "conflict",
+    "query": "\"世纪新都\" 1998年开业 OR 2004年开业 OR 2005年开业 重庆",
+    "source_url": "https://jl.ifeng.com",
+    "source_level": "media",
+    "evidence": "观音桥商圈时间线\"2005年 世纪新都开业\"；凤凰网称其为2005年开业的重庆老商圈",
+    "note": "内部2026疑与2026-10-01对面原新世界百货物业改造的\"N.C.C新世纪中心英利荟\"开业混淆；2006年世纪新都已是重庆首个年零售额破10亿的单体商场，佐证开业远早于2026"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 5.3,
+    "verdict": "minor_diff",
+    "query": "新世纪百货世纪新都店 简介 建筑面积 车位",
+    "source_url": "http://www.ccagm.org.cn",
+    "source_level": "trade",
+    "evidence": "世纪新都整体面积仅5.3万平方米，其中经营面积仅4.8万平，共9层",
+    "note": "差约34%（(8-5.3)/8），落入20-50%区间；口径疑为内部8万含其他面积"
+   },
+   {
+    "metric": "parking",
+    "internal": 730,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新世纪百货世纪新都 观音桥 停车场 车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见观音桥商圈公共停车规划（1303个规划车位），无世纪新都店级车位数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "观音桥商圈 世纪新都 日均客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "新华网2021年报道中\"日均10万人次\"实为大融城观音桥店口径，非世纪新都；商圈整体日均60万/峰值105万不可比（inferred 层未获外部佐证）"
+   }
+  ]
+ },
+ {
+  "id": "2641",
+  "name": "昆明公园1903",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "云南省/昆明市 云南省昆明市西山区前卫西路19号附近",
+    "external": "云南省昆明市西山区前卫西路19号",
+    "verdict": "match",
+    "query": "公园1903 昆明 地址 前卫西路 客流",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "位于滇池国家度假区内，滇池路与广福路之间，东面临前卫西路",
+    "note": "另有多家商户地址（含上市公司年报口径）写作\"西山区前卫西路19号公园1903\""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "昆明 公园1903 开业时间 建筑面积",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "公园1903于2016年8月建成营业，位于云南昆明（新浪财经2024年报道）",
+    "note": "赢商网项目页标\"2014年开业\"（疑为首期开街口径）；奥莱商户2015年7月开业（赫美年报），分期开业口径不一"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "公园1903 诺仕达 商业体量 万平方米 香街",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见占地约1500亩、公园及配套商业约800亩的口径，无商业建筑面积平方米数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "公园1903 昆明 占地 商业面积 日客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见2025年国庆客流同比+15.3%相对口径，无绝对值"
+   }
+  ]
+ },
+ {
+  "id": "0068",
+  "name": "南阳万德隆万悦城",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "河南省/南阳市 河南省南阳市宛城区南都路儒林文化苑东侧约80米",
+    "external": "河南省南阳市宛城区南都路儒林文化苑东侧约80米",
+    "verdict": "match",
+    "query": "南阳万悦城 万德隆 购物中心 停车位",
+    "source_url": "https://m.winshang.com/xm78511305.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：河南南阳宛城区南都路儒林文化苑东侧约80米",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "南阳 万德隆 万悦城 开业 2023",
+    "source_url": "https://m.winshang.com/xm78511305.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：开业时间2023-09-28，项目状态已开业",
+    "note": "龙商网2023年10月亦有大购物中心成功开业专题报道"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22,
+    "external": 12,
+    "verdict": "minor_diff",
+    "query": "南阳万悦城 万德隆 建筑面积 停车位 客流",
+    "source_url": "https://m.winshang.com/xm78511305.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：建筑面积12万m2",
+    "note": "差约45%（(22-12)/22）落入20-50%区间；另有报道称整体项目超20万㎡（疑含多业态口径），公开数据不一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南阳万悦城 万德隆 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "赢商网项目页停车位\"暂无数据\"，仅见\"首个导航反向寻车智慧停车场\"宣传语"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 21.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南阳万悦城 客流 人次 万德隆 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无万悦城客流绝对值报道；同城南阳高新吾悦开业三天76万人次系不同项目不可比；21.5万/日峰值建议复核原始出处"
+   }
+  ]
+ },
+ {
+  "id": "1518",
+  "name": "上海文峰广场（张杨北路店）",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "上海市/上海市 上海市浦东新区张杨北路801号",
+    "external": "上海市浦东新区张杨北路801号",
+    "verdict": "match",
+    "query": "文峰广场 浦东 张杨北路 社区型购物中心 车位 客流",
+    "source_url": "https://baike.baidu.com/item/%E6%96%87%E5%B3%B0%E5%B9%BF%E5%9C%BA/23055159",
+    "source_level": "self-media",
+    "evidence": "坐落于上海市浦东新区金桥板块，位于张杨北路801号（近五莲路交汇处）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2003,
+    "verdict": "match",
+    "query": "文峰广场 上海 社区商业 日均客流 车位数量",
+    "source_url": "https://www.jiemian.com/article/14357568.html",
+    "source_level": "media",
+    "evidence": "界面新闻《上海文峰23年社区商业的生存法门》：文峰广场已运营23年",
+    "note": "由2026年报道\"已运营23年\"推算约2003年开业，未见逐字\"2003年开业\"表述"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.4,
+    "external": 8.4,
+    "verdict": "match",
+    "query": "文峰广场 浦东 张杨北路 社区型购物中心 车位 客流",
+    "source_url": "https://baike.baidu.com/item/%E6%96%87%E5%B3%B0%E5%B9%BF%E5%9C%BA/23055159",
+    "source_level": "self-media",
+    "evidence": "小区毗邻总建筑面积8.4万平方米的文峰广场商业设施",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "文峰广场 停车位 浦东 社区商业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见其列入消保委扫码付停车费调查名单，无车位数量数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "文峰广场 上海 社区商业 日均客流 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "界面新闻仅称\"年均客流稳步增长\"，无日均绝对值"
+   }
+  ]
+ },
+ {
+  "id": "0627",
+  "name": "沈阳全运万达广场",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "辽宁省/沈阳市 辽宁省沈阳市浑南区全运路70号",
+    "external": "辽宁省沈阳市浑南区全运路70号",
+    "verdict": "match",
+    "query": "沈阳全运万达广场 地址 全运路 停车位",
+    "source_url": "http://epaper.lnd.com.cn",
+    "source_level": "media",
+    "evidence": "12月20日沈阳全运万达广场盛大开业，沈阳市副市长、浑南区区长出席",
+    "note": "全运路70号另见于麦当劳活动门店名单；辽宁日报确认位于浑南区"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "全运万达广场 开业 客流 人次 沈阳 12月20日",
+    "source_url": "http://epaper.lnd.com.cn",
+    "source_level": "media",
+    "evidence": "2019年12月20日，沈阳全运万达广场盛大开业（辽宁日报）",
+    "note": "沈阳第五座万达广场"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 42,
+    "external": 42,
+    "verdict": "match",
+    "query": "沈阳全运万达广场 浑南区 开业时间 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "整体项目（沈阳万达·公园ONE）总建筑面积约42万平方米",
+    "note": "42万㎡为含住宅的整体项目口径；万达大商业部分约13.33万㎡，跨商圈对比时该值偏大，建议标注口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳全运万达广场 地址 全运路 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见公园ONE\"规划地下车位、人车分流\"表述，无具体数量"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "全运万达广场 开业 客流 人次 沈阳 12月20日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "开业报道仅称\"数万名顾客涌入\"，无绝对客流值（inferred 层未获外部佐证）"
+   }
+  ]
+ },
+ {
+  "id": "2326",
+  "name": "西安静安荟生活奥特莱斯",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "陕西省/西安市 陕西省西安市莲湖区北关正街与振华路交叉路口西北侧",
+    "external": "西安市莲湖区北关正街与振华路交汇处（北关正街50号）",
+    "verdict": "match",
+    "query": "西安 静安荟 奥特莱斯 开业 北关正街",
+    "source_url": "http://sx.sina.cn/news/brand/2021-03-19/detail-ikknscsi8598072.d.html",
+    "source_level": "media",
+    "evidence": "静安荟生活奥莱位于西安龙首商圈南部核心，北关正街与振华路交汇处",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "西安 静安荟 奥特莱斯 开业 北关正街",
+    "source_url": "https://m.winshang.com/news697936.html",
+    "source_level": "trade",
+    "evidence": "原定2021年12月25日开业，实际2022年3月5日正式开业",
+    "note": "中国百货商业协会2022年新开业奥莱盘点亦载2022-03-05开业，西安首座城市奥莱"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7,
+    "verdict": "match",
+    "query": "西安 静安荟 奥特莱斯 开业 北关正街",
+    "source_url": "https://www.sych100.com/h-nd-464.html",
+    "source_level": "trade",
+    "evidence": "商业面积约7万㎡，1-4层",
+    "note": "注意：中国百货商业协会盘点中33万㎡/23万㎡商业/3880车位系西咸新区万国荟奥莱口径，勿与本项目混用"
+   },
+   {
+    "metric": "parking",
+    "internal": 819,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "静安荟生活奥莱 西安 停车位 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索到的\"3880个免费停车位\"为泾河新城万国荟静安国际奥莱口径，非本项目；本项目无车位公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "静安荟生活奥莱 西安 开业 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "开业报道仅称多品牌销售业绩领跑西北，无客流绝对值"
+   }
+  ]
+ },
+ {
+  "id": "0535",
+  "name": "银川新华百货CCmall",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "宁夏回族自治区/银川市 宁夏回族自治区银川市兴庆区解放东街50号",
+    "external": "宁夏银川市兴庆区解放东路50号",
+    "verdict": "match",
+    "query": "\"CCmall\" 银川 新百 购物中心 商场",
+    "source_url": "https://pdf.dfcfw.com",
+    "source_level": "official",
+    "evidence": "迪阿股份招股书：银川市兴庆区解放东路50号新华百货CC mall店第一层A08",
+    "note": "\"解放东路\"与\"解放东街\"为同一路段异写"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2015,
+    "verdict": "conflict",
+    "query": "银川 CCmall 2015年 开业 新华百货 购物中心",
+    "source_url": "https://dzswgf.mofcom.gov.cn",
+    "source_level": "official",
+    "evidence": "2025年乐购银川金秋购物节：新百CCmall借\"十周年庆\"推出促消费活动",
+    "note": "十周年庆指向2015年开业（另说2016年初开业）；2018年已有CCmall街拍活动、2019年DR已入驻租赁，均证远早于2023；内部2023疑与新百中心C馆2023-09焕新开业混淆"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新华百货CCmall 银川 建筑面积 商业面积 万方",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见新华百货集团14家门店合计总建面约70万㎡，无CCmall单体数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 360,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "银川 新华百货 CCmall 开业 解放东街",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无车位公开数据（本项原为 benchmark 推断层，仍未获外部佐证）"
+   }
+  ]
+ },
+ {
+  "id": "0781",
+  "name": "LaLaport上海金桥",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "上海市/上海市 上海金桥",
+    "external": "上海市浦东新区金桥板块（金科路/新金桥路一带）",
+    "verdict": "match",
+    "query": "LaLaport上海金桥 建筑面积 停车位 客流",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "位于上海市浦东新区金桥，金科路碧云公馆东侧，靠近新金桥路",
+    "note": "internal 仅\"上海金桥\"过简，完整地址为浦东新区新金桥路738号"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2021,
+    "verdict": "conflict",
+    "query": "LaLaport 上海金桥 开业时间 2021 三井",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2021年4月28日阶段性开业，2021年10月20日携170多家店铺全面开业",
+    "note": "LaLaport海外首店2021年开业为多家媒体（网易/搜狐/新浪上海）一致口径，内部2024晚3年判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 13,
+    "verdict": "conflict",
+    "query": "LaLaport 上海金桥 开业时间 2021 三井",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "商业体量约13万㎡；另有总建筑面积约14.7万㎡口径（36氪）",
+    "note": "建筑为地下2层-地上11层，1-6层商业、7-11层办公；内部5万㎡较公开口径低约60%，判conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": 4000,
+    "verdict": "conflict",
+    "query": "LaLaport上海金桥 建筑面积 停车位 客流",
+    "source_url": "https://www.toutiao.com",
+    "source_level": "self-media",
+    "evidence": "配备约4000个停车位：3栋3层立体停车场+3块平面停车场+地下两层",
+    "note": "头条2019年项目介绍口径，超内部值2倍以上"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "LaLaport 上海金桥 建筑面积 开业 客流量 日均",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索摘要见\"开业当季日均客流超10万人次\"表述，但无法锚定原文与统计口径，不作为外部值"
+   }
+  ]
+ },
+ {
+  "id": "0331",
+  "name": "龙湖西安香醍天街",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "陕西省/西安市 陕西省西安市灞桥区沁水路与高楼路交汇处东北角",
+    "external": "西安市灞桥区（浐灞板块）龙湖香醍国际社区内",
+    "verdict": "match",
+    "query": "龙湖西安香醍天街 开业 灞桥区 建筑面积",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "西北首座天街—龙湖西安香醍天街，弥补浐灞板块缺大型购物中心短板",
+    "note": "区位（灞桥/浐灞、香醍国际社区）一致；沁水路与高楼路交汇的具体路口未见逐字公开报道"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "\"香醍天街\" 西安 开业 商业体量",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2020年，西北首座天街—龙湖西安香醍天街开业，首日开业率99%",
+    "note": "多来源称2020年12月11日正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 10.99,
+    "verdict": "match",
+    "query": "西安香醍天街 停车位 客流 开业时间",
+    "source_url": "https://stockn.xueqiu.com",
+    "source_level": "media",
+    "evidence": "龙湖集团披露：西安香醍天街 Xi'an Xiangti Paradise Walk 商业面积109,860㎡",
+    "note": "媒体另有约10万-11万㎡口径，一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1213,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖西安香醍天街 开业时间 停车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无车位数量公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": 41,
+    "verdict": "unit_mismatch",
+    "query": "\"香醍天街\" 西安 开业 商业体量",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "开业首日满租，三天客流量超过41万人次",
+    "note": "外部为开业三天累计客流（折算日均约13.7万），非节假日单日峰值，不可比；提示内部8万峰值或偏低"
+   }
+  ]
+ },
+ {
+  "id": "1869",
+  "name": "大同百盛广场（中央公园店）",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "山西省/大同市 山西省大同市平城区清远西街与云中路交汇处",
+    "external": "山西省大同市（平城区）清远西街与云中路交汇处",
+    "verdict": "match",
+    "query": "大同百盛 中央公园 开业 平城区 清远西街",
+    "source_url": "https://bbs.sxdt.com.cn",
+    "source_level": "self-media",
+    "evidence": "大同百盛中央公园店，地处大同市中心西门外清远西街与云中路交汇处",
+    "note": "本地论坛\"新大同\"项目帖，无权威媒体交叉印证"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同百盛购物中心 中央公园店 开业时间 2020",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "中央公园店开业时间无公开报道；百度知道所载2013-06-16开业者系大同首家百盛（永泰南路店），非本项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 20,
+    "verdict": "match",
+    "query": "大同百盛 中央公园 开业 平城区 清远西街",
+    "source_url": "https://bbs.sxdt.com.cn",
+    "source_level": "self-media",
+    "evidence": "总建筑面积20万平方米，住宅面积10万平",
+    "note": "20万㎡为含住宅约10万㎡的整体项目口径，纯商业约10万㎡；单一自媒体报道，建议复核"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同 中央公园 购物中心 停车位 客流 百盛",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无车位公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大同 中央公园 购物中心 停车位 客流 百盛",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无客流公开数据"
+   }
+  ]
+ }
+]

@@ -58,14 +58,17 @@ export function extractMetrics(
       break;
     }
   }
-  // 车位：锚词在前（兼容近/超/区间/推断/裸「停车」）+ 数字在前（「2181个停车位」）；扫级别/交通/最大优势三行。
-  // 防误抓：间隔禁跨量词「个」（防「车位近千个，1小时免费」吞 1）；坏词窗（停车费元/小时/免费/配建指标）；
-  // 合理域 10–20000；单匹配失败时迭代下一个匹配。
+  // 车位：锚词在前（兼容近/超/区间/推断/裸「停车」）+ 数字在前（「2181个停车位」「2000停车位」「1200+ 停车位」
+  // 「1,200席车位」「2000个户外停车位」）；扫级别/交通/最大优势三行。
+  // 防误抓：锚词后间隙禁跨顿号/逗号（防「2000停车位、108扶梯」把扶梯数当车位）；坏词窗（停车费/小时/免费/
+  // 配建指标/充电桩/数据缺口邻近值）；合理域 10–20000；单匹配失败时迭代下一个匹配。
   const PARK_NUM = '(?:约|超|近)?\\s*([\\d,，]+)(?:\\s*[-–—~]\\s*([\\d,，]+))?\\s*(?:余|多)?\\s*[个+]?';
   const PARK_BAD = /元|小时|免费|封顶|收费|指标|充电桩/;
   const parkingPats = [
-    new RegExp(`(?:机动车位|停车位|车位数|车位|停车)[^。；;|｜个\\d]{0,5}?${PARK_NUM}`),
-    new RegExp(`([\\d,，]+)\\s*(?:余|多)?\\s*个\\s*(?:机动车位|停车位|车位)`),
+    // 间隙禁跨顿号/逗号：防「2000停车位、108扶梯」把扶梯/品牌数当车位
+    new RegExp(`(?:机动车位|停车位|车位数|车位|停车)[^。；;|｜个\\d、，]{0,5}?${PARK_NUM}`),
+    // 「个」可选：兼容「2000停车位」无量词形态
+    new RegExp(`([\\d,，]+)\\s*(?:余|多)?\\s*个?\\s*(?:机动车位|停车位|车位)`),
   ];
   const parkingText = scale + get('交通条件') + get('最大优势');
   for (const pp of parkingPats) {
@@ -118,13 +121,29 @@ export function extractMetrics(
   }
 
   // —— 开业时间 ——
-  // 「正式开业」紧邻年份最可靠（防把注册/改造年当开业年），其次完整年月日，再次任意「开业/试营业」年份
+  // ①「正式开业/开幕」紧邻年份最可靠（开幕与开业同级，防被行内奠基等完整日期抢先）；
+  // ②完整年月日，但排除奠基/封顶/竣工/开工语境（语境窗裁到分句内，动词可在日期前后）；
+  // ③任意「开业/试营业/开街」年份。焕新/更名类口径问题不在此处裁决（走 md 修订）。
   const opened = get('开业时间');
-  const openedMatch =
-    match(opened, /(20\d{2}|19\d{2})[^\n；;|]{0,15}?正式开业/) ??
-    match(opened, /(20\d{2}|19\d{2})年\d{1,2}月\d{1,2}日/) ??
-    match(opened, /(20\d{2}|19\d{2})[^\n；;|]{0,12}?(?:试?营业|全面开街|开业)/);
-  if (openedMatch) m.openedYear = num(openedMatch[1]);
+  let openedYear: number | undefined;
+  const formal = match(opened, /(20\d{2}|19\d{2})[^\n；;|]{0,15}?正式开[业幕]/);
+  if (formal) openedYear = num(formal[1]);
+  if (openedYear === undefined) {
+    const fullDateRe = /(20\d{2}|19\d{2})年\d{1,2}月\d{1,2}日/g;
+    for (let fm = fullDateRe.exec(opened); fm && openedYear === undefined; fm = fullDateRe.exec(opened)) {
+      const before = opened.slice(Math.max(0, fm.index - 10), fm.index).split(/[，,；;。、｜|→]/).pop() ?? '';
+      const after = opened
+        .slice(fm.index + fm[0].length, fm.index + fm[0].length + 10)
+        .split(/[，,；;。、｜|→]/)[0] ?? '';
+      if (/奠基|封顶|竣工|开工|注册|工商/.test(before + after)) continue;
+      openedYear = num(fm[1]);
+    }
+  }
+  if (openedYear === undefined) {
+    const any = match(opened, /(20\d{2}|19\d{2})[^\n；;|]{0,12}?(?:试?营业|全面?开街|开业)/);
+    if (any) openedYear = num(any[1]);
+  }
+  if (openedYear !== undefined) m.openedYear = openedYear;
 
   // —— 周边3公里人口 ——
   // 口径优先：合计/圈层锚定；兼容「约 75-85 万」（约后空格、万省「人」）、「合计常住人口约 70–100 万」

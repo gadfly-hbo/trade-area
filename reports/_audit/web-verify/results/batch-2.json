@@ -1,0 +1,746 @@
+[
+ {
+  "id": "1630",
+  "name": "徐州铜山万达广场",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江苏省/徐州市 江苏省徐州市铜山区北京路18号",
+    "external": "徐州市铜山区",
+    "verdict": "match",
+    "query": "徐州铜山万达广场 开业 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/19725641",
+    "source_level": "media",
+    "evidence": "徐州铜山万达广场…位于徐州市铜山区北京北路19号，于2016年10月28日开业",
+    "note": "城市/区一致；门牌外部作北京北路19号，与内部北京路18号微差"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "徐州铜山万达广场 开业 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/19725641",
+    "source_level": "media",
+    "evidence": "位于徐州市铜山区…于2016年10月28日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.96,
+    "external": 15,
+    "verdict": "match",
+    "query": "徐州铜山万达广场 开业 建筑面积",
+    "source_url": "https://www.sohu.com/a/61871081_114875",
+    "source_level": "media",
+    "evidence": "商业部分约15万平方米（另有综合体总建面63.8万/57.1万㎡等口径）",
+    "note": "内部14.96万㎡与商业部分约15万㎡吻合；63.8万㎡为含住宅办公的综合体口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1024,
+    "external": 2900,
+    "verdict": "conflict",
+    "query": "徐州铜山万达 停车位 车位",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/19725641",
+    "source_level": "media",
+    "evidence": "…配备约2900个停车位",
+    "note": "百科口径或为整个综合体车位；专项搜索未见商场官方车位数，差异超50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.25,
+    "external": 20.32,
+    "verdict": "unit_mismatch",
+    "query": "徐州铜山万达 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "万达广场、印象里两家商场假日累计客流量20.32余万人次（乐活365，2025-04-08）",
+    "note": "仅见两商场假期多日累计口径，非单商场日峰值；来源URL未在搜索摘要中给出"
+   }
+  ]
+ },
+ {
+  "id": "0292",
+  "name": "南宁五象万象汇",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "广西壮族自治区/南宁市 广西壮族自治区南宁市良庆区平乐大道37号",
+    "external": "南宁市良庆区",
+    "verdict": "match",
+    "query": "\"万象汇\" 南宁 平乐大道 停车位 约",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E6%B1%87/60837151",
+    "source_level": "media",
+    "evidence": "南宁万象汇…位于五象新区平乐大道37号双地铁（2、3号线）交汇处",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "南宁万象汇 五象 停车场 车位 数量",
+    "source_url": "https://www.gx.chinanews.com.cn",
+    "source_level": "media",
+    "evidence": "南宁五象万象汇启幕引入150余家品牌，2021年9月5日开业（中新网广西）",
+    "note": "内部为推断值，获外部证实"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 6,
+    "verdict": "match",
+    "query": "南宁五象万象汇 商业体量 万方 购物中心",
+    "source_url": "https://baike.baidu.com/item/%E4%B8%87%E8%B1%A1%E6%B1%87/60837151",
+    "source_level": "media",
+    "evidence": "总建筑面积约6万平方米（百科/中新网）；2020年界面新闻亦载'6万㎡华润万象汇预计2021年开业'",
+    "note": "差约14%，在容差内"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南宁万象汇 五象 停车场 车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见五象航洋城约2500个车位（别项目），万象汇自身车位数无公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": 15,
+    "verdict": "conflict",
+    "query": "五象万象汇 开业 人流量 15万",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "华润置地2021年报道：南宁五象万象汇开业客流突破15万人次",
+    "note": "外部为开业首日纪录客流，非节假日稳态峰值，口径不完全等同；内部6.5为推断值"
+   }
+  ]
+ },
+ {
+  "id": "0680",
+  "name": "南昌万象汇",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江西省/南昌市 江西省南昌市青山湖区北京东路与高新南大道交叉路口西北侧",
+    "external": "南昌市青山湖区",
+    "verdict": "match",
+    "query": "南昌万象汇 华润 总建筑面积 万平方米 商业",
+    "source_url": "http://www.archina.com",
+    "source_level": "media",
+    "evidence": "华润南昌青山湖万象汇…位于北京东路与高新南大道交汇处附近的地铁上盖综合体",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2020,
+    "verdict": "minor_diff",
+    "query": "南昌万象汇 开业时间 高新南大道",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "南昌青山湖万象汇二期2020年底开业；多来源综合指向2020年12月开业",
+    "note": "外部证据指向2020年底开业，内部记2021，差1年涉正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 33,
+    "verdict": "unit_mismatch",
+    "query": "南昌万象汇 华润 总建筑面积 万平方米 商业",
+    "source_url": "http://www.archina.com",
+    "source_level": "media",
+    "evidence": "华润南昌青山湖万象汇…项目整体体量约33万平方米",
+    "note": "33万㎡为含办公住宅的综合体口径，不可与购物中心单体5.5万㎡直接比对；单体商业面积未见单独披露"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌万象汇 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "债券文件提及'车位297个'疑属地铁大厦等别项目，不适用"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌万象汇 客流 万人次 开业 假期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见该商场单体客流报道"
+   }
+  ]
+ },
+ {
+  "id": "0827",
+  "name": "西安荟聚",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "陕西省/西安市 陕西省西安市雁塔区西部大道和子午大道交汇处西北角",
+    "external": "西安市",
+    "verdict": "match",
+    "query": "西安荟聚 开业时间 建筑面积 万平方米",
+    "source_url": "https://view.inews.qq.com",
+    "source_level": "media",
+    "evidence": "宜家荟聚购物中心，这个城南板块超大商业综合体，总投资40亿，项目总体量超32万㎡",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "西安荟聚 开业时间 建筑面积 万平方米",
+    "source_url": "https://view.inews.qq.com",
+    "source_level": "media",
+    "evidence": "西安荟聚于2024年4月18日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21.5,
+    "external": 32,
+    "verdict": "minor_diff",
+    "query": "西安荟聚 开业时间 建筑面积 万平方米",
+    "source_url": "https://view.inews.qq.com",
+    "source_level": "media",
+    "evidence": "项目总体量超32万㎡，超过西安赛格25万㎡，是目前陕西最大的购物中心",
+    "note": "32万㎡为项目总体量（含停车及配套），21.5万㎡疑为商业/租赁面积口径，差约49%属minor区间"
+   },
+   {
+    "metric": "parking",
+    "internal": 3500,
+    "external": 4800,
+    "verdict": "minor_diff",
+    "query": "西安荟聚 停车位 车位 多少个",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "西安荟聚共有约4800个室内外停车位，是西安停车位最多的商业综合体之一",
+    "note": "内外差约37%，外部为室内外合计口径；内部为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 23,
+    "verdict": "conflict",
+    "query": "西安荟聚 开业时间 建筑面积 万平方米",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "西安荟聚开业火爆：开业第一天进店人数达23万人",
+    "note": "外部为开业首日纪录客流，非节假日稳态峰值口径；无日常假日峰值可比数据"
+   }
+  ]
+ },
+ {
+  "id": "0564",
+  "name": "珠海金湾华发商都",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "广东省/珠海市 广东省珠海市金湾区金河东路720号",
+    "external": "珠海市金湾区",
+    "verdict": "match",
+    "query": "珠海金湾华发商都 开业 建筑面积 万平方米",
+    "source_url": "https://h5.cnhuafag.com",
+    "source_level": "official",
+    "evidence": "金湾华发商都全面亮相，打造'湾心枢纽趣乐场'…位于珠海金湾航空新城核心区域",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2020,
+    "verdict": "minor_diff",
+    "query": "珠海金湾华发商都 开业 建筑面积 万平方米",
+    "source_url": "https://h5.cnhuafag.com",
+    "source_level": "official",
+    "evidence": "2020年10月24日金湾华发商都全面亮相（华发官网）；ARCHINA载金湾华发综合体项目正式开业",
+    "note": "官方口径2020-10-24亮相/开业，内部记2021差1年（或涉试营业与正式开业之分）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.76,
+    "external": 11.7,
+    "verdict": "match",
+    "query": "珠海金湾华发商都 开业 建筑面积 万平方米",
+    "source_url": "https://h5.cnhuafag.com",
+    "source_level": "official",
+    "evidence": "金湾华发商都建筑面积达11.7万方（总建面116,880.92平方米），地下1层及地上4层",
+    "note": "推断值与官方口径几乎一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 3700,
+    "external": 3000,
+    "verdict": "match",
+    "query": "珠海金湾华发商都 开业 建筑面积 万平方米",
+    "source_url": "https://h5.cnhuafag.com",
+    "source_level": "official",
+    "evidence": "共享湖滨公共停车位3000个",
+    "note": "差约19%在容差边缘；外部口径为共享湖滨公共车位，与商场自建车位口径或有出入"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.35,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金湾华发商都 开业 客流 人次 珠海",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见珠海全市及'客流火爆'定性报道，无单体万人次口径数据；内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "0668",
+  "name": "南昌天虹商场(中山店)",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江西省/南昌市 江西省南昌市西湖区中山路318号",
+    "external": "南昌市西湖区",
+    "verdict": "match",
+    "query": "南昌天虹商场 中山路 开业时间 建筑面积",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "南昌市天虹商场有限公司…江西省南昌市西湖区中山路318号，企业处于开业状态",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2007,
+    "verdict": "match",
+    "query": "南昌 中山路 天虹百货 2007年 开业 百货",
+    "source_url": "https://m.winshang.com/news636039.html",
+    "source_level": "trade",
+    "evidence": "天虹于2007年成功抢滩中山路黄金地段，中山路百货商场于当年9月20日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.4,
+    "external": 5.44,
+    "verdict": "match",
+    "query": "南昌 中山路 天虹百货 2007年 开业 百货",
+    "source_url": "https://pdf.dfcfw.com/pdf/H3_AS201202260003915872_1.pdf",
+    "source_level": "official",
+    "evidence": "中山路318号，经营面积约54,379平方米，属租赁物业（天虹商场公告）",
+    "note": "推断值与上市公司公告口径几乎一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 54,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌天虹 中山路店 停车场 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "老城步行街百货无公开车位数；内部低值54未获佐证，提示可能为解析值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌天虹 中山路 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "唯一近似数据为一路之隔的天虹新店2020年开业当天7.8万人次，非本店数据不计"
+   }
+  ]
+ },
+ {
+  "id": "0773",
+  "name": "龙湖重庆高新天街",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "重庆市/重庆市 重庆市沙坪坝区西双大道16号",
+    "external": "重庆市沙坪坝区",
+    "verdict": "match",
+    "query": "龙湖重庆高新天街 停车位 车位",
+    "source_url": "https://www.longfor.com/detail/220_26c2c23df221c16a811d7d3472a129e9.html",
+    "source_level": "official",
+    "evidence": "位于西永商务核心区的龙湖重庆高新天街（沙坪坝区西双大道16号，近轨道1号线微电园站）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "重庆高新天街 商业体量 万方 西永",
+    "source_url": "https://www.longfor.com/detail/220_26c2c23df221c16a811d7d3472a129e9.html",
+    "source_level": "official",
+    "evidence": "2022年12月30日，位于西永商务核心区的龙湖重庆高新天街迎来盛大开业",
+    "note": "以龙湖官网为准；搜索综合中另有误标2023的表述已排除"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 12.5,
+    "verdict": "match",
+    "query": "重庆高新天街 商业体量 万方 西永",
+    "source_url": "https://www.longfor.com/detail/220_26c2c23df221c16a811d7d3472a129e9.html",
+    "source_level": "official",
+    "evidence": "龙湖重庆高新天街商业体量约12.5万方，开业招商率99%、开业率超97%",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1080,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖重庆高新天街 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见合肥同名高新天街1312个车位，不适用于重庆项目"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆高新天街 开业 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "开业稿件仅提招商率/开业率无客流数；成都蜀新天街前两日26万人次为别项目参考"
+   }
+  ]
+ },
+ {
+  "id": "0864",
+  "name": "珠海南湾华发商都",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "广东省/珠海市 广东省珠海市香洲区珠海大道8号",
+    "external": "珠海市香洲区",
+    "verdict": "match",
+    "query": "珠海华发商都 南湾 珠海大道8号 开业时间 2014",
+    "source_url": "https://top.tianyancha.com",
+    "source_level": "media",
+    "evidence": "珠海华发商都位于香洲区南湾珠海大道8号；企业信息平台显示'珠海市香洲区南湾华发商都'分店名称在用",
+    "note": "'南湾华发商都'即2014年开业的原珠海华发商都（南屏店）现名"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2014,
+    "verdict": "conflict",
+    "query": "珠海华发商都 南湾 珠海大道8号 开业时间 2014",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2014年，华发商都开业，开启珠海商业新时代；另载2014年5月30日试营业4天近30万人",
+    "note": "多来源一致2014年开业，内部记2018差4年判conflict；2018或为某次调改年份误作开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "金湾华发商都 开业 客流 人次 珠海",
+    "source_url": "http://doc360.baidu.com",
+    "source_level": "self-media",
+    "evidence": "华发商都（南屏）…总建筑面积18万平方米，商业面积10万平方米，设有2200个车位",
+    "note": "商业面积10万㎡与内部一致；部分报道将总建面18万㎡统称商业面积，勿混"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": 2200,
+    "verdict": "conflict",
+    "query": "金湾华发商都 开业 客流 人次 珠海",
+    "source_url": "http://doc360.baidu.com",
+    "source_level": "self-media",
+    "evidence": "华发商都…设有2200个车位",
+    "note": "benchmark基准推断值800被外部2200否定，差异超50%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18.5,
+    "external": 2000,
+    "verdict": "unit_mismatch",
+    "query": "珠海华发商都 南湾 珠海大道8号 开业时间 2014",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "年客流量超2000万人次，全国购物中心客流规模指数榜单TOP50",
+    "note": "外部仅见年累计口径（折日均约5.5万），与内部日峰值18.5万不可直接比对"
+   }
+  ]
+ },
+ {
+  "id": "1453",
+  "name": "长沙河西王府井FamilyPark",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖南省/长沙市 湖南省长沙市岳麓区金星中路383号",
+    "external": "长沙市岳麓区",
+    "verdict": "match",
+    "query": "长沙王府井FamilyPARK购物中心 开业时间 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "media",
+    "evidence": "长沙王府井FamilyPARK购物中心…位于岳麓区金星中路383号",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "长沙王府井FamilyPARK购物中心 开业时间 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "media",
+    "evidence": "于2015年12月27日亮相长沙，2016年3月30日正式开业",
+    "note": "外部正式开业2016年，内部记2018差2年判conflict；2018或为某次调改/周年表述误作开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 6,
+    "verdict": "match",
+    "query": "长沙王府井FamilyPARK购物中心 开业时间 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "media",
+    "evidence": "建筑面积约6万多平方米（新浪湖南口径）",
+    "note": "差约20%处容差边界；另有报道记约7万㎡，若按7万计则属minor_diff，疑为总建面与商业面积口径之差"
+   },
+   {
+    "metric": "parking",
+    "internal": 700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙河西王府井 FamilyPARK 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见'配套停车场'定性描述，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙 河西王府井 客流 万人次 假期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见长沙全市假期客流，无单体数据；内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "0599",
+  "name": "沈阳新玛特(中街店)",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "辽宁省/沈阳市 辽宁省沈阳市大东区小东路1号",
+    "external": "沈阳市大东区",
+    "verdict": "match",
+    "query": "沈阳新玛特 中街 小东路 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%96%B0%E7%8E%9B%E7%89%B9/3448376",
+    "source_level": "media",
+    "evidence": "中街新玛特地址位于沈阳市大东区小东路1号新玛特商场（近中街路）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2002,
+    "external": 2002,
+    "verdict": "match",
+    "query": "大商集团 沈阳新玛特 2002年 开业",
+    "source_url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%96%B0%E7%8E%9B%E7%89%B9/3448376",
+    "source_level": "media",
+    "evidence": "大商集团独资企业，于2002年12月21日前后正式开业（搜索综合，词条页佐证主体）",
+    "note": "开业具体日期来自搜索综合表述，词条URL为同主体项目页"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 10,
+    "verdict": "conflict",
+    "query": "沈阳新玛特 中街 小东路 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%B2%88%E9%98%B3%E6%96%B0%E7%8E%9B%E7%89%B9/3448376",
+    "source_level": "media",
+    "evidence": "沈阳新玛特建筑面积10万平方米，具备日均接待顾客20万人次的能力",
+    "note": "外部10万㎡与推断值6.5万㎡差约54%；百科口径或含整体建筑分期"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳新玛特 中街 停车场 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见沈阳市停车泊位缺口等宏观报道，无本店车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳新玛特 中街 停车场 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "百科'日均接待20万人次能力'为容量口径非实际客流，不作比对"
+   }
+  ]
+ },
+ {
+  "id": "0930",
+  "name": "长沙友阿奥特莱斯购物公园",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖南省/长沙市 湖南省长沙市天心区芙蓉南路三段27号",
+    "external": "长沙市天心区",
+    "verdict": "match",
+    "query": "友阿奥特莱斯 长沙 2011年开业 建筑面积",
+    "source_url": "http://m.linkshop.com",
+    "source_level": "trade",
+    "evidence": "友阿奥特莱斯商业广场位于长沙市天心区（市郊南城/先锋），2011年1月23日开业",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "友阿奥特莱斯 长沙 2011年开业 建筑面积",
+    "source_url": "http://m.linkshop.com",
+    "source_level": "trade",
+    "evidence": "占地面积近12万平方，于2011年1月23日开业（联商网2012年见闻）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17,
+    "external": 17,
+    "verdict": "match",
+    "query": "长沙友阿奥特莱斯 停车位 客流 万人次",
+    "source_url": "https://android.icswb.com",
+    "source_level": "media",
+    "evidence": "建筑面积约17万平方米，商铺面积约8万平方米（长沙晚报大城之南特稿等）",
+    "note": "推断值与外部建筑面积口径一致；另有占地12万㎡与综合体100万㎡等口径勿混"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙友阿奥特莱斯 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见'停车便利是两大风景'定性表述，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 70,
+    "verdict": "unit_mismatch",
+    "query": "长沙友阿奥特莱斯 停车位 客流 万人次",
+    "source_url": "https://android.icswb.com",
+    "source_level": "media",
+    "evidence": "高峰期客流可达70万+人次（口径疑为节假日多日区间累计）",
+    "note": "外部为高峰区间/累计口径且定义模糊，与内部日峰值10万不可比；单日口径无外部数据"
+   }
+  ]
+ },
+ {
+  "id": "0850",
+  "name": "珠海万象汇",
+  "layer": "A",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "广东省/珠海市 广东省珠海市香洲区银桦路102号附近",
+    "external": "珠海市香洲区",
+    "verdict": "match",
+    "query": "珠海万象汇 华润 开业时间 建筑面积 银桦路",
+    "source_url": "https://pub-zhtb.hizh.cn/s/202503/18/AP67d8ea96e4b034091406940b.html",
+    "source_level": "media",
+    "evidence": "珠海优特汇地处兴业路与银桦路交汇处（银桦路102号），毗邻兴业快线",
+    "note": "即原优特汇，2025年3月华润万象生活轻资产接手更名'珠海万象汇'"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "珠海优特汇 客流 万人次 假期 万象汇",
+    "source_url": "https://m.sidd.com.cn",
+    "source_level": "media",
+    "evidence": "2020年9月19日试营业两日客流超23万人次，2020年10月正式开业当日客流突破18万人次",
+    "note": "珠海特区报另有'2021年开业运营'的粗表述；开业报道确认2020年9月试营业/10月正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 13.8,
+    "verdict": "conflict",
+    "query": "珠海万象汇 华润 开业时间 建筑面积 银桦路",
+    "source_url": "https://pub-zhtb.hizh.cn/s/202503/18/AP67d8ea96e4b034091406940b.html",
+    "source_level": "media",
+    "evidence": "总体量达36万平方米，其中商业面积13.8万平方米",
+    "note": "内部7万㎡疑为盒子商业部分口径，与特区报商业面积13.8万㎡差约97%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "珠海优特汇 万象汇 停车位 车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "横琴'华润万象世界'1191个车位为别项目不适用；本项目车位数无公开数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": 8.5,
+    "verdict": "match",
+    "query": "珠海优特汇 客流 万人次 假期 万象汇",
+    "source_url": "https://m.sidd.com.cn",
+    "source_level": "media",
+    "evidence": "2024年日均客流5.2万人次，节假日客流达8.5万人次（iziRetail热点）",
+    "note": "节假日单日口径与内部完全一致"
+   }
+  ]
+ }
+]

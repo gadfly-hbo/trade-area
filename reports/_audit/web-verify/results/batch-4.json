@@ -1,0 +1,691 @@
+[
+ {
+  "id": "0528",
+  "name": "长沙浏阳天虹购物中心",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖南省/长沙市 湖南省长沙市浏阳市集里街道庆泰南路创意君悦城三期21-23栋",
+    "external": "湖南省浏阳市集里街道庆泰南路（花炮大道与庆泰南路交叉口），创意君悦城三期",
+    "verdict": "match",
+    "query": "浏阳 天虹购物中心 庆泰南路 君悦城",
+    "source_url": "https://m.anjuke.com",
+    "source_level": "media",
+    "evidence": "天虹购物中心(湖南浏阳店)：长沙市浏阳市花炮大道与庆泰南路交叉口；君悦城市广场位于庆泰南路与花炮大道交汇处东北角",
+    "note": "安居客/自媒体多方确认天虹位于浏阳市集里街道庆泰南路创意君悦城三期，属长沙代管县级市，省市归属正确"
+   }
+  ]
+ },
+ {
+  "id": "1166",
+  "name": "北京新辰天地（大兴店）",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "北京市/北京市 北京市大兴区兴华大街27号",
+    "external": "北京市大兴区黄村，兴华大街三段27号（清源路地铁站西南角）",
+    "verdict": "match",
+    "query": "新辰天地 大兴店南区 兴华大街 开业",
+    "source_url": "http://m.dianping.com",
+    "source_level": "media",
+    "evidence": "星巴克(新辰天地大兴南区店)地址显示兴华大街；多家门店页确认新辰天地位于大兴区黄村兴华大街三段27号",
+    "note": "门牌与内部地址一致（兴华大街三段27号），另有清源路26号/清澄名苑北区27号等表述，均在大兴区黄村同一地块"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 11,
+    "verdict": "conflict",
+    "query": "\"新辰天地\" 商业面积 万平方米 购物中心 大兴",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "新辰集团联合开发11万平方米『新辰天地』填补区域商业空白；36氪称改造体量11万平方米；搜狐称商业面积10万+平米",
+    "note": "内部5.5万或为南区（原百联清城改造段，2025年初开业）单期口径，外部10-11万为全项目（含二期，2026年5月开业）口径；数值差100%按规则判 conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 440,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新辰天地 大兴 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "4次检索未获车位数；报道仅提『配停车楼』。内部值440为inferred+benchmark最低可信层，未见外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新辰天地 大兴 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "3次检索无任何客流数据；该项目2025年开业，尚无节假日客流报道。内部值4.5为inferred"
+   }
+  ]
+ },
+ {
+  "id": "1908",
+  "name": "蚌埠百大名品中心",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "安徽省/蚌埠市 安徽省蚌埠市蚌山区淮河路与中兴街交叉口",
+    "external": "安徽省蚌埠市蚌山区淮河路981号（淮河路商圈，中山街/华盛街一带）",
+    "verdict": "match",
+    "query": "蚌埠 \"百大名品中心\" 地址 淮河路",
+    "source_url": "http://m.winshang.com/xm22997.html",
+    "source_level": "trade",
+    "evidence": "百大名品中心淮河路店：安徽省蚌埠市淮河路981号；赢商网项目页载蚌埠市蚌山区淮河路",
+    "note": "淮河路与中兴街交叉口与淮河路981号同段，蚌山区归属以多数来源为准（个别银行目录误标龙子湖区）"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "\"百大名品中心\" 蚌埠 开业时间",
+    "source_url": "http://m.winshang.com/xm22997.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：蚌埠百大名品中心，开业时间2009年11月，已开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.42,
+    "external": 5.5,
+    "verdict": "match",
+    "query": "\"百大名品中心\" 蚌埠 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com/xm22997.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目页：蚌埠百大名品中心建筑面积约5.5万㎡",
+    "note": "差约1.5%，高度吻合"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "蚌埠百大购物中心 停车场 车位 淮河路",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "3次检索未获项目车位数；老城步行街百货，公开报道无车位数字"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "蚌埠 淮河路商圈 百大名品 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "检索到的日均4.18万人次数据属合肥淮河路步行街（同名异地），已排除；蚌埠项目级客流无公开数据"
+   }
+  ]
+ },
+ {
+  "id": "1970",
+  "name": "成都来福士广场",
+  "layer": "BC-weak",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "四川省/成都市 四川省成都市武侯区人民南路四段三号",
+    "external": "成都市武侯区人民南路四段3号（人民南路与一环路交汇处，原四川省博物馆旧址）",
+    "verdict": "match",
+    "query": "成都来福士广场 开业时间 人民南路四段",
+    "source_url": "https://www.capitaland.com/cn/zh/lease/offices-listing/rafflescitychengdu-copy-copy.html",
+    "source_level": "official",
+    "evidence": "凯德官网：成都来福士广场占地逾三万平米，位于成都市主干道人民南路四段，原四川省博物馆旧址",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2012,
+    "verdict": "minor_diff",
+    "query": "成都来福士广场 开业 凯德",
+    "source_url": "https://zh.wikipedia.org/zh-cn/成都来福士广场",
+    "source_level": "media",
+    "evidence": "2012年9月开业；2011年9月15日举行落成庆典（新加坡总理李显龙出席）",
+    "note": "差1年（2012开业 vs 内部2013），属试营业/落成与正式开业口径差异"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30.77,
+    "verdict": "match",
+    "query": "成都来福士广场 建筑面积 万平方米",
+    "source_url": "https://m.baike.com",
+    "source_level": "media",
+    "evidence": "来福士广场项目总建筑面积约307,724平方米，2012年竣工；含两栋约7.2万㎡超甲级写字楼",
+    "note": "内部30万为综合体总建面口径，差约2.5%"
+   },
+   {
+    "metric": "parking",
+    "internal": 770,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都来福士广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "3次检索未见车位数（仅停车收费问答，无数字）；内部770无外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都来福士 日均客流 万人",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "未见项目客流数据"
+   }
+  ]
+ },
+ {
+  "id": "2436",
+  "name": "上海外滩中央广场",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "上海市/上海市 上海市黄浦区南京东路139号",
+    "external": "上海市黄浦区南京东路139号（近河南中路），179号街坊（南京东路/四川中路/九江路/江西中路围合）",
+    "verdict": "match",
+    "query": "外滩中央 项目 南京东路139号 历史建筑",
+    "source_url": "https://www.thepaper.cn",
+    "source_level": "media",
+    "evidence": "外滩中央地址：上海市黄浦区南京东路139号（近河南中路）；项目为179号街坊历史建筑群改造",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "外滩中央项目 南京东路 开业时间",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "中央大楼与美伦大楼于2017年率先开业；外滩中央内街2021年亮相",
+    "note": "分期开业：首开2017与内部一致，内街2021年全面亮相"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.19,
+    "external": 5.7,
+    "verdict": "match",
+    "query": "外滩中央 179街坊 总建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "179街坊（外滩·中央）项目总建筑面积约5.7万平方米、总投资40亿元（搜索摘要引知乎文）；另有改造前现状3.6万㎡口径",
+    "note": "6.19 vs 5.7 差8.6%判 match；来源为搜索摘要未获直链"
+   },
+   {
+    "metric": "parking",
+    "internal": 394,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "外滩中央 停车位 车库 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "4次检索未见项目车位数；周边外滩交通枢纽车库693个车位系市政配套口径，与项目无关"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京东路 外滩 客流 万人次 单日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "项目级客流无公开数据；街区级口径（南京路步行街节假日单日20-50万人次、外滩滨水区35-55万人次）远高于内部2.6万，内部值疑为项目级估计，无法比对"
+   }
+  ]
+ },
+ {
+  "id": "2021",
+  "name": "娄底万豪城市广场",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖南省/娄底市 湖南省娄底市娄星区氐星路1217号",
+    "external": "湖南省娄底市娄星区氐星路（春园商圈）",
+    "verdict": "match",
+    "query": "娄底万豪城市广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "位于湖南省娄底市娄星区氐星路春园商圈（核心商圈黄金地段）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "娄底万豪城市广场 开业时间",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "2011年11月28日正式开业，建设历时三年",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "娄底万豪城市广场 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "总建筑面积约35万～36.8万平方米（投资16亿元），其中商业部分约12万平方米",
+    "note": "内部12万对应商业部分口径；35-36.8万为含酒店/写字楼/住宅的总建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1200,
+    "verdict": "match",
+    "query": "娄底万豪城市广场 停车位 客流",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "配备有1200个标准停车位可供顾客自助泊车",
+    "note": "完全一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "娄底 万豪城市广场 日均客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "仅见2026春节娄底全市重点商圈累计客流超200万人次（假期多日累计口径，不可比）；无项目单日峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "1638",
+  "name": "宿州埇桥万达广场",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "安徽省/宿州市 安徽省宿州市埇桥区拂晓大道与银河三路交汇处",
+    "external": "安徽省宿州市埇桥区三八街道，拂晓大道与银河三路交口",
+    "verdict": "match",
+    "query": "宿州万达广场 拂晓大道 银河三路 开业",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "永辉超市2026年半年报门店清单：宿州市万达店，安徽省宿州市拂晓大道与银河三路交口",
+    "note": "注意与2019年开业的宿州CBD万达广场（淮海中路302号）为两家不同门店"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "\"宿州万达广场\" 开业 2016",
+    "source_url": "https://m.sohu.com",
+    "source_level": "media",
+    "evidence": "2016-09-12报道《城市商业新地标——万达广场盛装开业》：2016年9月9日上午正式开业；2016-10百度知道已有『宿州万达广场』问答",
+    "note": "搜狐报道摘要未直书城市名，结合2016年10月该项目问答已存在及拂晓大道门店信息，2016年开业成立"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 70.69,
+    "external": 15.8,
+    "verdict": "conflict",
+    "query": "宿州万达广场 项目 总建筑面积 70万",
+    "source_url": "https://led-lst.com",
+    "source_level": "self-media",
+    "evidence": "中建一局宿州万达广场项目：大型城市综合体，总建筑面积约15.8万平方米，含万达影院、永辉超市等",
+    "note": "内部70.69万（inferred）疑为含住宅的全项目宣称口径，公开检索未见任何来源支持70万；可查证的商业综合体建面为15.8万㎡，差超300%判 conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 1821,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宿州万达广场 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "3次检索未见车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宿州万达广场 开业 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "仅见2026年京东折扣超市进驻宿州CBD万达（另一门店）开业两日客流近9万人次，非本商场节假日峰值口径，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0803",
+  "name": "运城新象城购物广场",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "山西省/运城市 山西省运城市盐湖区河东东街与学苑路交叉口",
+    "external": "山西省运城市盐湖区学苑路76号（河东东街与学苑路交叉口附近）",
+    "verdict": "match",
+    "query": "运城新象城 地址 学苑路 河东东街",
+    "source_url": "https://www.jinjia.com.cn",
+    "source_level": "self-media",
+    "evidence": "周大福（新象城店）地址：运城学苑路76号新象城F1层；公交2路御泽苑小区站步行200米",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "运城新象城 购物广场 开业时间 建筑面积",
+    "source_url": "https://m.maigoo.com",
+    "source_level": "self-media",
+    "evidence": "运城十大购物中心榜单：运城新象城购物广场于2011年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.8,
+    "external": 4.8,
+    "verdict": "match",
+    "query": "运城新象城 购物广场 开业时间 建筑面积",
+    "source_url": "https://m.maigoo.com",
+    "source_level": "self-media",
+    "evidence": "运城新象城购物广场……总建筑面积4.8万平方米",
+    "note": "完全一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 275,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "运城新象城 商场 停车 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "4次检索（多限流）未见车位数；内部275为inferred"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "运城新象城 商场 停车 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "未见项目客流数据"
+   }
+  ]
+ },
+ {
+  "id": "2124",
+  "name": "常州溧阳上河城",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江苏省/常州市 江苏省常州市溧阳市平陵中路369号",
+    "external": "江苏省常州市溧阳市溧城镇平陵中路369号",
+    "verdict": "match",
+    "query": "溧阳上河城 开业时间 建筑面积 平陵中路",
+    "source_url": "https://gs.ctrip.com",
+    "source_level": "media",
+    "evidence": "上河城（综合商场）：江苏省常州市溧阳市平陵中路369号，距溧阳2路上河城北站472m",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"上河城\" 溧阳 2012年 开业 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "无直接开业年份记载；间接证据与2012年相容：运营公司2011-06-16成立、2013-01-08 broadcast:播门店已进驻（日播时尚招股书）、2013-11商业照明案例显示已建成。内部2012为inferred"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18,
+    "external": 18,
+    "verdict": "match",
+    "query": "溧阳 上河城 商业综合体 开业 平陵中路",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "凤凰网报道：上河城是在城市中心打造的约18万平方米的大型商业体（搜索摘要，未获直链）",
+    "note": "数值一致；来源为搜索摘要"
+   },
+   {
+    "metric": "parking",
+    "internal": 1020,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "溧阳上河城 停车位 客流 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "未见车位数；仅见考察材料提及『可能提高地下停车场停放数量』"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "溧阳上河城 停车位 客流 人次",
+    "source_url": "https://www.liyang.gov.cn/html/czly/2020/NKOKQEKI_0710/138969.html",
+    "source_level": "official",
+    "evidence": null,
+    "note": "溧阳市政府官网（2020）载『日均客流超3.5万人次』，扬子江文旅材料载『年客流量约1000万人次』——均为日均/累计口径，非节假日单日峰值，无法与内部6万峰值直接比对"
+   }
+  ]
+ },
+ {
+  "id": "1260",
+  "name": "南昌杉杉奥特莱斯",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江西省/南昌市 江西省南昌市红谷滩区九龙大道3388号",
+    "external": "南昌市红谷滩新区（现红谷滩区）九龙湖新城九龙大道与生米大道交汇处西南角",
+    "verdict": "match",
+    "query": "南昌杉杉奥特莱斯 2017年 开业时间 九龙湖",
+    "source_url": "https://baike.baidu.com/item/南昌杉杉奥特莱斯广场/58852576",
+    "source_level": "media",
+    "evidence": "南昌杉杉奥特莱斯广场位于红谷滩新区九龙湖新城九龙大道与生米大道交汇处西南角",
+    "note": "九龙大道为项目主临街道路，红谷滩新区即今红谷滩区"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "南昌杉杉奥特莱斯 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/南昌杉杉奥特莱斯广场/58852576",
+    "source_level": "media",
+    "evidence": "2017年9月23日正式开业；开业引入200余家品牌",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.3,
+    "external": 13,
+    "verdict": "match",
+    "query": "南昌杉杉奥特莱斯广场 2017年开业 建筑面积 万平方米",
+    "source_url": "http://t.linkshop.com",
+    "source_level": "trade",
+    "evidence": "华东地区首创的全室内街区型MALL式奥莱，总建筑面积约13万平方米，规划引入200余家品牌店铺",
+    "note": "14.3 vs 13 差10%判 match；另有『商业体量约10万㎡』口径（差43%，minor区间），总建面口径为准"
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌杉杉奥特莱斯停车场 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "4次检索（多限流）未获官方车位数；凤凰网红谷滩节假日出行提示摘要曾提及『杉杉奥莱周边963个停车位』，未能定位原文且口径不明（或含周边多场），无法核实1800"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌杉杉奥特莱斯 客流 销售额",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "公开报道仅增速类数据（2024春节销售+18.1%等）及高德导航人次榜华中区第八（联商网2024），无万人次级客流值；内部5为inferred"
+   }
+  ]
+ },
+ {
+  "id": "1644",
+  "name": "盘锦双兴路万达广场",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "辽宁省/盘锦市 辽宁省盘锦市兴隆台区双兴南路71 号",
+    "external": "盘锦市兴隆台区友谊街南、双兴南路西、泰山路东（万达2015年上市文件所载项目地块）",
+    "verdict": "match",
+    "query": "盘锦 万达广场 双兴南路 开业",
+    "source_url": "http://www.sse.com.cn",
+    "source_level": "official",
+    "evidence": "上交所公告（2015）：盘锦市兴隆台区友谊街南、双兴南路西、泰山路东，占地面积238,055㎡；另有大众点评商户位于『盘锦市兴隆台区万达广场』",
+    "note": "地块位于双兴南路西侧，与内部『双兴南路71号』同址，兴隆台区归属正确"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "盘锦万达广场 开业时间 兴隆台区",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "6次检索多遇限流且无直接开业报道；2015年上市文件仅证项目在建，未见开业年份权威记载，内部2016无法核实"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.97,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "盘锦万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "唯一数字为238,055㎡地块占地面积（2015上市文件），与建筑面积口径不可比；无建成后的建面数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "盘锦万达广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "未见车位数；内部4000无外部佐证（数值偏高，建议后续人工复核原始报告）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "盘锦万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "未见客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0821",
+  "name": "邵阳步步高新天地",
+  "layer": "BC",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖南省/邵阳市 湖南省邵阳市双清区邵阳大道与建设南路交汇处",
+    "external": "邵阳市步步高商场（邵阳大道店），位于邵阳大道；步步高年报载『广场邵阳新天地』",
+    "verdict": "match",
+    "query": "邵阳步步高新天地 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "360地图收录『步步高商场(邵阳大道店)』；步步高2026半年报载『广场邵阳新天地』资产（账面值2.45亿元级）",
+    "note": "邵阳市+邵阳大道已确认；双清区归属未直接复核但无冲突证据"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2017,
+    "verdict": "minor_diff",
+    "query": "邵阳步步高新天地 开业 商业综合体",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "券商研报/开业报道（搜索摘要）：2017年9月19日开业，首日客流超52万人次，GMV 1500万元",
+    "note": "差1年，属试营业/正式开业口径范围；内部2018为inferred，证据为搜索摘要未获直链"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 20,
+    "verdict": "minor_diff",
+    "query": "\"邵阳新天地\" 步步高 开业 20万平方米",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网统计：商业建筑面积约20万㎡（当年开业体量最大mall之一）；另有2018年报告口径『购物中心商业部分约9万㎡』",
+    "note": "内部12.5万（inferred）介于9万（纯购物中心）与20万（商业总建面）两口径之间；对20万口径差37.5%判 minor_diff，来源为搜索摘要"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "邵阳步步高新天地购物中心 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": null,
+    "note": "4次检索未见车位数；内部1000为inferred+benchmark最低可信层，纯基准推断无项目佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": 52,
+    "verdict": "conflict",
+    "query": "邵阳步步高新天地 开业 52万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2017年9月19日开业当日客流超52万人次（搜索摘要引券商研报）",
+    "note": "外部为开业首日单日口径（含开业活动放大效应），内部6.5万（inferred）疑为常态节假日峰值口径，场景不同但同为单日客流，差8倍按规则判 conflict；证据为搜索摘要未获直链"
+   }
+  ]
+ }
+]

@@ -1,0 +1,724 @@
+[
+ {
+  "id": "1292",
+  "name": "连云港海州万达广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江苏省/连云港市 江苏省连云港市海州区凌州东路7号",
+    "external": "连云港市海州区凌州东路7号（金辉路以南、学林路以西、科苑北路以东、凌州东路以北）",
+    "verdict": "match",
+    "query": "连云港海州万达广场 凌州东路 滨河新城 地址",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "位于海州区…科苑北路以东、凌州东路以北；常用地址凌州东路7号",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "连云港海州万达广场 开业时间 2016 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "2016年11月18日，连云港万达广场正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.8,
+    "external": 11.7,
+    "verdict": "match",
+    "query": "连云港海州万达广场 开业时间 2016 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "建筑面积约10.7万～11.8万平方米，万达官网称约11.7万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "连云港海州万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见活动报道与春节外地车免费停车政策，无自有车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海州万达广场 连云港 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅有苏超第二现场、春节民俗活动等定性客流报道",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1475",
+  "name": "台州经开万达广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "浙江省/台州市 浙江省台州市椒江区开发大道 799 号",
+    "external": "台州市椒江区（台州经济开发区）开发大道以南、白云山南路以西；开发大道799号",
+    "verdict": "match",
+    "query": "台州经开万达广场 开业 建筑面积 椒江区",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "位于台州市椒江区开发大道以南、白云山南路以西；799号见充电桩信息库",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "台州经开万达广场 开业时间 建筑面积",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "6月17日，万达集团第137个万达广场台州经开万达广场正式开业（2016年）",
+    "note": "inferred 标记经万达官网确认"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 15.69,
+    "verdict": "minor_diff",
+    "query": "台州经开万达广场 开业时间 建筑面积",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "商业面积约15.69万㎡；综合体总建筑面积52万㎡",
+    "note": "内部12万㎡与商业面积15.69万㎡差约24%；52万㎡为含写字楼综合体口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 960,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "台州经开万达广场 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据（多次检索遇限流）",
+    "note": "benchmark 基准层，无外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "台州经开万达广场 客流 万人次 开业当日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到开业当日/节假日万人次级客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0146",
+  "name": "龙湖绍兴镜湖天街",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "浙江省/绍兴市 浙江省绍兴市越城区越西路与灵芝路交叉路口东南侧",
+    "external": "绍兴市越城区镜湖新区凤林西路与越西路交叉口",
+    "verdict": "match",
+    "query": "龙湖绍兴镜湖天街 开业 建筑面积",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "位于镜湖凤林西路与越西路交叉口，龙湖商业首进绍兴",
+    "note": "城市/板块一致；路口描述与内部（越西路×灵芝路）不同"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "龙湖绍兴镜湖天街 开业 建筑面积",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "2024年9月30日，龙湖绍兴镜湖天街盛大启幕",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.4,
+    "external": 13.4,
+    "verdict": "match",
+    "query": "龙湖绍兴镜湖天街 开业 建筑面积",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "项目商业面积约13.4万平方米，地下2层地上6层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1200,
+    "verdict": "match",
+    "query": "镜湖天街 绍兴 停车场 车位",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "共有超过1200个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "绍兴镜湖天街 开业 客流 人次 国庆",
+    "source_url": "https://zzhz.zjol.com.cn/gsdt/202410/t20241023_30598253.shtml",
+    "source_level": "media",
+    "evidence": "开业3天客流突破50万人次；开业一年累计超1500万人次",
+    "note": "累计口径不可比；1500万/365≈4.1万人次/日与内部4.25量级吻合"
+   }
+  ]
+ },
+ {
+  "id": "0545",
+  "name": "襄阳吾悦广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖北省/襄阳市 湖北省襄阳市樊城区邓城大道和长虹北路的交汇处吾悦广场",
+    "external": "湖北省襄阳市樊城区长虹北路与邓城大道交口",
+    "verdict": "match",
+    "query": "襄阳吾悦广场 樊城区 开业时间 商业面积",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "襄阳吾悦广场，湖北省襄阳市樊城区长虹北路与邓城大道交口（上市公司公告）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2019,
+    "verdict": "minor_diff",
+    "query": "襄阳吾悦广场 樊城区 开业时间 商业面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2019年11月27日盛大开业，系新城控股第81座吾悦广场",
+    "note": "内部2020与实际2019年11月底开业差1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 67,
+    "external": 67,
+    "verdict": "match",
+    "query": "襄阳吾悦广场 2020年12月 开业 总建筑面积 万方",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积超67万方",
+    "note": "67万方为综合体总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "襄阳吾悦广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见襄阳项目车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "襄阳吾悦广场 开业 当日客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "港交所公告有某吾悦开业3天34万人次，未指明襄阳，无法采用",
+    "note": "部分检索遇限流未完成"
+   }
+  ]
+ },
+ {
+  "id": "0996",
+  "name": "平湖吾悦广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "浙江省/嘉兴市 浙江省嘉兴市平湖市东方路与胜利路交叉口东50米",
+    "external": "浙江省嘉兴市平湖市南市路811号（另有当湖街道乍王线大胜段口径）",
+    "verdict": "match",
+    "query": "\"平湖吾悦广场\" 开业 2020",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "平湖吾悦广场…浙江省嘉兴市平湖市南市路811号",
+    "note": "城市级平湖市一致；街道级地址各来源不一"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "\"平湖吾悦广场\" 开业 2020",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "吾悦广场项目表：平湖吾悦广场 南区-浙北区域 2018/9/28",
+    "note": "差约2年；新城项目列表载2018-09-28开业，未见2020年开业依据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 8.2,
+    "verdict": "match",
+    "query": "\"平湖吾悦广场\" 开业 2020",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "media",
+    "evidence": "建筑面积约8.2万平方米，2020年度商业运营收入约8190万元",
+    "note": "差约14.6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 560,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "平湖吾悦广场 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据",
+    "note": "benchmark 基准层，无外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "平湖吾悦广场 开业 客流 万人",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到开业/节假日万人次级客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0413",
+  "name": "北京延庆万达广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "北京市/北京市 北京市延庆区新城街与庆园街交汇处",
+    "external": "北京市延庆区庆园街与新城街交汇处（庆园街59号）",
+    "verdict": "match",
+    "query": "\"延庆万达广场\" 开业 \"北京第\" 几家",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "项目位于延庆区庆园街与新城街交汇处，北京第8座万达广场",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "\"延庆万达广场\" 开业 \"北京第\" 几家",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2020年9月30日北京延庆万达广场开业迎客",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.3,
+    "external": 14,
+    "verdict": "match",
+    "query": "\"延庆万达广场\" 开业 \"北京第\" 几家",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "项目总建筑面积约14万平方米，入驻万达影城、物美等206个品牌",
+    "note": "差约5%"
+   },
+   {
+    "metric": "parking",
+    "internal": 734,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "延庆万达广场 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据（部分检索遇限流）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "延庆万达广场 客流量 万人次 假期",
+    "source_url": "https://m.sohu.com",
+    "source_level": "media",
+    "evidence": "2026年五一音乐节三天共接待游客7.7万人次，销售额3826万元",
+    "note": "3天累计口径不可比；折算日均约2.6万人次/日，低于内部4.5"
+   }
+  ]
+ },
+ {
+  "id": "1639",
+  "name": "长春绿园吾悦广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "吉林省/长春市 吉林省长春市绿园区皓月大路与正阳街交叉口东南角",
+    "external": "长春市绿园区正阳街以东、皓月大路以南",
+    "verdict": "match",
+    "query": "绿园吾悦广场 长春 开业时间 商业面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "official",
+    "evidence": "坐落于长春市绿园区正阳街以东、皓月大路以南吾悦广场项目（法院公告）",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "\"长春绿园吾悦广场\" 开业",
+    "source_url": "https://m.163.com",
+    "source_level": "media",
+    "evidence": "2017年开业，新城在东北首座综合体；2025年7月办八周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 57,
+    "external": 57,
+    "verdict": "match",
+    "query": "长春绿园吾悦广场 开业 建筑面积",
+    "source_url": "https://m.163.com",
+    "source_level": "media",
+    "evidence": "建筑面积约57万平方米，总投资近30亿元",
+    "note": "综合体总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春绿园吾悦广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.8,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "长春吾悦广场 开业 客流 人次 当日",
+    "source_url": "https://finance.ifeng.com",
+    "source_level": "media",
+    "evidence": "开业三日累计客流量达98.2万人次，销售额突破3550万元",
+    "note": "3日累计口径不可比；折算开业期日均约32.7万人次/日，高于内部13.8"
+   }
+  ]
+ },
+ {
+  "id": "2749",
+  "name": "太原龙湖万达广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "山西省/太原市 山西省太原市杏花岭区解放路175号",
+    "external": "太原市杏花岭区解放（北）路175号，龙潭片区龙湖公园旁",
+    "verdict": "match",
+    "query": "太原龙湖万达广场 开业 2015 解放路 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E9%BE%99%E6%B9%96%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/12584538",
+    "source_level": "media",
+    "evidence": "位于山西省太原市杏花岭区解放路175号（龙潭片区）",
+    "note": "部分来源写作解放北路175号"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "太原龙湖万达广场 停车位 客流 万人次",
+    "source_url": "https://doc.rongdasoft.com",
+    "source_level": "official",
+    "evidence": "万达债券募集书：太原龙湖万达广场 2015年9月；2026年9月办十一周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 148,
+    "external": 148,
+    "verdict": "match",
+    "query": "太原龙湖万达广场 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%AA%E5%8E%9F%E9%BE%99%E6%B9%96%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/12584538",
+    "source_level": "media",
+    "evidence": "项目总建筑面积148万平方米，其中商业和超五星级酒店20万平方米",
+    "note": "148为综合体总建面；商业部分债券文件载20.22万㎡（口径不同）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原龙湖万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原龙湖万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见万人次级客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1033",
+  "name": "青岛城阳万象汇",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "山东省/青岛市 山东省青岛市城阳区正阳中路157号",
+    "external": "青岛市城阳区正阳中路商圈（正阳中路与靖城路交汇处）",
+    "verdict": "match",
+    "query": "城阳万象汇 青岛 开业时间 万平方米",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "华润万象汇青岛首作落户正阳中路商圈，与家佳源隔路相望",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "城阳万象汇 青岛 开业时间 万平方米",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2018年12月20日城阳万象汇正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9.1,
+    "verdict": "match",
+    "query": "青岛城阳万象汇 乐都汇 改造 建筑面积 平方米",
+    "source_url": "https://k.sina.cn",
+    "source_level": "media",
+    "evidence": "城阳万象汇总建筑面积9.1万㎡，地上4.4万㎡、地下4.7万㎡",
+    "note": "差约10%；经济导报2025另有5.86万㎡口径（原乐都汇改造前）"
+   },
+   {
+    "metric": "parking",
+    "internal": 565,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "城阳万象汇 华润 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "城阳万象汇 华润 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见万人次级客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1364",
+  "name": "武汉银泰创意城",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "湖北省/武汉市 湖北省武汉市洪山区珞瑜路35号",
+    "external": "武汉市洪山区珞南街珞瑜路35号（珞珈创意体验城，银泰运营）",
+    "verdict": "match",
+    "query": "武汉银泰创意城 珞瑜路 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E7%8F%9E%E7%8F%88%E5%88%9B%E6%84%8F%E4%BD%93%E9%AA%8C%E5%9F%8E/16328706",
+    "source_level": "media",
+    "evidence": "位于武汉市洪山区珞南街珞瑜路35号，与群光广场隔街相望",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2014,
+    "verdict": "conflict",
+    "query": "武汉银泰创意城 珞瑜路 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E7%8F%9E%E7%8F%88%E5%88%9B%E6%84%8F%E4%BD%93%E9%AA%8C%E5%9F%8E/16328706",
+    "source_level": "media",
+    "evidence": "2014年9月30日开业；2024年办「追光十刻」十周年庆典",
+    "note": "差4年，内部2010无外部依据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉银泰创意城 客流 万人次 假期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2020年五一相对清明的倍数描述，无万人次级数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1289",
+  "name": "上饶信州万达广场",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "江西省/上饶市 江西省上饶市信州区滨江西路66号",
+    "external": "上饶市信州区滨江西路与广信大道交会处（老火车站旁）",
+    "verdict": "match",
+    "query": "上饶万达广场 开业 2016 建筑面积 信州区",
+    "source_url": "http://www.wandaplazas.com/2016/company_1127/1537.html",
+    "source_level": "official",
+    "evidence": "位于上饶市信州区滨江西路与广信大道交会处",
+    "note": ""
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "上饶万达广场 开业 2016 建筑面积 信州区",
+    "source_url": "http://www.wandaplazas.com/2016/company_1127/1537.html",
+    "source_level": "official",
+    "evidence": "11月25日，万达商业第167座万达广场上饶万达广场开业（2016）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 75,
+    "external": 75,
+    "verdict": "match",
+    "query": "上饶万达广场 开业 2016 建筑面积 信州区",
+    "source_url": "http://www.wandaplazas.com/2016/company_1127/1537.html",
+    "source_level": "official",
+    "evidence": "总建筑面积约75万平方米，总投资约60亿元",
+    "note": "综合体总建面口径（含住宅等）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1358,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上饶万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上饶万达广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见万人次级客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1748",
+  "name": "泸州万象汇",
+  "layer": "chain",
+  "results": [
+   {
+    "metric": "address",
+    "internal": "四川省/泸州市 四川省泸州市江阳区康城路一段1号",
+    "external": "四川省泸州市江阳区康城路一段1号（佳乐世纪城片区）",
+    "verdict": "match",
+    "query": "泸州华润万象汇 开业 时间 江阳区 康城路",
+    "source_url": "https://bk.taobao.com",
+    "source_level": "media",
+    "evidence": "地址江阳区康城路一段1号；永辉「万象汇店」设于B1/LG层",
+    "note": "永辉超市半年报亦列该店地址，官方口径一致"
+   },
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "泸州万象汇 开业时间 华润置地",
+    "source_url": "https://www.crland.com.hk/societyResponse/2024-07-23/7351c6a1-2bdc-4b81-a524-c1a4189bf001.pdf",
+    "source_level": "official",
+    "evidence": "华润置地2015年报：截至2015年底已开业万象汇含泸州万象汇",
+    "note": "个别来源称2016年8月底开业（永辉先行），官方年报口径2015年内已开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 4.7,
+    "verdict": "conflict",
+    "query": "泸州万象汇 商业面积 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "2019年整合推广方案：商业建筑面积约4.7万㎡，共8层+地下3层停车场",
+    "note": "差超100%；数据见推广方案转载摘要未获直接链接，权威总建面未检索到"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": 932,
+    "verdict": "conflict",
+    "query": "泸州万象汇 商业面积 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "《2019年泸州华润万象汇年度整合推广方案》：停车位总计932个",
+    "note": "差约61%；来源为推广方案转载，未获直接链接"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泸州万象汇 开业 客流量 日均客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见万人次级客流数据",
+    "note": ""
+   }
+  ]
+ }
+]

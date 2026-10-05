@@ -167,6 +167,24 @@ describe('体量类指标（建面/车位/商户/首店/开业年）', () => {
     const m = extractMetrics({ 商业级别与体量: '1200个停车位' , 交通条件: '停车1小时免费' });
     expect(m.parking).toBe(1200);
   });
+  it('车位防误抓：锚词后顿号列举不吞扶梯/品牌数；无量词「2000停车位」可匹配（大卫城案例）', () => {
+    // 郑州大卫城源文：「2000停车位、108扶梯、45升降梯」——修复前把 108（扶梯）当车位
+    expect(extractMetrics({ 商业级别与体量: '2000停车位、108扶梯、45升降梯' }).parking).toBe(2000);
+    expect(extractMetrics({ 商业级别与体量: '停车位约500、商铺300家' }).parking).toBe(500);
+  });
+  it('开业年：正式开幕锚优先于奠基完整日期；建造动词日期排除（重庆IFS案例）', () => {
+    const ifs = '2010年7月24日奠基→2014年6月T1封顶→2015年竣工→2017年9月15日购物中心正式开幕；2018年9月整体开业率超92%';
+    expect(extractMetrics({ 开业时间: ifs }).openedYear).toBe(2017);
+    // 无正式开业/开幕时的完整年月日照常取，但排除奠基/封顶/竣工/开工语境（动词可在日期前后）
+    expect(extractMetrics({ 开业时间: '2013年10月奠基→2014年8月封顶→2016年7月1日购物中心与嘉华酒店同期开业' }).openedYear).toBe(2016);
+    // 焕新日期不带「日」时不构成完整日期，落到开业动词锚
+    expect(extractMetrics({ 开业时间: '2005年开业；2025年7月启动调改，2026年1月焕新启幕' }).openedYear).toBe(2005);
+    // 无非开业语境时完整年月日照常取
+    expect(extractMetrics({ 开业时间: '2019年11月27日开业' }).openedYear).toBe(2019);
+    expect(extractMetrics({ 开业时间: '2016年12月24日试营业开业（首日客流）' }).openedYear).toBe(2016);
+    // 「正式开幕」与「正式开业」同级可靠
+    expect(extractMetrics({ 开业时间: '2014年6月封顶，2021年10月20日全面开业，另有正式开幕仪式' }).openedYear).toBe(2021);
+  });
   it('商户与首店', () => {
     expect(extractMetrics({ 商业级别与体量: '870家商户、22个业态' }).merchants).toBe(870);
     expect(extractMetrics({ 商业级别与体量: '入驻商户超350家' }).merchants).toBe(350);
