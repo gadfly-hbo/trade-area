@@ -1,0 +1,287 @@
+[
+ {
+  "id": "0231",
+  "name": "成都佛罗伦萨小镇二期",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2021, "external": 2021, "verdict": "match",
+    "query": "成都佛罗伦萨小镇二期 开业时间", "source_url": "https://sichuan.scol.com.cn/amsc/202109/58279974.html", "source_level": "media",
+    "evidence": "四川新闻2021-09：成都佛罗伦萨小镇二期正式亮相，新增约3万㎡零售空间", "note": "网易2021-10亦载「9月正式亮相的上海和成都二期」；无邻近开业动词为提取瑕疵，年份正确"},
+   {"metric": "buildingArea", "internal": 3.2, "external": 3.27, "verdict": "match",
+    "query": "成都佛罗伦萨小镇二期 扩建 建筑面积 3.2万", "source_url": "https://www.sohu.com/a/383469487_355475", "source_level": "media",
+    "evidence": "二期投资5亿元、占地108亩，建筑面积约2.8万㎡、计容面积约3.27万㎡", "note": "与计容口径差约2%"},
+   {"metric": "parking", "internal": 3500, "external": 3500, "verdict": "unit_mismatch",
+    "query": "成都佛罗伦萨小镇 停车位 3500 二期", "source_url": "https://local.cctv.com", "source_level": "official",
+    "evidence": "央视网2024-07：三期停车楼935个，落成后小镇总配置近3500个停车位", "note": "3500为一二三期小镇整体口径，非二期专属——auditFlags所疑邻接口径属实"},
+   {"metric": "trafficPeak", "internal": 2.45, "external": null, "verdict": "no_external_data",
+    "query": "成都佛罗伦萨小镇 停车位 3500 二期", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到成都项目节假日单日峰值客流公开数据"}
+  ]
+ },
+ {
+  "id": "2015",
+  "name": "保定万博广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2013, "external": null, "verdict": "no_external_data",
+    "query": "保定万博广场 开业时间 建筑面积", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "仅见百科载2009-05始建、2012-12封顶，无权威开业年份"},
+   {"metric": "buildingArea", "internal": 57, "external": 57, "verdict": "match",
+    "query": "保定万博广场 客流 节假日", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "抖音百科：总建筑面积约57万平方米（超高层酒店+大型商业中心+公寓）", "note": ""},
+   {"metric": "parking", "internal": 3000, "external": null, "verdict": "no_external_data",
+    "query": "保定万博广场 停车位 建筑面积 万平方米", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到权威车位数，auditFlags所疑邻接口径无法外证"},
+   {"metric": "trafficPeak", "internal": 7, "external": null, "verdict": "no_external_data",
+    "query": "保定万博广场 客流 节假日", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "仅见保定全市域假期客流，无本项目数据"}
+  ]
+ },
+ {
+  "id": "2073",
+  "name": "重庆泽胜中央广场A馆",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2017, "external": 2013, "verdict": "conflict",
+    "query": "涪陵泽胜中央广场 开业时间 建筑面积", "source_url": "http://m.winshang.com", "source_level": "trade",
+    "evidence": "赢商网项目库：泽胜中央广场2013-01-18开业、商业面积4.3万㎡", "note": "分期错配证实：2017为B馆开业年（2017-10试营业/12-16正式），A馆2013-01-18开街、19日正式开业"},
+   {"metric": "buildingArea", "internal": 38, "external": 4.3, "verdict": "unit_mismatch",
+    "query": "涪陵泽胜中央广场 开业时间 建筑面积", "source_url": "http://m.winshang.com", "source_level": "trade",
+    "evidence": "赢商网载商业面积4.3万㎡；38万㎡为全项目总建面（A馆商业约5.3-5.8万㎡）", "note": "A馆条目套用项目总建面口径，与商业面积口径不可比"},
+   {"metric": "parking", "internal": 924, "external": null, "verdict": "no_external_data",
+    "query": "泽胜中央广场 停车位 客流 涪陵", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "仅酒店点评侧写停车费，无权威车位数"},
+   {"metric": "trafficPeak", "internal": 9, "external": null, "verdict": "no_external_data",
+    "query": "泽胜中央广场 停车位 客流 涪陵", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未见A馆节假日单日峰值口径数据"}
+  ]
+ },
+ {
+  "id": "2088",
+  "name": "贵阳Garland花果园购物中心一期",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2012, "external": 2012, "verdict": "match",
+    "query": "贵阳花果园购物中心 开业时间 什么时候开业", "source_url": null, "source_level": "self-media",
+    "evidence": "多源汇总：花果园购物中心2012年12月28日开业；央视2014年报道佐证其时已运营", "note": "内部记12月19日，年份一致；一期归属正确，错配排除"},
+   {"metric": "buildingArea", "internal": 12.3, "external": null, "verdict": "no_external_data",
+    "query": "花果园购物中心 建筑面积 万平方米 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "仅见同片区海豚广场商业面积22万㎡等他项数据"},
+   {"metric": "parking", "internal": 1053, "external": null, "verdict": "no_external_data",
+    "query": "花果园购物中心 建筑面积 万平方米 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到该项目车位数"},
+   {"metric": "trafficPeak", "internal": 8.5, "external": null, "verdict": "no_external_data",
+    "query": "花果园购物中心 日均 客流 万人次", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "外部仅南明区5综合体合计口径（2023国庆8天133万），无本项目单日峰值"}
+  ]
+ },
+ {
+  "id": "2147",
+  "name": "东莞长安万达广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2013, "external": 2013, "verdict": "match",
+    "query": "长安万达广场 盛大开业 2013", "source_url": "http://static.sse.com.cn", "source_level": "official",
+    "evidence": "万达商业2022年债券募集书：东莞长安万达广场于2013年7月开业", "note": "另有载2013-07-20开业"},
+   {"metric": "buildingArea", "internal": 37.4, "external": 37.4, "verdict": "match",
+    "query": "东莞长安万达广场 2013年 开业 建筑面积", "source_url": null, "source_level": "media",
+    "evidence": "规划用地约8.8万㎡，总建筑面积约37.4万平方米", "note": "外部另有购物中心口径17.63万㎡（债券募集书）；内部37.4为总建面口径一致"},
+   {"metric": "parking", "internal": 1620, "external": null, "verdict": "no_external_data",
+    "query": "长安万达广场 开业 客流 30万 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到权威车位数"},
+   {"metric": "trafficPeak", "internal": 30, "external": null, "verdict": "no_external_data",
+    "query": "长安万达广场 开业 客流 30万 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "内部30万实为开业首日客流口径（非节假日峰值），外部亦未见节假日峰值数据"}
+  ]
+ },
+ {
+  "id": "2149",
+  "name": "威海威高广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2011, "external": 2013, "verdict": "conflict",
+    "query": "威高购物中心 威海 2013年8月 开业", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "抖音百科：威高购物中心于2013年8月15日开业", "note": "错配证实：内部2011为招商发布会年（2011-07-18）；乐天百货2013-04-25开业、购物中心2013-08-15开业"},
+   {"metric": "buildingArea", "internal": 37, "external": 37, "verdict": "match",
+    "query": "威海威高广场 开业时间 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "抖音百科：威高广场37万㎡中央都会综合体", "note": "另有总建筑面积逾42万㎡口径（差12%，仍在±20%内）"},
+   {"metric": "parking", "internal": 1650, "external": null, "verdict": "no_external_data",
+    "query": "威海威高广场 开业时间 建筑面积", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "内部为1500-1800区间中值，外部未见权威车位数"},
+   {"metric": "trafficPeak", "internal": 12.5, "external": null, "verdict": "no_external_data",
+    "query": "威海威高广场 开业时间 建筑面积", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到节假日单日峰值客流数据"}
+  ]
+ },
+ {
+  "id": "2207",
+  "name": "无锡杉杉奥特莱斯广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2026, "external": 2026, "verdict": "match",
+    "query": "无锡杉杉奥特莱斯广场 开业时间 建筑面积", "source_url": "https://c.m.163.com", "source_level": "media",
+    "evidence": "2026-09-16试营业、2026-09-24正式开业（网易/百科引观点网）", "note": "2025-10-20主体封顶为施工节点，2026年开业已落地"},
+   {"metric": "buildingArea", "internal": 13.52, "external": 13.65, "verdict": "match",
+    "query": "无锡杉杉奥特莱斯广场 开业时间 建筑面积", "source_url": "https://www.guandian.cn/m/show/603401", "source_level": "trade",
+    "evidence": "观点网：总建筑面积13万平方米（约136,492㎡），拟9月24日开业", "note": "差约1%"},
+   {"metric": "parking", "internal": 3500, "external": 2474, "verdict": "minor_diff",
+    "query": "无锡杉杉奥特莱斯 开业 客流 停车位", "source_url": "https://www.guandian.cn/m/show/603401", "source_level": "trade",
+    "evidence": "标配机动车位2474个（含地下999）；试营业期增设临时车位后机动车+非机动车超4000个", "note": "内部3500介于标配2474（差41%）与开业期混合口径4000+之间，疑为混合口径"},
+   {"metric": "trafficPeak", "internal": 10.5, "external": null, "verdict": "no_external_data",
+    "query": "无锡杉杉奥特莱斯 开业 客流 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "开业仅两周，未见客流统计披露"}
+  ]
+ },
+ {
+  "id": "2208",
+  "name": "武汉杉杉奥特莱斯广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2025, "external": 2025, "verdict": "match",
+    "query": "武汉杉杉奥特莱斯 开业时间 建筑面积", "source_url": null, "source_level": "media",
+    "evidence": "湖北日报2025-09-26：武汉杉杉奥莱正式开门迎客，开业当日客流破10万", "note": "内部试营业2025-09-25与外部「9月下旬开业」吻合"},
+   {"metric": "buildingArea", "internal": 13, "external": 13, "verdict": "match",
+    "query": "武汉杉杉奥特莱斯 开业时间 建筑面积", "source_url": null, "source_level": "media",
+    "evidence": "武汉经开区后官湖畔约13万平方米商业综合体，200余家品牌入驻", "note": ""},
+   {"metric": "parking", "internal": 2000, "external": null, "verdict": "no_external_data",
+    "query": "武汉杉杉奥特莱斯 国庆 客流 停车", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "仅见杉杉系「超2000个」泛述，无武汉项目权威车位数"},
+   {"metric": "trafficPeak", "internal": 10, "external": 10, "verdict": "unit_mismatch",
+    "query": "武汉杉杉奥特莱斯 国庆 客流 停车", "source_url": null, "source_level": "media",
+    "evidence": "湖北日报：开业当日客流量突破10万人次、销售额突破1000万元", "note": "外部10万为开业首日口径，非节假日峰值；国庆8天累计64万（日均约8万）为内部引证"}
+  ]
+ },
+ {
+  "id": "2227",
+  "name": "南昌百盛百货B馆",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2020, "external": 2020, "verdict": "match",
+    "query": "南昌百盛 B馆 八一馆 开业 2020", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+    "evidence": "百度百科：2020年初，百盛B馆开业", "note": "内部试营业2020-01-07吻合；2020归属B馆正确，错配排除"},
+   {"metric": "buildingArea", "internal": 4.29, "external": null, "verdict": "no_external_data",
+    "query": "南昌百盛B馆 建筑面积 万平方米 车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "多组关键词未见B馆建面报道（内部口径：计租总建面42,892㎡）"},
+   {"metric": "parking", "internal": 320, "external": null, "verdict": "no_external_data",
+    "query": "南昌百盛B馆 建筑面积 万平方米 车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到车位数"},
+   {"metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data",
+    "query": "南昌百盛B馆 建筑面积 万平方米 车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到客流数据"}
+  ]
+ },
+ {
+  "id": "2324",
+  "name": "龙湖重庆金沙天街A馆",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2020, "external": 2020, "verdict": "match",
+    "query": "龙湖金沙天街 2020年12月30日 开业 建筑面积 A馆", "source_url": "https://epaper.cqrb.cn", "source_level": "media",
+    "evidence": "重庆日报2020-12-31：12月30日龙湖重庆金沙天街正式开业，500品牌同日亮相", "note": "A馆与B馆同期开业，2020归属A馆正确——错配排除"},
+   {"metric": "buildingArea", "internal": 7, "external": 7, "verdict": "match",
+    "query": "金沙天街 A馆 7万方 停车位 客流", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+    "evidence": "百度百科：A馆「品质生活中心」建筑面积约7万㎡（B馆14万㎡）", "note": ""},
+   {"metric": "parking", "internal": 5000, "external": 2000, "verdict": "conflict",
+    "query": "金沙天街 A馆 7万方 停车位 客流", "source_url": "http://cq.bendibao.com", "source_level": "self-media",
+    "evidence": "本地宝：金沙天街现有停车位2000余个（开业时部分设施未完善）", "note": "内部5000为项目整体口径（含枢纽），天街商业口径2000余个，差>50%"},
+   {"metric": "trafficPeak", "internal": 25, "external": null, "verdict": "no_external_data",
+    "query": "金沙天街 A馆 7万方 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "外部仅见开业3天销售破1亿，未见节假日峰值客流"}
+  ]
+ },
+ {
+  "id": "2334",
+  "name": "上海天空万科广场",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match",
+    "query": "上海天空万科广场 开业 2022 建筑面积 停车位", "source_url": "https://www.shqp.gov.cn", "source_level": "official",
+    "evidence": "青浦区政府2022-09-30：天空万科广场精彩启幕", "note": "开业三天客流32万、销售2520万（赢商网2022-10）"},
+   {"metric": "buildingArea", "internal": 10, "external": 10, "verdict": "match",
+    "query": "上海天空万科广场 开业 2022 建筑面积 停车位", "source_url": "https://www.shqp.gov.cn", "source_level": "official",
+    "evidence": "商业体量约10万平方米（盒子+街区TOD商业，徐盈路站上盖）", "note": "80万㎡为天空之城综合体总量口径，非商业"},
+   {"metric": "parking", "internal": 800, "external": null, "verdict": "no_external_data",
+    "query": "上海天空万科广场 开业 2022 建筑面积 停车位", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "商场专属车位未披露（3131个为住宅部分口径，不适用）"},
+   {"metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "no_external_data",
+    "query": "天空万科广场 客流 6.5万 周末 节假日", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "外部仅开业期3天32万（日均约10.7万），周末节假日6.5万口径未见外证"}
+  ]
+ },
+ {
+  "id": "2340",
+  "name": "重庆佛罗伦萨小镇一期",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2021, "external": 2021, "verdict": "match",
+    "query": "重庆佛罗伦萨小镇 奥特莱斯 2021年 开业 沙坪坝", "source_url": "https://outletscn.com", "source_level": "trade",
+    "evidence": "美通社2021-02：重庆佛罗伦萨小镇2021-02-03正式启幕；奥莱网「自2021年开业」", "note": "二期2026-09-10开业（官网新闻），一期2021归属正确——错配排除"},
+   {"metric": "buildingArea", "internal": 6, "external": 3.7, "verdict": "unit_mismatch",
+    "query": "重庆佛罗伦萨小镇 建筑面积 万平方米 停车", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+    "evidence": "一期建筑面积近3.7万㎡；项目总建筑面积超6万㎡", "note": "内部6万为项目总量口径（含二期），一期口径约3.7万㎡——期别错配"},
+   {"metric": "parking", "internal": 296, "external": null, "verdict": "no_external_data",
+    "query": "重庆佛罗伦萨小镇 建筑面积 万平方米 停车", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未见一期车位数公开数据"},
+   {"metric": "trafficPeak", "internal": 3.25, "external": null, "verdict": "no_external_data",
+    "query": "重庆佛罗伦萨小镇 建筑面积 万平方米 停车", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到节假日单日峰值客流数据"}
+  ]
+ },
+ {
+  "id": "2348",
+  "name": "广州万国奥特莱斯",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2025, "external": 2002, "verdict": "conflict",
+    "query": "万国广场 江南大道中 广州 2002年1月 开业", "source_url": "https://news.sina.cn/sa/2002-01-29/detail-ikkntiak6927637.d.html", "source_level": "media",
+    "evidence": "万国广场2002年1月落成正式开业（新浪2002年报道）；2006年6月转型城市版奥莱", "note": "内部2025系「离境退税集中退付点」启用年，非开业——错配证实"},
+   {"metric": "buildingArea", "internal": 8, "external": 8, "verdict": "match",
+    "query": "广州万国奥特莱斯 万国广场 开业 2002", "source_url": "https://gz.kbgok.com/xiezilou/wanguoguangchang", "source_level": "self-media",
+    "evidence": "占地14,000㎡、经营面积80,000㎡，2002年1月落成正式开业", "note": ""},
+   {"metric": "parking", "internal": 200, "external": null, "verdict": "no_external_data",
+    "query": "广州万国奥特莱斯 万国广场 开业 2002", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到权威车位数"},
+   {"metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "no_external_data",
+    "query": "广州万国奥特莱斯 万国广场 开业 2002", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到本项目节假日单日峰值客流数据"}
+  ]
+ },
+ {
+  "id": "0274",
+  "name": "上海前湾印象城MEGA",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2025, "external": 2025, "verdict": "match",
+    "query": "虹桥前湾印象城MEGA 开业 2025年12月 客流", "source_url": null, "source_level": "media",
+    "evidence": "上观新闻：虹桥前湾印象城MEGA于2025年12月开业（12月上旬正式登场）", "note": "虹桥商务区管委会官网此前载「预计今年年底开业」，如期落地"},
+   {"metric": "buildingArea", "internal": 26, "external": 26, "verdict": "match",
+    "query": "上海前湾印象城MEGA 开业时间 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+    "evidence": "总建筑面积26万平方米（华漕商业地标，百科引腾讯网）", "note": ""},
+   {"metric": "parking", "internal": 2000, "external": null, "verdict": "no_external_data",
+    "query": "上海前湾印象城MEGA 开业时间 建筑面积", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到车位数"},
+   {"metric": "trafficPeak", "internal": 17.5, "external": null, "verdict": "no_external_data",
+    "query": "虹桥前湾印象城MEGA 开业 2025年12月 客流", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "内部17.5为节假日15-20万预测区间中值（2026元旦假期日均14万为内部引证），外部未见单日峰值"}
+  ]
+ },
+ {
+  "id": "0284",
+  "name": "南昌大悦城",
+  "layer": "r3",
+  "results": [
+   {"metric": "openedYear", "internal": 2025, "external": 2025, "verdict": "match",
+    "query": "南昌大悦城 开业 2025年 建筑面积", "source_url": "https://wj.jxnews.com.cn", "source_level": "media",
+    "evidence": "江西新闻网：5月31日南昌大悦城正式开业", "note": "大悦城2025年新开项目之一（另一个为深圳，7月开业）"},
+   {"metric": "buildingArea", "internal": 13, "external": 13, "verdict": "match",
+    "query": "南昌大悦城 开业 2025年 建筑面积", "source_url": "https://wj.jxnews.com.cn", "source_level": "media",
+    "evidence": "投资超30亿元、体量13万平方米，引入超220家品牌", "note": ""},
+   {"metric": "parking", "internal": 1200, "external": null, "verdict": "no_external_data",
+    "query": "南昌大悦城 开业 首日 客流 24万", "source_url": null, "source_level": null,
+    "evidence": "检索无结果", "note": "未检索到车位数"},
+   {"metric": "trafficPeak", "internal": 15, "external": 24, "verdict": "unit_mismatch",
+    "query": "南昌大悦城 开业 首日 客流 24万", "source_url": "https://wj.jxnews.com.cn", "source_level": "media",
+    "evidence": "开业首日（2025-05-31）客流突破24万人次、销售额1630万元", "note": "外部24万为开业首日口径，非节假日峰值；内部15为节假日12-18万推断中值"}
+  ]
+ }
+]

@@ -1,0 +1,563 @@
+[
+ {
+  "id": "2513",
+  "name": "杭州临平百联奥特莱斯一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "杭州临平百联奥特莱斯 开业时间",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "一期2021年建成开业（2020-01百联股份公告委托代建一期）；2026年二期「话梅集」试营业",
+    "note": "条目名「一期」与外部开业时间所指一致，为2021年开业的分期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24,
+    "external": 13,
+    "verdict": "conflict",
+    "query": "杭州临平百联奥特莱斯广场 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "项目总建面约24万㎡分三期建设，一期开业部分约13万㎡",
+    "note": "内部24万㎡为全项目三期总口径，条目为「一期」，按一期约13万㎡比较超50%偏差"
+   },
+   {
+    "metric": "parking",
+    "internal": 2300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州百联奥特莱斯 临平 停车位 个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "公开渠道未检索到临平项目车位数量的权威披露"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2567",
+  "name": "石家庄北国奥特莱斯一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "石家庄北国奥特莱斯 开业时间 一期",
+    "source_url": "https://baike.baidu.com/item/河北北国奥特莱斯商城有限公司/21094966",
+    "source_level": "self-media",
+    "evidence": "百度百科：北国奥特莱斯于2016年底开业；2014-05-30为项目奠基",
+    "note": "「一期2014」实为奠基时间，项目整体2016年底开业，无更早开业分期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 17,
+    "verdict": "match",
+    "query": "北国奥特莱斯 石家庄 鹿泉 开业 建筑面积",
+    "source_url": "http://xingtai.tz1288.com",
+    "source_level": "self-media",
+    "evidence": "占地600亩，建筑面积达17万平方米（另有商业约10万㎡口径）",
+    "note": "20 vs 17 差约17.6%，≤20%；来源为自媒体转述，置信度一般"
+   },
+   {
+    "metric": "parking",
+    "internal": 5000,
+    "external": 5000,
+    "verdict": "match",
+    "query": "北国奥特莱斯 石家庄 鹿泉 开业 建筑面积",
+    "source_url": "http://xingtai.tz1288.com",
+    "source_level": "self-media",
+    "evidence": "整体规划近5000个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2568",
+  "name": "上海前滩太古里一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2021,
+    "verdict": "conflict",
+    "query": "上海前滩太古里 开业时间 2021 建筑面积",
+    "source_url": "https://sd.swireproperties.com",
+    "source_level": "official",
+    "evidence": "太古地产官网：前滩太古里於2021年9月底開幕（2021-09-30开业）",
+    "note": "项目无分期命名，2019年应为建设期节点；2026年底扩建落成为延伸项目非独立期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12.1,
+    "verdict": "match",
+    "query": "上海前滩太古里 开业时间 2021 建筑面积",
+    "source_url": "https://sd.swireproperties.com",
+    "source_level": "official",
+    "evidence": "总楼面面积约130万平方呎（约合12.1万㎡）；另有总建面20万㎡口径",
+    "note": "内部12与官方GFA一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "前滩太古里 停车位 个 停车场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅检索到收费标准与5G-A智慧泊车报道，无车位总数官方数字"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2610",
+  "name": "金华永盛购物中心A馆",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "金华永盛购物广场 2013年 开业 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/永盛购物广场",
+    "source_level": "self-media",
+    "evidence": "百度百科：永盛购物广场2013年10月31日正式开业（含两幢馆的整体广场）",
+    "note": "A馆无单列开业记录，广场整体2013年开业，A馆随广场口径一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7,
+    "verdict": "match",
+    "query": "金华永盛购物广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/永盛购物广场",
+    "source_level": "self-media",
+    "evidence": "广场总建筑面积约7万平方米（另有约8万㎡报道）",
+    "note": "外部无A馆单列建面，按广场整体口径比较"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金华永盛购物广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「地下约8000㎡大型停车场」表述，无车位个数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2624",
+  "name": "上海青浦百联奥特莱斯一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2006,
+    "external": 2006,
+    "verdict": "match",
+    "query": "上海青浦百联奥特莱斯 开业时间 2006 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "青浦百联奥莱一期2006年4月28日开业，全国第一家奥特莱斯广场",
+    "note": "二期2026-09-21开业，与一期区分清楚"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 11,
+    "verdict": "minor_diff",
+    "query": "百联青浦奥特莱斯 一期 2006年开业 营业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "一期占地16万㎡、总建筑面积约11万㎡；2026年二期后总体量20万㎡",
+    "note": "内部7万㎡低于通行一期口径约36%，处20-50%区间；7万或为部分商业面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2800,
+    "external": 2800,
+    "verdict": "match",
+    "query": "百联青浦奥特莱斯 一期 2006年开业 营业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "拥有可停放2800余辆机动车的大型停车场及600辆车地下车库",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "2740",
+  "name": "厦门万象城二期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2026,
+    "external": 2026,
+    "verdict": "match",
+    "query": "厦门万象城二期 开业时间 2026",
+    "source_url": "https://fj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪福建：5月29日厦门万象城二期正式「璨漫启幕」（2026-05-29）",
+    "note": "外部开业时间明确对应二期，与条目名一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.8,
+    "external": 4.8,
+    "verdict": "match",
+    "query": "厦门万象城二期 开业时间 2026",
+    "source_url": "http://www.lingshouw.com",
+    "source_level": "trade",
+    "evidence": "灵兽网：华润置地厦门万象城二期开业，面积达4.8万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 384,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 17.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "17.5万量级疑似厦门万象城整体口径而非二期单馆，未见外部来源"
+   }
+  ]
+ },
+ {
+  "id": "2799",
+  "name": "砂之船（杭州）奥莱",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "砂之船 杭州 奥特莱斯 开业时间 2011 建筑面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "华人头条2016：2011年开业的砂之船（杭州）奥莱（钱江新城波浪文化城B1）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 11,
+    "verdict": "unit_mismatch",
+    "query": "\"砂之船\" 杭州 奥特莱斯 建筑面积",
+    "source_url": "https://baike.baidu.com/item/砂之船国际生活广场/8256644",
+    "source_level": "self-media",
+    "evidence": "商业面积5万余㎡（百科）；项目方口径商业约4.5万㎡、总建面约11万㎡",
+    "note": "内部4.5实为商业面积口径，与总建面约11万㎡口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 5000,
+    "verdict": "conflict",
+    "query": "杭州砂之船奥特莱斯 停车场 车位 个",
+    "source_url": "https://baike.baidu.com/item/砂之船国际生活广场/8256644",
+    "source_level": "self-media",
+    "evidence": "设逾5000个停车位（含波浪文化城B2整体）；项目方自有口径逾2000个",
+    "note": "数值差>50%但为口径差异：自有2000 vs 含整体5000，内部值有项目方依据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州砂之船奥莱 周年庆 首日 客流 30万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "源md记载周年庆首日22-30万（A级），内部4万疑为普通节假日口径，本次检索未获直接网络来源"
+   }
+  ]
+ },
+ {
+  "id": "2829",
+  "name": "青岛伟东·乐客城",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "青岛伟东乐客城 开业时间 2013 建筑面积",
+    "source_url": "https://baike.baidu.com/item/ROCK%20CITY青岛乐客城/2991581",
+    "source_level": "self-media",
+    "evidence": "2013年1月26日正式开业（李沧区李村商圈）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 12.2,
+    "verdict": "match",
+    "query": "青岛伟东乐客城 开业时间 2013 建筑面积",
+    "source_url": "https://baike.baidu.com/item/ROCK%20CITY青岛乐客城/2991581",
+    "source_level": "self-media",
+    "evidence": "商业建筑面积约12.2万㎡（设计方口径）；总建面22万㎡为整体口径",
+    "note": "内部13与商业建面12.2差约6.6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "青岛伟东乐客城 开业时间 2013 建筑面积",
+    "source_url": "https://baike.baidu.com/item/ROCK%20CITY青岛乐客城/2991581",
+    "source_level": "self-media",
+    "evidence": "涵盖300余家店铺及近2000个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 8,
+    "verdict": "unit_mismatch",
+    "query": "青岛伟东乐客城 开业时间 2013 建筑面积",
+    "source_url": "https://baike.baidu.com/item/ROCK%20CITY青岛乐客城/2991581",
+    "source_level": "self-media",
+    "evidence": "开业首月周末高峰期客流量可达8万人次/日",
+    "note": "外部为开业首月周末高峰口径，非现行节假日峰值，不可直接比较"
+   }
+  ]
+ },
+ {
+  "id": "2833",
+  "name": "龙湖苏州相城天街A馆",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "苏州相城天街 开业时间 2024 建筑面积 龙湖",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "A馆于2024年9月28日开业（苏州第五座天街，华侨城龙湖·启元项目）",
+    "note": "外部开业时间明确对应A馆；B馆2026年规划中"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 13.3,
+    "verdict": "match",
+    "query": "苏州相城天街 开业时间 2024 建筑面积 龙湖",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "A馆建筑面积约13.3万平方米",
+    "note": "14 vs 13.3 差约5.3%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖苏州相城天街 停车位 车位 个 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅周边楼盘车位数据，商场自身车位数未披露"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0323",
+  "name": "苏州华贸中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "苏州华贸中心 开业时间 2025 建筑面积 万平方米",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "计划2025年底全面投入运营；商业部分苏州万象天地2025-12-29开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 78,
+    "external": 78,
+    "verdict": "match",
+    "query": "苏州华贸中心 开业时间 2025 建筑面积 万平方米",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积达78万平方米的城市综合体",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州华贸中心 停车位 4000 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅检索到公寓区1262个车位（售楼口径），整体4000未获证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0500",
+  "name": "兰州王府井百货",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2010,
+    "verdict": "conflict",
+    "query": "兰州王府井百货 开业时间 2007",
+    "source_url": "http://net.bangong.cn",
+    "source_level": "official",
+    "evidence": "王府井集团官网：第19家门店，2009-08-29试营业，2010年11月正式开业",
+    "note": "内部2007与官方试营业/正式开业均差≥2年；2007或为万国港物业早期时间，未证实"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 5.1,
+    "verdict": "minor_diff",
+    "query": "兰州王府井百货 开业时间 2007",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "企业经营信息：经营面积5.1万平方米（东岗东路1999号兰新万国港）",
+    "note": "外部为经营面积口径，与建筑面积口径有差；差约31%处20-50%区间"
+   },
+   {
+    "metric": "parking",
+    "internal": 280,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0060",
+  "name": "合肥杉杉奥特莱斯",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2024,
+    "verdict": "minor_diff",
+    "query": "合肥杉杉奥特莱斯 开业时间 建筑面积",
+    "source_url": "https://m.36kr.com/p/3162977138584323",
+    "source_level": "media",
+    "evidence": "36氪：2024年12月20日合肥杉杉奥莱正式亮相，此前试营业约半个月",
+    "note": "内档2023或取试营业前节点；±1年且涉试营业/正式开业，记minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 11,
+    "verdict": "match",
+    "query": "合肥杉杉奥特莱斯 开业时间 建筑面积",
+    "source_url": "https://m.36kr.com/p/3162977138584323",
+    "source_level": "media",
+    "evidence": "36氪：总体量11万平方米的公园式商业（另有约12万㎡说法）",
+    "note": "内档inferred，与主流报道一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1400,
+    "external": 1500,
+    "verdict": "match",
+    "query": "合肥杉杉奥莱 停车位 车位",
+    "source_url": "http://hefei.qugonglue.com",
+    "source_level": "self-media",
+    "evidence": "交通攻略页：奥莱内部停车场约1500个车位",
+    "note": "差6.7%；攻略类非官方口径，仅参考"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "合肥杉杉奥特莱斯广场 12月20日 正式开业 客流",
+    "source_url": "https://m.36kr.com/p/3162977138584323",
+    "source_level": "media",
+    "evidence": "试营业半月总客流超60万人次、开业首三日35万人次，均累计口径",
+    "note": "无节假日单日峰值口径，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0077",
+  "name": "深圳怀德万象汇",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "深圳怀德万象汇 开业 建筑面积 福永",
+    "source_url": "https://www.baoanone.com",
+    "source_level": "media",
+    "evidence": "宝安湾：11月27日怀德万象汇正式开业（2025年）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18,
+    "external": 18,
+    "verdict": "match",
+    "query": "深圳怀德万象汇 开业 建筑面积 福永",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "网易：总体量18万㎡，分A馆、B馆，深圳最大万象汇",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3500,
+    "external": 3500,
+    "verdict": "match",
+    "query": "怀德万象汇 停车位 车位数量",
+    "source_url": "https://www.baoanone.com",
+    "source_level": "media",
+    "evidence": "宝安湾开业报道：配备超3500个停车位",
+    "note": "auditFlag疑邻接误取，经查与开业报道一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.1,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳怀德万象汇 开业 建筑面积 福永",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "开业报道未见节假日单日客流数据",
+    "note": "内档inferred"
+   }
+  ]
+ },
+ {
+  "id": "0652",
+  "name": "上海东方商厦(旗舰店)",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1993,
+    "external": 1993,
+    "verdict": "match",
+    "query": "上海东方商厦 徐家汇 1993年 开业 建筑面积",
+    "source_url": "https://www.toutiao.com",
+    "source_level": "self-media",
+    "evidence": "1993年1月开业，上海首家建成开业的中外合资大型零售企业",
+    "note": "另有1993年10月正式开业说；年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 2.6,
+    "verdict": "conflict",
+    "query": "上海东方商厦 建筑面积 万平方米",
+    "source_url": "https://blog.naver.com",
+    "source_level": "self-media",
+    "evidence": "占地5900㎡，建筑面积2.6万㎡，营业面积1.5万㎡",
+    "note": "外部仅见2.6万㎡旧口径，与内档5.5万差>50%；未找到5.5万佐证"
+   },
+   {
+    "metric": "parking",
+    "internal": 440,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海东方商厦 徐家汇 1993年 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮检索未见停车位数据",
+    "note": "内档为benchmark基准值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海东方商厦 徐家汇 1993年 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0718",
+  "name": "北京百盛商城（复兴门店）",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 1994,
+    "verdict": "conflict",
+    "query": "北京百盛 复兴门店 开业时间 历史",
+    "source_url": "https://udn.com",
+    "source_level": "media",
+    "evidence": "复兴门百盛1994年3月开业，系百盛中国大陆首家门店",
+    "note": "内档2025为商改写/宣布闭店年份，非开业；auditFlag的焕新口径不成立，2025年底停业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.2,
+    "external": 1.5,
+    "verdict": "conflict",
+    "query": "北京百盛购物中心 复兴门 建筑面积",
+    "source_url": "https://udn.com",
+    "source_level": "media",
+    "evidence": "建筑面积约1.5万平方米（分南北两楼）",
+    "note": "另有营业总面积5万余㎡口径；与内档6.2万建面差>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京百盛购物中心 复兴门 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见停车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京百盛 复兴门店 开业时间 历史",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0724",
+  "name": "佛山美的悦然广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "美的悦然广场 佛山 商业面积 万㎡ 购物中心",
+    "source_url": "https://content.foshanplus.com",
+    "source_level": "media",
+    "evidence": "佛山+：北滘新城首个悦然系项目12月20日亮相；百科记2019-12-20开业",
+    "note": "2021-12交万达商管更名重开、2024-01收回更名悦然，原始开业2019不变"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 14,
+    "verdict": "match",
+    "query": "美的悦然广场 佛山 商业面积 万㎡ 购物中心",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "购物中心商业面积8万㎡；赢商网条目建面14万㎡；总规模20万㎡口径不一",
+    "note": "建面口径14万㎡与内档差17.9%记match；8万㎡为商业面积另一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": 1800,
+    "verdict": "conflict",
+    "query": "美的悦然广场 佛山 商业面积 万㎡ 购物中心",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百科配套信息：停车位约1800个",
+    "note": "差>50%；内档750疑误取，建议复核原md（外部为百科口径）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "美的悦然广场 北滘 开业 2019年12月",
+    "source_url": "https://content.foshanplus.com",
+    "source_level": "media",
+    "evidence": "开业前三天（12/20-22）客流突破42万人次，累计口径",
+    "note": "无节假日单日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "0832",
+  "name": "南京城北万象汇",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "南京城北万象汇 开业时间 建筑面积",
+    "source_url": "https://finance.jschina.com.cn/sthb/jingji/202312/t20231215_3334355.shtml",
+    "source_level": "media",
+    "evidence": "中国江苏网：12月15日南京城北万象汇正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21,
+    "external": 21,
+    "verdict": "match",
+    "query": "南京城北万象汇 开业时间 建筑面积",
+    "source_url": "https://finance.jschina.com.cn/sthb/jingji/202312/t20231215_3334355.shtml",
+    "source_level": "media",
+    "evidence": "纯商业建筑面积约21万㎡，A/B双馆，全国体量最大万象汇",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": 2400,
+    "verdict": "minor_diff",
+    "query": "南京城北万象汇 停车位 多少个",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：商业体量10万㎡、约2400个停车位",
+    "note": "检索摘要提示该数字或与相邻项目混淆；内档4000疑邻接误取，建议人工复核原md"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "南京城北万象汇 12月15日 开业 燕子矶 客流",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "搜狐2023-02：开业首年预计吸引2000万人次，年口径不可比",
+    "note": "无节假日单日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "0854",
+  "name": "常德武陵万达广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "\"常德万达广场\" 2016年 开业 盛大",
+    "source_url": "https://wap.eastmoney.com",
+    "source_level": "media",
+    "evidence": "每日经济新闻：2016年9月16日开业，首日营业额近2577万元",
+    "note": "auditFlag所指2016年即开业年（领导出席为奠基/开业活动）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 83,
+    "external": 83.5,
+    "verdict": "match",
+    "query": "常德万达广场 开业日期 总建筑面积",
+    "source_url": "https://wap.eastmoney.com",
+    "source_level": "media",
+    "evidence": "总投资超60亿元，总建筑面积约83万平方米",
+    "note": "83万为城市综合体总量（含住宅）；商业面积另有约18.4万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 4200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常德万达广场 开业时间 建筑面积 武陵",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常德万达广场 开业时间 建筑面积 武陵",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0866",
+  "name": "淮安中央商场（新亚店）",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "淮安 新亚商城 中央商场 开业时间 建筑面积",
+    "source_url": "http://zx.huaian.gov.cn/col/14070_116627/art/m/17119008/1713144029453wjB179fg.html",
+    "source_level": "official",
+    "evidence": "淮安市政府网：2010年9月16日崭新的中央新亚国际购物广场正式开门迎客",
+    "note": "前身新亚商城1994-12-28开业；条目指中央商场新亚店（现楼），2010对应现楼开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "江苏中央新亚百货 淮安 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "中央商场集团官网：营业面积近8万平方米（营业口径非建面）",
+    "note": "无现楼建筑面积直接口径，不可比；1994年老楼建面2.01万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 418.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "淮安 新亚商城 中央商场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见停车位数据",
+    "note": "内档418.5为异常小数，建议人工复核原md"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "淮安 新亚商城 中央商场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0902",
+  "name": "贵阳方圆荟·海豚广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "贵阳方圆荟海豚广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%96%B9%E5%9C%86%E8%8D%9F%C2%B7%E6%B5%B7%E8%B1%9A%E5%B9%BF%E5%9C%BA/64597720",
+    "source_level": "self-media",
+    "evidence": "2024-05-31/06-01开业（人民网/新华网2024年6月报道）",
+    "note": "2023-12世纪金源签约入驻运营属更名/焕新，不算开业；原始开业2024"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22,
+    "external": 22,
+    "verdict": "match",
+    "query": "贵阳方圆荟海豚广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E6%96%B9%E5%9C%86%E8%8D%9F%C2%B7%E6%B5%B7%E8%B1%9A%E5%B9%BF%E5%9C%BA/64597720",
+    "source_level": "self-media",
+    "evidence": "百科：项目商业面积达22万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 4500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳 海豚广场 方圆荟 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳 海豚广场 方圆荟 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日单日客流数据（仅区域月均口径）",
+    "note": "内档25.5为inferred，花果园全域口径风险，建议复核原md"
+   }
+  ]
+ },
+ {
+  "id": "0924",
+  "name": "龙湖济南北宸天街",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "龙湖济南北宸天街 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网等：2023年12月1日正式开业，龙湖济南第二座天街",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.1,
+    "external": 7.88,
+    "verdict": "minor_diff",
+    "query": "\"北宸天街\" 济南 商业体量 万方",
+    "source_url": "https://wap.zhengguannews.cn",
+    "source_level": "official",
+    "evidence": "龙湖集团港交所公告：济南北宸天街建筑面积78,828平方米",
+    "note": "内档14.1或为TOD整体口径（项目总建面26.08万㎡）；差44%记minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南北宸天街 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见地下停车场及充电设施信息，无车位数",
+    "note": "auditFlag疑邻接误取但无外部数值可校验"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖济南北宸天街 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": "内档inferred"
+   }
+  ]
+ },
+ {
+  "id": "0950",
+  "name": "西安西咸吾悦广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "西咸吾悦广场 开业 沣东新城 时间",
+    "source_url": "https://i.ifeng.com",
+    "source_level": "media",
+    "evidence": "西咸吾悦广场2019-09-27开业（沣东新城昆明路与天台路），新城西安首座吾悦",
+    "note": "西咸新区另有沣西吾悦广场2020年开业，勿混淆；未见2022年开业记录"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 12.5,
+    "verdict": "match",
+    "query": "西咸吾悦广场 开业 沣东新城 时间",
+    "source_url": "https://i.ifeng.com",
+    "source_level": "media",
+    "evidence": "商业建筑面积约12.5万平方米",
+    "note": "差12%"
+   },
+   {
+    "metric": "parking",
+    "internal": 880,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西咸吾悦广场 停车位 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见停车收费标准（4元/小时），无车位数",
+    "note": "内档为benchmark基准值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西咸吾悦广场 停车位 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": "内档inferred"
+   }
+  ]
+ },
+ {
+  "id": "0982",
+  "name": "临沂泰盛广场一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "临沂泰盛广场 开业时间 一期 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "百科：2018-12-21正式开业；家家悦2018-03-15进驻；未见一期2015开业证据",
+    "note": "条目带一期，但全项目即2018年开业，2015无外部支撑"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "临沂泰盛广场 开业时间 一期 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "总建面27万㎡、商业总建筑面积约16万㎡，无一期单独口径",
+    "note": "内档10万疑为一期口径，与全项目口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": 3000,
+    "verdict": "conflict",
+    "query": "临沂泰盛广场 开业时间 一期 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "抖音百科：停车场约3000个车位（15条通道，8进7出）",
+    "note": "差>50%；内档750疑误取，建议复核原md"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "临沂 泰盛广场 2015年 开业 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": "内档inferred"
+   }
+  ]
+ },
+ {
+  "id": "0985",
+  "name": "长沙百联奥特莱斯广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "长沙百联奥特莱斯 望城 开业 百联集团",
+    "source_url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/52074015",
+    "source_level": "self-media",
+    "evidence": "2018-09-30开业试运营，170余个品牌同步迎客",
+    "note": "项目位于长沙县黄花镇临空区，非望城；百联全国第七家奥莱"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 8.49,
+    "verdict": "minor_diff",
+    "query": "长沙百联奥特莱斯 望城 开业 百联集团",
+    "source_url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/52074015",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约84,870㎡（另有约12万㎡口径）",
+    "note": "外部口径8.5-12万不一；对8.49万差29%记minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "长沙百联奥特莱斯 望城 开业 百联集团",
+    "source_url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E8%B4%AD%E7%89%A9%E5%B9%BF%E5%9C%BA%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/52074015",
+    "source_level": "self-media",
+    "evidence": "占地240亩，近2000个停车位",
+    "note": "auditFlag疑邻接误取，经查与外部一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙百联奥特莱斯 望城 开业 百联集团",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": "内档inferred"
+   }
+  ]
+ },
+ {
+  "id": "0987",
+  "name": "贵阳世纪金源购物中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "贵阳世纪金源购物中心 开业 2011年 世纪城",
+    "source_url": "http://gz.people.com.cn",
+    "source_level": "official",
+    "evidence": "人民网贵州频道：自2011年4月开业以来，已成为区域消费升级重要引擎",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30,
+    "verdict": "match",
+    "query": "贵阳世纪金源购物中心 开业时间 建筑面积 停车位",
+    "source_url": "http://www.gz.chinanews.com.cn",
+    "source_level": "media",
+    "evidence": "中新网贵州：经营管理购物中心总建筑面积约30万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳世纪金源购物中心 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮检索未见车位数",
+    "note": "auditFlag疑邻接误取但无外部数值可校验"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20.78,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳世纪金源购物中心 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见节假日峰值客流数据",
+    "note": "内档20.78为inferred，全域口径风险，建议复核原md"
+   }
+  ]
+ },
+ {
+  "id": "0107",
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2025,
+    "verdict": "conflict",
+    "query": "东莞 万象滨海购物村 MIXC VILLAGE 开业时间 建筑面积",
+    "source_url": "http://www.zsnews.cn",
+    "source_level": "media",
+    "evidence": "中山网：2025-12-28正式开业；项目2024-03动工、2024-10封顶",
+    "note": "内档2022不可能是开业时间（2024年才动工）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "万象滨海购物村 开业 东莞滨海湾新区 2025年12月",
+    "source_url": "http://www.zsnews.cn",
+    "source_level": "media",
+    "evidence": "商业体量约10万平方米（占地约10.7公顷）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "东莞 万象滨海购物村 MIXC VILLAGE 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见停车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "万象滨海购物村 开业 东莞滨海湾新区 2025年12月",
+    "source_url": "https://epaper.nfnews.com",
+    "source_level": "media",
+    "evidence": "南方日报等：开业首日累计客流近12万人次",
+    "note": "开业首日口径不可比；内档9万为benchmark基准值"
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1336",
+  "name": "青岛崂山丽达购物中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2009,
+    "verdict": "conflict",
+    "query": "青岛崂山丽达购物中心 开业时间 建筑面积",
+    "source_url": "http://news.qingdaonews.com",
+    "source_level": "media",
+    "evidence": "2009年5月秦岭路丽达购物中心开业；2016年报道《丽达：深耕七年》印证2009年开业",
+    "note": "内部2016疑为报道发表年份误取，实际开业2009年5月，差7年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "青岛崂山丽达购物中心 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：丽达购物中心总体建筑面积约12万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛崂山丽达购物中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "随主指标查询未命中车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛崂山丽达购物中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "随主指标查询未命中节假日峰值客流"
+   }
+  ]
+ },
+ {
+  "id": "1371",
+  "name": "深圳蛇口招商花园城",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2006,
+    "external": 2006,
+    "verdict": "match",
+    "query": "蛇口招商花园城 开业时间 花园城购物中心",
+    "source_url": "http://www.zgppb.xyz",
+    "source_level": "media",
+    "evidence": "2024-01-26焕新启幕系改造重开；「18载蝶变」推算2006年开业，南山首座一站式购物中心",
+    "note": "焕新时间2024不算开业，以原始开业2006为准"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "招商蛇口商业REIT 蛇口花园城 建筑面积",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "房导早报：蛇口花园城商业总面积约10万平方米（含独栋沃尔玛）",
+    "note": "该项目为招商商业REIT申报底层资产"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "蛇口花园城 商业面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "专项检索未命中；内部值basis=benchmark最低可信层，建议留意"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14.52,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "蛇口花园城 商业面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中；14.52万人次/日峰值对该体量偏高，internal亦为推断值"
+   }
+  ]
+ },
+ {
+  "id": "1391",
+  "name": "无锡百联奥特莱斯广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2013,
+    "verdict": "conflict",
+    "query": "无锡百联奥特莱斯广场 开业时间 商业面积",
+    "source_url": "https://m.wx.bendibao.com",
+    "source_level": "media",
+    "evidence": "无锡百联奥特莱斯广场2013年6月29日正式开业（新吴区硕放）",
+    "note": "差4年，内部2017疑为扩容/调整年份误取"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 12,
+    "verdict": "minor_diff",
+    "query": "无锡百联奥特莱斯广场 开业时间 商业面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "占地286亩，商业面积约12万平方米",
+    "note": "内部7.5较外部12低约37.5%，属20-50%区间"
+   },
+   {
+    "metric": "parking",
+    "internal": 2250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡百联奥特莱斯广场 开业时间 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "随主指标查询未命中车位数（internal为推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡百联奥特莱斯广场 开业时间 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值客流"
+   }
+  ]
+ },
+ {
+  "id": "1436",
+  "name": "南宁会展航洋城",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2007,
+    "verdict": "match",
+    "query": "南宁会展航洋城 开业时间 建筑面积 万㎡",
+    "source_url": "http://gwwg.com",
+    "source_level": "media",
+    "evidence": "原航洋国际购物中心2007年开业；2015年改造后以「会展航洋城」重开业（焕新不算开业）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 45,
+    "external": 15,
+    "verdict": "unit_mismatch",
+    "query": "南宁会展航洋城 建筑面积 万平方米 航洋国际城",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "购物中心（裙楼）总建筑面积约15万平方米，赢商网同为约15万㎡",
+    "note": "内部45万为含写字楼14.77万+万豪酒店的总建面口径；md原文自注购物中心15万㎡与外部一致，总建面与商业面积口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南宁会展航洋城 建筑面积 万平方米 航洋国际城",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中独立车位数来源"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南宁会展航洋城 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日单日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1437",
+  "name": "青岛嘉年华·海信广场VILLAGE",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2024,
+    "verdict": "conflict",
+    "query": "嘉年华海信广场VILLAGE 9月 正式开业 青岛",
+    "source_url": "https://www.dailyqd.com",
+    "source_level": "media",
+    "evidence": "青岛日报：2024-09-06嘉年华·海信广场VILLAGE正式开业；2023-07-01海信接手更名",
+    "note": "内部2022为破产重整裁定年（2022-01-20）误作开业；条目所指VILLAGE于2024-09-06正式开业，md原文亦自述该日期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "嘉年华 海信广场VILLAGE 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "Maigoo黄岛区购物中心条目：建筑面积约14万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "嘉年华 海信广场VILLAGE 商业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "嘉年华海信广场VILLAGE 9月 正式开业 青岛",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见2024国庆销售同比+42%，无峰值客流绝对值"
+   }
+  ]
+ },
+ {
+  "id": "1447",
+  "name": "深圳新沙天虹购物中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "深圳新沙天虹购物中心 开业 2016",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "天虹股份2026年半年度报告：新沙天虹购物中心2016-12-16开业，直营租赁物业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 10.65,
+    "verdict": "minor_diff",
+    "query": "深圳新沙天虹购物中心 开业 2016",
+    "source_url": "https://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "同上公告：新沙天虹购物中心建筑面积约10.65万㎡",
+    "note": "内部6.5为推断值，较官方10.65低约39%"
+   },
+   {
+    "metric": "parking",
+    "internal": 450,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳新沙天虹购物中心 开业 2016",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中车位数（internal为推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳新沙天虹购物中心 开业 2016",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1462",
+  "name": "龙湖苏州狮山天街A馆",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2017,
+    "verdict": "minor_diff",
+    "query": "龙湖苏州狮山天街 A馆 B馆 开业时间",
+    "source_url": "https://www.longfor.com/detail/220_60d7e0a0239830a4a12126cec984e94d.html",
+    "source_level": "official",
+    "evidence": "龙湖官网：2017-09-28狮山天街盛大启幕，开业当日销售1678万元",
+    "note": "分期确认：A馆（主馆）2017-09-28开业，B馆（北里，约1.2万㎡）2021年开业；内部2018与A馆实际差1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23.5,
+    "external": 27,
+    "verdict": "match",
+    "query": "苏州狮山天街 2017年9月28日 开业 体量",
+    "source_url": "https://www.longfor.com/detail/220_60d7e0a0239830a4a12126cec984e94d.html",
+    "source_level": "official",
+    "evidence": "龙湖官网宣传27万㎡狮山天街（另有百科29万㎡口径）",
+    "note": "外部27万为全项目总建面（A+B馆），A馆单独面积无披露；差约13%在容差内"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖苏州狮山天街 A馆 B馆 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中车位数（internal为推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州狮山天街 2017年9月28日 开业 体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中；20万人次/日峰值为推断值且数值偏高，建议重点复核"
+   }
+  ]
+ },
+ {
+  "id": "1465",
+  "name": "广州祈福缤纷世界一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2017,
+    "verdict": "minor_diff",
+    "query": "祈福缤纷世界 开业 番禺 2016年",
+    "source_url": "https://topick.hket.com",
+    "source_level": "media",
+    "evidence": "TOPick/搜狐：祈福缤纷世界2017年8月开幕（2017-08-12开业报道）",
+    "note": "md自认开业时间为低置信推断；差1年且涉正式开业口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 8,
+    "verdict": "conflict",
+    "query": "广州祈福缤纷世界 一期 开业时间 商业面积",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "祈福集团副董事长：首期商业面积约8万平方米；赢商大数据约6.8万㎡",
+    "note": "内部15为低置信推断，较官方首期8万高近一倍；另有「总体规划52万㎡」「园区总面积30万㎡」等整体口径均对不上15"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": 8000,
+    "verdict": "conflict",
+    "query": "广州祈福缤纷世界 一期 开业时间 商业面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：祈福缤纷世界商业区设大型生态停车场，可提供近8000个机动车位",
+    "note": "内部1500为推断值，与百科近8000差距大"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "祈福缤纷世界 开业 番禺 2016年",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1498",
+  "name": "北京凯德MALL太阳宫",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "凯德MALL太阳宫 开业时间 车位 建筑面积",
+    "source_url": "https://www.capitaland.com/cn/zh/shop/malls-listing/capitamalltaiyanggong.html",
+    "source_level": "official",
+    "evidence": "凯德消费REIT招募说明书：凯德MALL·太阳宫建于2012年；2021年9月办九周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.4,
+    "external": 8.37,
+    "verdict": "match",
+    "query": "\"凯德MALL\" 太阳宫 停车位 车位数量",
+    "source_url": "https://www.capitaland.com/cn/zh/shop/malls-listing/capitamalltaiyanggong.html",
+    "source_level": "official",
+    "evidence": "凯德消费REITs招募说明书：商业建筑面积约83,693平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 650,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "凯德MALL太阳宫 停车场 车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次专项检索均无官方车位数；内部650带「邻接品牌/扶梯」标记，无法外部证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "凯德MALL太阳宫 开业时间 车位 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "0159",
+  "name": "昆山金鹰国际购物中心B馆",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "昆山金鹰 海昌海洋探索中心 开业 B馆 面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网《乐启·新声，昆山金鹰国际购物中心B座9月28日盛大开业》（2023-09-28）",
+    "note": "分期确认：B座2023-09-28开业（A馆2012-12开业），内部2023对应B馆无误"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山金鹰国际购物中心 扩建 新馆 2023年9月28日 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见AB合体约22万㎡（昆山最大综合体），B馆单独面积无披露；按A馆12万推算B馆约10万与内部9接近，仅供人工参考"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山金鹰国际购物中心 B馆 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "md引Maigoo「B座1000+车位」未获独立来源印证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆山金鹰 海昌海洋探索中心 开业 B馆 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "0185",
+  "name": "深圳坂田万科广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "深圳坂田万科广场 开业时间 建筑面积 车位",
+    "source_url": "http://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "万科2024年社会责任报告：坂田万科广场2024-10-09正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "深圳坂田万科广场 开业时间 建筑面积 车位",
+    "source_url": "http://money.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "万科2024社会责任报告：综合体约50万㎡，含15万㎡商业空间",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "坂田万科广场 停车场 车位数",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "专项检索未命中；内部2800带「邻接品牌/扶梯」标记，无法证实"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳坂田万科广场 开业时间 建筑面积 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1520",
+  "name": "上海嘉亭荟城市生活广场一期",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2012,
+    "verdict": "conflict",
+    "query": "\"嘉亭荟\" 总建筑面积 商业面积 万㎡ 凯德",
+    "source_url": "http://www.thinkeroffice.com",
+    "source_level": "media",
+    "evidence": "2012-04报道：与安亭轨交站为邻的嘉亭荟城市生活广场将于今年5月开业",
+    "note": "分期确认：一期2012年开业（md原文自述2009开工→2012-05试营业、09-06开业），内部2009误取开工年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.05,
+    "external": 12.2,
+    "verdict": "match",
+    "query": "\"嘉亭荟\" 总建筑面积 商业面积 万㎡ 凯德",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "凯德商用2012年公告：安亭七层购物中心总建面（不含停车场）约122,000㎡",
+    "note": "差约9.4%；md引同花顺REIT资料11.05万㎡口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 813,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海嘉亭荟城市生活广场 开业时间 建筑面积 安亭",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "md引上海汽车报「一期813个（一+二期1872个）」未获独立来源印证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海嘉亭荟城市生活广场 开业时间 建筑面积 安亭",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1521",
+  "name": "上海凯德虹口商业中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "凯德龙之梦虹口 2011年12月 开业 虹口足球场",
+    "source_url": "https://baike.baidu.com/item/凯德龙之梦虹口",
+    "source_level": "self-media",
+    "evidence": "原凯德龙之梦虹口2011年12月开业；2023年12月迎来开业12周年",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 27.2,
+    "external": 23,
+    "verdict": "match",
+    "query": "凯德虹口商业中心 开业时间 车位 建筑面积 上海",
+    "source_url": "https://www.capitaland.com/cn/zh/shop/malls-listing/hongkouplaza-copy.html",
+    "source_level": "official",
+    "evidence": "总建面约23万㎡，其中零售约17万㎡（另有172,959㎡口径）",
+    "note": "差约18%在容差内；零售面积17万为另一子口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": 1100,
+    "verdict": "match",
+    "query": "凯德虹口商业中心 开业时间 车位 建筑面积 上海",
+    "source_url": "https://baike.baidu.com/item/凯德龙之梦虹口",
+    "source_level": "self-media",
+    "evidence": "地下3-5层共约1100个车位",
+    "note": "audit标记「邻接品牌/扶梯」的车位值获外部印证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "凯德虹口商业中心 开业时间 车位 建筑面积 上海",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中节假日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1539",
+  "name": "上海虹桥天地",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "上海虹桥天地 开业时间 车位 总建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "虹桥商务区首个综合体，2015年开业；演艺中心2015下半年落成启用",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 38,
+    "external": 42.9,
+    "verdict": "match",
+    "query": "上海虹桥天地 开业时间 车位 总建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "虹桥商务区发展报告：虹桥天地总建筑面积429,151.48㎡",
+    "note": "差约11%；瑞安中报零售可供出租12.4万㎡为另一子口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 1135,
+    "verdict": "conflict",
+    "query": "虹桥天地 停车场 车位 个",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：虹桥天地地下车位1120个、地上车位15个（合计1135）",
+    "note": "内部2000较外部1135高约76%，audit标记「邻接品牌/扶梯」属实存疑"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海虹桥天地 开业时间 车位 总建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见五一总客流57万人次/销售额4234万，无单日峰值绝对值"
+   }
+  ]
+ },
+ {
+  "id": "1564",
+  "name": "宁波万象城",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "宁波万象城 开业时间 商业面积 万㎡",
+    "source_url": "https://www.crmixclifestyle.com.hk/gsxw/2021-06-01/1974372.html",
+    "source_level": "official",
+    "evidence": "华润官网：宁波万象城2021-05-29璀璨启幕（湾头，400余家品牌）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.5,
+    "external": 16.5,
+    "verdict": "match",
+    "query": "宁波万象城 开业时间 商业面积 万㎡",
+    "source_url": "https://www.crmixclifestyle.com.hk/gsxw/2021-06-01/1974372.html",
+    "source_level": "official",
+    "evidence": "总建面约28.6万㎡；地上商业14.5万㎡+地下商业1.99万㎡=16.49万㎡",
+    "note": "内部16.5对应商业面积口径，与外部16.49万一致；28.6万为全项目总建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宁波万象城 开业时间 商业面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未命中车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宁波万象城 节假日 客流 峰值 单日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索仅见同城其他商场客流，未命中宁波万象城单日峰值"
+   }
+  ]
+ }
+]

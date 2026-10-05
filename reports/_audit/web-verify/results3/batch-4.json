@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1569",
+  "name": "龙湖重庆时代天街D馆",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "重庆时代天街D馆 开业时间",
+    "source_url": "http://www.challenge-design.com",
+    "source_level": "trade",
+    "evidence": "2016年7月D馆开业；一期A/B馆2012年底开业、二期C馆2014年初开业",
+    "note": "分期错配排除：2016对应D馆本身，非A/B(2012)/C馆(2014)；百度百科同口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.39,
+    "external": 10,
+    "verdict": "match",
+    "query": "重庆时代天街D馆 开业时间",
+    "source_url": "http://www.challenge-design.com",
+    "source_level": "trade",
+    "evidence": "D馆2016年开业，规模约10万平方米",
+    "note": "10.39为精确提取值，与约10万㎡口径一致（差3.9%）；时代天街总面积60万㎡为全馆群口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 7000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆时代天街 停车位 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见渝中生活平台单一停车库约837车位",
+    "note": "837为单个停车库口径，非全项目；无全项目可靠车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13,
+    "external": 27,
+    "verdict": "unit_mismatch",
+    "query": "重庆龙湖时代天街 日均客流量 节假日 客流数据",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2025年五一5日客流136.7万人次，日均约27万（整个时代天街）",
+    "note": "外部为全馆群5日日均口径，非D馆节假日单日峰值，口径不可比"
+   }
+  ]
+ },
+ {
+  "id": "1600",
+  "name": "北京丰科万达广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "北京丰科万达广场 开业时间",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "丰台万达广场于2016年12月22日正式开业（又名丰科万达）",
+    "note": "内部行文「2016年3月9日项目公司成立」无开业动词，但开业确为2016年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 19,
+    "external": 24,
+    "verdict": "minor_diff",
+    "query": "丰科万达广场 建筑面积 万平方米 商业面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "总规划建筑面积约24万㎡，地上约14万、地下约9万",
+    "note": "差20.8%；外部24万为总规划口径（地上14万或近商业口径），内部19万口径来源不明"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京丰科万达广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见「车位数量有限，高峰停车难」评论，无确切车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丰科万达广场 建筑面积 万平方米 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "开业/建面/车位多组检索均未见客流数据",
+    "note": "内部为推断值，无公开节假日峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "1620",
+  "name": "深圳坪山益田假日世界",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "深圳坪山益田假日世界 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2017年开业，商业体量约8.6万㎡，坪山首个大型商业综合体；2017-12-29华润万家进驻开业",
+    "note": "另有「2018年6月开业」说法未见直接信源；2026年开业九周年庆典佐证2017"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.6,
+    "external": 8.6,
+    "verdict": "match",
+    "query": "深圳坪山益田假日世界 开业时间 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "六和城总建面30.87万㎡，商业部分约8.6万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "深圳坪山益田假日世界 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "商业面积约8.6万㎡，配备约2000个停车位",
+    "note": "审计标记「邻接品牌/扶梯」风险经外部独立口径确认无误"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.95,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳坪山益田假日世界 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "各组检索均未见节假日峰值客流",
+    "note": "内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "1696",
+  "name": "沈阳皇城恒隆广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "沈阳皇城恒隆广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2010年6月开业（Palace 66，中街）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.93,
+    "external": 10.93,
+    "verdict": "match",
+    "query": "沈阳皇城恒隆广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商铺面积约10.93万平方米（另有约13万㎡建筑面积口径）",
+    "note": "10.93与恒隆披露GFA口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 844,
+    "external": 800,
+    "verdict": "match",
+    "query": "沈阳皇城恒隆广场 停车位 车位",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "负二、负三层为停车场，提供超过800个车位",
+    "note": "「超过800」与844一致（恒隆年报口径844）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳皇城恒隆广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1758",
+  "name": "常州江南环球港",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2015,
+    "verdict": "minor_diff",
+    "query": "江南环球港 2015年 试营业 开业",
+    "source_url": "http://static.sse.com.cn",
+    "source_level": "official",
+    "evidence": "月星集团2016债券半年报载常州环球港试营业；百度百科记2015-12-24开业，工商时报记2016年9月正式开业",
+    "note": "内部2016对应正式开业，首次开业2015-12-24（试运营约10个月），±1年涉试营业/正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 100,
+    "external": 100,
+    "verdict": "match",
+    "query": "常州江南环球港 开业时间 建筑面积 万平方米",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "江南环球港总建筑面积100万平方米（2015-12-24开业）",
+    "note": "另有88万㎡口径（中华工商时报，或为商业部分），100万为宣传总口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 8800,
+    "external": 8800,
+    "verdict": "match",
+    "query": "常州江南环球港 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "拥有约8800个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 42.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "江南环球港 单日客流 万人次",
+    "source_url": "https://m.winshang.com/news739497.html",
+    "source_level": "trade",
+    "evidence": "2025年全年客流4560万人次（赢商网），无单日峰值",
+    "note": "日均约12.5万，节假日单日峰值无公开数据"
+   }
+  ]
+ },
+ {
+  "id": "1762",
+  "name": "福州仓山爱琴海购物中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "福州仓山爱琴海 开业当日 客流 万人次 纪录",
+    "source_url": "https://m.fznews.com.cn/fzxw/20250729/21M7ns26T5.shtml",
+    "source_level": "media",
+    "evidence": "2015年9月19日开业，当日46.8万人次创东南地区购物中心开业纪录",
+    "note": "2025年7月更名「乐堤港」，业主远洋/德呈华业；焕新更名非开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 21,
+    "external": 21,
+    "verdict": "match",
+    "query": "福州爱琴海购物公园 仓山 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "商业总面积约21万平方米（红星国际广场综合体总建面约38万㎡）",
+    "note": "21万为商业口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "福州爱琴海购物公园 停车位 1200",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两次检索（一次超时）均未见车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": 46.8,
+    "verdict": "unit_mismatch",
+    "query": "福州仓山爱琴海 开业当日 客流 万人次 纪录",
+    "source_url": "https://m.fznews.com.cn/fzxw/20250729/21M7ns26T5.shtml",
+    "source_level": "media",
+    "evidence": "开业首日46.8万人次；2024年全年客流超2200万",
+    "note": "外部仅开业首日与年累计口径，无节假日单日峰值可比数据"
+   }
+  ]
+ },
+ {
+  "id": "1813",
+  "name": "沈阳盛京大奥莱",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "沈阳盛京大奥莱 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2012-10-18试运营，2013-04-11正式开业（原兴隆大奥莱，浑南奥体旁）",
+    "note": "内部2013=正式开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18,
+    "external": 50,
+    "verdict": "unit_mismatch",
+    "query": "兴隆大奥莱 沈阳 商业面积 万平方米 购物中心",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "整体项目规划建筑面积50万㎡，涵盖奥莱、购物中心、酒店、写字楼",
+    "note": "外部仅综合体整体规划口径；18万应为奥莱+购物中心部分，无直接信源，口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": 2400,
+    "verdict": "match",
+    "query": "沈阳兴隆大奥莱 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "盛京大奥莱广场（地上+地下）可停放约2400台（光明网2023）",
+    "note": "差4%；审计标记「邻接品牌/扶梯」风险经外部确认数值无误"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳盛京大奥莱 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1857",
+  "name": "珠海前山环宇城",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "珠海前山环宇城 开业时间",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2021年8月前山片区分析：中海环宇城「将于今年10月开业」",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 24.28,
+    "verdict": "unit_mismatch",
+    "query": "珠海中海环宇城 商业面积 万平方米 购物中心",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总建筑规模约37.08万㎡，其中商业建筑规模约24.28万㎡、住宅12.8万㎡",
+    "note": "外部均为综合体口径；购物中心mall单体（内部10万）无直接信源，口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": 2052,
+    "verdict": "minor_diff",
+    "query": "珠海环宇城 购物中心 建筑面积 10万",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "规划停车位2052个",
+    "note": "差21.8%；外部为综合体规划口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "珠海前山环宇城 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": "内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "1862",
+  "name": "丹东振兴万达广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2013,
+    "verdict": "minor_diff",
+    "query": "丹东万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2013年12月20日盛大开业；2025年12月底举办「12周年庆」",
+    "note": "差1年：内部2012无开业动词，或为动工年；开业确为2013-12-20"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.13,
+    "external": 17,
+    "verdict": "match",
+    "query": "丹东万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业综合体地上建面约10万㎡，地下建面7万余平方米",
+    "note": "10+7≈17万，与16.13差5.1%"
+   },
+   {
+    "metric": "parking",
+    "internal": 768,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丹东万达广场 停车位 地下停车场",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见车位数",
+    "note": "内部为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丹东万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": "内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "1874",
+  "name": "南充王府井购物中心",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "南充王府井购物中心 开业时间 建筑面积",
+    "source_url": "http://scsida.com",
+    "source_level": "media",
+    "evidence": "王府井落子南充（2014报道）原计划2016年元旦运营；王府井集团公告2016-12-23对外营业",
+    "note": "内部2014无开业动词，疑为签约/动工年；实际开业2016年，差2年，建议修正为2016"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9.44,
+    "verdict": "match",
+    "query": "南充王府井购物中心 体量 10万㎡ 15万㎡",
+    "source_url": "http://net.bangong.cn:6197/wechatshop?id=50",
+    "source_level": "official",
+    "evidence": "王府井集团官网：总建筑面积23万㎡；租赁（商业经营）面积约94,393㎡",
+    "note": "内部10万≈商业租赁面积9.44万（差5.9%）；23万为综合体总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "南充王府井购物中心 体量 10万㎡ 15万㎡",
+    "source_url": "http://net.bangong.cn:6197/wechatshop?id=50",
+    "source_level": "official",
+    "evidence": "王府井集团官网：3000多个停车位和200多个知名品牌商户",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 6,
+    "verdict": "unit_mismatch",
+    "query": "南充王府井购物中心 体量 10万㎡ 15万㎡",
+    "source_url": "http://net.bangong.cn:6197/wechatshop?id=50",
+    "source_level": "official",
+    "evidence": "官网：可同时满足日均6万人吃喝玩乐购需求",
+    "note": "外部为日均（容量表述）口径，非节假日单日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "1911",
+  "name": "临汾生龙国际时尚广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "生龙国际悠购天地 时尚广场 开业 临汾 2015年12月",
+    "source_url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603196&id=3409478",
+    "source_level": "official",
+    "evidence": "日播时尚招股书：解放西路31号生龙国际时尚广场F3-006店开业时间2015年12月",
+    "note": "临汾新闻网2015-11-30已报道生龙国际商业综合体运营，佐证2015年开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 27,
+    "verdict": "minor_diff",
+    "query": "临汾生龙国际 开业时间 建筑面积",
+    "source_url": "http://sx.taxs.vip/project/view.html?id=1628",
+    "source_level": "trade",
+    "evidence": "生龙国际商贸城建筑面积27万㎡、总停车位1997辆、2016-10-10局部开业",
+    "note": "27万对应商贸城子项；时尚广场所在商业综合体仅2万余㎡（临汾新闻网），口径混杂；30与27差10%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2647,
+    "external": 1997,
+    "verdict": "minor_diff",
+    "query": "临汾生龙国际 开业时间 建筑面积",
+    "source_url": "http://sx.taxs.vip/project/view.html?id=1628",
+    "source_level": "trade",
+    "evidence": "总停车位1997辆（生龙国际商贸城）",
+    "note": "差24.6%；外部为商贸城口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "临汾生龙国际 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1959",
+  "name": "青岛百盛金狮广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "青岛金狮广场 百盛 开业时间 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "金狮广场于2016年4月28日开业（原青岛啤酒城址，百盛首家时尚生活体验中心）",
+    "note": "个别报道称2015年开业（或为竣工/试营业口径），主流口径2016-04-28"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 23,
+    "verdict": "minor_diff",
+    "query": "青岛金狮广场 总建筑面积 13万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "MAIGOO：总建筑面积约23万平方米",
+    "note": "差43%；MAIGOO为聚合站可靠性一般，百盛2022年出售的百货+办公物业仅7.6万㎡（局部）；无权威建面信源，13万或为商业部分口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "青岛金狮广场 百盛 开业时间 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "金狮广场（楼层5，停车位2000）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛金狮广场 百盛 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1976",
+  "name": "深圳龙华8号仓",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "深圳8号仓奥特莱斯 龙华 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "2014年9月开业（龙华区民治街道民康路1号）",
+    "note": "注意与大梅沙8号仓（盐田）区分"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 8,
+    "verdict": "match",
+    "query": "深圳8号仓奥特莱斯 龙华 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "建筑面积约8万平方米，地下两层地上三层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": 1800,
+    "verdict": "match",
+    "query": "深圳8号仓奥特莱斯 龙华 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "设有约1800个停车位",
+    "note": "审计标记「邻接品牌/扶梯」风险经外部确认数值无误"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳8号仓奥特莱斯 龙华 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": "内部为推断值"
+   }
+  ]
+ },
+ {
+  "id": "1984",
+  "name": "北京领展购物广场·京通",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "领展购物广场京通 京通罗斯福广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "2014年9月10日低调开业（通州九棵树站旁，赢商网北京站报道）",
+    "note": "原京通罗斯福广场；2018-11领展25.6亿收购后更名，更名非开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.75,
+    "external": 6.7546,
+    "verdict": "match",
+    "query": "京通罗斯福广场 领展 停车位",
+    "source_url": "https://www.linkreit.com/sc/media/news-releases/link-acquires-beijing-jingtong-roosevelt-plaza",
+    "source_level": "official",
+    "evidence": "领展官网：总楼面面积67,546平方米",
+    "note": "差0.7%，与内部6.75万几乎一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 576,
+    "external": 576,
+    "verdict": "match",
+    "query": "京通罗斯福广场 领展 停车位",
+    "source_url": "https://www.linkreit.com/sc/media/news-releases/link-acquires-beijing-jingtong-roosevelt-plaza",
+    "source_level": "official",
+    "evidence": "领展官网：停车位576个",
+    "note": "百度百科另称超1500个（疑含扩建或周边配套），以领展官方576为准"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "领展购物广场京通 京通罗斯福广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0228",
+  "name": "上海徐汇万科广场",
+  "layer": "r3",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2024,
+    "verdict": "conflict",
+    "query": "上海徐汇万科广场 开业时间 建筑面积",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2024年6月13日，上海徐汇万科广场正式开业，超200家品牌入驻（观点网）",
+    "note": "内部2018无开业动词，疑为徐汇万科中心前期竣工年；购物中心2024-06-13开业，差6年，建议修正"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 10,
+    "verdict": "match",
+    "query": "徐汇万科广场 商业面积 万平方米 2024年6月13日开业",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "徐汇万科广场总建筑面积约10万㎡，另配7万㎡「城市地毯」公园（新浪财经2024-06）",
+    "note": "差13%；70万㎡为徐汇万科中心综合体整体口径，不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 920,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海徐汇万科广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见徐汇万科中心1期办公车位（地下660+地上20，房产站），非商场口径",
+    "note": "内部为推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海徐汇万科广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见客流数据",
+    "note": "内部为推断值"
+   }
+  ]
+ }
+]

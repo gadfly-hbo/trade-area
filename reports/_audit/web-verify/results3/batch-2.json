@@ -1,0 +1,91 @@
+[
+ {"id": "0108", "name": "重庆万象城北区", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2023, "external": 2023, "verdict": "match", "query": "重庆万象城北区 开业时间", "source_url": "https://www.crmixclifestyle.com.hk", "source_level": "official", "evidence": "重庆万象城北区2023年6月18日盛大开业，引入品牌240余个（华润万象生活官网）", "note": "auditFlag确认：2023即北区（二期）开业年"},
+  {"metric": "buildingArea", "internal": 50, "external": 50, "verdict": "match", "query": "重庆万象城北区 开业时间", "source_url": "https://m.winshang.com", "source_level": "trade", "evidence": "北区开业后，重庆万象城整体商业体量达50万平方米，为国内最大体量重奢购物中心", "note": "50万㎡为北区开业后项目整体口径（含原南区），数值与内部一致"},
+  {"metric": "parking", "internal": 1300, "external": 4202, "verdict": "unit_mismatch", "query": "重庆万象城 停车位 数量", "source_url": null, "source_level": "media", "evidence": "华龙网：万象城商场夜间空置的4202个车位设为潮汐停车位", "note": "外部4202为万象城整体（含南区），北区单独车位无公开数据，口径不可比"},
+  {"metric": "trafficPeak", "internal": 20, "external": null, "verdict": "no_external_data", "query": "\"重庆万象城\" 国庆 日均客流 20万人次", "source_url": null, "source_level": null, "evidence": null, "note": "新华网重庆提及某项目国庆日均客流破20万但归属项目不明，2次搜索未获可靠口径"}
+ ]},
+ {"id": "0109", "name": "北京通州首开万象汇", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2024, "external": 2024, "verdict": "match", "query": "北京通州首开万象汇 开业时间 建筑面积", "source_url": "https://i.ifeng.com", "source_level": "media", "evidence": "9月20日，首开股份与华润置地联合打造的北京城市副中心大型购物中心首开通州万象汇正式开业", "note": ""},
+  {"metric": "buildingArea", "internal": 14.8, "external": 14.8, "verdict": "match", "query": "北京通州首开万象汇 开业时间 建筑面积", "source_url": "http://mna.net.cn", "source_level": "media", "evidence": "总建筑面积14.8万平方米，地上六层、地下三层", "note": "北京商报另载商业面积14.6万㎡，亦在±20%内"},
+  {"metric": "parking", "internal": 1184, "external": 1700, "verdict": "minor_diff", "query": "通州万象汇 停车位 客流", "source_url": null, "source_level": "media", "evidence": "北京商报：规划停车位1700个", "note": "外部为规划车位（basis=benchmark的内部1184疑为实测/备案值），差30%"},
+  {"metric": "trafficPeak", "internal": 8.5, "external": 40, "verdict": "unit_mismatch", "query": "通州万象汇 停车位 客流", "source_url": null, "source_level": "media", "evidence": "开业三天吸引近40万人次客流", "note": "开业三日累计口径，非节假日单日"}
+ ]},
+ {"id": "0117", "name": "苏州中心商场二期", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match", "query": "\"苏州中心商场\" 二期 2022 开业", "source_url": "https://zhuanlan.zhihu.com", "source_level": "self-media", "evidence": "知乎探班（2023-02）：二期于五周年（2022-11）前后亮相，官方界定仅含B1至L2三层", "note": "分期错配解除：外部确认「二期」2022年推出，非一期2017年"},
+  {"metric": "buildingArea", "internal": 3, "external": null, "verdict": "no_external_data", "query": "苏州中心商场 二期 面积 万平方米", "source_url": null, "source_level": null, "evidence": null, "note": "二期单独面积无公开数据；整体商业约30万㎡"},
+  {"metric": "parking", "internal": 6000, "external": 6000, "verdict": "match", "query": "苏州中心 停车位 6000 客流", "source_url": "https://www.chanzhao.cn", "source_level": "self-media", "evidence": "企租网：苏州中心车位数6000个（和商场一体）；科拓案例载商场部分5000个", "note": "科拓5000个与6000差16.7%，亦在±20%内"},
+  {"metric": "trafficPeak", "internal": 41.5, "external": null, "verdict": "no_external_data", "query": "苏州中心商场 停车位 数量 日客流", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "0133", "name": "三亚合联中央商务区格力项目", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2025, "external": 2025, "verdict": "match", "query": "三亚湾壹号 合联 开业 2025", "source_url": "https://fg.sanya.gov.cn", "source_level": "official", "evidence": "三亚市发改委2025年计划执行报告：三亚湾壹号文旅综合体项目开业，首日客流达17万人次", "note": "案名三亚湾壹号即原合联中央商务区项目，2025-10-01开业/试营业"},
+  {"metric": "buildingArea", "internal": 12, "external": 16.67, "verdict": "minor_diff", "query": "格力地产 三亚合联 项目 总建筑面积", "source_url": "https://www.guandian.cn/m/show/274057", "source_level": "trade", "evidence": "观点网：总建筑面积约16.67万㎡，计容约9.33万㎡，地上零售购物中心约6.26万㎡", "note": "差约28%；外部为2023年获批建设方案口径"},
+  {"metric": "parking", "internal": 962, "external": null, "verdict": "no_external_data", "query": "\"三亚湾壹号\" 停车位 总户数", "source_url": null, "source_level": null, "evidence": null, "note": "同名「天正·三亚湾壹号」住宅数据（879/1092车位）系另一项目，不适用"},
+  {"metric": "trafficPeak", "internal": 12.5, "external": 17, "verdict": "unit_mismatch", "query": "三亚湾壹号 合联 开业 2025", "source_url": "https://fg.sanya.gov.cn", "source_level": "official", "evidence": "开业首日客流达17万人次", "note": "开业首日口径，非节假日单日"}
+ ]},
+ {"id": "0143", "name": "嘉兴桐乡万象汇", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2024, "external": 2024, "verdict": "match", "query": "桐乡万象汇 开业时间 建筑面积", "source_url": "https://www.cscec.com/xwzx_new/zqydt_new/202404/3777363.html", "source_level": "official", "evidence": "中建三局承建桐乡华润万象汇全面竣工；2024年6月28日正式开业（6月25日试营业）", "note": ""},
+  {"metric": "buildingArea", "internal": 10, "external": 10, "verdict": "match", "query": "桐乡万象汇 开业时间 建筑面积", "source_url": "http://m.winshang.com/xm78508359.html", "source_level": "trade", "evidence": "商业建筑面积约10万平方米；项目总建筑面积约15万平方米（中建三局）", "note": "内部10为商业建面口径，一致"},
+  {"metric": "parking", "internal": 1200, "external": null, "verdict": "no_external_data", "query": "桐乡万象汇 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": null, "note": "2次搜索未获车位数"},
+  {"metric": "trafficPeak", "internal": 12.5, "external": 18, "verdict": "unit_mismatch", "query": "桐乡万象汇 开业时间 建筑面积", "source_url": "http://m.winshang.com/xm78508359.html", "source_level": "trade", "evidence": "试营业三天内自然客流超过18万人次", "note": "三日累计口径，非节假日单日"}
+ ]},
+ {"id": "1020", "name": "西安王府井百货（永宁门店）", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2006, "external": 2014, "verdict": "conflict", "query": "西安王府井百货 永宁门店 开业时间 建筑面积", "source_url": "https://www.sych100.com/h-nd-755.html", "source_level": "trade", "evidence": "商策网：自2014年9月正式开业；新浪陕西：2024年9月举行十周年店庆", "note": "前身国贸春天广场2012年试营业，王府井2014年接手开业；内部2006无外部支撑"},
+  {"metric": "buildingArea", "internal": 28, "external": 28, "verdict": "match", "query": "西安王府井百货 永宁门店 开业时间 建筑面积", "source_url": "https://www.sych100.com", "source_level": "trade", "evidence": "占地面积3.2万平方米，总建筑面积28万平方米", "note": ""},
+  {"metric": "parking", "internal": 1200, "external": null, "verdict": "no_external_data", "query": "西安王府井 永宁门 停车位 客流", "source_url": null, "source_level": null, "evidence": null, "note": "南门商圈停车多依赖周边场库，本店车位无公开数据"},
+  {"metric": "trafficPeak", "internal": 4.5, "external": null, "verdict": "no_external_data", "query": "西安王府井 永宁门 停车位 客流", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1053", "name": "东营西城万达广场", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2018, "external": 2015, "verdict": "conflict", "query": "东营西城万达广场 开业时间 建筑面积", "source_url": "http://www.wandaplazas.com/2015/company_0816/1226.html", "source_level": "official", "evidence": "万达官网：东营万达广场2015年8月15日开业（第120座）；2018-07-12开业的是东营东城万达", "note": "内部2018疑误植东城店年份；西城店（东营区北一路730号）2015年开业"},
+  {"metric": "buildingArea", "internal": 8, "external": 80.6, "verdict": "unit_mismatch", "query": "东营万达广场 西城 商业面积 万平方米 车位", "source_url": "https://baike.baidu.com/item/%E4%B8%9C%E8%90%A5%E4%B8%87%E8%BE%BE%E5%B9%BF%E5%9C%BA/6375724", "source_level": "self-media", "evidence": "百科：总建筑面积80.60万平方米（地上约15.6万㎡）", "note": "外部为含住宅的整体项目建面，购物中心单体商业面积无公开数据，口径不可比"},
+  {"metric": "parking", "internal": 640, "external": null, "verdict": "no_external_data", "query": "东营万达广场 停车位 个 节假日 客流", "source_url": null, "source_level": null, "evidence": null, "note": "百度知道460个为可售产权车位口径，非商场车位，不采用"},
+  {"metric": "trafficPeak", "internal": 9, "external": null, "verdict": "no_external_data", "query": "东营万达广场 停车位 个 节假日 客流", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1093", "name": "武汉凯德·西城", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2017, "external": 2017, "verdict": "match", "query": "武汉凯德西城 开业时间 建筑面积", "source_url": "https://www.capitaland.com", "source_level": "official", "evidence": "凯德官网：凯德广场·西城 2017年4月开业（2017-04-28正式开业，凯德在武汉第四店）", "note": ""},
+  {"metric": "buildingArea", "internal": 14, "external": 16, "verdict": "match", "query": "武汉凯德西城 开业时间 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "总建筑面积约40.16万平方米，其中购物中心部分约16万平方米", "note": "差12.5%，在±20%内"},
+  {"metric": "parking", "internal": 850, "external": null, "verdict": "no_external_data", "query": "凯德西城 武汉 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": null, "note": "2次搜索未获车位数"},
+  {"metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data", "query": "凯德西城 武汉 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1126", "name": "绍兴大通购物中心", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2014, "external": null, "verdict": "no_external_data", "query": "大通购物中心 上虞 2014年 开业", "source_url": null, "source_level": null, "evidence": null, "note": "3次搜索未见开业年；外部仅见同集团上虞大通商城（老百货1993/1996年），非同一物业"},
+  {"metric": "buildingArea", "internal": 9, "external": null, "verdict": "no_external_data", "query": "绍兴大通购物中心 开业时间 建筑面积", "source_url": null, "source_level": null, "evidence": null, "note": "大通商城营业面积约2.8万㎡系另一物业口径，不适用"},
+  {"metric": "parking", "internal": 550, "external": null, "verdict": "no_external_data", "query": "上虞大通购物中心 停车位", "source_url": null, "source_level": null, "evidence": null, "note": "搜索限流+无公开数据"},
+  {"metric": "trafficPeak", "internal": 5, "external": null, "verdict": "no_external_data", "query": "上虞大通购物中心 停车位", "source_url": null, "source_level": null, "evidence": null, "note": "未见客流公开数据"}
+ ]},
+ {"id": "1142", "name": "菏泽牡丹万达广场", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2016, "external": 2018, "verdict": "conflict", "query": "菏泽牡丹万达广场 开业时间 建筑面积", "source_url": "https://cj.sina.cn", "source_level": "media", "evidence": "新浪2018-11：菏泽万达广场11月16日开业，万达影城10月24日挂幕随广场同步开业", "note": "2016年9月某万达开业报道（第154座、建面98万㎡）量级与菏泽不符，疑为其他城市项目"},
+  {"metric": "buildingArea", "internal": 14.6, "external": null, "verdict": "no_external_data", "query": "菏泽万达广场 总建筑面积 万平方米 牡丹区", "source_url": null, "source_level": null, "evidence": null, "note": "搜索限流，未见可靠建面数据"},
+  {"metric": "parking", "internal": 1700, "external": null, "verdict": "no_external_data", "query": "菏泽牡丹万达广场 开业时间 建筑面积", "source_url": null, "source_level": null, "evidence": null, "note": "未见车位数"},
+  {"metric": "trafficPeak", "internal": 8.75, "external": null, "verdict": "no_external_data", "query": "菏泽牡丹万达广场 开业时间 建筑面积", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1241", "name": "乌鲁木齐德汇万达广场", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2015, "external": 2018, "verdict": "conflict", "query": "\"德汇万达广场\" 开业 2018年1月 乌鲁木齐 沙依巴克", "source_url": "https://news.sina.cn", "source_level": "media", "evidence": "新浪2018-01-29：新疆乌鲁木齐德汇万达广场正式开业，221个品牌入驻（2018-01-28开业）", "note": "另有2017-12-22一说；2015无外部支撑"},
+  {"metric": "buildingArea", "internal": 15, "external": 13.5, "verdict": "match", "query": "乌鲁木齐德汇万达广场 开业时间 建筑面积", "source_url": "https://news.sina.cn", "source_level": "media", "evidence": "总建筑面积13.5万平方米（开业报道）；另载约13万㎡", "note": "差10%，在±20%内"},
+  {"metric": "parking", "internal": 1200, "external": 5018, "verdict": "conflict", "query": "德汇万达广场 停车位 客流 万人次", "source_url": "https://news.sina.cn", "source_level": "media", "evidence": "开业时负1至3层3014个车位开放，总车位达5018个；雅高官网称5000多个", "note": "差约76%，内部1200显著偏低（basis=benchmark推断值）"},
+  {"metric": "trafficPeak", "internal": 4.75, "external": null, "verdict": "no_external_data", "query": "德汇万达广场 开业 客流 万人次", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1299", "name": "南京金象城", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match", "query": "南京金象城 开业时间 建筑面积 停车位", "source_url": "https://www.sohu.com", "source_level": "media", "evidence": "9月25日金象城购物中心开业，人气爆棚（2022-09-25）", "note": ""},
+  {"metric": "buildingArea", "internal": 14, "external": 14, "verdict": "match", "query": "南京金象城 开业时间 建筑面积 停车位", "source_url": "http://www.js.chinanews.com.cn", "source_level": "media", "evidence": "中新网江苏：项目总体量28万㎡，其中商业面积达14万㎡", "note": ""},
+  {"metric": "parking", "internal": 2200, "external": 2200, "verdict": "match", "query": "南京金象城 开业时间 建筑面积 停车位", "source_url": "http://www.js.chinanews.com.cn", "source_level": "media", "evidence": "提供地下停车位超2200个", "note": ""},
+  {"metric": "trafficPeak", "internal": 15, "external": null, "verdict": "no_external_data", "query": "南京金象城 开业时间 建筑面积 停车位", "source_url": null, "source_level": null, "evidence": null, "note": "未见节假日单日客流公开数据"}
+ ]},
+ {"id": "1307", "name": "南昌百盛百货A馆", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2003, "external": 2002, "verdict": "minor_diff", "query": "南昌百盛 A馆 B馆 中山路 2002年 开业", "source_url": null, "source_level": "media", "evidence": "新浪财经（约2016）：南昌百盛开业15年引领江西百货，推算约2001-2002年开业", "note": "分期确认：A馆=中山路总店先开（约2001-2002），B馆后加；无精确官方日期，按2002计差1年，若按2001计则差2年属conflict"},
+  {"metric": "buildingArea", "internal": 3.5, "external": null, "verdict": "no_external_data", "query": "南昌百盛百货 A馆 开业时间", "source_url": null, "source_level": null, "evidence": null, "note": "A馆单体面积无公开数据"},
+  {"metric": "parking", "internal": 200, "external": null, "verdict": "no_external_data", "query": "南昌百盛 A馆 开业 中山路", "source_url": null, "source_level": null, "evidence": null, "note": "中山路商圈百货，未见车位数据"},
+  {"metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "no_external_data", "query": "南昌百盛 A馆 开业 中山路", "source_url": null, "source_level": null, "evidence": null, "note": "未见客流公开数据"}
+ ]},
+ {"id": "1309", "name": "贵阳国贸时代购物中心TPMALL", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2011, "external": 2011, "verdict": "match", "query": "贵阳国贸时代购物中心 TPMALL 开业 建筑面积 停车位", "source_url": "https://zhuanlan.zhihu.com", "source_level": "self-media", "evidence": "贵阳世纪金源购物中心2011年4月15日正式开业；国贸TPMALL位于其内（金阳南路6号），为其中百货板块", "note": "TPMALL自身无独立开业报道，按所属世纪金源购物中心2011年开业核验"},
+  {"metric": "buildingArea", "internal": 4.2, "external": null, "verdict": "no_external_data", "query": "贵阳国贸时代购物中心 TPMALL 开业 建筑面积 停车位", "source_url": null, "source_level": null, "evidence": null, "note": "TPMALL单体面积无公开数据；世纪金源整体体量另计"},
+  {"metric": "parking", "internal": 600, "external": null, "verdict": "no_external_data", "query": "贵阳世纪金源购物中心 TPMALL 停车位 个", "source_url": null, "source_level": null, "evidence": null, "note": "2次搜索未获车位数（整体与TPMALL单体均无）"}
+ ]},
+ {"id": "1312", "name": "乌鲁木齐经开万达广场", "layer": "r3", "results": [
+  {"metric": "openedYear", "internal": 2015, "external": 2016, "verdict": "minor_diff", "query": "乌鲁木齐经开万达广场 2016年8月 开业 建筑面积", "source_url": null, "source_level": "media", "evidence": "凤凰网等：经开区万达为新疆首座万达广场，2016年8-9月开业（投资35亿元）", "note": "内部注明另有来源记2015；外部主流为2016年，差1年属minor_diff"},
+  {"metric": "buildingArea", "internal": 9, "external": null, "verdict": "no_external_data", "query": "乌鲁木齐经开万达广场 商业面积 万平方米", "source_url": null, "source_level": null, "evidence": null, "note": "2次搜索未获可靠建面数据"},
+  {"metric": "parking", "internal": 1250, "external": null, "verdict": "no_external_data", "query": "乌鲁木齐经开万达广场 商业面积 万平方米", "source_url": null, "source_level": null, "evidence": null, "note": "未见车位数"},
+  {"metric": "trafficPeak", "internal": 12.5, "external": null, "verdict": "no_external_data", "query": "乌鲁木齐经开万达广场 2016年8月 开业 建筑面积", "source_url": null, "source_level": null, "evidence": null, "note": "仅见「开业首日创新疆纪录」表述无数值；未见节假日单日口径"}
+ ]}
+]

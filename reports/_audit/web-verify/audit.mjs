@@ -35,6 +35,11 @@ for (const f of fs.readdirSync(detailsDir).sort()) {
           flags.push(`openedYear ${y} 无邻近开业动词: …${(opened.match(new RegExp(`.{0,12}${y}`))?.[0] ?? '')}…`);
         }
       }
+      // 分期/馆别错配：条目名含「二期/三期/二期/B馆…」时，开业行须提及该期，否则疑取了另一期年份
+      const phase = d.name.match(/(一期|二期|三期|四期|[A-E]馆)$/);
+      if (phase && !opened.includes(phase[1].replace(/([A-E])馆/, '$1馆'))) {
+        flags.push(`openedYear 疑分期错配: 条目名「${phase[1]}」未出现于开业时间行`);
+      }
     }
 
     // —— 建面：综合体宣称口径混用（取到总建面但同行另有商业面积）——
@@ -81,4 +86,4 @@ for (const s of suspects) for (const fl of s.flags) byFlag[fl.split(':')[0].spli
 console.log(`扫描 ${total} 个商圈，可疑 ${suspects.length} 个，共 ${suspects.reduce((n, s) => n + s.flags.length, 0)} 条标记`);
 console.log('按类型:', JSON.stringify(byFlag));
 const rated = suspects.filter((s) => s.rating === 'S' || s.rating === 'A+');
-console.log(`其中 S/A+ 级: ${rated.length} 个（将并入第二轮核验任务单）`);
+console.log(`其中 S/A+ 级: ${rated.length} 个（第二轮已并入，剩余供定向补漏）`);
