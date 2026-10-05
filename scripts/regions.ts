@@ -25,11 +25,14 @@ export function parseRegion(address: string): Region {
     }
   }
 
-  // 自治区：先匹配区名，再在其后找市
+  // 自治区：先匹配区名，再在其后找市；硬编码表未覆盖的城市（喀什、乌兰察布、兴安盟等）用通用后缀兜底
   for (const ar of AUTONOMOUS_REGIONS) {
     if (address.includes(ar.region)) {
       const after = address.split(ar.region)[1] ?? '';
-      const city = ar.cities.find((c) => after.includes(c)) ?? '';
+      const city =
+        ar.cities.find((c) => after.includes(c)) ??
+        after.match(/([一-龥]{2,8}?(?:地区|盟|州|市))/)?.[1] ??
+        '';
       return { province: ar.region, city };
     }
   }

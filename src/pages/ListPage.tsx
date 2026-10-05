@@ -325,17 +325,20 @@ export default function ListPage() {
             showTotal: (t, r) => `第 ${r[0]}-${r[1]} 条 / 共 ${t} 条`,
           }}
           rowSelection={{
+            // 筛选后保留已选项：keys 是含被筛掉项的全集，rows 只含当前可见行
+            preserveSelectedRowKeys: true,
             selectedRowKeys: basket.items.map((x) => x.id),
             getCheckboxProps: (r) => ({
               disabled: basket.isFull && !basket.isSelected(r.id),
             }),
-            onChange: (_, rows) => {
-              if (rows.length > MAX_COMPARE) {
+            onChange: (keys, rows) => {
+              if (keys.length > MAX_COMPARE) {
                 message.warning(`最多选择 ${MAX_COMPARE} 个商圈`);
                 return;
               }
+              const keySet = new Set(keys as string[]);
               basket.items
-                .filter((x) => !rows.some((r) => r.id === x.id))
+                .filter((x) => !keySet.has(x.id))
                 .forEach((x) => basket.remove(x.id));
               rows
                 .filter((r) => !basket.isSelected(r.id))

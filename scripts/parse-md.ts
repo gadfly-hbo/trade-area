@@ -102,13 +102,30 @@ function collectDimensions(
 function extractAddress(name: string, rowText: string): string {
   if (!rowText) return '';
   const cleaned = stripMarkers(rowText).text;
-  const rest = name && cleaned.startsWith(name) ? cleaned.slice(name.length) : cleaned;
+  // 括号全半角统一后再判名称前缀（行内「(天府立交)」与文件名「（天府立交）」等宽，可直接按长度截取）
+  const norm = (s: string) => s.replace(/[()（）]/g, '(');
+  let rest = name && norm(cleaned).startsWith(norm(name)) ? cleaned.slice(name.length) : cleaned;
+  // 名称与行首不一致时首个短句是商场名残留（「浦江城市生活广场，上海闵行区…」）：句内嵌有 ≥3 字处的
+  // 市/省（排除「郑州市…」这类真地址）且后续片段像行政区（直辖市裸名或含省/自治区）才丢弃该短句
+  const segM = rest.match(/^([^，,；;。（(]{2,20})([，,；;。（(])/);
+  if (segM) {
+    const after = rest.slice(segM[0].length);
+    if (
+      segM[1].search(/省|市|自治区/) >= 3 &&
+      (/^(?:上海|北京|天津|重庆)/.test(after) || /[一-龥]{0,12}(?:省|自治区)/.test(after))
+    ) {
+      rest = after;
+    }
+  }
   const m = rest.match(
-    /[\u4e00-\u9fa5]{1,10}(?:省|市|自治区|特别行政区|北京|上海|天津|重庆)[^；;。（(]*/,
+    /[一-龥]{0,10}(?:省|市|自治区|特别行政区|北京|上海|天津|重庆)[^；;。（(]*/,
   );
   if (!m) return '';
+  // 剥离匹配首残留的引导词（「位于江苏省…」「；项目位于…」「地址为天津市…」的匹配首都是引导词），
+  // 避免其汉字污染省/市名
+  const addr = m[0].replace(/^(?:本项目|该项目|项目|坐落于|位于|地处|选址于|地址为?)+/, '');
   // 双写前缀（天津天津市西青区…）折叠为一个
-  return m[0].replace(/^(([\u4e00-\u9fa5]{2,3}))\2市/, '$2市').trim();
+  return addr.replace(/^(([\u4e00-\u9fa5]{2,3}))\2市/, '$2市').trim();
 }
 
 export function parseMdContent(content: string, filename: string): ParseResult {
