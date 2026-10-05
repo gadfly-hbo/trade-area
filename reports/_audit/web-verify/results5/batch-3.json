@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "0210",
+  "name": "青岛未来城万科广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "青岛未来城万科广场 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B2%9B%E6%9C%AA%E6%9D%A5%E5%9F%8E%E4%B8%87%E7%A7%91%E5%B9%BF%E5%9C%BA+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "self-media",
+    "evidence": "2022年12月16日正式开业（原青岛印象城），开业率100%",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "青岛未来城万科广场 开业 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B2%9B%E6%9C%AA%E6%9D%A5%E5%9F%8E%E4%B8%87%E7%A7%91%E5%B9%BF%E5%9C%BA+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "self-media",
+    "evidence": "商业面积12万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 960,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛未来城万科广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 30,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛未来城万科广场 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0211",
+  "name": "南京雨花万象天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "南京雨花万象天地 开业时间",
+    "source_url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E4%BA%AC%E9%9B%A8%E8%8A%B1%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0",
+    "source_level": "self-media",
+    "evidence": "2024年12月22日开业（维基百科条目）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "南京雨花万象天地 商业面积",
+    "source_url": "https://sogou.com/web?query=%E5%8D%97%E4%BA%AC%E9%9B%A8%E8%8A%B1%E4%B8%87%E8%B1%A1%E5%A4%A9%E5%9C%B0+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "official",
+    "evidence": "总建筑面积约17万平方米，商业面积约15万平方米（分东西两区）",
+    "note": "内部取商业面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京雨花万象天地 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京雨花万象天地 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0214",
+  "name": "杭州银泰百货（萧山店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "杭州银泰百货萧山店 开业",
+    "source_url": "https://sogou.com/web?query=%E6%9D%AD%E5%B7%9E%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A7%28%E8%90%A7%E5%B1%B1%E5%BA%97%29+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "2021年12月26日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.25,
+    "external": 12.5,
+    "verdict": "minor_diff",
+    "query": "杭州银泰百货萧山店 建筑面积",
+    "source_url": "https://sogou.com/web?query=%E6%9D%AD%E5%B7%9E%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A7%28%E8%90%A7%E5%B1%B1%E5%BA%97%29+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "总建筑面积约23万㎡，涵盖银泰百货、惠坊街商业街区、写字楼；商业部分约12.5万㎡",
+    "note": "|12.25-12.5|/12.5=2%，按商业部分口径差异小"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": 1500,
+    "verdict": "match",
+    "query": "杭州银泰百货萧山店 停车位",
+    "source_url": "https://sogou.com/web?query=%E6%9D%AD%E5%B7%9E%E9%93%B6%E6%B3%B0%E7%99%BE%E8%B4%A7%28%E8%90%A7%E5%B1%B1%E5%BA%97%29+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "停车位1500个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州银泰百货萧山店 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0216",
+  "name": "济南华山环宇城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "济南华山环宇城 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%8E%E5%8D%97%E5%8D%8E%E5%B1%B1%E7%8E%AF%E5%AE%87%E5%9F%8E+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "华山环宇城9月30日开业（2022年）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": 15,
+    "verdict": "match",
+    "query": "济南华山环宇城 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%8E%E5%8D%97%E5%8D%8E%E5%B1%B1%E7%8E%AF%E5%AE%87%E5%9F%8E+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "华山环宇城建筑面积15万平方米,地上6层、地下3层",
+    "note": "|16-15|/16=6.25%，≤20%判match"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南华山环宇城 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果中未找到停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南华山环宇城 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0219",
+  "name": "北京超极合生汇东区",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "北京超极合生汇东区 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%B6%85%E6%9E%81%E5%90%88%E7%94%9F%E6%B1%87+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "2024年4月18日开门营业（昌平区政府微博2024-04-02发布）",
+    "note": "另有3月30日试营业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 46,
+    "external": 45.6,
+    "verdict": "match",
+    "query": "北京超极合生汇东区 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E8%B6%85%E6%9E%81%E5%90%88%E7%94%9F%E6%B1%87+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "项目总体量45.6万平方米，本次开业的为东区（具体东区建面未提及）",
+    "note": "|46-45.6|/46=0.9%；按整体口径对比"
+   },
+   {
+    "metric": "parking",
+    "internal": 5000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京超极合生汇东区 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及东区停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 34,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京超极合生汇东区 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0221",
+  "name": "青岛崂山万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "青岛崂山万象汇 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B2%9B%E5%B4%82%E5%B1%B1%E4%B8%87%E8%B1%A1%E6%B1%87",
+    "source_level": "media",
+    "evidence": "2022年8月27日（华润置地青岛崂山万象汇盛大开业）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.8,
+    "external": 12.8,
+    "verdict": "match",
+    "query": "青岛崂山万象汇 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B2%9B%E5%B4%82%E5%B1%B1%E4%B8%87%E8%B1%A1%E6%B1%87",
+    "source_level": "media",
+    "evidence": "总建筑面积12.8万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛崂山万象汇 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛崂山万象汇 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0226",
+  "name": "龙湖武汉白沙天街A馆",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "龙湖武汉白沙天街A馆 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E6%AD%A6%E6%B1%89%E7%99%BD%E6%B2%99%E5%A4%A9%E8%A1%97A%E9%A6%86",
+    "source_level": "media",
+    "evidence": "2022年10月28日正式开业（10.28龙湖武汉白沙天街正式开业）",
+    "note": "内部2023 vs 外部2022-10-28相差≥1年，可能A馆分期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 8.6,
+    "verdict": "minor_diff",
+    "query": "龙湖武汉白沙天街A馆 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E6%AD%A6%E6%B1%89%E7%99%BD%E6%B2%99%E5%A4%A9%E8%A1%97A%E9%A6%86",
+    "source_level": "media",
+    "evidence": "A馆购物中心建筑面积约8.6万平方米（另一来源3.6万方），总建筑面积26万方（含办公）",
+    "note": "|12.5-8.6|/12.5=31%；或与A馆整体建面对比后约20%边界"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖武汉白沙天街A馆 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖武汉白沙天街A馆 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0230",
+  "name": "乌鲁木齐会展吾悦广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐会展吾悦广场 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多次搜索未找到该项目相关公众号文章",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐会展吾悦广场 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多次搜索未找到建筑面积数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐会展吾悦广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐会展吾悦广场 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0241",
+  "name": "济宁万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "济宁万象汇 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%8E%E5%AE%81%E4%B8%87%E8%B1%A1%E6%B1%87+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "计划2024年年内开业（最新消息：济宁华润万象汇项目计划于2024年年内开业）",
+    "note": "原计划2022/2023多次推迟，2024年内正式开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 10.8,
+    "verdict": "minor_diff",
+    "query": "济宁万象汇 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%8E%E5%AE%81%E4%B8%87%E8%B1%A1%E6%B1%87+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "总建筑面积10.8万平方米，地下一层、地上四层",
+    "note": "|8-10.8|/8=35%；总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 801,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济宁万象汇 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济宁万象汇 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0244",
+  "name": "龙湖宁波鄞州天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "龙湖宁波鄞州天街 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%AE%81%E6%B3%A2%E9%95%B7%E5%B7%9E%E5%A4%A9%E8%A1%97+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "宁波首座天街，年底开业，开业率超99%（2022年）",
+    "note": "未提及具体日期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖宁波鄞州天街 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅提及整座鄞州天街项目建筑面积超50万方（综合体），天街购物中心由龙湖打造",
+    "note": "未给出购物中心单一口径面积"
+   },
+   {
+    "metric": "parking",
+    "internal": 1872,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖宁波鄞州天街 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖宁波鄞州天街 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0247",
+  "name": "龙湖南宁青秀天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2024,
+    "verdict": "minor_diff",
+    "query": "龙湖南宁青秀天街 开业时间",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E5%AE%81%E9%9D%92%E7%A7%80%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+2024+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "预计2024年开业（龙湖华南四座天街，原计划2022年）",
+    "note": "内部2025 vs 外部计划2024；外部提到延迟2年，最终可能2024或2025开业，差1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18,
+    "external": 60,
+    "verdict": "unit_mismatch",
+    "query": "龙湖南宁青秀天街 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E5%AE%81%E9%9D%92%E7%A7%80%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+2024+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "总建筑面积60万㎡一站式高度复合综合体（含商业、住宅、办公）；自持宗地商业建筑面积10万㎡",
+    "note": "内部18万应指商业综合体；与总建面60万口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖南宁青秀天街 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": 68,
+    "verdict": "unit_mismatch",
+    "query": "龙湖南宁青秀天街 客流",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E5%AE%81%E9%9D%92%E7%A7%80%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+2024+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "开业三天客流68万",
+    "note": "内部11为节假日单日峰值，外部68为开业三天累计，口径不同"
+   }
+  ]
+ },
+ {
+  "id": "0249",
+  "name": "龙湖北京亦庄天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "龙湖北京亦庄天街 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E4%BA%A6%E5%BA%84%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+2022",
+    "source_level": "media",
+    "evidence": "2022年9月16日正式开业（位于北京经开区核心区域）",
+    "note": "原计划2022-09-16，2023年9月16日另有文章，但2022年文章更早且明确"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.27,
+    "external": 16,
+    "verdict": "match",
+    "query": "龙湖北京亦庄天街 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E5%8C%97%E4%BA%AC%E4%BA%A6%E5%BA%84%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "总建筑面积约16万㎡（其中商业建筑面积约10万-11万㎡）",
+    "note": "|16.27-16|/16.27=1.7% match；按总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1400,
+    "external": 1400,
+    "verdict": "match",
+    "query": "龙湖北京亦庄天街 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E5%8C%97%E4%BA%AC%E4%BA%A6%E5%BA%84%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "停车位超过1,400个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖北京亦庄天街 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0258",
+  "name": "厦门大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "厦门大悦城 开业时间",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "计划于2024年盛大开业",
+    "note": "未提及具体日期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.83,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "厦门大悦城 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E4%B8%9A%E7%A8%8B",
+    "source_level": "media",
+    "evidence": "商业建筑面积8万平米，商业总面积约10万平方米",
+    "note": "|15.83-10|/15.83=37%；商业总面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1100,
+    "verdict": "match",
+    "query": "厦门大悦城 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8E%A6%E9%97%A8%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "规划1100个停车位",
+    "note": "|1200-1100|/1200=8.3%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "厦门大悦城 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0260",
+  "name": "杭州百联奥特莱斯",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "杭州百联奥特莱斯 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%9D%AD%E5%B7%9E%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "9月29日开启试营业，10月15日正式开业（2021年金秋）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 25.35,
+    "external": 24,
+    "verdict": "match",
+    "query": "杭州百联奥特莱斯 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%9D%AD%E5%B7%9E%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "总建筑面积约24万平方米，一期百联奥特莱斯广场项目建筑面积13万平方米",
+    "note": "|25.35-24|/25.35=5.3%，按总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3500,
+    "external": 2387,
+    "verdict": "minor_diff",
+    "query": "杭州百联奥特莱斯 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%9D%AD%E5%B7%9E%E7%99%BE%E8%81%94%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "规划停车位2387个（地下停车位2143个）",
+    "note": "|3500-2387|/3500=31.8%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州百联奥特莱斯 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0273",
+  "name": "丽水银泰城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "丽水银泰城 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%BD%E6%B0%B4%E9%93%B6%E6%B3%B0%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "2022年12月开业，230+品牌入驻",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 68,
+    "external": 11,
+    "verdict": "unit_mismatch",
+    "query": "丽水银泰城 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%BD%E6%B0%B4%E9%93%B6%E6%B3%B0+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "商业面积11万㎡，总建面（含住宅/办公）约31万㎡（地下27.2万㎡+地上39.6万㎡）；总投资37亿",
+    "note": "内部68可能为含住宅综合体总建面，与外部商业面积11万口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 3907,
+    "external": 3936,
+    "verdict": "match",
+    "query": "丽水银泰城 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E4%B8%BD%E6%B0%B4%E9%93%B6%E6%B3%B0+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "机动车停车3936个（后调整为2.55亿项目汽车位）",
+    "note": "|3907-3936|/3907=0.7%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "丽水银泰城 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "2023年销售额700亿（含客流1400万），未提及单日峰值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0277",
+  "name": "北京丽泽天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "北京丽泽天地 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%AC%E4%B8%BD%E6%B3%BD%E5%A4%A9%E5%9C%B0+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "2022年9月30日开业（北京华联打造）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.78,
+    "external": 17,
+    "verdict": "match",
+    "query": "北京丽泽天地 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E5%8C%97%E4%BA%AC%E4%B8%BD%E6%B3%BD%E5%A4%A9%E5%9C%B0+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "近17万平方米（一期商业面积约8.22万㎡）",
+    "note": "|16.78-17|/16.78=1.3% match；按总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 658,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京丽泽天地 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及停车位信息",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京丽泽天地 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0282",
+  "name": "永旺梦乐城长沙星沙",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "永旺梦乐城长沙星沙 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B0%B8%E6%97%BA%E6%A2%A6%E4%B9%90%E5%9F%8E%E9%95%BF%E6%B2%99%E6%98%9F%E6%B2%99+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "official",
+    "evidence": "预计2024年9月开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23,
+    "external": 23,
+    "verdict": "match",
+    "query": "永旺梦乐城长沙星沙 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B0%B8%E6%97%BA%E6%A2%A6%E4%B9%90%E5%9F%8E%E9%95%BF%E6%B2%99%E6%98%9F%E6%B2%99+%E5%81%9C%E8%BD%A6%E4%BD%8D+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "official",
+    "evidence": "总建筑面积约23万平方米，用地面积约11.5万㎡",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3350,
+    "external": 3200,
+    "verdict": "match",
+    "query": "永旺梦乐城长沙星沙 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B0%B8%E6%97%BA%E6%A2%A6%E4%B9%90%E5%9F%8E%E9%95%BF%E6%B2%99%E6%98%9F%E6%B2%99+%E5%81%9C%E8%BD%A6%E4%BD%8D+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "official",
+    "evidence": "停车位不少于3200个（含地下+楼顶）",
+    "note": "|3350-3200|/3350=4.5%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "永旺梦乐城长沙星沙 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0286",
+  "name": "龙湖成都蜀新天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "龙湖成都蜀新天街 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E6%88%90%E9%83%BD%E8%9C%80%E6%96%B0%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "2022年12月24日开业（成都第九座龙湖天街）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.8,
+    "external": 12,
+    "verdict": "conflict",
+    "query": "龙湖成都蜀新天街 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E6%88%90%E9%83%BD%E8%9C%80%E6%96%B0%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF",
+    "source_level": "media",
+    "evidence": "商业建筑面积为12万平方米（约15.1万㎡整体/商业面积数据）",
+    "note": "内部6.8万 vs 外部商业12万，差距大；可能内部仅含购物中心，外部含写字楼等"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1500,
+    "verdict": "minor_diff",
+    "query": "龙湖成都蜀新天街 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E9%BE%99%E6%B9%96%E6%88%90%E9%83%BD%E8%9C%80%E6%96%B0%E5%A4%A9%E8%A1%97+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "地下停车位1500个",
+    "note": "|1000-1500|/1000=50%，恰在边界"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖成都蜀新天街 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0288",
+  "name": "成都天府大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "成都天府大悦城 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+2023+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "2023年12月30日岁末新初，太平一派繁华，闪耀开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30,
+    "verdict": "match",
+    "query": "成都天府大悦城 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "总建筑面积30万m²（购物中心建筑面积15万㎡）",
+    "note": "|30-30|/30=0%，按总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": 2000,
+    "verdict": "minor_diff",
+    "query": "成都天府大悦城 停车位",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "停车位超过2000个",
+    "note": "|1800-2000|/1800=19.9%，≤20%边界按match判错；按minor_diff"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 21,
+    "verdict": "minor_diff",
+    "query": "成都天府大悦城 客流",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%88%90%E9%83%BD%E5%A4%A9%E5%BA%9C%E5%A4%A7%E6%82%A6%E5%9F%8E+%E5%BC%80%E4%B8%9A+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6%E4%BD%8D",
+    "source_level": "media",
+    "evidence": "首日客流破21万",
+    "note": "内部10 vs 外部首日21；按开业首日口径或常规节假日口径差异"
+   }
+  ]
+ },
+ {
+  "id": "0289",
+  "name": "龙湖海南海口天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "龙湖海南海口天街 开业",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%B7%E5%8D%97%E9%BE%99%E6%B9%96%E5%A4%A9%E8%A1%97+%E5%BC%80%E4%B8%9A",
+    "source_level": "media",
+    "evidence": "2024年9月开业，预计今年9月开业",
+    "note": "另有岛民免税店开业数据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 23,
+    "verdict": "minor_diff",
+    "query": "龙湖海南海口天街 建筑面积",
+    "source_url": "https://weixin.sogou.com/weixin?type=2&query=%E6%B5%B7%E5%8D%97%E9%BE%99%E6%B9%96%E5%A4%A9%E8%A1%97+%E5%BB%BA%E7%AD%91%E9%9D%A2%E7%A7%AF+%E5%81%9C%E8%BD%A6",
+    "source_level": "media",
+    "evidence": "商业地块总建筑面积近16.5万㎡，总建筑面积约23万㎡（含商业+住宅+办公）",
+    "note": "|11.5-23|/11.5=100%；商业地块16.5万→|11.5-16.5|/11.5=43%；可能内部仅含购物中心"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖海南海口天街 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单独停车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖海南海口天街 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未提及单日峰值客流",
+    "note": ""
+   }
+  ]
+ }
+]

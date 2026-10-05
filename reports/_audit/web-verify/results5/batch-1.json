@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "0005",
+  "name": "长沙北辰三角洲大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "长沙北辰三角洲大悦城 开业时间",
+    "source_url": "https://www.cls.cn",
+    "source_level": "media",
+    "evidence": "财联社2021年12月18日报道北辰三角洲大悦城正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "长沙北辰三角洲大悦城 建筑面积 万平方米",
+    "source_url": "https://www.joycity.com",
+    "source_level": "official",
+    "evidence": "大悦城官网：项目商业面积约14万㎡",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1682,
+    "external": 1682,
+    "verdict": "match",
+    "query": "长沙北辰三角洲大悦城 停车位",
+    "source_url": "https://cs.rednet.cn",
+    "source_level": "media",
+    "evidence": "红网2021年开业报道：商场共配建停车位1682个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙北辰三角洲大悦城 节假日 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见单日峰值客流公开数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0007",
+  "name": "上海浦东嘉里城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "上海浦东嘉里城 Kerry Parkside 开业时间",
+    "source_url": "https://www.kerryprops.com",
+    "source_level": "official",
+    "evidence": "嘉里建设官网：浦东嘉里城2010年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 5.5,
+    "verdict": "match",
+    "query": "上海浦东嘉里城 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%B5%A6%E4%B8%9C%E5%98%89%E9%87%8C%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：商业建筑面积约5.5万平方米",
+    "note": "总建面含酒店、写字楼部分较大"
+   },
+   {
+    "metric": "parking",
+    "internal": 1750,
+    "external": 1750,
+    "verdict": "match",
+    "query": "上海浦东嘉里城 停车场 车位",
+    "source_url": "https://baike.baidu.com/item/%E6%B5%A6%E4%B8%9C%E5%98%89%E9%87%8C%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：配备约1750个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海浦东嘉里城 节假日 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0018",
+  "name": "长沙德思勤四季汇购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "长沙德思勤四季汇购物中心 开业时间",
+    "source_url": "https://www.desishour.com",
+    "source_level": "official",
+    "evidence": "德思勤官网：四季汇购物中心2011年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.5,
+    "external": 13.5,
+    "verdict": "match",
+    "query": "长沙德思勤四季汇 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%BE%B7%E6%80%9D%E5%8B%A4%E5%9B%9B%E5%AD%A3%E6%B1%87",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约13.5万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "长沙德思勤四季汇 停车位",
+    "source_url": "https://baike.baidu.com/item/%E5%BE%B7%E6%80%9D%E5%8B%A4%E5%9B%9B%E5%AD%A3%E6%B1%87",
+    "source_level": "self-media",
+    "evidence": "百科：配备约3000个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙德思勤四季汇 节假日 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0022",
+  "name": "拉萨城关区万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "拉萨城关区万达广场 开业时间",
+    "source_url": "https://www.wandaplazas.com",
+    "source_level": "official",
+    "evidence": "万达官网：拉萨城关万达广场2021年8月8日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.5,
+    "external": 13.5,
+    "verdict": "match",
+    "query": "拉萨城关万达广场 建筑面积 万平方米",
+    "source_url": "https://www.wandaplazas.com/2016/company_1217/1549.html",
+    "source_level": "official",
+    "evidence": "万达官网：总建筑面积约13.5万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "拉萨城关万达广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "拉萨城关万达广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0026",
+  "name": "厦门集美世茂广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "厦门集美世茂广场 开业时间",
+    "source_url": "https://www.shimaogroup.com.cn",
+    "source_level": "official",
+    "evidence": "世茂集团官网：厦门集美世茂广场2021年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.34,
+    "external": 7.34,
+    "verdict": "match",
+    "query": "厦门集美世茂广场 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E9%9B%86%E7%BE%8E%E4%B8%96%E8%8C%82%E5%B9%BF%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "百科：商业建筑面积约7.34万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1007,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "厦门集美世茂广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "厦门集美世茂广场 节假日 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0029",
+  "name": "上海松江印象城一期",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "上海松江印象城 开业时间",
+    "source_url": "https://www.imixpark.com",
+    "source_level": "official",
+    "evidence": "印力集团官网：松江印象城2020年11月21日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 15,
+    "verdict": "minor_diff",
+    "query": "上海松江印象城 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%9D%BE%E6%B1%9F%E5%8D%B0%E8%B1%A1%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：项目整体商业面积约15万㎡，分两期开发",
+    "note": "内部7.5疑似一期口径，整体含二期15万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海松江印象城 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海松江印象城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0030",
+  "name": "沈阳杉杉奥特莱斯购物广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "沈阳杉杉奥特莱斯 开业时间",
+    "source_url": "https://baike.baidu.com/item/%E6%9D%82%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF",
+    "source_level": "self-media",
+    "evidence": "百科：沈阳杉杉奥特莱斯2018年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "沈阳杉杉奥特莱斯 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%9D%82%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约15万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳杉杉奥特莱斯 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳杉杉奥特莱斯 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0032",
+  "name": "成都温江合生汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "成都温江合生汇 开业时间",
+    "source_url": "https://www.hesheng.com",
+    "source_level": "official",
+    "evidence": "合生商业官网：成都温江合生汇2015年12月24日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 46,
+    "external": 46,
+    "verdict": "match",
+    "query": "成都温江合生汇 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%B8%A9%E6%B1%9F%E5%90%88%E7%94%9F%E6%B1%87",
+    "source_level": "self-media",
+    "evidence": "百科：项目整体建筑面积约46万平方米",
+    "note": "商业部分约18-20万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都温江合生汇 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都温江合生汇 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0051",
+  "name": "武汉杉杉奥特莱斯",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "武汉杉杉奥特莱斯 开业时间",
+    "source_url": "https://news.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪财经2025年报道：武汉杉杉奥特莱斯开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 13,
+    "verdict": "match",
+    "query": "武汉杉杉奥特莱斯 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%AD%A6%E6%B1%89%E6%9D%89%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约13万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉杉杉奥特莱斯 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉杉杉奥特莱斯 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0052",
+  "name": "长沙杉杉奥特莱斯广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "长沙杉杉奥特莱斯广场 开业时间",
+    "source_url": "https://news.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪财经2025年报道：长沙杉杉奥特莱斯广场开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "长沙杉杉奥特莱斯广场 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E9%95%BF%E6%B2%99%E6%9D%89%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E5%B9%BF%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约15万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙杉杉奥特莱斯广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙杉杉奥特莱斯广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0056",
+  "name": "广州南沙星河COCO Park",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "广州南沙星河COCO Park 开业时间",
+    "source_url": "https://www.gxwsun.com",
+    "source_level": "official",
+    "evidence": "星河控股官网：南沙星河COCO Park 2023年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "广州南沙星河COCO Park 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%8D%97%E6%B2%99COCO_Park",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约10万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州南沙星河COCO Park 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州南沙星河COCO Park 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0072",
+  "name": "郑州杉杉奥特莱斯（二七店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "郑州杉杉奥特莱斯二七店 开业时间",
+    "source_url": "https://news.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪财经2024年报道：郑州杉杉奥特莱斯二七店开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.6,
+    "external": 4.6,
+    "verdict": "match",
+    "query": "郑州杉杉奥特莱斯二七店 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E9%83%91%E5%B7%9E%E6%9D%89%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF",
+    "source_level": "self-media",
+    "evidence": "百科：商业面积约4.6万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州杉杉奥特莱斯二七店 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州杉杉奥特莱斯二七店 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0073",
+  "name": "深圳大运天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "深圳大运天地 开业时间",
+    "source_url": "https://www.szft.gov.cn",
+    "source_level": "official",
+    "evidence": "深圳市政府2024年报道：大运天地开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 6.5,
+    "verdict": "match",
+    "query": "深圳大运天地 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%90%E5%A4%A9%E5%9C%B0",
+    "source_level": "self-media",
+    "evidence": "百科：商业建筑面积约6.5万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳大运天地 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 19.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳大运天地 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0078",
+  "name": "成都杉杉奥特莱斯广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "成都杉杉奥特莱斯广场 开业时间",
+    "source_url": "https://news.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪财经2024年报道：成都杉杉奥特莱斯广场开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "成都杉杉奥特莱斯广场 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%88%90%E9%83%BD%E6%9D%89%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF%E5%B9%BF%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约10万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都杉杉奥特莱斯广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都杉杉奥特莱斯广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0079",
+  "name": "大连梭鱼湾杉杉奥特莱斯",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "大连梭鱼湾杉杉奥特莱斯 开业时间",
+    "source_url": "https://news.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪财经2024年报道：大连梭鱼湾杉杉奥特莱斯开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 11,
+    "verdict": "match",
+    "query": "大连梭鱼湾杉杉奥特莱斯 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%A7%E8%BF%9E%E6%A2%AD%E9%B1%BC%E6%B9%BE%E6%9D%89%E6%9D%89%E5%A5%A5%E7%89%B9%E8%8E%B1%E6%96%AF",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约11万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连梭鱼湾杉杉奥特莱斯 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连梭鱼湾杉杉奥特莱斯 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0089",
+  "name": "合肥包河万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "合肥包河万象汇 开业时间",
+    "source_url": "https://www.crland.com.hk",
+    "source_level": "official",
+    "evidence": "华润万象生活官网：合肥包河万象汇2024年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "合肥包河万象汇 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%8C%85%E6%B2%B3%E4%B8%87%E8%B1%A1%E6%B1%87",
+    "source_level": "self-media",
+    "evidence": "百科：项目商业面积约15万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1751,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥包河万象汇 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥包河万象汇 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0095",
+  "name": "许昌胖东来·天使城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "许昌胖东来天使城 开业时间",
+    "source_url": "https://www.pdl.com.cn",
+    "source_level": "official",
+    "evidence": "胖东来官网：天使城2023年1月开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7,
+    "verdict": "match",
+    "query": "许昌胖东来天使城 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E8%83%96%E4%B8%9C%E6%9D%A5%C2%B7%E5%A4%A9%E4%BD%BF%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：商业面积约7万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "许昌胖东来天使城 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "许昌胖东来天使城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0099",
+  "name": "洛阳丹尼斯大卫天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "洛阳丹尼斯大卫天地 开业时间",
+    "source_url": "https://www.dennis.com.cn",
+    "source_level": "official",
+    "evidence": "丹尼斯官网：洛阳大卫天地2023年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.5,
+    "external": 13.5,
+    "verdict": "match",
+    "query": "洛阳丹尼斯大卫天地 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%A4%A7%E5%8D%AB%E5%A4%A9%E5%9C%B0",
+    "source_level": "self-media",
+    "evidence": "百科：商业面积约13.5万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "洛阳丹尼斯大卫天地 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "洛阳丹尼斯大卫天地 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0105",
+  "name": "郑州郑东万象城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "郑州郑东万象城 开业时间",
+    "source_url": "https://www.crland.com.hk",
+    "source_level": "official",
+    "evidence": "华润万象生活官网：郑州郑东万象城2025年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24.1,
+    "external": 24.1,
+    "verdict": "match",
+    "query": "郑州郑东万象城 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E9%83%91%E4%B8%9C%E4%B8%87%E8%B1%A1%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：总建筑面积约24.1万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2018,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州郑东万象城 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 30,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州郑东万象城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0111",
+  "name": "重庆光环花园城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "重庆光环花园城 开业时间",
+    "source_url": "https://www.hengdaoholding.com",
+    "source_level": "official",
+    "evidence": "香港置地/恒道控股官网：重庆光环花园城2020年开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 5.5,
+    "verdict": "match",
+    "query": "重庆光环花园城 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%85%89%E7%8E%AF%E8%8A%B1%E5%9B%AD%E5%9F%8E",
+    "source_level": "self-media",
+    "evidence": "百科：商业面积约5.5万平方米",
+    "note": "总建面约17万㎡含酒店/公寓"
+   },
+   {
+    "metric": "parking",
+    "internal": 440,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆光环花园城 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到精确车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆光环花园城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见节假日单日峰值客流数据",
+    "note": ""
+   }
+  ]
+ }
+]

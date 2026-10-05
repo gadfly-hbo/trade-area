@@ -60,6 +60,7 @@
 - **2026-10 第二轮核验修正**（S+A+ 全量 245 家 + 自洽审计可疑 82 家，共 1255 项检查）：61 家商圈 70 项修正（openedYear 33 / parking 17 / buildingArea 16 / trafficPeak 4），模式为分期/馆别错配、更名年当开业年、综合体含住宅宣称口径、车位邻词污染；逐项证据见 `reports/_audit/web-verify/results2/`。裁定项：昆明恒隆峰值 15 万、烟台振华开业 1996（扩建更名年）、晶融汇 2014、嘉兴八佰伴车位 459。自洽审计脚本 `reports/_audit/web-verify/audit.mjs` 可随 ETL 复跑（可疑层 conflict 率 19.4%，约为 S 级 3 倍）。勿回退。
 - **2026-10 第三轮定向补漏修正**（审计增强：新增分期/馆别错配检查；A 级可疑 + 剩余严重可疑共 86 家 343 项检查）：26 家商圈 30 项修正（openedYear 19 / parking 7 / buildingArea 4），新错误模式：破产重整/动工年当开业年（青岛嘉年华VILLAGE 2022→2024、东莞万象滨海 2022→2025）、同城同名项目混淆（东营西城/东城万达）、分期条目取其他期年份（临沂泰盛一期、泽胜A馆、前滩太古里）；证据见 `reports/_audit/web-verify/results3/`。勿回退。
 - **2026-10 第四轮 B/C 层修正**（B/C/无评级审计可疑 231 家 908 项检查，该层错误率最高：可比项一致率 66.8%）：79 家商圈 94 项修正（openedYear 65 / buildingArea 17 / parking 12），典型为万达系县域店取拿地/签约年、低置信推断值未经验证入库；证据见 `reports/_audit/web-verify/results4/`。勿回退。
+- **2026-10 第五轮 A 级抽检**（A 级 495 家，抽检 9 批 180 家 713 项）：22 项核对本需修订（openedYear 12 / buildingArea 6 / parking 3 / trafficPeak 1），含分期错配（A馆B馆年份混淆）、同城同名项目混淆、计划/焕新年误当开业年；剩余 16 批因搜索通道环境受限（百度 403、Sogou captcha、Bing 空白）暂时搁置，按用户裁定停手并提交已有 22 项。证据见 `reports/_audit/web-verify/results5/`。勿回退。
 
 ## 选址分析视角（服饰：成人装 + 童装）
 

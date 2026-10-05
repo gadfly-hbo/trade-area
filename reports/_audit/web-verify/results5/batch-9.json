@@ -1,0 +1,978 @@
+[
+ {
+  "id": "0937",
+  "name": "昆明世纪金源购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明世纪金源购物中心 开业 2009 12月18日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回昆明城市概览/旅游，未见世纪金源购物中心开业具体来源；多次搜索被拦或只见提示词回显",
+    "note": "搜索环境严重受限（百度/Baidu Baike 403、Sogou/360/Yandex 限流）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 35,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明世纪金源购物中心 建筑面积 35万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到独立外部信源确认面积；维基条目仅含北京世纪金源购物中心（2004海淀），不含昆明店",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明世纪金源购物中心 停车位 2500",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明世纪金源购物中心 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0944",
+  "name": "乌鲁木齐时代广场CC MALL",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐时代广场 CC MALL 2012 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见乌鲁木齐城市概览，未见时代广场CC MALL独立信源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 28.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐时代广场 建筑面积 28.5万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1055,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐时代广场 停车位 1055",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0945",
+  "name": "长治高新万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长治高新万达广场 2019 开业 12月20日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 搜索仅返回长治城市概览/旅游，未见万达广场独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长治高新万达广场 建筑面积 11.5万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长治高新万达广场 停车位 1150",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长治高新万达广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0949",
+  "name": "宜宾万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宜宾万达广场 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回宜宾旅游/概况，未见万达广场独立来源",
+    "note": "宜宾万达已闭店/转手多次，外部客流数据更难获取"
+   }
+  ]
+ },
+ {
+  "id": "0954",
+  "name": "深圳PAFCmall",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳PAFC MALL 平安金融中心商场 开业 2017",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 搜索仅返回深圳城市概览；英文搜索被误识别为磷酸燃料电池（PAFC）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳PAFC MALL 建筑面积 9万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳PAFC MALL 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳PAFC MALL 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0964",
+  "name": "深圳光明蓝鲸世界",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明蓝鲸世界 开业 2021",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见深圳城市概况，未见蓝鲸世界独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明蓝鲸世界 建筑面积 10万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明蓝鲸世界 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明蓝鲸世界 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0968",
+  "name": "深圳布吉万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳布吉万象汇 开业 2018",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见深圳城市概况，未见布吉万象汇独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳布吉万象汇 建筑面积 11万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳布吉万象汇 停车位 1000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳布吉万象汇 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0972",
+  "name": "郑州新田360广场（国贸店）南区",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州新田360广场 国贸店 南区 2010 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见郑州城市概况，未见新田360广场独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州新田360广场 国贸店 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州新田360广场 国贸店 停车位 3000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源；3000 个停车位与 4 万㎡ 商业面积比例异常（750 ㎡/车位），需复核口径",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 38,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州新田360广场 国贸店 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": "38 万人次/日对 4 万㎡ 商业面积疑似过高，需复核口径"
+   }
+  ]
+ },
+ {
+  "id": "0977",
+  "name": "海口万象城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口万象城 开业 2022 华润",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见海口旅游概况，未见海口万象城独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.35,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口万象城 建筑面积 11.35万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口万象城 停车位 2300",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口万象城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0978",
+  "name": "哈尔滨百盛商城（太平桥店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨百盛商城 太平桥店 2015 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回哈尔滨旅游/概况，未见太平桥百盛独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨百盛 太平桥 建筑面积 14.7万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨百盛 太平桥 停车位 700",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨百盛 太平桥 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0979",
+  "name": "常州泰富百货",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1992,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州泰富百货 1992 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回与麻将/PS 等无关内容，未见泰富百货独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州泰富百货 建筑面积 3.5万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州泰富百货 停车位 1000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源；3.5 万㎡百货对应 1000 车位（35 ㎡/车位）异常，需复核口径",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "常州泰富百货 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0980",
+  "name": "无锡八佰伴中心（锡沪路店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴中心 锡沪路店 2020 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回腾讯视频（v.qq.com）等无关内容，未见八佰伴独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 26,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴 锡沪路 建筑面积 26万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴 锡沪路 停车位 2600",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 40,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴 锡沪路 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": "40 万人次/日疑似全域或全市统计口径，需复核"
+   }
+  ]
+ },
+ {
+  "id": "0990",
+  "name": "柳州万象城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州万象城 开业 2022 华润",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回柳州旅游概况，未见柳州万象城独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州万象城 建筑面积 10万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州万象城 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "柳州万象城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0993",
+  "name": "泰州万象城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰州万象城 开业 2021 华润",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回泰州旅游概况，未见泰州万象城独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰州万象城 建筑面积 8万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰州万象城 停车位 1150",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "泰州万象城 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0997",
+  "name": "大连柏威年购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连柏威年购物中心 2015 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回与本查询无关的其他内容，未见柏威年独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连柏威年 建筑面积 13万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连柏威年 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连柏威年 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1002",
+  "name": "海口望海国际广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口望海国际广场 2011 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索结果仅见海口旅游概况，未见望海国际独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口望海国际广场 建筑面积 15.5万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 972,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口望海国际广场 停车位 972",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.19,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口望海国际广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1004",
+  "name": "首开龙湖成都西宸天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "首开龙湖 成都 西宸天街 开业 2018",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回 B 站（bilibili）等无关内容，未见西宸天街独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "首开龙湖 成都 西宸天街 建筑面积 25万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1450,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "首开龙湖 成都 西宸天街 停车位 1450",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "首开龙湖 成都 西宸天街 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1006",
+  "name": "北京花乡奥莱村",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京花乡奥莱村 开业 2017",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回华中科技大学同济医学院等无关内容，未见花乡奥莱村独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京花乡奥莱村 建筑面积 10.8万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3008,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京花乡奥莱村 停车位 3008",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京花乡奥莱村 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1018",
+  "name": "南通圆融购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南通圆融购物中心 开业 2011",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回上海交大邮箱服务等，未见南通圆融独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南通圆融购物中心 建筑面积 7万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 560,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南通圆融购物中心 停车位 560",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南通圆融购物中心 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1023",
+  "name": "深圳光明大仟里",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明大仟里 开业 2019",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "Bing cn 仅返回起点/爱奇艺等小说/视频平台内容，未见光明大仟里独立来源",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明大仟里 建筑面积 9万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目面积独立来源",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明大仟里 停车位 1750",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数独立来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳光明大仟里 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流外部数据",
+    "note": ""
+   }
+  ]
+ }
+]

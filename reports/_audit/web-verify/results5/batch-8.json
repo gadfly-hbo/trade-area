@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "0847",
+  "name": "泰州泰兴吾悦广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "泰兴吾悦广场 开业时间 停车位 客流 万人次",
+    "source_url": "http://m.winshang.com/news656028.html",
+    "source_level": "trade",
+    "evidence": "2018年12月23日，泰兴吾悦广场开业当日客流25.55万人次，销售1800万",
+    "note": "泰兴市政府网显示项目2017年4月开工；另有新浪财经称2018年11月开业。内部2016早于开工年，疑误"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9,
+    "verdict": "match",
+    "query": "\"泰兴吾悦广场\" 购物中心 万方 体量",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "泰兴当地体量最大的吾悦广场，商业面积约9万方",
+    "note": "另有口径：综合体总建面约52万㎡（含住宅）；新城经营简报可租购物中心面积5.61万㎡（可租<建面，不可直接比）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": 1800,
+    "verdict": "conflict",
+    "query": "\"泰兴吾悦广场\" 购物中心 万方 体量",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "项目总建筑面积约52万㎡，配备约1800个智慧停车位（搜狐2019年报道）",
+    "note": "差约57%；外部或为全综合体（含街区/住宅）口径，仅一处来源，供复核"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": 25.55,
+    "verdict": "unit_mismatch",
+    "query": "\"泰兴吾悦广场\" 客流 万人次 日均",
+    "source_url": "http://m.winshang.com/news656028.html",
+    "source_level": "trade",
+    "evidence": "开业当日客流25.55万人次",
+    "note": "仅开业首日口径，无可比节假日单日峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "0855",
+  "name": "西宁海湖万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2016,
+    "verdict": "minor_diff",
+    "query": "西宁海湖万达广场 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "万达债券募集说明书：开业时间2016年7月；百度百科：2016年开业当日客流20万人次",
+    "note": "外部2016（债券文件+百科一致），内部2017差1年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 90,
+    "external": 87.4,
+    "verdict": "match",
+    "query": "海湖万达广场 西宁 总建筑面积 万平方米 项目",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "项目总建筑面积87.40万平方米，由购物中心、五星级酒店、超高层甲级写字楼、室外步行街、公寓等组成",
+    "note": "另：2023年转让对应建筑面积约47.7万㎡（出售口径）；持有物业18.81万㎡为持有部分口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"海湖万达\" 西宁 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "西宁海湖万达广场 停车位 客流 万人次",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "2016年开业当日接待客流20万人次，单日营业额突破1800万元",
+    "note": "仅开业首日口径"
+   }
+  ]
+ },
+ {
+  "id": "0856",
+  "name": "成都伊藤洋华堂（双楠店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2003,
+    "verdict": "match",
+    "query": "成都伊藤洋华堂 双楠店 开业时间 建筑面积",
+    "source_url": "https://www.iy-cn.cn",
+    "source_level": "official",
+    "evidence": "伊藤洋华堂官网：双楠店 开业时间 2003年09月30日",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 3.5,
+    "verdict": "match",
+    "query": "成都伊藤洋华堂 双楠店 开业时间 建筑面积",
+    "source_url": "https://www.iy-cn.cn",
+    "source_level": "official",
+    "evidence": "官网：营业面积 3.5万平方米",
+    "note": "聚合页另有营业面积约4.2万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": 600,
+    "verdict": "match",
+    "query": "成都伊藤洋华堂双楠店 停车场 车位 数量",
+    "source_url": "http://mall.ppsj.com.cn/621090FD4F0A85E46D0B534E580253CC69605E97",
+    "source_level": "trade",
+    "evidence": "停车位数量约600个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": 3,
+    "verdict": "unit_mismatch",
+    "query": "成都伊藤洋华堂双楠店 停车场 车位 数量",
+    "source_url": "http://mall.ppsj.com.cn/621090FD4F0A85E46D0B534E580253CC69605E97",
+    "source_level": "trade",
+    "evidence": "日均人流量约3万人次",
+    "note": "外部仅日均口径；该店2019年零售额16亿元居伊藤全球第一，未见节假日单日峰值"
+   }
+  ]
+ },
+ {
+  "id": "0869",
+  "name": "桂林高新万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "桂林高新万达广场 开业时间 建筑面积",
+    "source_url": "http://news.youth.cn/gn/201602/t20160215_7635656.htm",
+    "source_level": "media",
+    "evidence": "2015年9月12日，全国第124座万达广场——桂林高新万达盛大开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 10.84,
+    "verdict": "conflict",
+    "query": "桂林高新万达广场 开业时间 建筑面积",
+    "source_url": "https://m.focus.cn/gl/loupan/1310414.html",
+    "source_level": "media",
+    "evidence": "占地110亩，总建筑面积约33.02万平方米，商业面积约10.84万平方米",
+    "note": "内部5万㎡较外部商业面积10.84万㎡差约54%，未见5万口径来源"
+   },
+   {
+    "metric": "parking",
+    "internal": 1150,
+    "external": 1503,
+    "verdict": "minor_diff",
+    "query": "桂林高新万达广场 商业面积 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总停车位约2255个，其中住宅车位750个、商业车位约1503-1505个",
+    "note": "内部1150与商业车位1503差约31%（百度百科/聚汇数据/新浪地产聚合）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 17.5,
+    "external": 35,
+    "verdict": "unit_mismatch",
+    "query": "桂林高新万达广场 停车位 客流 万人次",
+    "source_url": "http://news.youth.cn/gn/201602/t20160215_7635656.htm",
+    "source_level": "media",
+    "evidence": "开业首日客流突破35万人次",
+    "note": "开业首日口径；2023五一/2024国庆数据为七星区多商场累计，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0875",
+  "name": "无锡八佰伴（中山路）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "\"无锡八佰伴\" 中山路 1996 开业",
+    "source_url": "https://baike.baidu.com/item/无锡八佰伴商贸中心有限公司",
+    "source_level": "self-media",
+    "evidence": "无锡八佰伴（中山路店）于1996年7月正式开业，江苏首家中外合资零售企业",
+    "note": "1996年4月18日试营业、7月正式开业；维基百科亦载为中国开业最早的八佰伴门店"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "无锡八佰伴 中山路 营业面积 万平方米 建筑面积",
+    "source_url": "https://baike.baidu.com/item/无锡八佰伴商贸中心有限公司",
+    "source_level": "self-media",
+    "evidence": "建筑面积约10万平方米，营业面积达7万平方米",
+    "note": "早期资料另有建筑面积7.5万㎡口径（2008年报道）"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴 中山路店 客流 日均 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到中山路店车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡八佰伴 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到中山路店客流数据",
+    "note": "检索到的日均3-6万人次系锡山区八佰伴中心（2020年开业），非本项目"
+   }
+  ]
+ },
+ {
+  "id": "0877",
+  "name": "深圳龙岗COCO Park",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "深圳龙岗COCO Park 开业时间 建筑面积",
+    "source_url": "https://www.hkexnews.hk",
+    "source_level": "official",
+    "evidence": "星盛商业港交所披露：深圳龙岗星河COCO Park 2012年9月",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.9,
+    "external": 7.95,
+    "verdict": "match",
+    "query": "深圳龙岗COCO Park 开业时间 建筑面积",
+    "source_url": "https://www.hkexnews.hk",
+    "source_level": "official",
+    "evidence": "商业面积79,506㎡（约7.95万㎡），总建面174,377㎡含地下",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙岗COCO Park 深圳 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见停车收费标准（前2小时免费等），无车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳龙岗COCO Park 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见日均客流居商圈TOP2、3公里渗透率超60%等定性信息",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0878",
+  "name": "东莞虎门万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2016,
+    "verdict": "conflict",
+    "query": "东莞虎门万达广场 开业时间 建筑面积",
+    "source_url": "http://www.wandaplazas.com/2016/company_1217/1549.html",
+    "source_level": "official",
+    "evidence": "2016年12月16日开业（全国第172座万达广场），开业首日客流约30万人次",
+    "note": "百度百科同载2016-12-16；内部2014疑为拿地/奠基年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 60,
+    "external": 45,
+    "verdict": "minor_diff",
+    "query": "虎门万达广场 总建筑面积 60万平方米",
+    "source_url": "https://baike.baidu.com/item/东莞虎门万达广场/19513853",
+    "source_level": "self-media",
+    "evidence": "总建筑面积45万平方米，商业面积14.6万平方米，占地11万平方米",
+    "note": "内部60万较主流45万口径差约33%；早期报道曾提整体开发约90万㎡，房天下亦载45万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 1297,
+    "verdict": "minor_diff",
+    "query": "虎门万达广场 停车位 多少个",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "安居客：停车位1297个（车位比1:1.1）；搜狐焦点：约1080个",
+    "note": "外部1080-1297个，与内部2000差35%-46%，处于minor上沿；口径或不含住宅车位"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": 30,
+    "verdict": "unit_mismatch",
+    "query": "虎门万达广场 停车位 客流 万人次",
+    "source_url": "http://www.wandaplazas.com/2016/company_1217/1549.html",
+    "source_level": "official",
+    "evidence": "开业首日客流达30万人次，营业额近2000万元",
+    "note": "仅开业首日口径"
+   }
+  ]
+ },
+ {
+  "id": "0882",
+  "name": "南京华采天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "南京华采天地 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2019年5月18日，华采天地盛大开业（赢商网）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17,
+    "external": 17,
+    "verdict": "match",
+    "query": "南京华采天地 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "建筑面积约17万平方米，地下1层至地上5层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "南京华采天地 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "约2000个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "南京华采天地 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "开业首日曾创下20万人次客流",
+    "note": "开业首日口径；数值与内部节假日峰值完全一致，疑为同源引用"
+   }
+  ]
+ },
+ {
+  "id": "0883",
+  "name": "昆明瑞鼎城悦容匯购物公园",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "昆明 瑞鼎城爱琴海购物公园 开业 2019",
+    "source_url": "https://m.winshang.com/news723471.html",
+    "source_level": "trade",
+    "evidence": "瑞鼎城爱琴海购物公园2019年9月28日开业，2024年更名悦容匯购物公园",
+    "note": "更名不算开业；赢商网2019-12报道明确2019-09-28开业，内部2017差2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 18.6,
+    "external": 20,
+    "verdict": "match",
+    "query": "昆明瑞鼎城悦容汇购物公园 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "拥有20万㎡商业面积的瑞鼎城爱琴海（另有18万㎡商业空间口径）",
+    "note": "外部18-20万㎡区间，与内部18.6差≤10%；瑞鼎城整体项目80.5万㎡为含住宅口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": 4000,
+    "verdict": "match",
+    "query": "瑞鼎城爱琴海 停车位 客流 万人",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "项目自身配有高密度住宅社区、酒店、办公楼、4000个停车位等优质配套",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": 27.8,
+    "verdict": "unit_mismatch",
+    "query": "瑞鼎城爱琴海 停车位 客流 万人",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "开业当日客流27.8万人次，销售额1582.7万元",
+    "note": "仅开业首日口径（赢商网2019-12报道）"
+   }
+  ]
+ },
+ {
+  "id": "0888",
+  "name": "合肥庐阳万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "合肥庐阳万象汇 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/庐阳万象汇/67675555",
+    "source_level": "self-media",
+    "evidence": "庐阳万象汇于2019年9月28日开业",
+    "note": "百度百科与赢商网一致为2019-09-28；内部2024差5年（2024年开业的是合肥包河万象汇）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 11.3,
+    "verdict": "match",
+    "query": "合肥庐阳万象汇 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "设计资料总建面113,000㎡（约11.3万㎡），百度百科约10万㎡，集中商业约7.6万㎡",
+    "note": "取最精确的11.3万㎡口径差约10.6%；若按百科10万㎡口径则为minor_diff（约25%）"
+   },
+   {
+    "metric": "parking",
+    "internal": 900,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥庐阳万象汇 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数（搜索持续限流）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 21,
+    "verdict": "unit_mismatch",
+    "query": "庐阳万象汇 客流 万人次",
+    "source_url": "https://baike.baidu.com/item/庐阳万象汇/67675555",
+    "source_level": "self-media",
+    "evidence": "项目开业首日客流突破21万人次，销售额超过2100万元",
+    "note": "仅开业首日口径；2020元旦60万为庐阳万象汇+万科广场两综合体合计累计"
+   }
+  ]
+ },
+ {
+  "id": "0894",
+  "name": "广州金沙洲金铂天地",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "金铂天地 金沙洲 2019年11月30日 开业",
+    "source_url": "http://m.winshang.com/h5/21h5/xmshow.aspx?id=4331",
+    "source_level": "trade",
+    "evidence": "项目名称：金沙洲金铂天地；开业时间：2019年11月30日；所在城市：广东佛山",
+    "note": "位于佛山南海（广佛交界金沙洲），与任务城市字段一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 68,
+    "external": 68,
+    "verdict": "match",
+    "query": "金沙洲金铂天地 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com/h5/21h5/xmshow.aspx?id=4331",
+    "source_level": "trade",
+    "evidence": "68万㎡城市综合体，购物中心体量约13.2万㎡（街区商业另计）",
+    "note": "内部68万为综合体总口径，一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 3441,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "金沙洲金铂天地 停车场 车位 3441",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该车位数来源（仅见白云湖金铂天地约1830个，系另一项目）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "金沙洲金铂天地 停车位 客流",
+    "source_url": "https://www.sohu.com/a/443724033_120114194",
+    "source_level": "self-media",
+    "evidence": "日均客流4.5-4.7万，周末约8万，节假日超10万人次",
+    "note": "节假日单日口径与内部一致；来源为搜狐商业号，单一来源"
+   }
+  ]
+ },
+ {
+  "id": "0896",
+  "name": "衡阳蒸湘万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "衡阳蒸湘万达广场 停车位 客流",
+    "source_url": "https://baike.baidu.com/item/衡阳万达广场/23307709",
+    "source_level": "self-media",
+    "evidence": "开业时间2017年9月29日，位于衡阳市蒸湘区幸福路13号",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "衡阳蒸湘万达广场 停车位 客流",
+    "source_url": "https://baike.baidu.com/item/衡阳万达广场/23307709",
+    "source_level": "self-media",
+    "evidence": "建筑面积12万平方米，总投资超20亿元",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": 1000,
+    "verdict": "match",
+    "query": "衡阳蒸湘万达广场 停车位 客流",
+    "source_url": "https://baike.baidu.com/item/衡阳万达广场/23307709",
+    "source_level": "self-media",
+    "evidence": "停车位近1000个",
+    "note": "同系酃湖万达为另一项目（1200多个车位），未混用"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "衡阳蒸湘万达广场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见\"开门红创开业以来客流最高纪录\"定性报道",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0898",
+  "name": "武汉大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "武汉大悦城 光谷 2021年12月24日 开业",
+    "source_url": "https://zrzyhgh.wuhan.gov.cn/dhxjskfqfj/dhxjskfqfj_xwdt/dhxjskfqfj_gzdt/202401/t20240116_2343308.shtml",
+    "source_level": "official",
+    "evidence": "1月15日武汉大悦城迎来开业2周年（2024年报道，即2022-01-15开业）",
+    "note": "原计划2021年12月开业后延期至2022-01-15；大悦城官网载2022年1月"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "武汉大悦城 光谷 2021年12月24日 开业",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "项目总体量约70万㎡，购物中心商业面积约14万平方米",
+    "note": "内部14万为购物中心商业面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉大悦城 停车位 车场 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数（两次搜索均限流）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": 10,
+    "verdict": "unit_mismatch",
+    "query": "武汉大悦城 光谷 2021年12月24日 开业",
+    "source_url": "https://zrzyhgh.wuhan.gov.cn/dhxjskfqfj/dhxjskfqfj_xwdt/dhxjskfqfj_gzdt/202401/t20240116_2343308.shtml",
+    "source_level": "official",
+    "evidence": "开业两年商圈累计客流近3000万，工作日日均近5万，周末屡破10万人次",
+    "note": "外部为周末单日口径，非节假日峰值；与内部12.5不矛盾"
+   }
+  ]
+ },
+ {
+  "id": "0899",
+  "name": "马鞍山金鹰购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2015,
+    "verdict": "conflict",
+    "query": "马鞍山金鹰国际购物中心 开业 日期",
+    "source_url": "http://www.netge.com",
+    "source_level": "official",
+    "evidence": "金鹰官网：马鞍山金鹰购物中心 开业时间2015-08-29，项目面积130,000㎡，湖南西路8号",
+    "note": "内部2007较外部早8年；2016年五一销售同比+197.79%亦与2015年新开业相印证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 13,
+    "verdict": "minor_diff",
+    "query": "马鞍山金鹰国际购物中心 开业 日期",
+    "source_url": "http://www.netge.com",
+    "source_level": "official",
+    "evidence": "项目面积（㎡）：130000",
+    "note": "差约30%"
+   },
+   {
+    "metric": "parking",
+    "internal": 650,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "马鞍山金鹰购物中心 停车位 客流 万人",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "马鞍山金鹰 商场 停车位 日均客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到客流数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0903",
+  "name": "太原吾悦广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "太原吾悦广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/吾悦广场/59657031",
+    "source_level": "self-media",
+    "evidence": "开业时间2024年4月26日（新城控股2024年首开项目）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 51.5,
+    "external": 52,
+    "verdict": "match",
+    "query": "太原吾悦广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/吾悦广场/59657031",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约52万平方米（部分资料51.81万-52.38万㎡），购物中心约14万㎡",
+    "note": "差约1%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原吾悦广场 停车位 客流 万人",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见W会员\"全年免费停车+专属VIP停车位\"权益描述，无车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原吾悦广场 春节 客流 单日 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅有开业三天累计63万+/十天累计146万人次、春节预计日均6-7万等非可比口径",
+    "note": "开业累计/预计日均均非节假日单日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "0912",
+  "name": "合肥肥东吾悦广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "合肥肥东吾悦广场 2019 开业 总建筑面积 万方",
+    "source_url": "http://m.winshang.com/news653618.html",
+    "source_level": "trade",
+    "evidence": "拟于2019年6月22日开业，新城全国第47座吾悦广场",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 56,
+    "external": 56,
+    "verdict": "match",
+    "query": "合肥肥东吾悦广场 2019 开业 总建筑面积 万方",
+    "source_url": "http://m.winshang.com/news653618.html",
+    "source_level": "trade",
+    "evidence": "规划打造56万方体验式城市综合体（购物中心部分约14万方）",
+    "note": "内部56万为综合体总口径，一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 1000,
+    "verdict": "minor_diff",
+    "query": "合肥肥东吾悦广场 2019 开业 总建筑面积 万方",
+    "source_url": "http://m.winshang.com/news653618.html",
+    "source_level": "trade",
+    "evidence": "购物中心总建筑面积约14万方，约1000个停车位",
+    "note": "购物中心口径1000个，与内部2000差50%处于minor上沿；内部或含住宅/街区车位"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "肥东吾悦广场 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到该项目客流数值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0917",
+  "name": "北京京西大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "北京京西大悦城 开业时间 商业面积",
+    "source_url": "https://www.grandjoy.com/detail/3006.html",
+    "source_level": "official",
+    "evidence": "大悦城官网：开业时间2023年6月18日，商业面积11万平方米，石景山区阜石路173号院",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23,
+    "external": 23,
+    "verdict": "match",
+    "query": "北京京西大悦城 开业时间 商业面积",
+    "source_url": "https://www.grandjoy.com/detail/3006.html",
+    "source_level": "official",
+    "evidence": "总建筑面积约23万㎡（另含写字楼5-6万㎡），官网商业面积11万㎡",
+    "note": "内部23万为总建面口径，与百科一致；官网11万为纯商业口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "京西大悦城 客流 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到权威车位数（网传约1800余个未见来源证实，不采信）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": 32,
+    "verdict": "unit_mismatch",
+    "query": "京西大悦城 客流量 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2023年十一长假京西大悦城总客流近32万人次，环比增58%",
+    "note": "假期累计口径非单日峰值；原始链接未留存"
+   }
+  ]
+ },
+ {
+  "id": "0921",
+  "name": "济南万虹广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "济南万虹广场 开业时间 建筑面积",
+    "source_url": "https://www.guandian.cn",
+    "source_level": "media",
+    "evidence": "2018年11月18日银座万虹广场店正式营业，总投资18亿元",
+    "note": "2016年10月项目开盘、2018年6月交付；天桥区\"万虹中心\"为另一项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 27,
+    "external": 27,
+    "verdict": "match",
+    "query": "济南万虹广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总建筑面积27万平方米，银座店计租建筑面积约7.79万㎡",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": 2500,
+    "verdict": "match",
+    "query": "济南万虹广场 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "地下二层约4.7万㎡车库约2500个车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.875,
+    "external": 40,
+    "verdict": "unit_mismatch",
+    "query": "济南万虹广场 银座 客流 万人次",
+    "source_url": "https://www.lushang.com.cn",
+    "source_level": "official",
+    "evidence": "开业当天实现销售1300多万元，客流量约40万人次",
+    "note": "仅开业首日口径（鲁商集团官网）"
+   }
+  ]
+ },
+ {
+  "id": "0929",
+  "name": "榆林榆阳万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "榆林榆阳万达广场 开业时间 建筑面积",
+    "source_url": "http://vip.stock.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "永辉超市公告门店列表：榆林万达广场，榆阳区长兴路与明珠大道西北角，2018/12/22",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 13,
+    "verdict": "match",
+    "query": "榆林万达广场 商业面积 万平方米 车位",
+    "source_url": "https://www.cscec1b.net",
+    "source_level": "official",
+    "evidence": "总建筑面积约13万平方米（精确130,149㎡），2018年12月22日开业",
+    "note": "总用地4.42万㎡；永辉公告中\"15\"系其超市门店1.5万㎡口径，勿混用"
+   },
+   {
+    "metric": "parking",
+    "internal": 760,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "榆林万达广场 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.25,
+    "external": 21,
+    "verdict": "unit_mismatch",
+    "query": "榆林万达广场 商业面积 万平方米 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "开业首日客流近21万人次",
+    "note": "仅开业首日口径；原始链接未留存"
+   }
+  ]
+ },
+ {
+  "id": "0934",
+  "name": "杭州萧山万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "杭州萧山万象汇 开业时间 建筑面积",
+    "source_url": "https://zh.wikipedia.org/zh-cn/萧山万象汇",
+    "source_level": "self-media",
+    "evidence": "2018年6月15日开业，开业率95%（维基引萧山网/赢商网）",
+    "note": "萧山首个双地铁上盖综合体"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 32,
+    "external": 32,
+    "verdict": "match",
+    "query": "杭州萧山万象汇 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "项目建筑面积32万㎡，由购物中心、写字楼、街区组成（购物中心约9.6-10万㎡）",
+    "note": "内部32万为综合体总口径，一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 2216,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "萧山万象汇 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数；华润消费REIT扩募说明书或载有底层资产车位数据，未见公开摘要",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14,
+    "external": 14.7,
+    "verdict": "unit_mismatch",
+    "query": "杭州萧山万象汇 停车位 数量 客流",
+    "source_url": "https://www.crland.com.hk",
+    "source_level": "official",
+    "evidence": "华润可持续发展报告：万象汇/万象城体系总客流5354万人次、日均客流14.7万人次",
+    "note": "体系日均口径，非萧山单店；内部14与体系日均14.7高度接近，疑为口径混用污染"
+   }
+  ]
+ }
+]

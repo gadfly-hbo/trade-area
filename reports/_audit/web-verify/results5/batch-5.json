@@ -1,0 +1,1022 @@
+[
+ {
+  "id": "0457",
+  "name": "聊城东昌府万达广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "聊城东昌府万达广场 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com/news664286.html",
+    "source_level": "trade",
+    "evidence": "聊城万达广场2019年10月19日开业（自2018推迟一年）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.36,
+    "external": 14.36,
+    "verdict": "match",
+    "query": "聊城东昌府万达广场 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com/xm72700.html",
+    "source_level": "trade",
+    "evidence": "建筑面积约14.36万平方米（部分资料14.52万㎡）",
+    "note": "另见早期规划商业面积6.27万㎡口径，与internal口径不同"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "聊城万达广场 停车位 日客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索被429限流，未获车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": 27.5,
+    "verdict": "unit_mismatch",
+    "query": "聊城万达广场 客流 节假日 万人次",
+    "source_url": "https://www.2898.com",
+    "source_level": "self-media",
+    "evidence": "开业首日总客流量超过27.5万人次",
+    "note": "仅开业首日口径，无节假日峰值披露；开业首日不可比"
+   }
+  ]
+ },
+ {
+  "id": "0472",
+  "name": "临沂万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "临沂万象汇 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "临沂万象汇2019年9月19日开业，引进约250家品牌",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 12,
+    "verdict": "conflict",
+    "query": "临沂万象汇 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积约18.23万㎡，其中商业建筑面积约12万㎡（一说10.76万㎡）",
+    "note": "internal 4.5万㎡ 与商业建面12万㎡差62.5%、与总建面18.23万差更大；该字段标记inferred，疑提取偏小"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "临沂万象汇 停车位 车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索均无公开车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "临沂万象汇 客流量 日均",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索（一次429）无客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0476",
+  "name": "杭州银泰百货（滨江店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "杭州银泰百货滨江店 开业时间 建筑面积",
+    "source_url": "https://www.guandian.cn/m/show/314329",
+    "source_level": "media",
+    "evidence": "2022年9月24日正式开业，滨江区首家银泰百货",
+    "note": "维基载2022-06-30，或为先行营业日；年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 13,
+    "verdict": "match",
+    "query": "杭州银泰百货滨江店 开业时间 建筑面积",
+    "source_url": "https://www.guandian.cn/m/show/314329",
+    "source_level": "media",
+    "evidence": "杭州滨江银泰百货正式开业，零售商业面积13万平方米",
+    "note": "另有媒体表述占地13.1万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 1040,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州滨江银泰百货 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索仅见停车收费高/车位挤的吐槽，无车位数；该值basis=benchmark推断"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 8,
+    "verdict": "minor_diff",
+    "query": "滨江银泰百货 开业 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "银泰百货日均客流约3万人次、周末达7-8万人次",
+    "note": "百度百科银泰系口径为周末而非节假日单日；与internal 9万差约11%"
+   }
+  ]
+ },
+ {
+  "id": "0480",
+  "name": "龙湖杭州紫荆天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "龙湖杭州紫荆天街 开业时间",
+    "source_url": "https://www.longfor.com/detail/220_5141cbd69c85fa9c76d2b9ee989dde46.html",
+    "source_level": "official",
+    "evidence": "龙湖官网：12月21日杭州紫荆天街开门迎客（2019-12-21）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.6,
+    "external": 8.3,
+    "verdict": "match",
+    "query": "杭州紫荆天街 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "项目体量约8.3万平方米，B1-6F共七层",
+    "note": "与internal 8.6差3.5%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1500,
+    "verdict": "match",
+    "query": "杭州紫荆天街 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "车位：超1500个",
+    "note": "external为「超1500」下限口径，与1200差恰20%，按≤20%判match（边界）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.75,
+    "external": 30,
+    "verdict": "unit_mismatch",
+    "query": "紫荆天街 开业 客流",
+    "source_url": "https://zzhz.zjol.com.cn",
+    "source_level": "media",
+    "evidence": "开业两天超30万人次，营业额破2200万",
+    "note": "开业双日累计口径，非节假日单日"
+   }
+  ]
+ },
+ {
+  "id": "0486",
+  "name": "呼和浩特王府井奥莱",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "呼和浩特 王府井奥特莱斯 开业",
+    "source_url": "http://net.bangong.cn",
+    "source_level": "official",
+    "evidence": "王府井集团官网：前身为呼和浩特王府井百货，2004年12月2日开业，2015年12月转型城市中心奥莱",
+    "note": "条目指中山西路店，取其前身原始开业年；勿与2021年如意小镇混淆"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.45,
+    "external": 10,
+    "verdict": "conflict",
+    "query": "王府井奥莱 呼和浩特 中山西路 项目 商业面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：建筑面积10万㎡、营业面积6万㎡",
+    "note": "internal 2.45万㎡ 与建面10万差75.5%、与营业面积6万差59.2%，均超50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 196,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特 王府井奥特莱斯 开业",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网项目页载「停车位：暂无数据」",
+    "note": "外部明确无数据；internal 196 为benchmark推断"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特王府井奥莱 中山西路 体量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流下未完成专项客流检索"
+   }
+  ]
+ },
+ {
+  "id": "0488",
+  "name": "首创龙湖北京丽泽天街",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "北京丽泽天街 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2021年开业（五一黄金档开业潮），龙湖北京第5座天街",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.2,
+    "external": 9.2,
+    "verdict": "match",
+    "query": "北京丽泽天街 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "商业建筑面积约9.2万㎡，地上5层地下2层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京丽泽天街 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次检索均429限流，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京丽泽天街 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项客流检索"
+   }
+  ]
+ },
+ {
+  "id": "0489",
+  "name": "南宁首创奥特莱斯",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "南宁首创奥特莱斯 开业时间 建筑面积",
+    "source_url": "http://gx.people.com.cn/n2/2021/0927/c390645-34933836-2.html",
+    "source_level": "media",
+    "evidence": "人民网广西频道：南宁首创奥特莱斯2021年9月19日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.3,
+    "external": 15.3,
+    "verdict": "match",
+    "query": "南宁首创奥特莱斯 开业时间 建筑面积",
+    "source_url": "http://gx.people.com.cn/n2/2021/0927/c390645-34933836-2.html",
+    "source_level": "media",
+    "evidence": "体量约15.3万㎡：奥莱小镇约7.1万+购物中心约4.6万+开放街区约1.5万",
+    "note": "与internal精确一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1457,
+    "external": 1457,
+    "verdict": "match",
+    "query": "南宁首创奥特莱斯 客流 车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "共设1457个机动车位（地上452/地下156/停车楼849）",
+    "note": "分项合计与internal精确一致；另有广西新闻网约3000个说法（疑含非机动车位或规划口径）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "南宁首创奥特莱斯 客流 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "开业至10月16日累计客流超115万人次、销售额1亿元（新浪财经）",
+    "note": "累计口径不可比，无节假日单日数据"
+   }
+  ]
+ },
+ {
+  "id": "0507",
+  "name": "十堰武商MALL",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "十堰武商MALL 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索（两次429）均未见开业时间报道，仅见后续运营动态"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "十堰武商MALL 建筑面积 万方 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索（限流）未见十堰项目面积，仅见武商集团整体227.4万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "十堰武商MALL 建筑面积 万方 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索被429限流"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "十堰武商MALL 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项客流检索"
+   }
+  ]
+ },
+ {
+  "id": "0508",
+  "name": "襄阳武商MALL",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2007,
+    "verdict": "match",
+    "query": "襄阳武商MALL 开业时间 建筑面积",
+    "source_url": "http://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000501&id=10829262",
+    "source_level": "media",
+    "evidence": "现有襄阳武商MALL 2007年9月26日开业（另说2007-06-28）",
+    "note": "武商集团另公告新襄阳武商MALL（12.4万㎡）2027年底开业，系新项目，不属本条"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 5,
+    "verdict": "match",
+    "query": "襄阳武商MALL 开业时间 建筑面积",
+    "source_url": "http://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=000501&id=10829262",
+    "source_level": "media",
+    "evidence": "总建面约6万㎡，商业建筑面积约5万㎡",
+    "note": "取商业建面口径精确一致；另见武商年报租赁物业5.4万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "襄阳武商MALL 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流下未完成专项检索；该值basis=benchmark推断"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "襄阳武商MALL 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流下未完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0510",
+  "name": "苏州大悦城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2021,
+    "verdict": "conflict",
+    "query": "苏州大悦城 开业时间 建筑面积",
+    "source_url": "https://www.grandjoy.com/detail/2928.html",
+    "source_level": "official",
+    "evidence": "大悦城控股官网：苏州大悦城开业时间2021年9月25日",
+    "note": "项目原名苏州大悦春风里（相城区），2024疑为更名/焕新年份；按规则更名不算开业，差3年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 18,
+    "verdict": "minor_diff",
+    "query": "苏州大悦城 开业时间 建筑面积",
+    "source_url": "https://www.grandjoy.com/detail/2928.html",
+    "source_level": "official",
+    "evidence": "官网载商业面积18万平方米；总建面约33万㎡",
+    "note": "与商业面积18万差22%，处20-50%区间"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州大悦春风里 相城 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索未见车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.75,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "苏州大悦春风里 相城 开业",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "开业当日客流量超20万人次、销售额约1800万",
+    "note": "开业首日口径不可比"
+   }
+  ]
+ },
+ {
+  "id": "0511",
+  "name": "沈阳皇姑万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "皇姑万象汇 2022年12月 开业 沈阳",
+    "source_url": "https://www.crmixclifestyle.com.hk",
+    "source_level": "official",
+    "evidence": "华润置地：皇姑万象汇2022年5月20日正式开业（皇姑区崇山东路18号）",
+    "note": "百度百科同载2022-05-20"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "皇姑万象汇 商业面积 万平",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索（多为429限流）未获可信面积数据；该值标记inferred"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳皇姑万象汇 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳皇姑万象汇 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0512",
+  "name": "保定保百购物广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保定保百购物广场 开业 历史 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索全部429限流，无外部数据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保定保百购物广场 开业 历史 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索全部429限流；该值标记inferred"
+   },
+   {
+    "metric": "parking",
+    "internal": 1700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保定保百购物广场 开业 历史 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "保定保百购物广场 开业 历史 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0517",
+  "name": "宝鸡开元商城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "宝鸡开元商城 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：开业时间2009-01，项目状态已开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 11.726,
+    "verdict": "match",
+    "query": "宝鸡开元商城 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "建筑面积9.5万㎡（赢商网）；另有资料117,260㎡",
+    "note": "信源间有差异（9.5-11.73万㎡）；取117,260㎡口径与internal 12差2.4%，取9.5万则差20.8%处边界"
+   },
+   {
+    "metric": "parking",
+    "internal": 220,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宝鸡开元商城 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网项目页未见车位数（载「项目类型：地上停车楼」）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宝鸡开元商城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0523",
+  "name": "许昌胖东来时代广场",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "许昌胖东来时代广场 开业时间 建筑面积",
+    "source_url": "https://www.tmtpost.com",
+    "source_level": "media",
+    "evidence": "时代广场店于2009年4月开业（4月25日）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.8,
+    "external": 7.8,
+    "verdict": "match",
+    "query": "许昌胖东来时代广场 开业时间 建筑面积",
+    "source_url": "https://www.tmtpost.com",
+    "source_level": "media",
+    "evidence": "建筑面积达7.8万平方米，投资3.5亿",
+    "note": "与internal精确一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "胖东来 时代广场 日均客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索未见车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.75,
+    "external": 59,
+    "verdict": "unit_mismatch",
+    "query": "胖东来时代广场 客流 万人次",
+    "source_url": "https://app.xinhuanet.com",
+    "source_level": "media",
+    "evidence": "2025春节胖东来许昌门店3天总客流177.5万人次（新华网）",
+    "note": "外部仅有多店合计口径（约59万/日·3店），无时代广场单店节假日单日数据，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0527",
+  "name": "抚州硕果时代购物中心",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "抚州硕果时代购物中心 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "2018年12月23日正式开业，开业率超98%",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "抚州硕果时代购物中心 开业时间 建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积约14万㎡（赢商网专访负责人）",
+    "note": "另有商业建面约8万㎡口径（搜狐/房产平台），internal取总建面口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 491,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "抚州硕果时代购物中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索未见车位数；该值标记inferred"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "抚州硕果时代购物中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0532",
+  "name": "沧州华北商厦（新华路店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1994,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沧州华北商厦 1994年 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "百度百科仅载公司成立于1996年5月16日",
+    "note": "无新华路店1994年开业佐证；公司注册年与开业年非同一口径，不作match判定"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "沧州华北商厦 新华路店 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "现运营新华路店（12万㎡）、解放西路店（3.6万㎡）、城市广场店（17万㎡）",
+    "note": "与internal精确一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沧州华北商厦 新华路店 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索；该值标记inferred"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沧州华北商厦 1994年 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0548",
+  "name": "广州白云万象汇",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "广州白云万象汇 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E7%99%BD%E4%BA%91%E4%B8%87%E8%B1%A1%E6%B1%87/67109723",
+    "source_level": "self-media",
+    "evidence": "原百信广场由百信集团开发，2018年11月28日开业",
+    "note": "2025年12月更名白云万象汇（华润万象生活），更名不算开业，取原始开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 12,
+    "verdict": "match",
+    "query": "广州白云万象汇 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%B9%BF%E5%B7%9E%E7%99%BD%E4%BA%91%E4%B8%87%E8%B1%A1%E6%B1%87/67109723",
+    "source_level": "self-media",
+    "evidence": "商业载体面积约为12万平方米",
+    "note": "与internal 13差7.7%；另见整体商业总建面约19万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州白云万象汇 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州白云万象汇 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0549",
+  "name": "济南印象城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "济南印象城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2019年6月开业（洪楼商圈，印力集团当年四店之一）",
+    "note": "综合报道转述，未获单一权威原文链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南印象城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次检索（多为429限流）未获面积；注意勿与印象济南·泉世界（28万㎡街区）混淆"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南印象城 印力 商业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南印象城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0562",
+  "name": "长春欧亚商场（万豪店）",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "欧亚万豪购物中心 4月29日 开业 长春 经开",
+    "source_url": "https://baike.baidu.com/item/%E6%AC%A7%E4%BA%9A%E4%B8%87%E8%B1%AA%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/62923138",
+    "source_level": "self-media",
+    "evidence": "公司于2014年4月29日开业欧亚万豪购物中心；红商网2014-04报道",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.5,
+    "external": 6,
+    "verdict": "minor_diff",
+    "query": "欧亚万豪购物中心 4月29日 开业 长春 经开",
+    "source_url": "http://www.redsh.com",
+    "source_level": "trade",
+    "evidence": "红商网标题：长春欧亚万豪购物中心4月29日开业 建筑面积6万㎡",
+    "note": "与internal 8.5差29.2%，处20-50%区间；internal标记inferred"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春欧亚商都 万豪 车位 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "检索未见万豪店车位数（欧亚卖场近万车位系另一项目）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "欧亚万豪购物中心 4月29日 开业 长春 经开",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ },
+ {
+  "id": "0569",
+  "name": "无锡海岸城",
+  "layer": "r5",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "无锡海岸城 开业时间 建筑面积",
+    "source_url": "https://www.guandian.cn/article/20140630/147964.html",
+    "source_level": "media",
+    "evidence": "观点网：6月29日无锡海岸城购物中心正式开业（2014年）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 70,
+    "external": 60,
+    "verdict": "match",
+    "query": "无锡海岸城 开业时间 建筑面积",
+    "source_url": "https://www.guandian.cn/article/20140630/147964.html",
+    "source_level": "media",
+    "evidence": "海岸城综合体总建面超过60万平方米（购物中心约12万㎡）",
+    "note": "综合体口径外部区间60-80万㎡，internal 70与「超60万」差约15%；购物中心口径仅12万㎡为另一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1428,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡海岸城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索；该值标记inferred"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.1,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡海岸城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "限流未能完成专项检索"
+   }
+  ]
+ }
+]
