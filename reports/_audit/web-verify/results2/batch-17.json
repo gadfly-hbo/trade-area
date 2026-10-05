@@ -1,0 +1,756 @@
+[
+  {
+    "id": "0635",
+    "name": "武汉世界城光谷步行街",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2008,
+        "external": 2008,
+        "verdict": "match",
+        "query": "武汉光谷步行街 2008年 开街 世界城 一期",
+        "source_url": "https://baike.baidu.com",
+        "source_level": "self-media",
+        "evidence": "百度百科：光谷步行街1期于2008年1月开街营业",
+        "note": "内部为推断标注；外部同载一期2008年1月开街，二期2011年起分批开放，口径一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 35,
+        "external": 150,
+        "verdict": "unit_mismatch",
+        "query": "光谷步行街 总建筑面积 万平方米 商业体量",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "外部载总占地41.79万㎡、世界城大盘总建面约150万㎡（含住宅等综合业态）",
+        "note": "口径不可比：外部150万㎡为世界城综合大盘总建面，一期商业体量约20万㎡；内部35万㎡为步行街商业可租面积口径（md 30–40万区间中值）"
+      },
+      {
+        "metric": "parking",
+        "internal": 6500,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "光谷步行街 停车场 车位 世界城",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部6500为运营商口径5000–8000推断中值（md 标注车位数数据缺口）；外部仅有世界城广场等分项停车信息，无街区车位总数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 90,
+        "external": 42,
+        "verdict": "conflict",
+        "query": "光谷步行街 客流量 万人次 日均 节假日",
+        "source_url": "https://sw.wuhan.gov.cn",
+        "source_level": "official",
+        "evidence": "武汉市商务局：国庆长假光谷步行街（街区）首日客流42万人次",
+        "note": "audit 标记属实：内部90万为推断区间80–100万上限（疑全域/累计混入）；官方口径节假日单日峰值约42万（另五一前4天累计180万、日均45万，第一财经），差>50%"
+      }
+    ]
+  },
+  {
+    "id": "0658",
+    "name": "上海巴黎春天(宝山店)",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2010,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "新世界百货 巴黎春天 宝山 大华 生活馆 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "3组检索词均未获该店开业年份直接记载（百科条目存在但摘要未显示年份）；内部2010-01-22试营业引自新世界百货官网（md A级源），暂无法独立核验"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 4.6,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "巴黎春天 宝山 大华店 停车 营业面积 万平方米",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "单店建面未获独立外部确认；外部仅有大华虎城商圈商业建面约40万㎡口径（申新集团官网，含嘉年华等业态），与单店口径不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 10,
+        "external": 1800,
+        "verdict": "conflict",
+        "query": "巴黎春天 宝山 大华店 停车 营业面积 万平方米",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "申新集团官网：大华虎城商圈拥有1800个停车位",
+        "note": "audit 标记属实：内部\"10\"疑为\"10个停车场\"智慧停车系统数误抓（md 自载B2逾7000㎡地下停车场、精准车位数未获取）；外部1800为大华虎城商圈整体口径，单店独立车位数无权威披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 3.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海巴黎春天宝山店 开业时间 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "官方未公开单店客流；内部3.5为推断区间中值（md 推断周末/节假日2.5–4万）"
+      }
+    ]
+  },
+  {
+    "id": "0681",
+    "name": "深圳中洲湾C Future City",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2022,
+        "external": 2022,
+        "verdict": "match",
+        "query": "中洲湾C FutureCity 2022年12月15日 开业 建筑面积",
+        "source_url": "https://www.mallcoo.cn",
+        "source_level": "trade",
+        "evidence": "Mallcoo/香港商报：一期购物中心2022年12月15日开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 130,
+        "external": 16,
+        "verdict": "unit_mismatch",
+        "query": "中洲湾C FutureCity 2022年12月15日 开业 建筑面积",
+        "source_url": "https://www.mallcoo.cn",
+        "source_level": "trade",
+        "evidence": "外部载一期商业体量约8万㎡，含公园式街区规划16万㎡",
+        "note": "audit 标记属实：内部130万为上沙村城市更新综合体总建面口径（含写字楼/住宅等），商业口径约16万㎡（一期盒子mall 8万+二期街区8万），两者不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 1813,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "中洲湾C FutureCity 停车 客流量",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部无车位公开数据；内部1813个引自赢商大数据（md 内部源）"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "中洲湾C FutureCity 停车 客流量",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部未获节假日单日客流直接报道；内部6万为2026元旦首日口径（福田政府在线，md A级源）"
+      }
+    ]
+  },
+  {
+    "id": "0703",
+    "name": "长沙友谊商店",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1981,
+        "external": 1981,
+        "verdict": "match",
+        "query": "长沙友谊商店 开业时间 历史 建筑面积",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "《人民日报》：长沙友谊商店1981年开业，前身友谊华侨商店",
+        "note": "audit 超域标记可释：1981确为该店开业年（1983年袁家岭营业大楼建成），非数据错误"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 3.5,
+        "external": 6,
+        "verdict": "minor_diff",
+        "query": "长沙友谊商店 开业时间 历史 建筑面积",
+        "source_url": "https://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "2013年营业面积扩至6万㎡（长沙晚报口径）；2018年赢商网载扩建项目建筑面积32.9万㎡",
+        "note": "内部3.5万为推断值（3–4万区间）；外部6万㎡为2013年营业面积口径，扩建32.9万㎡为规划项目口径，差约42%"
+      },
+      {
+        "metric": "parking",
+        "internal": 300,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长沙友谊商店 开业时间 历史 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部300为3处停车场200–400推断中值；未检索到单店车位公开数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长沙友谊商店 开业时间 历史 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部6.5为节假日峰值5–8万推断中值；单店客流未公开（外部仅见五一商圈总量口径）"
+      }
+    ]
+  },
+  {
+    "id": "0717",
+    "name": "成都王府井百货(总府店)",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1999,
+        "external": 1999,
+        "verdict": "match",
+        "query": "成都王府井百货总府店 1999年开业 建筑面积",
+        "source_url": "https://baike.baidu.com",
+        "source_level": "self-media",
+        "evidence": "百度百科：1999年12月30日成都王府井百货总府店正式试营业，总投资8亿元",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 4.2,
+        "external": 4.2,
+        "verdict": "match",
+        "query": "成都王府井百货总府店 1999年开业 建筑面积",
+        "source_url": "https://baike.baidu.com",
+        "source_level": "self-media",
+        "evidence": "外部同载百货建筑面积约5.93万㎡、经营面积约4.2万㎡",
+        "note": "内部4.2取经营面积口径，与外部一致；百货建面5.93万㎡、综合体总建面20余万㎡为另两种口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 450,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "成都王府井百货总府店 1999年开业 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部450为车位300–600区间中值（md B级源）；外部未获车位数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 50,
+        "external": 70,
+        "verdict": "unit_mismatch",
+        "query": "春熙路商圈 节假日 单日客流 50万 地铁",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "春熙路—太古里日均客流约70万人次；五一假期春熙路商圈客流占成都主要商圈站总量一半以上",
+        "note": "audit 标记属实：内部50万为春熙路地铁站/商圈节假日口径（md 自载），非王府井单店客流；门店级仅2025五一前两日日均10万+（内部源），口径不可比"
+      }
+    ]
+  },
+  {
+    "id": "0755",
+    "name": "扬州金鹰国际购物中心",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2017,
+        "external": 2017,
+        "verdict": "match",
+        "query": "扬州江都金鹰国际购物中心 开业 2017 建筑面积",
+        "source_url": "http://m.winshang.com/xm60761.html",
+        "source_level": "trade",
+        "evidence": "赢商网：开业时间2017-12-30，项目类型购物中心",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 140,
+        "external": 20,
+        "verdict": "unit_mismatch",
+        "query": "扬州江都金鹰国际购物中心 开业 2017 建筑面积",
+        "source_url": "http://m.winshang.com/xm60761.html",
+        "source_level": "trade",
+        "evidence": "赢商网载购物中心建筑面积20万㎡；综合体占地641亩、总建面约140万㎡（含商业50万/住宅50万）",
+        "note": "audit 超域标记属实：内部140万取综合体总建面口径（外部亦有140万口径），作为购物中心建面的可比外部口径为20万㎡（商业面积50万㎡）"
+      },
+      {
+        "metric": "parking",
+        "internal": 2500,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "扬州江都金鹰国际购物中心 开业 2017 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部2500为MALL车位逾2500口径（联商网，md 内部源；A地块合计2381）；外部未获车位公开数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 8.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "江都金鹰 春节 客流 39万 国庆",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部8.5为节假日7–10万推断中值；外部未获单日峰值直接报道（md 内部载政府口径2026春节7天39万、日均约5.6万，未见独立网络源）"
+      }
+    ]
+  },
+  {
+    "id": "0758",
+    "name": "龙湖成都时代天街A馆",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2014,
+        "external": 2014,
+        "verdict": "match",
+        "query": "龙湖成都时代天街 A馆 2014年9月25日 开业 建筑面积",
+        "source_url": "https://kknews.cc",
+        "source_level": "self-media",
+        "evidence": "2022年报道称成都时代天街（高新西区）9月已开业满5周年；2022年1月报道称\"已开业7年\"",
+        "note": "外部口径均为2014年开业，与内部2014-09-25一致；注意重庆时代天街A馆2012年12月开街系另一项目，检索时易混淆"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 7.5,
+        "external": 6.2,
+        "verdict": "match",
+        "query": "龙湖成都时代天街 A馆 2014年9月25日 开业 建筑面积",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "港交所公告口径：成都时代天街一期在营建筑面积约61,989㎡",
+        "note": "差约17%（≤20%）；外部6.2万为年报在营建面口径，内部7.5为A馆7–8万区间中值（口径多版本）；综合体总盘口径约183万㎡"
+      },
+      {
+        "metric": "parking",
+        "internal": 11218,
+        "external": 10000,
+        "verdict": "match",
+        "query": "成都时代天街 停车位 车位 总数",
+        "source_url": "http://scsida.com",
+        "source_level": "media",
+        "evidence": "项目亮相报道（2011）：配超1万个车位的地下停车场（总建面183万㎡综合体）",
+        "note": "audit 超域标记可释：内部11218为全项目口径（搜狗百科），非误抓；A馆B2约1679个；与外部\"超1万个\"一致，作全项目口径成立、作A馆口径则超域"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 8,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "成都时代天街 周年庆 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部8万为4周年庆8.2万口径（四川日报，md 内部源）；外部未获单日客流绝对值"
+      }
+    ]
+  },
+  {
+    "id": "0764",
+    "name": "温州印象城MEGA",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "温州印象城MEGA 2021年11月26日开业 建筑面积 25万",
+        "source_url": "https://www.sohu.com",
+        "source_level": "media",
+        "evidence": "搜狐2021-11-27（开业次日）报道印象城MEGA开业，位于世纪广场以南",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 25,
+        "external": 25,
+        "verdict": "match",
+        "query": "温州印象城MEGA 2021年11月26日开业 建筑面积 25万",
+        "source_url": "https://www.archdaily.cn/cn/977613/x11wen-zhou-yin",
+        "source_level": "media",
+        "evidence": "ArchDaily 等载建筑面积约25万平方米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 36,
+        "external": 1800,
+        "verdict": "conflict",
+        "query": "温州印象城MEGA 停车位 2000 车位",
+        "source_url": "https://news.66wz.com",
+        "source_level": "media",
+        "evidence": "贝诺项目介绍：EV车位239个其中快充充电车位36个；温州网：全场约1800个车位",
+        "note": "audit 标记属实：内部36系\"快充充电车位36个\"误抓为总车位数；全场车位约1800个（md 内部载2000+口径，外部温州网为1800）"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 9,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "温州印象城MEGA 客流 国庆 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部9为节假日8–10万推断中值；外部仅见万科商业体系\"国庆前三天客流超33万\"（未明确到本项目），开业日17.8万系开业首日口径不可比"
+      }
+    ]
+  },
+  {
+    "id": "0782",
+    "name": "佛山东方广场",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2003,
+        "external": 2003,
+        "verdict": "match",
+        "query": "佛山东方广场 锦华路 2003年12月 一期开业 联商网",
+        "source_url": "https://zhuanlan.zhihu.com/p/10922648666",
+        "source_level": "trade",
+        "evidence": "2003年12月18日东方广场一期组团正式面世（明珠百货/东方书城等），各来源一致",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 23,
+        "external": 25,
+        "verdict": "match",
+        "query": "佛山东方广场 锦华路 2003年12月 一期开业 联商网",
+        "source_url": "http://m.winshang.com/news664761.html",
+        "source_level": "trade",
+        "evidence": "商业面积超过25万平方米，曾为改变佛山商业格局的大型SHOPPING MALL",
+        "note": "差约8%；内部23为商业面积口径（md：部分口径超25万），综合体总建面超80万㎡为另一口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 2014,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "佛山东方广场 客流 五一 万人次 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "audit 标记属实：内部\"2014\"疑为年份误抓（md 自载2014年约3000个、2018年扩至5000+）；外部未获权威车位总数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 24,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "佛山东方广场 客流 五一 万人次 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部24为节假日单日峰值23–25万推断口径；外部未获单日峰值直接数据（md 内部载2024五一5天68.2万/日均13.6万，历史五一/春节口径23-25万待证）"
+      }
+    ]
+  },
+  {
+    "id": "0794",
+    "name": "西安太乙城生活中心",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2021,
+        "external": 2021,
+        "verdict": "match",
+        "query": "西安 太乙城 2021年9月25日 正式开业",
+        "source_url": "https://m.winshang.com/news690728.html",
+        "source_level": "trade",
+        "evidence": "百度百科/赢商网/飞讯网：2021年9月25日太乙城生活中心正式开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 130,
+        "external": 8,
+        "verdict": "unit_mismatch",
+        "query": "西安 太乙城 2021年9月25日 正式开业",
+        "source_url": "https://baike.baidu.com/item/%E5%8D%8E%E9%BE%99%E5%A4%AA%E4%B9%99%E5%9F%8E/7665097",
+        "source_level": "self-media",
+        "evidence": "华龙太乙城为130万㎡超级综合体；太乙城生活中心商业建筑面积约8万㎡",
+        "note": "audit 超域标记属实：内部130取综合体总建面口径（含住宅72/写字楼34等），商业建面8万为可比口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 7295,
+        "external": 2300,
+        "verdict": "conflict",
+        "query": "西安 太乙城 2021年9月25日 正式开业",
+        "source_url": "https://baike.baidu.com/item/%E5%8D%8E%E9%BE%99%E5%A4%AA%E4%B9%99%E5%9F%8E/7665097",
+        "source_level": "self-media",
+        "evidence": "外部载太乙城生活中心规划停车位2300余个",
+        "note": "内部7295为综合体全域口径（含住宅，md 自载商业2300+与外部一致）；作为购物中心车位应以商业口径2300+为准，差>50%"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "西安太乙城生活中心 开业 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部6为节假日峰值5–7万推断中值；外部未获单店客流数据"
+      }
+    ]
+  },
+  {
+    "id": "0813",
+    "name": "白山欧亚合兴商场",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1984,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "白山欧亚合兴购物中心 开业 1984 建筑面积",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "audit 超域标记存疑待复核：外部未获白山合兴开业年份直接记载；检索发现1984亦为长春欧亚车百始建年，疑主体成立年与购物中心开业年混用——md 内部自载公司主体1984年成立、现代购物中心2011年7月启幕，建议以2011为开业年复核"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 8,
+        "external": 9,
+        "verdict": "match",
+        "query": "白山欧亚合兴购物中心 开业 1984 建筑面积",
+        "source_url": "http://money.finance.sina.com.cn",
+        "source_level": "official",
+        "evidence": "欧亚集团年报披露白山合兴（合兴实业）面积90,000㎡（9万㎡）",
+        "note": "差约11%；md 内部亦注\"赢商网9万平方米\"口径，与年报一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 640,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "白山市合兴 购物中心 2011年 启幕 白山合兴大厦",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部640为benchmark基准推断值（md 明示车位数数据缺口，仅周边配建3处停车场）；外部无数据"
+      }
+    ]
+  },
+  {
+    "id": "0828",
+    "name": "乌鲁木齐天山百货",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1957,
+        "external": 1957,
+        "verdict": "match",
+        "query": "乌鲁木齐天山百货 历史 1957 友好集团 建筑面积",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "天山百货大楼始建于1957年，经营面积约3万㎡（友好集团旗下核心门店）",
+        "note": "audit 超域标记可释：外部与内部同为\"始建1957\"口径，非误抓；1994-12-28为改扩建后重开时间"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 3.53,
+        "external": 3.4,
+        "verdict": "match",
+        "query": "乌鲁木齐 天山百货 停车位 客流 中山路",
+        "source_url": "https://m.wlmq.bendibao.com/gouwu/37482.shtm",
+        "source_level": "media",
+        "evidence": "本地宝：建筑面积3.4万平方米，营业面积2.5万平方米，B1+地上6层",
+        "note": "差约4%；内部3.53为友好集团年报自有物业口径（35,338㎡）"
+      },
+      {
+        "metric": "parking",
+        "internal": 4000,
+        "external": 4000,
+        "verdict": "unit_mismatch",
+        "query": "乌鲁木齐 天山百货 停车位 客流 中山路",
+        "source_url": "https://m.wlmq.bendibao.com/gouwu/37482.shtm",
+        "source_level": "media",
+        "evidence": "本地宝：拥有约4000平方米的停车场",
+        "note": "任务单未标但核验发现单位误抓：外部\"4000\"为停车场面积（㎡）而非泊位数；友好集团2024年报口径共200泊位（md 内部A级源），内部当作车位数4000系㎡→个误抓"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6.5,
+        "external": 15,
+        "verdict": "unit_mismatch",
+        "query": "乌鲁木齐 天山百货 停车位 客流 中山路",
+        "source_url": "https://baike.baidu.com/item/%E4%B9%8C%E9%B2%81%E6%9C%A8%E9%BD%90%E5%B8%82%E4%B8%AD%E5%B1%B1%E8%B7%AF/10607820",
+        "source_level": "self-media",
+        "evidence": "百度百科：中山路商业街日均客流约3万人次、节假日可达15万人次",
+        "note": "口径不可比：外部15万为中山路商业街全域（214家商户）口径；内部6.5为单店节假日推断中值（5–8万），无单店外部数据"
+      }
+    ]
+  },
+  {
+    "id": "0837",
+    "name": "阿克苏太百购物中心",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2010,
+        "external": 2010,
+        "verdict": "match",
+        "query": "阿克苏太百购物中心 开业 建筑面积 停车位",
+        "source_url": "http://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "赢商网：项目状态已开业，开业时间2010-12（开发商阿克苏世纪太百购物有限公司）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 5.25,
+        "external": 3,
+        "verdict": "conflict",
+        "query": "阿克苏太百购物中心 开业 建筑面积 停车位",
+        "source_url": "http://m.winshang.com",
+        "source_level": "trade",
+        "evidence": "赢商网载建筑面积3万㎡（md 内部另注商产网建面3万㎡+商业面积1.68万㎡）",
+        "note": "内部5.25取公司口径\"经营面积5–5.5万\"中值，与外部建面3万差75%；经营面积大于建面自相矛盾，公司口径存疑，建议复核"
+      },
+      {
+        "metric": "parking",
+        "internal": 25,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "阿克苏 太百购物中心 停车场 备案 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "audit 标记待商榷：内部25来自阿克苏市政府停车场备案口径（自有备案，另有顺驰港湾/尚东国际联动），疑为真实备案值而非小值误抓；2次检索外部无公开车位数据，无法证实或证伪"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 1.75,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "阿克苏 太百购物中心 客流 节假日 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部1.75为节假日1.5–2万推断中值（2025-03营业部经理口径\"周末/节假日单日1.5万\"见内部源）；外部无数据"
+      }
+    ]
+  },
+  {
+    "id": "0858",
+    "name": "重庆观音桥新世界百货",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2008,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "新世界百货 重庆店 观音桥 开业 2008年",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "外部仅\"2000年代入驻观音桥\"表述，未获单店确切开业年份；内部2008为推断窗口（2003–2008）值。另发现出入：国际在线载观音桥步行街2005年开街，md 内\"2003年正式开街\"说法存疑（步行街口径，非本店）"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 2.5,
+        "external": 2.4,
+        "verdict": "match",
+        "query": "新世界百货 重庆店 观音桥 开业 2008年",
+        "source_url": "https://www.toutiao.com",
+        "source_level": "self-media",
+        "evidence": "重百集团/英利国际接手报道：该店经营面积超2.4万平方米，将转型\"新世纪中心英利荟\"",
+        "note": "差约4%；另载该店2026-09-30闭店（网易），后续由重百集团+英利国际不闭店改造，数据时效需关注"
+      },
+      {
+        "metric": "parking",
+        "internal": 200,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "新世界百货 重庆店 观音桥 开业 2008年",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部200为benchmark基准推断值（md 明示车位数数据缺口，商圈\"停车位紧张\"）；外部无数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 70,
+        "external": 105,
+        "verdict": "unit_mismatch",
+        "query": "重庆新世界百货 观音桥 开业时间 观音桥商圈 日均客流",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "央广网2025：观音桥单日客流峰值达105万人次；重庆商务委2023国庆：日均超87万、最高93万",
+        "note": "audit 标记属实：内部70万为观音桥步行街/商圈全域推断口径（60–80万），非新世界百货单店客流，口径不可比"
+      }
+    ]
+  },
+  {
+    "id": "0887",
+    "name": "深圳星河WORLD·COCOPark",
+    "layer": "suspect",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2018,
+        "external": 2018,
+        "verdict": "match",
+        "query": "深圳星河WORLD COCO Park 2018年9月29日开业 160万平方米",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "星河WORLD COCO Park（龙岗坂田）2018年9月开业；2014年6月星河WORLD整体亮相",
+        "note": "audit 标记\"无邻近开业动词\"经外部核验消除：2018为COCO Park购物中心开业年，2014为星河WORLD园区整体亮相年，内部口径无误"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 160,
+        "external": 8,
+        "verdict": "unit_mismatch",
+        "query": "深圳星河WORLD COCO Park 2018年9月29日开业 160万平方米",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "2014年6月星河WORLD亮相深圳，总体量达160万㎡，涵盖写字楼、商业、住宅等多元业态",
+        "note": "audit 超域标记属实：内部160为星河WORLD产业园综合体总建面口径，COCO Park商业管理面积约8万㎡（md 内部源）为可比口径，两者不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 2250,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "星河WORLD COCO Park 坂田 停车位 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部2250为商场专属2000–2500推断中值（大盘规划超1.1万为全园区口径）；外部无车位数据"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 9,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "星河WORLD COCO Park 坂田 停车位 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "内部9为节假日峰值8–10万推断中值；外部仅见2025春节客流同比+14%，无绝对值"
+      }
+    ]
+  }
+]

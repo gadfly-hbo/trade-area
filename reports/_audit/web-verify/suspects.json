@@ -1,0 +1,3892 @@
+[
+ {
+  "id": "0024",
+  "name": "中山天奕星河COCO City",
+  "rating": "B",
+  "shard": 0,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "0047",
+  "name": "烟台振华商厦",
+  "rating": "S",
+  "shard": 0,
+  "flags": [
+   "openedYear 1996 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0060",
+  "name": "合肥杉杉奥特莱斯",
+  "rating": "A",
+  "shard": 1,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …2023…"
+  ]
+ },
+ {
+  "id": "0062",
+  "name": "扬州金鹰国际购物中心(江都店) 二期",
+  "rating": "A",
+  "shard": 1,
+  "flags": [
+   "buildingArea 超域: 140万㎡"
+  ]
+ },
+ {
+  "id": "0077",
+  "name": "深圳怀德万象汇",
+  "rating": "A",
+  "shard": 1,
+  "flags": [
+   "parking 3500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0094",
+  "name": "武汉百联奥特莱斯二期缤购天地",
+  "rating": "B",
+  "shard": 1,
+  "flags": [
+   "parking 2600 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0096",
+  "name": "拉萨王府井购物中心",
+  "rating": "B",
+  "shard": 1,
+  "flags": [
+   "parking 2300 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0518",
+  "name": "株洲百货大楼",
+  "rating": "A",
+  "shard": 10,
+  "flags": [
+   "openedYear 超域: 1958"
+  ]
+ },
+ {
+  "id": "0520",
+  "name": "荆州沙市安良百货",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "openedYear 超域: 1984"
+  ]
+ },
+ {
+  "id": "0530",
+  "name": "廊坊明珠大厦(新华路店)",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "openedYear 超域: 1981"
+  ]
+ },
+ {
+  "id": "0539",
+  "name": "吉林欧亚城",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "parking 108 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0543",
+  "name": "绵阳新世界百货",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "openedYear 2010 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0544",
+  "name": "岳阳百盛购物广场",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "openedYear 2003 无邻近开业动词: …2003…"
+  ]
+ },
+ {
+  "id": "0546",
+  "name": "桂林微笑堂商厦",
+  "rating": "B",
+  "shard": 10,
+  "flags": [
+   "openedYear 1995 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0558",
+  "name": "淮安吾悦广场",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0560",
+  "name": "阜阳颍州吾悦广场",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0567",
+  "name": "郑州丹尼斯新天地",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0571",
+  "name": "杭州银泰百货（文化广场店）",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "trafficPeak 54 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0587",
+  "name": "包头包百大楼(钢铁大街店)",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 1988 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0598",
+  "name": "呼和浩特维多利商厦",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 1997 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0600",
+  "name": "唐山百货大楼",
+  "rating": "B",
+  "shard": 11,
+  "flags": [
+   "openedYear 超域: 1984"
+  ]
+ },
+ {
+  "id": "0604",
+  "name": "濮阳龙之光万达广场",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …-03-08 奠基开工；2019…"
+  ]
+ },
+ {
+  "id": "0611",
+  "name": "北京贵友百货（通州店）",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2008 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0615",
+  "name": "泰安爱琴海购物中心",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …-07-23 主体封顶；2020…"
+  ]
+ },
+ {
+  "id": "0619",
+  "name": "北京昌发展万科广场",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0620",
+  "name": "广州保利时光里",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …年百货主力撤场启动改造；2018…"
+  ]
+ },
+ {
+  "id": "0621",
+  "name": "北京凯德MALL·大兴",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…"
+  ]
+ },
+ {
+  "id": "0622",
+  "name": "唐山路南万达广场",
+  "rating": "A",
+  "shard": 12,
+  "flags": [
+   "buildingArea 超域: 110万㎡"
+  ]
+ },
+ {
+  "id": "0631",
+  "name": "仁怀酒都·方圆荟",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…",
+   "parking 3000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0635",
+  "name": "武汉世界城光谷步行街",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "trafficPeak 90 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0642",
+  "name": "兰州新区瑞岭国际商业广场",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "parking 1305 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0645",
+  "name": "上海永安百货",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 1999 无邻近开业动词: …991年新永安百货重开；1999…"
+  ]
+ },
+ {
+  "id": "0649",
+  "name": "深圳前海欢乐港湾",
+  "rating": "B",
+  "shard": 12,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …海文化公园（一期）开园；2021…"
+  ]
+ },
+ {
+  "id": "0652",
+  "name": "上海东方商厦(旗舰店)",
+  "rating": "A",
+  "shard": 13,
+  "flags": [
+   "openedYear 1993 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0654",
+  "name": "上海第一百货商业中心",
+  "rating": "S",
+  "shard": 13,
+  "flags": [
+   "openedYear 超域: 1936"
+  ]
+ },
+ {
+  "id": "0658",
+  "name": "上海巴黎春天(宝山店)",
+  "rating": "B",
+  "shard": 13,
+  "flags": [
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "0678",
+  "name": "重庆新世纪百货(兴华中路)",
+  "rating": "B",
+  "shard": 13,
+  "flags": [
+   "openedYear 2004 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0681",
+  "name": "深圳中洲湾C Future City",
+  "rating": "B",
+  "shard": 13,
+  "flags": [
+   "buildingArea 超域: 130万㎡"
+  ]
+ },
+ {
+  "id": "0682",
+  "name": "苏州高铁吾悦广场",
+  "rating": "B",
+  "shard": 13,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0684",
+  "name": "枣庄滕州保利万达广场",
+  "rating": "B",
+  "shard": 13,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0700",
+  "name": "太原王府井百货",
+  "rating": "A+",
+  "shard": 13,
+  "flags": [
+   "openedYear 2010 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0703",
+  "name": "长沙友谊商店",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "openedYear 超域: 1981"
+  ]
+ },
+ {
+  "id": "0717",
+  "name": "成都王府井百货(总府店)",
+  "rating": "A",
+  "shard": 14,
+  "flags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0718",
+  "name": "北京百盛商城（复兴门店）",
+  "rating": "A",
+  "shard": 14,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …北楼，2019年商改写，2025…"
+  ]
+ },
+ {
+  "id": "0723",
+  "name": "延安宝塔万达广场",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …年区间（与万达2018-2019…"
+  ]
+ },
+ {
+  "id": "0724",
+  "name": "佛山美的悦然广场",
+  "rating": "A",
+  "shard": 14,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0726",
+  "name": "北京市百货大楼",
+  "rating": "S",
+  "shard": 14,
+  "flags": [
+   "openedYear 超域: 1955",
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0727",
+  "name": "深圳壹方天地",
+  "rating": "S",
+  "shard": 14,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …E 区 2017…"
+  ]
+ },
+ {
+  "id": "0729",
+  "name": "沈阳百盛商城",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "openedYear 2003 无邻近开业动词: …2003…"
+  ]
+ },
+ {
+  "id": "0733",
+  "name": "镇江八佰伴",
+  "rating": "A+",
+  "shard": 14,
+  "flags": [
+   "openedYear 2008 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0742",
+  "name": "宝鸡吾悦广场",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …22 年区间，可能落于 2021…"
+  ]
+ },
+ {
+  "id": "0749",
+  "name": "佛山大信新都汇顺德店",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…"
+  ]
+ },
+ {
+  "id": "0750",
+  "name": "泉州石狮德辉广场",
+  "rating": "B",
+  "shard": 14,
+  "flags": [
+   "parking 1100 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0755",
+  "name": "扬州金鹰国际购物中心",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "buildingArea 超域: 140万㎡"
+  ]
+ },
+ {
+  "id": "0758",
+  "name": "龙湖成都时代天街A馆",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "parking 11218 超域"
+  ]
+ },
+ {
+  "id": "0764",
+  "name": "温州印象城MEGA",
+  "rating": "A",
+  "shard": 15,
+  "flags": [
+   "parking 36 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "0770",
+  "name": "郑州巩义正上豪布斯卡",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0772",
+  "name": "重庆双福爱琴海购物中心",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0777",
+  "name": "成都后花园·爱琴海购物中心",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "parking 2500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0782",
+  "name": "佛山东方广场",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "parking 2014 疑年份误抓"
+  ]
+ },
+ {
+  "id": "0792",
+  "name": "贵阳·悦然广场",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0794",
+  "name": "西安太乙城生活中心",
+  "rating": "B",
+  "shard": 15,
+  "flags": [
+   "buildingArea 超域: 130万㎡"
+  ]
+ },
+ {
+  "id": "0801",
+  "name": "铜陵百大购物中心",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0810",
+  "name": "本溪新玛特(解放南路店)",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2010 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0811",
+  "name": "鞍山百盛商城",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2008 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0813",
+  "name": "白山欧亚合兴商场",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 超域: 1984"
+  ]
+ },
+ {
+  "id": "0816",
+  "name": "七台河新玛特",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0821",
+  "name": "邵阳步步高新天地",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …约2018…"
+  ]
+ },
+ {
+  "id": "0823",
+  "name": "青岛丽达购物中心（绿城店）",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "parking 700 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0828",
+  "name": "乌鲁木齐天山百货",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 超域: 1957"
+  ]
+ },
+ {
+  "id": "0831",
+  "name": "南京新百",
+  "rating": "S",
+  "shard": 16,
+  "flags": [
+   "openedYear 超域: 1952"
+  ]
+ },
+ {
+  "id": "0832",
+  "name": "南京城北万象汇",
+  "rating": "A",
+  "shard": 16,
+  "flags": [
+   "parking 4000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0837",
+  "name": "阿克苏太百购物中心",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "parking 25 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "0839",
+  "name": "平顶山卫东万达广场",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0842",
+  "name": "广元利州万达广场",
+  "rating": "B",
+  "shard": 16,
+  "flags": [
+   "parking 2905 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0854",
+  "name": "常德武陵万达广场",
+  "rating": "A",
+  "shard": 17,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …王群、市长周德睿出席）；2016…"
+  ]
+ },
+ {
+  "id": "0858",
+  "name": "重庆观音桥新世界百货",
+  "rating": "A",
+  "shard": 17,
+  "flags": [
+   "trafficPeak 70 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0866",
+  "name": "淮安中央商场（新亚店）",
+  "rating": "A",
+  "shard": 17,
+  "flags": [
+   "openedYear 2010 无邻近开业动词: …1994年\"新亚商城\"；2010…"
+  ]
+ },
+ {
+  "id": "0868",
+  "name": "重庆茂业天地",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0872",
+  "name": "上海富绅时代广场",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "openedYear 2005 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0880",
+  "name": "南京瞻园奥特莱斯",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "parking 200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0886",
+  "name": "衢州柯城万达广场",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …-07-20 主体开工，2017…"
+  ]
+ },
+ {
+  "id": "0887",
+  "name": "深圳星河WORLD·COCOPark",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …星河WORLD整体亮相；2018…",
+   "buildingArea 超域: 160万㎡"
+  ]
+ },
+ {
+  "id": "0890",
+  "name": "东莞塘厦万科生活广场",
+  "rating": "B",
+  "shard": 17,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0900",
+  "name": "重庆来福士",
+  "rating": "A+",
+  "shard": 17,
+  "flags": [
+   "buildingArea 超域: 112万㎡"
+  ]
+ },
+ {
+  "id": "0901",
+  "name": "北京怀柔青春万达广场",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0902",
+  "name": "贵阳方圆荟·海豚广场",
+  "rating": "A",
+  "shard": 18,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …-06世纪金源签约更名；2024…"
+  ]
+ },
+ {
+  "id": "0904",
+  "name": "郑州永和时光里",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0907",
+  "name": "金华江北银泰百货",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "openedYear 2009 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0914",
+  "name": "中山汇丰城购物公园",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …2019…"
+  ]
+ },
+ {
+  "id": "0918",
+  "name": "兴安盟万达广场",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "parking 216 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0923",
+  "name": "岳阳步步高新天地",
+  "rating": "B",
+  "shard": 18,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0924",
+  "name": "龙湖济南北宸天街",
+  "rating": "A",
+  "shard": 18,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0925",
+  "name": "合肥滨湖银泰百货",
+  "rating": "A+",
+  "shard": 18,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0950",
+  "name": "西安西咸吾悦广场",
+  "rating": "A",
+  "shard": 18,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0955",
+  "name": "成都保利时光里",
+  "rating": "B",
+  "shard": 19,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …1-12-22项目启动；2024…"
+  ]
+ },
+ {
+  "id": "0965",
+  "name": "佛山容桂天佑城",
+  "rating": "B",
+  "shard": 19,
+  "flags": [
+   "openedYear 2007 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0971",
+  "name": "成都晶融汇购物中心",
+  "rating": "B",
+  "shard": 19,
+  "flags": [
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0982",
+  "name": "临沂泰盛广场一期",
+  "rating": "A",
+  "shard": 19,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0985",
+  "name": "长沙百联奥特莱斯广场",
+  "rating": "A",
+  "shard": 19,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0987",
+  "name": "贵阳世纪金源购物中心",
+  "rating": "A",
+  "shard": 19,
+  "flags": [
+   "parking 3000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0998",
+  "name": "深圳福田卓悦INTOWN",
+  "rating": "B",
+  "shard": 19,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0102",
+  "name": "龙湖重庆江岸天街",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0104",
+  "name": "绍兴天地",
+  "rating": "B",
+  "shard": 2,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …原871芯片厂停工关厂；2024…"
+  ]
+ },
+ {
+  "id": "0107",
+  "name": "东莞MIXC VILLAGE万象滨海购物村",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …2022…"
+  ]
+ },
+ {
+  "id": "0108",
+  "name": "重庆万象城北区",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …/1500 万元销售）；2023…"
+  ]
+ },
+ {
+  "id": "0109",
+  "name": "北京通州首开万象汇",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …6月15日主体结构封顶；2024…"
+  ]
+ },
+ {
+  "id": "0110",
+  "name": "南昌红谷滩万象天地",
+  "rating": "B",
+  "shard": 2,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …2023…"
+  ]
+ },
+ {
+  "id": "0119",
+  "name": "上海山钢和润旭辉里",
+  "rating": "B",
+  "shard": 2,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …0044号\"预售许可证;2022…"
+  ]
+ },
+ {
+  "id": "0133",
+  "name": "三亚合联中央商务区格力项目",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "parking 962 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0143",
+  "name": "嘉兴桐乡万象汇",
+  "rating": "A",
+  "shard": 2,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0147",
+  "name": "郑州丹尼斯5天地",
+  "rating": "B",
+  "shard": 2,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: …5 天地单体首开 2012…"
+  ]
+ },
+ {
+  "id": "0149",
+  "name": "苏州人民商场",
+  "rating": "B",
+  "shard": 2,
+  "flags": [
+   "openedYear 超域: 1934"
+  ]
+ },
+ {
+  "id": "1009",
+  "name": "成都华熙LIVE·528",
+  "rating": "B",
+  "shard": 20,
+  "flags": [
+   "buildingArea 超域: 125万㎡"
+  ]
+ },
+ {
+  "id": "1020",
+  "name": "西安王府井百货（永宁门店）",
+  "rating": "A",
+  "shard": 20,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1028",
+  "name": "杭州银泰百货（下沙工厂店）",
+  "rating": "B",
+  "shard": 20,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1034",
+  "name": "成都铁建186MALL",
+  "rating": "B",
+  "shard": 20,
+  "flags": [
+   "buildingArea 23.25 疑取综合体口径 23.25（商业面积 4）"
+  ]
+ },
+ {
+  "id": "1042",
+  "name": "苏州昆山世茂广场",
+  "rating": "B",
+  "shard": 20,
+  "flags": [
+   "openedYear 2013 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1045",
+  "name": "吉林昌邑万达广场",
+  "rating": "B",
+  "shard": 20,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …4年9月12日一期开工；2017…"
+  ]
+ },
+ {
+  "id": "1053",
+  "name": "东营西城万达广场",
+  "rating": "A",
+  "shard": 21,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…"
+  ]
+ },
+ {
+  "id": "1064",
+  "name": "上海国家会展中心商业广场",
+  "rating": "B",
+  "shard": 21,
+  "flags": [
+   "parking 12000 超域"
+  ]
+ },
+ {
+  "id": "1067",
+  "name": "东莞明丰广场",
+  "rating": "B",
+  "shard": 21,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1080",
+  "name": "重庆解放碑英利大融城",
+  "rating": "B",
+  "shard": 21,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …中，来源间存在2013–2014…"
+  ]
+ },
+ {
+  "id": "1086",
+  "name": "重庆綦江万达广场",
+  "rating": "B",
+  "shard": 21,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1093",
+  "name": "武汉凯德·西城",
+  "rating": "A",
+  "shard": 21,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …半年—2015年上半年与2017…"
+  ]
+ },
+ {
+  "id": "1107",
+  "name": "重庆砂之船(两江新区)奥莱",
+  "rating": "A+",
+  "shard": 22,
+  "flags": [
+   "parking 3000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1116",
+  "name": "石家庄新百广场（中山西路店）",
+  "rating": "A",
+  "shard": 22,
+  "flags": [
+   "openedYear 超域: 1947"
+  ]
+ },
+ {
+  "id": "1126",
+  "name": "绍兴大通购物中心",
+  "rating": "A",
+  "shard": 22,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1131",
+  "name": "合肥万科广场",
+  "rating": "B",
+  "shard": 22,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1133",
+  "name": "杭州银泰百货（西湖店）",
+  "rating": "A+",
+  "shard": 22,
+  "flags": [
+   "openedYear 2004 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1134",
+  "name": "大连时代广场",
+  "rating": "S",
+  "shard": 22,
+  "flags": [
+   "openedYear 2008 无邻近开业动词: …综合体于2008…"
+  ]
+ },
+ {
+  "id": "1137",
+  "name": "成都太古里",
+  "rating": "S",
+  "shard": 22,
+  "flags": [
+   "trafficPeak 70 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "1142",
+  "name": "菏泽牡丹万达广场",
+  "rating": "A",
+  "shard": 22,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …2016…"
+  ]
+ },
+ {
+  "id": "1147",
+  "name": "上海复地活力城",
+  "rating": "A",
+  "shard": 22,
+  "flags": [
+   "buildingArea 超域: 110万㎡"
+  ]
+ },
+ {
+  "id": "1150",
+  "name": "北京王府中环",
+  "rating": "S",
+  "shard": 22,
+  "flags": [
+   "parking 800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1153",
+  "name": "上海百联世纪购物中心",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1154",
+  "name": "昆明柏联百盛广场",
+  "rating": "A+",
+  "shard": 23,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …23年外立面改银灰色 ；2025…"
+  ]
+ },
+ {
+  "id": "1156",
+  "name": "哈尔滨融创茂",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "parking 36 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "1162",
+  "name": "青岛利群胶州购物广场",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1179",
+  "name": "武汉武商梦时代",
+  "rating": "S",
+  "shard": 23,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1180",
+  "name": "江门昌大昌广场",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1181",
+  "name": "资阳雁江万达广场",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1185",
+  "name": "佛山顺德印象城",
+  "rating": "B",
+  "shard": 23,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1200",
+  "name": "沈阳铁西万象汇",
+  "rating": "A+",
+  "shard": 23,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1207",
+  "name": "滨州滨城万达广场",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1210",
+  "name": "海口秀英万达广场",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1211",
+  "name": "常德友阿国际广场",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1216",
+  "name": "温州乐清正大广场银泰百货",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2013 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1233",
+  "name": "商丘万达广场",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2016年6月动工；2018…"
+  ]
+ },
+ {
+  "id": "1241",
+  "name": "乌鲁木齐德汇万达广场",
+  "rating": "A",
+  "shard": 24,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1250",
+  "name": "成都锦城万达广场",
+  "rating": "B",
+  "shard": 24,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …月万达接管、12月更名；2023…"
+  ]
+ },
+ {
+  "id": "1255",
+  "name": "永旺梦乐城青岛西海岸新区",
+  "rating": "B",
+  "shard": 25,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …ent训练记忆口径分歧（2015…"
+  ]
+ },
+ {
+  "id": "1256",
+  "name": "苏州昆山万达广场",
+  "rating": "B",
+  "shard": 25,
+  "flags": [
+   "parking 2387 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1295",
+  "name": "西安首创奥特莱斯",
+  "rating": "B",
+  "shard": 25,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1299",
+  "name": "南京金象城",
+  "rating": "A",
+  "shard": 25,
+  "flags": [
+   "parking 2200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1303",
+  "name": "乐山市中万达广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1304",
+  "name": "郑州首创奥特莱斯",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …–2020年开店节奏推断2019…"
+  ]
+ },
+ {
+  "id": "1305",
+  "name": "南昌T16购物中心",
+  "rating": "A+",
+  "shard": 26,
+  "flags": [
+   "parking 2025 疑年份误抓"
+  ]
+ },
+ {
+  "id": "1309",
+  "name": "贵阳国贸时代购物中心TPMALL",
+  "rating": "A",
+  "shard": 26,
+  "flags": [
+   "parking 600 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1311",
+  "name": "鸡西中心大街万达广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1312",
+  "name": "乌鲁木齐经开万达广场",
+  "rating": "A",
+  "shard": 26,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …数据冲突注：另有来源记为2015…"
+  ]
+ },
+ {
+  "id": "1315",
+  "name": "牡丹江西安万达广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1316",
+  "name": "阜新玉龙万达广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …2015…"
+  ]
+ },
+ {
+  "id": "1317",
+  "name": "昆明正义坊购物中心",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2005 无邻近开业动词: …2005…"
+  ]
+ },
+ {
+  "id": "1326",
+  "name": "苏州美罗百货（观前店）",
+  "rating": "S",
+  "shard": 26,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: …6–2008年集中竣工；2012…"
+  ]
+ },
+ {
+  "id": "1328",
+  "name": "天津海信广场",
+  "rating": "S",
+  "shard": 26,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1335",
+  "name": "青岛利群城阳购物广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2008 无邻近开业动词: …团城阳购物广场有限公司于2008…"
+  ]
+ },
+ {
+  "id": "1336",
+  "name": "青岛崂山丽达购物中心",
+  "rating": "A",
+  "shard": 26,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …（崂山首家大型综合体）；2016…"
+  ]
+ },
+ {
+  "id": "1345",
+  "name": "成都凯德广场·金牛",
+  "rating": "A+",
+  "shard": 26,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1350",
+  "name": "济南嘉华购物广场",
+  "rating": "B",
+  "shard": 26,
+  "flags": [
+   "openedYear 2002 无邻近开业动词: …月 4 日主体公司注册；2002…",
+   "parking 2021 疑年份误抓"
+  ]
+ },
+ {
+  "id": "1359",
+  "name": "长沙阿波罗商业广场",
+  "rating": "B",
+  "shard": 27,
+  "flags": [
+   "openedYear 超域: 1971"
+  ]
+ },
+ {
+  "id": "1369",
+  "name": "佛山佛罗伦萨小镇",
+  "rating": "S",
+  "shard": 27,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …首期 2015…"
+  ]
+ },
+ {
+  "id": "1371",
+  "name": "深圳蛇口招商花园城",
+  "rating": "A",
+  "shard": 27,
+  "flags": [
+   "openedYear 2006 无邻近开业动词: …首开 **2006…"
+  ]
+ },
+ {
+  "id": "1382",
+  "name": "北京华冠购物中心",
+  "rating": "B",
+  "shard": 27,
+  "flags": [
+   "openedYear 2004 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1391",
+  "name": "无锡百联奥特莱斯广场",
+  "rating": "A",
+  "shard": 27,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1393",
+  "name": "大同百盛百货",
+  "rating": "B",
+  "shard": 27,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1406",
+  "name": "宁波西子国际广场",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…"
+  ]
+ },
+ {
+  "id": "1409",
+  "name": "北京泰华龙旗购物中心",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1416",
+  "name": "营口站前万达广场",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1417",
+  "name": "长春新天地购物公园",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1427",
+  "name": "湖州八佰伴（长兴店）",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1436",
+  "name": "南宁会展航洋城",
+  "rating": "A",
+  "shard": 28,
+  "flags": [
+   "openedYear 2007 无邻近开业动词: …2007…"
+  ]
+ },
+ {
+  "id": "1437",
+  "name": "青岛嘉年华·海信广场VILLAGE",
+  "rating": "A",
+  "shard": 28,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …20年8月申请破产重整、2022…"
+  ]
+ },
+ {
+  "id": "1438",
+  "name": "宜宾莱茵春天购物中心",
+  "rating": "B",
+  "shard": 28,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1447",
+  "name": "深圳新沙天虹购物中心",
+  "rating": "A",
+  "shard": 28,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1465",
+  "name": "广州祈福缤纷世界一期",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1467",
+  "name": "上海紫荆广场",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …10年5月起密集注资，至2015…"
+  ]
+ },
+ {
+  "id": "1471",
+  "name": "常德欢乐城国际购物中心",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "parking 800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1472",
+  "name": "湘潭高新万达广场",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "parking 2500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1473",
+  "name": "珠海印象城",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1475",
+  "name": "台州经开万达广场",
+  "rating": "A",
+  "shard": 29,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …推断2016…"
+  ]
+ },
+ {
+  "id": "1479",
+  "name": "长春宽城万达广场",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: …2011…"
+  ]
+ },
+ {
+  "id": "1491",
+  "name": "北京荟聚（西红门）",
+  "rating": null,
+  "shard": 29,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "1493",
+  "name": "上海嘉定宝龙广场",
+  "rating": "B",
+  "shard": 29,
+  "flags": [
+   "parking 1279 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1498",
+  "name": "北京凯德MALL太阳宫",
+  "rating": "A",
+  "shard": 29,
+  "flags": [
+   "parking 650 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0151",
+  "name": "长沙望城永旺梦乐城",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …05/30摘牌拿地 → 2025…"
+  ]
+ },
+ {
+  "id": "0158",
+  "name": "南京玄武招商花园城",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "parking 1573 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0162",
+  "name": "长春万象城",
+  "rating": "A+",
+  "shard": 3,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …2017…"
+  ]
+ },
+ {
+  "id": "0181",
+  "name": "常州飞龙吾悦广场",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …022年9月产品发布会；2024…"
+  ]
+ },
+ {
+  "id": "0183",
+  "name": "银川新华百货B馆",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …2024…"
+  ]
+ },
+ {
+  "id": "0184",
+  "name": "天津生态城万达广场",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …业15.12亿元摘牌）→2022…"
+  ]
+ },
+ {
+  "id": "0185",
+  "name": "深圳坂田万科广场",
+  "rating": "A",
+  "shard": 3,
+  "flags": [
+   "parking 2800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0191",
+  "name": "深圳满京华·满纷天地",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "buildingArea 超域: 150万㎡"
+  ]
+ },
+ {
+  "id": "0198",
+  "name": "长春中商世界里",
+  "rating": "B",
+  "shard": 3,
+  "flags": [
+   "parking 2702 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1521",
+  "name": "上海凯德虹口商业中心",
+  "rating": "A",
+  "shard": 30,
+  "flags": [
+   "parking 1100 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1525",
+  "name": "北京领展购物广场·中关村",
+  "rating": "B",
+  "shard": 30,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …3月领展以25亿元收购；2021…"
+  ]
+ },
+ {
+  "id": "1538",
+  "name": "深圳南山海岸城",
+  "rating": "S",
+  "shard": 30,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1539",
+  "name": "上海虹桥天地",
+  "rating": "A",
+  "shard": 30,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1542",
+  "name": "长沙IFS",
+  "rating": "S",
+  "shard": 30,
+  "flags": [
+   "trafficPeak 50.8 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "1543",
+  "name": "上海静安嘉里中心",
+  "rating": "S",
+  "shard": 30,
+  "flags": [
+   "openedYear 1998 无邻近开业动词: …1994年拿地，1998…"
+  ]
+ },
+ {
+  "id": "1564",
+  "name": "宁波万象城",
+  "rating": "A",
+  "shard": 31,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …2021…"
+  ]
+ },
+ {
+  "id": "1576",
+  "name": "上海One ITC",
+  "rating": "S",
+  "shard": 31,
+  "flags": [
+   "openedYear 2013 无邻近开业动词: …2013…"
+  ]
+ },
+ {
+  "id": "1577",
+  "name": "上海五角场合生汇",
+  "rating": "A+",
+  "shard": 31,
+  "flags": [
+   "parking 1700 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1582",
+  "name": "上海白玉兰广场",
+  "rating": "B",
+  "shard": 31,
+  "flags": [
+   "parking 1408 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1586",
+  "name": "龙湖杭州滨江天街",
+  "rating": "A+",
+  "shard": 31,
+  "flags": [
+   "parking 30 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "1588",
+  "name": "南京兴地美利广场",
+  "rating": "B",
+  "shard": 31,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …015年初商业地块开工，2017…"
+  ]
+ },
+ {
+  "id": "1590",
+  "name": "深圳深业上城",
+  "rating": "A+",
+  "shard": 31,
+  "flags": [
+   "buildingArea 超域: 120万㎡"
+  ]
+ },
+ {
+  "id": "1596",
+  "name": "中山海雅缤纷天地",
+  "rating": "A",
+  "shard": 31,
+  "flags": [
+   "buildingArea 超域: 120万㎡"
+  ]
+ },
+ {
+  "id": "1599",
+  "name": "北京华熙LIVE·五棵松",
+  "rating": "B",
+  "shard": 31,
+  "flags": [
+   "buildingArea 24.5 疑取综合体口径 24.5（商业面积 5）"
+  ]
+ },
+ {
+  "id": "1600",
+  "name": "北京丰科万达广场",
+  "rating": "A",
+  "shard": 31,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …年3月9日项目公司成立，2016…"
+  ]
+ },
+ {
+  "id": "1620",
+  "name": "深圳坪山益田假日世界",
+  "rating": "A",
+  "shard": 32,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1623",
+  "name": "北京木樨园合生广场",
+  "rating": "B",
+  "shard": 32,
+  "flags": [
+   "parking 1100 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1634",
+  "name": "佛山万民金海城",
+  "rating": "B",
+  "shard": 32,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …爱琴海2022…"
+  ]
+ },
+ {
+  "id": "1644",
+  "name": "盘锦双兴路万达广场",
+  "rating": "B",
+  "shard": 32,
+  "flags": [
+   "parking 4000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1647",
+  "name": "长春亚泰富苑",
+  "rating": "B",
+  "shard": 32,
+  "flags": [
+   "parking 2026 疑年份误抓"
+  ]
+ },
+ {
+  "id": "1655",
+  "name": "佛山新动力广场",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "parking 2021 疑年份误抓",
+   "parking 2021 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1665",
+  "name": "蚌埠银泰百货",
+  "rating": "A",
+  "shard": 33,
+  "flags": [
+   "buildingArea 超域: 109万㎡"
+  ]
+ },
+ {
+  "id": "1666",
+  "name": "合肥融创茂",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "parking 4000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1670",
+  "name": "通辽科尔沁万达广场",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "buildingArea 超域: 101万㎡"
+  ]
+ },
+ {
+  "id": "1678",
+  "name": "深圳百佳华领汇购物中心",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1692",
+  "name": "上海徐汇日月光中心",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "openedYear 2017 无邻近开业动词: …；2008 年启动动迁；2017…"
+  ]
+ },
+ {
+  "id": "1694",
+  "name": "清远城市广场（先锋路）",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1696",
+  "name": "沈阳皇城恒隆广场",
+  "rating": "A",
+  "shard": 33,
+  "flags": [
+   "parking 844 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1697",
+  "name": "上海奉贤宝龙广场",
+  "rating": "B",
+  "shard": 33,
+  "flags": [
+   "parking 1166 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1704",
+  "name": "广州花城汇",
+  "rating": "B",
+  "shard": 34,
+  "flags": [
+   "parking 50 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1721",
+  "name": "柳州城中万达广场",
+  "rating": "B",
+  "shard": 34,
+  "flags": [
+   "parking 200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1724",
+  "name": "北京金唐新光界",
+  "rating": "B",
+  "shard": 34,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …021年10月启动改造，2024…"
+  ]
+ },
+ {
+  "id": "1731",
+  "name": "上海龙阳广场",
+  "rating": "B",
+  "shard": 34,
+  "flags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "1758",
+  "name": "常州江南环球港",
+  "rating": "A",
+  "shard": 35,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …2015山姆；2016…"
+  ]
+ },
+ {
+  "id": "1762",
+  "name": "福州仓山爱琴海购物中心",
+  "rating": "A",
+  "shard": 35,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1763",
+  "name": "嘉兴八佰伴（中山路店）",
+  "rating": "A+",
+  "shard": 35,
+  "flags": [
+   "parking 1500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1794",
+  "name": "南通八佰伴",
+  "rating": "A",
+  "shard": 35,
+  "flags": [
+   "parking 49 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "1795",
+  "name": "武汉武商MALL",
+  "rating": "S",
+  "shard": 35,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …群→2014年武广更名→2023…"
+  ]
+ },
+ {
+  "id": "1802",
+  "name": "BHG Mall北京华联同成街购物中心",
+  "rating": "B",
+  "shard": 36,
+  "flags": [
+   "parking 24 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "1813",
+  "name": "沈阳盛京大奥莱",
+  "rating": "A",
+  "shard": 36,
+  "flags": [
+   "parking 2500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1817",
+  "name": "深圳欢乐海岸",
+  "rating": "B",
+  "shard": 36,
+  "flags": [
+   "parking 3500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1822",
+  "name": "深圳石厦时代广场",
+  "rating": "B",
+  "shard": 36,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…",
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1834",
+  "name": "BHG Mall北京华联常营购物中心",
+  "rating": "B",
+  "shard": 36,
+  "flags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1846",
+  "name": "重庆金开爱琴海购物中心",
+  "rating": "B",
+  "shard": 36,
+  "flags": [
+   "buildingArea 超域: 102万㎡"
+  ]
+ },
+ {
+  "id": "1857",
+  "name": "珠海前山环宇城",
+  "rating": "A",
+  "shard": 37,
+  "flags": [
+   "parking 2500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1862",
+  "name": "丹东振兴万达广场",
+  "rating": "A",
+  "shard": 37,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: …2012…"
+  ]
+ },
+ {
+  "id": "1869",
+  "name": "大同百盛广场（中央公园店）",
+  "rating": "B",
+  "shard": 37,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1872",
+  "name": "丽江国际购物广场",
+  "rating": "B",
+  "shard": 37,
+  "flags": [
+   "parking 24 疑扶梯/分钟等小值误抓",
+   "parking 24 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1874",
+  "name": "南充王府井购物中心",
+  "rating": "A",
+  "shard": 37,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…"
+  ]
+ },
+ {
+  "id": "1876",
+  "name": "深圳喜荟城",
+  "rating": "B",
+  "shard": 37,
+  "flags": [
+   "parking 600 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1898",
+  "name": "成都环球MALL",
+  "rating": "A",
+  "shard": 37,
+  "flags": [
+   "buildingArea 超域: 176万㎡",
+   "parking 15000 超域"
+  ]
+ },
+ {
+  "id": "1911",
+  "name": "临汾生龙国际时尚广场",
+  "rating": "A",
+  "shard": 38,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …3-07-04一期动工；2015…"
+  ]
+ },
+ {
+  "id": "1916",
+  "name": "福州金融街万达广场",
+  "rating": "B",
+  "shard": 38,
+  "flags": [
+   "parking 3000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1947",
+  "name": "福州东二环泰禾广场",
+  "rating": "A",
+  "shard": 38,
+  "flags": [
+   "parking 12000 超域"
+  ]
+ },
+ {
+  "id": "1951",
+  "name": "宁波天一广场",
+  "rating": "A+",
+  "shard": 39,
+  "flags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "1958",
+  "name": "长沙CFC富兴时代",
+  "rating": "B",
+  "shard": 39,
+  "flags": [
+   "buildingArea 超域: 119.5万㎡"
+  ]
+ },
+ {
+  "id": "1959",
+  "name": "青岛百盛金狮广场",
+  "rating": "A",
+  "shard": 39,
+  "flags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1973",
+  "name": "天津友阿奥特莱斯购物公园",
+  "rating": "B",
+  "shard": 39,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1976",
+  "name": "深圳龙华8号仓",
+  "rating": "A",
+  "shard": 39,
+  "flags": [
+   "parking 1800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "1981",
+  "name": "苏州昆山首创奥特莱斯",
+  "rating": "B",
+  "shard": 39,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …2015…"
+  ]
+ },
+ {
+  "id": "1984",
+  "name": "北京领展购物广场·京通",
+  "rating": "A",
+  "shard": 39,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…"
+  ]
+ },
+ {
+  "id": "1989",
+  "name": "昆明好悦天地",
+  "rating": "B",
+  "shard": 39,
+  "flags": [
+   "parking 12000 超域"
+  ]
+ },
+ {
+  "id": "0207",
+  "name": "广州设计之都时光汇",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …2022…"
+  ]
+ },
+ {
+  "id": "0208",
+  "name": "景德镇宝龙广场",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …08-27摘牌三宗地块，2023…"
+  ]
+ },
+ {
+  "id": "0212",
+  "name": "唐山中骏世界城",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0213",
+  "name": "龙湖重庆时代天街E馆",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0218",
+  "name": "天津梅江环宇城",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …2023…"
+  ]
+ },
+ {
+  "id": "0220",
+  "name": "青岛西海岸万达广场",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …2021…",
+   "parking 377 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0222",
+  "name": "昆明王府井奥莱·滇池小镇",
+  "rating": "A",
+  "shard": 4,
+  "flags": [
+   "parking 12000 超域"
+  ]
+ },
+ {
+  "id": "0224",
+  "name": "广州丽影广场",
+  "rating": "B",
+  "shard": 4,
+  "flags": [
+   "trafficPeak 60 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0228",
+  "name": "上海徐汇万科广场",
+  "rating": "A",
+  "shard": 4,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0231",
+  "name": "成都佛罗伦萨小镇二期",
+  "rating": "A",
+  "shard": 4,
+  "flags": [
+   "parking 3500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2007",
+  "name": "长沙金茂览秀城",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …-11-21 开工 → 2016…"
+  ]
+ },
+ {
+  "id": "2011",
+  "name": "连云港苏宁广场",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "parking 785 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2015",
+  "name": "保定万博广场",
+  "rating": "A",
+  "shard": 40,
+  "flags": [
+   "parking 3000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2016",
+  "name": "深圳iN城市广场INCITY PARK",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "parking 1200 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2019",
+  "name": "厦门罗宾森购物广场",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "parking 701 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2030",
+  "name": "舟山东港凯虹广场",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "parking 2024 疑年份误抓"
+  ]
+ },
+ {
+  "id": "2047",
+  "name": "上海我格广场",
+  "rating": "B",
+  "shard": 40,
+  "flags": [
+   "parking 600 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2056",
+  "name": "上海环球港",
+  "rating": "A+",
+  "shard": 41,
+  "flags": [
+   "trafficPeak 80 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2057",
+  "name": "西安金地广场",
+  "rating": "B",
+  "shard": 41,
+  "flags": [
+   "parking 1483 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2064",
+  "name": "南京中央商场（新街口店）",
+  "rating": "S",
+  "shard": 41,
+  "flags": [
+   "openedYear 超域: 1936"
+  ]
+ },
+ {
+  "id": "2076",
+  "name": "广州番禺华丰汇",
+  "rating": "B",
+  "shard": 41,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …2024…"
+  ]
+ },
+ {
+  "id": "2091",
+  "name": "赤峰万达广场",
+  "rating": "B",
+  "shard": 41,
+  "flags": [
+   "parking 1500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2110",
+  "name": "江门开平东汇城",
+  "rating": "B",
+  "shard": 42,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2012-05奠基→2014…"
+  ]
+ },
+ {
+  "id": "2117",
+  "name": "重庆悦荟购物中心",
+  "rating": "A",
+  "shard": 42,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …名「重庆悦荟购物中心」；2023…",
+   "parking 30 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "2124",
+  "name": "常州溧阳上河城",
+  "rating": "B",
+  "shard": 42,
+  "flags": [
+   "parking 1020 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2147",
+  "name": "东莞长安万达广场",
+  "rating": "A",
+  "shard": 42,
+  "flags": [
+   "parking 1620 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2149",
+  "name": "威海威高广场",
+  "rating": "A",
+  "shard": 42,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: …2009年7月开工奠基；2011…"
+  ]
+ },
+ {
+  "id": "2169",
+  "name": "上海香港广场",
+  "rating": "B",
+  "shard": 43,
+  "flags": [
+   "openedYear 1997 无邻近开业动词: …1997…"
+  ]
+ },
+ {
+  "id": "2171",
+  "name": "沈阳盾安·益田假日世界",
+  "rating": "B",
+  "shard": 43,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2019年益田签约接管；2020…"
+  ]
+ },
+ {
+  "id": "2173",
+  "name": "合肥方圆荟(滨湖店)",
+  "rating": "B",
+  "shard": 43,
+  "flags": [
+   "parking 3500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2187",
+  "name": "武汉光谷天地",
+  "rating": "B",
+  "shard": 43,
+  "flags": [
+   "parking 700 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2194",
+  "name": "SM成都成华城市广场",
+  "rating": "B",
+  "shard": 43,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2207",
+  "name": "无锡杉杉奥特莱斯广场",
+  "rating": "A",
+  "shard": 44,
+  "flags": [
+   "openedYear 2026 无邻近开业动词: …0月20日主体结构封顶，2026…"
+  ]
+ },
+ {
+  "id": "2208",
+  "name": "武汉杉杉奥特莱斯广场",
+  "rating": "A",
+  "shard": 44,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …）→2024-05开工→2025…"
+  ]
+ },
+ {
+  "id": "2213",
+  "name": "杭州城北招商花园城",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …2024年6月主体封顶→2025…"
+  ]
+ },
+ {
+  "id": "2215",
+  "name": "银川新百中心",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 超域: 1952"
+  ]
+ },
+ {
+  "id": "2217",
+  "name": "威海齐鲁商城",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 1998 无邻近开业动词: …1998年5月开工、1998…"
+  ]
+ },
+ {
+  "id": "2224",
+  "name": "上海前滩公园巷",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …2024年7月预热\"2024…"
+  ]
+ },
+ {
+  "id": "2226",
+  "name": "海口美兰奥特莱斯",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …航空旅游城于2016…"
+  ]
+ },
+ {
+  "id": "2231",
+  "name": "金华义乌天地",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "2232",
+  "name": "龙湖长沙开福天街",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "2233",
+  "name": "延吉百货大楼",
+  "rating": "B",
+  "shard": 44,
+  "flags": [
+   "openedYear 超域: 1950"
+  ]
+ },
+ {
+  "id": "2261",
+  "name": "苏州中心商场一期",
+  "rating": "S",
+  "shard": 45,
+  "flags": [
+   "buildingArea 30 疑取综合体口径 35（商业面积 300）",
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2264",
+  "name": "上海中房金谊广场",
+  "rating": "B",
+  "shard": 45,
+  "flags": [
+   "openedYear 2010 无邻近开业动词: …2010…"
+  ]
+ },
+ {
+  "id": "2277",
+  "name": "烟台芝罘万达广场",
+  "rating": "A",
+  "shard": 45,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2012.11.2奠基→2014…",
+   "buildingArea 超域: 119万㎡"
+  ]
+ },
+ {
+  "id": "2283",
+  "name": "武汉黄陂广场",
+  "rating": "B",
+  "shard": 45,
+  "flags": [
+   "openedYear 2009 无邻近开业动词: …2008-10正式动工，2009…"
+  ]
+ },
+ {
+  "id": "2290",
+  "name": "龙湖重庆时代天街ABC馆",
+  "rating": "A+",
+  "shard": 45,
+  "flags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2298",
+  "name": "郑州亚细亚·卓悦城",
+  "rating": "B",
+  "shard": 45,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …第一批历史建筑保护名录；2020…",
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "2306",
+  "name": "西安长安万科广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "parking 2021 疑年份误抓"
+  ]
+ },
+ {
+  "id": "2309",
+  "name": "揭阳榕城万达广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "parking 16000 超域"
+  ]
+ },
+ {
+  "id": "2329",
+  "name": "丹东汇侨国际广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: …2012…"
+  ]
+ },
+ {
+  "id": "2332",
+  "name": "上海虹桥中心Art Park大融城",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …底光大安石股权收购改造；2021…"
+  ]
+ },
+ {
+  "id": "2333",
+  "name": "鄂州吾悦广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …年3月完成战略品牌签约，2022…"
+  ]
+ },
+ {
+  "id": "2334",
+  "name": "上海天空万科广场",
+  "rating": "A",
+  "shard": 46,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …8 商业案名发布会定名；2022…"
+  ]
+ },
+ {
+  "id": "2335",
+  "name": "济南弘阳广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …方签署战略合作协议落地；2021…"
+  ]
+ },
+ {
+  "id": "2341",
+  "name": "长春这有山thehill",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …5-2016年启动筹备，2019…"
+  ]
+ },
+ {
+  "id": "2344",
+  "name": "宁波高新宝龙广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "parking 2743 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2345",
+  "name": "广安吾悦广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …21-12商户进场装修；2022…"
+  ]
+ },
+ {
+  "id": "2346",
+  "name": "上海太平洋新天地商业广场",
+  "rating": "B",
+  "shard": 46,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …Q4 T1/T2 竣工；2025…"
+  ]
+ },
+ {
+  "id": "2348",
+  "name": "广州万国奥特莱斯",
+  "rating": "A",
+  "shard": 46,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …TLET华南旗舰店登陆；2025…"
+  ]
+ },
+ {
+  "id": "2354",
+  "name": "金华兰溪宝龙广场",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "parking 1520 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2358",
+  "name": "南宁爱琴海城市广场",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …2021…",
+   "parking 2000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2360",
+  "name": "枣庄双子星恒太城",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …-21恒太商业正式签约→2022…"
+  ]
+ },
+ {
+  "id": "2372",
+  "name": "成都都江堰大融城",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …2019…"
+  ]
+ },
+ {
+  "id": "2379",
+  "name": "新乡王府井奥莱平原小镇",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…"
+  ]
+ },
+ {
+  "id": "2382",
+  "name": "成都大魔方招商花园城",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "buildingArea 超域: 112.5万㎡"
+  ]
+ },
+ {
+  "id": "2384",
+  "name": "龙湖成都时代天街B馆",
+  "rating": "A",
+  "shard": 47,
+  "flags": [
+   "parking 12609 超域"
+  ]
+ },
+ {
+  "id": "2385",
+  "name": "福州中骏世界城",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …4 C/D地块竣工核验、2024…"
+  ]
+ },
+ {
+  "id": "2394",
+  "name": "郑州锦艺城购物中心C区",
+  "rating": "B",
+  "shard": 47,
+  "flags": [
+   "parking 700 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2405",
+  "name": "成都青白江万达广场",
+  "rating": "B",
+  "shard": 48,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …6-10媒体见面会立项；2020…"
+  ]
+ },
+ {
+  "id": "2409",
+  "name": "北京金地广场",
+  "rating": "C",
+  "shard": 48,
+  "flags": [
+   "openedYear 2012 无邻近开业动词: …2007年12月竣工；2012…",
+   "parking 742 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2423",
+  "name": "深圳罗湖宝能环球汇",
+  "rating": "C",
+  "shard": 48,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …2014年动工，2019…"
+  ]
+ },
+ {
+  "id": "2435",
+  "name": "苏州苏悦广场",
+  "rating": "C",
+  "shard": 48,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: …2016…"
+  ]
+ },
+ {
+  "id": "2445",
+  "name": "佛山铂顿城",
+  "rating": "C",
+  "shard": 48,
+  "flags": [
+   "parking 800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2448",
+  "name": "成都GOGOEGO",
+  "rating": "C",
+  "shard": 48,
+  "flags": [
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "2451",
+  "name": "深圳优城购物中心",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "parking 800 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2454",
+  "name": "北京活力东方购物广场",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "parking 400 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2457",
+  "name": "上海广场",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …\"；2018年四方重组；2020…"
+  ]
+ },
+ {
+  "id": "2460",
+  "name": "广州捷登都会广场",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…"
+  ]
+ },
+ {
+  "id": "2469",
+  "name": "西安金莎国际购物广场",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "trafficPeak 60 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2483",
+  "name": "上海环球金融中心",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "openedYear 2003 无邻近开业动词: …亚洲金融危机停工约6年；2003…"
+  ]
+ },
+ {
+  "id": "2484",
+  "name": "武汉天地街区",
+  "rating": "C",
+  "shard": 49,
+  "flags": [
+   "buildingArea 超域: 150万㎡"
+  ]
+ },
+ {
+  "id": "2489",
+  "name": "淄博茂业时代（广场店）",
+  "rating": null,
+  "shard": 49,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …造后，茂业时代广场分公司2015…"
+  ]
+ },
+ {
+  "id": "0267",
+  "name": "兰州安宁吾悦广场",
+  "rating": "B",
+  "shard": 5,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …合新城甘肃扩张窗口推断为2023…"
+  ]
+ },
+ {
+  "id": "0271",
+  "name": "连云港灌南恒基广场",
+  "rating": "B",
+  "shard": 5,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0274",
+  "name": "上海前湾印象城MEGA",
+  "rating": "A",
+  "shard": 5,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …布，2023年2月开工，2025…"
+  ]
+ },
+ {
+  "id": "0284",
+  "name": "南昌大悦城",
+  "rating": "A",
+  "shard": 5,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …2021年全面开工建设，2025…"
+  ]
+ },
+ {
+  "id": "0285",
+  "name": "SM厦门海沧",
+  "rating": "B",
+  "shard": 5,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …2021年3月前后开工；2025…"
+  ]
+ },
+ {
+  "id": "0287",
+  "name": "阜阳颖上吾悦广场",
+  "rating": "B",
+  "shard": 5,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0291",
+  "name": "上海佘山宝乐汇",
+  "rating": "B",
+  "shard": 5,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …推断2020…"
+  ]
+ },
+ {
+  "id": "0292",
+  "name": "南宁五象万象汇",
+  "rating": "A",
+  "shard": 5,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …一推断2020年12月-2021…"
+  ]
+ },
+ {
+  "id": "2510",
+  "name": "西安高新新天地生活奥莱",
+  "rating": null,
+  "shard": 50,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …2022…"
+  ]
+ },
+ {
+  "id": "2523",
+  "name": "贵阳杉杉奥特莱斯广场",
+  "rating": null,
+  "shard": 50,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "2525",
+  "name": "武汉新荣天街",
+  "rating": null,
+  "shard": 50,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …3 年 2 月主体开工→2025…"
+  ]
+ },
+ {
+  "id": "2540",
+  "name": "金华永盛购物中心B馆",
+  "rating": null,
+  "shard": 50,
+  "flags": [
+   "openedYear 2002 无邻近开业动词: …身始建于1984年3月，2002…"
+  ]
+ },
+ {
+  "id": "2545",
+  "name": "沈阳百盛购物广场",
+  "rating": null,
+  "shard": 50,
+  "flags": [
+   "openedYear 2003 无邻近开业动词: …2003…"
+  ]
+ },
+ {
+  "id": "2568",
+  "name": "上海前滩太古里一期",
+  "rating": null,
+  "shard": 51,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …16年太古与陆家嘴签约，2019…"
+  ]
+ },
+ {
+  "id": "2577",
+  "name": "砂之船（福州）小镇",
+  "rating": null,
+  "shard": 51,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …2022…"
+  ]
+ },
+ {
+  "id": "2578",
+  "name": "北京凯德MALL·太阳宫",
+  "rating": "A",
+  "shard": 51,
+  "flags": [
+   "trafficPeak 57 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2583",
+  "name": "CityOn熙地港（西安）购物中心",
+  "rating": null,
+  "shard": 51,
+  "flags": [
+   "parking 2094 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2598",
+  "name": "福州泰禾广场",
+  "rating": null,
+  "shard": 51,
+  "flags": [
+   "buildingArea 超域: 150万㎡",
+   "parking 12000 超域"
+  ]
+ },
+ {
+  "id": "2601",
+  "name": "福州远洋德呈乐堤港",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "openedYear 2015 无邻近开业动词: …2015…"
+  ]
+ },
+ {
+  "id": "2606",
+  "name": "深圳缤果空间购物中心",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: …2014…"
+  ]
+ },
+ {
+  "id": "2608",
+  "name": "成都银石广场",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "parking 338 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2620",
+  "name": "大连银泰城",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …019年之江新实业入主；2025…"
+  ]
+ },
+ {
+  "id": "2622",
+  "name": "成都环球中心",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "buildingArea 超域: 176万㎡",
+   "parking 15000 超域"
+  ]
+ },
+ {
+  "id": "2630",
+  "name": "定州信誉楼广场",
+  "rating": null,
+  "shard": 52,
+  "flags": [
+   "openedYear 2026 无邻近开业动词: …2026…"
+  ]
+ },
+ {
+  "id": "2646",
+  "name": "上海大零号湾·梦享家商业中心",
+  "rating": "C",
+  "shard": 52,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …024-01 启动调改；2025…"
+  ]
+ },
+ {
+  "id": "2648",
+  "name": "北京京东mall(双井店)",
+  "rating": "C",
+  "shard": 52,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …07-11京东宣布筹建；2025…"
+  ]
+ },
+ {
+  "id": "2653",
+  "name": "上海虹桥现所·创邑MIX",
+  "rating": "C",
+  "shard": 53,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: …2月擦肩隧道艺术节启幕；2022…"
+  ]
+ },
+ {
+  "id": "2656",
+  "name": "上海主场ESP电竞文化体验中心",
+  "rating": "C",
+  "shard": 53,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "2657",
+  "name": "上海百金汉·青年汇城市广场",
+  "rating": "C",
+  "shard": 53,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: …2023…"
+  ]
+ },
+ {
+  "id": "2679",
+  "name": "深圳宝安勤诚达K+PLAZA",
+  "rating": "C",
+  "shard": 53,
+  "flags": [
+   "parking 557 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2696",
+  "name": "上海大华锦绣优嘉",
+  "rating": "C",
+  "shard": 53,
+  "flags": [
+   "buildingArea 超域: 0.75万㎡"
+  ]
+ },
+ {
+  "id": "2725",
+  "name": "北京搜秀城",
+  "rating": "C",
+  "shard": 54,
+  "flags": [
+   "trafficPeak 58 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2732",
+  "name": "北京魏公·芳华里",
+  "rating": "C",
+  "shard": 54,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …2025…"
+  ]
+ },
+ {
+  "id": "2733",
+  "name": "南京建邺万达广场",
+  "rating": "A",
+  "shard": 54,
+  "flags": [
+   "buildingArea 超域: 110万㎡"
+  ]
+ },
+ {
+  "id": "2737",
+  "name": "南京澳林购物广场",
+  "rating": "B",
+  "shard": 54,
+  "flags": [
+   "trafficPeak 58 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "2738",
+  "name": "南京金轮新天地",
+  "rating": "C",
+  "shard": 54,
+  "flags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2744",
+  "name": "合肥国购广场",
+  "rating": "B",
+  "shard": 54,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …8年升级接驳地铁2号线；2025…"
+  ]
+ },
+ {
+  "id": "2749",
+  "name": "太原龙湖万达广场",
+  "rating": "A",
+  "shard": 54,
+  "flags": [
+   "buildingArea 超域: 148万㎡"
+  ]
+ },
+ {
+  "id": "2771",
+  "name": "昆明百货大楼",
+  "rating": "C",
+  "shard": 55,
+  "flags": [
+   "openedYear 超域: 1959"
+  ]
+ },
+ {
+  "id": "2785",
+  "name": "深圳仟里食家",
+  "rating": "C",
+  "shard": 55,
+  "flags": [
+   "openedYear 2024 无邻近开业动词: …2024…"
+  ]
+ },
+ {
+  "id": "2798",
+  "name": "石家庄裕华万达广场",
+  "rating": "A",
+  "shard": 55,
+  "flags": [
+   "buildingArea 超域: 183万㎡"
+  ]
+ },
+ {
+  "id": "2799",
+  "name": "砂之船（杭州）奥莱",
+  "rating": "A",
+  "shard": 55,
+  "flags": [
+   "openedYear 2011 无邻近开业动词: …年受杭州市政府邀请落地，2011…"
+  ]
+ },
+ {
+  "id": "2805",
+  "name": "绵阳凯德广场",
+  "rating": "B",
+  "shard": 56,
+  "flags": [
+   "openedYear 2026 无邻近开业动词: …2万㎡、引入16家首店；2026…",
+   "parking 13 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "2807",
+  "name": "苏州万象天地",
+  "rating": "S",
+  "shard": 56,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …2025…"
+  ]
+ },
+ {
+  "id": "2808",
+  "name": "苏州凤凰广场",
+  "rating": "C",
+  "shard": 56,
+  "flags": [
+   "parking 1100 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2811",
+  "name": "蚌埠蚌山万达广场",
+  "rating": "B",
+  "shard": 56,
+  "flags": [
+   "parking 2500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2817",
+  "name": "西安量子晨",
+  "rating": "C",
+  "shard": 56,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …2020…"
+  ]
+ },
+ {
+  "id": "2818",
+  "name": "连云港利群广场",
+  "rating": "C",
+  "shard": 56,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "2829",
+  "name": "青岛伟东·乐客城",
+  "rating": "A",
+  "shard": 56,
+  "flags": [
+   "openedYear 2013 无邻近开业动词: …010-05 开工奠基→2013…"
+  ]
+ },
+ {
+  "id": "0306",
+  "name": "长春欧亚卖场",
+  "rating": "A+",
+  "shard": 6,
+  "flags": [
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0309",
+  "name": "武汉中心百货（江汉路店）",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 超域: 1937"
+  ]
+ },
+ {
+  "id": "0313",
+  "name": "深圳光明万达广场",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0316",
+  "name": "重庆时代广场",
+  "rating": "S",
+  "shard": 6,
+  "flags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0323",
+  "name": "苏州华贸中心",
+  "rating": "A",
+  "shard": 6,
+  "flags": [
+   "openedYear 2025 无邻近开业动词: …年9月超甲级写字楼竣备；2025…"
+  ]
+ },
+ {
+  "id": "0329",
+  "name": "龙湖杭州丁桥天街",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: …-04-24 规划公示→2021…",
+   "parking 1600 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0336",
+  "name": "徐州丰县吾悦广场",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0337",
+  "name": "深圳天虹商场(松柏店)",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2014 无邻近开业动词: … 年租期）[等级：B]；2014…"
+  ]
+ },
+ {
+  "id": "0339",
+  "name": "宜昌夷陵万达广场",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0345",
+  "name": "安康汉滨万达广场",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "parking 1000 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0347",
+  "name": "阳泉新城万达广场",
+  "rating": "B",
+  "shard": 6,
+  "flags": [
+   "openedYear 2020 无邻近开业动词: …推断 2020…"
+  ]
+ },
+ {
+  "id": "0365",
+  "name": "西宁城东吾悦广场",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 2023 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0373",
+  "name": "岳阳步步高广场",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0376",
+  "name": "齐齐哈尔百货大楼",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 超域: 1950"
+  ]
+ },
+ {
+  "id": "0387",
+  "name": "广州融创茂",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …2019…"
+  ]
+ },
+ {
+  "id": "0389",
+  "name": "驻马店爱克玖隆茂",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …2019…"
+  ]
+ },
+ {
+  "id": "0390",
+  "name": "德州百货大楼",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "openedYear 超域: 1983"
+  ]
+ },
+ {
+  "id": "0396",
+  "name": "葫芦岛百货大楼(兴工路)",
+  "rating": "B",
+  "shard": 7,
+  "flags": [
+   "parking 13 疑扶梯/分钟等小值误抓"
+  ]
+ },
+ {
+  "id": "0404",
+  "name": "武汉大洋晶典(中山店)",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2004 无邻近开业动词: …经营主体2004…"
+  ]
+ },
+ {
+  "id": "0406",
+  "name": "重庆重百大楼解放碑商场",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "trafficPeak 90 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0407",
+  "name": "北京新世界百货(望京店)",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2007 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0415",
+  "name": "广州光明广场",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2005 无邻近开业动词: …→2000水闸遗址停工→2005…",
+   "trafficPeak 52.9 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0424",
+  "name": "昭通吾悦广场",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2021 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0434",
+  "name": "咸阳静安荟奥莱公园",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2018 无邻近开业动词: …2018…"
+  ]
+ },
+ {
+  "id": "0440",
+  "name": "怀化岳麓青城万达广场",
+  "rating": "B",
+  "shard": 8,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …奠基仪式并全面动工建设；2019…"
+  ]
+ },
+ {
+  "id": "0455",
+  "name": "松原金钻百货",
+  "rating": "B",
+  "shard": 9,
+  "flags": [
+   "openedYear 2016 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0460",
+  "name": "广州恒润广场",
+  "rating": "B",
+  "shard": 9,
+  "flags": [
+   "trafficPeak 95 万人次/日 疑全域/累计口径"
+  ]
+ },
+ {
+  "id": "0463",
+  "name": "上海信业购物中心",
+  "rating": "B",
+  "shard": 9,
+  "flags": [
+   "parking 1100 邻接品牌/扶梯等词"
+  ]
+ },
+ {
+  "id": "0469",
+  "name": "上海吴泾满天星生活广场",
+  "rating": "B",
+  "shard": 9,
+  "flags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ]
+ },
+ {
+  "id": "0473",
+  "name": "广州星寰国际商业中心",
+  "rating": "B",
+  "shard": 9,
+  "flags": [
+   "openedYear 2019 无邻近开业动词: …月广州市规划局明确规划；2019…"
+  ]
+ },
+ {
+  "id": "0500",
+  "name": "兰州王府井百货",
+  "rating": "A",
+  "shard": 9,
+  "flags": [
+   "openedYear 2007 无邻近开业动词: ……"
+  ]
+ }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "id": "1320", "name": "龙湖上海宝山天街", "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2017, "external": 2017, "verdict": "match",
+        "query": "龙湖宝山天街 2017年12月 开业", "source_url": null, "source_level": "media",
+        "evidence": "龙湖2017年2月研报时间表列「上海宝山天街 17年12月」，为2017年五座天街收官之作", "note": "" },
+      { "metric": "buildingArea", "internal": 11.5, "external": 14, "verdict": "minor_diff",
+        "query": "龙湖上海宝山天街 开业时间 建筑面积 万㎡", "source_url": "http://philiph500215.blogspot.com", "source_level": "self-media",
+        "evidence": "2018年3月上海新开业购物中心盘点列「14万㎡的龙湖宝山天街」", "note": "单源自媒体；差以外径为基17.9%/内径21.7%，处判定边界，保守记minor_diff" },
+      { "metric": "parking", "internal": 800, "external": null, "verdict": "no_external_data",
+        "query": "宝山天街 停车位 客流 万人", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 8.5, "external": null, "verdict": "no_external_data",
+        "query": "宝山天街 停车位 客流 万人", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见龙湖整体同店客流+30%类表述，无单日峰值数据" }
+    ]
+  },
+  {
+    "id": "1327", "name": "沈阳市府恒隆广场", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2012, "external": 2012, "verdict": "match",
+        "query": "沈阳市府恒隆广场 Forum 66 开业 2012 购物中心", "source_url": "https://kknews.cc", "source_level": "self-media",
+        "evidence": "已开业九座恒隆广场盘点：2012年开业的市府恒隆广场逾150家商户；搜狐专访称2012年入驻", "note": "" },
+      { "metric": "buildingArea", "internal": 80, "external": 80, "verdict": "match",
+        "query": "沈阳市府恒隆广场 总建筑面积 万平方米", "source_url": "https://m.baike.com", "source_level": "self-media",
+        "evidence": "抖音百科：总建筑面积约80万平方米，占地约9.2万㎡，分三期", "note": "口径分歧大：恒隆公布整体楼面105.9万㎡、商场约10万㎡、二期/三期标段44.4万㎡；80万为整体规划口径" },
+      { "metric": "parking", "internal": 1500, "external": null, "verdict": "no_external_data",
+        "query": "沈阳市府恒隆广场 停车位 购物中心 客流", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 6, "external": null, "verdict": "no_external_data",
+        "query": "沈阳市府恒隆广场 停车位 购物中心 客流", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见客流受地铁施工影响类报道，无数值" }
+    ]
+  },
+  {
+    "id": "1328", "name": "天津海信广场", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2011, "external": 2007, "verdict": "conflict",
+        "query": "天津海信广场 建筑面积 高端百货 解放北路 开业", "source_url": "https://www.sohu.com", "source_level": "media",
+        "evidence": "搜狐2023-09：天津海信广场迎来16年店庆；另有2017年十周年庆报道，推算2007年开业", "note": "审计疑点成立：2007年开业有16周年/十周年双重佐证，内部2011无依据（或混入海信地产2011高端战略时间）" },
+      { "metric": "buildingArea", "internal": 6.5, "external": null, "verdict": "no_external_data",
+        "query": "天津海信广场 商业面积 万平方米 楼层", "source_url": null, "source_level": null,
+        "evidence": "", "note": "检索摘要提及约7万㎡量级，但与青岛/长沙海信信息混杂、无法归属到可引用来源，不采信" },
+      { "metric": "parking", "internal": 550, "external": null, "verdict": "no_external_data",
+        "query": "天津海信广场 停车位 客流 人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 4, "external": null, "verdict": "no_external_data",
+        "query": "天津海信广场 停车位 客流 人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见和平印象城等邻场数据（日均4万+），非本商场" }
+    ]
+  },
+  {
+    "id": "1345", "name": "成都凯德广场·金牛", "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2011, "external": 2006, "verdict": "conflict",
+        "query": "成都凯德广场金牛 开业时间 建筑面积", "source_url": "https://m.winshang.com", "source_level": "trade",
+        "evidence": "赢商网：凯德金牛1期于2006年9月开业，为第一代凯德广场代表，2013年9月二期落成", "note": "审计疑点成立：原始开业为2006年9月（二期2013年），内部2011无依据" },
+      { "metric": "buildingArea", "internal": 8.5, "external": 7.2, "verdict": "match",
+        "query": "成都凯德广场金牛 开业时间 建筑面积", "source_url": "https://www.hkexnews.hk", "source_level": "official",
+        "evidence": "凯德商用海外监管公告：总建筑面积（不包括停车场）约72,000平方米，共7层", "note": "公告为二期落成前（2012-2013）口径；2013年二期扩容后接近8.5万㎡合理，差约15-18%" },
+      { "metric": "parking", "internal": 1000, "external": null, "verdict": "no_external_data",
+        "query": "凯德广场·金牛 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data",
+        "query": "凯德广场·金牛 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" }
+    ]
+  },
+  {
+    "id": "1347", "name": "杭州大厦购物城", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 1988, "external": 1988, "verdict": "match",
+        "query": "杭州大厦购物城 开业时间 建筑面积 万平方米", "source_url": "https://www.163.com", "source_level": "media",
+        "evidence": "武林商圈现代零售起源于1988年正式对外营业的工业大厦A楼（杭州大厦），C/D座2009年相继开业", "note": "" },
+      { "metric": "buildingArea", "internal": 24, "external": 30, "verdict": "minor_diff",
+        "query": "杭州大厦购物城 开业时间 建筑面积 万平方米", "source_url": null, "source_level": "media",
+        "evidence": "购物城总体（含酒店商务等）总楼面面积近30万㎡；A-D四座商业大楼合计近14万㎡", "note": "外部口径分裂：综合口径近30万㎡/商业四座近14万㎡，内部24万介于两者；与综合口径比差20%处边界" },
+      { "metric": "parking", "internal": 883, "external": null, "verdict": "no_external_data",
+        "query": "杭州大厦 购物城 停车位 客流 高峰", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 12.5, "external": null, "verdict": "no_external_data",
+        "query": "杭州大厦 购物城 停车位 客流 高峰", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" }
+    ]
+  },
+  {
+    "id": "1349", "name": "成都群光广场", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2010, "external": 2010, "verdict": "match",
+        "query": "成都群光广场 开业时间 建筑面积", "source_url": "https://www.sohu.com", "source_level": "media",
+        "evidence": "2010年开业，台湾群光集团在大陆旗舰店，刷新当时成都百货业纪录", "note": "2025年改造为ACG主题商区为焕新，不影响原始开业年份" },
+      { "metric": "buildingArea", "internal": 9, "external": 18.7, "verdict": "unit_mismatch",
+        "query": "成都群光广场 开业时间 建筑面积", "source_url": null, "source_level": "self-media",
+        "evidence": "总建筑面积约18.7万㎡，楼高166米，地上37层地下5层（整栋综合楼）", "note": "外部18.7万㎡为整栋综合楼总建面（含办公），内部9万㎡应为商场商业面积，口径不可比" },
+      { "metric": "parking", "internal": 500, "external": 700, "verdict": "minor_diff",
+        "query": "成都群光广场 开业时间 建筑面积", "source_url": null, "source_level": "self-media",
+        "evidence": "项目简介：配约700个停车位，双向手扶梯78部及客用升降梯10部", "note": "差约28.6%（200/700），处于20-50%区间" },
+      { "metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data",
+        "query": "群光广场 成都 春熙路 日客流 万人次 节假日", "source_url": null, "source_level": null,
+        "evidence": "", "note": "春熙路商圈十一单日100万人次为全域口径，不可比" }
+    ]
+  },
+  {
+    "id": "1351", "name": "宁波和义大道购物中心", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2009, "external": 2009, "verdict": "match",
+        "query": "宁波和义大道购物中心 开业 建筑面积 万平方米", "source_url": null, "source_level": "self-media",
+        "evidence": "2009年9月底开业试营业，宁波首个高端奢侈品购物中心（LV等一线品牌进驻）", "note": "md 载 2009-09-27 全面开业（7月初试营业），与外部一致" },
+      { "metric": "buildingArea", "internal": 5.63, "external": 10, "verdict": "unit_mismatch",
+        "query": "宁波和义大道购物中心 开业 建筑面积 万平方米", "source_url": null, "source_level": "self-media",
+        "evidence": "主体地下3层地上4层，建筑面积约10万平方米", "note": "内部5.63万㎡为商业面积口径（md另载总建面10万/现行12.8万含地下8.1万），与外部总建面口径不可比" },
+      { "metric": "parking", "internal": 1023.5, "external": 1000, "verdict": "match",
+        "query": "宁波和义大道购物中心 开业 建筑面积 万平方米", "source_url": null, "source_level": "self-media",
+        "evidence": "停车位约1000个（md 载 1000-1047 个）", "note": "内部1023.5为1000-1047区间中值口径，差约2.4%" },
+      { "metric": "trafficPeak", "internal": 7.5, "external": null, "verdict": "unit_mismatch",
+        "query": "和义大道 天一商圈 客流 万人次", "source_url": "https://www.lehuo361.com", "source_level": "media",
+        "evidence": "2025国庆天一·和义商圈单日40万人次；2021国庆前三天和义大道客流超11万人次", "note": "外部仅商圈全域口径（单日40万）与累计口径（前三天11万+），无商场单日峰值；若按前三天折算约3.7万/日，与内部7.5万差约1倍，内部值存疑" }
+    ]
+  },
+  {
+    "id": "1355", "name": "沈阳卓展购物中心", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2006, "external": 2006, "verdict": "match",
+        "query": "沈阳卓展购物中心 开业时间 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+        "evidence": "抖音百科（香港卓展集团词条）：沈阳卓展2006年开业，CBD金廊核心位置", "note": "" },
+      { "metric": "buildingArea", "internal": 11, "external": 10, "verdict": "match",
+        "query": "沈阳卓展购物中心 开业时间 建筑面积", "source_url": "https://zhidao.baidu.com", "source_level": "self-media",
+        "evidence": "网络问答提及总建筑面积超过10万平方米", "note": "来源弱（百度知道）；差约9%；集团三地物业总面积近65万㎡可佐证量级" },
+      { "metric": "parking", "internal": 371, "external": null, "verdict": "no_external_data",
+        "query": "沈阳卓展 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 6.13, "external": null, "verdict": "no_external_data",
+        "query": "沈阳卓展 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见客流下滑、转型城市奥莱未果类定性报道" }
+    ]
+  },
+  {
+    "id": "1363", "name": "武汉百联奥特莱斯主题公园", "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2012, "external": 2012, "verdict": "match",
+        "query": "武汉百联奥特莱斯 开业时间 建筑面积", "source_url": "https://money.finance.sina.com.cn", "source_level": "official",
+        "evidence": "百联股份公告：百联奥特莱斯广场（武汉·盘龙）2012.12.18 开业", "note": "另有2011年12月试营业说法；以上市公司公告正式开业2012为准" },
+      { "metric": "buildingArea", "internal": 20, "external": 11.6, "verdict": "minor_diff",
+        "query": "武汉百联奥特莱斯 开业时间 建筑面积", "source_url": null, "source_level": "media",
+        "evidence": "不动产基金文件证载建筑面积约116,236.76㎡；另有营业/建筑面积5.7万-9万㎡多种口径", "note": "内部20万与证载11.6万差约42%，疑含二期扩建或规划口径" },
+      { "metric": "parking", "internal": 2600, "external": 2000, "verdict": "match",
+        "query": "武汉百联奥特莱斯 节假日 单日 客流 万人次 停车位", "source_url": "https://i.ifeng.com", "source_level": "media",
+        "evidence": "凤凰网2025-01：元旦假期「两千多个车位，全部都停满了」", "note": "早期口径约1200个疑为扩建前；2025年报道两千多个与内部2600一致" },
+      { "metric": "trafficPeak", "internal": 7.5, "external": null, "verdict": "unit_mismatch",
+        "query": "武汉百联奥特莱斯 节假日 单日 客流 万人次 停车位", "source_url": "https://i.ifeng.com", "source_level": "media",
+        "evidence": "一年客流超600万人次创新高（凤凰网2025-01）", "note": "外部仅年客流口径（600万+/年，折合日均约1.6万），无节假日单日峰值数据" }
+    ]
+  },
+  {
+    "id": "1369", "name": "佛山佛罗伦萨小镇", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2015, "external": 2015, "verdict": "match",
+        "query": "佛山佛罗伦萨小镇 开业 2015 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+        "evidence": "2015年9月正式开业，中国第三座佛罗伦萨小镇（广佛名品奥莱，投资约13亿元）", "note": "审计疑点解除：首期2015年9月即原始开业时间" },
+      { "metric": "buildingArea", "internal": 7, "external": 12, "verdict": "minor_diff",
+        "query": "广佛佛罗伦萨小镇 南海 总建筑面积 万㎡ 停车位", "source_url": null, "source_level": "self-media",
+        "evidence": "公开资料常引总建筑面积约12万㎡、首期可租赁面积约6万㎡", "note": "内部7万疑为首期口径，二期扩建后增大；外部12万未能直接核实原始来源，证据较弱" },
+      { "metric": "parking", "internal": 4000, "external": null, "verdict": "no_external_data",
+        "query": "广佛佛罗伦萨小镇 南海 总建筑面积 万㎡ 停车位", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见「地面+地下停车场数千个车位」模糊表述，无精确数" },
+      { "metric": "trafficPeak", "internal": 12.5, "external": null, "verdict": "no_external_data",
+        "query": "佛罗伦萨小镇 广佛 客流 万人次 国庆", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅区/商圈级口径（桂城各商圈60.2万、南海全区498万），无单店数据；2025国庆客流销售同比+10%为相对值" }
+    ]
+  },
+  {
+    "id": "1373", "name": "深圳福田星河COCO Park一期", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2006, "external": 2006, "verdict": "match",
+        "query": "深圳福田星河COCO Park 开业 2006 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+        "evidence": "抖音百科：深圳福田星河COCO Park于2006年开业（星河WORLD店2018年、南沙店2023年）", "note": "" },
+      { "metric": "buildingArea", "internal": 6.5, "external": 8.5, "verdict": "minor_diff",
+        "query": "深圳福田星河COCO Park 开业 2006 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+        "evidence": "总建筑面积85,000平方米；另有项目总体量约10万㎡说法", "note": "差约23.5%；内部6.5万疑为一期商业面积口径，8.5万为总建面口径" },
+      { "metric": "parking", "internal": 600, "external": null, "verdict": "no_external_data",
+        "query": "福田星河COCO Park 停车位 多少个", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见停车收费与诱导系统描述，无车位数" },
+      { "metric": "trafficPeak", "internal": 17.5, "external": 21, "verdict": "unit_mismatch",
+        "query": "深圳福田星河COCO Park 开业 2006 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+        "evidence": "开业首日客流量突破21万人次", "note": "开业首日口径（2006年开业盛况），非常规节假日峰值，不可比；内部17.5疑另有所本" }
+    ]
+  },
+  {
+    "id": "1374", "name": "龙湖北京长楹天街", "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2014, "external": 2014, "verdict": "match",
+        "query": "龙湖北京长楹天街 开业时间 商业面积 万㎡", "source_url": "https://finance.sina.cn", "source_level": "media",
+        "evidence": "2014年底（约2014年12月）开业，龙湖购物中心布局一线城市首作；至2025年运营约十年", "note": "" },
+      { "metric": "buildingArea", "internal": 22, "external": 22, "verdict": "match",
+        "query": "龙湖北京长楹天街 开业时间 商业面积 万㎡", "source_url": null, "source_level": "media",
+        "evidence": "商业面积27万㎡与22万㎡两说并存，内部22万与后者一致", "note": "27万㎡疑为含车位/总商业建面口径" },
+      { "metric": "parking", "internal": 2000, "external": null, "verdict": "no_external_data",
+        "query": "长楹天街 停车位 车场 个", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅见西区地下停车场登记信息及常营路侧改造新增1400个（政府增量，非场内总数）" },
+      { "metric": "trafficPeak", "internal": 17.5, "external": 22, "verdict": "minor_diff",
+        "query": "龙湖北京长楹天街 开业时间 商业面积 万㎡", "source_url": null, "source_level": "media",
+        "evidence": "运营十年报道：单日客流曾达22万人次，年客流约3200万人次", "note": "外部为单日历史最高口径，与内部17.5万差约20-26%，或取自不同年份" }
+    ]
+  },
+  {
+    "id": "1375", "name": "北京昌平八达岭奥特莱斯", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2015, "external": 2015, "verdict": "match",
+        "query": "北京八达岭奥特莱斯 昌平 开业时间 建筑面积 停车位", "source_url": "https://news.pedaily.cn/202601/560351.shtml", "source_level": "media",
+        "evidence": "2015年9月正式开业（6月26日试营业），北京华联打造的首个奥莱项目", "note": "" },
+      { "metric": "buildingArea", "internal": 5.5, "external": 11.5, "verdict": "unit_mismatch",
+        "query": "北京八达岭奥特莱斯 昌平 开业时间 建筑面积 停车位", "source_url": "https://news.pedaily.cn/202601/560351.shtml", "source_level": "media",
+        "evidence": "建筑面积11.5万平米，可租面积5.2万平米（经营面积5.8万㎡）", "note": "内部5.5万介于可租5.2与经营5.8之间，为商业面积口径；与总建面11.5万口径不可比" },
+      { "metric": "parking", "internal": 3000, "external": null, "verdict": "no_external_data",
+        "query": "八达岭奥莱 客流 万人次 停车 国庆 万人", "source_url": null, "source_level": null,
+        "evidence": "", "note": "" },
+      { "metric": "trafficPeak", "internal": 11, "external": null, "verdict": "no_external_data",
+        "query": "八达岭奥莱 客流 万人次 停车 国庆 万人", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅北京市级全域口径（国庆假期2328万人次），无单店数据" }
+    ]
+  },
+  {
+    "id": "1376", "name": "北京SKP", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2007, "external": 2007, "verdict": "match",
+        "query": "北京SKP 新光天地 2007年 开业 建筑面积", "source_url": "https://zhuanlan.zhihu.com", "source_level": "self-media",
+        "evidence": "SKP于2007年4月19日正式开业，原名新光天地（维基百科同口径）", "note": "2015年更名SKP属更名焕新，不影响原始开业年份" },
+      { "metric": "buildingArea", "internal": 19, "external": 12, "verdict": "minor_diff",
+        "query": "北京SKP 商业面积 万平方米 大望路 商场", "source_url": null, "source_level": "media",
+        "evidence": "营业面积约12万平方米（地上6层地下1层）；另有10万㎡与18万㎡口径并存", "note": "外部口径分裂（10/12/18万）；内部19万疑为总建面或含SKP-S扩展开口径，与营业面积12万差约37%" },
+      { "metric": "parking", "internal": 1000, "external": null, "verdict": "no_external_data",
+        "query": "北京SKP 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "检索摘要提示「公开资料常提约2700个停车位」但无可引用来源；内部1000与之差距大，存疑待查" },
+      { "metric": "trafficPeak", "internal": 7.5, "external": null, "verdict": "no_external_data",
+        "query": "北京SKP 停车位 客流 万人次", "source_url": null, "source_level": null,
+        "evidence": "", "note": "仅商圈级数据（朝阳区14重点商圈1200万人次），无单店峰值" }
+    ]
+  },
+  {
+    "id": "1388", "name": "南宁万象城", "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2012, "external": 2012, "verdict": "match",
+        "query": "南宁万象城 开业 2012 建筑面积 万㎡", "source_url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8D%8E%E6%B6%A6%E4%B8%AD%E5%BF%83/4419630", "source_level": "self-media",
+        "evidence": "百度百科（南宁华润中心）：项目一期于2012年9月开业，首年销售额达20亿元", "note": "" },
+      { "metric": "buildingArea", "internal": 28, "external": 27.4, "verdict": "match",
+        "query": "南宁万象城 开业 2012 建筑面积 万㎡", "source_url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8D%8E%E6%B6%A6%E4%B8%AD%E5%BF%83/4419630", "source_level": "self-media",
+        "evidence": "万象城商业建筑面积约27.4万㎡，部分报道称总建筑面积约28万㎡", "note": "差约2.1%" },
+      { "metric": "parking", "internal": 2000, "external": null, "verdict": "no_external_data",
+        "query": "南宁万象城 停车位 多少个 停车场", "source_url": null, "source_level": null,
+        "evidence": "", "note": "2026年报道「退距还路」新增约1400个车位为治理增量非总数；总车位数无公开数据" },
+      { "metric": "trafficPeak", "internal": 21.5, "external": 21, "verdict": "unit_mismatch",
+        "query": "南宁万象城 开业 2012 建筑面积 万㎡", "source_url": "https://baike.baidu.com/item/%E5%8D%97%E5%AE%81%E5%8D%8E%E6%B6%A6%E4%B8%AD%E5%BF%83/4419630", "source_level": "self-media",
+        "evidence": "万象城开业首日客流量超20万人次（一说21万人次）", "note": "开业首日口径（2012年开业盛况），非常规节假日峰值，不可比；内部21.5疑源自该句" }
+    ]
+  }
+]

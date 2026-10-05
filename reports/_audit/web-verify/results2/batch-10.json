@@ -1,0 +1,767 @@
+[
+  {
+    "id": "1501",
+    "name": "北京东方新天地",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1999,
+        "external": 2000,
+        "verdict": "minor_diff",
+        "query": "\"东方新天地\" 1999年 开业 王府井 东方广场",
+        "source_url": "https://zh.wikipedia.org/zh-cn/东方广场_(北京)",
+        "source_level": "self-media",
+        "evidence": "维基：东方广场各项服务2000-2001年陆续开幕，2001年12月东方新天地全面开业；另有信源称1999年随东方广场开业",
+        "note": "1999/2000两说并存，差1年，属分阶段开业与全面开业口径差异；主流媒体口径为1999年开业"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 80,
+        "external": 80,
+        "verdict": "match",
+        "query": "北京东方新天地 开业时间 建筑面积",
+        "source_url": "https://zh.wikipedia.org/zh-cn/东方广场_(北京)",
+        "source_level": "self-media",
+        "evidence": "维基：东方广场总建筑面积达80万平方米",
+        "note": "80为东方广场综合体总建面口径，其中东方新天地商场部分约12万㎡"
+      },
+      {
+        "metric": "parking",
+        "internal": 1250,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "东方广场 北京 停车位 数量 日客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无权威公开车位数",
+        "note": "网络流传1800-2000个说法未经证实，与内部1250均无可靠来源"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 35,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "东方广场 北京 停车位 数量 日客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无单日峰值客流公开数据",
+        "note": "35万人次/日未见任何外部来源，建议人工复核md原句"
+      }
+    ]
+  },
+  {
+    "id": "1504",
+    "name": "北京朝阳大悦城",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2010,
+        "external": 2010,
+        "verdict": "match",
+        "query": "朝阳大悦城 2010年开业 建筑面积 停车位",
+        "source_url": "http://img.grandjoy.com",
+        "source_level": "official",
+        "evidence": "大悦城官方页面：开业时间2010年5月28日",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 39.5,
+        "external": null,
+        "verdict": "unit_mismatch",
+        "query": "朝阳大悦城 总建筑面积 商业面积 23万 车位 客流",
+        "source_url": "http://img.grandjoy.com",
+        "source_level": "official",
+        "evidence": "官方页面：商业面积23万平方米；另商业租赁面积约15万㎡口径",
+        "note": "外部仅见商业面积23万㎡（官方）与租赁面积15万㎡口径；内部39.5万疑为项目总建面口径，未找到总建面独立外部来源，口径不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 3000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "朝阳大悦城 总建筑面积 商业面积 23万 车位 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "两次搜索未见确切车位数",
+        "note": "仅见5/6层停车场改造为悦界街区的报道，无车位总数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 15,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "朝阳大悦城 总建筑面积 商业面积 23万 车位 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "仅见年客流量超2000万人次（折合日均约5.5万）",
+        "note": "无节假日单日峰值口径来源"
+      }
+    ]
+  },
+  {
+    "id": "1506",
+    "name": "上海环贸iapm",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2013,
+        "external": 2013,
+        "verdict": "match",
+        "query": "上海环贸iapm商场 开业时间 建筑面积 万平方米",
+        "source_url": "https://zh.wikipedia.org/zh-cn/环贸iapm商场",
+        "source_level": "self-media",
+        "evidence": "维基：2013年8月正式营业（新鸿基地产开发）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 12,
+        "external": 12,
+        "verdict": "match",
+        "query": "上海环贸iapm商场 开业时间 建筑面积 万平方米",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "新鸿基地产官网：环贸iapm总面积达12万平方米（约130万平方呎）",
+        "note": "内部12万为商场商业面积口径，与开发商官网一致；维基29万㎡为环贸广场项目口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 800,
+        "external": 800,
+        "verdict": "match",
+        "query": "上海环贸iapm商场 开业时间 建筑面积 万平方米",
+        "source_url": "https://zh.wikipedia.org/zh-cn/环贸iapm商场",
+        "source_level": "self-media",
+        "evidence": "维基：商场设有两层停车场，合共提供近800个停车位",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 27.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "环贸iapm商场 停车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "未见单日/节假日峰值客流公开数据",
+        "note": "该次搜索遭限流，且公开报道无峰值口径数据；27.5万/日偏高，建议人工复核"
+      }
+    ]
+  },
+  {
+    "id": "1508",
+    "name": "上海百联又一城购物中心",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2007,
+        "external": 2007,
+        "verdict": "match",
+        "query": "百联又一城购物中心 五角场 开业时间 建筑面积 车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "2007年1月26日开业（杨浦区五角场淞沪路8号）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 12.55,
+        "external": 12.61,
+        "verdict": "match",
+        "query": "百联又一城购物中心 五角场 开业时间 建筑面积 车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "购物中心总建筑面积126,072平方米（搜狐财经2007）；百联股份年报约124,980㎡",
+        "note": "差约0.5%"
+      },
+      {
+        "metric": "parking",
+        "internal": 700,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "百联又一城购物中心 五角场 开业时间 建筑面积 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "未检索到公开车位数",
+        "note": "车库与五角场环岛地下空间连通，无独立车位数披露"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 11,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索，未见外部数据"
+      }
+    ]
+  },
+  {
+    "id": "1509",
+    "name": "上海龙之梦城市生活中心",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2005,
+        "external": 2005,
+        "verdict": "match",
+        "query": "上海龙之梦城市生活中心 中山公园 开业 2005 建筑面积 车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "2005年底开业的龙之梦购物中心（长峰集团开发，中山公园地铁上盖）",
+        "note": "2017年升级为龙之梦购物公园，现为龙之梦城市生活中心定位，原始开业2005"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 22,
+        "external": 22,
+        "verdict": "match",
+        "query": "上海龙之梦城市生活中心 中山公园 开业 2005 建筑面积 车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "商业体量约22万平方米，聚集近600个品牌",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 830,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海龙之梦城市生活中心 中山公园 开业 2005 建筑面积 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "仅见地下3、4层为停车库的描述，无车位总数",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 27.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海龙之梦城市生活中心 中山公园 开业 2005 建筑面积 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "2025年一季度日均客流超20万人次（媒体报道），无节假日单日峰值口径",
+        "note": "日均20万与峰值27.5万量级相容但口径不可比"
+      }
+    ]
+  },
+  {
+    "id": "1513",
+    "name": "上海比斯特购物村",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2016,
+        "external": 2016,
+        "verdict": "match",
+        "query": "比斯特上海购物村 奕欧来 开业 建筑面积 车位",
+        "source_url": "https://www.yicai.com/news/5016018.html",
+        "source_level": "media",
+        "evidence": "奕欧来上海购物村2016年5月19日正式开业，2020年11月更名比斯特上海购物村",
+        "note": "焕新/更名时间（2020）不算开业时间，原始开业2016"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 5.55,
+        "external": 5.5,
+        "verdict": "unit_mismatch",
+        "query": "比斯特上海购物村 奕欧来 开业 建筑面积 车位",
+        "source_url": "http://district.ce.cn/newarea/roll/201605/17/t20160517_11682702.shtml",
+        "source_level": "media",
+        "evidence": "占地约55,000平方米（5.5万㎡），含精品店、餐厅、休闲和展览空间",
+        "note": "数值与内部5.55万吻合，但外部口径为占地，内部标注为建筑面积，口径标签不可比，疑同源数据错标口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "上海奕欧来购物村 2016年开业 迪士尼旁 奥特莱斯 停车位 面积 万平方米",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "未检索到车位数",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 3,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1514",
+    "name": "上海佛罗伦萨小镇（一二期）",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2015,
+        "external": 2015,
+        "verdict": "match",
+        "query": "上海佛罗伦萨小镇 奥特莱斯 开业 建筑面积 停车位",
+        "source_url": "https://zh.wikipedia.org/zh-cn/佛罗伦萨小镇",
+        "source_level": "self-media",
+        "evidence": "一期2015年1月22日开业（浦东祝桥），二期2021年启幕（维基：2015年1月开业）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 7,
+        "external": null,
+        "verdict": "unit_mismatch",
+        "query": "上海佛罗伦萨小镇 奥特莱斯 开业 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "外部仅见用地口径：一期用地约6.3万㎡、二期新增约2.7万㎡，三期后总规模将超10万㎡",
+        "note": "未见一二期建筑面积7万㎡直接来源，外部为用地/占地口径，不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 3000,
+        "external": 4000,
+        "verdict": "minor_diff",
+        "query": "上海佛罗伦萨小镇 奥特莱斯 开业 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "一期开业时配备约3000个车位；二期新增约1000个（合计约4000）",
+        "note": "内部3000疑为一期口径；item名为一二期，按一二期合计约4000计差25%，落在20-50%区间"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1532",
+    "name": "厦门万象城",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2018,
+        "external": 2018,
+        "verdict": "match",
+        "query": "厦门万象城 开业时间 2018 建筑面积 车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "2018年11月23日正式开业（媒体广泛报道）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 18.7,
+        "external": 22,
+        "verdict": "match",
+        "query": "厦门万象城 商业面积 万平方米 华润 总建筑面积",
+        "source_url": "http://m.linkshop.com",
+        "source_level": "trade",
+        "evidence": "一期总建筑面积约22万㎡、纯商业经营面积12.9万㎡（联商网）；综合体总建面约42万㎡",
+        "note": "按一期总建面口径|18.7-22|/22≈15%≤20%；二期2026年新增商业4.8万㎡（核验时点外）"
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": 2000,
+        "verdict": "match",
+        "query": "厦门万象城 开业时间 2018 建筑面积 车位",
+        "source_url": null,
+        "source_level": "self-media",
+        "evidence": "百度知道楼盘信息：约2000个停车位",
+        "note": "信源较弱（百度知道，未获官方确认），数值一致"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 16,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1538",
+    "name": "深圳南山海岸城",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2007,
+        "external": 2007,
+        "verdict": "match",
+        "query": "深圳南山海岸城购物中心（维基百科页面抓取）",
+        "source_url": "https://zh.wikipedia.org/zh-cn/海岸城购物中心",
+        "source_level": "self-media",
+        "evidence": "维基：海岸城购物中心建于2007年，是南山区后海片区最早的大型购物中心",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 30,
+        "external": 30,
+        "verdict": "match",
+        "query": "深圳南山海岸城购物中心（维基百科页面抓取）",
+        "source_url": "https://zh.wikipedia.org/zh-cn/海岸城购物中心",
+        "source_level": "self-media",
+        "evidence": "维基：购物中心总建面12万㎡；整个海岸城综合体总建面约30万㎡",
+        "note": "内部30万为海岸城综合体口径（与维基吻合），购物中心部分12万㎡"
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "深圳海岸城 停车位 多少个 购物中心",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "两次搜索未见官方或媒体披露的确切车位总数",
+        "note": "auditFlag『parking 2000 邻接品牌/扶梯等词』无法外证：公开信源无车位数，内部2000疑为误提取，建议人工复核md原句"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 12,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "海岸城 深圳 客流 万人次 日均 节假日",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "南山海岸城无峰值客流数据；注意宝安万丰海岸城开业首日39万人次为另一项目",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1542",
+    "name": "长沙IFS",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2018,
+        "external": 2018,
+        "verdict": "match",
+        "query": "长沙IFS 开业 客流 50万 单日",
+        "source_url": "https://zh.wikipedia.org/zh-cn/长沙国际金融中心",
+        "source_level": "self-media",
+        "evidence": "维基/红网：2018年5月7日竣工交付，开放商场2018年5月7日",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 100,
+        "external": 102,
+        "verdict": "match",
+        "query": "长沙国际金融中心（维基百科页面抓取）",
+        "source_url": "https://zh.wikipedia.org/zh-cn/长沙国际金融中心",
+        "source_level": "self-media",
+        "evidence": "维基：总建筑面积约102万平方米",
+        "note": "差2%；另有购物中心面积24.6万㎡口径（中国经济网），内部100为项目总建面口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 2700,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长沙IFS 停车位 2700 车位 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "未找到官方车位数，仅见『天价停车场』报道无数字",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 50.8,
+        "external": null,
+        "verdict": "unit_mismatch",
+        "query": "长沙国金中心 开业当天 客流 万人次 2018",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "外部仅见累计/单日纪录口径：开业半年累计客流超2000万人次、2018-12-31跨年单日人流突破30万（2018年单日纪录）、年客流超1600万",
+        "note": "auditFlag『疑全域/累计口径』成立：未见50.8万人次/日单日来源；单日纪录仅30万；另有长沙万家丽国际MALL『日均峰值50万』易混淆，疑为累计/全域口径误取"
+      }
+    ]
+  },
+  {
+    "id": "1543",
+    "name": "上海静安嘉里中心",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1998,
+        "external": 1998,
+        "verdict": "match",
+        "query": "上海嘉里中心 静安 1998年 开业 建筑面积",
+        "source_url": "https://baike.baidu.com/item/上海嘉里中心/6912283",
+        "source_level": "self-media",
+        "evidence": "百度百科：建成时间1998年；维基：一期1994-1998年开发（二期2009-2013年）",
+        "note": "auditFlag『1998无邻近开业动词』经外核成立但数值正确：1998为一期建成/开业口径，二期商场2013年开业（维基分类），原始开业以1998为准"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 45.6,
+        "external": 45,
+        "verdict": "match",
+        "query": "上海嘉里中心 静安 1998年 开业 建筑面积",
+        "source_url": "https://baike.baidu.com/item/上海嘉里中心/6912283",
+        "source_level": "self-media",
+        "evidence": "百度百科：总建筑面积约45万平方米",
+        "note": "差1.3%；维基分座口径：三座27.0万+二座11.1万㎡（写字楼部分）"
+      },
+      {
+        "metric": "parking",
+        "internal": 1340,
+        "external": 1340,
+        "verdict": "match",
+        "query": "上海静安嘉里中心（维基百科页面抓取）",
+        "source_url": "https://zh.wikipedia.org/zh-cn/静安嘉里中心",
+        "source_level": "self-media",
+        "evidence": "维基：地下停车场13.6万平方米，有1,340个车位",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 12.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1545",
+    "name": "上海尚嘉中心",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2013,
+        "external": 2013,
+        "verdict": "match",
+        "query": "上海尚嘉中心 开业 建筑面积 车位 奢侈品商场",
+        "source_url": "https://zh.wikipedia.org/zh-cn/尚嘉中心",
+        "source_level": "self-media",
+        "evidence": "维基：2013年6月17日正式开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 14,
+        "external": 14,
+        "verdict": "match",
+        "query": "尚嘉中心 虹桥 奢侈品 商场 建筑面积 停车位 开业时间",
+        "source_url": null,
+        "source_level": "trade",
+        "evidence": "焦点房产页：总建筑面积约14万平方米（商业面积约4.9万㎡）",
+        "note": "内部14万为项目总建面口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 799,
+        "external": 799,
+        "verdict": "match",
+        "query": "尚嘉中心 虹桥 奢侈品 商场 建筑面积 停车位 开业时间",
+        "source_url": null,
+        "source_level": "trade",
+        "evidence": "焦点房产页硬件参数：总停车位799个",
+        "note": "另有699-799的不同来源说法"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 2.75,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1549",
+    "name": "太原万象城",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2018,
+        "external": 2018,
+        "verdict": "match",
+        "query": "太原万象城 开业时间 建筑面积 车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "华夏华润商业REIT招募书：太原万象城2018年9月15日正式开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 23,
+        "external": 21,
+        "verdict": "match",
+        "query": "太原万象城 开业时间 建筑面积 车位",
+        "source_url": null,
+        "source_level": "official",
+        "evidence": "REIT招募书：购物中心总建筑面积约209,987平方米（约21万㎡）；另有综合体34万㎡说法",
+        "note": "按购物中心口径|23-21|/21≈9.5%≤20%"
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "太原万象城 车位 个 停车",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "仅见1-3层设地上停车场（连桥直通商场）的描述，无车位总数",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 14,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1553",
+    "name": "成都佛罗伦萨小镇一期",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2017,
+        "external": 2017,
+        "verdict": "match",
+        "query": "成都佛罗伦萨小镇 奥特莱斯 开业时间 建筑面积 停车位",
+        "source_url": "https://www.florentiavillage.com/chengdu",
+        "source_level": "official",
+        "evidence": "官网：成都FV佛罗伦萨小镇于2017年启幕；媒体报道一期2017年12月13日正式开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 7,
+        "external": 7,
+        "verdict": "match",
+        "query": "成都佛罗伦萨小镇 奥特莱斯 开业时间 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "一、二期总占地约12万㎡，建筑面积约7万㎡；三期建成后总建面超12万㎡",
+        "note": "数值一致，但外部7万为一二期合计口径，内部标注一期，期数口径存疑"
+      },
+      {
+        "metric": "parking",
+        "internal": 3500,
+        "external": 3500,
+        "verdict": "match",
+        "query": "成都佛罗伦萨小镇 奥特莱斯 开业时间 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "三期开业后小镇配置近3500个停车位（三期新建停车楼935个）",
+        "note": "外部3500为三期后全项目口径，内部标注一期3500，期数口径存疑但数值一致"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 1.2,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": null,
+        "source_url": null,
+        "source_level": null,
+        "evidence": "无节假日峰值客流公开数据",
+        "note": "搜索配额受限未专项检索"
+      }
+    ]
+  },
+  {
+    "id": "1554",
+    "name": "砂之船（西安）奥莱",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2017,
+        "external": 2017,
+        "verdict": "match",
+        "query": "砂之船 西安 奥特莱斯 开业时间 建筑面积 停车位 客流",
+        "source_url": "https://m.winshang.com/news739064.html",
+        "source_level": "trade",
+        "evidence": "2017年9月开业（赢商网/陕西西部网八周年报道）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 14.13,
+        "external": 14.13,
+        "verdict": "match",
+        "query": "砂之船 西安 奥特莱斯 开业时间 建筑面积 停车位 客流",
+        "source_url": "https://m.winshang.com/news739064.html",
+        "source_level": "trade",
+        "evidence": "建筑面积约14.13万㎡（赢商网REITs候选项目报道）",
+        "note": "完全一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 4000,
+        "external": 4000,
+        "verdict": "match",
+        "query": "砂之船 西安 奥特莱斯 开业时间 建筑面积 停车位 客流",
+        "source_url": "https://www.sohu.com/a/195180363_351305",
+        "source_level": "self-media",
+        "evidence": "开业五大看点报道：停车位超过4000个",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 8,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "砂之船 西安 奥特莱斯 开业时间 建筑面积 停车位 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "仅见年客流超1200万人次（日均约3.3万）累计口径",
+        "note": "无节假日单日峰值来源；日均3.3万与峰值8万量级相容但口径不可比"
+      }
+    ]
+  }
+]

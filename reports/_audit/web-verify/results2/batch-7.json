@@ -1,0 +1,167 @@
+[
+  {
+    "id": "1194",
+    "name": "南京IFC",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2024, "external": 2024, "verdict": "match", "query": "南京IFC国金中心 商业面积 万㎡", "source_url": "https://hk.finance.yahoo.com", "source_level": "media", "evidence": "新地公告: 南京ifc商场2024年7月26日正式开幕", "note": ""},
+      {"metric": "buildingArea", "internal": 10, "external": 10, "verdict": "match", "query": "南京IFC国金中心 商业面积 万㎡", "source_url": "https://hk.finance.yahoo.com", "source_level": "media", "evidence": "南京ifc商场共9层,楼面面积超过10万平方米(新鸿基地产)", "note": "项目综合体总楼面约34万㎡(含写字楼/酒店),内部10万为商场口径,一致"},
+      {"metric": "parking", "internal": 2500, "external": 2000, "verdict": "minor_diff", "query": "南京IFC商场 停车位 客流", "source_url": "https://www.sohu.com", "source_level": "self-media", "evidence": "2024下半年拟开商业项目盘点: 停车位数量2000个(规划口径)", "note": "内部2500 vs 外部规划约2000,差约20-25%,规划与竣工口径或有出入"},
+      {"metric": "trafficPeak", "internal": 7, "external": null, "verdict": "no_external_data", "query": "南京IFC商场 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "新开业项目,公开客流统计少,未见节假日单日峰值数据"}
+    ]
+  },
+  {
+    "id": "1196",
+    "name": "北京三里屯太古里",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2008, "external": 2008, "verdict": "match", "query": "三里屯太古里 开业时间 2008年", "source_url": "https://www.tmtpost.com", "source_level": "media", "evidence": "2008年三里屯Village(南区)正式开业,2013年更名三里屯太古里", "note": "更名时间2013不算开业;2021年西区开业为扩容"},
+      {"metric": "buildingArea", "internal": 29, "external": 20.3, "verdict": "minor_diff", "query": "北京三里屯太古里 商业建筑面积 万平方米", "source_url": null, "source_level": "trade", "evidence": "联商网2017: 收编雅秀后整体建筑面积达20.3万平方米", "note": "另有初建口径13.5万㎡(南北区,19座建筑);内部29万(推断)偏高,与20.3万差约43%"},
+      {"metric": "parking", "internal": 2000, "external": 3000, "verdict": "unit_mismatch", "query": "三里屯太古里 停车位 数量", "source_url": "https://k.sina.cn", "source_level": "self-media", "evidence": "2026年报道: 三里屯商圈正规停车位约3000个(含太古里等)", "note": "外部为商圈整体口径而非太古里项目独有,不可直接对比"},
+      {"metric": "trafficPeak", "internal": 25, "external": null, "verdict": "no_external_data", "query": "三里屯太古里 日均客流量 高峰 万人次", "source_url": null, "source_level": null, "evidence": "", "note": "仅见商圈日均5-8万、大屏点位日均12万、西区周末日均1.8万等口径,未见节假日单日峰值"}
+    ]
+  },
+  {
+    "id": "1199",
+    "name": "贵阳万象汇",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2021, "external": 2021, "verdict": "match", "query": "贵阳万象汇 2021年 开业 商业体量", "source_url": "https://gyhouse365.com", "source_level": "trade", "evidence": "2021年10月定档、12月正式开业;列入《2021年贵阳商业发展报告》", "note": ""},
+      {"metric": "buildingArea", "internal": 10, "external": 10, "verdict": "match", "query": "贵阳万象汇 2021年 开业 商业体量", "source_url": "https://gyhouse365.com", "source_level": "trade", "evidence": "商业建筑面积约10万平方米,店铺近300个,90+贵州首店", "note": "勿与南明区贵阳万象城(2024开业,总建面25-27万㎡)混淆"},
+      {"metric": "parking", "internal": 1184, "external": null, "verdict": "no_external_data", "query": "贵阳万象汇 停车位 数量", "source_url": null, "source_level": null, "evidence": "", "note": "首轮搜索429限流,重试后公开信息集中在万象城,未见万象汇车位数"},
+      {"metric": "trafficPeak", "internal": 8, "external": null, "verdict": "no_external_data", "query": "贵阳万象汇 停车位 客流量", "source_url": null, "source_level": null, "evidence": "", "note": "检索到的95万客流为万象城开业前三日累计口径(另一项目),不适用"}
+    ]
+  },
+  {
+    "id": "1200",
+    "name": "沈阳铁西万象汇",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2019, "external": 2015, "verdict": "conflict", "query": "沈阳铁西万象汇 开业时间", "source_url": null, "source_level": "self-media", "evidence": "百度知道: 实际开业时间2015年9月30日;2020年报道《5年迭代》佐证2015年亮相", "note": "审计标记属实:2019疑为焕新升级/调整时间,原始开业为2015-09-30,差4年"},
+      {"metric": "buildingArea", "internal": 10, "external": 15, "verdict": "minor_diff", "query": "\"铁西万象汇\" 建筑面积 万平方米 购物中心", "source_url": null, "source_level": "media", "evidence": "新浪财经: 铁西万象汇建筑面积15万㎡;百度百科/高德同口径约15万", "note": "内部10万与外部15万差约33%"},
+      {"metric": "parking", "internal": 1150, "external": null, "verdict": "no_external_data", "query": "沈阳铁西万象汇 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "仅见铁西区共享车位等区域口径,无项目车位数"},
+      {"metric": "trafficPeak", "internal": 7, "external": null, "verdict": "no_external_data", "query": "沈阳铁西万象汇 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "同区域兴华汇单日最高10万为另一项目口径,铁西万象汇无节假日峰值数据"}
+    ]
+  },
+  {
+    "id": "1217",
+    "name": "昆明万象城",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2023, "external": 2023, "verdict": "match", "query": "昆明万象城 正式开业 2023年12月", "source_url": "https://www.163.com", "source_level": "media", "evidence": "2023年12月24日正式开业,300余家品牌含65家首店", "note": "内部md另一处写2024-05-25(推断)有误,核验值2023与外部一致"},
+      {"metric": "buildingArea", "internal": 55, "external": 14, "verdict": "unit_mismatch", "query": "昆明万象城 开业时间 商业面积 万方", "source_url": "http://yn.people.com.cn/n2/2023/1205/c372455-40666842.html", "source_level": "media", "evidence": "人民网云南: 建筑面积约14万㎡(另有商业体量约15万㎡口径)", "note": "内部55万为综合体总建面推算(含写字楼/住宅,md自注推断),外部为商业口径14-15万㎡,口径不可比"},
+      {"metric": "parking", "internal": 1000, "external": 2000, "verdict": "minor_diff", "query": "昆明万象城 停车位 数量", "source_url": "http://yn.people.com.cn/n2/2023/1205/c372455-40666842.html", "source_level": "media", "evidence": "人民网云南: 近2000个停车位配套,与地铁6号线岔街站接驳", "note": "内部1000为md估算值,与外部近2000差50%,建议按2000修正"},
+      {"metric": "trafficPeak", "internal": 10, "external": 25, "verdict": "unit_mismatch", "query": "昆明万象城 正式开业 2023年12月", "source_url": "https://www.163.com", "source_level": "media", "evidence": "开业当天客流高达25万人次", "note": "外部为开业首日口径,与节假日单日峰值不可比;内部10万为推断值"}
+    ]
+  },
+  {
+    "id": "1221",
+    "name": "福州万象城",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match", "query": "福州万象城 开业时间 商业面积 万方", "source_url": null, "source_level": "media", "evidence": "2022年12月底开业,为当月全国35+开业商场之一,福州首个重奢LUXURY+购物中心", "note": ""},
+      {"metric": "buildingArea", "internal": 10, "external": 10, "verdict": "match", "query": "福州万象城 开业时间 商业面积 万方", "source_url": null, "source_level": "media", "evidence": "购物中心商业面积约10余万㎡(整体项目总建面约70万㎡含写字楼)", "note": "内部10万为商业口径,与外部一致"},
+      {"metric": "parking", "internal": 1008, "external": null, "verdict": "no_external_data", "query": "福州万象城 停车位 客流量", "source_url": null, "source_level": null, "evidence": "", "note": "未见项目车位数公开数据"},
+      {"metric": "trafficPeak", "internal": 3.15, "external": null, "verdict": "no_external_data", "query": "福州万象城 停车位 客流量", "source_url": null, "source_level": null, "evidence": "", "note": "仅见全国场均客流等行业口径,无福州万象城节假日单日数据"}
+    ]
+  },
+  {
+    "id": "1229",
+    "name": "长春卓展购物中心",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 1999, "external": 1999, "verdict": "match", "query": "长春卓展购物中心 开业时间 建筑面积", "source_url": "https://www.163.com", "source_level": "media", "evidence": "1999年开业,卓展集团第一家百货门店(母店),另有1999年9月口径", "note": ""},
+      {"metric": "buildingArea", "internal": 17, "external": 17, "verdict": "match", "query": "长春卓展购物中心 开业时间 建筑面积", "source_url": null, "source_level": "media", "evidence": "整体建筑面积约17万平方米,SOM规划设计", "note": "百度百科另一口径13.3万㎡,外部两说;内部17万与17万口径一致"},
+      {"metric": "parking", "internal": 300, "external": 300, "verdict": "match", "query": "长春卓展购物中心 停车位 客流", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "地下15000㎡停车场,可同时容纳300余台车辆停放", "note": ""},
+      {"metric": "trafficPeak", "internal": 4, "external": null, "verdict": "no_external_data", "query": "长春卓展购物中心 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "近两年报道聚焦经营下滑,无节假日单日峰值数据"}
+    ]
+  },
+  {
+    "id": "1249",
+    "name": "上海前滩太古里",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2021, "external": 2021, "verdict": "match", "query": "上海前滩太古里 开业时间 商业面积 万平方米", "source_url": "https://www.swireproperties.com", "source_level": "official", "evidence": "太古地产官网: 2021年9月30日正式启幕", "note": ""},
+      {"metric": "buildingArea", "internal": 6, "external": 12, "verdict": "minor_diff", "query": "上海前滩太古里 开业时间 商业面积 万平方米", "source_url": null, "source_level": "official", "evidence": "总楼面面积约12万㎡(部分资料商业约11.7万㎡),约250家商铺", "note": "内部6万与外部12万差约49%,2026年底扩建后将新增15万㎡;内部值疑只计部分楼层/区域"},
+      {"metric": "parking", "internal": 1000, "external": 1600, "verdict": "minor_diff", "query": "上海前滩太古里 开业时间 商业面积 万平方米", "source_url": null, "source_level": "official", "evidence": "项目配套约1,600个停车位", "note": "内部1000与外部约1600差约37.5%"},
+      {"metric": "trafficPeak", "internal": 18.5, "external": 16, "verdict": "match", "query": "前滩太古里 客流 节假日 万人次", "source_url": "http://sh.people.com.cn/n2/2021/1009/c176738-34948347.html", "source_level": "media", "evidence": "上海市商务委: 2021国庆7天假期日均客流约16万人次", "note": "内部18.5为节假日单日口径,与国庆日均16万差约14%,量级一致"}
+    ]
+  },
+  {
+    "id": "1253",
+    "name": "济南万象城",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2019, "external": 2019, "verdict": "match", "query": "济南万象城 开业时间 商业面积 万方", "source_url": "https://k.sina.cn", "source_level": "media", "evidence": "华润官宣2019年9月28日开业,济南最大城市综合体", "note": ""},
+      {"metric": "buildingArea", "internal": 19, "external": 21.25, "verdict": "match", "query": "济南华润万象城 购物中心 建筑面积 平方米 开业", "source_url": null, "source_level": "trade", "evidence": "公开报道: 总建筑面积约21.25万㎡(212,544㎡)", "note": "内部19万与21.25万差约10.6%;另有整体开发约38-50万㎡口径含周边"},
+      {"metric": "parking", "internal": 2500, "external": 4160, "verdict": "minor_diff", "query": "济南万象城 停车位 客流量", "source_url": "https://weibo.com", "source_level": "self-media", "evidence": "微博实测: 地下停车场约4160个车位,济南商圈第一梯队", "note": "内部2500与外部实测4160差约40%,实测口径或含周边共享车位"},
+      {"metric": "trafficPeak", "internal": 21.6, "external": null, "verdict": "unit_mismatch", "query": "济南万象城 停车位 客流量", "source_url": "https://weibo.com", "source_level": "self-media", "evidence": "年均客流量达千万级(年口径)", "note": "外部仅年客流千万级口径,无节假日单日数据;内部21.6为基准推断值"}
+    ]
+  },
+  {
+    "id": "1266",
+    "name": "汕头万象城",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2021, "external": 2021, "verdict": "match", "query": "汕头万象城 开业时间 商业面积 万方", "source_url": "https://www.guandian.cn", "source_level": "media", "evidence": "2021年9月26日正式开业,粤东首家万象城", "note": ""},
+      {"metric": "buildingArea", "internal": 17.6, "external": 17.6, "verdict": "match", "query": "汕头万象城 开业时间 商业面积 万方", "source_url": "https://gdxk.southcn.com/st/xwbd/content/post_725600.html", "source_level": "media", "evidence": "万象城建筑面积约17.6万平方米,规划约500家品牌商铺", "note": "与内部完全一致"},
+      {"metric": "parking", "internal": 2000, "external": null, "verdict": "no_external_data", "query": "汕头万象城 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "未见项目车位数公开数据"},
+      {"metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "no_external_data", "query": "汕头万象城 停车位 客流", "source_url": null, "source_level": null, "evidence": "", "note": "检索到的28.7万为广州白鹅潭万象城口径(另一项目)"}
+    ]
+  },
+  {
+    "id": "1275",
+    "name": "西安高新万达广场",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": null, "external": 2017, "verdict": "match", "query": "西安高新万达广场 开业时间 建筑面积", "source_url": "https://www.winshang.com", "source_level": "trade", "evidence": "赢商网: 2017年开业,国际轻奢定位,255个品牌14家主力店", "note": "内部空缺(null),外部有明确2017年开业数据,建议补录;非一致性判定"},
+      {"metric": "buildingArea", "internal": 14, "external": 25.33, "verdict": "unit_mismatch", "query": "西安高新万达广场 开业时间 建筑面积", "source_url": "https://www.lukfook.com", "source_level": "official", "evidence": "六福珠宝官网项目页: 总建筑面积约25.33万㎡", "note": "外部25.33万为项目总建筑面积口径,内部14万为购物中心+街区商业体量口径(md载13-15万),口径不可比"},
+      {"metric": "parking", "internal": 1150, "external": 1220, "verdict": "match", "query": "西安高新万达广场 开业时间 建筑面积", "source_url": "https://www.winshang.com", "source_level": "trade", "evidence": "赢商网: 拥有1220个停车位", "note": "内部1150(md推断区间800-1500中值)与外部1220差约6%"},
+      {"metric": "trafficPeak", "internal": 9, "external": null, "verdict": "unit_mismatch", "query": "西安高新万达广场 客流 万人次", "source_url": "https://www.sohu.com", "source_level": "media", "evidence": "2023年销售额超20亿元,客流量约1700万人次(约合日均4.7万)", "note": "外部仅年客流口径(日均4.7万),节假日峰值9万为推断值,量级合理(约2倍日均)但口径不可比"}
+    ]
+  },
+  {
+    "id": "1280",
+    "name": "昆明恒隆广场",
+    "layer": "S2",
+    "results": [
+      {"metric": "openedYear", "internal": 2019, "external": 2019, "verdict": "match", "query": "昆明恒隆广场 开业时间 商业面积", "source_url": "https://m.baike.com", "source_level": "self-media", "evidence": "2019年8月23日正式开业,恒隆地产西南首个综合项目", "note": ""},
+      {"metric": "buildingArea", "internal": 16, "external": 16, "verdict": "match", "query": "昆明恒隆广场 开业时间 商业面积", "source_url": "https://m.baike.com", "source_level": "self-media", "evidence": "购物商场约16万平方米,总建筑面积22.5万㎡(含16.5万写字楼)", "note": "内部16万为商场口径,一致"},
+      {"metric": "parking", "internal": 1629, "external": 1629, "verdict": "match", "query": "昆明恒隆广场 停车位 多少个", "source_url": "https://www.hanglung.com", "source_level": "official", "evidence": "恒隆官网: 停车位数目1,629(含160个充电设施)", "note": "与内部完全一致,官方源"},
+      {"metric": "trafficPeak", "internal": 5, "external": 12, "verdict": "conflict", "query": "昆明恒隆广场 日均客流 万人次", "source_url": "https://newsfile.futunn.com", "source_level": "official", "evidence": "恒隆地产中期报告: 昆明恒隆广场日均客流量高达120,000人次", "note": "外部日均12万(官方财报)远超内部节假日峰值5万;峰值应高于日均,量级矛盾,内部值疑明显偏低"}
+    ]
+  },
+  {
+    "id": "1297",
+    "name": "武汉荟聚",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2022, "external": 2015, "verdict": "conflict", "query": "武汉荟聚中心 开业时间 商业面积 车位", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "武汉英特宜家购物中心(荟聚)2015年4月30日开业,宜家华中首店", "note": "内部2022-06-25为训练知识推断值(md自注三源冲突未联网验证),外部2015-04-30证据明确,差7年"},
+      {"metric": "buildingArea", "internal": 17, "external": 17.22, "verdict": "match", "query": "武汉荟聚中心 开业时间 商业面积 车位", "source_url": null, "source_level": "official", "evidence": "官方商业面积约172,200㎡(约17.2万㎡),总建面约40万㎡含宜家+公寓", "note": "内部17万为商业口径,与官方17.22万一致"},
+      {"metric": "parking", "internal": 3000, "external": 5060, "verdict": "minor_diff", "query": "武汉荟聚中心 开业时间 商业面积 车位", "source_url": "https://baike.baidu.com", "source_level": "official", "evidence": "提供超5000个停车位,总计5180个(官方口径约5060)", "note": "内部3000与外部5060差约40%;荟聚项目停车配建普遍超大"},
+      {"metric": "trafficPeak", "internal": 21.5, "external": 15.6, "verdict": "minor_diff", "query": "武汉荟聚中心 开业时间 商业面积 车位", "source_url": null, "source_level": "media", "evidence": "开业首日8万人次,开业期单日最高15.6万(创宜家购物中心中国开业纪录)", "note": "外部15.6万为开业期单日纪录口径,与节假日峰值口径接近但不等同;内部21.5偏高约27%"}
+    ]
+  },
+  {
+    "id": "1305",
+    "name": "南昌T16购物中心",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2016, "external": 2016, "verdict": "match", "query": "南昌T16购物中心 开业时间 建筑面积 停车位", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "百度百科: 开业时间2016年下旬(下半年)", "note": ""},
+      {"metric": "buildingArea", "internal": 12.8, "external": 12, "verdict": "match", "query": "南昌T16购物中心 开业时间 建筑面积 停车位", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "建筑面积120,000㎡,地上5层地下2层", "note": "内部12.8万与12万差约6%;综合体总建面约48.68万㎡为铜锣湾广场整体口径"},
+      {"metric": "parking", "internal": 2025, "external": null, "verdict": "unit_mismatch", "query": "南昌T16购物中心 开业时间 建筑面积 停车位", "source_url": "https://www.163.com", "source_level": "self-media", "evidence": "铜锣湾广场综合体规划配套车位约2433个(含住宅),T16自身未单列", "note": "审计标记属实:内部2025疑为年份误抓,非车位数;外部仅综合体口径2433个,不可直接对比,建议清空或修正该项"},
+      {"metric": "trafficPeak", "internal": 8, "external": null, "verdict": "no_external_data", "query": "南昌T16购物中心 客流 停车", "source_url": null, "source_level": null, "evidence": "", "note": "仅见地铁+商圈双向引流等定性报道,无单日客流数据"}
+    ]
+  },
+  {
+    "id": "1318",
+    "name": "昆明顺城购物中心",
+    "layer": "A+2",
+    "results": [
+      {"metric": "openedYear", "internal": 2009, "external": 2009, "verdict": "match", "query": "昆明顺城购物中心 开业时间 建筑面积", "source_url": null, "source_level": "media", "evidence": "2026年多家报道称顺城'领跑昆明商业16年',倒推2009年底开业", "note": "md载2009-09-29王府井+购物中心整体开业,与外部倒推一致"},
+      {"metric": "buildingArea", "internal": 23.1, "external": 15, "verdict": "unit_mismatch", "query": "昆明顺城购物中心 开业时间 建筑面积", "source_url": null, "source_level": "self-media", "evidence": "整体建筑面积超15万平方米", "note": "内部23.1万为整体项目总建面(购物中心约11万+王府井约12万+双塔写字楼/住宅),外部15万疑为商业主体口径,不可比"},
+      {"metric": "parking", "internal": 2000, "external": 700, "verdict": "conflict", "query": "昆明顺城购物中心 停车位 2000", "source_url": "https://www.ynlgkj.com", "source_level": "self-media", "evidence": "云南理光工程案例: 顺城地下停车场共接近700多个车位(B3层)", "note": "内部2000源自MBA智库'近2000个'口径,与外部工程方约700余差约65%,建议按实测口径下修"},
+      {"metric": "trafficPeak", "internal": 14.1226, "external": null, "verdict": "no_external_data", "query": "昆明顺城 王府井 2024春节 日均14.1万人次", "source_url": null, "source_level": null, "evidence": "", "note": "内部14.1226疑源自md引新浪财经'2024春节日均14.1万人次',本轮未独立检索到;外部仅见南屏街片区日均超18万口径(含多项目)"}
+    ]
+  }
+]

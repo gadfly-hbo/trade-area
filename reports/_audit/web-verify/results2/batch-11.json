@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1561",
+  "name": "杭州大悦城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "杭州大悦城 开业时间 建筑面积 万㎡",
+    "source_url": "https://zh.wikipedia.org/zh-cn/杭州大悦城",
+    "source_level": "self-media",
+    "evidence": "维基/百度百科：杭州大悦城2018年8月28日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.25,
+    "external": 19.0,
+    "verdict": "match",
+    "query": "杭州大悦城 2018年8月28日开业 商业面积 17万方",
+    "source_url": "https://www.grandjoy.com/detail/337.html",
+    "source_level": "official",
+    "evidence": "购物中心近15万方+商业街近4万方；官网商业面积14.5万㎡",
+    "note": "外部口径14.5-20万㎡区间，内部17.25落在区间内；官网口径14.5万㎡差19%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州大悦城 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到杭州大悦城车位数来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14.25,
+    "external": 16.3,
+    "verdict": "unit_mismatch",
+    "query": "杭州大悦城 客流量 节假日 峰值 万人次",
+    "source_url": "https://baike.baidu.com/item/杭州大悦城",
+    "source_level": "self-media",
+    "evidence": "百度百科：开业当日客流量突破16.3万人次",
+    "note": "外部仅开业首日口径，节假日峰值无来源"
+   }
+  ]
+ },
+ {
+  "id": "1562",
+  "name": "西安西咸万象城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "西咸万象城 华润 2017年开业 商业面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网等：西咸万象城2017年4月开业，华润西北首个商业项目",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 42,
+    "external": 42.0,
+    "verdict": "match",
+    "query": "\"西咸万象城\" 商业 23.6万 OR \"42万\" 建面",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "新浪财经/百科：总建筑面积约42万㎡，含购物中心、写字楼、SOHO",
+    "note": "同口径综合体总建面；购物中心部分或约23万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "\"西咸万象城\" 商业 23.6万 OR \"42万\" 建面",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "资料称2000+机动车位，200余独立品牌店铺",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安西咸万象城 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见2021年日均客流5万人次，节假日峰值无来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1563",
+  "name": "温州万象城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "温州万象城 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "多方资料：温州万象城2016年4月30日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.7,
+    "external": 14.0,
+    "verdict": "match",
+    "query": "温州万象城 购物中心 商业面积 华润置地",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "商业建筑面积约13.8-14万㎡，总体量45-48万㎡含住宅",
+    "note": "内部15.7与商业建面上限差约12%；综合体总建面口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2496,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州万象城 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州万象城 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1566",
+  "name": "武汉恒隆广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "武汉恒隆广场 2021开业 商场建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2021年3月25日正式开业，3月29日启幕仪式",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.7,
+    "external": 17.7,
+    "verdict": "match",
+    "query": "武汉恒隆广场 2021开业 商场建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "恒隆启幕稿：商场总面积17.7万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2850,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉恒隆广场 2021开业 商场建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无权威车位数，仅搜到未证实的「2000多个」说法",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉恒隆广场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1568",
+  "name": "新光天地重庆",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "新光天地重庆 开业时间 建筑面积 车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "self-media",
+    "evidence": "2017年8月9日新光天地重庆开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 35,
+    "external": 35.0,
+    "verdict": "match",
+    "query": "新光天地重庆 开业时间 建筑面积 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建筑面积约35万平方米，营业面积约25万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 5200,
+    "external": 5200,
+    "verdict": "match",
+    "query": "新光天地重庆 开业时间 建筑面积 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "约5200个停车位（部分报道称5000多个）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "新光天地重庆 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1571",
+  "name": "上海万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "上海万象城 2017开业 建筑面积 万㎡ 停车位",
+    "source_url": "https://www.crland.com.hk/mediaReport/2020-09-28/1019803.html",
+    "source_level": "official",
+    "evidence": "华润置地：万象城购物中心2017年9月23日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24,
+    "external": 24.0,
+    "verdict": "match",
+    "query": "上海万象城 2017开业 建筑面积 万㎡ 停车位",
+    "source_url": "https://www.crland.com.hk/mediaReport/2020-09-28/1019803.html",
+    "source_level": "official",
+    "evidence": "华润置地：购物中心约24万㎡，综合体总建面53万方",
+    "note": "另见CMBS募集书购物中心建面17.07万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 2014,
+    "verdict": "minor_diff",
+    "query": "上海万象城 停车位 3000 车位数",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "CMBS计划书：L2层平台配2014个配套停车位",
+    "note": "差约49%；2014个或不含地下车位，总数无权威口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海万象城 吴中路 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1574",
+  "name": "上海兴业太古汇",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "上海兴业太古汇 2017开业 建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2017年11月正式开幕，商场2017年逐步开放",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10.0,
+    "verdict": "match",
+    "query": "上海兴业太古汇 2017开业 建筑面积 停车位",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "商业建筑面积10万平方米，弧形动线设计",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": 1200,
+    "verdict": "match",
+    "query": "兴业太古汇 停车位 数量 个",
+    "source_url": "https://www.sohu.com",
+    "source_level": "self-media",
+    "evidence": "入驻方案文章：停车位1200个，月租2000元",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兴业太古汇 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1576",
+  "name": "上海One ITC",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "上海One ITC 国金中心 开业时间 2013",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "维基等多方：One ITC于2019年末（12月）开业",
+    "note": "auditFlag命中：2013为新鸿基夺徐家汇地王年份，非开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 70.6,
+    "external": 70.6,
+    "verdict": "match",
+    "query": "徐家汇中心 ITC 项目 总建筑面积 万平方米 One ITC",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "维基：主地块虹桥路地块总建筑面积超70万㎡（约70.6万㎡）",
+    "note": "为综合体总建面口径；商业部分约23.2-27.9万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 302,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "One ITC 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "One ITC 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1577",
+  "name": "上海五角场合生汇",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "上海五角场合生汇 2016开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com/item/上海合生汇",
+    "source_level": "self-media",
+    "evidence": "2016年开业，2016年1月试营业，五角场末个落地商业项目",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 36,
+    "external": 36.0,
+    "verdict": "match",
+    "query": "上海五角场合生汇 2016开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com/item/上海合生汇",
+    "source_level": "self-media",
+    "evidence": "百度百科：总建筑面积约36万㎡，含17万㎡购物中心/写字楼/凯悦",
+    "note": "综合体总建面口径；购物中心部分17万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 1700,
+    "external": 1700,
+    "verdict": "match",
+    "query": "上海合生汇 停车位 车位 多少个 五角场",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎：合生汇国际中心大厦停车位约1700个",
+    "note": "auditFlag核验：1700与写字楼车位口径一致，商场整体车位无权威来源"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "五角场合生汇 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1586",
+  "name": "龙湖杭州滨江天街",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "龙湖杭州滨江天街 2017开业 建筑面积 停车位",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "龙湖官网：滨江天街2017年9月正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 41.08,
+    "external": 26.2,
+    "verdict": "unit_mismatch",
+    "query": "杭州滨江天街 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com/item/龙湖滨江天街",
+    "source_level": "self-media",
+    "evidence": "百度百科：总商业建筑面积超26.2万㎡；维基记约24万㎡",
+    "note": "内部41.08疑为项目总建面口径（含办公），无外部来源证实；商业建面口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 30,
+    "external": 2000,
+    "verdict": "conflict",
+    "query": "龙湖杭州滨江天街 2017开业 建筑面积 停车位",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "龙湖官网开业稿：近2000个停车位",
+    "note": "auditFlag命中：内部30为扶梯/分钟类小值误抓，实际近2000个"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州滨江天街 客流 万人次 周年庆",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见金沙+滨江双馆周年庆双日合计68万人次，无单馆节假日单日峰值",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1587",
+  "name": "上海南翔印象城MEGA",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "上海南翔印象城MEGA 2020开业 建筑面积 停车位",
+    "source_url": "https://zh.wikipedia.org/zh-cn/上海南翔印象城MEGA",
+    "source_level": "self-media",
+    "evidence": "维基/印力官网：2020年8月25日开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 34,
+    "external": 34.0,
+    "verdict": "match",
+    "query": "上海南翔印象城MEGA 2020开业 建筑面积 停车位",
+    "source_url": "https://zh.wikipedia.org/zh-cn/上海南翔印象城MEGA",
+    "source_level": "self-media",
+    "evidence": "约34万㎡（33.69万㎡），上海单体量最大商场",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "上海南翔印象城MEGA 2020开业 建筑面积 停车位",
+    "source_url": "https://zh.wikipedia.org/zh-cn/上海南翔印象城MEGA",
+    "source_level": "self-media",
+    "evidence": "维基百科信息栏：停车位3,000个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16.5,
+    "external": 10.0,
+    "verdict": "conflict",
+    "query": "南翔印象城MEGA 客流 万人次 假期",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "2022国庆单日客流超10万人次（知乎）",
+    "note": "2024国庆7天65万（日均9.3万）、2025国庆8天75万+；内部16.5偏高约65%"
+   }
+  ]
+ },
+ {
+  "id": "1590",
+  "name": "深圳深业上城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "深业上城 2018年 开业 购物中心",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2018年1月正式开业，深圳当年首个商业综合体",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 120,
+    "external": 120.0,
+    "verdict": "match",
+    "query": "深圳深业上城 开业 建筑面积 万㎡ 综合体",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建筑面积约120万㎡，其中商业面积约17万㎡",
+    "note": "auditFlag核验：120为综合体总建面，非商场口径（商业约17万㎡）"
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深业上城 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 32,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深业上城 客流 万人次 假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无项目级节假日单日峰值；仅见2025国庆所在商圈单日约18万人次",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1591",
+  "name": "广州天汇广场IGC",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "广州天汇广场IGC 2016开业 建筑面积 停车位",
+    "source_url": "https://www.shkp.com",
+    "source_level": "official",
+    "evidence": "IGC商场2016年9月开业，猎德站上盖",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 45.95,
+    "external": 45.95,
+    "verdict": "match",
+    "query": "广州天汇广场IGC 2016开业 建筑面积 停车位",
+    "source_url": "https://www.shkp.com",
+    "source_level": "official",
+    "evidence": "天汇广场综合项目总建筑面积约45.95万㎡",
+    "note": "综合体总建面口径；IGC商场本身约100万平方呎（9-10万㎡）"
+   },
+   {
+    "metric": "parking",
+    "internal": 736,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天汇广场IGC 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅确认含地下停车位资产，无数量来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天汇广场IGC 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1592",
+  "name": "广州天环Parc Central",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "广州天环广场 Parc Central 开业 商业面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科等：2016年开业（3月正式开业）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11,
+    "external": 11.0,
+    "verdict": "match",
+    "query": "广州天环广场 Parc Central 开业 商业面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：总商业建筑面积11万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 573,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州天环广场 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到车位数权威来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州天环 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1593",
+  "name": "广州K11",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "广州K11 2018开业 建筑面积 停车位",
+    "source_url": "http://stm.scnu.edu.cn/a/20180416/1044.html",
+    "source_level": "media",
+    "evidence": "2018年3月正式开业，广州东塔裙楼",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7.0,
+    "verdict": "match",
+    "query": "广州K11 2018开业 建筑面积 停车位",
+    "source_url": "http://stm.scnu.edu.cn/a/20180416/1044.html",
+    "source_level": "media",
+    "evidence": "总建筑面积约7万平方米，共10层",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州K11 购物艺术中心 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见B3层约296车位抓取数据，综合体总车位无权威来源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州K11 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日峰值客流来源",
+    "note": ""
+   }
+  ]
+ }
+]

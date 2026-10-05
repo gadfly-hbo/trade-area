@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0015",
+  "name": "广州天河城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "广州天河城广场 开业时间 1996 建筑面积 万平方米",
+    "source_url": "https://zh.wikipedia.org/wiki/天河城",
+    "source_level": "self-media",
+    "evidence": "天河城是中国大陆最早运营的大型购物中心，于1996年8月18日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.65,
+    "external": 10.6,
+    "verdict": "match",
+    "query": "广州天河城 商业面积 10万平方米",
+    "source_url": "https://news.qq.com",
+    "source_level": "media",
+    "evidence": "总建筑面积约16万平方米，其中约10.6万平方米用作出租用途（腾讯新闻2025-03）",
+    "note": "内部10.65对应出租/经营面积口径；总建面约16万㎡为另一口径，不可直接比"
+   },
+   {
+    "metric": "parking",
+    "internal": 700,
+    "external": 1000,
+    "verdict": "minor_diff",
+    "query": "广州天河城广场 开业时间 1996 建筑面积 万平方米（维基信息框）",
+    "source_url": "https://zh.wikipedia.org/wiki/天河城",
+    "source_level": "self-media",
+    "evidence": "维基信息框列出「停车场1000」，正文仅载负2、3层为停车场",
+    "note": "信息框数字无正文佐证、可信度弱；700 vs 1000 差30%列minor_diff，建议以后续官方数据为准"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州天河城 日均客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索被限流(429)，未获节假日峰值客流信源"
+   }
+  ]
+ },
+ {
+  "id": "0033",
+  "name": "济南贵和购物购物中心（泉城路店）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1997,
+    "external": 1997,
+    "verdict": "match",
+    "query": "济南贵和购物中心 开业 1997 建筑面积 万平方米",
+    "source_url": "http://finance.people.com.cn",
+    "source_level": "media",
+    "evidence": "开业于1997年的山东省济南市泉城路贵和购物中心人流如织（人民网2023-05-09）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.61,
+    "external": 5.8,
+    "verdict": "match",
+    "query": "贵和购物中心 济南 建筑面积 5.8万",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "总建面约5.8万㎡（B2-L5）；2018年重装开业报道称商场面积约5.5万㎡",
+    "note": "外部5.5-5.8万㎡区间，内部5.61落入区间，差≤5%"
+   },
+   {
+    "metric": "parking",
+    "internal": 110,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南贵和购物中心 车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南贵和购物中心 车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「人流量逐渐减少」等定性描述，无峰值客流数字"
+   }
+  ]
+ },
+ {
+  "id": "0034",
+  "name": "苏州久光百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "苏州久光百货 2009年9月 开业 工业园区 面积",
+    "source_url": "http://www.ce.cn",
+    "source_level": "media",
+    "evidence": "苏州圆融时代广场携久光百货盛大开业（中国经济网2009-01-19）",
+    "note": "开业为2009年1月16日，年份与内部一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.1,
+    "external": 17.1,
+    "verdict": "match",
+    "query": "苏州久光百货 2009年9月 开业 工业园区 面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "开业时建筑面积达17.1万平方米，是苏州最大型的百货店",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州久光百货 节假日 客流 万人次 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见停车收费标准（免费3小时/15元每小时），无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州久光百货 节假日 客流 万人次 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "公开客流数据多为上海久光，苏州久光峰值客流无信源"
+   }
+  ]
+ },
+ {
+  "id": "0047",
+  "name": "烟台振华商厦",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1982,
+    "verdict": "conflict",
+    "query": "振华商厦 烟台 成立 历史 百货集团",
+    "source_url": "http://www.zhenshang.com",
+    "source_level": "official",
+    "evidence": "前身烟台市振华百货商店始建于1982年，1996年投入8000万元扩建改造并更名为烟台振华商厦",
+    "note": "auditFlag命中：内部1996为扩建更名年（无开业动词），原始始建/开业为1982；按「更名时间不算开业时间」规则判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 3.1,
+    "verdict": "match",
+    "query": "振华商厦 烟台 成立 历史 百货集团",
+    "source_url": "http://www.zhenshang.com",
+    "source_level": "official",
+    "evidence": "1996年扩建改造，建筑面积由9000平方米扩大到31000平方米",
+    "note": "3.5 vs 3.1 差约13%（1996年口径；此后或另有改扩建）"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "烟台振华商厦 停车 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "烟台振华商厦 停车 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0059",
+  "name": "深圳湾万象城二期",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2025,
+    "verdict": "conflict",
+    "query": "深圳湾万象城 二期 2025年9月 开业",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "深圳湾万象城二期预计于今年9月开业（新浪2025-07）；百度百科载2025年9月30日正式启幕",
+    "note": "内部2018对应深圳湾万象城一期（2018年12月开业）；「二期」实体2025-09-30开业，实体口径判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.7,
+    "external": 8,
+    "verdict": "match",
+    "query": "深圳湾万象城 二期 开业 2018 建筑面积",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "深圳湾万象城与春笋、春茧构成总建面超70万㎡综合体，商场面积约8万㎡",
+    "note": "8.7≈一期商场8万㎡口径；2025年开放的二期空间规模另有约15万㎡表述（赢商网），口径混杂，数值取2018年既有商场"
+   },
+   {
+    "metric": "parking",
+    "internal": 1336,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳湾万象城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次搜索均被限流(429)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳湾万象城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次搜索均被限流(429)"
+   }
+  ]
+ },
+ {
+  "id": "0083",
+  "name": "深圳万象城（三期）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2023,
+    "verdict": "conflict",
+    "query": "深圳万象城 三期 开业时间",
+    "source_url": "https://szsezbuilding.fandom.com",
+    "source_level": "self-media",
+    "evidence": "2004年12月9日万象城一期正式开业，2009年二期开业，2023年4月20日三期正式开业",
+    "note": "内部2004为一期开业年；华润万象生活官方资料亦载2021-2023年因三期开业/调改品牌更新率波动，深圳官方文件提及万象城三期开业运营"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.8,
+    "external": 10.25,
+    "verdict": "unit_mismatch",
+    "query": "深圳万象城三期 建筑面积 万平方米 2023 开业",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网（2023-03）：三期总建筑面积约10.25万平方米；第一太平戴维斯：三期带来约3.0万㎡新增零售供应",
+    "note": "取外部「总建面10.25万㎡」；另有Savills新增供应约3万㎡口径。内部4.8万㎡疑为商业/首开部分面积，口径不可比，判unit_mismatch"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳万象城 罗湖 节假日 客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳万象城 罗湖 节假日 客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0084",
+  "name": "西安万象城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "西安万象城 CCBD 开业 2024 建筑面积 万平方米",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "12月9日西安万象城开业（新浪财经2024-12-14，Thomas Heatherwick团队设计）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.5,
+    "external": 15.5,
+    "verdict": "match",
+    "query": "西安万象城 CCBD 开业 2024 建筑面积 万平方米",
+    "source_url": "https://view.inews.qq.com",
+    "source_level": "media",
+    "evidence": "商业体量超15.5万平方米（腾讯新闻）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安万象城 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两组词均未见西安万象城（CCBD）车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 42.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安万象城 开业首日 客流 42万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次搜索（含「开业 客流 42.5万」）均未能证实42.5万数字及口径；内部该值本身为推断，建议人工复核"
+   }
+  ]
+ },
+ {
+  "id": "0085",
+  "name": "贵阳万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "贵阳万象城 开业 2024 总建筑面积",
+    "source_url": "http://gz.news.cn",
+    "source_level": "media",
+    "evidence": "城市地标新打卡地 大型商业综合体贵阳万象城开业（新华网贵州2024-07-14）",
+    "note": "开业日2024-07-13"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": 16,
+    "verdict": "match",
+    "query": "\"贵阳万象城\" 开业 2024 总建筑面积",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "贵阳万象城于7月13日开业，总建筑面积约16万㎡，引进超370家品牌、超120家首店",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "贵阳万象城 开业当天 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": 95,
+    "verdict": "unit_mismatch",
+    "query": "贵阳万象城 开业当天 停车位 客流",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "开业三天客流量达95万人次（搜狐2024-10）",
+    "note": "外部95万为开业三日累计口径，内部25万为节假日单日峰值口径，不可比；未获节假日单日峰值信源"
+   }
+  ]
+ },
+ {
+  "id": "0087",
+  "name": "南宁百盛印象城店",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南宁印象城 民族大道 前身 百盛 2004年 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次搜索未获南宁印象城（朝阳）首次开业年份信源；有资料称项目原为万达系后由印力/万科运营，2004年口径无法证实亦无法证伪"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.85,
+    "external": 12.72,
+    "verdict": "match",
+    "query": "南宁印象城 朝阳 万科 商业面积 万平方米",
+    "source_url": "https://vip.stock.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "万科A 2020年年度报告：南宁印象城 商业面积127,180㎡，出租率99.1%",
+    "note": "10.85 vs 12.72 差约15%（≤20%）；外部为上市公司年报口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 361,
+    "external": 345,
+    "verdict": "match",
+    "query": "南宁印象城 停车场 客流 万人次",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "印象城（南宁朝阳印象城）设有停车场，提供约345个车位（百度百科）",
+    "note": "361 vs 345 差约4.4%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南宁印象城 停车场 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0137",
+  "name": "三亚海旅免税城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2020,
+    "verdict": "match",
+    "query": "三亚海旅免税城 开业时间 2020 建筑面积",
+    "source_url": "https://ag.yueniuzq.com",
+    "source_level": "media",
+    "evidence": "2020年底至2021年初海南离岛免税新店集中开业：海旅免税城（经营面积9.5万…）；多家媒体载2020-12-30开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.5,
+    "external": 9.5,
+    "verdict": "match",
+    "query": "三亚海旅免税城 开业时间 2020 建筑面积",
+    "source_url": "https://ag.yueniuzq.com",
+    "source_level": "media",
+    "evidence": "海旅免税城（经营面积9.5万平方米）",
+    "note": "外部口径为经营面积；另有「建筑面积约11万㎡」表述，内部9.5对应经营面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 760,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "三亚海旅免税城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "内部该值为推断+benchmark基准层；外部仅见周边酒店停车信息，无本项目车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "三亚海旅免税城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「客流同比增长6.8%」及中免三亚国际免税城（海棠湾）单日9.2万人次（不同项目），本项无峰值信源"
+   }
+  ]
+ },
+ {
+  "id": "0162",
+  "name": "长春万象城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2023,
+    "verdict": "conflict",
+    "query": "长春万象城 开业时间 2017 华润",
+    "source_url": "https://www.crmixclifestyle.com.hk/gsxw/2023-07-28/1974431.html",
+    "source_level": "official",
+    "evidence": "华润万象生活官网新闻日期2023-07-28；多组检索一致载2023年7月28日正式开业",
+    "note": "auditFlag命中：内部2017无开业动词佐证；外部两轮独立检索均为2023-07-28开业（东北重奢万象城），判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15.65,
+    "external": 17,
+    "verdict": "match",
+    "query": "长春万象城 建筑面积 万平方米 商业体量",
+    "source_url": "https://www.lead8.com/zh-hans/projects/mixc-changchun",
+    "source_level": "official",
+    "evidence": "Lead8（项目零售建筑师）：拥有17万平方米的万象城购物中心",
+    "note": "另常见约15万㎡口径（百科/华润）；内部15.65介于15-17万两口径之间，偏差≤8%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1650,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春万象城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春万象城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见汉堡节期间周边日均客流超11万人次（区域、活动期间口径），非商场节假日单日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0167",
+  "name": "苏州仁恒仓街",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "苏州仁恒仓街 开业时间 2023 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "仁恒仓街商业广场…2023年9月28日正式开业（百度百科）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14,
+    "external": 14,
+    "verdict": "match",
+    "query": "苏州仁恒仓街 开业时间 2023 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "项目总建筑面积约14万平方米，含地上新园林式街区及地下三层购物中心",
+    "note": "商业广场部分另有约8万㎡表述（口径更小），内部14对应总建面口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1112,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州仁恒仓街 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索被限流(429)"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州仁恒仓街 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索被限流(429)"
+   }
+  ]
+ },
+ {
+  "id": "0192",
+  "name": "海口cdf国际免税城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "海口国际免税城 开业 2022 建筑面积 28万",
+    "source_url": "https://finance.sina.cn",
+    "source_level": "media",
+    "evidence": "cdf海口国际免税城将于10月28日开业（新浪财经2022-09-29）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 28.5,
+    "external": 28,
+    "verdict": "match",
+    "query": "海口国际免税城 开业 2022 建筑面积 28万",
+    "source_url": "https://www.gtdaily.net",
+    "source_level": "media",
+    "evidence": "整个项目总建筑面积93万平方米，由六个地块组成；其中地块五的cdf海口国际免税城建筑面积28万平方米",
+    "note": "内部28.5对应免税城本体（地块五），非93万㎡全域口径，差约1.8%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海口国际免税城 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「配套停车场5个（场库数）」与开业攻略交通指引，无车位总数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": 4.4,
+    "verdict": "unit_mismatch",
+    "query": "海口国际免税城 开业 2022 建筑面积 28万",
+    "source_url": "https://www.globalpingbao.com",
+    "source_level": "media",
+    "evidence": "开业当日进店人数超过44,000人次，销售额逾6,000万元",
+    "note": "外部4.4万为2022-10-28开业首日口径，非节假日峰值，按规则判unit_mismatch"
+   }
+  ]
+ },
+ {
+  "id": "0225",
+  "name": "上海真如环宇城MAX",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "上海真如环宇城MAX 开业 2023 建筑面积 车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "提前探访上海环宇城MAX，12.22亮相的32万方超大商业体（搜狐2023-11-27）",
+    "note": "2023-12-22开业，当年上海体量最大新开商场"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 32.3,
+    "external": 32,
+    "verdict": "match",
+    "query": "上海真如环宇城MAX 开业 2023 建筑面积 车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "12.22亮相的32万方超大商业体；人民网载「体量约32.3万平方米」",
+    "note": "另有「15万㎡购物中心」表述（中海真如境综合体部分口径）；内部32.3对应商业总体体量口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1459,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "中海环宇城MAX 真如 停车位 客流 万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "赢商网显示「停车位：暂无数据」，政府页面仅涉非机动车停放"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10.5,
+    "external": 10,
+    "verdict": "match",
+    "query": "中海环宇城MAX 真如 停车位 客流 万",
+    "source_url": "http://sh.people.com.cn/n2/2025/1227/c134768-41456290.html",
+    "source_level": "media",
+    "evidence": "开业两年来日均客流量达7万人次，周末峰值超10万人次（人民网上海2025-12-27）",
+    "note": "外部为周末峰值口径，内部10.5为节假日峰值口径，量级一致（差约5%）"
+   }
+  ]
+ },
+ {
+  "id": "0233",
+  "name": "郑州正弘汇",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2020,
+    "external": 2022,
+    "verdict": "conflict",
+    "query": "郑州正弘汇 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/正弘汇商业中心",
+    "source_level": "self-media",
+    "evidence": "该项目于2022年12月24日开业（百度百科）；搜狐2022年报道「郑州2022年再添15万方商业体」",
+    "note": "内部2020疑取自工程竣工时间（高新区预售公示载开竣工时间2020年7月）；正式开业为2022-12-24，两年差判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 60,
+    "external": 15.42,
+    "verdict": "conflict",
+    "query": "郑州正弘汇 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/正弘汇商业中心",
+    "source_level": "self-media",
+    "evidence": "正弘汇商业中心总建筑面积15.42万平方米，用地面积32231.21平方米",
+    "note": "内部60万㎡与外部15.42万㎡差逾70%，疑误混正弘系其他项目（如2018年开业的正弘城）体量"
+   },
+   {
+    "metric": "parking",
+    "internal": 2250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "正弘汇 郑州 停车位 客流 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见开业当天车库爆满的定性描述"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "正弘汇 郑州 停车位 客流 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "内部该值为推断；外部仅见「运营两年半客流超2100万人次」累计口径，无节假日单日峰值"
+   }
+  ]
+ }
+]

@@ -1,0 +1,11098 @@
+[
+ {
+  "id": "0015",
+  "name": "广州天河城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.65
+   },
+   {
+    "metric": "parking",
+    "value": 700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0033",
+  "name": "济南贵和购物购物中心（泉城路店）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "济南市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1997
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.61
+   },
+   {
+    "metric": "parking",
+    "value": 110
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0034",
+  "name": "苏州久光百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.1
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "buildingArea": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0047",
+  "name": "烟台振华商厦",
+  "rating": "S",
+  "layer": "S2",
+  "city": "烟台市",
+  "province": "山东省",
+  "auditFlags": [
+   "openedYear 1996 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.5
+   },
+   {
+    "metric": "parking",
+    "value": 200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "brands": true,
+    "openedYear": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0059",
+  "name": "深圳湾万象城二期",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8.7
+   },
+   {
+    "metric": "parking",
+    "value": 1336
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0083",
+  "name": "深圳万象城（三期）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.8
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0084",
+  "name": "西安万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15.5
+   },
+   {
+    "metric": "parking",
+    "value": 2300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 42.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0085",
+  "name": "贵阳万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "贵阳市",
+  "province": "贵州省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0087",
+  "name": "南宁百盛印象城店",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南宁市",
+  "province": "广西壮族自治区",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.85
+   },
+   {
+    "metric": "parking",
+    "value": 361
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0137",
+  "name": "三亚海旅免税城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "三亚市",
+  "province": "海南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9.5
+   },
+   {
+    "metric": "parking",
+    "value": 760
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0162",
+  "name": "长春万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长春市",
+  "province": "吉林省",
+  "auditFlags": [
+   "openedYear 2017 无邻近开业动词: …2017…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15.65
+   },
+   {
+    "metric": "parking",
+    "value": 1650
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0167",
+  "name": "苏州仁恒仓街",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14
+   },
+   {
+    "metric": "parking",
+    "value": 1112
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0192",
+  "name": "海口cdf国际免税城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "海口市",
+  "province": "海南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 28.5
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0225",
+  "name": "上海真如环宇城MAX",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 32.3
+   },
+   {
+    "metric": "parking",
+    "value": 1459
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0233",
+  "name": "郑州正弘汇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "郑州市",
+  "province": "河南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 2250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0235",
+  "name": "南京金鹰中心（新街口）B座",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.5
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0278",
+  "name": "长沙万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.4
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0301",
+  "name": "长春欧亚商都(红旗街)",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长春市",
+  "province": "吉林省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1994
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0306",
+  "name": "长春欧亚卖场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长春市",
+  "province": "吉林省",
+  "auditFlags": [
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2000
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 10000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 65
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0316",
+  "name": "重庆时代广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "parking 500 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.5
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0412",
+  "name": "苏州比斯特购物村",
+  "rating": "S",
+  "layer": "S2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.3
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0417",
+  "name": "东莞松山湖万象汇",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "东莞市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13
+   },
+   {
+    "metric": "parking",
+    "value": 900
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0422",
+  "name": "深圳益田假日广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0430",
+  "name": "合肥银泰中心二期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "合肥市",
+  "province": "安徽省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15
+   },
+   {
+    "metric": "parking",
+    "value": 840
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0446",
+  "name": "潍坊泰华城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "潍坊市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0553",
+  "name": "兰州国芳百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "兰州市",
+  "province": "甘肃省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14.2
+   },
+   {
+    "metric": "parking",
+    "value": 1350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0557",
+  "name": "呼和浩特振华广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "呼和浩特市",
+  "province": "内蒙古自治区",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22
+   },
+   {
+    "metric": "parking",
+    "value": 3300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0589",
+  "name": "长沙平和堂百货（五一广场）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1998
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.94
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 19.04
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekday": "benchmark",
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0590",
+  "name": "长沙王府井百货(五一广场店)",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": null
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2.25
+   },
+   {
+    "metric": "parking",
+    "value": 180
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "rent": true,
+    "buildingArea": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0593",
+  "name": "温州世贸银泰百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "温州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0654",
+  "name": "上海第一百货商业中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "openedYear 超域: 1936"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1936
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9.5
+   },
+   {
+    "metric": "parking",
+    "value": 300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0679",
+  "name": "广州广百百货(北京路店)",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1991
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8.7
+   },
+   {
+    "metric": "parking",
+    "value": 318
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0691",
+  "name": "济南银座商城(总店)",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "济南市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.5
+   },
+   {
+    "metric": "parking",
+    "value": 686
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0692",
+  "name": "上海芮欧百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.2
+   },
+   {
+    "metric": "parking",
+    "value": 442.5
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0699",
+  "name": "无锡大东方百货(复兴路)",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "无锡市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1990
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 480
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "rent": true,
+    "brands": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0700",
+  "name": "太原王府井百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "太原市",
+  "province": "山西省",
+  "auditFlags": [
+   "openedYear 2010 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "rent": true,
+    "trafficPeak": true,
+    "parking": true,
+    "openedYear": true,
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0701",
+  "name": "郑州丹尼斯百货（人民店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "郑州市",
+  "province": "河南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1997
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.5
+   },
+   {
+    "metric": "parking",
+    "value": 296
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0702",
+  "name": "沈阳中兴大厦",
+  "rating": "S",
+  "layer": "S2",
+  "city": "沈阳市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1987
+   },
+   {
+    "metric": "buildingArea",
+    "value": 24
+   },
+   {
+    "metric": "parking",
+    "value": 200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 23.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "brands": true,
+    "trafficPeak": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0706",
+  "name": "深圳茂业百货（华强北店）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.3
+   },
+   {
+    "metric": "parking",
+    "value": 260
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "competitors": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0707",
+  "name": "上海久光百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0709",
+  "name": "北京汉光百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1998
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.5
+   },
+   {
+    "metric": "parking",
+    "value": 250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0715",
+  "name": "重庆光环购物公园",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 42
+   },
+   {
+    "metric": "parking",
+    "value": 2801
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 22.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0727",
+  "name": "深圳壹方天地",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "openedYear 2017 无邻近开业动词: …E 区 2017…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 7000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 35
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0731",
+  "name": "杭州萧山银隆百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12.2
+   },
+   {
+    "metric": "parking",
+    "value": 1570
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0733",
+  "name": "镇江八佰伴",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "镇江市",
+  "province": "江苏省",
+  "auditFlags": [
+   "openedYear 2008 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.5
+   },
+   {
+    "metric": "parking",
+    "value": 360
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.75
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "rent": true,
+    "openedYear": true,
+    "buildingArea": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0738",
+  "name": "深圳湾万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 17.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0751",
+  "name": "上海久光中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 26.7
+   },
+   {
+    "metric": "parking",
+    "value": 1648
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0756",
+  "name": "西安大融城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 1800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0780",
+  "name": "大连麦凯乐（大连总店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "大连市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1998
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9.37
+   },
+   {
+    "metric": "parking",
+    "value": 400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 0.8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0785",
+  "name": "宁波阪急百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "宁波市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0808",
+  "name": "邯郸新世纪中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "邯郸市",
+  "province": "河北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0826",
+  "name": "乌鲁木齐美美1",
+  "rating": "S",
+  "layer": "S2",
+  "city": "乌鲁木齐市",
+  "province": "新疆维吾尔自治区",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5
+   },
+   {
+    "metric": "parking",
+    "value": 400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {
+    "trafficPeak": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0831",
+  "name": "南京新百",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南京市",
+  "province": "江苏省",
+  "auditFlags": [
+   "openedYear 超域: 1952"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1952
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.5
+   },
+   {
+    "metric": "parking",
+    "value": 300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 40
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "rent": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0844",
+  "name": "乌鲁木齐北京路汇嘉时代广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "乌鲁木齐市",
+  "province": "新疆维吾尔自治区",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2025
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 550
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0860",
+  "name": "成都IFS",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 76
+   },
+   {
+    "metric": "parking",
+    "value": 1700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0867",
+  "name": "北京朝阳合生汇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0889",
+  "name": "南昌武商MALL",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南昌市",
+  "province": "江西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22.93
+   },
+   {
+    "metric": "parking",
+    "value": 1200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0900",
+  "name": "重庆来福士",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "buildingArea 超域: 112万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 112
+   },
+   {
+    "metric": "parking",
+    "value": 3250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0922",
+  "name": "南京德基广场二期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 1350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 33.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0925",
+  "name": "合肥滨湖银泰百货",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "合肥市",
+  "province": "安徽省",
+  "auditFlags": [
+   "openedYear 2017 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.5
+   },
+   {
+    "metric": "parking",
+    "value": 920
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "openedYear": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0939",
+  "name": "西安SKP",
+  "rating": "S",
+  "layer": "S2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.5
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0940",
+  "name": "西安大悦城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.5
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0973",
+  "name": "三亚国际免税城CDFmall一期AB区",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "三亚市",
+  "province": "海南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.2
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0988",
+  "name": "沈阳王府井奥莱棋盘山小镇一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "沈阳市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.81
+   },
+   {
+    "metric": "parking",
+    "value": 2200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1017",
+  "name": "成都仁和新城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 32.5
+   },
+   {
+    "metric": "parking",
+    "value": 1750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1022",
+  "name": "西安龙首印象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12.5
+   },
+   {
+    "metric": "parking",
+    "value": 1373
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1035",
+  "name": "深圳金光华广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 17.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1046",
+  "name": "芜湖八佰伴",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "芜湖市",
+  "province": "安徽省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1048",
+  "name": "北京王府井奥莱·香江小镇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 5000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1052",
+  "name": "银泰商业西安钟楼开元商城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.3
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1076",
+  "name": "厦门磐基名品中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "厦门市",
+  "province": "福建省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14.5
+   },
+   {
+    "metric": "parking",
+    "value": 750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1077",
+  "name": "哈尔滨远大购物中心（南岗店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "哈尔滨市",
+  "province": "黑龙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8.1
+   },
+   {
+    "metric": "parking",
+    "value": 75
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1091",
+  "name": "成都世茂广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 25
+   },
+   {
+    "metric": "parking",
+    "value": 1120
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1095",
+  "name": "武汉万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14.5
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1105",
+  "name": "嘉兴海宁下沙奥特莱斯广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "嘉兴市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 8000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1107",
+  "name": "重庆砂之船(两江新区)奥莱",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "parking 3000 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1115",
+  "name": "石家庄万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "石家庄市",
+  "province": "河北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16.5
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1122",
+  "name": "石家庄北国商城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "石家庄市",
+  "province": "河北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13.5
+   },
+   {
+    "metric": "parking",
+    "value": 750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1123",
+  "name": "石家庄北国先天下广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "石家庄市",
+  "province": "河北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1133",
+  "name": "杭州银泰百货（西湖店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "auditFlags": [
+   "openedYear 2004 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.5
+   },
+   {
+    "metric": "parking",
+    "value": 360
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true,
+    "brands": true,
+    "openedYear": true
+   },
+   "basis": {
+    "parking": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1134",
+  "name": "大连时代广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "大连市",
+  "province": "辽宁省",
+  "auditFlags": [
+   "openedYear 2008 无邻近开业动词: …综合体于2008…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.88
+   },
+   {
+    "metric": "parking",
+    "value": 400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 1.1
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1137",
+  "name": "成都太古里",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "trafficPeak 70 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 1610
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 70
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1140",
+  "name": "西安中大国际THE CITY",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 27.5
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1146",
+  "name": "北京新世界百货（崇文店）二期",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2001
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2.5
+   },
+   {
+    "metric": "parking",
+    "value": 200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1150",
+  "name": "北京王府中环",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "auditFlags": [
+   "parking 800 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.5
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1154",
+  "name": "昆明柏联百盛广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "昆明市",
+  "province": "云南省",
+  "auditFlags": [
+   "openedYear 2025 无邻近开业动词: …23年外立面改银灰色 ；2025…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2025
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5
+   },
+   {
+    "metric": "parking",
+    "value": 1650
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1160",
+  "name": "东莞民盈·国贸城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "东莞市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 30
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 30
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1173",
+  "name": "北京双安商场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1994
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.5
+   },
+   {
+    "metric": "parking",
+    "value": 275
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1179",
+  "name": "武汉武商梦时代",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "auditFlags": [
+   "openedYear 2022 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 80
+   },
+   {
+    "metric": "parking",
+    "value": 8000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 30
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "buildingArea": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1192",
+  "name": "龙湖上海闵行天街",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1194",
+  "name": "南京IFC",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1196",
+  "name": "北京三里屯太古里",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 29
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1199",
+  "name": "贵阳万象汇",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "贵阳市",
+  "province": "贵州省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 1184
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1200",
+  "name": "沈阳铁西万象汇",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "沈阳市",
+  "province": "辽宁省",
+  "auditFlags": [
+   "openedYear 2019 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 1150
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "openedYear": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1217",
+  "name": "昆明万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "昆明市",
+  "province": "云南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 55
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1221",
+  "name": "福州万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "福州市",
+  "province": "福建省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 1008
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1229",
+  "name": "长春卓展购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长春市",
+  "province": "吉林省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17
+   },
+   {
+    "metric": "parking",
+    "value": 300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1249",
+  "name": "上海前滩太古里",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1253",
+  "name": "济南万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "济南市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 21.6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true
+   },
+   "basis": {
+    "trafficWeekday": "benchmark",
+    "trafficPeak": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1266",
+  "name": "汕头万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "汕头市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.6
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1275",
+  "name": "西安高新万达广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": null
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14
+   },
+   {
+    "metric": "parking",
+    "value": 1150
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1280",
+  "name": "昆明恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "昆明市",
+  "province": "云南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 1629
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1297",
+  "name": "武汉荟聚",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 21.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1305",
+  "name": "南昌T16购物中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南昌市",
+  "province": "江西省",
+  "auditFlags": [
+   "parking 2025 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12.8
+   },
+   {
+    "metric": "parking",
+    "value": 2025
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1318",
+  "name": "昆明顺城购物中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "昆明市",
+  "province": "云南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23.1
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14.1226
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true
+   },
+   "basis": {
+    "trafficWeekday": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1320",
+  "name": "龙湖上海宝山天街",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.5
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1327",
+  "name": "沈阳市府恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "沈阳市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 80
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1328",
+  "name": "天津海信广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "天津市",
+  "province": "天津市",
+  "auditFlags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.5
+   },
+   {
+    "metric": "parking",
+    "value": 550
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "brands": true,
+    "openedYear": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1345",
+  "name": "成都凯德广场·金牛",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "openedYear 2011 无邻近开业动词: ……"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8.5
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficPeak": true,
+    "rent": true,
+    "openedYear": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1347",
+  "name": "杭州大厦购物城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1988
+   },
+   {
+    "metric": "buildingArea",
+    "value": 24
+   },
+   {
+    "metric": "parking",
+    "value": 883
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1349",
+  "name": "成都群光广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficWeekday": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1351",
+  "name": "宁波和义大道购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "宁波市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.63
+   },
+   {
+    "metric": "parking",
+    "value": 1023.5
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1355",
+  "name": "沈阳卓展购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "沈阳市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11
+   },
+   {
+    "metric": "parking",
+    "value": 371
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.13
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1363",
+  "name": "武汉百联奥特莱斯主题公园",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 2600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1369",
+  "name": "佛山佛罗伦萨小镇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "佛山市",
+  "province": "广东省",
+  "auditFlags": [
+   "openedYear 2015 无邻近开业动词: …首期 2015…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1373",
+  "name": "深圳福田星河COCO Park一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.5
+   },
+   {
+    "metric": "parking",
+    "value": 600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 17.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1374",
+  "name": "龙湖北京长楹天街",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 17.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1375",
+  "name": "北京昌平八达岭奥特莱斯",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.5
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1376",
+  "name": "北京SKP",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2007
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1388",
+  "name": "南宁万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南宁市",
+  "province": "广西壮族自治区",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 28
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 21.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1389",
+  "name": "天津佛罗伦萨小镇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "天津市",
+  "province": "天津市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 2800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1390",
+  "name": "宁波杉井奥特莱斯广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "宁波市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 1600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "openedYear": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1405",
+  "name": "哈尔滨松雷商厦（南岗店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "哈尔滨市",
+  "province": "黑龙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1995
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 150
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "brands": true,
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1420",
+  "name": "北京燕莎奥特莱斯购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2002
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9.75
+   },
+   {
+    "metric": "parking",
+    "value": 1100
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1423",
+  "name": "青岛海信广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "青岛市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.5
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1439",
+  "name": "深圳万象城（一二期）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 50
+   },
+   {
+    "metric": "parking",
+    "value": 1750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 21.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1441",
+  "name": "杭州万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22.5
+   },
+   {
+    "metric": "parking",
+    "value": 1750
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1448",
+  "name": "上海新世界大丸百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.5
+   },
+   {
+    "metric": "parking",
+    "value": 520
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1449",
+  "name": "上海恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2001
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.5
+   },
+   {
+    "metric": "parking",
+    "value": 350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1478",
+  "name": "上海第一八佰伴",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1995
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13
+   },
+   {
+    "metric": "parking",
+    "value": 400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1484",
+  "name": "深圳万象天地",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23
+   },
+   {
+    "metric": "parking",
+    "value": 3489
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 32.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1487",
+  "name": "深圳卓悦中心一期（东区、西区）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 28.6
+   },
+   {
+    "metric": "parking",
+    "value": 7500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1492",
+  "name": "北京西单大悦城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2007
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.5
+   },
+   {
+    "metric": "parking",
+    "value": 723
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1495",
+  "name": "北京翠微百货（翠微店）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1997
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.25
+   },
+   {
+    "metric": "parking",
+    "value": 350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1500",
+  "name": "北京老佛爷百货（西单店）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.84
+   },
+   {
+    "metric": "parking",
+    "value": 450
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1501",
+  "name": "北京东方新天地",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 80
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 35
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "rent": true,
+    "brands": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1504",
+  "name": "北京朝阳大悦城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 39.5
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1506",
+  "name": "上海环贸iapm",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 27.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1508",
+  "name": "上海百联又一城购物中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2007
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12.55
+   },
+   {
+    "metric": "parking",
+    "value": 700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1509",
+  "name": "上海龙之梦城市生活中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2005
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22
+   },
+   {
+    "metric": "parking",
+    "value": 830
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 27.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1513",
+  "name": "上海比斯特购物村",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.55
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1514",
+  "name": "上海佛罗伦萨小镇（一二期）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1532",
+  "name": "厦门万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "厦门市",
+  "province": "福建省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 18.7
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1538",
+  "name": "深圳南山海岸城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "parking 2000 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2007
+   },
+   {
+    "metric": "buildingArea",
+    "value": 30
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1542",
+  "name": "长沙IFS",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "auditFlags": [
+   "trafficPeak 50.8 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 100
+   },
+   {
+    "metric": "parking",
+    "value": 2700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 50.8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1543",
+  "name": "上海静安嘉里中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "openedYear 1998 无邻近开业动词: …1994年拿地，1998…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1998
+   },
+   {
+    "metric": "buildingArea",
+    "value": 45.6
+   },
+   {
+    "metric": "parking",
+    "value": 1340
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1545",
+  "name": "上海尚嘉中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14
+   },
+   {
+    "metric": "parking",
+    "value": 799
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2.75
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1549",
+  "name": "太原万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "太原市",
+  "province": "山西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1553",
+  "name": "成都佛罗伦萨小镇一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 3500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 1.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1554",
+  "name": "砂之船（西安）奥莱",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14.13
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1561",
+  "name": "杭州大悦城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.25
+   },
+   {
+    "metric": "parking",
+    "value": 2600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14.25
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1562",
+  "name": "西安西咸万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 42
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1563",
+  "name": "温州万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "温州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15.7
+   },
+   {
+    "metric": "parking",
+    "value": 2496
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1566",
+  "name": "武汉恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.7
+   },
+   {
+    "metric": "parking",
+    "value": 2850
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1568",
+  "name": "新光天地重庆",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 35
+   },
+   {
+    "metric": "parking",
+    "value": 5200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1571",
+  "name": "上海万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 24
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 13.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1574",
+  "name": "上海兴业太古汇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 1200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1576",
+  "name": "上海One ITC",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "openedYear 2013 无邻近开业动词: …2013…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 70.6
+   },
+   {
+    "metric": "parking",
+    "value": 302
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1577",
+  "name": "上海五角场合生汇",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "parking 1700 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 36
+   },
+   {
+    "metric": "parking",
+    "value": 1700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1586",
+  "name": "龙湖杭州滨江天街",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "auditFlags": [
+   "parking 30 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 41.08
+   },
+   {
+    "metric": "parking",
+    "value": 30
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1587",
+  "name": "上海南翔印象城MEGA",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 34
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true,
+    "trafficWeekday": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1590",
+  "name": "深圳深业上城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "buildingArea 超域: 120万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 120
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 32
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1591",
+  "name": "广州天汇广场IGC",
+  "rating": "S",
+  "layer": "S2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 45.95
+   },
+   {
+    "metric": "parking",
+    "value": 736
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1592",
+  "name": "广州天环Parc Central",
+  "rating": "S",
+  "layer": "S2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11
+   },
+   {
+    "metric": "parking",
+    "value": 573
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficPeak": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1593",
+  "name": "广州K11",
+  "rating": "S",
+  "layer": "S2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 1700
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1602",
+  "name": "重庆星光68广场A馆",
+  "rating": "S",
+  "layer": "S2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.9
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1614",
+  "name": "北京金融街购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2007
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13
+   },
+   {
+    "metric": "parking",
+    "value": 961
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 0.425
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1648",
+  "name": "海口友谊阳光城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "海口市",
+  "province": "海南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10.89
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1673",
+  "name": "南京景枫中心",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 37
+   },
+   {
+    "metric": "parking",
+    "value": 2100
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 22.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1676",
+  "name": "太原天美新天地购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "太原市",
+  "province": "山西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.9
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1691",
+  "name": "郑州正弘城 Grand Emporium",
+  "rating": "S",
+  "layer": "S2",
+  "city": "郑州市",
+  "province": "河南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 40
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 22.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1695",
+  "name": "上海港汇恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 12
+   },
+   {
+    "metric": "parking",
+    "value": 1350
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 30
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1700",
+  "name": "长春砂之船中东奥莱",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长春市",
+  "province": "吉林省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.2
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1705",
+  "name": "广州正佳广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2005
+   },
+   {
+    "metric": "buildingArea",
+    "value": 42
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 24
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1719",
+  "name": "西安金鹰国际购物中心（高新店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 543
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1726",
+  "name": "徐州金鹰购物中心A座（彭城广场）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "徐州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.25
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1744",
+  "name": "兰州中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "兰州市",
+  "province": "甘肃省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20.45
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1746",
+  "name": "无锡恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "无锡市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.7
+   },
+   {
+    "metric": "parking",
+    "value": 1300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficPeak": true,
+    "trafficWeekend": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1755",
+  "name": "上海青浦百联奥特莱斯",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.05
+   },
+   {
+    "metric": "parking",
+    "value": 3400
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1763",
+  "name": "嘉兴八佰伴（中山路店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "嘉兴市",
+  "province": "浙江省",
+  "auditFlags": [
+   "parking 1500 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.7
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1770",
+  "name": "武汉群光广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1795",
+  "name": "武汉武商MALL",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "auditFlags": [
+   "openedYear 2023 无邻近开业动词: …群→2014年武广更名→2023…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 37.6
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 13.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1804",
+  "name": "深圳前海壹方城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 36
+   },
+   {
+    "metric": "parking",
+    "value": 6000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1836",
+  "name": "深圳海雅缤纷城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 26.1
+   },
+   {
+    "metric": "parking",
+    "value": 2098
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1841",
+  "name": "长沙步步高梅溪新天地",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 70
+   },
+   {
+    "metric": "parking",
+    "value": 10000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 21.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1848",
+  "name": "合肥百大鼓楼名品中心金座",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "合肥市",
+  "province": "安徽省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1996
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 270
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1865",
+  "name": "成都银泰中心in99",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19
+   },
+   {
+    "metric": "parking",
+    "value": 3800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.7
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1881",
+  "name": "南京万象天地",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13.7
+   },
+   {
+    "metric": "parking",
+    "value": 832
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1886",
+  "name": "北京首创奥特莱斯一期",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19.7
+   },
+   {
+    "metric": "parking",
+    "value": 3200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1900",
+  "name": "砂之船（南京）奥莱",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 8000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1951",
+  "name": "宁波天一广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "宁波市",
+  "province": "浙江省",
+  "auditFlags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2002
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22
+   },
+   {
+    "metric": "parking",
+    "value": 973
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 50
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1961",
+  "name": "上海七宝领展广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14.5
+   },
+   {
+    "metric": "parking",
+    "value": 1477
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1967",
+  "name": "哈尔滨杉杉奥特莱斯广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "哈尔滨市",
+  "province": "黑龙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13.06
+   },
+   {
+    "metric": "parking",
+    "value": 2000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1997",
+  "name": "杭州湖滨银泰in77",
+  "rating": "S",
+  "layer": "S2",
+  "city": "杭州市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2005
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23
+   },
+   {
+    "metric": "parking",
+    "value": 1650
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2014",
+  "name": "苏州张家港曼巴特购物广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 26
+   },
+   {
+    "metric": "parking",
+    "value": 1591
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2023",
+  "name": "北京国贸商城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1990
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23
+   },
+   {
+    "metric": "parking",
+    "value": 1858
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2056",
+  "name": "上海环球港",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "trafficPeak 80 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 48
+   },
+   {
+    "metric": "parking",
+    "value": 2200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 80
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2059",
+  "name": "昆山金鹰国际购物中心（A馆）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11.6
+   },
+   {
+    "metric": "parking",
+    "value": 465
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "trafficWeekday": true,
+    "buildingArea": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2064",
+  "name": "南京中央商场（新街口店）",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南京市",
+  "province": "江苏省",
+  "auditFlags": [
+   "openedYear 超域: 1936"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1936
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9.9
+   },
+   {
+    "metric": "parking",
+    "value": 900
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2079",
+  "name": "佛山王府井紫薇港·WALKIN",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "佛山市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 32
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2082",
+  "name": "大连恒隆广场",
+  "rating": "S",
+  "layer": "S2",
+  "city": "大连市",
+  "province": "辽宁省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 22.19
+   },
+   {
+    "metric": "parking",
+    "value": 1214
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.775
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2099",
+  "name": "西安赛格国际购物中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "西安市",
+  "province": "陕西省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19
+   },
+   {
+    "metric": "parking",
+    "value": 1643
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 30
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2109",
+  "name": "济南恒隆广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "济南市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17.1
+   },
+   {
+    "metric": "parking",
+    "value": 785
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.25
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2121",
+  "name": "北京APM",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "北京市",
+  "province": "北京市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1998
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13
+   },
+   {
+    "metric": "parking",
+    "value": 3500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {
+    "trafficPeak": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2122",
+  "name": "惠州华贸天地",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "惠州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15
+   },
+   {
+    "metric": "parking",
+    "value": 5000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 18.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2135",
+  "name": "重庆万象城中南区",
+  "rating": "S",
+  "layer": "S2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 35
+   },
+   {
+    "metric": "parking",
+    "value": 3300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2137",
+  "name": "上海来福士广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 513
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2172",
+  "name": "徐州彭城苏宁广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "徐州市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 1159
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2178",
+  "name": "天津大悦城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "天津市",
+  "province": "天津市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16.8
+   },
+   {
+    "metric": "parking",
+    "value": 1904
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 14.3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2185",
+  "name": "天津万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "天津市",
+  "province": "天津市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 36
+   },
+   {
+    "metric": "parking",
+    "value": 1900
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2192",
+  "name": "南京金鹰世界",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 91.8
+   },
+   {
+    "metric": "parking",
+    "value": 5000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2198",
+  "name": "深圳KK mall",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "深圳市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 1650
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2261",
+  "name": "苏州中心商场一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "auditFlags": [
+   "buildingArea 30 疑取综合体口径 35（商业面积 300）",
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 30
+   },
+   {
+    "metric": "parking",
+    "value": 6000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 65
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2262",
+  "name": "龙湖重庆北城天街",
+  "rating": "S",
+  "layer": "S2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14
+   },
+   {
+    "metric": "parking",
+    "value": 800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2266",
+  "name": "合肥银泰in77",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "合肥市",
+  "province": "安徽省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 17
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2272",
+  "name": "成都王府井购物中心（科华店）",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.15
+   },
+   {
+    "metric": "parking",
+    "value": 1000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2286",
+  "name": "上海五角场万达广场",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 26
+   },
+   {
+    "metric": "parking",
+    "value": 820
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 19.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2288",
+  "name": "武汉SKP",
+  "rating": "S",
+  "layer": "S2",
+  "city": "武汉市",
+  "province": "湖北省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13.82
+   },
+   {
+    "metric": "parking",
+    "value": 380
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2290",
+  "name": "龙湖重庆时代天街ABC馆",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 33
+   },
+   {
+    "metric": "parking",
+    "value": 1154
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 55
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2295",
+  "name": "绍兴银泰百货",
+  "rating": "S",
+  "layer": "S2",
+  "city": "绍兴市",
+  "province": "浙江省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 25
+   },
+   {
+    "metric": "parking",
+    "value": 1800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2301",
+  "name": "兰州万象城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "兰州市",
+  "province": "甘肃省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8.4
+   },
+   {
+    "metric": "parking",
+    "value": 2200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2361",
+  "name": "成都SKP",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15.1
+   },
+   {
+    "metric": "parking",
+    "value": 2600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2391",
+  "name": "长沙步步高星城天地",
+  "rating": "S",
+  "layer": "S2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 60
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2395",
+  "name": "贵阳荔星中心",
+  "rating": "S",
+  "layer": "S2",
+  "city": "贵阳市",
+  "province": "贵州省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 35
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2401",
+  "name": "成都万象城二期",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 30
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2697",
+  "name": "上海新世界城",
+  "rating": "S",
+  "layer": "S2",
+  "city": "上海市",
+  "province": "上海市",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1995
+   },
+   {
+    "metric": "buildingArea",
+    "value": 21
+   },
+   {
+    "metric": "parking",
+    "value": 300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2734",
+  "name": "南京德基广场一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "南京市",
+  "province": "江苏省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2006
+   },
+   {
+    "metric": "buildingArea",
+    "value": 31.3
+   },
+   {
+    "metric": "parking",
+    "value": 1250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 33.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2743",
+  "name": "合肥万象城",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "合肥市",
+  "province": "安徽省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 18
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2754",
+  "name": "广州太古汇",
+  "rating": "S",
+  "layer": "S2",
+  "city": "广州市",
+  "province": "广东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 13.8
+   },
+   {
+    "metric": "parking",
+    "value": 718
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "2763",
+  "name": "成都万象城一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "成都市",
+  "province": "四川省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 32
+   },
+   {
+    "metric": "parking",
+    "value": 2550
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 20.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2800",
+  "name": "砂之船（长沙）奥莱",
+  "rating": "A+",
+  "layer": "A+2",
+  "city": "长沙市",
+  "province": "湖南省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 21
+   },
+   {
+    "metric": "parking",
+    "value": 5000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9.2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2807",
+  "name": "苏州万象天地",
+  "rating": "S",
+  "layer": "S2",
+  "city": "苏州市",
+  "province": "江苏省",
+  "auditFlags": [
+   "openedYear 2025 无邻近开业动词: …2025…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2025
+   },
+   {
+    "metric": "buildingArea",
+    "value": 14
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 32.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2828",
+  "name": "青岛万象城一期",
+  "rating": "S",
+  "layer": "S2",
+  "city": "青岛市",
+  "province": "山东省",
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 41.92
+   },
+   {
+    "metric": "parking",
+    "value": 6000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0062",
+  "name": "扬州金鹰国际购物中心(江都店) 二期",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "扬州市",
+  "province": "江苏省",
+  "auditFlags": [
+   "buildingArea 超域: 140万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 140
+   },
+   {
+    "metric": "parking",
+    "value": 2388
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0518",
+  "name": "株洲百货大楼",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "株洲市",
+  "province": "湖南省",
+  "auditFlags": [
+   "openedYear 超域: 1958"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1958
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "openedYear": true,
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0520",
+  "name": "荆州沙市安良百货",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "荆州市",
+  "province": "湖北省",
+  "auditFlags": [
+   "openedYear 超域: 1984"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1984
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5
+   },
+   {
+    "metric": "parking",
+    "value": 280
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2.15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0530",
+  "name": "廊坊明珠大厦(新华路店)",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "廊坊市",
+  "province": "河北省",
+  "auditFlags": [
+   "openedYear 超域: 1981"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1981
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficPeak": true,
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0571",
+  "name": "杭州银泰百货（文化广场店）",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "杭州市",
+  "province": "浙江省",
+  "auditFlags": [
+   "trafficPeak 54 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 520
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 54
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekend": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0600",
+  "name": "唐山百货大楼",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "唐山市",
+  "province": "河北省",
+  "auditFlags": [
+   "openedYear 超域: 1984"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1984
+   },
+   {
+    "metric": "buildingArea",
+    "value": 30
+   },
+   {
+    "metric": "parking",
+    "value": 450
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0622",
+  "name": "唐山路南万达广场",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "唐山市",
+  "province": "河北省",
+  "auditFlags": [
+   "buildingArea 超域: 110万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 110
+   },
+   {
+    "metric": "parking",
+    "value": 1609
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2.75
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0635",
+  "name": "武汉世界城光谷步行街",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "武汉市",
+  "province": "湖北省",
+  "auditFlags": [
+   "trafficPeak 90 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 35
+   },
+   {
+    "metric": "parking",
+    "value": 6500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 90
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "rent": true,
+    "openedYear": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0658",
+  "name": "上海巴黎春天(宝山店)",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.6
+   },
+   {
+    "metric": "parking",
+    "value": 10
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0681",
+  "name": "深圳中洲湾C Future City",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "buildingArea 超域: 130万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 130
+   },
+   {
+    "metric": "parking",
+    "value": 1813
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0703",
+  "name": "长沙友谊商店",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "长沙市",
+  "province": "湖南省",
+  "auditFlags": [
+   "openedYear 超域: 1981"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1981
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.5
+   },
+   {
+    "metric": "parking",
+    "value": 300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true,
+    "openedYear": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0717",
+  "name": "成都王府井百货(总府店)",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1999
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4.2
+   },
+   {
+    "metric": "parking",
+    "value": 450
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 50
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0755",
+  "name": "扬州金鹰国际购物中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "扬州市",
+  "province": "江苏省",
+  "auditFlags": [
+   "buildingArea 超域: 140万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 140
+   },
+   {
+    "metric": "parking",
+    "value": 2500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0758",
+  "name": "龙湖成都时代天街A馆",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "parking 11218 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.5
+   },
+   {
+    "metric": "parking",
+    "value": 11218
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0764",
+  "name": "温州印象城MEGA",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "温州市",
+  "province": "浙江省",
+  "auditFlags": [
+   "parking 36 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 25
+   },
+   {
+    "metric": "parking",
+    "value": 36
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0782",
+  "name": "佛山东方广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "佛山市",
+  "province": "广东省",
+  "auditFlags": [
+   "parking 2014 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23
+   },
+   {
+    "metric": "parking",
+    "value": 2014
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 24
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0794",
+  "name": "西安太乙城生活中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "西安市",
+  "province": "陕西省",
+  "auditFlags": [
+   "buildingArea 超域: 130万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 130
+   },
+   {
+    "metric": "parking",
+    "value": 7295
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0813",
+  "name": "白山欧亚合兴商场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "白山市",
+  "province": "吉林省",
+  "auditFlags": [
+   "openedYear 超域: 1984"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1984
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 640
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0828",
+  "name": "乌鲁木齐天山百货",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "乌鲁木齐市",
+  "province": "新疆维吾尔自治区",
+  "auditFlags": [
+   "openedYear 超域: 1957"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1957
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.53
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0837",
+  "name": "阿克苏太百购物中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "阿克苏市",
+  "province": "新疆维吾尔自治区",
+  "auditFlags": [
+   "parking 25 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 5.25
+   },
+   {
+    "metric": "parking",
+    "value": 25
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 1.75
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0858",
+  "name": "重庆观音桥新世界百货",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "trafficPeak 70 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2.5
+   },
+   {
+    "metric": "parking",
+    "value": 200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 70
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0887",
+  "name": "深圳星河WORLD·COCOPark",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "openedYear 2018 无邻近开业动词: …星河WORLD整体亮相；2018…",
+   "buildingArea 超域: 160万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 160
+   },
+   {
+    "metric": "parking",
+    "value": 2250
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0971",
+  "name": "成都晶融汇购物中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "trafficPeak 65 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 650
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 65
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "parking": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0102",
+  "name": "龙湖重庆江岸天街",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "trafficPeak 50 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2025
+   },
+   {
+    "metric": "buildingArea",
+    "value": 19.68
+   },
+   {
+    "metric": "parking",
+    "value": 1500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 50
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0149",
+  "name": "苏州人民商场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "苏州市",
+  "province": "江苏省",
+  "auditFlags": [
+   "openedYear 超域: 1934"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1934
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2
+   },
+   {
+    "metric": "parking",
+    "value": 160
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1009",
+  "name": "成都华熙LIVE·528",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "buildingArea 超域: 125万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 125
+   },
+   {
+    "metric": "parking",
+    "value": 10000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1034",
+  "name": "成都铁建186MALL",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "buildingArea 23.25 疑取综合体口径 23.25（商业面积 4）"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 23.25
+   },
+   {
+    "metric": "parking",
+    "value": 1288
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 1.4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1064",
+  "name": "上海国家会展中心商业广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "parking 12000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 15
+   },
+   {
+    "metric": "parking",
+    "value": 12000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 23.75
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "trafficWeekend": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "1147",
+  "name": "上海复地活力城",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "buildingArea 超域: 110万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 110
+   },
+   {
+    "metric": "parking",
+    "value": 1076
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1156",
+  "name": "哈尔滨融创茂",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "哈尔滨市",
+  "province": "黑龙江省",
+  "auditFlags": [
+   "parking 36 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 36.96
+   },
+   {
+    "metric": "parking",
+    "value": 36
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3.75
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1255",
+  "name": "永旺梦乐城青岛西海岸新区",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "青岛市",
+  "province": "山东省",
+  "auditFlags": [
+   "openedYear 2015 无邻近开业动词: …ent训练记忆口径分歧（2015…"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 20
+   },
+   {
+    "metric": "parking",
+    "value": 920
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "brands": true,
+    "openedYear": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1350",
+  "name": "济南嘉华购物广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "济南市",
+  "province": "山东省",
+  "auditFlags": [
+   "openedYear 2002 无邻近开业动词: …月 4 日主体公司注册；2002…",
+   "parking 2021 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2002
+   },
+   {
+    "metric": "buildingArea",
+    "value": 4
+   },
+   {
+    "metric": "parking",
+    "value": 2021
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1359",
+  "name": "长沙阿波罗商业广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "长沙市",
+  "province": "湖南省",
+  "auditFlags": [
+   "openedYear 超域: 1971"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1971
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0191",
+  "name": "深圳满京华·满纷天地",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "深圳市",
+  "province": "广东省",
+  "auditFlags": [
+   "buildingArea 超域: 150万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 150
+   },
+   {
+    "metric": "parking",
+    "value": 4000
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1596",
+  "name": "中山海雅缤纷天地",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "中山市",
+  "province": "广东省",
+  "auditFlags": [
+   "buildingArea 超域: 120万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2025
+   },
+   {
+    "metric": "buildingArea",
+    "value": 120
+   },
+   {
+    "metric": "parking",
+    "value": 6000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1599",
+  "name": "北京华熙LIVE·五棵松",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "北京市",
+  "province": "北京市",
+  "auditFlags": [
+   "buildingArea 24.5 疑取综合体口径 24.5（商业面积 5）"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 24.5
+   },
+   {
+    "metric": "parking",
+    "value": 3000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 19.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1647",
+  "name": "长春亚泰富苑",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "长春市",
+  "province": "吉林省",
+  "auditFlags": [
+   "parking 2026 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.08
+   },
+   {
+    "metric": "parking",
+    "value": 2026
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1655",
+  "name": "佛山新动力广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "佛山市",
+  "province": "广东省",
+  "auditFlags": [
+   "parking 2021 疑年份误抓",
+   "parking 2021 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 25
+   },
+   {
+    "metric": "parking",
+    "value": 2021
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1665",
+  "name": "蚌埠银泰百货",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "蚌埠市",
+  "province": "安徽省",
+  "auditFlags": [
+   "buildingArea 超域: 109万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 109
+   },
+   {
+    "metric": "parking",
+    "value": 2945
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 15
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1670",
+  "name": "通辽科尔沁万达广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "通辽市",
+  "province": "内蒙古自治区",
+  "auditFlags": [
+   "buildingArea 超域: 101万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 101
+   },
+   {
+    "metric": "parking",
+    "value": 946
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1731",
+  "name": "上海龙阳广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 1
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 55
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1794",
+  "name": "南通八佰伴",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "南通市",
+  "province": "江苏省",
+  "auditFlags": [
+   "parking 49 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2010
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.35
+   },
+   {
+    "metric": "parking",
+    "value": 49
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1802",
+  "name": "BHG Mall北京华联同成街购物中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "北京市",
+  "province": "北京市",
+  "auditFlags": [
+   "parking 24 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.88
+   },
+   {
+    "metric": "parking",
+    "value": 24
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "rent": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1846",
+  "name": "重庆金开爱琴海购物中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "buildingArea 超域: 102万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 102
+   },
+   {
+    "metric": "parking",
+    "value": 7300
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1872",
+  "name": "丽江国际购物广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "丽江市",
+  "province": "云南省",
+  "auditFlags": [
+   "parking 24 疑扶梯/分钟等小值误抓",
+   "parking 24 邻接品牌/扶梯等词"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.6
+   },
+   {
+    "metric": "parking",
+    "value": 24
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1898",
+  "name": "成都环球MALL",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "buildingArea 超域: 176万㎡",
+   "parking 15000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 176
+   },
+   {
+    "metric": "parking",
+    "value": 15000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1947",
+  "name": "福州东二环泰禾广场",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "福州市",
+  "province": "福建省",
+  "auditFlags": [
+   "parking 12000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 34
+   },
+   {
+    "metric": "parking",
+    "value": 12000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 25
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "1958",
+  "name": "长沙CFC富兴时代",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "长沙市",
+  "province": "湖南省",
+  "auditFlags": [
+   "buildingArea 超域: 119.5万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2017
+   },
+   {
+    "metric": "buildingArea",
+    "value": 119.5
+   },
+   {
+    "metric": "parking",
+    "value": 10000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "1989",
+  "name": "昆明好悦天地",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "昆明市",
+  "province": "云南省",
+  "auditFlags": [
+   "parking 12000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2018
+   },
+   {
+    "metric": "buildingArea",
+    "value": 32
+   },
+   {
+    "metric": "parking",
+    "value": 12000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 11.5
+   }
+  ],
+  "_det": {
+   "inferred": {},
+   "basis": {}
+  }
+ },
+ {
+  "id": "0213",
+  "name": "龙湖重庆时代天街E馆",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "trafficPeak 55 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.8
+   },
+   {
+    "metric": "parking",
+    "value": 1096
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 55
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0222",
+  "name": "昆明王府井奥莱·滇池小镇",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "昆明市",
+  "province": "云南省",
+  "auditFlags": [
+   "parking 12000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.85
+   },
+   {
+    "metric": "parking",
+    "value": 12000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0224",
+  "name": "广州丽影广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "广州市",
+  "province": "广东省",
+  "auditFlags": [
+   "trafficPeak 60 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2003
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 488
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 60
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2030",
+  "name": "舟山东港凯虹广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "舟山市",
+  "province": "浙江省",
+  "auditFlags": [
+   "parking 2024 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 2024
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2117",
+  "name": "重庆悦荟购物中心",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "openedYear 2023 无邻近开业动词: …名「重庆悦荟购物中心」；2023…",
+   "parking 30 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2023
+   },
+   {
+    "metric": "buildingArea",
+    "value": 41.2
+   },
+   {
+    "metric": "parking",
+    "value": 30
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.05
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2215",
+  "name": "银川新百中心",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "银川市",
+  "province": "宁夏回族自治区",
+  "auditFlags": [
+   "openedYear 超域: 1952"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1952
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6.5
+   },
+   {
+    "metric": "parking",
+    "value": 520
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true,
+    "parking": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark",
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2233",
+  "name": "延吉百货大楼",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "延吉市",
+  "province": "吉林省",
+  "auditFlags": [
+   "openedYear 超域: 1950"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1950
+   },
+   {
+    "metric": "buildingArea",
+    "value": 11
+   },
+   {
+    "metric": "parking",
+    "value": 723
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "trafficWeekend": true,
+    "brands": true,
+    "crowdA": true,
+    "crowdB": true,
+    "crowdC": true
+   },
+   "basis": {
+    "trafficWeekend": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2277",
+  "name": "烟台芝罘万达广场",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "烟台市",
+  "province": "山东省",
+  "auditFlags": [
+   "openedYear 2014 无邻近开业动词: …2012.11.2奠基→2014…",
+   "buildingArea 超域: 119万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 119
+   },
+   {
+    "metric": "parking",
+    "value": 5000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 10
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "2298",
+  "name": "郑州亚细亚·卓悦城",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "郑州市",
+  "province": "河南省",
+  "auditFlags": [
+   "openedYear 2020 无邻近开业动词: …第一批历史建筑保护名录；2020…",
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2020
+   },
+   {
+    "metric": "buildingArea",
+    "value": 55
+   },
+   {
+    "metric": "parking",
+    "value": 10
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2306",
+  "name": "西安长安万科广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "西安市",
+  "province": "陕西省",
+  "auditFlags": [
+   "parking 2021 疑年份误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 10.5
+   },
+   {
+    "metric": "parking",
+    "value": 2021
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 1.65
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2309",
+  "name": "揭阳榕城万达广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "揭阳市",
+  "province": "广东省",
+  "auditFlags": [
+   "parking 16000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2021
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.3
+   },
+   {
+    "metric": "parking",
+    "value": 16000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2382",
+  "name": "成都大魔方招商花园城",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "buildingArea 超域: 112.5万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2022
+   },
+   {
+    "metric": "buildingArea",
+    "value": 112.5
+   },
+   {
+    "metric": "parking",
+    "value": 1519
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 12.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2384",
+  "name": "龙湖成都时代天街B馆",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "parking 12609 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 12609
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9.1
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2448",
+  "name": "成都GOGOEGO",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "parking 10 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2024
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 10
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2469",
+  "name": "西安金莎国际购物广场",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "西安市",
+  "province": "陕西省",
+  "auditFlags": [
+   "trafficPeak 60 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7
+   },
+   {
+    "metric": "parking",
+    "value": 500
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 60
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2484",
+  "name": "武汉天地街区",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "武汉市",
+  "province": "湖北省",
+  "auditFlags": [
+   "buildingArea 超域: 150万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2016
+   },
+   {
+    "metric": "buildingArea",
+    "value": 150
+   },
+   {
+    "metric": "parking",
+    "value": 3390
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 16
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2578",
+  "name": "北京凯德MALL·太阳宫",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "北京市",
+  "province": "北京市",
+  "auditFlags": [
+   "trafficPeak 57 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2012
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 813
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 57
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2598",
+  "name": "福州泰禾广场",
+  "rating": null,
+  "layer": "suspect",
+  "city": "福州市",
+  "province": "福建省",
+  "auditFlags": [
+   "buildingArea 超域: 150万㎡",
+   "parking 12000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2015
+   },
+   {
+    "metric": "buildingArea",
+    "value": 150
+   },
+   {
+    "metric": "parking",
+    "value": 12000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 13.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "pop3km": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2622",
+  "name": "成都环球中心",
+  "rating": null,
+  "layer": "suspect",
+  "city": "成都市",
+  "province": "四川省",
+  "auditFlags": [
+   "buildingArea 超域: 176万㎡",
+   "parking 15000 超域"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2013
+   },
+   {
+    "metric": "buildingArea",
+    "value": 176
+   },
+   {
+    "metric": "parking",
+    "value": 15000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 9.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2696",
+  "name": "上海大华锦绣优嘉",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "上海市",
+  "province": "上海市",
+  "auditFlags": [
+   "buildingArea 超域: 0.75万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2019
+   },
+   {
+    "metric": "buildingArea",
+    "value": 0.75
+   },
+   {
+    "metric": "parking",
+    "value": 60
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 3
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "buildingArea": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2725",
+  "name": "北京搜秀城",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "北京市",
+  "province": "北京市",
+  "auditFlags": [
+   "trafficPeak 58 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2004
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 240
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 58
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2733",
+  "name": "南京建邺万达广场",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "南京市",
+  "province": "江苏省",
+  "auditFlags": [
+   "buildingArea 超域: 110万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2009
+   },
+   {
+    "metric": "buildingArea",
+    "value": 110
+   },
+   {
+    "metric": "parking",
+    "value": 7000
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 7.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekend": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2737",
+  "name": "南京澳林购物广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "南京市",
+  "province": "江苏省",
+  "auditFlags": [
+   "trafficPeak 58 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2014
+   },
+   {
+    "metric": "buildingArea",
+    "value": 8
+   },
+   {
+    "metric": "parking",
+    "value": 640
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 58
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficPeak": true,
+    "brands": true,
+    "parking": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2771",
+  "name": "昆明百货大楼",
+  "rating": "C",
+  "layer": "suspect",
+  "city": "昆明市",
+  "province": "云南省",
+  "auditFlags": [
+   "openedYear 超域: 1959"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1959
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3.6
+   },
+   {
+    "metric": "parking",
+    "value": 325
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 27.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2798",
+  "name": "石家庄裕华万达广场",
+  "rating": "A",
+  "layer": "suspect",
+  "city": "石家庄市",
+  "province": "河北省",
+  "auditFlags": [
+   "buildingArea 超域: 183万㎡"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2011
+   },
+   {
+    "metric": "buildingArea",
+    "value": 183
+   },
+   {
+    "metric": "parking",
+    "value": 2800
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 5.25
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "2805",
+  "name": "绵阳凯德广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "绵阳市",
+  "province": "四川省",
+  "auditFlags": [
+   "openedYear 2026 无邻近开业动词: …2万㎡、引入16家首店；2026…",
+   "parking 13 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2026
+   },
+   {
+    "metric": "buildingArea",
+    "value": 9
+   },
+   {
+    "metric": "parking",
+    "value": 13
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 8
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0309",
+  "name": "武汉中心百货（江汉路店）",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "武汉市",
+  "province": "湖北省",
+  "auditFlags": [
+   "openedYear 超域: 1937"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1937
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 45
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0376",
+  "name": "齐齐哈尔百货大楼",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "齐齐哈尔市",
+  "province": "黑龙江省",
+  "auditFlags": [
+   "openedYear 超域: 1950"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1950
+   },
+   {
+    "metric": "buildingArea",
+    "value": 3
+   },
+   {
+    "metric": "parking",
+    "value": 240
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 4
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficPeak": true,
+    "buildingArea": true,
+    "parking": true,
+    "brands": true
+   },
+   "basis": {
+    "parking": "benchmark",
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0390",
+  "name": "德州百货大楼",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "德州市",
+  "province": "山东省",
+  "auditFlags": [
+   "openedYear 超域: 1983"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 1983
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 480
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 6.5
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "pop3km": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "parking": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0396",
+  "name": "葫芦岛百货大楼(兴工路)",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "葫芦岛市",
+  "province": "辽宁省",
+  "auditFlags": [
+   "parking 13 疑扶梯/分钟等小值误抓"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2000
+   },
+   {
+    "metric": "buildingArea",
+    "value": 7.5
+   },
+   {
+    "metric": "parking",
+    "value": 13
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 2
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "brands": true
+   },
+   "basis": {}
+  }
+ },
+ {
+  "id": "0406",
+  "name": "重庆重百大楼解放碑商场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "重庆市",
+  "province": "重庆市",
+  "auditFlags": [
+   "trafficPeak 90 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2001
+   },
+   {
+    "metric": "buildingArea",
+    "value": 2.5
+   },
+   {
+    "metric": "parking",
+    "value": 200
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 90
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "parking": true,
+    "trafficPeak": true
+   },
+   "basis": {
+    "parking": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0415",
+  "name": "广州光明广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "广州市",
+  "province": "广东省",
+  "auditFlags": [
+   "openedYear 2005 无邻近开业动词: …→2000水闸遗址停工→2005…",
+   "trafficPeak 52.9 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2005
+   },
+   {
+    "metric": "buildingArea",
+    "value": 6
+   },
+   {
+    "metric": "parking",
+    "value": 99
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 52.9
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "buildingArea": true,
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true,
+    "rent": true,
+    "brands": true
+   },
+   "basis": {
+    "brands": "benchmark"
+   }
+  }
+ },
+ {
+  "id": "0460",
+  "name": "广州恒润广场",
+  "rating": "B",
+  "layer": "suspect",
+  "city": "广州市",
+  "province": "广东省",
+  "auditFlags": [
+   "trafficPeak 95 万人次/日 疑全域/累计口径"
+  ],
+  "checks": [
+   {
+    "metric": "openedYear",
+    "value": 2008
+   },
+   {
+    "metric": "buildingArea",
+    "value": 16
+   },
+   {
+    "metric": "parking",
+    "value": 600
+   },
+   {
+    "metric": "trafficPeak",
+    "value": 95
+   }
+  ],
+  "_det": {
+   "inferred": {
+    "trafficWeekday": true,
+    "trafficWeekend": true,
+    "trafficPeak": true
+   },
+   "basis": {}
+  }
+ }
+]

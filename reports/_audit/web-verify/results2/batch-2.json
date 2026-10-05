@@ -1,0 +1,745 @@
+[
+ {
+  "id": "0235",
+  "name": "南京金鹰中心（新街口）B座",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 1996,
+    "verdict": "conflict",
+    "query": "南京新街口 金鹰中心 停车位 数量",
+    "source_url": "https://www.netge.com",
+    "source_level": "official",
+    "evidence": "金鹰官网：南京金鹰新街口店（汉中路89号）建筑面积约11万平方米，1996年开业",
+    "note": "B座为1996年金鹰国际商城双塔之一（金鹰国际酒店坐落B座）；外部口径为新街口店整体首开年份。内部2014疑为B座商业改造/新馆节点（另见新馆2015-11开业说法），按『以原始开业为准』判conflict，建议复核B座口径"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 11,
+    "verdict": "unit_mismatch",
+    "query": "南京新街口 金鹰中心 停车位 数量",
+    "source_url": "https://www.netge.com",
+    "source_level": "official",
+    "evidence": "金鹰官网：新街口店建筑面积约11万平方米",
+    "note": "外部11万㎡为金鹰新街口店整体建面，内部6.5万㎡疑为B座单体/部分口径，范围不可比；若按数值差约45%为minor_diff，因口径差异判unit_mismatch"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京新街口 金鹰中心 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组词检索（限流重试）均未见车位数，仅订房平台提及酒店有公共停车位",
+    "note": "检索多受限流，未获任何车位数"
+   }
+  ]
+ },
+ {
+  "id": "0278",
+  "name": "长沙万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2024,
+    "external": 2024,
+    "verdict": "match",
+    "query": "长沙万象城 开业时间 建筑面积 万㎡",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "联商网/新浪财经：长沙万象城（岳麓区）开业于2024年12月18日",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17.4,
+    "external": 17.4,
+    "verdict": "match",
+    "query": "长沙万象城 开业时间 建筑面积 万㎡",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "新浪财经：总建筑面积26.7万平方米，购物中心体量约17.4万平方米",
+    "note": "取购物中心口径；项目总建面26.7万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙万象城 开业 客流 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两组词检索未获车位数（多受限流）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": 25,
+    "verdict": "unit_mismatch",
+    "query": "长沙万象城 开业 首日 客流 万人次 12月18日",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "搜索汇总（媒体转述）：2024-12-18开业当日客流超25万人次",
+    "note": "开业首日口径，非节假日稳定单日峰值，按规则判unit_mismatch；另见2025春节『最高客流量峰值同比增长20%』无绝对值"
+   }
+  ]
+ },
+ {
+  "id": "0301",
+  "name": "长春欧亚商都(红旗街)",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1994,
+    "external": 1993,
+    "verdict": "minor_diff",
+    "query": "长春欧亚商都 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：欧亚商都（工农大路1128号）成立于1993年",
+    "note": "差1年（成立1993 vs 内部1994），试营业/正式开业口径差"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 17,
+    "external": 17,
+    "verdict": "match",
+    "query": "长春欧亚商都 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：总建筑面积17万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "长春欧亚商都 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：室内外停车场总面积1万多平方米",
+    "note": "外部为停车场面积（㎡）非车位数，与内部1000个不可比"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春欧亚商都 日均客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索到节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0306",
+  "name": "长春欧亚卖场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2000,
+    "external": 2000,
+    "verdict": "match",
+    "query": "长春欧亚商都 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科/官网：欧亚卖场2000年12月开业，单体建筑面积60万平方米（号称世界第一大商业综合体）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 60,
+    "external": 60,
+    "verdict": "match",
+    "query": "长春欧亚商都 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科/官网：单体建筑面积达60万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 10000,
+    "external": 10000,
+    "verdict": "match",
+    "query": "长春欧亚卖场 日均客流 峰值 万人次",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E6%AC%A7%E4%BA%9A%E5%8D%96%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "维基百科：泊车位近万个",
+    "note": "『近万个』与内部10000一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 65,
+    "external": 60,
+    "verdict": "match",
+    "query": "长春欧亚卖场 日均客流 峰值 万人次",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E6%AC%A7%E4%BA%9A%E5%8D%96%E5%9C%BA",
+    "source_level": "self-media",
+    "evidence": "维基百科：2013年卖场全年商品销售收入95亿元，年接待客流超1亿人次，日最高客流达60万人次",
+    "note": "auditFlag复核：65为卖场单体『日最高客流』口径（与维基60万同量级，近年另有80万说法），非全域/累计口径误抓，差约8%判match"
+   }
+  ]
+ },
+ {
+  "id": "0316",
+  "name": "重庆时代广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2005,
+    "verdict": "conflict",
+    "query": "重庆时代广场 解放碑 开业时间 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科（时代广场·渝中区高端购物中心）：开业2005年（搜索汇总转述）",
+    "note": "前身美美时代广场（2004年前后开业）2011年前后更名重庆时代广场；内部2011疑取更名年份，按『以原始开业为准』判conflict；年份句未获片段原文，建议复核"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆时代广场 解放碑 开业时间 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见建筑面积数据（检索受限流）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": 300,
+    "verdict": "conflict",
+    "query": "重庆时代广场 解放碑 开业时间 停车位",
+    "source_url": "https://h5.cqliving.com/info/detail/15078674.html",
+    "source_level": "media",
+    "evidence": "重庆本地资讯：时代广场停车场共有300个停车位（另有304个正式停车位口径）",
+    "note": "auditFlag复核：外部300/304 vs 内部500，差64%>50%判conflict，内部500疑为邻接词污染误抓"
+   }
+  ]
+ },
+ {
+  "id": "0412",
+  "name": "苏州比斯特购物村",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "比斯特苏州购物村 一期 开业 2014 面积",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "搜索汇总（行业媒体转述）：比斯特苏州（原奕欧来）一期2014年开业，2020年更名比斯特",
+    "note": "年份句未获片段原文；赢商网片段证实三期扩建2026年春开业、项目为比斯特系列中国首村，沿革与内部一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "比斯特苏州购物村 一期 开业 2014 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "一期商业面积未见公开数字；三期扩建2026年春开业（赢商网片段）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "奕欧来苏州 购物村 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获停车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州比斯特购物村 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未检索节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0417",
+  "name": "东莞松山湖万象汇",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "东莞松山湖万象汇 2023 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "多组词检索均遭限流/超时，未获片段；检索汇总（知识性转述）开业说法不一（2021-12 或 2023），无法采信",
+    "note": "内部2023待后续轮次复核"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "东莞松山湖万象汇 2023 开业 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获片段；检索汇总（知识性）称约10万㎡量级，未核实",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 900,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "东莞松山湖万象汇 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "东莞松山湖万象汇 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0422",
+  "name": "深圳益田假日广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "深圳益田假日广场 2008年开业 商业面积 华侨城",
+    "source_url": "https://m.map.360.cn",
+    "source_level": "self-media",
+    "evidence": "搜索汇总（360地图POI）：2008年8月30日开业，华侨城核心区双地铁上盖",
+    "note": "日期句为搜索汇总转述"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "深圳益田假日广场 2008年开业 商业面积 华侨城",
+    "source_url": "https://m.map.360.cn",
+    "source_level": "self-media",
+    "evidence": "搜索汇总：总建筑面积13.58万平方米，商业面积约10万平方米",
+    "note": "取商业面积口径；项目总建面13.58万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳益田假日广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳益田假日广场 节假日 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0430",
+  "name": "合肥银泰中心二期",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2023,
+    "verdict": "conflict",
+    "query": "合肥银泰中心二期 开业时间 建筑面积 停车位",
+    "source_url": "http://m.linkshop.com",
+    "source_level": "trade",
+    "evidence": "百度百科：项目分两期开发，一期于2012年开业；联商网：二期2023年前后建成开业（规划公示总建面约10.5万方）",
+    "note": "条目为『二期』，外部一期2012/二期约2023；内部2012疑取一期开业年份，≥2年差判conflict，建议按一/二期拆分口径复核"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 10.5,
+    "verdict": "minor_diff",
+    "query": "合肥银泰中心二期 项目 商业面积 开业",
+    "source_url": "http://m.linkshop.com",
+    "source_level": "trade",
+    "evidence": "联商网：合肥银泰中心二期总建筑面积约10.5万方，地上面积约6.8万方",
+    "note": "内部15万㎡与二期10.5万㎡差约30-43%，疑为一二期合计或含写字楼口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 840,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥银泰中心二期 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "专项检索仅见周边小区车位信息，无二期车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥银泰中心 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0446",
+  "name": "潍坊泰华城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2007,
+    "verdict": "minor_diff",
+    "query": "潍坊泰华城 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科（主项目）：2007年1月10日正式开业（搜索汇总转述）",
+    "note": "差1年；坊子泰华城（2021-09开业、13万㎡）为另一项目，勿混用"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 33,
+    "verdict": "conflict",
+    "query": "泰华城 REIT 潍坊 建筑面积 万平方米 新天地",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "观点网：国联安泰华城REIT底层资产为潍坊泰华城，商业体量达33万平方米",
+    "note": "REIT商业体量33万㎡ vs 内部20万㎡，差65%判conflict；泰华城为多期商业群（REIT口径中新天地及接建项目建面11.95万㎡），内部20万㎡疑为局部口径，建议复核"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "潍坊泰华城 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索汇总称3000个停车位及智能寻车缴费系统（未获片段原句），与内部2000差50%待核",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "潍坊泰华城 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0553",
+  "name": "兰州国芳百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1999,
+    "external": 1999,
+    "verdict": "match",
+    "query": "兰州国芳百货购物广场 1999年 开业 张国芳",
+    "source_url": "https://m.qcc.com/firm/72a8d9a809d62388096412b5da0c0077.html",
+    "source_level": "media",
+    "evidence": "企查查：兰州国芳百货购物广场有限责任公司成立于1999-05-11；搜索汇总：1999年8月正式开业（东方红广场店）",
+    "note": "注册与开业均在1999年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.2,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "兰州国芳百货 购物广场 开业 1998 1999 面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "搜索汇总（百科/官网）：建筑面积约10万余平方米；早期资料经营面积约8万平方米",
+    "note": "面积句未获片段原文；内部14.2万㎡与10万余㎡差约42%，疑为含塔楼或2025年『国芳中心』升级后口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兰州国芳百货 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "兰州国芳百货 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0557",
+  "name": "呼和浩特振华广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "呼和浩特 振华广场 购物中心 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%8C%AF%E5%8D%8E%E5%B9%BF%E5%9C%BA/62605987",
+    "source_level": "self-media",
+    "evidence": "百度百科：2019年12月19日开业（搜索汇总转述）；百科片段证实项目地下直连新华广场站",
+    "note": "日期句为汇总转述"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22,
+    "external": 22,
+    "verdict": "match",
+    "query": "呼和浩特 振华广场 购物中心 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E6%8C%AF%E5%8D%8E%E5%B9%BF%E5%9C%BA/62605987",
+    "source_level": "self-media",
+    "evidence": "百度百科：项目总建筑面积34万平方米，含自持的22万平方米购物中心",
+    "note": "取自持购物中心22万㎡口径；项目总建面34万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 3300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特振华广场 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "呼和浩特振华广场 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0589",
+  "name": "长沙平和堂百货（五一广场）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1998,
+    "external": 1998,
+    "verdict": "match",
+    "query": "长沙平和堂 五一广场 开业 1998 建筑面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "搜索汇总（百科/问答）：1998年11月8日隆重开业（日资参与兴建经营的商厦）",
+    "note": "日期句为汇总转述"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.94,
+    "external": 7.94,
+    "verdict": "match",
+    "query": "长沙平和堂 五一广场 开业 1998 建筑面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "建筑面积约79,419平方米（=7.94万㎡）",
+    "note": "数值精确一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙平和堂 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 19.04,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙平和堂 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": "内部19.04为非常规精度数值，外部无佐证"
+   }
+  ]
+ },
+ {
+  "id": "0590",
+  "name": "长沙王府井百货(五一广场店)",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": null,
+    "external": 2004,
+    "verdict": "match",
+    "query": "长沙王府井百货 黄兴中路 开业时间 2004",
+    "source_url": "https://www.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎（长沙城市内容）：2002年黄兴路步行街完工，2004年王府井百货开业，五一商圈正式成型",
+    "note": "内部为空，无冲突可比；外部2004年开业证据充分，建议补录"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙王府井百货 黄兴中路 开业时间 2004",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见建面数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 180,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙王府井百货 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长沙王府井百货 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0593",
+  "name": "温州世贸银泰百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2006,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州世贸大厦 银泰百货 温州 开业时间",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅获百度地图POI与2020年国庆B馆开业报道；搜索汇总转述2006年前后随世贸大厦裙楼开业（与内部一致但无片段原文）",
+    "note": "2006年原开业年份待后续轮次补证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州世贸大厦 银泰百货 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获面积数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州世贸银泰 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "温州世贸银泰 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获节假日单日峰值数据",
+    "note": ""
+   }
+  ]
+ }
+]

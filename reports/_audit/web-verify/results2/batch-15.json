@@ -1,0 +1,287 @@
+[
+ {
+  "id": "2192",
+  "name": "南京金鹰世界",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2017, "external": 2017, "verdict": "match",
+    "query": "南京金鹰世界 开业时间 建筑面积", "source_url": "http://m.winshang.com", "source_level": "trade",
+    "evidence": "2017年11月18日50万㎡裙楼开业，开业首日客流36.8万", "note": ""},
+   {"metric": "buildingArea", "internal": 91.8, "external": 91.8, "verdict": "match",
+    "query": "南京金鹰世界 91.8万方 总建筑面积", "source_url": "https://newtown.nanjing.gov.cn", "source_level": "official",
+    "evidence": "总建面约91.8万㎡，商业裙楼50万㎡，亚洲单体最大购物中心之一", "note": "内部为综合体总建面口径；商业面积口径为50万㎡"},
+   {"metric": "parking", "internal": 5000, "external": 5000, "verdict": "match",
+    "query": "南京金鹰世界 停车位 多少个", "source_url": "https://newtown.nanjing.gov.cn", "source_level": "official",
+    "evidence": "停车楼与地下4层停车场合计5000个停车位", "note": ""},
+   {"metric": "trafficPeak", "internal": 15, "external": 36.8, "verdict": "unit_mismatch",
+    "query": "南京金鹰世界 节假日 客流 万人次", "source_url": "http://m.winshang.com", "source_level": "trade",
+    "evidence": "开业首日36.8万人次；元通商圈节假日重点商场合计88.4万", "note": "仅见开业首日与商圈全域口径，未检到节假日单日15万来源"}
+  ]
+ },
+ {
+  "id": "2198",
+  "name": "深圳KK mall",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2010, "external": 2010, "verdict": "match",
+    "query": "KK MALL 京基百纳空间 2010年 开业 购物中心", "source_url": "https://zhidao.baidu.com", "source_level": "self-media",
+    "evidence": "KK MALL为京基集团旗下大型购物中心，2010年正式投入运营", "note": ""},
+   {"metric": "buildingArea", "internal": 60, "external": 8.35, "verdict": "unit_mismatch",
+    "query": "KK MALL 京基 百纳空间 商业面积 万平方米", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "KK MALL商业建筑面积8.35万㎡，地上四层地下一层", "note": "外部为单体商业面积口径；60疑为京基系项目总面积或综合体总建面，不可比"},
+   {"metric": "parking", "internal": 1650, "external": null, "verdict": "no_external_data",
+    "query": "京基100 KK MALL 停车位 多少", "source_url": null, "source_level": null,
+    "evidence": "", "note": "仅见停车收费与会员免停政策，无车位总数"},
+   {"metric": "trafficPeak", "internal": 9, "external": 8, "verdict": "unit_mismatch",
+    "query": "KK MALL 罗湖 客流量 万人次 日均", "source_url": "https://zsrbapp.zsnews.cn", "source_level": "media",
+    "evidence": "2023春节前三天KK MALL、金光华、万象城合计客流约8万人次", "note": "仅见三综合体合计累计口径，无单体节假日峰值"}
+  ]
+ },
+ {
+  "id": "2261",
+  "name": "苏州中心商场一期",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2017, "external": 2017, "verdict": "match",
+    "query": "苏州中心商场 开业时间 建筑面积", "source_url": "https://jsnews.jschina.com.cn", "source_level": "media",
+    "evidence": "2017年11月11日苏州中心开业，苏州最大商业综合体", "note": ""},
+   {"metric": "buildingArea", "internal": 30, "external": 35, "verdict": "match",
+    "query": "苏州中心商场 开业时间 建筑面积", "source_url": "https://jsnews.jschina.com.cn", "source_level": "media",
+    "evidence": "商场总面积高达36万平米（另有总建面35万㎡/营业25万㎡口径）", "note": "auditFlag疑综合体口径；30与商场口径35-36万㎡差14-17%，属同口径可比；整体项目113万㎡才是综合体总建面"},
+   {"metric": "parking", "internal": 6000, "external": 6000, "verdict": "match",
+    "query": "苏州中心广场 地下停车场 车位数量", "source_url": "https://finance.sina.cn", "source_level": "media",
+    "evidence": "苏州中心广场仅地下停车位就高达6000个", "note": "口径为综合体地下总车位（含写字楼、东方之门）"},
+   {"metric": "trafficPeak", "internal": 65, "external": 331, "verdict": "unit_mismatch",
+    "query": "苏州中心商场 节假日 客流 万人次 单日", "source_url": "https://view.inews.qq.com", "source_level": "media",
+    "evidence": "2025双节总客流331万人次；2026Q1日均客流稳定20万", "note": "auditFlag成立：外部为累计与日均口径，折算双节日均约41万；单日65万未检到权威来源，疑全域/累计口径"}
+  ]
+ },
+ {
+  "id": "2262",
+  "name": "龙湖重庆北城天街",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2003, "external": 2003, "verdict": "match",
+    "query": "龙湖重庆北城天街 开业时间 2003 建筑面积", "source_url": null, "source_level": "media",
+    "evidence": "北城天街2003年开业，龙湖首座天街、重庆首座现代化购物中心", "note": "搜狐/新浪报道转述，未取到原文链接"},
+   {"metric": "buildingArea", "internal": 14, "external": 14, "verdict": "match",
+    "query": "北城天街 观音桥 购物中心 建筑面积 万平方米", "source_url": "https://baike.baidu.com", "source_level": "self-media",
+    "evidence": "北城天街建筑面积约14万平方米，观音桥超大型购物中心", "note": ""},
+   {"metric": "parking", "internal": 800, "external": null, "verdict": "no_external_data",
+    "query": "重庆北城天街 商业面积 14万方 停车位", "source_url": null, "source_level": null,
+    "evidence": "", "note": "仅见停车难与停车场改造讨论，无车位数"},
+   {"metric": "trafficPeak", "internal": 20, "external": 20, "verdict": "match",
+    "query": "龙湖重庆北城天街 开业时间 2003 建筑面积", "source_url": null, "source_level": "media",
+    "evidence": "2018年日均客流15万人次，单日最高客流突破20万人次", "note": "媒体转述数据，未见原文链接"}
+  ]
+ },
+ {
+  "id": "2266",
+  "name": "合肥银泰in77",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2013, "external": 2012, "verdict": "minor_diff",
+    "query": "合肥银泰in77 开业时间 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "2012年1月8日合肥银泰中心正式开业；2023年4月二期开业", "note": "内部2013偏晚1年；in77系银泰中心更名，原始开业为2012-01-08"},
+   {"metric": "buildingArea", "internal": 17, "external": 15, "verdict": "match",
+    "query": "合肥银泰in77 开业时间 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media",
+    "evidence": "一期商业约9万㎡，2023年二期后商业体量扩容至15万㎡", "note": "17与15差约13%，或含总口径差异"},
+   {"metric": "parking", "internal": 1500, "external": null, "verdict": "no_external_data",
+    "query": "合肥银泰中心 in77 停车位 车位数量", "source_url": null, "source_level": null,
+    "evidence": "", "note": "两轮搜索未见车位数，仅见周边停车紧张报道"},
+   {"metric": "trafficPeak", "internal": 20, "external": 20, "verdict": "unit_mismatch",
+    "query": "合肥银泰中心 车位 个 停车费", "source_url": "https://finance.sina.cn", "source_level": "media",
+    "evidence": "步行街、银泰中心等周边节假日人流量高达20万人次", "note": "20万为淮河路步行街商圈全域口径，非商场单体；另2025年度客流1521万人次"}
+  ]
+ },
+ {
+  "id": "2272",
+  "name": "成都王府井购物中心（科华店）",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2011, "external": 2011, "verdict": "match",
+    "query": "成都王府井购物中心 科华店 开业时间 建筑面积", "source_url": "https://money.finance.sina.com.cn", "source_level": "official",
+    "evidence": "王府井首家购物中心2011年12月底于成都科华开业（试营业）", "note": "评级报告/年报口径"},
+   {"metric": "buildingArea", "internal": 5.15, "external": 5.5, "verdict": "match",
+    "query": "成都王府井购物中心 科华店 开业时间 建筑面积", "source_url": "https://money.finance.sina.com.cn", "source_level": "official",
+    "evidence": "年报披露项目总建筑面积约55,029.44㎡，租赁期20年", "note": "差约6%"},
+   {"metric": "parking", "internal": 1000, "external": null, "verdict": "no_external_data",
+    "query": "成都王府井购物中心 科华 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""},
+   {"metric": "trafficPeak", "internal": 4, "external": null, "verdict": "no_external_data",
+    "query": "成都王府井购物中心 科华 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""}
+  ]
+ },
+ {
+  "id": "2286",
+  "name": "上海五角场万达广场",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2006, "external": 2006, "verdict": "match",
+    "query": "上海五角场万达广场 开业时间 建筑面积 万平方米", "source_url": "https://www.163.com", "source_level": "media",
+    "evidence": "2006年开业的上海五角场万达广场，商业面积约25万方", "note": ""},
+   {"metric": "buildingArea", "internal": 26, "external": 25, "verdict": "match",
+    "query": "上海五角场万达广场 开业时间 建筑面积 万平方米", "source_url": "https://www.163.com", "source_level": "media",
+    "evidence": "商业面积约25万方，年销售额达50亿（华安百联REITs报告同口径）", "note": "差约4%"},
+   {"metric": "parking", "internal": 820, "external": 779, "verdict": "match",
+    "query": "五角场万达广场 停车场 车位 820", "source_url": "https://www.sohu.com", "source_level": "media",
+    "evidence": "停车指南：地下车库754个；车主手册：写字楼地下779个", "note": "754-779区间，与820差5-9%，年代与口径差异"},
+   {"metric": "trafficPeak", "internal": 19.2, "external": 16, "verdict": "match",
+    "query": "五角场万达广场 日均客流 万", "source_url": "http://sh.people.com.cn", "source_level": "media",
+    "evidence": "2025五一日均客流超16万；游园会期间单日26万；年中庆周末日均20多万", "note": "19.2处节假日16-26万区间内，量级一致"}
+  ]
+ },
+ {
+  "id": "2288",
+  "name": "武汉SKP",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2024, "external": 2024, "verdict": "match",
+    "query": "武汉SKP 开业时间 2024 建筑面积 万平方米", "source_url": "https://finance.sina.com.cn", "source_level": "media",
+    "evidence": "2024年7月26日正式开业，武昌楚河汉街商圈", "note": ""},
+   {"metric": "buildingArea", "internal": 13.82, "external": 15, "verdict": "match",
+    "query": "武汉SKP 开业时间 2024 建筑面积 万平方米", "source_url": "https://www.163.com", "source_level": "media",
+    "evidence": "总建面约20万㎡，营业面积约15万㎡", "note": "13.82与营业面积15万㎡差约8%；与总建面20万差31%，内部取营业面积口径"},
+   {"metric": "parking", "internal": 380, "external": null, "verdict": "no_external_data",
+    "query": "武汉SKP 停车位 车位", "source_url": null, "source_level": null,
+    "evidence": "", "note": "仅见周边汉街万达约1200车位等第三方停车场信息，无本项目车位数"},
+   {"metric": "trafficPeak", "internal": 10, "external": 10, "verdict": "match",
+    "query": "武汉SKP 开业首日 客流 万人次", "source_url": "https://sw.wuhan.gov.cn", "source_level": "official",
+    "evidence": "试营业期日均客流近10万人次；开业一年累计客流近2000万人次", "note": "外部为试营业日均口径，与10万峰值量级一致"}
+  ]
+ },
+ {
+  "id": "2290",
+  "name": "龙湖重庆时代天街ABC馆",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2014, "external": 2014, "verdict": "match",
+    "query": "重庆时代天街 A馆 B馆 C馆 商业体量 万方", "source_url": "https://cq.cnr.cn", "source_level": "media",
+    "evidence": "2012年12月A/B馆开业，C馆2014年12月开业补齐ABC三馆", "note": "内部取ABC三馆成型年份；项目首开为2012"},
+   {"metric": "buildingArea", "internal": 33, "external": 33, "verdict": "match",
+    "query": "重庆时代天街 A馆 B馆 C馆 商业体量 万方", "source_url": "https://cq.cnr.cn", "source_level": "media",
+    "evidence": "C馆开业后A、B、C三馆纯商业面积合计33万平方米", "note": ""},
+   {"metric": "parking", "internal": 1154, "external": 1154, "verdict": "match",
+    "query": "重庆时代天街 停车位 1154 OR 车位数", "source_url": "http://www.bwinchina.net", "source_level": "official",
+    "evidence": "龙湖时代天街三期停车库备案停车位数1154个", "note": ""},
+   {"metric": "trafficPeak", "internal": 55, "external": null, "verdict": "no_external_data",
+    "query": "时代天街 单日客流 破 万人次 五一 国庆", "source_url": null, "source_level": null,
+    "evidence": "", "note": "auditFlag成立：外部见常态日均32万（2023，全项目）与大坪商圈节假日日均26-30万，未见55万单日口径，疑全域/累计"}
+  ]
+ },
+ {
+  "id": "2295",
+  "name": "绍兴银泰百货",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2014, "external": 2014, "verdict": "match",
+    "query": "绍兴银泰城 开业 购物中心 解放路", "source_url": null, "source_level": "media",
+    "evidence": "绍兴银泰百货2014年12月12日开业，填补城南大型综合体空白", "note": "TOM商业转述，未取到原文链接"},
+   {"metric": "buildingArea", "internal": 25, "external": 25, "verdict": "match",
+    "query": "绍兴银泰城 开业 购物中心 解放路", "source_url": "http://zj.taxs.vip", "source_level": "trade",
+    "evidence": "总建筑面积25万㎡，含12万㎡购物中心与5万㎡室外商业街", "note": ""},
+   {"metric": "parking", "internal": 1800, "external": null, "verdict": "no_external_data",
+    "query": "绍兴银泰城 停车位 客流 万人次", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""},
+   {"metric": "trafficPeak", "internal": 12.5, "external": null, "verdict": "no_external_data",
+    "query": "绍兴银泰城 停车位 客流 万人次", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""}
+  ]
+ },
+ {
+  "id": "2301",
+  "name": "兰州万象城",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2023, "external": 2023, "verdict": "match",
+    "query": "兰州万象城 开业时间 2023 建筑面积 万平方米", "source_url": "https://view.inews.qq.com", "source_level": "media",
+    "evidence": "2023年4月26日兰州万象城正式开业", "note": ""},
+   {"metric": "buildingArea", "internal": 8.4, "external": 8.4, "verdict": "match",
+    "query": "兰州万象城 开业时间 2023 建筑面积 万平方米", "source_url": "https://view.inews.qq.com", "source_level": "media",
+    "evidence": "商业总体量约15.68万㎡，营业面积约8.4万㎡", "note": "内部取营业面积口径，精确一致；总建面15.68万㎡"},
+   {"metric": "parking", "internal": 2200, "external": null, "verdict": "no_external_data",
+    "query": "兰州万象城 停车 收费 车位数量", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""},
+   {"metric": "trafficPeak", "internal": 11, "external": null, "verdict": "no_external_data",
+    "query": "兰州万象城 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""}
+  ]
+ },
+ {
+  "id": "2361",
+  "name": "成都SKP",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2023, "external": 2022, "verdict": "minor_diff",
+    "query": "成都SKP 开业 建筑面积", "source_url": "https://news.qq.com", "source_level": "media",
+    "evidence": "2022年12月20日正式对外试营业，2023年为首个完整运营年度", "note": "试营业2022-12与2023正式运营相差±1年"},
+   {"metric": "buildingArea", "internal": 15.1, "external": 15.1, "verdict": "match",
+    "query": "成都SKP 开业 建筑面积", "source_url": "https://news.qq.com", "source_level": "media",
+    "evidence": "总建面约34.4万㎡，其中商业面积约15.1万㎡", "note": "内部取商业面积口径，精确一致"},
+   {"metric": "parking", "internal": 2600, "external": null, "verdict": "no_external_data",
+    "query": "成都SKP 停车位 车位 数量", "source_url": null, "source_level": null,
+    "evidence": "", "note": "仅见开业初期停车紧张报道，无车位总数"},
+   {"metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data",
+    "query": "成都SKP 客流 万人次", "source_url": null, "source_level": null,
+    "evidence": "", "note": "搜索限流，未获客流数据"}
+  ]
+ },
+ {
+  "id": "2391",
+  "name": "长沙步步高星城天地",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match",
+    "query": "步步高星城天地 长沙 开业", "source_url": "https://www.eeeck.com", "source_level": "self-media",
+    "evidence": "2022年1月1日正式开业（2周年报道佐证）", "note": ""},
+   {"metric": "buildingArea", "internal": 60, "external": 60, "verdict": "match",
+    "query": "长沙步步高星城天地 开业时间 建筑面积 万方", "source_url": "http://www.ccagm.org.cn", "source_level": "media",
+    "evidence": "60亿综合体，总建筑面积超60万平方米", "note": "综合体总口径"},
+   {"metric": "parking", "internal": 4000, "external": 4000, "verdict": "match",
+    "query": "星城天地 长沙 停车位 客流", "source_url": null, "source_level": "media",
+    "evidence": "乐居财经：停车场车位数量约4000个", "note": "规划口径，未取到原文链接"},
+   {"metric": "trafficPeak", "internal": 10, "external": null, "verdict": "no_external_data",
+    "query": "星城天地 长沙 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""}
+  ]
+ },
+ {
+  "id": "2395",
+  "name": "贵阳荔星中心",
+  "layer": "S2",
+  "results": [
+   {"metric": "openedYear", "internal": 2022, "external": 2022, "verdict": "match",
+    "query": "贵阳荔星中心 开业时间 建筑面积", "source_url": "https://www.163.com", "source_level": "media",
+    "evidence": "2022年8月18日正式开业，贵州首个奢侈品购物中心", "note": ""},
+   {"metric": "buildingArea", "internal": 35, "external": 35, "verdict": "match",
+    "query": "贵阳荔星中心 开业时间 建筑面积", "source_url": "https://www.163.com", "source_level": "media",
+    "evidence": "总建筑面积约35万平方米，观山湖区综合性商业体", "note": ""},
+   {"metric": "parking", "internal": 2500, "external": null, "verdict": "no_external_data",
+    "query": "贵阳荔星中心 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": ""},
+   {"metric": "trafficPeak", "internal": 9, "external": null, "verdict": "no_external_data",
+    "query": "贵阳荔星中心 停车位 客流", "source_url": null, "source_level": null,
+    "evidence": "", "note": "仅见LV等品牌经营报道，无客流数据"}
+  ]
+ },
+ {
+  "id": "2401",
+  "name": "成都万象城二期",
+  "layer": "A+2",
+  "results": [
+   {"metric": "openedYear", "internal": 2020, "external": 2020, "verdict": "match",
+    "query": "成都万象城二期 开业时间 2020 建筑面积 万方", "source_url": "https://www.chenghua.gov.cn", "source_level": "official",
+    "evidence": "成华区政府：万象城二期项目已于2020年12月开业", "note": ""},
+   {"metric": "buildingArea", "internal": 30, "external": 30, "verdict": "match",
+    "query": "成都万象城二期 开业时间 2020 建筑面积 万方", "source_url": "https://www.chenghua.gov.cn", "source_level": "official",
+    "evidence": "一二期合计商业体量28.7万㎡；整体30万方为主城最大商业综合体", "note": "30为一二期合计商业口径；二期单独商业约16.2万㎡"},
+   {"metric": "parking", "internal": 3000, "external": 3000, "verdict": "match",
+    "query": "成都万象城 停车位 客流 万人次 周年", "source_url": null, "source_level": "media",
+    "evidence": "成都万象城停车场配套约3000余个车位（新浪财经2024）", "note": "未取到原文链接"},
+   {"metric": "trafficPeak", "internal": 25, "external": 30, "verdict": "match",
+    "query": "成都万象城 停车位 客流 万人次 周年", "source_url": "https://sichuan.scol.com.cn", "source_level": "media",
+    "evidence": "2023-12-31单日客流突破30万为全年最高；二期开业首日45万", "note": "内部25与单日最高30万量级一致（差17%），未见25直接来源；开业首日45万口径不计"}
+  ]
+ }
+]

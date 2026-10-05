@@ -1,0 +1,756 @@
+[
+ {
+  "id": "2622",
+  "name": "成都环球中心",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "成都环球中心 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2013年正式开业（一说2013年7月1日/9月）",
+    "note": "开业第一年接待顾客超1500万人次（新浪）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 176,
+    "external": 176,
+    "verdict": "match",
+    "query": "成都环球中心 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "新世纪环球中心总建筑面积约176万平米，世界最大单体建筑之一",
+    "note": "超域标记系真实超大单体体量，非提取错误"
+   },
+   {
+    "metric": "parking",
+    "internal": 15000,
+    "external": 15000,
+    "verdict": "match",
+    "query": "成都环球中心 停车位 多少个",
+    "source_url": "http://www.landscape.cn",
+    "source_level": "media",
+    "evidence": "新世纪环球中心·中央商务城…15000个停车位",
+    "note": "超域标记系真实配置，与超大综合体规模匹配"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都环球中心 客流 单日 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见开业首年累计1500万人次（≈日均4万），未见节假日单日峰值直接来源"
+   }
+  ]
+ },
+ {
+  "id": "2696",
+  "name": "上海大华锦绣优嘉",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大华锦绣优嘉 购物中心 2019年开业 浦东",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见ALDI奥乐齐2021年9月入驻该物业开业（新浪财经），购物中心本身开业时间未获权威来源"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 0.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大华锦绣优嘉 成山路 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "外部无该项目面积数据；0.75万㎡量级与社区商业定位相容但未能证实"
+   },
+   {
+    "metric": "parking",
+    "internal": 60,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海大华锦绣优嘉 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海大华锦绣优嘉 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   }
+  ]
+ },
+ {
+  "id": "2725",
+  "name": "北京搜秀城",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "北京搜秀城 开业时间 建筑面积",
+    "source_url": "https://www.visitbeijing.com.cn",
+    "source_level": "official",
+    "evidence": "搜秀城是由2004年就运营的项目改造而成",
+    "note": "北京旅游网（市文旅局）载"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": 3,
+    "verdict": "match",
+    "query": "北京搜秀城 开业时间 建筑面积",
+    "source_url": "https://www.visitbeijing.com.cn",
+    "source_level": "official",
+    "evidence": "营业面积达3万多平方米",
+    "note": "外部口径为营业面积，与内值3万㎡一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 240,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京搜秀城 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 58,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京 搜秀城 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见该商场单日客流来源；36氪提及的日客流5万非确指搜秀城；3万㎡商场58万人次/日疑为商圈/累计口径"
+   }
+  ]
+ },
+ {
+  "id": "2733",
+  "name": "南京建邺万达广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "南京建邺万达广场 开业时间 建筑面积",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "2009年12月18日南京建邺万达广场盛大开业",
+    "note": "万达集团官网"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 110,
+    "external": 100,
+    "verdict": "match",
+    "query": "南京建邺万达广场 开业时间 建筑面积",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "项目建筑面积近100万平方米，总投资额超过100亿元",
+    "note": "百科载总建面120万㎡；110介于两口径间，均属总建面（含商务/住宅），商业面积仅20.4万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 7000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京建邺万达广场 停车位数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未找到该项目确切车位数；赢商网提及南京某万达项目停车位1500多个但对象不明"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": 6.8,
+    "verdict": "match",
+    "query": "南京建邺万达广场 日客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2025年五一假期总客流超34万人次，日均6.8万+人次",
+    "note": "差约10%，节假日日均口径可比"
+   }
+  ]
+ },
+ {
+  "id": "2737",
+  "name": "南京澳林购物广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京澳林广场 浦口 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅确认位于浦口区浦珠北路126号（社区型商业），未见开业时间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京澳林广场 浦口 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见面积数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 640,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京澳林广场 浦口 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 58,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京澳林广场 客流量 人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "无单店客流来源；社区型商场58万人次/日疑为片区/累计口径，未能证实"
+   }
+  ]
+ },
+ {
+  "id": "2771",
+  "name": "昆明百货大楼",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1959,
+    "external": 1959,
+    "verdict": "match",
+    "query": "昆明百货大楼 建筑面积 营业面积 万平方米",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "1959年9月25日作为国庆十周年献礼工程正式开业",
+    "note": "和君咨询报告亦载'创建于1959年'；超域标记系真实老字号历史"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明百货大楼 建筑面积 营业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见1997年新纪元广场2万㎡商场并入（公司定期报告），未见当前总建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 325,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "昆明百货大楼 建筑面积 营业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 27.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "昆明百货大楼 节假日 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "五一假期五华区顺城、百盛、昆百大、首创奥莱等商业体合计客流120万人次",
+    "note": "内值27.5万/日与多商业体片区累计口径同量级，非单店单日"
+   }
+  ]
+ },
+ {
+  "id": "2798",
+  "name": "石家庄裕华万达广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "石家庄裕华万达广场 开业时间 建筑面积 万平方米",
+    "source_url": "https://www.wanda.cn",
+    "source_level": "official",
+    "evidence": "2011年9月23日石家庄裕华万达广场盛大开业",
+    "note": "万达集团官网"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 183,
+    "external": 183,
+    "verdict": "match",
+    "query": "石家庄裕华万达广场 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "共斥资80亿元，建筑面积183万平方米",
+    "note": "总建面口径（含写字楼/酒店/SOHO），商业面积约19.19万㎡；超域标记非提取错误"
+   },
+   {
+    "metric": "parking",
+    "internal": 2800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄裕华万达广场 停车位 日客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见确切车位总数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "石家庄裕华万达广场 停车位 日客流",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "开业当天客流近40万人次，节假日平均客流达10万人次以上",
+    "note": "内值低于外部节假日均值约47%；开业首日40万为非可比口径"
+   }
+  ]
+ },
+ {
+  "id": "2805",
+  "name": "绵阳凯德广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2026,
+    "external": 2007,
+    "verdict": "conflict",
+    "query": "绵阳凯德广场 开业时间 建筑面积 停车位",
+    "source_url": "http://www.clcreit.com",
+    "source_level": "official",
+    "evidence": "一期开业运营已超过18年（按2026年资料推算约2007年开业）",
+    "note": "2026为提取错误（疑混入资料年份）；凯德官网载涪城店分一/二期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9,
+    "external": 11,
+    "verdict": "match",
+    "query": "绵阳凯德广场 开业时间 停车位 涪城区",
+    "source_url": "https://www.capitaland.com/cn/zh/shop/malls-listing/capitamallfucheng.html",
+    "source_level": "official",
+    "evidence": "二期建成后整体地上6层地下3层，总建筑面积超过11万平方米",
+    "note": "差约18%；来源为搜索聚合（凯德官网/行业资料）"
+   },
+   {
+    "metric": "parking",
+    "internal": 13,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"凯德广场\" 涪城 绵阳 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见车位数；13疑为小值误抓（如扶梯数）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "绵阳凯德广场 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   }
+  ]
+ },
+ {
+  "id": "0309",
+  "name": "武汉中心百货（江汉路店）",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1937,
+    "external": 1937,
+    "verdict": "match",
+    "query": "武汉中心百货 江汉路 历史 开业年份",
+    "source_url": "https://www.whzb.com",
+    "source_level": "official",
+    "evidence": "中心百货始建于1937年，武汉市第一家大型国营百货商店",
+    "note": "中百集团官网；超域标记系真实老字号历史，非提取错误"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉中心百货大楼 建筑面积 营业面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "老字号单栋百货，公开无确切面积来源"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 45,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "江汉路步行街 节假日 日客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2023年十一前3天江汉路人流量累计110万人次，日均约37万",
+    "note": "45万与江汉路步行街全域节假日口径同量级，非单店"
+   }
+  ]
+ },
+ {
+  "id": "0376",
+  "name": "齐齐哈尔百货大楼",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1950,
+    "external": null,
+    "verdict": "minor_diff",
+    "query": "齐齐哈尔百货大楼 建店 历史 1950",
+    "source_url": "https://guideme.city",
+    "source_level": "self-media",
+    "evidence": "1950年代建成的苏式商场，底层为营业大厅",
+    "note": "外部证实1950年代建成但未精确到1950年；1987年为股份公司成立/新业节点，非原始开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": 9.3,
+    "verdict": "conflict",
+    "query": "齐齐哈尔百货大楼 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "主体建筑'齐齐哈尔百货大楼'营业面积达9.3万平方米",
+    "note": "外部为营业面积口径（赢商网载6.9万㎡），内值低约2/3，疑为扩建前数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 240,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "齐齐哈尔百货大楼 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到（内部为基准推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "齐齐哈尔百货大楼 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   }
+  ]
+ },
+ {
+  "id": "0390",
+  "name": "德州百货大楼",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1983,
+    "external": 1983,
+    "verdict": "match",
+    "query": "德州百货大楼 开业时间 建筑面积 历史",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "德州百货大楼于1983年建店（德百集团核心企业）",
+    "note": "来源为搜索聚合（企业简介/问答），未附直达链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 6,
+    "verdict": "match",
+    "query": "德州百货大楼 开业时间 建筑面积 历史",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "营业面积约6万平方米（经扩建改造逐步扩大）",
+    "note": "外部口径为营业面积"
+   },
+   {
+    "metric": "parking",
+    "internal": 480,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "德州百货大楼 开业时间 建筑面积 历史",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到（内部为基准推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "德州百货大楼 开业时间 建筑面积 历史",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   }
+  ]
+ },
+ {
+  "id": "0396",
+  "name": "葫芦岛百货大楼(兴工路)",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2000,
+    "external": 1998,
+    "verdict": "conflict",
+    "query": "葫芦岛百货大楼 兴工路 开业时间 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "1997年12月转制拍卖，1998年6月6日重新开业，2000年第二次扩建",
+    "note": "内值2000实为第二次扩建年份，非开业年份"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 4.57,
+    "verdict": "conflict",
+    "query": "葫芦岛百货大楼 兴工路 开业时间 建筑面积",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "百货大楼营业面积45670平方米",
+    "note": "外部为营业面积口径（抖音百科），内值高约64%"
+   },
+   {
+    "metric": "parking",
+    "internal": 13,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "葫芦岛百货大楼 兴工路 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见车位数；13疑为小值误抓"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "葫芦岛百货大楼 兴工路 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   }
+  ]
+ },
+ {
+  "id": "0406",
+  "name": "重庆重百大楼解放碑商场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2001,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重百大楼 解放碑 2001年 开业 重庆百货大楼",
+    "source_url": "http://epaper.cqrb.cn",
+    "source_level": "media",
+    "evidence": "前身'三八商店'1972年因危楼重建（重庆日报）",
+    "note": "外部载公司创立1950年（亿欧）；现楼2001年开业未获直接报道证实"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆百货 解放碑 重百大楼 建筑面积 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见单店面积数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆百货 解放碑 重百大楼 建筑面积 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到（内部为基准推断值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 90,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "解放碑步行街 节假日 日均客流 万人次",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "解放碑商圈国庆迎超600万游客，日均客流超85万人次",
+    "note": "90万与解放碑商圈/步行街全域节假日口径同量级，非单店"
+   }
+  ]
+ },
+ {
+  "id": "0415",
+  "name": "广州光明广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2005,
+    "external": 2005,
+    "verdict": "match",
+    "query": "广州 光明广场 2005年 开业 北京路",
+    "source_url": "https://cj.sina.cn",
+    "source_level": "media",
+    "evidence": "2004年过后，五月花、光明广场和名盛广场三大购物中心依次开业",
+    "note": "2000年发现南越国水闸遗址停工致开业延迟，与md叙事及2005开业相容"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6,
+    "external": 6.2,
+    "verdict": "match",
+    "query": "广州光明广场 西湖路 试业 开业 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E5%85%89%E6%98%8E%E5%B9%BF%E5%9C%BA/11068638",
+    "source_level": "self-media",
+    "evidence": "建筑面积61967.44平方米，共十一层",
+    "note": "差约3%"
+   },
+   {
+    "metric": "parking",
+    "internal": 99,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州光明广场 西湖路 试业 开业 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 52.9,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "北京路步行街 节假日 日客流 万人次",
+    "source_url": "http://www.rd.yuexiu.gov.cn",
+    "source_level": "official",
+    "evidence": "假期北京路日均客流量达60万人次",
+    "note": "52.9为北京路步行街全域节假日口径，非单店"
+   }
+  ]
+ },
+ {
+  "id": "0460",
+  "name": "广州恒润广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州恒润广场 芳村 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "项目实址越秀区北京路238号（北京路文化旅游区官网），未见开业时间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": 16,
+    "verdict": "match",
+    "query": "恒润广场 广州 商业 开业 万平方米",
+    "source_url": "http://www.beijinglu.yuexiu.gov.cn",
+    "source_level": "official",
+    "evidence": "位于越秀区北京路238号…总体量超过16万平方米",
+    "note": "外部为总体量口径（含酒店公寓），商业面积仅数万㎡"
+   },
+   {
+    "metric": "parking",
+    "internal": 600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "恒润广场 广州 商业 开业 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未检索到"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 95,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "北京路步行街 节假日 日客流 万人次",
+    "source_url": "http://www.rd.yuexiu.gov.cn",
+    "source_level": "official",
+    "evidence": "假期北京路日均客流量达60万人次（2025年全年1.35亿人次）",
+    "note": "95为北京路步行街全域节假日/峰值口径，非单店"
+   }
+  ]
+ }
+]

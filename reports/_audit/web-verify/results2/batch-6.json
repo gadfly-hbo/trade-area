@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1107",
+  "name": "重庆砂之船(两江新区)奥莱",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2008,
+    "verdict": "conflict",
+    "query": "砂之船重庆两江奥莱 停车位 开业 2008",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "网易2026-06《中国奥莱走到资本化拐点》：2008年9月，砂之船（重庆两江）奥特莱斯开业",
+    "note": "内部2017与外部2008差9年；2017疑为扩建/翻新时间误作开业，建议人工复核原md"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 20,
+    "verdict": "conflict",
+    "query": "重庆砂之船奥特莱斯 两江新区 开业时间 建筑面积",
+    "source_url": "https://baike.baidu.com/item/%E7%A0%82%E4%B9%8B%E8%88%B9/23671772",
+    "source_level": "self-media",
+    "evidence": "百度百科砂之船词条：重庆两江奥莱总建筑面积20万平方米，600余个品牌",
+    "note": "官网称早期营业面积5.5万㎡；REIT多期合计口径更大（约37.77万㎡）；内部8万与公开口径均对不上，差>50%"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "砂之船REIT 重庆两江奥莱 建筑面积 平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获可引用停车位数原文；搜索摘要提及『约3000余个』但无出处链接",
+    "note": "auditFlag『3000邻接品牌/扶梯词』未获外部证实或证伪；砂之船REIT招募书或有权威数据，建议人工查上交所披露"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆砂之船奥莱 客流 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见销售额/客流同比增速报道，无单日万人次口径数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1115",
+  "name": "石家庄万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "石家庄万象城 开业时间 建筑面积 万平方米",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "搜狐2018-11-10：华润置地第36座商业综合体石家庄万象城盛大开业，开业率94%",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16.5,
+    "external": 32,
+    "verdict": "unit_mismatch",
+    "query": "石家庄万象城 开业时间 建筑面积 万平方米",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "开业报道：购物中心建筑面积达32万平方米（项目规划总建面约57万㎡含塔楼）",
+    "note": "外部32万为购物中心总建面口径；内部16.5万疑为商业/经营面积口径，同口径比较偏低约48%，建议人工确认md口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄万象城 客流 万人次 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到车位数量公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄万象城 客流 万人次 停车位 2000",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到单日客流万人次数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1122",
+  "name": "石家庄北国商城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "石家庄北国商城 开业时间 建筑面积 扩建",
+    "source_url": "https://www.moomoo.com",
+    "source_level": "media",
+    "evidence": "转引媒体报道：1996年，建筑面积12万平方米的北国商城落地石家庄核心地段，河北首家大型百货",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.5,
+    "external": 12,
+    "verdict": "match",
+    "query": "石家庄北国商城 开业时间 建筑面积 扩建",
+    "source_url": "https://www.moomoo.com",
+    "source_level": "media",
+    "evidence": "同上：建筑面积12万平方米（1996年口径）",
+    "note": "差12.5%，≤20%阈值内"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄北国商城 客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到车位数公开数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "石家庄北国商城 客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见节前出行提示提及商圈停车饱和，无单日客流万人次数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1123",
+  "name": "石家庄北国先天下广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2006,
+    "external": 2006,
+    "verdict": "match",
+    "query": "石家庄北国商城 开业时间 建筑面积 扩建",
+    "source_url": "https://www.moomoo.com",
+    "source_level": "media",
+    "evidence": "转引媒体报道：北国先天下购物广场于2006年9月30日开业（中山东路与育才街西南角）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "石家庄北国先天下 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "石家庄市财贸工会/商业联合会2025-06：北国先天下商业面积12万平方米",
+    "note": "口径为商业面积，与内部一致；百度百科另有整体建筑40万㎡口径（含非商业），不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": 1500,
+    "verdict": "match",
+    "query": "石家庄北国先天下 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "澎湃新闻2022-02《十大购物中心展播——先天下广场》：地上地下综合停车场1500个车位",
+    "note": "完全一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "石家庄北国先天下 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "知乎2023-04：北国先天下日常客流达10万人次以上",
+    "note": "外部为日常客流口径，内部节假日峰值10万偏保守但相容"
+   }
+  ]
+ },
+ {
+  "id": "1133",
+  "name": "杭州银泰百货（西湖店）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西湖银泰城 开业 2004年12月 银泰百货第二家门店",
+    "source_url": "https://pdf.dfcfw.com",
+    "source_level": "media",
+    "evidence": "债券募集文件仅证实『杭州西湖银泰百货店，上城区延安路98号』存在；开业日期无原文",
+    "note": "两次搜索摘要均提示西湖银泰城2004年12月开业（银泰杭州第二店），与内部2004相符但无可引用原文；auditFlag『2004无邻近开业动词』待人工查银泰年报/招股书确认"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西湖银泰城 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索仅返回西溪银泰城/西投银泰城等其他项目",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 360,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西湖银泰城 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到车位数公开数据",
+    "note": "ETL basis=benchmark（最低可信层），建议人工补原句"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": "ETL 标记 inferred，建议人工复核原句"
+   }
+  ]
+ },
+ {
+  "id": "1134",
+  "name": "大连时代广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "大连时代广场 开业 建筑面积 万平方米",
+    "source_url": "https://www.36kr.com",
+    "source_level": "media",
+    "evidence": "36氪：九龙仓旗下大连时代广场于2008年开业，大连顶奢重要符号（Hermès等）",
+    "note": "auditFlag『无邻近开业动词』解除：2008年开业有独立来源佐证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.88,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连时代广场 九龙仓 总建筑面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "3次搜索未见项目总建筑面积数字，报道多为定性描述",
+    "note": "九龙仓年报或有个体物业建面披露，建议人工查"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连时代广场 商场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到该商场车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.1,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连时代广场 商场 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1137",
+  "name": "成都太古里",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "成都远洋太古里 开业 2015 建筑面积 万平方米",
+    "source_url": "https://www.taikooli-chengdu.com",
+    "source_level": "official",
+    "evidence": "太古里官网/第一财经2015：成都远洋太古里2015年4月正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12.2,
+    "verdict": "match",
+    "query": "成都远洋太古里 开业 2015 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "案例资料：占地约7万㎡，总建筑面积12.2万平方米（另一口径总楼面面积11.4万㎡）",
+    "note": "差1.6%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1610,
+    "external": 1000,
+    "verdict": "minor_diff",
+    "query": "成都远洋太古里 开业 2015 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "案例资料：车位约1000个",
+    "note": "差约38%（20-50%区间）；内部1610未见官方来源，注意开放街区停车场可能分属多业主"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 70,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "成都太古里 日均客流量 万人次 节假日",
+    "source_url": "https://czt.xinjiang.gov.cn",
+    "source_level": "media",
+    "evidence": "人民日报：2024年春熙路商圈（含太古里/IFS）年客流突破2亿人次；媒体称太古里单体日均约10万、节假日高峰15-20万",
+    "note": "auditFlag证实：70万人次/日为春熙路-太古里商圈全域/累计口径折算，非项目单体节假日单日（约15-20万），建议改判或重提取"
+   }
+  ]
+ },
+ {
+  "id": "1140",
+  "name": "西安中大国际THE CITY",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安 中大国际 高新 商业 开业 2009年",
+    "source_url": "http://www.sz-lennoda.com",
+    "source_level": "trade",
+    "evidence": "项目库：中大国际The City位于高新区高新路与科技二路西南角，含丽思卡尔顿酒店+商业中心+九号住宅",
+    "note": "3次搜索未见商业部分开业年份权威记载；内部2009无法证实或证伪"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 27.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "\"中大国际THE CITY\" 西安",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到项目建面数字",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": "ETL 标记 inferred"
+   }
+  ]
+ },
+ {
+  "id": "1146",
+  "name": "北京新世界百货（崇文店）二期",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2001,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京新世界百货 崇文门 二期 开业时间 2001",
+    "source_url": "https://news.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪2004-05：1998年9月马路对面大型合资企业新世界商场开业（一期）；二期开业年份无原文",
+    "note": "一期1998年9月开业有据；二期搜索摘要先后出现『2001前后』与『2010前后』两种矛盾说法，内部2001待人工复核（新世界百货年报/北京商业志）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "崇文门新世界百货二期 开业 万平方米 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获二期商业面积可引用数据（摘要提示口径混乱，不可引用）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1150",
+  "name": "北京王府中环",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2018,
+    "verdict": "minor_diff",
+    "query": "北京王府中环 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "媒体报道：王府中环2018年6月正式开幕（王府井商业区）",
+    "note": "±1年且涉正式开业/试营业口径：2017或为试营业年份，差1年判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 15,
+    "verdict": "unit_mismatch",
+    "query": "北京王府中环 开业时间 建筑面积 停车位",
+    "source_url": "https://wap.eastmoney.com",
+    "source_level": "media",
+    "evidence": "东方财富2023-12：王府中環总建筑面积达15万平方米，其中零售面积约4.3万平方米",
+    "note": "内部3.5万接近零售面积口径（与4.3万差18.6%，≤20%）；若为总建面口径则严重偏低，建议人工确认md口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": 660,
+    "verdict": "minor_diff",
+    "query": "北京王府中环 开业时间 建筑面积 停车位",
+    "source_url": "https://wap.eastmoney.com",
+    "source_level": "media",
+    "evidence": "东方财富2023-12：项目配有660个停车位",
+    "note": "差21%，刚过20%线；auditFlag『800邻接品牌/扶梯词』的污染嫌疑有部分依据，外部660更可靠"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1154",
+  "name": "昆明柏联百盛广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2001,
+    "verdict": "conflict",
+    "query": "昆明柏联广场 百盛 开业时间 哪一年",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎《云南商业地产的成功逻辑》：昆明柏联广场2001年初开业，百盛作为第一大主力店同期进驻",
+    "note": "auditFlag证实：内部2025疑为『2025外立面改造』误提取，开业实为2001年，差24年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 10,
+    "verdict": "unit_mismatch",
+    "query": "昆明柏联广场 建筑面积 万平方米 车位",
+    "source_url": "https://www.efef.com.cn/baihuo/23928.html",
+    "source_level": "trade",
+    "evidence": "名品网：柏联广场总建筑面积10万余平方米，地下2层地上15层",
+    "note": "外部10万为含地上15层（写字楼/酒店）总建面口径；内部5万若为商业部分口径则合理，若同为总建面则恰差50%，建议人工确认口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1650,
+    "external": 300,
+    "verdict": "conflict",
+    "query": "昆明柏联广场 建筑面积 万平方米 车位",
+    "source_url": "https://www.efef.com.cn/baihuo/23928.html",
+    "source_level": "trade",
+    "evidence": "名品网：地下2层为300余个车位的停车场",
+    "note": "差超5倍；名品网资料较早，现况或有扩容，但内部1650无外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1160",
+  "name": "东莞民盈·国贸城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "东莞民盈国贸城 开业 2018 建筑面积 万平方米 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "赢商网2019-02（搜狐转载）：民盈·国贸城入选2018年全国25城最『红』新开业购物中心（2018年9月底开业）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 30,
+    "external": 30,
+    "verdict": "match",
+    "query": "民盈国贸城 商业面积 购物中心 万㎡ 东莞最大",
+    "source_url": "https://baike.baidu.com/item/%E6%B0%91%E7%9B%88%C2%B7%E5%9B%BD%E8%B4%B8%E5%9F%8E/50841341",
+    "source_level": "self-media",
+    "evidence": "百度百科：总建筑面积103万㎡，其中商业面积达30万㎡",
+    "note": "口径为商业面积30万㎡与内部一致；103万为整个民盈国贸中心（含423米塔楼群）总建面，不可混用"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 5000,
+    "verdict": "minor_diff",
+    "query": "东莞民盈国贸城 开业 2018 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "去哪儿网旅游介绍：民盈国贸中心地下停车场约5000个车位",
+    "note": "差40%（20-50%区间）；外部为整个国贸中心地下车场口径，与商业部分3000或非同一口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 30,
+    "external": 38,
+    "verdict": "minor_diff",
+    "query": "东莞国贸城 客流 万人次 单日 国庆",
+    "source_url": "https://baike.baidu.com/item/%E6%B0%91%E7%9B%88%C2%B7%E5%9B%BD%E8%B4%B8%E5%9F%8E/50841341",
+    "source_level": "self-media",
+    "evidence": "百度百科：日均客流20万人次（周末38万）；集团官方口径日均13.4万",
+    "note": "内部30万介于日均与周末之间，与周末38万差21%；节假日单日无直接报道，百科口径可靠性一般"
+   }
+  ]
+ },
+ {
+  "id": "1173",
+  "name": "北京双安商场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1994,
+    "external": 1994,
+    "verdict": "match",
+    "query": "北京双安商场 开业 1994 建筑面积",
+    "source_url": "http://form.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度文库《北京中关村商圈调查》：双安商场1994年8月18日开业，王府井百货集团全资子公司",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5.5,
+    "external": 3.6,
+    "verdict": "conflict",
+    "query": "北京双安商场 开业 1994 建筑面积",
+    "source_url": "http://form.baidu.com",
+    "source_level": "self-media",
+    "evidence": "同上：建筑面积36000平米，营业面积30000平米，营业楼共五层",
+    "note": "内部5.5万较外部建面3.6万高53%；2025年8月完成开业31年来最大规模改造，改造后口径或有变化但无新数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 275,
+    "external": 350,
+    "verdict": "minor_diff",
+    "query": "北京双安商场 开业 1994 建筑面积",
+    "source_url": "http://form.baidu.com",
+    "source_level": "self-media",
+    "evidence": "同上：350个停车位",
+    "note": "差21.4%，刚过20%线"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1179",
+  "name": "武汉武商梦时代",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "武汉武商梦时代 开业时间 2022 建筑面积 停车位",
+    "source_url": "https://sw.wuhan.gov.cn",
+    "source_level": "official",
+    "evidence": "武汉市商务局2022-11-09《大武汉商业开启『梦时代』》：武商梦时代开业",
+    "note": "auditFlag『无邻近开业动词』解除：2022-11-09开业有政府官网佐证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 80,
+    "external": 80,
+    "verdict": "match",
+    "query": "武汉武商梦时代 开业时间 2022 建筑面积 停车位",
+    "source_url": "https://sw.wuhan.gov.cn",
+    "source_level": "official",
+    "evidence": "武汉市商务局：约80万平方米庞大体量，超迪拜MALL成全球最大纯商业体（79.94万㎡）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 8000,
+    "external": 8000,
+    "verdict": "match",
+    "query": "武汉武商梦时代 开业时间 2022 建筑面积 停车位",
+    "source_url": "https://sw.wuhan.gov.cn",
+    "source_level": "official",
+    "evidence": "武汉市商务局：地上9层地下4层，配套8000个停车位",
+    "note": "完全一致（官方来源）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 30,
+    "external": 21,
+    "verdict": "minor_diff",
+    "query": "武商梦时代 客流 万人次 开业 单日",
+    "source_url": "https://sw.wuhan.gov.cn",
+    "source_level": "official",
+    "evidence": "武汉市商务局2025-05：五一假期首日单日21万人次；节假日日均超17万；年均客流4000万",
+    "note": "内部30万较可查节假日单日峰值21万高约43%（20-50%区间）；30万未见来源支撑，疑为开业期或累计口径，建议人工复核原句"
+   }
+  ]
+ },
+ {
+  "id": "1192",
+  "name": "龙湖上海闵行天街",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "\"闵行天街\" 开业 2019年12月",
+    "source_url": "https://m.36kr.com",
+    "source_level": "media",
+    "evidence": "36氪2025-01：龙湖上海闵行天街于2019年12月开业；赢商网盘点12月20日开业、196个品牌进驻",
+    "note": "内部2021晚2年，疑取自后续重定位『潮起新风』或B1焕新时间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 9.4859,
+    "verdict": "match",
+    "query": "龙湖上海闵行天街 开业时间 建筑面积 停车位",
+    "source_url": "https://pdf.dfcfw.com",
+    "source_level": "media",
+    "evidence": "龙湖年报（东财PDF）：上海闵行天街建筑面积94,859平方米，出租率99.5%",
+    "note": "差5.4%"
+   },
+   {
+    "metric": "parking",
+    "internal": 800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "龙湖上海闵行天街 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见『设有地下停车场』描述，无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": null,
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未执行独立搜索（预算所限）",
+    "note": ""
+   }
+  ]
+ }
+]

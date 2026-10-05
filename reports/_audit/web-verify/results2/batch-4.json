@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0738",
+  "name": "深圳湾万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "深圳湾万象城 2018年12月 开业 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "深圳湾万象城于2018年12月18日正式开业（新浪、搜狐等多方报道）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 8,
+    "verdict": "match",
+    "query": "深圳湾万象城 2018年12月 开业 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "项目一期商业面积约8万平方米（80,000㎡）",
+    "note": "一期口径；2025-09二期开业后一期+二期合计近25万㎡，勿混淆"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳湾万象城 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见收费标准（首小时10元、日封顶60元），无车位总数",
+    "note": "2次搜索均无确切车位数量"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 17.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳湾万象城 客流 高峰 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2025国庆首日客流近40万人次（二期开业叠加周年庆效应，新浪深圳2026-10-01）",
+    "note": "40万系2025二期开业后异常峰值，与一期17.5不同口径/时点，17.5本身未获直接印证"
+   }
+  ]
+ },
+ {
+  "id": "0751",
+  "name": "上海久光中心",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "上海久光中心 开业 建筑面积 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2021年11月27日正式开业（搜狐开业报道、静安区政府信息）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 26.7,
+    "external": 26.7,
+    "verdict": "match",
+    "query": "上海久光中心 商业面积 26万㎡ 购物中心",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业面积约26.7万㎡（商用及停车场26.3万㎡），总建面34.8万㎡、纯商业18万㎡",
+    "note": "多口径并存：总建面34.8万/商用及停车场26.3万/纯商业约18万；26.7与「商业面积26.7万㎡」报道一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1648,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海久光中心 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见商用及停车场面积26.3万㎡（B2全为商业），无车位个数",
+    "note": "2次搜索无车位总数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海久光中心 大宁 客流 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无精确客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0756",
+  "name": "西安大融城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大融城 开业 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "3次搜索因限流或无关结果未获开业年份",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大融城 开业时间 建筑面积 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获建筑面积数据",
+    "note": "搜索中见2026-09报道「毗邻大明宫遗址公园21万㎡商业体量开业时间定了」，项目归属不明（疑新项目），不作为本项目证据"
+   },
+   {
+    "metric": "parking",
+    "internal": 1800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大融城 曲江 开业时间 建筑面积 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大融城 开业时间 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0780",
+  "name": "大连麦凯乐（大连总店）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1998,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "麦凯乐大连总店 青泥洼 开业 百货",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部仅确认系大商集团旗下高端百货、位于青泥洼桥商圈，无开业年份",
+    "note": "3次搜索未获开业时间"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.37,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连麦凯乐 大连商场 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无建筑面积数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连麦凯乐 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 0.8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "大连麦凯乐 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无节假日峰值数据（仅见西安路店闭店与商圈客流稀疏的定性报道）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0785",
+  "name": "宁波阪急百货",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "宁波阪急百货 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2021年4月16日正式开业（新浪财经、凤凰财经等多方报道）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 23,
+    "verdict": "minor_diff",
+    "query": "宁波阪急百货 总建筑面积 商业体量",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2022-02新浪财经：商业经营面积高达23万平方米",
+    "note": "口径分歧：另有报道称占地/总体量约23万㎡、纯商业约10-11.6万㎡；internal 15介于两口径之间，与23万㎡差约35%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宁波阪急百货 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": 4.5,
+    "verdict": "unit_mismatch",
+    "query": "宁波阪急百货 停车位 客流 万人次",
+    "source_url": "https://baike.baidu.com/item/%E5%AE%81%E6%B3%A2%E9%98%AA%E6%80%A5/57078676",
+    "source_level": "self-media",
+    "evidence": "商场夏季日均客流量可达4-5万人次",
+    "note": "外部为日均口径，与节假日峰值不可比；数量级相仿；另有2024年全年约1200万人次说法"
+   }
+  ]
+ },
+ {
+  "id": "0808",
+  "name": "邯郸新世纪中心",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1999,
+    "external": 1999,
+    "verdict": "match",
+    "query": "邯郸新世纪中心 开业时间 建筑面积 万㎡",
+    "source_url": "https://mwiki.dushiquan.net",
+    "source_level": "self-media",
+    "evidence": "1999年9月28日新世纪商业广场一期建成开业，2004年二期竣工",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 20,
+    "verdict": "match",
+    "query": "邯郸新世纪广场 阳光集团 总建筑面积 20万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "新世纪广场总经营规模近20万平方米（阳光集团发展简史）",
+    "note": "口径为「总经营规模」，与建筑面积略异但数值一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "邯郸新世纪广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见周边多停车场定性描述，无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14.5,
+    "external": 106,
+    "verdict": "unit_mismatch",
+    "query": "邯郸新世纪广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "2023中秋国庆9天（9.28-10.6）客流量106万人次，销售额8818万元",
+    "note": "外部为多日累计口径（日均约11.8万），另有2023-12-31单日17万创新高；与节假日单日峰值14.5不可直接比，数量级自洽"
+   }
+  ]
+ },
+ {
+  "id": "0826",
+  "name": "乌鲁木齐美美1",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2008,
+    "verdict": "minor_diff",
+    "query": "乌鲁木齐美美购物中心 开业时间 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "美美友好购物中心2008年9月25日开业（友好集团与香港华镫联合打造）",
+    "note": "±1年差"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 5,
+    "external": 10.71,
+    "verdict": "conflict",
+    "query": "美美友好购物中心 乌鲁木齐 建筑面积 营业面积",
+    "source_url": "http://file.finance.sina.com.cn",
+    "source_level": "official",
+    "evidence": "友好集团2019Q1财报：美美友好购物中心房产证载总建筑面积107,138.85㎡",
+    "note": "另有项目管理方Kybastone官网102,800㎡；internal 5万㎡系推断值（inferred），仅约为外部证载面积一半"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐美美百货 客流 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "搜索限流未获数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐美美百货 客流 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0831",
+  "name": "南京新百",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1952,
+    "external": 1952,
+    "verdict": "match",
+    "query": "南京新百 南京新街口百货商店股份有限公司 建店 1952 历史",
+    "source_url": "https://www.newseed.cn",
+    "source_level": "media",
+    "evidence": "南京新街口百货商店股份有限公司创建于1952年8月，中国十大百货商店之一",
+    "note": "auditFlag「超域:1952」系对老字号百货的误报，1952为真实建店年份（600682公司沿革）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 5,
+    "verdict": "unit_mismatch",
+    "query": "南京新街口百货 营业面积 10万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "公司简介口径：占地1.3万㎡、营业面积5万㎡（知微舆情监测）",
+    "note": "外部仅有营业面积5万㎡/占地1.3万㎡口径（人民网2011年某期工程建面2.62万㎡），无总建面权威数据；营业面积与建筑面积口径不可比，11.5万㎡无从证实亦无从证伪"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京新百 节假日 客流量 万人次 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 40,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京新百 节假日 客流量 万人次 停车",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "新街口商圈商场节假日单日客流破10万已成常态（搜狐2025）",
+    "note": "无新百单体40万人次/日数据；该值远高于商圈常态口径，疑为商圈整体或集团口径，未见支撑"
+   }
+  ]
+ },
+ {
+  "id": "0844",
+  "name": "乌鲁木齐北京路汇嘉时代广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "汇嘉时代 北京路购物中心 重装开业 乌鲁木齐",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见「汇嘉时代超市北京路店调改焕新」（新浪2026-02）及该商场居乌鲁木齐人气前三（网易2026-09）",
+    "note": "无2025年开业报道；2025疑为调改/焕新年份而非原始开业年份，规则上焕新时间不算开业时间，但无原始开业年证据"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐 汇嘉时代广场 北京路 开业 2025",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无建筑面积数据",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 550,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐 汇嘉时代广场 北京路 开业 2025",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "乌鲁木齐 汇嘉时代广场 北京路 开业 2025",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无客流数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0860",
+  "name": "成都IFS",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "成都IFS 开业时间 2014 建筑面积 76万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2014年初正式开业，2024年1月庆祝开业十周年",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 76,
+    "external": 76,
+    "verdict": "match",
+    "query": "成都IFS 开业时间 2014 建筑面积 76万平方米",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建筑面积76万平方米，其中购物中心约21万平方米（九龙仓项目）",
+    "note": "76为综合体总建面（含甲级写字楼），纯购物中心约21万㎡；对比同类购物中心时注意口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1700,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都IFS 停车位 客流量 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位总数（约1200个说法未在搜索结果中确认）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.5,
+    "external": 29,
+    "verdict": "unit_mismatch",
+    "query": "成都IFS 停车位 客流量 万人次",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "2015年报道：大型主题活动单日最高人流29万人次，月均客流约200万",
+    "note": "外部为活动日单日峰值与月均口径，与节假日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "0867",
+  "name": "北京朝阳合生汇",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2017,
+    "verdict": "conflict",
+    "query": "合生汇 朝阳 西大望路 开业 购物中心 面积",
+    "source_url": "https://i.ifeng.com",
+    "source_level": "media",
+    "evidence": "凤凰财经2024-02：「2017年开业的北京合生汇，位于西大望路」",
+    "note": "项目曾长期难产：约2014年主体建成/招商，正式开业主流报道为2017年（4月底/10月两说）；internal 2014与external 2017差3年，超出±1年minor_diff范围"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 20,
+    "verdict": "match",
+    "query": "合生汇 朝阳 西大望路 开业 购物中心 面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业面积近20万平方米，共8层（地上6层地下2层）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "朝阳合生汇 客流 节假日 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见节假日停车场出入口排队的定性报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "朝阳合生汇 客流 节假日 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅定性「节假日客流量大」，无量化数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0889",
+  "name": "南昌武商MALL",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 2023,
+    "verdict": "match",
+    "query": "南昌武商MALL 开业时间 2023 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2023年4月28日正式开业（搜狐、凤凰网报道，武商集团全国扩张第一步）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22.93,
+    "external": 22.93,
+    "verdict": "match",
+    "query": "南昌武商MALL 开业时间 2023 建筑面积 万㎡",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "商业面积共计22.93万平方米（江西首座重奢购物中心）",
+    "note": "另有规划总建筑面积31.21万㎡口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌武商MALL 客流 停车位 万假期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数据",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南昌武商MALL 客流 停车位 万假期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无量化客流数据（仅定性「吸引大量客流」）",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0900",
+  "name": "重庆来福士",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "重庆来福士 购物中心 开业时间 2019年",
+    "source_url": "https://www.capitaland.com/cn/zh/shop/malls-listing/raffles-city-chongqi.html",
+    "source_level": "official",
+    "evidence": "凯德官网：自2019年9月6日开业以来，重庆来福士购物中心……",
+    "note": "2018年起项目整体分阶段投入使用（住宅先行），购物中心2019-09-06开业，与internal一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 112,
+    "external": 112,
+    "verdict": "match",
+    "query": "重庆来福士 总建筑面积 万㎡ 商业面积 购物中心",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建筑面积约112万㎡（另有超110万㎡说法），购物中心体量约23.5万㎡",
+    "note": "auditFlag「超域:112万㎡」实为口径合理：112万㎡系含住宅/办公/酒店/服务公寓的综合体总建面（新加坡在华最大单体投资，总投资约240亿）；纯购物中心约23.5万㎡，横向对比时应注意口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "重庆来福士 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数量（仅商圈层面停车优惠信息）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": 19.5,
+    "verdict": "minor_diff",
+    "query": "重庆来福士 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "人民政协网2023-02：重庆来福士单日最高客流达19.5万人次",
+    "note": "internal 25与外部单日最高19.5差约28%；解放碑商圈平日80万/节假日百万级为全域口径，不可比"
+   }
+  ]
+ },
+ {
+  "id": "0922",
+  "name": "南京德基广场二期",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "南京德基广场 二期 开业 2012 建筑面积 万㎡",
+    "source_url": "https://www.sina.cn",
+    "source_level": "media",
+    "evidence": "德基广场二期开业于2012年（新浪）；网易2025：德基二期2012年正式营业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "德基广场二期 建筑面积 万㎡ 一期",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部仅见一二期总建面超30万㎡、总商业面积约18-20万㎡；house365报某项目总建面159,676㎡但期数归属不明",
+    "note": "二期单独建筑面积无权威数据（3次搜索额度用尽）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "德基广场 客流量 日均 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 33.5,
+    "external": 33.5,
+    "verdict": "match",
+    "query": "德基广场 客流量 日均 万人次 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "德基广场单日最高客流曾达33.5万人次（百度百科，中国日报等转引）",
+    "note": "数值精确一致；另见2025年日均约13.9万、周末日均20多万口径"
+   }
+  ]
+ },
+ {
+  "id": "0925",
+  "name": "合肥滨湖银泰百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2018,
+    "verdict": "minor_diff",
+    "query": "\"滨湖银泰\" 开业时间 购物中心 合肥",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "滨湖银泰城2018年12月22日开业（搜狐2018-12-16开业预告、网易2024）",
+    "note": "auditFlag「2017无邻近开业动词」属实：内部2017偏早1年，外部多来源确证2018-12开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 13,
+    "verdict": "match",
+    "query": "滨湖银泰城 合肥 商业面积 体量 万方",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "赢商网2018-03：滨湖银泰城商业体量约13万方，超大体量商业",
+    "note": "差约11.5%，在±20%容差内"
+   },
+   {
+    "metric": "parking",
+    "internal": 920,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "滨湖银泰城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "滨湖银泰城 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "无节假日峰值数据",
+    "note": ""
+   }
+  ]
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1770",
+  "name": "武汉群光广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2003,
+    "verdict": "conflict",
+    "query": "\"群光广场\" 武汉 2003年 开业",
+    "source_url": "https://m.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "台资百货新锐群光广场（2003年9月开业/8.8万平方米/武汉单体规模最大）",
+    "note": "一馆2003年9月开业，二馆2018年9月开业（赢商网）；内部2018为二馆/扩建时间，非原始开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 10.8,
+    "verdict": "minor_diff",
+    "query": "\"群光广场\" 武汉 2003年 开业",
+    "source_url": "https://m.cj.sina.cn",
+    "source_level": "media",
+    "evidence": "一馆2003年9月开业8.8万㎡；两馆商业面积合计10.8万㎡（赢商网2019）",
+    "note": "外部为商业面积口径（单馆8.8/两馆合计10.8万㎡），内部13万㎡与其差20.4%，略超20%线"
+   },
+   {
+    "metric": "parking",
+    "internal": 2500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉群光广场 停车位 日客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉群光广场 停车位 日客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获节假日峰值客流"
+   }
+  ]
+ },
+ {
+  "id": "1795",
+  "name": "武汉武商MALL",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2023,
+    "external": 1996,
+    "verdict": "conflict",
+    "query": "武商广场 武汉广场 1996年 开业 武商MALL 合并",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "武汉广场1996年开业；2023年4月武商集团官宣国广与武商广场合并为武商MALL（腾讯新闻：2023年4月完成整合升级）",
+    "note": "auditFlag属实：2023为武广+国广合并整合亮相之年（更名口径），原始开业为武汉广场1996年；按规则更名/焕新不算开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 37.6,
+    "external": 37.6,
+    "verdict": "match",
+    "query": "武商MALL 总建筑面积 万平方米 商业面积 解放大道",
+    "source_url": "https://news.qq.com",
+    "source_level": "media",
+    "evidence": "2023年4月，武商MALL完成整合升级，总建筑面积达到37.6万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武商MALL 停车位 负4层 车位数量 国庆单日客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获车位数，仅见节假日停车紧张报道"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 13.5,
+    "external": "国庆6日累计110万人次(日均约18.3万)",
+    "verdict": "unit_mismatch",
+    "query": "武商MALL 停车位 节假日 客流 万人次",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "武商MALL 9月30日到10月5日累计人流量110万人次，比去年同期提升25%",
+    "note": "外部仅假期累计口径（折算日均18.3万）；另2024全年客流3200万（日均8.8万），无节假日单日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "1804",
+  "name": "深圳前海壹方城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "前海壹方城 开业 2017 建筑面积 万㎡ 鸿荣源",
+    "source_url": "https://www.sohu.com",
+    "source_level": "trade",
+    "evidence": "36万㎡多元主题体验MALL，于2017年10月28日开业（鸿荣源壹方置业）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 36,
+    "external": 36,
+    "verdict": "match",
+    "query": "前海壹方城 开业 2017 建筑面积 万㎡ 鸿荣源",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网称其商业面积36万㎡，粤港澳大湾区规模前列",
+    "note": "36万㎡为项目总体口径；另有购物中心单体建面约15.7万㎡口径（知乎专栏）"
+   },
+   {
+    "metric": "parking",
+    "internal": 6000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "壹方城 深圳 停车位 假日客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获权威车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": "开业首日40万人次",
+    "verdict": "unit_mismatch",
+    "query": "壹方城 深圳 停车位 假日客流 万人次",
+    "source_url": "https://www.sznews.com",
+    "source_level": "media",
+    "evidence": "2017年开业当日客流达40万人次，三天超100万人次；年客流超4000万人次",
+    "note": "外部仅开业首日/累计口径，无节假日单日峰值可比数据"
+   }
+  ]
+ },
+ {
+  "id": "1836",
+  "name": "深圳海雅缤纷城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "深圳海雅缤纷城 开业时间 2013 建筑面积 万㎡",
+    "source_url": "https://www.163.com",
+    "source_level": "trade",
+    "evidence": "前海主流购物中心样本之一；部分资料记2012年底试营业，正式开业2013年",
+    "note": "试营业2012/正式2013属±1年minor口径，取正式开业2013一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 26.1,
+    "external": 26.5,
+    "verdict": "match",
+    "query": "深圳海雅缤纷城 开业时间 2013 建筑面积 万㎡",
+    "source_url": "https://kknews.cc",
+    "source_level": "trade",
+    "evidence": "商业建筑面积约26.5万平方米（购物中心动线规划专题）",
+    "note": "差1.5%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2098,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海雅缤纷城 宝安 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获权威车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": "年客流超2000万人次(日均约5.5万)",
+    "verdict": "unit_mismatch",
+    "query": "深圳海雅缤纷城 客流量 日均 万人次 停车位数量",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "商业出租率长期保持98%以上，年客流量超过2000万人次",
+    "note": "外部仅年客流累计口径，与节假日单日峰值不可比"
+   }
+  ]
+ },
+ {
+  "id": "1841",
+  "name": "长沙步步高梅溪新天地",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "步步高梅溪新天地 开业 2016 建筑面积 万㎡ 停车位",
+    "source_url": "https://video.rednet.cn",
+    "source_level": "media",
+    "evidence": "红网2016-06-25：步步高梅溪新天地打造商旅文概念城市综合体；搜狐：2016年6月25日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 70,
+    "external": 70,
+    "verdict": "match",
+    "query": "长沙 梅溪新天地 停车位 车流 开业当日客流",
+    "source_url": "https://www.sohu.com",
+    "source_level": "trade",
+    "evidence": "总建筑面积约70万平方米，总投资约50亿元，商旅文综合体",
+    "note": "70万㎡为项目总体量口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 10000,
+    "external": 10000,
+    "verdict": "match",
+    "query": "长沙 梅溪新天地 停车位 车流 开业当日客流",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总车库10000，地下5000，地上5000（楼盘资料）",
+    "note": "仅自媒/楼盘渠道数据，无官方披露"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 21.5,
+    "external": "开业48小时150万+人次",
+    "verdict": "unit_mismatch",
+    "query": "步步高梅溪新天地 开业当日客流 80万",
+    "source_url": "https://www.sohu.com",
+    "source_level": "trade",
+    "evidence": "以48小时150万+人次客流的火爆开业场面轰动全国零售业",
+    "note": "开业累计口径不可比（折算日均75万为开业盛况）；无节假日单日峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "1848",
+  "name": "合肥百大鼓楼名品中心金座",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "合肥 百大鼓楼名品中心 金座 开业 建筑面积",
+    "source_url": "http://static.cninfo.com.cn",
+    "source_level": "official",
+    "evidence": "合肥百货2024半年报：百大电器鼓楼金座店，宿州路96号，开业日期1996.12.28",
+    "note": "上市公司定期报告披露口径；鼓楼商厦本部1996年12月28日开业相互印证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 2.3,
+    "verdict": "unit_mismatch",
+    "query": "合肥 鼓楼商厦 建筑面积 营业面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科记经营面积2.3万余平方米，旅游指南记3万余平方米",
+    "note": "外部为经营面积口径（2.3-3万㎡），与总建筑面积4万㎡口径不可比；上市公司仅披露电器金座店5300㎡（子单元）"
+   },
+   {
+    "metric": "parking",
+    "internal": 270,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥鼓楼商厦 停车位 客流 步行街",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获车位数；仅见商圈停车位不足的定性描述"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "合肥鼓楼商厦 停车位 客流 步行街",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获节假日峰值客流"
+   }
+  ]
+ },
+ {
+  "id": "1865",
+  "name": "成都银泰中心in99",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "成都银泰中心in99 开业时间 建筑面积 停车位",
+    "source_url": "https://m.sohu.com",
+    "source_level": "trade",
+    "evidence": "2017年4月8日 成都银泰中心in99优雅启幕 打造西南时尚新地标",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 19,
+    "external": 19,
+    "verdict": "match",
+    "query": "成都银泰中心in99 开业时间 建筑面积 停车位",
+    "source_url": "https://m.sohu.com",
+    "source_level": "trade",
+    "evidence": "in99购物中心商业面积约19万平方米（综合体总建面72万㎡含酒店写字楼）",
+    "note": "内部19万㎡取购物中心商业部分口径，与综合体72万㎡不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 3800,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都 in99 客流 万人次 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.7,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "银泰in99 成都 日客流 客流量 万人",
+    "source_url": "https://news.qq.com",
+    "source_level": "media",
+    "evidence": "IP展期间单日总客流突破10万人次，客流与销售额刷新历史纪录（网易2025-12）",
+    "note": "外部单日纪录10万为IP展活动日口径，与节假日峰值口径略有差异；差约27%"
+   }
+  ]
+ },
+ {
+  "id": "1881",
+  "name": "南京万象天地",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "南京万象天地 开业 2022 建筑面积 停车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "trade",
+    "evidence": "华润置地项目，原计划2022年底，实际2022年9月30日（国庆前夕）正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.7,
+    "external": 10,
+    "verdict": "minor_diff",
+    "query": "南京万象天地 开业 2022 建筑面积 停车位",
+    "source_url": "https://m.onewedesign.com",
+    "source_level": "trade",
+    "evidence": "2022年中国最期待购物中心TOP20：南京万象天地 体量10万方，开业时间2022年底",
+    "note": "外部10万㎡为开业前披露体量口径，与内部13.7万㎡差37%"
+   },
+   {
+    "metric": "parking",
+    "internal": 832,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "南京万象天地 2022年9月开业 商业面积 停车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获本项目车位数（检索到的是南京万象城2000+，非同一项目）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": 7,
+    "verdict": "minor_diff",
+    "query": "南京万象天地 客流 人次 开业 2022年9月",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "日均客流量超35,000人次，周末、节假日翻番（网易商业2025-03）",
+    "note": "无直接峰值口径，按日均3.5万、节假日翻番推算约7万/日，与内部9.5万差约36%"
+   }
+  ]
+ },
+ {
+  "id": "1886",
+  "name": "北京首创奥特莱斯一期",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "首创奥特莱斯 房山 2013年5月 开业 客流",
+    "source_url": "https://tw.stock.yahoo.com",
+    "source_level": "media",
+    "evidence": "首创钜大旗下首个奥莱项目（北京房山，华北旗舰店），网络资料记2013年开业",
+    "note": "开业年份与首创钜大首店序列吻合，但开业精确日期未获权威信源，信源级别偏低"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 19.7,
+    "external": 18,
+    "verdict": "match",
+    "query": "北京首创奥特莱斯 房山 开业 2013 建筑面积 停车位",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "商业建筑面积近18万平米，奥特莱斯建筑面积11万平米，购物中心7万平米",
+    "note": "差约9%；自媒渠道口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 3200,
+    "external": 4000,
+    "verdict": "match",
+    "query": "北京首创奥特莱斯 房山 开业 2013 建筑面积 停车位",
+    "source_url": "https://zhidao.baidu.com",
+    "source_level": "self-media",
+    "evidence": "300余店铺，500余品牌，4000个停车位",
+    "note": "外部4000为规划口径；差20%恰在match边界（以外部为基准），内部3200或为一期口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 2.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "首创奥特莱斯 房山 2013年5月 开业 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅首创钜大旗下项目开业当日超8万人次的泛化披露（开业首日口径，非本项目节假日数据）"
+   }
+  ]
+ },
+ {
+  "id": "1900",
+  "name": "砂之船（南京）奥莱",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "砂之船 南京 奥特莱斯 开业 2015 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科词条：地址秣周东路18号，开业时间2015年9月",
+    "note": "注意与2022年12月17日开业的砂之船（南京江北新区）奥莱为两个项目"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 20,
+    "verdict": "match",
+    "query": "砂之船 南京 奥特莱斯 开业 2015 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "建筑面积20万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 8000,
+    "external": 8000,
+    "verdict": "match",
+    "query": "砂之船 南京 奥特莱斯 开业 2015 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "停车位8000余个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "砂之船 南京 奥莱 客流 万人次 国庆",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获本项目节假日峰值客流（仅江宁区春节全区265万人次等区域数据）"
+   }
+  ]
+ },
+ {
+  "id": "1951",
+  "name": "宁波天一广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2002,
+    "external": 2002,
+    "verdict": "match",
+    "query": "宁波天一广场 开业 2002 建筑面积 停车位",
+    "source_url": "https://zh.wikipedia.org",
+    "source_level": "self-media",
+    "evidence": "天一广场建成于2002年10月，当时为中国大陆规模最大的商业广场之一",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22,
+    "external": 22,
+    "verdict": "match",
+    "query": "宁波天一广场 开业 2002 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总占地19.6公顷，总建筑面积约22万平方米，商铺面积16.7万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 973,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "天一广场 宁波 日客流量 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获车位数；外部仅有停车场2万平方米的面积口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 50,
+    "external": 50,
+    "verdict": "match",
+    "query": "宁波 天一商圈 客流 单日 50万 破50万人次",
+    "source_url": "http://news.cnnb.com.cn",
+    "source_level": "media",
+    "evidence": "中国宁波网：天一广场跨年夜（2023-12-31）单日客流超50万",
+    "note": "auditFlag疑全域/累计口径，经核验为跨年夜真实单日客流（另有2023年7月夜生活节两日50万、十一日均30万），非全域累计"
+   }
+  ]
+ },
+ {
+  "id": "1961",
+  "name": "上海七宝领展广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "上海七宝领展广场 开业 2016 建筑面积 停车位",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "2016年11月开业，原名上海七宝万科广场（印力与GIC合作项目），2025年更名上海七宝领展广场",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.5,
+    "external": 14.89,
+    "verdict": "match",
+    "query": "领展七宝万科广场 停车位 多少个",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "五层购物中心连同地下三层，零售面积约14.89万方，设有1477个停车位",
+    "note": "差2.6%；总建面约23.7-25万㎡为含车库等综合体口径，不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 1477,
+    "external": 1477,
+    "verdict": "match",
+    "query": "领展七宝万科广场 停车位 多少个",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "设有1477个停车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9.5,
+    "external": "2023春节7天82.9万人次(日均约11.8万)",
+    "verdict": "unit_mismatch",
+    "query": "七宝万科广场 客流 人次 假日",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "2023年春节7天假期总客流82.9万人次，销售总额2.02亿元",
+    "note": "假期累计口径不可比，无节假日单日峰值数据"
+   }
+  ]
+ },
+ {
+  "id": "1967",
+  "name": "哈尔滨杉杉奥特莱斯广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "哈尔滨杉杉奥特莱斯 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "杉杉集团官网信息：2015年9月26日开业，已稳定运营约10年",
+    "note": "开业日期来自搜索摘要转述的杉杉集团官网信息，未取得直接链接"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13.06,
+    "external": 13.06,
+    "verdict": "match",
+    "query": "哈尔滨杉杉奥特莱斯 建筑面积",
+    "source_url": "https://roadshow.sseinfo.com",
+    "source_level": "official",
+    "evidence": "中金唯品会商业REIT：哈尔滨杉杉奥特莱斯项目总建筑面积约13.06万平方米",
+    "note": "REIT披露口径，商业可租赁面积约6.28万㎡为另一子口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨杉杉奥特莱斯广场 客流量 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获本项目车位数（对比项枫叶小镇奥莱近4000个为其他项目）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨杉杉奥莱 节假日 客流 创新高",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获节假日峰值客流（多轮遇429限流）"
+   }
+  ]
+ },
+ {
+  "id": "1997",
+  "name": "杭州湖滨银泰in77",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2005,
+    "external": 2007,
+    "verdict": "conflict",
+    "query": "湖滨银泰in77 杭州 开业时间 分期 商业面积 万㎡",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "A区2007年9月30日开业（营业面积约5.8万㎡）；C区2013年开业（建面10.6万㎡）；六期2023年扩容",
+    "note": "分期开发综合体，最早可考开业为A区2007年，未见2005年开业的直接记载；内部2005与外部2007差2年判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23,
+    "external": 20,
+    "verdict": "match",
+    "query": "湖滨银泰in77 杭州 开业时间 分期 商业面积 万㎡",
+    "source_url": "https://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "总商业面积约20余万㎡，商业楼层7F，西湖湖滨商圈",
+    "note": "差约15%，各期商业面积合计口径存在区间（20余万㎡）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1650,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "湖滨银泰in77 客流 万人次 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "2次搜索未获整体车位数；仅见D区112个（2017招商手册）子口径"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "in77 国庆 五一 单日客流 破 万人次 杭州",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次搜索仅获杭州全市节假日客流与TOP100均值（月度日均8.3万）等间接信息，无本项目节假日单日峰值"
+   }
+  ]
+ },
+ {
+  "id": "2014",
+  "name": "苏州张家港曼巴特购物广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "张家港曼巴特购物广场 开业 2014 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "trade",
+    "evidence": "2014年11月15日盛大开幕；另一报道称（2014年）10月18日开业当日客流超10万人次",
+    "note": "10月18日或为试营业/亮相、11月15日正式开幕，同属2014年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 26,
+    "external": 26,
+    "verdict": "match",
+    "query": "张家港曼巴特购物广场 开业 2014 建筑面积 停车位",
+    "source_url": "http://js.taxs.vip",
+    "source_level": "trade",
+    "evidence": "总用地面积34452平方米，楼面总面积（总建筑面积）约25.3万-26万平方米",
+    "note": "海澜集团投资40亿元打造"
+   },
+   {
+    "metric": "parking",
+    "internal": 1591,
+    "external": 1591,
+    "verdict": "match",
+    "query": "张家港曼巴特购物广场 开业 2014 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科词条：停车位1591个",
+    "note": "口径存在分歧：招商网记2500个、凤凰网记负二层2000余席，1591与内部完全一致"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": "开业当日超10万人次",
+    "verdict": "unit_mismatch",
+    "query": "\"曼巴特\" 张家港 商业 客流",
+    "source_url": "https://m.10100.com",
+    "source_level": "self-media",
+    "evidence": "张家港曼巴特购物广场已于10月18日盛大开业，开业当日客流量超过十万人次",
+    "note": "开业首日口径不可比；2023年五一为张家港全市10家重点商贸企业合计77.5万人次（区域累计），均非本项目节假日单日峰值"
+   }
+  ]
+ }
+]

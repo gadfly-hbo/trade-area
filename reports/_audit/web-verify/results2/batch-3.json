@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0654",
+  "name": "上海第一百货商业中心",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1936,
+    "external": 1936,
+    "verdict": "match",
+    "query": "上海第一百货商业中心 开业时间 1936 建筑面积",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%AC%AC%E4%B8%80%E7%99%BE%E8%B4%A7%E5%95%86%E5%BA%97",
+    "source_level": "self-media",
+    "evidence": "1936年1月10日大新公司正式开张营业；1949年国营市百一店成立；2018年商业中心焕新开放",
+    "note": "auditFlag「超域」解除：1936为建筑（大新公司）原始开业年，符合「以原始开业为准」；焕新/合体开放(2018)不算开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.5,
+    "external": 11.0,
+    "verdict": "match",
+    "query": "第一百货商业中心 南京东路 商业面积 11万平方米 停车 客流",
+    "source_url": "https://www.chapmantaylor.com",
+    "source_level": "official",
+    "evidence": "设计方官网：一百老楼、东楼等三栋建筑总商业面积11万平方米",
+    "note": "与商业面积口径11万㎡差13.6%（≤20%）；另有改造后总建面「近15万㎡」说"
+   },
+   {
+    "metric": "parking",
+    "internal": 300,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "第一百货商业中心 南京东路 商业面积 11万平方米 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见周边新世界新丸中心300余泊位，非本项目数据"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海第一百货 南京东路 节假日 日客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见第一百货单日峰值直接数据；可比参照：环球港节日日均17万、南京路商场跨年单日6万，内部25万偏高待商榷"
+   }
+  ]
+ },
+ {
+  "id": "0679",
+  "name": "广州广百百货(北京路店)",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1991,
+    "external": 1991,
+    "verdict": "match",
+    "query": "广州广百百货 北京路店 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%B9%BF%E7%99%BE%E7%99%BE%E8%B4%A7%E5%8C%97%E4%BA%AC%E8%B7%AF%E5%BA%97/8596587",
+    "source_level": "self-media",
+    "evidence": "1991年2月8日开业，广百百货旗舰店（前身广州百货大厦）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.7,
+    "external": 8.0,
+    "verdict": "match",
+    "query": "广州广百百货 北京路店 开业时间 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/%E5%B9%BF%E7%99%BE%E7%99%BE%E8%B4%A7%E5%8C%97%E4%BA%AC%E8%B7%AF%E5%BA%97/8596587",
+    "source_level": "self-media",
+    "evidence": "建筑面积达8万平方米，共11层分9个商场",
+    "note": "差8%（≤20%）"
+   },
+   {
+    "metric": "parking",
+    "internal": 318,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州广百百货 北京路店 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「中国内地首设空中停车场」表述，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "广州广百百货 北京路店 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见单日峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0691",
+  "name": "济南银座商城(总店)",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "济南银座商城 总店 开业时间 1996 建筑面积 万平方米",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科条目：1996年6月22日开业，泺源大街66号，山东省商业集团",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.5,
+    "external": 10.0,
+    "verdict": "match",
+    "query": "银座商城 济南 泺源大街 建筑面积 14万平方米 营业面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "百度百科/知道：建筑面积约10万㎡（26层综合商业楼）；另有约14万㎡说",
+    "note": "取10万㎡口径差4.8%；14万㎡说或含写字楼/扩建部分"
+   },
+   {
+    "metric": "parking",
+    "internal": 686,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "银座商城 济南 泺源大街 建筑面积 14万平方米 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "银座商城 济南 泺源大街 建筑面积 14万平方米 营业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0692",
+  "name": "上海芮欧百货",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "上海芮欧百货 开业时间 2012 建筑面积",
+    "source_url": "https://www.reelshanghai.com",
+    "source_level": "self-media",
+    "evidence": "维基百科：芮欧百货2012年开业；2022年举办10周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.2,
+    "external": 20.0,
+    "verdict": "unit_mismatch",
+    "query": "芮欧百货 上海 越洋广场 商场 建筑面积 4万 停车位",
+    "source_url": "https://baike.baidu.com/item/%E8%B6%8A%E6%B4%8B%E5%B9%BF%E5%9C%BA/7191950",
+    "source_level": "self-media",
+    "evidence": "越洋广场总建面约20万㎡（办公约9.1万+芮欧百货+璞丽酒店）；开业报道每层建面约7200㎡",
+    "note": "外部仅有越洋广场整体建面，与芮欧商场单体口径不可比；按每层约7200㎡×约6层≈4.3万㎡与内部4.2万量级吻合"
+   },
+   {
+    "metric": "parking",
+    "internal": 442.5,
+    "external": 517.0,
+    "verdict": "match",
+    "query": "芮欧百货 上海 越洋广场 商场 建筑面积 4万 停车位",
+    "source_url": "https://baike.baidu.com/item/%E8%B6%8A%E6%B4%8B%E5%B9%BF%E5%9C%BA/7191950",
+    "source_level": "self-media",
+    "evidence": "越洋广场地上32个+地下485个，共517个车位",
+    "note": "外部为越洋广场整体（含办公）车位；内部442.5或为商场分配口径，差14.4%（≤20%）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "芮欧百货 上海 越洋广场 商场 建筑面积 4万 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "0699",
+  "name": "无锡大东方百货(复兴路)",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1990,
+    "external": 1988,
+    "verdict": "conflict",
+    "query": "无锡大东方百货 开业时间 建筑面积 万平方米",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E5%A4%A7%E4%B8%9C%E6%96%B9%E7%99%BE%E8%B4%A7",
+    "source_level": "self-media",
+    "evidence": "维基百科：1988年9月（无锡商业大厦）内装开业；2007年更名大东方百货",
+    "note": "外部1988，内部1990，差2年≥2年判conflict"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.0,
+    "external": 7.5,
+    "verdict": "match",
+    "query": "无锡大东方百货 开业时间 建筑面积 万平方米",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E5%A4%A7%E4%B8%9C%E6%96%B9%E7%99%BE%E8%B4%A7",
+    "source_level": "self-media",
+    "evidence": "2007年更名后建筑面积7.5万㎡；券商研报称门店建面7万㎡（A座4万）",
+    "note": "6 vs 7.5恰处20%边界；按研报7万口径差14%"
+   },
+   {
+    "metric": "parking",
+    "internal": 480,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡大东方百货 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "无锡大东方百货 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0700",
+  "name": "太原王府井百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2009,
+    "verdict": "minor_diff",
+    "query": "太原王府井百货 亲贤街 2010年 开业 建筑面积",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "王府井集团2009年年报将太原店列入2009年新开门店；另有2009年开业庆典方案存档",
+    "note": "auditFlag「2010无邻近开业动词」：外部指向2009年开业（年报+庆典方案），2010或为正式开业年，±1年判minor_diff"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.0,
+    "external": 6.4,
+    "verdict": "conflict",
+    "query": "太原王府井百货 赢商网 商业面积 万平方米 车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "商场招商页：商业面积约6.4万㎡；王府井年报：亲贤街租赁物业建筑面积约9.9万㎡",
+    "note": "内部3万较外部6.4万/9.9万差53%/70%，或仅计百货卖场部分，判conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原王府井百货 赢商网 商业面积 万平方米 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "太原王府井百货 赢商网 商业面积 万平方米 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0701",
+  "name": "郑州丹尼斯百货（人民店）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1997,
+    "external": 1997,
+    "verdict": "match",
+    "query": "郑州丹尼斯百货 人民店 开业时间 1997 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "1997年11月16日第一家丹尼斯百货在郑州人民路开业（搜狐/凤凰报道）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 3.4,
+    "verdict": "minor_diff",
+    "query": "郑州丹尼斯百货 人民店 开业时间 1997 建筑面积",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "地下一层+地上七层，每层建面约4200㎡，合计约3.4万平方米",
+    "note": "4.5 vs 3.4差24%（20-50%区间）判minor_diff"
+   },
+   {
+    "metric": "parking",
+    "internal": 296,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州丹尼斯百货 人民店 开业时间 1997 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "郑州丹尼斯百货 人民店 开业时间 1997 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0702",
+  "name": "沈阳中兴大厦",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1987,
+    "external": 1987,
+    "verdict": "match",
+    "query": "中兴-沈阳商业大厦 开业时间 建筑面积 车位",
+    "source_url": "http://www.zxbusiness.com/web/gyzx?nid=1",
+    "source_level": "official",
+    "evidence": "官网：中兴成立于1987年，位于太原街；1987年12月10日一期开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24.0,
+    "external": 24.0,
+    "verdict": "match",
+    "query": "中兴-沈阳商业大厦 开业时间 建筑面积 车位",
+    "source_url": "http://www.zxbusiness.com/web/gyzx?nid=1",
+    "source_level": "official",
+    "evidence": "官网：2010年完成三期扩建改造，总建筑面积达24万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 200,
+    "external": 200.0,
+    "verdict": "match",
+    "query": "中兴-沈阳商业大厦 开业时间 建筑面积 车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "董事会公告转述：地下停车场可容纳200多个车位（方城扩建前）",
+    "note": "早期数据，三期扩建后无公开车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 23.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳中兴商业大厦 日客流量 万人次 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见1992年重新开业当日16.4万人次与旗下新店日均4-5.5万；无当前节假日单日峰值直接数据"
+   }
+  ]
+ },
+ {
+  "id": "0706",
+  "name": "深圳茂业百货（华强北店）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": 2003,
+    "verdict": "match",
+    "query": "深圳茂业百货 华强北店 开业时间 建筑面积 万平方米",
+    "source_url": "https://sz.bendibao.com",
+    "source_level": "self-media",
+    "evidence": "本地宝：华强北茂业天地2003年（10月1日）开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.3,
+    "external": 8.0,
+    "verdict": "minor_diff",
+    "query": "深圳茂业百货 华强北店 开业时间 建筑面积 万平方米",
+    "source_url": "https://sz.bendibao.com",
+    "source_level": "self-media",
+    "evidence": "建筑面积约8万平方米（地上九层地下一层）；另有经营面积4万多平方米说",
+    "note": "6.3 vs 8差21%（恰超20%）判minor_diff；内部值介于两口径之间"
+   },
+   {
+    "metric": "parking",
+    "internal": 260,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳茂业百货 华强北店 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳茂业百货 华强北店 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0707",
+  "name": "上海久光百货",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "上海久光百货 开业时间 建筑面积（维基百科抓取）",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7",
+    "source_level": "self-media",
+    "evidence": "维基百科：2004年在上海静安区南京西路开业（南京西路1618号）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.0,
+    "external": 11.5,
+    "verdict": "match",
+    "query": "利福中国 久光百货 静安 总楼面面积 平方米 年报",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "新浪财经2017：静安久光自有物业总建筑面积约11.5万㎡",
+    "note": "差4.3%（≤20%）；另有「大宁久光为静安久光2-4倍」等模糊对比，取新浪11.5万口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海久光百货 南京西路 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见设有地下停车场及商圈对比（周边某商业中心516个），无本项目车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 16,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海久光百货 南京西路 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0709",
+  "name": "北京汉光百货",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1998,
+    "external": 1998,
+    "verdict": "match",
+    "query": "北京汉光百货 中友百货 开业时间（维基百科抓取）",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E6%B1%89%E5%85%89%E7%99%BE%E8%B4%A7",
+    "source_level": "self-media",
+    "evidence": "维基百科：1998年12月31日由中友百货经营重新开业（前身中友百货成立1999年）",
+    "note": "开业事件在1998-12-31，与内部1998一致；词条公司成立年1999不作为开业年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京汉光百货 西单 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次搜索未见汉光百货建面数（注意勿与台中中友百货22,000坪混淆）"
+   },
+   {
+    "metric": "parking",
+    "internal": 250,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京汉光百货 西单 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "仅见「地下车位局促、东门地上车位」定性描述，无车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京汉光百货 西单 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0715",
+  "name": "重庆光环购物公园",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "重庆光环购物公园 2021 开业 商业面积 万方 车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "2021年4月16日开业（香港置地，两江新区；2021新开业购物中心TOP40收录）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 42.0,
+    "external": 42.0,
+    "verdict": "match",
+    "query": "重庆光环购物公园 2021 开业 商业面积 万方 车位",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "项目总建筑面积约42万㎡，其中购物中心约17万㎡、写字楼约11万㎡",
+    "note": "内部42万=项目总建面口径一致；若按纯购物中心口径为17万，note备查"
+   },
+   {
+    "metric": "parking",
+    "internal": 2801,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "光环购物公园 停车位 2800个 香港置地",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "两次搜索未见直接车位数，2801仅内部值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 22.5,
+    "external": 20.0,
+    "verdict": "match",
+    "query": "重庆光环购物公园 开业 首日 客流 万人次",
+    "source_url": "http://www.sydcch.com",
+    "source_level": "media",
+    "evidence": "2025年五一假期日均客流突破20万人次；开业首日37万人次",
+    "note": "外部节假日日均20万 vs 内部峰值22.5差12.5%；开业首日37万属开业首日口径不取"
+   }
+  ]
+ },
+ {
+  "id": "0727",
+  "name": "深圳壹方天地",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "深圳壹方天地 开业时间 A区B区C区E区 商业面积 万㎡",
+    "source_url": "http://www.szlhq.gov.cn/gkmlpt/content/10/10549/post_10549999.html",
+    "source_level": "official",
+    "evidence": "龙华区政府文：E区2017年率先开业；A区2018、B区2019、C区壹方城约2021陆续开业",
+    "note": "auditFlag所指2017为E区首开年，与外部一致；分期开发取首开年2017"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 60.0,
+    "external": 60.0,
+    "verdict": "match",
+    "query": "深圳壹方天地 开业时间 A区B区C区E区 商业面积 万㎡",
+    "source_url": "https://www.stcn.com",
+    "source_level": "media",
+    "evidence": "证券时报网：60万平方米「航母级」商圈，深圳商业面积最大综合体",
+    "note": "为五大主题商业区合计的商业面积口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 7000,
+    "external": 7000.0,
+    "verdict": "match",
+    "query": "壹方天地 龙华 停车位 多少个 车位",
+    "source_url": "https://www.stcn.com",
+    "source_level": "media",
+    "evidence": "证券时报网：壹方天地60万㎡商圈拥有7000个停车位（节假日高峰仍有约700个闲置）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 35,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳壹方天地 客流 万人次 节假日 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "未见壹方天地节假日单日客流直接数据"
+   }
+  ]
+ },
+ {
+  "id": "0731",
+  "name": "杭州萧山银隆百货",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "萧山 银隆世贸中心 银隆百货 A馆 2009年 开业",
+    "source_url": "https://zh.wikipedia.org/zh-cn/%E8%90%A7%E5%B1%B1%E5%8C%BA",
+    "source_level": "self-media",
+    "evidence": "维基萧山区条目：银隆百货A座2009年12月开业（B楼部分业态2015年5月开业）",
+    "note": "市心中路268/288号，汇德隆集团开发"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.2,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州萧山银隆百货 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "3次搜索未见银隆百货总建面直接数据"
+   },
+   {
+    "metric": "parking",
+    "internal": 1570,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州萧山银隆百货 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州萧山银隆百货 开业时间 建筑面积 万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ },
+ {
+  "id": "0733",
+  "name": "镇江八佰伴",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "镇江八佰伴 开业时间 建筑面积 万平方米",
+    "source_url": "https://m.winshang.com/news742382.html",
+    "source_level": "trade",
+    "evidence": "赢商网2024年报道：「一家开业16年的存量商场」（2024-16=2008年开业）",
+    "note": "auditFlag「无邻近开业动词」解除：外部16年推算与内部2008一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.5,
+    "external": 14.0,
+    "verdict": "conflict",
+    "query": "镇江八佰伴 总建筑面积 14万平方米 商业面积",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "镇江八佰伴（中山东路288号）总建筑面积约14万㎡（华地国际运营）；另有总建面14.1万/商业面积约10万说",
+    "note": "内部4.5万与外部总建面14万差68%，或为早期单体/部分商业口径，判conflict"
+   },
+   {
+    "metric": "parking",
+    "internal": 360,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "镇江八佰伴 总建筑面积 14万平方米 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "镇江八佰伴 总建筑面积 14万平方米 商业面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "",
+    "note": "搜索限流，未见峰值客流数据"
+   }
+  ]
+ }
+]

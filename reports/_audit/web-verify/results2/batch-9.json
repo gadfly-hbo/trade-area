@@ -1,0 +1,767 @@
+[
+ {
+  "id": "1389",
+  "name": "天津佛罗伦萨小镇",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "天津佛罗伦萨小镇 奥特莱斯 开业时间 建筑面积",
+    "source_url": "https://www.zhaopin.com",
+    "source_level": "official",
+    "evidence": "『佛罗伦萨小镇—京津名品奥特莱斯』于2011年6月开业（运营方天津圣朗商业招聘页；新浪财经2024同）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7,
+    "external": 7,
+    "verdict": "match",
+    "query": "天津佛罗伦萨小镇 总建筑面积 万平方米 名品奥特莱斯",
+    "source_url": null,
+    "source_level": "official",
+    "evidence": "Visit Beijing：占地面积18万㎡，建筑面积7万平方米，可租用面积4.9万㎡",
+    "note": "多来源常用口径即7万㎡总建面"
+   },
+   {
+    "metric": "parking",
+    "internal": 2800,
+    "external": 2800,
+    "verdict": "match",
+    "query": "天津佛罗伦萨小镇 总建筑面积 万平方米 名品奥特莱斯",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "维基百科：占地总面积6万㎡，可租用面积4.2万㎡，免费停车位约2800个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "天津佛罗伦萨小镇 日均客流 万人次 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "年接待游客量预计从1000万人次增至2000万人次；国庆假期客流突破22万人次（累计）",
+    "note": "外部仅年客流与假期累计口径，未见节假日单日11万人次/日口径，不可比"
+   }
+  ]
+ },
+ {
+  "id": "1390",
+  "name": "宁波杉井奥特莱斯广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2011,
+    "external": 2011,
+    "verdict": "match",
+    "query": "中金唯品会奥莱REIT 宁波杉井奥特莱斯 建筑面积 停车位",
+    "source_url": "https://static.sse.com.cn",
+    "source_level": "official",
+    "evidence": "2011年9月开业，杉杉集团联合日本三井不动产共同开发（REIT招募说明书）",
+    "note": "另多来源称2011年为杉杉奥莱发展元年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": 10.43,
+    "verdict": "conflict",
+    "query": "杉井奥特莱斯广场 宁波 开业 商业面积 万平方米",
+    "source_url": "https://www.linkshop.com",
+    "source_level": "trade",
+    "evidence": "合计总建筑面积10.43万㎡，商业建筑面积8.33万㎡，可供出租面积5.09万㎡",
+    "note": "联商网援引中金唯品会奥莱REIT数据；内部20万㎡高出总建面约92%，疑有误"
+   },
+   {
+    "metric": "parking",
+    "internal": 1600,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "宁波杉井奥特莱斯 车位 日均客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "三轮搜索未见车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杉井奥特莱斯 宁波 日均客流 万人次 峰值",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅2022年以来客流上升的定性描述与营业额数据，未见客流万人次数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1405",
+  "name": "哈尔滨松雷商厦（南岗店）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1995,
+    "external": 1993,
+    "verdict": "conflict",
+    "query": "哈尔滨 松雷商厦 建筑面积 开业",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "松雷商业大厦于1993年落成开业（商业目录）；抖音：建于1993年",
+    "note": "可见来源均指1993年，内部1995年晚2年，无试营业佐证"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3,
+    "external": 4.3,
+    "verdict": "minor_diff",
+    "query": "哈尔滨 松雷商厦 建筑面积 开业",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "抖音视频说明：建于1993年，建筑面积4.3万平方米",
+    "note": "仅自媒体一处提及4.3万㎡，权威来源缺失；(4.3-3)/4.3≈30%"
+   },
+   {
+    "metric": "parking",
+    "internal": 150,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "松雷商厦 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅确认有地下停车场，无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.25,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "松雷商厦 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见任何客流量数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1420",
+  "name": "北京燕莎奥特莱斯购物中心",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2002,
+    "external": 2002,
+    "verdict": "match",
+    "query": "北京燕莎奥特莱斯 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2002年12月18日北京燕莎奥特莱斯A座开业，国内第一家奥莱业态购物中心（搜狐2016）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 9.75,
+    "external": 10,
+    "verdict": "match",
+    "query": "北京燕莎奥特莱斯 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "总经营面积约10万平方米；由A、B、C三座组成，从1.7万㎡逐步扩展",
+    "note": "另有二期扩建后达12万㎡说法，均在±20%内；内部9.75万与10万经营面积口径接近"
+   },
+   {
+    "metric": "parking",
+    "internal": 1100,
+    "external": 1200,
+    "verdict": "match",
+    "query": "北京燕莎奥特莱斯 客流 万人次 停车",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "商场设超1200个免费停车位（AI百科条目）",
+    "note": "另有简书『超3000个』说法，疑口径混淆；1100与1200差8%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": 2.5,
+    "verdict": "conflict",
+    "query": "北京燕莎奥特莱斯 节假日 客流 万人次 停车",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "周末及法定节假日的日均客流量可达2.5万人次以上（简书攻略）",
+    "note": "仅自媒体攻略数据，无权威单日峰值；与内部6万差近6成"
+   }
+  ]
+ },
+ {
+  "id": "1423",
+  "name": "青岛海信广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2008,
+    "external": 2008,
+    "verdict": "match",
+    "query": "青岛海信广场 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2008年6月21日盛大开业（360百科/问答）；腾讯新闻2021复盘：2008年开业、单天销售破2亿",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.5,
+    "external": 6.28,
+    "verdict": "match",
+    "query": "青岛海信广场 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "建筑面积6.28万平方米（全球连锁品牌网2023）",
+    "note": "另有『14万平方米』说法（AI问答，口径不明）；2021年扩建增加商业建面超8000㎡；(7.5-6.28)/7.5≈16%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1250,
+    "external": 1500,
+    "verdict": "match",
+    "query": "青岛海信广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "地下三层至五层大型停车场，共计超过1500个停车位（简书）",
+    "note": "另有地面500+地下300=800个（2021攻略，疑扩建前）；半岛都市报2012：扩建将新增车位；1250落在各口径区间内"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 14,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "青岛海信广场 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅青岛全市重点商圈春节客流2600万人次，无单店数据",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1439",
+  "name": "深圳万象城（一二期）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "深圳万象城 开业时间 建筑面积 停车位 客流",
+    "source_url": "https://baike.so.com/doc/6940703-7163064.html",
+    "source_level": "self-media",
+    "evidence": "深圳华润中心于2004年12月竣工开业（360百科）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 50,
+    "external": 55,
+    "verdict": "match",
+    "query": "深圳万象城 停车场 车位 商业面积 万平方米",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "深圳华润中心总建筑面积55万平方米，总投资逾40亿港币（项目方案文档）",
+    "note": "55万为华润中心整体口径（万象城+华润大厦等）；万象城购物中心口径约18.8万㎡；(55-50)/55≈9%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1750,
+    "external": 1000,
+    "verdict": "minor_diff",
+    "query": "深圳万象城 停车场 车位 商业面积 万平方米",
+    "source_url": null,
+    "source_level": "trade",
+    "evidence": "一期万象城停车位1000个，华润大厦停车位682个（MBA智库项目方案）",
+    "note": "另有『万象城车位约3000个』说法（365淘楼，或含二期/写字楼）；口径分散，1750居中，(1750-1000)/1750≈43%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 21.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳万象城 客流 万人次 日均",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅『三天小长假客流量超17万人次』且未明确单指罗湖万象城，不可用",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1441",
+  "name": "杭州万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "杭州万象城 2010年开业 商业面积 车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "以杭州万象城为例，2010年4月开业，2011年1月进入稳定经营期（腾讯新闻2023）；浙江在线2021同",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 22.5,
+    "external": 27,
+    "verdict": "match",
+    "query": "杭州万象城 2010年开业 商业面积 车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "一期2010年开业，加二期总体量约27万㎡（网易订阅2026）",
+    "note": "27万为商业总体量口径；百科『规划建面55万/总建面80万』为含写字楼酒店住宅的综合体口径，不可比；(27-22.5)/27≈17%"
+   },
+   {
+    "metric": "parking",
+    "internal": 1750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州万象城 2010年开业 商业面积 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮搜索未见车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 18.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "杭州万象城 2010年开业 商业面积 车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流万人次数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1448",
+  "name": "上海新世界大丸百货",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "上海新世界大丸百货 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2015年5月15日开业（上海本地宝；腾讯新闻2025升级改造报道确认）",
+    "note": "AI问答另有2014-09-26说法，疑试营业或讹传；主流报道均为2015-05-15"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.5,
+    "external": 11.8,
+    "verdict": "minor_diff",
+    "query": "上海新世界大丸百货 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建筑面积达11.8万平方米，地上六层地下五层（上海本地宝）；开业报道称总经营面积达12万㎡",
+    "note": "(11.8-6.5)/11.8≈45%；内部6.5万疑取商业营业部分口径，未见该口径来源"
+   },
+   {
+    "metric": "parking",
+    "internal": 520,
+    "external": 300,
+    "verdict": "minor_diff",
+    "query": "上海新世界大丸百货 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "停车泊位300余个（上海本地宝）",
+    "note": "(520-300)/520≈42%；来源单一"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "新世界大丸百货 客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2025十周年店庆预计两天客流可达16万人次（新浪财经2025-05）",
+    "note": "两天累计口径，折算单日约8万；无节假日单日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "1449",
+  "name": "上海恒隆广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2001,
+    "external": 2001,
+    "verdict": "match",
+    "query": "上海恒隆广场 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "建成于2001年，浦西第一高楼（360百科）；2026年为开业25周年（网易2026）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.5,
+    "external": 5.5,
+    "verdict": "minor_diff",
+    "query": "上海恒隆广场 商场 建筑面积 5万 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "上海恒隆广场商场体量约5.5万平方米（kknews 2021）",
+    "note": "外部通称商场体量5.5万㎡；内部3.5万疑为可租/净商业面积口径；(5.5-3.5)/5.5≈36%"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海恒隆广场 商场 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮搜索未见车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海恒隆广场 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见客流万人次数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1478",
+  "name": "上海第一八佰伴",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1995,
+    "external": 1995,
+    "verdict": "match",
+    "query": "上海第一八佰伴 开业时间 建筑面积 停车位 客流",
+    "source_url": "https://www.thepaper.cn",
+    "source_level": "media",
+    "evidence": "1995年12月20日新世纪商厦开业，107万名顾客光临（澎湃·浦东历史上的今天）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 13,
+    "external": 14.48,
+    "verdict": "match",
+    "query": "上海第一八佰伴 开业时间 建筑面积 停车位 客流",
+    "source_url": "https://www.zgswcn.com",
+    "source_level": "media",
+    "evidence": "1995年12月20日建成开业时…总建筑面积达14.48万平方米（中国商报2024）",
+    "note": "(14.48-13)/14.48≈10%"
+   },
+   {
+    "metric": "parking",
+    "internal": 400,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海第一八佰伴 店庆 12月31日 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮搜索未见车位数量，店庆日媒体建议乘公共交通",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 12.5,
+    "external": 21.3,
+    "verdict": "minor_diff",
+    "query": "上海第一八佰伴 店庆 12月31日 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "2014年12月31日店庆客流21.3万人次、销售7.10亿元，刷新单日纪录",
+    "note": "单日口径可比但数值差约41%；开业当日107万人次系1995年开业首日口径，不可比"
+   }
+  ]
+ },
+ {
+  "id": "1484",
+  "name": "深圳万象天地",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "深圳万象天地 开业 2017 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2017年9月开业，华润置地第三代城市综合体（网易2019/36kr 2021）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23,
+    "external": 23,
+    "verdict": "match",
+    "query": "深圳万象天地 开业 2017 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "总建面积23万平方米，首创『街区+mall』模式（网易2019）；商业体量23万㎡（36kr 2021）",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 3489,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳万象天地 停车场 车位数量 个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "三轮搜索仅见收费标准（首小时10元），无车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 32.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "深圳万象天地 开业 2017 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "开业第二年商场业绩38.5亿元，年客流量4379万人次（36kr 2021）",
+    "note": "年累计口径，折算日均约12万；无节假日单日32.5万口径"
+   }
+  ]
+ },
+ {
+  "id": "1487",
+  "name": "深圳卓悦中心一期（东区、西区）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "深圳卓悦中心 One Avenue 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "深圳One Avenue卓悦中心一期拟2019年9月12日开业（新浪财经引赢商网）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 28.6,
+    "external": 18.6,
+    "verdict": "minor_diff",
+    "query": "深圳卓悦中心 One Avenue 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "一期建筑面积18.6万㎡，350间店铺（赢商网2019）；北区4.8万㎡2022年开业",
+    "note": "(28.6-18.6)/28.6≈35%；一期+北区=23.4万仍低于28.6万约18%，外部未见28.6万口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 7500,
+    "external": 2500,
+    "verdict": "conflict",
+    "query": "深圳卓悦中心 One Avenue 开业 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "一期2500个停车位（赢商网2019）；『约29万㎡商业及超过7500个停车位』系卓悦中心整体项目口径",
+    "note": "7500为含二期/写字楼的整体口径，一期口径应为2500个；数值本身有出处但行级归属存疑"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "深圳卓悦中心 One Avenue 日客流 万人次 节假日",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "卓悦中心2025年全年总客流达4500万人次（赢商网监测，网易2026-09）",
+    "note": "年累计口径，折算日均约12.3万；无单日/节假日峰值口径"
+   }
+  ]
+ },
+ {
+  "id": "1492",
+  "name": "北京西单大悦城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2007,
+    "external": 2007,
+    "verdict": "match",
+    "query": "北京西单大悦城 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2007年底（12月）开业，大悦城开山之作、北京第一座大悦城（腾讯新闻等）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.5,
+    "external": 11.33,
+    "verdict": "match",
+    "query": "西单大悦城 2007年开业 建筑面积 万平方米 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "商业建筑面积113290平方米，楼层分布B2-11F（西单大悦城项目案例研究）",
+    "note": "(11.33-10.5)/11.33≈7%"
+   },
+   {
+    "metric": "parking",
+    "internal": 723,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西单大悦城 停车位 个 日客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两轮搜索未见确切车位数量",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "西单大悦城 停车位 个 日客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "西单商圈日均客流约10万人次，节假日客流峰值突破27万人次（搜狐2026-10）",
+    "note": "外部仅商圈口径（另2021年商场年客流约2000万人次），无商场单体节假日单日峰值"
+   }
+  ]
+ },
+ {
+  "id": "1495",
+  "name": "北京翠微百货（翠微店）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1997,
+    "external": 1997,
+    "verdict": "match",
+    "query": "北京翠微百货 翠微店 开业时间 建筑面积 停车位",
+    "source_url": "https://zyk.bjhd.gov.cn/ywdt/hdywx/202103/t20210322_4457384_hd.shtml",
+    "source_level": "official",
+    "evidence": "翠微百货翠微店自1997年开业以来已走过23年历程（海淀区政府网2021）；1997年11月18日正式开业",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 3.25,
+    "external": 3.6,
+    "verdict": "match",
+    "query": "北京翠微百货 翠微店 开业时间 建筑面积 停车位",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "建筑面积约11.7万平方米，商厦营业面积约3.6万平方米",
+    "note": "内部3.25万接近营业面积口径3.6万（差10%）；11.7万为整栋总建面口径，不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 350,
+    "external": 300,
+    "verdict": "match",
+    "query": "翠微百货 公主坟 停车位 客流 万人次",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "大厦地上地下停车场共有300多个车位（抖音百科）",
+    "note": "(350-300)/350≈14%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "翠微百货 公主坟 日客流量 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅公主坟商圈级零星描述，无单店客流数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1500",
+  "name": "北京老佛爷百货（西单店）",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2013,
+    "external": 2013,
+    "verdict": "match",
+    "query": "北京老佛爷百货 西单 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2013年开业，老佛爷百货亚洲首家直营店（中新网/新华网）；运营约13年后于2026-05-27闭店",
+    "note": "开业日期一说2013年9月、一说10月18日，年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4.84,
+    "external": 4.8,
+    "verdict": "match",
+    "query": "北京老佛爷百货 西单 开业时间 建筑面积 停车位 客流",
+    "source_url": null,
+    "source_level": "self-media",
+    "evidence": "建筑面积约4.7万平方米（一说4.8万平方米），商业面积B1至地上5层",
+    "note": "与内部4.84万基本一致（差<2%）"
+   },
+   {
+    "metric": "parking",
+    "internal": 450,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京老佛爷百货 西单店 停车位 日客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数量，仅提与西单商圈共享停车资源",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "北京老佛爷百货 西单店 停车位 日客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅定性报道『客流量相对较少』（新华社2021），无万人次数字",
+    "note": ""
+   }
+  ]
+ }
+]

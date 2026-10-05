@@ -1,0 +1,767 @@
+[
+  {
+    "id": "1602",
+    "name": "重庆星光68广场A馆",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2011,
+        "external": 2011,
+        "verdict": "match",
+        "query": "重庆星光68广场 开业时间 建筑面积 万方",
+        "source_url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E6%98%9F%E5%85%8968%E5%B9%BF%E5%9C%BA/713999",
+        "source_level": "self-media",
+        "evidence": "开业时间2011年(A区)/2021年(B区)，赢商网报道同口径",
+        "note": "A区2011年、B区2021年，内部2011取A馆口径一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 11,
+        "external": 11,
+        "verdict": "match",
+        "query": "重庆星光68广场 开业时间 建筑面积 万方",
+        "source_url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E6%98%9F%E5%85%8968%E5%B9%BF%E5%9C%BA/713999",
+        "source_level": "self-media",
+        "evidence": "总建筑面积11万平方米，商业面积11万平方米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "星光68广场 重庆 停车位数量 年客流量",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "两次搜索均限流或无相关结果"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 5.9,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "重庆星光68广场 停车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅见观音桥商圈单日105万全域口径，无项目级节假日峰值"
+      }
+    ]
+  },
+  {
+    "id": "1614",
+    "name": "北京金融街购物中心",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2007,
+        "external": 2007,
+        "verdict": "match",
+        "query": "金融街购物中心 北京 西城 车位 开业",
+        "source_url": "https://zhuanlan.zhihu.com",
+        "source_level": "self-media",
+        "evidence": "商业案例盘点：开业时间2007年，金融街控股旗下、仲量联行物业管理",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 13,
+        "external": 14.06,
+        "verdict": "match",
+        "query": "北京金融街购物中心 开业时间 建筑面积 停车位",
+        "source_url": "http://www.jrjkg.com.cn",
+        "source_level": "official",
+        "evidence": "金融街控股评级报告披露金融街购物中心建筑面积约140,591平方米",
+        "note": "差约7.5%，在±20%内"
+      },
+      {
+        "metric": "parking",
+        "internal": 961,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "金融街购物中心 北京 西城 车位 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "公开信源仅有控股公司资产公告提及地下车位资产，无总数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 0.425,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "金融街购物中心 北京 西城 车位 开业",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "无客流数据信源"
+      }
+    ]
+  },
+  {
+    "id": "1648",
+    "name": "海口友谊阳光城",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2017,
+        "external": 2017,
+        "verdict": "match",
+        "query": "海口友谊阳光城 2017年 开业 车位",
+        "source_url": "https://m.winshang.com/news726751.html",
+        "source_level": "trade",
+        "evidence": "赢商网：2017年11月23日正式开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 9,
+        "external": 18,
+        "verdict": "minor_diff",
+        "query": "海口友谊阳光城 商场 开业 建筑面积",
+        "source_url": "https://m.winshang.com/news726751.html",
+        "source_level": "trade",
+        "evidence": "赢商网实探：友谊体系内建筑面积最大的商场——18万平方米，商业面积18万平方米",
+        "note": "差50%处于minor上界；另有信源称商业面积超10万/16-18万，内部9万疑为旧口径或商业面积窄口径，接近conflict需复核"
+      },
+      {
+        "metric": "parking",
+        "internal": 2000,
+        "external": 2000,
+        "verdict": "match",
+        "query": "海口友谊阳光城 2017年 开业 车位",
+        "source_url": "http://www.chinaweekly.cn/html/zonghe/21521.html",
+        "source_level": "media",
+        "evidence": "中国周刊：配备约2000个停车位、17部直梯、65部手扶梯",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 10.89,
+        "external": 10.89,
+        "verdict": "match",
+        "query": "海口友谊阳光城 2017年 开业 车位",
+        "source_url": "https://m.winshang.com/news726751.html",
+        "source_level": "trade",
+        "evidence": "赢商网：节假日日均客流10.89万人次",
+        "note": ""
+      }
+    ]
+  },
+  {
+    "id": "1673",
+    "name": "南京景枫中心",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2016,
+        "external": 2016,
+        "verdict": "match",
+        "query": "南京景枫中心 开业时间 建筑面积 万方",
+        "source_url": "https://m.baike.com",
+        "source_level": "self-media",
+        "evidence": "抖音百科：2016年9月，景枫中心开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 37,
+        "external": 37,
+        "verdict": "match",
+        "query": "南京景枫中心 开业时间 建筑面积 万方",
+        "source_url": "https://m.baike.com",
+        "source_level": "self-media",
+        "evidence": "总建筑面积约为37万平方米",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 2100,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "景枫中心 江宁 停车位 个",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅写字楼月租停车费与酒店停车评价，无车位数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 22.25,
+        "external": 2960,
+        "verdict": "unit_mismatch",
+        "query": "南京景枫KINGMO 停车位数量 客流量",
+        "source_url": "https://www.green-chen.com",
+        "source_level": "trade",
+        "evidence": "2024年全年客流量达2960万人次（赢商网口径），销售额42.8亿元",
+        "note": "外部为年累计客流，无法对标节假日单日峰值22.25万人次/日"
+      }
+    ]
+  },
+  {
+    "id": "1676",
+    "name": "太原天美新天地购物中心",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2011,
+        "external": 2011,
+        "verdict": "match",
+        "query": "太原 天美新天地 百货 开业 2011",
+        "source_url": "https://baike.baidu.com/item/%E5%A4%A9%E7%BE%8E%E6%96%B0%E5%A4%A9%E5%9C%B0",
+        "source_level": "self-media",
+        "evidence": "2011年5月22日正式开业，2021年5月举行开业十周年庆典",
+        "note": "十周年庆典时间与2011开业互证"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 4.9,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "太原天美新天地 长风街 建筑面积 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "多组词检索均无建筑面积权威数据"
+      },
+      {
+        "metric": "parking",
+        "internal": 1000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "太原天美新天地 长风街 建筑面积 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "无车位数信源"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "太原 天美新天地 百货 开业 2011",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅有久谦中台营收纪要，无客流数据"
+      }
+    ]
+  },
+  {
+    "id": "1691",
+    "name": "郑州正弘城 Grand Emporium",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2018,
+        "external": 2018,
+        "verdict": "match",
+        "query": "郑州正弘城 开业时间 建筑面积",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "正弘商业落地开业项目报道：正弘城2018年开业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 40,
+        "external": 40,
+        "verdict": "match",
+        "query": "郑州正弘城 开业时间 建筑面积",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "总体量约40万方（40万平方米）",
+        "note": ""
+      },
+      {
+        "metric": "parking",
+        "internal": 2500,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "郑州正弘城 停车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "检索未返回项目车位数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 22.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "郑州正弘城 停车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "无客流数据信源"
+      }
+    ]
+  },
+  {
+    "id": "1695",
+    "name": "上海港汇恒隆广场",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 1999,
+        "external": 1999,
+        "verdict": "match",
+        "query": "港汇恒隆广场 1999年 开业 商场面积",
+        "source_url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%B8%AF%E5%8C%AF%E5%BA%83%E5%A0%B4",
+        "source_level": "self-media",
+        "evidence": "1999年12月开业，恒隆集团在内地首个商业地产项目",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 12,
+        "external": 12,
+        "verdict": "match",
+        "query": "港汇恒隆广场 1999年 开业 商场面积",
+        "source_url": "https://baike.baidu.com/item/%E4%B8%8A%E6%B5%B7%E6%B8%AF%E5%8C%AF%E5%BA%83%E5%A0%B4",
+        "source_level": "self-media",
+        "evidence": "商业面积约12万平方米；整体项目（含双塔写字楼）约40万平方米",
+        "note": "取商场商业面积口径12万㎡与内部一致"
+      },
+      {
+        "metric": "parking",
+        "internal": 1350,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "港汇恒隆广场停车场 车位数",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅写字楼部分300车位的中介信息，商场整体车位数无权威信源"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 30,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "港汇恒隆广场 日均客流量 商场",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅徐家汇商圈级客流描述，无项目节假日峰值"
+      }
+    ]
+  },
+  {
+    "id": "1700",
+    "name": "长春砂之船中东奥莱",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2017,
+        "external": 2017,
+        "verdict": "match",
+        "query": "砂之船 长春 奥莱 2017年 开业 中东",
+        "source_url": "http://www.sasseur.com",
+        "source_level": "official",
+        "evidence": "2017年9月23日，18万方的长春砂之船（中东）奥莱正式开业（与西安店八天开两店）",
+        "note": "砂之船官网及本地媒体多源一致"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 17.2,
+        "external": 18,
+        "verdict": "match",
+        "query": "长春 砂之船奥莱 中东 开业 建筑面积",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "开业报道18万方；maigoo榜单亦录17.2万平方米",
+        "note": "差约4.4%"
+      },
+      {
+        "metric": "parking",
+        "internal": 4000,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长春砂之船奥莱 停车位 客流量",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "多组词检索限流/无车位数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6.5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "长春砂之船奥莱 停车 客流 人数",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅砂之船集团行业榜整体均值（节假日场均4.1万），无项目级数据"
+      }
+    ]
+  },
+  {
+    "id": "1705",
+    "name": "广州正佳广场",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2005,
+        "external": 2005,
+        "verdict": "match",
+        "query": "广州正佳广场 2005年 开业 建筑面积 42万",
+        "source_url": "https://m.cj.sina.cn",
+        "source_level": "media",
+        "evidence": "新浪财经2005-01-17：正佳广场1月15日正式开张营业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 42,
+        "external": 42,
+        "verdict": "match",
+        "query": "广州正佳广场 2005年 开业 建筑面积 42万",
+        "source_url": "https://m.cj.sina.cn",
+        "source_level": "media",
+        "evidence": "耗资40亿元，总建筑面积达42万平方米",
+        "note": "商业建筑面积约30万㎡，内部42万取总建面口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 1500,
+        "external": 1500,
+        "verdict": "match",
+        "query": "广州正佳广场 停车位 数量 多少个",
+        "source_url": "https://www.sohu.com",
+        "source_level": "media",
+        "evidence": "搜狐2018项目稿：驾车经天河路及黄埔大道直达，1500个停车位",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 24,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "正佳广场 停车位 多少个 节假日 客流",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅定性描述（节假日人流爆满、年客流约亿级），无节假日单日24万人次信源"
+      }
+    ]
+  },
+  {
+    "id": "1719",
+    "name": "西安金鹰国际购物中心（高新店）",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2006,
+        "external": 2006,
+        "verdict": "match",
+        "query": "西安金鹰国际购物中心 高新店 开业时间 建筑面积",
+        "source_url": "http://www.netge.com/web/ShopMallDetail/43",
+        "source_level": "official",
+        "evidence": "金鹰集团官网：开业时间2006-12-07，项目地址科技路37号",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 3,
+        "external": 3.5,
+        "verdict": "match",
+        "query": "西安金鹰国际购物中心 高新店 开业时间 建筑面积",
+        "source_url": "http://www.netge.com/web/ShopMallDetail/43",
+        "source_level": "official",
+        "evidence": "官网项目面积35000㎡，项目介绍正文称30000平方米完美建筑形态",
+        "note": "差约14%；官网两个口径（3万/3.5万）均覆盖内部3万"
+      },
+      {
+        "metric": "parking",
+        "internal": 543,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "西安金鹰国际购物广场 停车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅停车场排队的用户评价，无车位数"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 4,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "西安金鹰国际 高新 停车位 车位",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "无客流数据信源"
+      }
+    ]
+  },
+  {
+    "id": "1726",
+    "name": "徐州金鹰购物中心A座（彭城广场）",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2003,
+        "external": 2003,
+        "verdict": "match",
+        "query": "徐州金鹰国际购物中心 彭城广场 开业时间 建筑面积",
+        "source_url": "https://baike.baidu.com/item/%E5%BE%90%E5%B7%9E%E9%87%91%E9%B9%B0%E5%9B%BD%E9%99%85%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/14445028",
+        "source_level": "self-media",
+        "evidence": "2003年12月18日开业，金鹰首进徐州项目",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 7.25,
+        "external": 7.5,
+        "verdict": "match",
+        "query": "徐州金鹰国际购物中心 彭城广场 开业时间 建筑面积",
+        "source_url": "https://baike.baidu.com/item/%E5%BE%90%E5%B7%9E%E9%87%91%E9%B9%B0%E5%9B%BD%E9%99%85%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/14445028",
+        "source_level": "self-media",
+        "evidence": "总营业面积达75000平方米；金鹰官网项目面积122500平方米",
+        "note": "内部7.25万与百科7.5万差3.3%；官网12.25万含塔楼等整体口径"
+      },
+      {
+        "metric": "parking",
+        "internal": 500,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "徐州金鹰国际 彭城广场 停车场 车位数",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "检索仅见2023年非机动车位改造500个（非机动车），机动车位数无信源；内部500需防口径混淆"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 15,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "徐州金鹰国际 车位 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "限流致检索失败，无客流信源"
+      }
+    ]
+  },
+  {
+    "id": "1744",
+    "name": "兰州中心",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2019,
+        "external": 2019,
+        "verdict": "match",
+        "query": "兰州中心 开业时间 建筑面积 停车位",
+        "source_url": "https://i.ifeng.com",
+        "source_level": "media",
+        "evidence": "凤凰网：2019年初，兰州中心正式营业",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 60,
+        "external": 60,
+        "verdict": "match",
+        "query": "兰州中心 开业时间 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "兰州国际商贸中心整体项目建筑面积约60万平方米",
+        "note": "购物中心部分约21万㎡，内部60万取整体项目口径，两者口径需在展示时区分"
+      },
+      {
+        "metric": "parking",
+        "internal": 4000,
+        "external": 4000,
+        "verdict": "match",
+        "query": "兰州中心 开业时间 建筑面积 停车位",
+        "source_url": null,
+        "source_level": "media",
+        "evidence": "整体项目配备约4000个停车位，另有2500个自行车停放位",
+        "note": ""
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 20.45,
+        "external": 23,
+        "verdict": "match",
+        "query": "兰州中心 商场 单日客流 节假日 万",
+        "source_url": "https://www.toutiao.com",
+        "source_level": "media",
+        "evidence": "元旦当日客流达23万人次（同比+32%）；跨年活动3日累计73.67万为累计口径不采用",
+        "note": "同为节假日单日口径，差约11%"
+      }
+    ]
+  },
+  {
+    "id": "1746",
+    "name": "无锡恒隆广场",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2009,
+        "external": 2013,
+        "verdict": "conflict",
+        "query": "无锡恒隆广场 一期 2013年 开业 恒隆地产",
+        "source_url": "https://www.sohu.com",
+        "source_level": "media",
+        "evidence": "搜狐2026-09：2013年9月16日，无锡恒隆广场一期商场正式开业；维基百科同口径",
+        "note": "内部2009比实际早4年，疑误取拿地/开工年份"
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 4.7,
+        "external": 12.2,
+        "verdict": "conflict",
+        "query": "无锡恒隆广场 商场 开业 商业面积 万平方米",
+        "source_url": "https://www.hanglung.com",
+        "source_level": "official",
+        "evidence": "恒隆官网/网易：一期商场面积约12.2万平方米；扩展项目（原新世界百货）新增约4.7万平方米",
+        "note": "内部4.7万㎡恰为二期扩展新增面积，疑误当整体建面；总楼面约25.9万㎡（百科），61%差确认conflict"
+      },
+      {
+        "metric": "parking",
+        "internal": 1300,
+        "external": 1200,
+        "verdict": "match",
+        "query": "无锡恒隆广场 2013年9月 开业 车位 面积",
+        "source_url": "https://www.163.com",
+        "source_level": "media",
+        "evidence": "网易《陈启宗退休》：无锡恒隆广场提供400余家店铺及1200个停车位",
+        "note": "差约7.7%"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 10,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "无锡恒隆广场 客流 万人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "未检索到项目节假日单日客流"
+      }
+    ]
+  },
+  {
+    "id": "1755",
+    "name": "上海青浦百联奥特莱斯",
+    "layer": "S2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2006,
+        "external": 2006,
+        "verdict": "match",
+        "query": "上海青浦百联奥特莱斯广场 2006年 开业 停车位",
+        "source_url": "https://finance.sina.com.cn",
+        "source_level": "media",
+        "evidence": "2006年4月28日开业，中国大陆最早的名品奥特莱斯之一",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 7.05,
+        "external": 20,
+        "verdict": "unit_mismatch",
+        "query": "百联奥特莱斯 青浦 商业面积 万平方米 停车",
+        "source_url": "https://finance.ifeng.com",
+        "source_level": "media",
+        "evidence": "凤凰财经2026-09：二期开业后一、二期整体商业建筑面积扩容至20万平方米",
+        "note": "外部可查仅一二期合计口径（2026扩容后），一期单独建面无权威数；内部7.05万疑为一期口径，口径不可比"
+      },
+      {
+        "metric": "parking",
+        "internal": 3400,
+        "external": 3000,
+        "verdict": "match",
+        "query": "百联奥特莱斯 青浦 商业面积 万平方米 停车",
+        "source_url": "https://finance.ifeng.com",
+        "source_level": "media",
+        "evidence": "二期扩容后停车位超3000个",
+        "note": "差约12%；外部为2026年扩容后口径，内部3400或含一期原有车位"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 5,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "青浦百联奥莱 客流 万人次 节假日",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅有销售额与店数报道，无节假日单日客流"
+      }
+    ]
+  },
+  {
+    "id": "1763",
+    "name": "嘉兴八佰伴（中山路店）",
+    "layer": "A+2",
+    "results": [
+      {
+        "metric": "openedYear",
+        "internal": 2016,
+        "external": 2016,
+        "verdict": "match",
+        "query": "嘉兴八佰伴 中山路 开业时间 建筑面积 停车位",
+        "source_url": "http://www.springlandgroup.com.cn/newsview/202.html",
+        "source_level": "official",
+        "evidence": "华地集团官网：嘉兴八佰伴1月15日盛大开业（2016-01-15）",
+        "note": ""
+      },
+      {
+        "metric": "buildingArea",
+        "internal": 17.7,
+        "external": 17.9,
+        "verdict": "match",
+        "query": "嘉兴八佰伴 中山路 开业时间 建筑面积 停车位",
+        "source_url": "http://www.springlandgroup.com.cn/newsview/202.html",
+        "source_level": "official",
+        "evidence": "华地集团官网：建筑面积17.9万方；秀洲新闻网/百科口径17.7万方",
+        "note": "差约1%"
+      },
+      {
+        "metric": "parking",
+        "internal": 1500,
+        "external": 459,
+        "verdict": "conflict",
+        "query": "嘉兴八佰伴 停车场 车位 个 客流",
+        "source_url": null,
+        "source_level": "self-media",
+        "evidence": "弱信源（浙江停车场收费一览表）称车位约459个；另查得「嘉兴八佰伴年客流量突破1500万」",
+        "note": "auditFlag证实可疑：1500与年客流1500万人次高度吻合，疑为客流数字污染；1500 vs 459差69%，且无任何信源支持1500车位"
+      },
+      {
+        "metric": "trafficPeak",
+        "internal": 6.3,
+        "external": null,
+        "verdict": "no_external_data",
+        "query": "嘉兴八佰伴 开业 客流 人次",
+        "source_url": null,
+        "source_level": null,
+        "evidence": "",
+        "note": "仅简书自媒体称餐饮区周末峰值近3万人次（局部口径不可比），无全馆节假日峰值信源"
+      }
+    ]
+  }
+]

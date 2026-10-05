@@ -1,0 +1,767 @@
+[
+ {
+  "id": "0939",
+  "name": "西安SKP",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2018,
+    "verdict": "conflict",
+    "query": "西安SKP 开业时间 2018年5月",
+    "source_url": "https://k.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪2021-12：西安SKP于2018年5月开业，位于碑林区长安北路",
+    "note": "内部2021实取SKP-S（北馆）开业年；主体开业外部主流口径2018-05（md正文另自称2014-11，与外部矛盾）；焕新/扩展不计原始开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 11.5,
+    "external": 23.5,
+    "verdict": "unit_mismatch",
+    "query": "西安SKP 建筑面积 万平方米 商业面积",
+    "source_url": "https://k.sina.cn",
+    "source_level": "media",
+    "evidence": "总建筑面积23.5万平方米，分为A、B座（新浪2021-12）",
+    "note": "内部11.5为商业经营面积口径（md载约10–13万㎡）；外部23.5为总建面（百度百科/界面口径24–26万），口径不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安SKP 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "官网仅载B2/B3两层停车场，无数量；二期规划5044个为另案",
+    "note": "内部2000为ETL推断值（md推断1500–2500），无一期公开车位数"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安SKP 节假日 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未找到以万人次为单位的项目级节假日客流统计；官方多披露销售额",
+    "note": "内部6.5为md客流反推值（5–8万中值），无独立外部佐证"
+   }
+  ]
+ },
+ {
+  "id": "0940",
+  "name": "西安大悦城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "西安大悦城 2018年12月15日开业 商业面积 万方",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "搜狐2018-09：西安大悦城12月16日即将盛装亮相，首进品牌190家",
+    "note": "正式开业2018-12-16，与内部一致（前身秦汉唐广场不计）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大悦城 总建筑面积 15万平方米",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "3次检索均未获带原文锚点的面积数字",
+    "note": "检索摘要提及商业建面约14.5万㎡/总建面15万㎡但无原文佐证，不采信；内部10.5为md商业面积10–11万中值"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安大悦城 停车位 客流 节假日",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见曲江区域停车管控信息，无项目级车位数",
+    "note": "md自载口径分歧（约1000 vs 1500–2000），未见独立外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 20,
+    "external": 43,
+    "verdict": "unit_mismatch",
+    "query": "西安大悦城 停车位 客流 节假日",
+    "source_url": "https://news.hsw.cn",
+    "source_level": "media",
+    "evidence": "华商网2021-02：春节初一曲江核心区客流43万人次，26个车场10194个车位饱和",
+    "note": "外部仅获曲江核心区全域单日43万人次（区域口径，不可比）；内部20为节假日峰值15–25万推断中值"
+   }
+  ]
+ },
+ {
+  "id": "0973",
+  "name": "三亚国际免税城CDFmall一期AB区",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2014,
+    "external": 2014,
+    "verdict": "match",
+    "query": "三亚国际免税城 一期 2014年9月1日 开业",
+    "source_url": "https://zh.wikipedia.org/wiki/三亚国际免税城",
+    "source_level": "self-media",
+    "evidence": "维基：2014年迁至海棠湾，营业面积增加到7万多平方米",
+    "note": "现址一期2014年开业，与内部一致；前身大东海市内免税店2009年开业不计"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 7.2,
+    "external": 7,
+    "verdict": "match",
+    "query": "三亚国际免税城 开业 2014年 建筑面积",
+    "source_url": "https://zh.wikipedia.org/wiki/三亚国际免税城",
+    "source_level": "self-media",
+    "evidence": "维基：2014年迁海棠湾后营业面积增加到7万多平方米",
+    "note": "口径为一期营业/建筑面积；7.2与7万多差异<3%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "三亚国际免税城 一期 2014年9月1日 开业",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开车位数",
+    "note": "内部2000为ETL推断值（md推断1500–2500中值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4.5,
+    "external": 7.6,
+    "verdict": "minor_diff",
+    "query": "三亚国际免税城 春节 客流 万人次 单日",
+    "source_url": "http://hi.people.com.cn",
+    "source_level": "media",
+    "evidence": "人民网2025-02：cdf三亚国际免税城单日客流突破7.6万人次，春节前五天累计超30万",
+    "note": "外部为春节高峰口径（2024春节日均5.6万、峰值7.6–9.2万）；内部4.5为普通法定节假日3–6万推断中值（春节/十一另记8–15万），同口径缺失、内部偏低但量级一致"
+   }
+  ]
+ },
+ {
+  "id": "0988",
+  "name": "沈阳王府井奥莱棋盘山小镇一期",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2012,
+    "external": 2012,
+    "verdict": "match",
+    "query": "沈阳王府井奥莱 棋盘山小镇 更名 赛特奥莱",
+    "source_url": "https://www.163.com",
+    "source_level": "media",
+    "evidence": "网易2024-03：3月5日沈阳赛特奥莱更名王府井奥莱·棋盘山小镇；项目2012年8月开业",
+    "note": "更名不计开业；内部2012-08-03正式开业（07-21试营业）与外部一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.81,
+    "external": 14.9,
+    "verdict": "unit_mismatch",
+    "query": "沈阳赛特奥莱 2012年开业 建筑面积 停车位",
+    "source_url": "https://www.scribd.com",
+    "source_level": "trade",
+    "evidence": "国泰君安折扣零售报告（2023-12）引王府井口径：沈阳赛特奥莱经营面积约14.9万㎡",
+    "note": "内部6.81为一期建面（商业5.31万），外部14.9为一二期合计口径；与md引用王府井公告的14.8万合计口径一致，非数值冲突"
+   },
+   {
+    "metric": "parking",
+    "internal": 2200,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳赛特奥莱 停车位 2200 棋盘山",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "两次检索均因限流未获结果；md引沈阳交警2200个（一二期合计）",
+    "note": "内部2200为一二期合计口径，一期单独未披露；未获独立外部佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "沈阳 王府井奥莱棋盘山 国庆 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获项目级节假日客流报道（仅棋盘山景区口径）",
+    "note": "md引中证报：国庆5天近50万人次、单日峰值10万+；本轮未获独立佐证"
+   }
+  ]
+ },
+ {
+  "id": "1017",
+  "name": "成都仁和新城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "仁和新城 成都 高新 开业 万㎡ 购物中心",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "金融城商圈仁和新城2018年开业；界面四川2019-06动态佐证其已营业",
+    "note": "内部2018为推断值；多次检索限流，判定基于检索摘要口径、无原文锚点，置信有限"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 32.5,
+    "external": 18,
+    "verdict": "unit_mismatch",
+    "query": "仁和新城 成都 高新 开业 万㎡ 购物中心",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "检索摘要口径：商业体量约18万㎡",
+    "note": "内部32.5为综合体总建面口径（md载购物中心12–15万），外部18万为商业体量口径，不可比；均无原文锚点"
+   },
+   {
+    "metric": "parking",
+    "internal": 1750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "仁和新城 成都 高新 开业 万㎡ 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开车位数",
+    "note": "内部1750为ETL推断值（md载1500–2000反推，数据缺口）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 10,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "仁和新城 成都 高新 开业 万㎡ 购物中心",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开客流数据",
+    "note": "内部10为节假日峰值8–12万推断中值（低置信）"
+   }
+  ]
+ },
+ {
+  "id": "1022",
+  "name": "西安龙首印象城",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2015,
+    "verdict": "match",
+    "query": "西安龙首印象城 2015年12月26日开业 商业体量",
+    "source_url": "http://sx.sina.cn/news/brand/2023-02-27/detail-imyicmza0984227.d.html",
+    "source_level": "media",
+    "evidence": "新浪陕西2023-02：商业面积12.5万平方米，自2015年12月26日开业",
+    "note": "完全一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12.5,
+    "external": 12.5,
+    "verdict": "match",
+    "query": "西安龙首印象城 2015年12月26日开业 商业体量",
+    "source_url": "http://sx.sina.cn/news/brand/2023-02-27/detail-imyicmza0984227.d.html",
+    "source_level": "media",
+    "evidence": "新浪陕西2023-02：商业面积12.5万平方米（百科精确值125,540㎡）",
+    "note": "商业面积口径一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1373,
+    "external": 1373,
+    "verdict": "match",
+    "query": "西安龙首印象城 2015年12月26日开业 商业体量",
+    "source_url": "http://sx.sina.cn/news/brand/2023-02-27/detail-imyicmza0984227.d.html",
+    "source_level": "media",
+    "evidence": "检索摘要引印力/百科口径：停车位1373个",
+    "note": "数值完全一致；原文锚点为检索摘要"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "西安龙首印象城 客流 节假日 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获项目级节假日客流精确数据",
+    "note": "内部5.5万为节假日口径（赢商网/邻汇吧）；另见节假日地下停车场1189个车位（春节避堵攻略），非客流"
+   }
+  ]
+ },
+ {
+  "id": "1035",
+  "name": "深圳金光华广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2004,
+    "external": 2004,
+    "verdict": "match",
+    "query": "深圳金光华广场 2004年 开业 商业面积 8万",
+    "source_url": "https://zh.wikipedia.org/wiki/金光华广场",
+    "source_level": "self-media",
+    "evidence": "维基：始建于2004年；检索摘要：2004年与地铁一号线国贸站同步开业（2004-11）",
+    "note": "内部2004-12试营业/2005正式，年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8,
+    "external": 12,
+    "verdict": "unit_mismatch",
+    "query": "深圳金光华广场 2004年 开业 商业面积 8万",
+    "source_url": "https://zh.wikipedia.org/wiki/金光华广场",
+    "source_level": "self-media",
+    "evidence": "维基：商场总建筑面积超过12万平方米",
+    "note": "内部8为商业面积口径（md载商业≈8万、整盘12万、部分口径18–20万并存），外部12+为总建面口径，不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳金光华广场 2004年 开业 商业面积 8万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开车位数",
+    "note": "内部750为ETL推断值（md推断500–1000，数据缺口）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 17.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "深圳金光华广场 2004年 开业 商业面积 8万",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级节假日客流数据",
+    "note": "内部17.5为节假日峰值15–20万推断中值（低置信，研究机构口径）"
+   }
+  ]
+ },
+ {
+  "id": "1046",
+  "name": "芜湖八佰伴",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "芜湖八佰伴生活广场 开业 商业面积 停车位",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网盘点安徽2017年12月大事件：芜湖八佰伴12.8迎来开业",
+    "note": "日期2017-12-08一致（原定11月延期）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 12,
+    "external": 12,
+    "verdict": "match",
+    "query": "芜湖八佰伴生活广场 开业 商业面积 停车位",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "行业媒体口径：总建面超18.3万㎡、商业面积超12万㎡",
+    "note": "内部取商业面积口径，与外部一致（与md引用maigoo口径相同）"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "芜湖八佰伴生活广场 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "检索未见项目级车位数",
+    "note": "md引maigoo：配建1500机动车位（B2+7F+8F三层）；未获独立佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8.25,
+    "external": 7.5,
+    "verdict": "match",
+    "query": "芜湖八佰伴 国庆 客流 万人次",
+    "source_url": "https://h5.ifeng.com",
+    "source_level": "media",
+    "evidence": "凤凰网100+mall国庆成绩单：2024国庆总客流52.6万人次、日均7.5万",
+    "note": "外部为国庆日均口径；内部8.25为节假日峰值7.5–9万区间中值（2026元旦单日破9万），量级一致"
+   }
+  ]
+ },
+ {
+  "id": "1048",
+  "name": "北京王府井奥莱·香江小镇",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "王府井奥莱 香江小镇 2009年开业 建筑面积 车位",
+    "source_url": "https://m.tech.china.com",
+    "source_level": "media",
+    "evidence": "中华网2023-12：原北京赛特奥莱于2009年开业，建筑面积40000平方米",
+    "note": "2023-12-29更名王府井奥莱·香江小镇，更名不计开业"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 4,
+    "verdict": "match",
+    "query": "王府井奥莱 香江小镇 2009年开业 建筑面积 车位",
+    "source_url": "https://m.tech.china.com",
+    "source_level": "media",
+    "evidence": "中华网2023-12：建筑面积40000平方米",
+    "note": "与内部4万㎡一致；三期总开发约15万为另一口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 5000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "王府井奥莱香江小镇 停车位 多少个",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见免费停车、地面停车场描述，无具体数量",
+    "note": "md引北京商报：停车位5000余个（免费）；未获独立佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 7.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "王府井奥莱 香江小镇 2009年开业 建筑面积 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级节假日客流数据",
+    "note": "内部7.5为节假日5–10万推断中值（年客流>600万为官方披露口径）"
+   }
+  ]
+ },
+ {
+  "id": "1052",
+  "name": "银泰商业西安钟楼开元商城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1996,
+    "external": 1996,
+    "verdict": "match",
+    "query": "开元商城钟楼店 总建筑面积 10.3万平方米",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "抖音百科开元商城条目：一期工程于1996年6月15日竣工营业",
+    "note": "与内部1996-06-15一期开业一致（整体竣工2001-08-30）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10.3,
+    "external": 10.3,
+    "verdict": "match",
+    "query": "开元商城钟楼店 总建筑面积 10.3万平方米",
+    "source_url": "https://m.baike.com",
+    "source_level": "self-media",
+    "evidence": "抖音百科：占地33.136亩，建筑面积10.3万平方米，总投资约5.3亿元",
+    "note": "总建面口径完全一致（含占地/投资均与md一致）"
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "开元商城 西安 停车 车位 数量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见钟楼商圈44处停车场共8091车位（区域口径）；无项目级数量",
+    "note": "md引百度百科：车位约500个；未获独立佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 5.5,
+    "external": 227.79,
+    "verdict": "unit_mismatch",
+    "query": "开元商城 客流 节假日 万人次 西安",
+    "source_url": "https://www.sohu.com",
+    "source_level": "media",
+    "evidence": "搜狐2023-05：钟楼商圈相关客流达227.79万人次，同比增长160%",
+    "note": "外部仅见钟楼商圈全域口径（周期不明，不可比）；内部5.5万为节假日日均（西安新闻网口径）"
+   }
+  ]
+ },
+ {
+  "id": "1076",
+  "name": "厦门磐基名品中心",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2009,
+    "external": 2009,
+    "verdict": "match",
+    "query": "厦门磐基名品中心 开业时间 建筑面积",
+    "source_url": "http://inews.ifeng.com",
+    "source_level": "media",
+    "evidence": "凤凰网2016口径：2009年磐基名品中心开业，为福建省首个高端名品商业项目",
+    "note": "年份一致；md另载商业裙楼约2013年前后口径（推断），以外部2009为准"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.5,
+    "external": 7.5,
+    "verdict": "unit_mismatch",
+    "query": "厦门磐基名品中心 开业时间 建筑面积",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "检索摘要：磐基二期后中心整体面积扩至7.5万平方米",
+    "note": "内部14.5为综合体总建面（含酒店/写字楼，md载13–16万中值），外部7.5为商业整体口径，不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 750,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "厦门磐基名品中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开车位数",
+    "note": "内部750为ETL推断值（md载500–1000量级，无精确值）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "厦门磐基名品中心 开业时间 建筑面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级客流数据",
+    "note": "内部6.5为节假日峰值5–8万推断中值（低置信，对标量级）"
+   }
+  ]
+ },
+ {
+  "id": "1077",
+  "name": "哈尔滨远大购物中心（南岗店）",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1999,
+    "external": 1999,
+    "verdict": "match",
+    "query": "远大购物中心 哈尔滨 1999年开业 百货",
+    "source_url": "https://www.shushuqiuzhi.com",
+    "source_level": "self-media",
+    "evidence": "公司简介：远大购物中心自1999年1月正式开业",
+    "note": "与内部1999-01一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 8.1,
+    "external": 8.1,
+    "verdict": "match",
+    "query": "黑龙江远大购物中心 南岗 营业面积 停车位",
+    "source_url": "http://word.baidu.com",
+    "source_level": "media",
+    "evidence": "调研报告：占地8116㎡，总建筑面积81000㎡，总营业面积40000㎡",
+    "note": "总建面口径完全一致（占地/营业面积亦与md一致）"
+   },
+   {
+    "metric": "parking",
+    "internal": 75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "黑龙江远大购物中心 南岗 营业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部无公开车位数；依托周边路侧停车及周边停车场",
+    "note": "内部75疑为提取伪值：md体量行自注车位数存分歧（B2停车场），建议人工复核该字段"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨远大购物中心 客流 节假日 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未获项目级节假日客流数据",
+    "note": "内部9为周末/节假日8–10万区间中值（新浪黑龙江等口径）"
+   }
+  ]
+ },
+ {
+  "id": "1091",
+  "name": "成都世茂广场",
+  "layer": "A+2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2021,
+    "external": 2021,
+    "verdict": "match",
+    "query": "成都世茂广场 龙泉驿 2021年9月28日开业 建筑面积",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎专栏2020-12：成都首家智慧商场将于2021年4月28日开业",
+    "note": "年份一致；但外部多源作2021-04-28开业，内部md记2021-09-28，建议人工复核具体日期"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 25,
+    "external": 14,
+    "verdict": "unit_mismatch",
+    "query": "成都世茂广场 开业 商业体量 龙泉驿区",
+    "source_url": "https://www.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "知乎项目简介：商业面积14万方，入驻品牌283家",
+    "note": "内部25为总建面口径（md载含商业约14万），外部14为商业面积口径，不可比；商业部分与md一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1120,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "成都世茂广场 开业 商业体量 龙泉驿区",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级公开车位数",
+    "note": "md明示车位数数据缺口，1120为ETL推断值"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 119,
+    "verdict": "unit_mismatch",
+    "query": "成都世茂广场 开业 客流 30万",
+    "source_url": "https://k.sina.cn",
+    "source_level": "media",
+    "evidence": "新浪UP君2021-05：开业8天（4.28–5.5）累计客流119万人次",
+    "note": "外部为开业期累计口径（不可比）；内部9为常规节假日峰值8–10万推断中值"
+   }
+  ]
+ },
+ {
+  "id": "1095",
+  "name": "武汉万象城",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "武汉万象城 2022年4月30日开业 商业面积",
+    "source_url": "https://zh.wikipedia.org/wiki/万象城",
+    "source_level": "self-media",
+    "evidence": "维基万象城条目：武汉万象城开业时间2022年5月1日",
+    "note": "维基作5月1日、内部md作4月30日（部分报道作5月），年份一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 14.5,
+    "external": 19,
+    "verdict": "unit_mismatch",
+    "query": "武汉万象城 购物中心 建筑面积 万方 华润置地",
+    "source_url": "http://m.winshang.com/xm51005.html",
+    "source_level": "trade",
+    "evidence": "赢商网项目档案：武汉万象城建筑面积19万㎡",
+    "note": "内部14.5为GLA可租赁面积口径（md载购物中心建面18–19万/GLA14–15万），外部19为建面口径，不可比；建面口径与md一致"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉万象城 购物中心 建筑面积 万方 华润置地",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见精确公开车位数",
+    "note": "内部1500为ETL推断下限（md载配建地下停车楼≥1500车位，推断·低）"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "武汉万象城 购物中心 建筑面积 万方 华润置地",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见项目级节假日客流数据（受搜索限流未单独检索）",
+    "note": "内部15为节假日峰值12–18万推断中值（低置信）"
+   }
+  ]
+ },
+ {
+  "id": "1105",
+  "name": "嘉兴海宁下沙奥特莱斯广场",
+  "layer": "S2",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": 2010,
+    "verdict": "match",
+    "query": "海宁 下沙奥特莱斯 2010年 开业 建筑面积 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "检索摘要口径：一期于2010年正式开业",
+    "note": "摘要无原文锚点、置信有限；与md引用百联官网/杭州日报口径（2010-06试营业、09正式）一致"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 16,
+    "external": 8,
+    "verdict": "unit_mismatch",
+    "query": "海宁 下沙奥特莱斯 2010年 开业 建筑面积 车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "检索摘要口径：占地近13万㎡、一期营业面积约8万㎡",
+    "note": "内部16为一二期合计总建面（一期8万+二期7.9万），外部仅获一期口径约8万（与md一期建面8万一致），不可比"
+   },
+   {
+    "metric": "parking",
+    "internal": 8000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海宁 下沙奥特莱斯 2010年 开业 建筑面积 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "摘要提及约4500个免费停车位但无原文锚点，不采信",
+    "note": "内部8000为一期口径（md载一期8000+、合计10000+）；未获可靠独立佐证"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "海宁奥特莱斯 下沙 客流 万人次 五一",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅获年客流超300万（万城杭悦府楼盘文案，可信度低）；节假日峰值无项目级数据",
+    "note": "内部8为节假日峰值6–10万推断中值；楼盘文案300万/年与md政府口径2025年1200万/年差异大，均非节假日单日口径"
+   }
+  ]
+ }
+]

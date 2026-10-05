@@ -1,0 +1,756 @@
+[
+ {
+  "id": "0971",
+  "name": "成都晶融汇购物中心",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2010,
+    "external": null,
+    "verdict": "conflict",
+    "query": "成都晶融汇购物中心 开业时间 / 成都晶融汇 赢商网 开业 商业面积",
+    "source_url": "https://zh.wikipedia.org/zh-cn/晶融汇",
+    "source_level": "self-media",
+    "evidence": "维基：项目一期2012年第三季度建成，二期2014年四季度建成；媒体称最早一期2015年低调开业，2020-12-18焕新重开",
+    "note": "无任何外部来源支持2010年开业；2020年为改造重开时间，不计开业。与2012年建成口径差≥2年"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 8.33,
+    "verdict": "conflict",
+    "query": "成都晶融汇购物中心 建筑面积 万平方米",
+    "source_url": "http://m.winshang.com/xm54380.html",
+    "source_level": "trade",
+    "evidence": "商业面积约8.33万平方米；铁狮门建筑总体量约17万-17.2万平方米",
+    "note": "内部4万㎡与商业面积8.33万㎡差52%；疑取分期/子项口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 650,
+    "external": 671,
+    "verdict": "match",
+    "query": "WebFetch zh.wikipedia.org/zh-cn/晶融汇",
+    "source_url": "https://zh.wikipedia.org/zh-cn/晶融汇",
+    "source_level": "self-media",
+    "evidence": "维基信息框：停车位671个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 65,
+    "external": 10,
+    "verdict": "conflict",
+    "query": "成都晶融汇 客流 万人次 日均",
+    "source_url": "http://sc.people.com.cn/BIG5/n2/2021/0507/c345509-34712951.html",
+    "source_level": "media",
+    "evidence": "人民网：五一期间十二月市在晶融汇点位，节日日均客流量达10万人次",
+    "note": "内部65万人次/日远超外部可见口径，疑为春熙路商圈全域/累计口径，auditFlag 成立"
+   }
+  ]
+ },
+ {
+  "id": "0102",
+  "name": "龙湖重庆江岸天街",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "龙湖重庆江岸天街 开业时间 建筑面积",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "龙湖官网：2025年9月30日江岸天街开业，龙湖商业第100座天街",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 19.68,
+    "external": 15.7,
+    "verdict": "minor_diff",
+    "query": "龙湖重庆江岸天街 开业时间 建筑面积",
+    "source_url": "https://www.sina.cn",
+    "source_level": "media",
+    "evidence": "商业体量约15.7万㎡，占地约3.04万㎡；另有报道称一期35万方+二期15万方共50万方",
+    "note": "内部19.68万㎡较商业体量15.7万㎡高约25%，疑为含其他业态口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 1500,
+    "external": 1500,
+    "verdict": "match",
+    "query": "重庆江岸天街 停车位 车场",
+    "source_url": "https://www.longfor.com",
+    "source_level": "official",
+    "evidence": "龙湖官网：项目还配备了近1500个停车位（B2、B3地下车库）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 50,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "重庆江岸天街 国庆 假期 客流 万人次",
+    "source_url": "https://www.sina.cn",
+    "source_level": "media",
+    "evidence": "开业首日客流突破20万人次",
+    "note": "外部仅见开业首日口径（不可比）；内部50万节假日峰值无直接佐证，疑为南坪商圈/累计口径，auditFlag 成立"
+   }
+  ]
+ },
+ {
+  "id": "0149",
+  "name": "苏州人民商场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1934,
+    "external": 1934,
+    "verdict": "match",
+    "query": "苏州人民商场 1934年 创建 历史",
+    "source_url": "http://m.winshang.com/news663214.html",
+    "source_level": "trade",
+    "evidence": "1934年秋苏州国货公司（四大国货公司之一）建成开业；2019年迎85周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 2,
+    "external": 3,
+    "verdict": "minor_diff",
+    "query": "苏州人民商场 建筑面积 营业面积 万平方米",
+    "source_url": "https://baike.baidu.com/item/苏州人民商场股份有限公司/5012513",
+    "source_level": "self-media",
+    "evidence": "主楼二期翻扩建后建筑面积约3万-3.5万㎡、营业面积约2万-2.5万㎡；集团四店合计建面近10万㎡",
+    "note": "内部2万㎡或取营业面积口径；与主楼建面3万㎡差约33%"
+   },
+   {
+    "metric": "parking",
+    "internal": 160,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "苏州人民商场 停车位 客流量",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见人民商场车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 25,
+    "external": 62,
+    "verdict": "unit_mismatch",
+    "query": "\"苏州人民商场\" 日客流 万人次",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "人民网报道：苏州人民商场2024年元旦跨年人流量创单日超62万人次新高",
+    "note": "62万疑含观前商圈全域口径（单店62万/日缺乏旁证）；内部25万节假日峰值无直接佐证，口径不可比"
+   }
+  ]
+ },
+ {
+  "id": "1009",
+  "name": "成都华熙LIVE·528",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2018,
+    "external": 2018,
+    "verdict": "match",
+    "query": "成都 华熙LIVE 528 开业时间",
+    "source_url": "http://m.winshang.com",
+    "source_level": "trade",
+    "evidence": "赢商网：2018年3月28日发布会公布2018年5月28日开业，项目名'528'即对应开业日期",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 125,
+    "external": 125,
+    "verdict": "unit_mismatch",
+    "query": "华熙528艺术村 成都 528亩 130亿 综合体",
+    "source_url": "https://mshuhua.com",
+    "source_level": "media",
+    "evidence": "规划总占地约528亩，总建筑面积约120万-130万平方米（文创城市级综合体，含住宅/场馆/街区）",
+    "note": "内部125万为综合开发总建面口径，非购物中心商业面积；外部未见商业面积数字，auditFlag 超域成立"
+   },
+   {
+    "metric": "parking",
+    "internal": 10000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "华熙LIVE·528 成都 商业体量 万方 停车",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见车位数报道（仅见M空间'配备停车场'定性描述）",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 11.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "华熙LIVE·528 成都 客流 人流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "公开客流数据均针对北京五棵松项目，成都528无具体客流数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1034",
+  "name": "成都铁建186MALL",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "\"186MALL\" 成都 购物中心",
+    "source_url": "http://mobile2.itanzi.com",
+    "source_level": "media",
+    "evidence": "2017年12月报道《中国铁建广场186MALL开业》；2025年1月四川在线七周年庆",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 23.25,
+    "external": 4,
+    "verdict": "unit_mismatch",
+    "query": "\"186MALL\" 成都 购物中心",
+    "source_url": "http://mobile2.itanzi.com",
+    "source_level": "media",
+    "evidence": "整个商业面积为4万余方，地下1层地面4层",
+    "note": "内部23.25为综合体总建面口径，商业面积口径4万余方，两者不可比，auditFlag 成立"
+   },
+   {
+    "metric": "parking",
+    "internal": 1288,
+    "external": 1288,
+    "verdict": "match",
+    "query": "186MALL 中国铁建广场 停车 客流",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科（中国铁建广场）：商场设有停车场，车位数量为1288个",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 1.4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "186MALL 中国铁建广场 停车 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见4周年庆'销售与客流创新高'定性报道，无数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1064",
+  "name": "上海国家会展中心商业广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2016,
+    "external": 2016,
+    "verdict": "match",
+    "query": "国家会展中心商业广场 上海 开业 商业面积",
+    "source_url": "https://www.sh-italent.com",
+    "source_level": "media",
+    "evidence": "2016年12月9日报道：国家会展中心商业广场正式迎客",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 15,
+    "external": 15,
+    "verdict": "match",
+    "query": "国家会展中心商业广场 上海 开业 商业面积",
+    "source_url": "https://www.neccsh.com",
+    "source_level": "official",
+    "evidence": "官网：位于'四叶草'建筑中央，15万平方米新型商业平台，圆楼+八座钻石楼",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 12000,
+    "external": 4000,
+    "verdict": "conflict",
+    "query": "国家会展中心（上海）停车场 小车泊位 官方",
+    "source_url": "https://www.cdatf.com",
+    "source_level": "official",
+    "evidence": "官方交通指南：会展区域内设3000个小车泊位，配套区域另有1000个小车泊位，另设P+R停车场",
+    "note": "内部12000远超官方指引口径（约4000-5000泊位），auditFlag 超域成立"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 23.75,
+    "external": 23.3,
+    "verdict": "match",
+    "query": "进博会 国家会展中心 单日 入场 客流 万人次",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "第八届进博会累计双向运送客运量140万人次，日均23.3万，单日最高32.6万",
+    "note": "内部23.75与进博会期间日均23.3万高度吻合；注意口径为展会期交通客运量，非商业广场独立客流"
+   }
+  ]
+ },
+ {
+  "id": "1147",
+  "name": "上海复地活力城",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2019,
+    "external": 2019,
+    "verdict": "match",
+    "query": "上海复地活力城 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "中新网上海：2019年11月22日报道'开业30天倒计时'，12月下旬正式开业（复地万科·活力城）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 110,
+    "external": 110,
+    "verdict": "unit_mismatch",
+    "query": "上海复地活力城 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "整个项目总建筑面积约110万平方米（综合体）；购物中心面积近11万平方米，200余品牌入驻",
+    "note": "内部110取综合体总建面口径；购物中心商业面积约11万㎡才是可比口径，auditFlag 成立"
+   },
+   {
+    "metric": "parking",
+    "internal": 1076,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "上海复地活力城 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见车位月租500元/位租赁信息，无总车位数",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 9,
+    "external": 20,
+    "verdict": "unit_mismatch",
+    "query": "复地活力城 购物中心 客流 万人次 开业",
+    "source_url": "http://net.bangong.cn",
+    "source_level": "media",
+    "evidence": "2020年'五一'假期活力城总客流近20万人次（假期累计口径）",
+    "note": "外部为多日累计口径，内部9万为单日峰值，不可比"
+   }
+  ]
+ },
+ {
+  "id": "1156",
+  "name": "哈尔滨融创茂",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "哈尔滨融创茂 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "前身为哈尔滨万达城（总投资约400亿元），2017年开业，后更名融创",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 36.96,
+    "external": 36.84,
+    "verdict": "match",
+    "query": "哈尔滨融创茂 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "总建筑面积约36.84万平方米，'红钢琴'造型为全球最大钢结构建筑",
+    "note": "差异<1%"
+   },
+   {
+    "metric": "parking",
+    "internal": 36,
+    "external": 4000,
+    "verdict": "conflict",
+    "query": "哈尔滨融创茂 开业 建筑面积 停车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "拥有4000个车位的停车楼",
+    "note": "内部36明显为误抓小值（疑扶梯/分钟类），外部停车楼4000车位，auditFlag 成立"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 3.75,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "哈尔滨融创茂 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见哈尔滨全市及冰雪大世界客流，无融创茂单场数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1255",
+  "name": "永旺梦乐城青岛西海岸新区",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2015,
+    "external": 2019,
+    "verdict": "conflict",
+    "query": "永旺梦乐城 青岛西海岸新区 开业时间",
+    "source_url": "https://finance.sina.com.cn",
+    "source_level": "media",
+    "evidence": "2019年11月，西海岸新区漓江西路北侧的永旺梦乐城正式开门迎客，系青岛首家、山东第2家梦乐城",
+    "note": "内部2015无外部佐证（疑与山东首家烟台店年份混淆），多个来源一致载2019年开业，auditFlag 成立"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 20,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "永旺梦乐城 青岛西海岸新区 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "界面新闻载商业中心总投资约18.2亿元（地上4层地下2层），未披露面积",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 920,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "永旺梦乐城 青岛西海岸新区 开业 商业面积 停车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见该车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "永旺梦乐城 青岛 客流 万人次 西海岸",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "仅见'西海岸三大商业体日均客流合计近15万人次'，单场不可比",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1350",
+  "name": "济南嘉华购物广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2002,
+    "external": 2002,
+    "verdict": "match",
+    "query": "济南嘉华购物广场 华联 开业",
+    "source_url": "https://zhuanlan.zhihu.com/p/591837633",
+    "source_level": "self-media",
+    "evidence": "济南华联的嘉华购物广场2002年9月28日开业",
+    "note": "auditFlag'无邻近开业动词'经外部证实不构成错误，2002-09-28为确切开业日"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 4,
+    "external": 5.2,
+    "verdict": "minor_diff",
+    "query": "济南嘉华购物广场 停车位 客流 面积",
+    "source_url": "https://www.jiaguyuan.com",
+    "source_level": "trade",
+    "evidence": "增层加固改造设计资料：嘉华购物广场建筑面积约5.2万平方米（后增层改造）",
+    "note": "内部4万㎡较外部5.2万㎡低约23%"
+   },
+   {
+    "metric": "parking",
+    "internal": 2021,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南嘉华购物广场 停车位 客流 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "外部仅见北门/楼顶/地下两层停车场描述，无车位数；内部2021疑年份误抓，auditFlag 成立",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 4,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "济南嘉华购物广场 停车位 客流 面积",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见公开客流数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1359",
+  "name": "长沙阿波罗商业广场",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 1971,
+    "external": 1998,
+    "verdict": "conflict",
+    "query": "长沙阿波罗商业广场 开业 历史 1971",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：阿波罗商业广场（车站中路345号）1998年开业；友阿沿革：前身韶山路商场1971年5月1日开业，1993年改称阿波罗商业城",
+    "note": "1971为前身韶山路商场开业年份，现广场建筑1998年开业，两口径差27年；auditFlag 超域部分成立（1971有据但非本建筑开业年）"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 10,
+    "external": 10,
+    "verdict": "match",
+    "query": "长沙阿波罗商业广场 建筑面积 车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：建筑面积10万平方米，营业面积6万平方米",
+    "note": ""
+   },
+   {
+    "metric": "parking",
+    "internal": 500,
+    "external": 600,
+    "verdict": "match",
+    "query": "长沙阿波罗商业广场 建筑面积 车位",
+    "source_url": "https://www.rfidworld.com.cn",
+    "source_level": "trade",
+    "evidence": "地下一层7000㎡、外围3000㎡车库，可同时停放车辆逾600辆",
+    "note": "差异约17%"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 8,
+    "external": 28,
+    "verdict": "unit_mismatch",
+    "query": "长沙阿波罗商业广场 建筑面积 车位",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科：周客流量达28万人次",
+    "note": "外部为周客流口径（折合日均约4万）；内部8万节假日单日峰值无直接佐证"
+   }
+  ]
+ },
+ {
+  "id": "0191",
+  "name": "深圳满京华·满纷天地",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2022,
+    "external": 2022,
+    "verdict": "match",
+    "query": "深圳满京华满纷天地 开业 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "2022年9月30日国庆档开业（宝安区松岗，华南首家杉杉奥莱落户；赢商网2022年盘点亦列入）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 150,
+    "external": 150,
+    "verdict": "unit_mismatch",
+    "query": "深圳满京华满纷天地 开业 商业面积",
+    "source_url": null,
+    "source_level": "media",
+    "evidence": "购物中心（满纷天地）约20万㎡；整体综合体约150万㎡（含满纷汇街区、住宅、写字楼、产研、酒店等）",
+    "note": "内部150取整体综合体口径，购物中心商业面积约20万㎡，auditFlag 成立"
+   },
+   {
+    "metric": "parking",
+    "internal": 4000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "满京华满纷天地 停车位 车位",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见该车位数报道",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1596",
+  "name": "中山海雅缤纷天地",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2025,
+    "external": 2025,
+    "verdict": "match",
+    "query": "中山海雅缤纷天地 开业 商业面积",
+    "source_url": "https://www.zsnews.cn",
+    "source_level": "media",
+    "evidence": "中山网：一期2025年12月19日开业（此前曾宣布11月29日）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 120,
+    "external": 120,
+    "verdict": "match",
+    "query": "中山海雅缤纷天地 开业 商业面积",
+    "source_url": "https://baike.baidu.com",
+    "source_level": "self-media",
+    "evidence": "百度百科信息框：总建筑面积约120万平方米，商业面积60万平方米，2025年12月19日开业",
+    "note": "内部120与总建面一致；纯商业口径为60万㎡，auditFlag 超域实为综合体口径"
+   },
+   {
+    "metric": "parking",
+    "internal": 6000,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "中山海雅缤纷天地 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见该车位数报道",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 6.5,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "中山海雅缤纷天地 停车位 客流",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见公开客流数字",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "1599",
+  "name": "北京华熙LIVE·五棵松",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2017,
+    "external": 2017,
+    "verdict": "match",
+    "query": "华熙LIVE五棵松 开业时间 商业面积",
+    "source_url": "https://zhuanlan.zhihu.com",
+    "source_level": "self-media",
+    "evidence": "华熙自2011年起打造；Hi-up商业区2017年前后投运（搜狐2017年9月报道），西南角商业区2017年亮相",
+    "note": "项目分期开业，2017为商业区主体投运年份"
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 24.5,
+    "external": null,
+    "verdict": "unit_mismatch",
+    "query": "华熙LIVE·五棵松 项目 建筑面积 商业简介",
+    "source_url": "https://m.bjnews.com.cn/detail/159636005615405.html",
+    "source_level": "media",
+    "evidence": "片区含四座场馆+配套商业+三栋写字楼，总占地28万㎡；商业分区：Hi-up近6万㎡、西南角约5万余㎡、北区约2万㎡",
+    "note": "内部24.5万为五棵松片区综合体总口径，纯商业分区合计约15万㎡（商业面积5万余口径亦有来源），auditFlag 成立"
+   },
+   {
+    "metric": "parking",
+    "internal": 3000,
+    "external": 3000,
+    "verdict": "match",
+    "query": "华熙LIVE五棵松 停车位 客流 万人次",
+    "source_url": "https://tyj.beijing.gov.cn/bjsports/gzdt84/zwdt/10904507",
+    "source_level": "official",
+    "evidence": "北京市体育局：Hi-up商业中心利用地下二、三层公共停车场提供3000个车位",
+    "note": ""
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 19.5,
+    "external": 18,
+    "verdict": "match",
+    "query": "华熙LIVE五棵松 停车位 客流 万人次",
+    "source_url": "https://www.bbtnews.com.cn/2020/0802/363335.shtml",
+    "source_level": "media",
+    "evidence": "北京商报等：周末日均约14万人次，演出日单日超18万，大型活动日可达20万以上",
+    "note": "内部19.5万节假日峰值落在18-20万+外部区间内"
+   }
+  ]
+ },
+ {
+  "id": "1647",
+  "name": "长春亚泰富苑",
+  "layer": "suspect",
+  "results": [
+   {
+    "metric": "openedYear",
+    "internal": 2003,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "亚泰富苑购物中心 开业时间 重庆路618号",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "百度百科及公开报道均未见确切开业年份（仅知2012年前后已运营）",
+    "note": ""
+   },
+   {
+    "metric": "buildingArea",
+    "internal": 6.08,
+    "external": 11.3,
+    "verdict": "minor_diff",
+    "query": "长春 亚泰富苑 购物中心 简介 停车位",
+    "source_url": "https://baike.baidu.com/item/亚泰富苑购物中心/6262413",
+    "source_level": "self-media",
+    "evidence": "百度百科：占地约12000㎡，建筑面积113000㎡，商用面积46000㎡，地下三层地上六层",
+    "note": "内部6.08万㎡较建面11.3万㎡低约46%（minor区间内），较商用面积4.6万㎡高32%，口径介于两者之间"
+   },
+   {
+    "metric": "parking",
+    "internal": 2026,
+    "external": 200,
+    "verdict": "conflict",
+    "query": "长春 亚泰富苑 购物中心 简介 停车位",
+    "source_url": "https://baike.baidu.com/item/亚泰富苑购物中心/6262413",
+    "source_level": "self-media",
+    "evidence": "百度百科：配有可容纳200多个车位的大型地下停车场",
+    "note": "内部2026疑年份误抓，auditFlag 成立"
+   },
+   {
+    "metric": "trafficPeak",
+    "internal": 15,
+    "external": null,
+    "verdict": "no_external_data",
+    "query": "长春 亚泰富苑 客流 万人次",
+    "source_url": null,
+    "source_level": null,
+    "evidence": "未见单场客流数字（同商圈万象城等有数据但不可比）",
+    "note": ""
+   }
+  ]
+ }
+]

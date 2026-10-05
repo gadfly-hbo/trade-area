@@ -1,0 +1,167 @@
+[
+  {
+    "id": "2023",
+    "name": "北京国贸商城",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 1990, "external": 1990, "verdict": "match", "query": "北京国贸商城 开业时间 1990 历史", "source_url": null, "source_level": "media", "evidence": "1990年8月30日国贸一期竣工对外营业，国贸商城随之营业，为北京最早引进高端品牌的商场", "note": "" },
+      { "metric": "buildingArea", "internal": 23, "external": 23, "verdict": "match", "query": "国贸商城 商业面积 23万 营业面积 万平方米", "source_url": null, "source_level": "official", "evidence": "赢商网：国贸商城店铺总面积达23万平米；中国国贸官网显示总面积23.7万平米", "note": "官网口径23.7万，与内部23万差约3%" },
+      { "metric": "parking", "internal": 1858, "external": null, "verdict": "no_external_data", "query": "国贸商城 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "仅见商圈停车费调查报道，无国贸商城车位数", "note": "" },
+      { "metric": "trafficPeak", "internal": 9, "external": null, "verdict": "no_external_data", "query": "国贸商城 客流量 停车位 数据", "source_url": null, "source_level": null, "evidence": "无商场级客流数据，仅王府井等商圈级对比", "note": "" }
+    ]
+  },
+  {
+    "id": "2056",
+    "name": "上海环球港",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2013, "external": 2013, "verdict": "match", "query": "上海环球港 月星 开业时间 2013 建筑面积 48万", "source_url": "https://www.jfdaily.com", "source_level": "media", "evidence": "解放日报：2013年9月，这座商业巨无霸惊艳亮相", "note": "" },
+      { "metric": "buildingArea", "internal": 48, "external": 48, "verdict": "match", "query": "上海环球港 月星 开业时间 2013 建筑面积 48万", "source_url": "https://www.jfdaily.com", "source_level": "media", "evidence": "总建筑面积48万平方米，商业面积近32万平方米（解放日报/百度百科）", "note": "内部取总建面口径" },
+      { "metric": "parking", "internal": 2200, "external": 2200, "verdict": "match", "query": "环球港 普陀 日均客流量 停车位 3000", "source_url": "https://www.jfdaily.com", "source_level": "media", "evidence": "解放日报：拥有2000多个地下停车位；维基百科载2200个", "note": "" },
+      { "metric": "trafficPeak", "internal": 80, "external": null, "verdict": "unit_mismatch", "query": "环球港 客流 80万人次", "source_url": "http://sh.people.com.cn", "source_level": "media", "evidence": "人民网：日均客流10万+，年客流量超3500万人次（2023）", "note": "auditFlags重点核验：外部仅见日均10万+/年3500万累计口径，未见单日80万报道；80万疑节假日多日累计或商圈全域口径，与节假日单日不可比" }
+    ]
+  },
+  {
+    "id": "2059",
+    "name": "昆山金鹰国际购物中心（A馆）",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2015, "external": 2015, "verdict": "match", "query": "昆山金鹰国际购物中心 开业时间 建筑面积", "source_url": "https://finance.sina.com.cn", "source_level": "media", "evidence": "新浪财经：2015年项目一期开业；另载2015年1月31日试营业", "note": "B座2023年开业，与A馆口径区分" },
+      { "metric": "buildingArea", "internal": 11.6, "external": 11.6, "verdict": "match", "query": "昆山金鹰国际购物中心 2015年开业 商业面积 11.6万", "source_url": "http://www.netge.com", "source_level": "trade", "evidence": "昆山金鹰国际购物中心建筑面积11.6万㎡，地面8层地下3层", "note": "A馆口径精确一致；项目整体口径（约20万方/42万方）为含B座及综合体的更大范围" },
+      { "metric": "parking", "internal": 465, "external": null, "verdict": "no_external_data", "query": "昆山金鹰国际购物中心 停车位 日客流 万人次", "source_url": null, "source_level": null, "evidence": "未见A馆车位数；B座报道'超1000个停车位'为2023年B座口径，不适用", "note": "" },
+      { "metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "no_external_data", "query": "昆山金鹰 A馆 商业面积 万方 停车位 客流", "source_url": null, "source_level": null, "evidence": "无A馆客流公开数据（内部值为推断）", "note": "" }
+    ]
+  },
+  {
+    "id": "2064",
+    "name": "南京中央商场（新街口店）",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 1936, "external": 1936, "verdict": "match", "query": "南京中央商场 新街口 1936年 创立 历史", "source_url": "http://www.njzsgroup.com", "source_level": "official", "evidence": "中商集团官网：1936年1月12日正式开业，南京第一家大型现代综合百货商店", "note": "auditFlags重点核验：1936虽超常规域但为真实历史开业年份，官网与维基一致，auditFlag可消除" },
+      { "metric": "buildingArea", "internal": 9.9, "external": 11.71, "verdict": "match", "query": "南京新街口中央商场 建筑面积 营业面积 万平方米", "source_url": null, "source_level": "official", "evidence": "中央商场2022年报：中心店（新街口店）建筑面积约11.71万平方米", "note": "差约16-18%，≤20%判match；差异或来自统计年份/是否含附属物业" },
+      { "metric": "parking", "internal": 900, "external": null, "verdict": "no_external_data", "query": "南京中央商场 新街口 停车位 客流 日均", "source_url": null, "source_level": null, "evidence": "仅见新街口非机动车停放治理报道，无商场机动车车位数", "note": "" },
+      { "metric": "trafficPeak", "internal": 10, "external": 10, "verdict": "match", "query": "南京中央商场 新街口 停车位 客流 日均", "source_url": "http://finance.people.com.cn", "source_level": "media", "evidence": "国庆假期前几日新街口各大商场日均客流量突破10万人次（交汇点新闻）", "note": "外部为各大商场口径，量级与内部节假日峰值10万一致" }
+    ]
+  },
+  {
+    "id": "2079",
+    "name": "佛山王府井紫薇港·WALKIN",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2020, "external": 2020, "verdict": "match", "query": "佛山王府井紫薇港 开业时间 2020 建筑面积", "source_url": "https://m.baike.com", "source_level": "self-media", "evidence": "2020年12月30日佛山王府井紫薇港购物中心开业", "note": "" },
+      { "metric": "buildingArea", "internal": 32, "external": 32, "verdict": "match", "query": "佛山王府井紫薇港 开业时间 2020 建筑面积", "source_url": "https://www.fs0757.com", "source_level": "trade", "evidence": "32万㎡都市游乐生活地（百度百科/佛山本地网）", "note": "" },
+      { "metric": "parking", "internal": 4000, "external": 4000, "verdict": "match", "query": "王府井紫薇港 停车位 客流 万人次", "source_url": "https://m.baike.com", "source_level": "self-media", "evidence": "百度百科：项目配有4000个停车位", "note": "" },
+      { "metric": "trafficPeak", "internal": 6.5, "external": null, "verdict": "unit_mismatch", "query": "王府井紫薇港 停车位 客流 万人次", "source_url": "https://m.winshang.com", "source_level": "trade", "evidence": "赢商网：2025年客流突破2100万人次，最高峰单日客流表现强劲（具体数值未见）", "note": "外部仅年客流口径（折日均约5.8万），节假日峰值6.5万量级相符但无单日直接数据" }
+    ]
+  },
+  {
+    "id": "2082",
+    "name": "大连恒隆广场",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2015, "external": 2016, "verdict": "minor_diff", "query": "大连恒隆广场 开业 2015 建筑面积 万平米 停车位", "source_url": "https://dlxg.gov.cn", "source_level": "official", "evidence": "西岗区政府：2015年12月18日开业；维基百科载2016年9月9日正式开幕", "note": "2015-12开业与2016-09正式开幕，±1年涉试营业/正式开业，判minor_diff" },
+      { "metric": "buildingArea", "internal": 22.19, "external": 22.19, "verdict": "match", "query": "大连恒隆广场 开业 2015 建筑面积 万平米 停车位", "source_url": null, "source_level": "self-media", "evidence": "维基百科：总建筑面积221,900平方米", "note": "与内部22.19万㎡精确一致；百科37万㎡为含停车场等其他口径" },
+      { "metric": "parking", "internal": 1214, "external": 1200, "verdict": "match", "query": "大连恒隆广场 开业 2015 建筑面积 万平米 停车位", "source_url": "https://dlxg.gov.cn", "source_level": "official", "evidence": "西岗区政府：配套完备、拥有1200个停车位的停车场", "note": "差约1%" },
+      { "metric": "trafficPeak", "internal": 3.775, "external": null, "verdict": "no_external_data", "query": "\"大连恒隆\" 五一 黄金周 客流 12万", "source_url": null, "source_level": null, "evidence": "网易报道'五一日均12万'归属项目存疑（疑其他恒隆项目），未采信；无可靠单日峰值数据", "note": "内部值3.775为推断值" }
+    ]
+  },
+  {
+    "id": "2099",
+    "name": "西安赛格国际购物中心",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2013, "external": 2013, "verdict": "match", "query": "赛格国际购物中心 2013年 开业 西安 小寨", "source_url": "https://baike.baidu.com/item/%E8%B5%9B%E6%A0%BC%E5%9B%BD%E9%99%85%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/9529821", "source_level": "self-media", "evidence": "百度百科：2013年10月正式开业", "note": "" },
+      { "metric": "buildingArea", "internal": 19, "external": 19, "verdict": "match", "query": "赛格国际购物中心 2013年 开业 西安 小寨", "source_url": "https://baike.baidu.com/item/%E8%B5%9B%E6%A0%BC%E5%9B%BD%E9%99%85%E8%B4%AD%E7%89%A9%E4%B8%AD%E5%BF%83/9529821", "source_level": "self-media", "evidence": "百度百科：建筑面积约19万平方米，入驻品牌1020余个", "note": "另有总面积25万㎡口径（含其他），内部与百科19万一致" },
+      { "metric": "parking", "internal": 1643, "external": null, "verdict": "no_external_data", "query": "赛格国际购物中心 客流 停车", "source_url": null, "source_level": null, "evidence": "搜索未见车位数公开数据", "note": "" },
+      { "metric": "trafficPeak", "internal": 30, "external": 30, "verdict": "match", "query": "赛格国际购物中心 日均客流 30万人次 停车位", "source_url": "https://zhuanlan.zhihu.com/p/91204584", "source_level": "self-media", "evidence": "公开数据：2019年节假日高峰日均客流可达30余万人次（日常日均10-18万）", "note": "2017年央广网口径为节假日15万+，近年节假日30余万与内部一致" }
+    ]
+  },
+  {
+    "id": "2109",
+    "name": "济南恒隆广场",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2011, "external": 2011, "verdict": "match", "query": "济南恒隆广场 开业 2011 建筑面积 停车位", "source_url": "https://www.hanglung.com", "source_level": "official", "evidence": "恒隆官网：开幕年份2011（百度百科：2011年8月26日开业）", "note": "" },
+      { "metric": "buildingArea", "internal": 17.1, "external": 17.1, "verdict": "match", "query": "济南恒隆广场 开业 2011 建筑面积 停车位", "source_url": "https://www.hanglung.com", "source_level": "official", "evidence": "恒隆年报/官网：总楼面面积171,074平方米", "note": "百科28万㎡为含其他功能总建筑面积口径" },
+      { "metric": "parking", "internal": 785, "external": 785, "verdict": "match", "query": "济南恒隆广场 日均客流 万人次 停车位数量", "source_url": "https://www.hanglung.com", "source_level": "official", "evidence": "恒隆官网：停车位数目785", "note": "精确一致" },
+      { "metric": "trafficPeak", "internal": 7.25, "external": 8, "verdict": "match", "query": "济南恒隆广场 日均客流 万人次 停车位数量", "source_url": null, "source_level": "media", "evidence": "媒体报道：国庆假期日均客流8万人次，跨年夜客流近8万", "note": "与内部节假日峰值7.25万差约9%" }
+    ]
+  },
+  {
+    "id": "2121",
+    "name": "北京APM",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 1998, "external": 1998, "verdict": "match", "query": "北京APM 开业时间 1998 新东安 建筑面积", "source_url": "https://www.shkp.com", "source_level": "official", "evidence": "新鸿基地产：前称新东安广场1998年建成开业，2008年前后翻新更名北京APM", "note": "更名时间不计开业" },
+      { "metric": "buildingArea", "internal": 13, "external": 9.6, "verdict": "unit_mismatch", "query": "北京apm 新东安广场 楼面面积 车位 客流", "source_url": "https://www.hkexnews.hk", "source_level": "official", "evidence": "新地年报：北京APM/新东安广场写字楼楼面1,036,000平方呎（约9.6万㎡）", "note": "外部snippet仅见写字楼楼面口径，与商业面积不可比；商场部分未见权威数字（另有约12万㎡说法未经原文确认，内部13万与之接近）" },
+      { "metric": "parking", "internal": 3500, "external": null, "verdict": "no_external_data", "query": "北京apm 新东安广场 王府井 建筑面积 车位数量 日客流", "source_url": null, "source_level": null, "evidence": "仅见大众点评停车场页面，无车位数", "note": "" },
+      { "metric": "trafficPeak", "internal": 18.2, "external": null, "verdict": "no_external_data", "query": "\"北京apm\" 楼面面积 停车位 客流", "source_url": null, "source_level": null, "evidence": "仅王府井商圈级客流报道，无商场单日峰值数据（内部值为推断基准）", "note": "" }
+    ]
+  },
+  {
+    "id": "2122",
+    "name": "惠州华贸天地",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2011, "external": 2011, "verdict": "match", "query": "惠州华贸天地 开业时间 2011 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "百度百科/惠州日报：华贸集团2011年在惠州打造，2021年迎开业十周年", "note": "" },
+      { "metric": "buildingArea", "internal": 15, "external": 15, "verdict": "match", "query": "惠州华贸天地 开业时间 2011 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "总建筑面积约15万平方米，为惠州华贸中心（71万㎡综合体）核心商业部分", "note": "" },
+      { "metric": "parking", "internal": 5000, "external": null, "verdict": "no_external_data", "query": "惠州华贸天地 停车位 客流量", "source_url": null, "source_level": null, "evidence": "未见车位数公开数据（可查春泉产业信托年报）", "note": "" },
+      { "metric": "trafficPeak", "internal": 18.5, "external": null, "verdict": "no_external_data", "query": "惠州华贸天地 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "2025年人气TOP100榜单项目（行业均值月度日均约8.3万人次）；无项目级节假日峰值数据", "note": "内部18.5为推断值，显著高于行业均值，存疑待核" }
+    ]
+  },
+  {
+    "id": "2135",
+    "name": "重庆万象城中南区",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2014, "external": 2014, "verdict": "match", "query": "重庆万象城 开业时间 2014 建筑面积 万方 南区", "source_url": "https://baike.baidu.com/item/%E9%87%8D%E5%BA%86%E4%B8%87%E8%B1%A1%E5%9F%8E", "source_level": "self-media", "evidence": "2014年9月19日华润西南首个高端商业综合体开业，当天40万客流", "note": "一期（中南区）2014年开业；北区2023年开业" },
+      { "metric": "buildingArea", "internal": 35, "external": 35, "verdict": "match", "query": "重庆万象城 开业时间 2014 建筑面积 万方 南区", "source_url": "https://www.guandian.cn/article/20140820/149937.html", "source_level": "media", "evidence": "观点网：重庆万象城一期建筑面积高达35万平方米，当时全国最大万象城", "note": "北区2023年开业后整体50万方，内部35万为中南区（一期）口径" },
+      { "metric": "parking", "internal": 3300, "external": 3300, "verdict": "match", "query": "重庆万象城 客流量 停车位", "source_url": "http://m.linkshop.com", "source_level": "trade", "evidence": "联商网2014深度研究：一期约3300个机动车停车位", "note": "" },
+      { "metric": "trafficPeak", "internal": 9, "external": null, "verdict": "unit_mismatch", "query": "重庆万象城 停车位 日均客流 万人次", "source_url": null, "source_level": "media", "evidence": "2023年客流量约3000万人次/年（折日均约8.2万）；开业当天40万为开业首日口径", "note": "外部仅年累计口径，无节假日单日峰值直接数据；开业首日40万不采" }
+    ]
+  },
+  {
+    "id": "2137",
+    "name": "上海来福士广场",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2003, "external": 2003, "verdict": "match", "query": "上海来福士广场 开业 2003 建筑面积 停车位", "source_url": null, "source_level": "trade", "evidence": "购物中心2003年11月开业（凯德置地开发，人民广场对面）", "note": "" },
+      { "metric": "buildingArea", "internal": 16, "external": 12.7, "verdict": "minor_diff", "query": "上海来福士广场 开业 2003 建筑面积 停车位", "source_url": "http://mall.ppsj.com.cn", "source_level": "trade", "evidence": "8层购物中心约4万㎡ + 51层甲级写字楼总面积8.7万㎡", "note": "外部合计12.7万㎡，与内部16万差约21-26%；内部或含地下及配套口径，判minor_diff" },
+      { "metric": "parking", "internal": 513, "external": 430, "verdict": "minor_diff", "query": "上海来福士广场 停车位数量 日客流 万人次", "source_url": "https://zhuanlan.zhihu.com", "source_level": "self-media", "evidence": "知乎专栏：项目配备了400多个停车位", "note": "外部口径约400-450个，内部513高出约14-28%，判minor_diff" },
+      { "metric": "trafficPeak", "internal": 8.5, "external": null, "verdict": "no_external_data", "query": "上海来福士广场 停车位数量 日客流 万人次", "source_url": null, "source_level": null, "evidence": "仅见商圈级客流（静安/龙之梦等），无来福士商场单日数据", "note": "" }
+    ]
+  },
+  {
+    "id": "2172",
+    "name": "徐州彭城苏宁广场",
+    "layer": "A+2",
+    "results": [
+      { "metric": "openedYear", "internal": 2017, "external": 2017, "verdict": "match", "query": "徐州苏宁广场 彭城 开业 2017 建筑面积", "source_url": null, "source_level": "media", "evidence": "2017年4月28日徐州苏宁广场开业，淮海商圈新地标，266米徐州第一高楼", "note": "" },
+      { "metric": "buildingArea", "internal": 16, "external": 16, "verdict": "match", "query": "徐州苏宁广场 彭城 开业 2017 建筑面积", "source_url": null, "source_level": "media", "evidence": "项目总建面50万方，其中购物中心16万方", "note": "内部取购物中心口径，总建面含酒店/办公不可比" },
+      { "metric": "parking", "internal": 1159, "external": null, "verdict": "no_external_data", "query": "徐州苏宁广场 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "未见车位数公开数据", "note": "" },
+      { "metric": "trafficPeak", "internal": 25, "external": null, "verdict": "no_external_data", "query": "徐州苏宁广场 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "彭城中心商圈节假日单日峰值突破50万为商圈整体口径，商场级25万无直接数据（内部为推断）", "note": "" }
+    ]
+  },
+  {
+    "id": "2178",
+    "name": "天津大悦城",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2011, "external": 2011, "verdict": "match", "query": "天津大悦城 开业时间 2011 商业面积 万方", "source_url": "https://www.163.com", "source_level": "media", "evidence": "网易中报观察：天津大悦城是2011年开业（2024年12月办13周年庆印证）", "note": "" },
+      { "metric": "buildingArea", "internal": 16.8, "external": 15, "verdict": "match", "query": "天津大悦城 16.8万 体量", "source_url": "https://jz.docin.com", "source_level": "trade", "evidence": "天津商业街案例文本（2016）：大悦城天津首项目建筑面积将超过15万平方米", "note": "与内部16.8万差约12%，≤20%判match；16.8为赢商系常用商业体量口径" },
+      { "metric": "parking", "internal": 1904, "external": null, "verdict": "no_external_data", "query": "天津大悦城 停车位 客流 单日 万人次", "source_url": null, "source_level": null, "evidence": "仅见停车收费标准（6元/小时封顶60元），无车位数", "note": "" },
+      { "metric": "trafficPeak", "internal": 14.3, "external": null, "verdict": "unit_mismatch", "query": "天津大悦城 停车位 客流 单日 万人次", "source_url": null, "source_level": "self-media", "evidence": "2025年全年客流2830万人次（REITs相关报道），折日均约7.8万", "note": "外部仅年累计口径，无节假日单日峰值直接数据；13周年庆两天20万人次（日均10万）可佐证峰值量级但非节假日单日口径" }
+    ]
+  },
+  {
+    "id": "2185",
+    "name": "天津万象城",
+    "layer": "S2",
+    "results": [
+      { "metric": "openedYear", "internal": 2012, "external": 2012, "verdict": "match", "query": "天津万象城 银河国际 开业 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "百度百科（银河国际购物中心）：2012年9月1日试营业、9月22日正式开业", "note": "2019年4月更名天津万象城，原始开业以2012年为准" },
+      { "metric": "buildingArea", "internal": 36, "external": 36, "verdict": "match", "query": "天津万象城 银河国际 开业 建筑面积", "source_url": "https://baike.baidu.com", "source_level": "self-media", "evidence": "项目总建筑面积36万平方米，地上五层地下两层", "note": "另有商业建面约23.5万㎡口径，内部36万为总建面口径" },
+      { "metric": "parking", "internal": 1900, "external": null, "verdict": "no_external_data", "query": "天津万象城 银河国际 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "仅见停车收费信息（8元/小时），无车位数", "note": "" },
+      { "metric": "trafficPeak", "internal": 15, "external": null, "verdict": "no_external_data", "query": "天津万象城 银河国际 停车位 客流 万人次", "source_url": null, "source_level": null, "evidence": "无商场级客流公开数据", "note": "内部值为推断" }
+    ]
+  }
+]
